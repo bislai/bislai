@@ -8,6 +8,7 @@ sorting = require('postcss-sorting');
 nested = require('postcss-nested');
 pxtorem = require('postcss-pxtorem');
 reporter = require('postcss-reporter');
+imagemin = require('gulp-imagemin');
 uglify = require('gulp-uglify');
 newer = require('gulp-newer');
 nano = require('gulp-cssnano');
