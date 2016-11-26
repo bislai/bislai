@@ -3,7 +3,8 @@ postcss = require('gulp-postcss');
 autoprefixer = require('gulp-autoprefixer');
 sourcemaps = require('gulp-sourcemaps');
 atImport = require('postcss-import');
-cssnext = require('postcss-cssnext');
+selector = require('postcss-custom-selectors')
+customProperties = require("postcss-custom-properties")
 sorting = require('postcss-sorting');
 nested = require('postcss-nested');
 pxtorem = require('postcss-pxtorem');
@@ -12,10 +13,10 @@ imagemin = require('gulp-imagemin');
 uglify = require('gulp-uglify');
 newer = require('gulp-newer');
 nano = require('gulp-cssnano');
-notify = require("gulp-notify");
+notify = require('gulp-notify');
 stylelint = require('stylelint');
-browserSync = require("browser-sync");
-perfTool = require('devbridge-perf-tool');
+browserSync = require('browser-sync');
+
 
 gulp.task("browserSync", function() {
   browserSync({
@@ -24,7 +25,6 @@ gulp.task("browserSync", function() {
     }
   })
 });
-
 
 /* Variables */
 var imgSrc = './src/img/*';
@@ -74,7 +74,7 @@ gulp.task('compress', function() {
  *
  * Antes de que nuestro CSS empiece a ser transformado por los diferentes
  * plugins vamos a 'lintear' nuestro CSS para seguir un orden y concierto.
- * este párrafo.
+ *
  *
  */
 
@@ -86,7 +86,8 @@ gulp.task('css', function() {
     }),
     atImport,
     nested,
-    cssnext,
+    selector,
+    customProperties,
     pxtorem({
       root_value: 16,
       unit_precision: 2,
@@ -104,7 +105,7 @@ gulp.task('css', function() {
   .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .on("error", errorAlertPost)
-    .pipe(sourcemaps.write('./css', {
+    .pipe(sourcemaps.write('./', {
       sourceRoot: '/src'
     }))
     .pipe(gulp.dest('./css'))
@@ -141,14 +142,6 @@ gulp.task('images', function() {
     .pipe(newer(imgDist))
     .pipe(imagemin())
     .pipe(gulp.dest(imgDist));
-});
-
-gulp.task('perf-tool', function() {
-  var options = {
-    siteURL: 'http://www.jorgeatgu.com',
-    sitePages: ['/']
-  };
-  return require('devbridge-perf-tool').performance(options);
 });
 
 /* Tarea por defecto para compilar CSS y comprimir imagenes */
