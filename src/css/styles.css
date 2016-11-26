@@ -1,1 +1,15 @@
-404: Not Found
+/*
+  Base CSS por Jorge Aznar
+  http://jorgeatgu.com
+  Estructura básica para iniciar cualquier proyecto con postCSS
+*/
+
+@import 'base/_reset';
+@import 'base/_variables';
+@import 'pages/_comun';
+@import 'components/_buttons';
+@import 'components/_navigation';
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'pages/_home';
+

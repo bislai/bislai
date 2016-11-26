@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgcColor);
+  line-height: 1.5;
+  font-family: var(--fontSystem);
+}
+
+.txt-color {
+  color: var(--txtColor);
+}
+
+.title-size {
+  font-size: 160px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.display-ib {
+  display: inline-block;
+}
+
+.vertical-am {
+  vertical-align: middle;
+}
+
+.margin-t0 {
+  margin-top: 0;
+}
+
+.margin-b0 {
+  margin-bottom: 0;
+}
+
+.margin-y0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+
