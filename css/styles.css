@@ -1,19 +1,21 @@
-
-@import 'base/_variables';
 /*
   Base CSS por Jorge Aznar
   http://jorgeatgu.com
   Estructura básica para iniciar cualquier proyecto con postCSS
 */
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
+
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
  * 3. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
 html {
   font-family: sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
@@ -21,17 +23,22 @@ html {
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
+
 /* Sections
    ========================================================================== */
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
+
 body {
   margin: 0;
 }
+
 /**
  * Add the correct display in IE 9-.
  */
+
 article,
 aside,
 footer,
@@ -40,126 +47,158 @@ nav,
 section {
   display: block;
 }
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
   font-size: 2em;
 
   margin: 0.67em 0;
 }
+
 /* Grouping content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+
 figcaption,
 figure,
 main { /* 1 */
   display: block;
 }
+
 /**
  * Add the correct margin in IE 8.
  */
+
 figure {
   margin: 1em 2.5rem;
 }
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
   overflow: visible; /* 2 */
 
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
 }
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
+
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+
 a {
   background-color: transparent; /* 1 */
 
   -webkit-text-decoration-skip: objects; /* 2 */
 }
+
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
+
 a:active,
 a:hover {
   outline-width: 0;
 }
+
 /**
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
   text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
 
   border-bottom: none; /* 1 */
 }
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+
 b,
 strong {
   font-weight: inherit;
 }
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+
 b,
 strong {
   font-weight: bolder;
 }
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
+
 /**
  * Add the correct font style in Android 4.3-.
  */
+
 dfn {
   font-style: italic;
 }
+
 /**
  * Add the correct background and color in IE 9-.
  */
+
 mark {
   color: #000;
   background-color: #ff0;
 }
+
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
+
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+
 sub,
 sup {
   font-size: 75%;
@@ -169,47 +208,61 @@ sup {
 
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
+
 /* Embedded content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
+
 audio,
 video {
   display: inline-block;
 }
+
 /**
  * Add the correct display in iOS 4-7.
  */
+
 audio:not([controls]) {
   display: none;
 
   height: 0;
 }
+
 /**
  * Remove the border on images inside links in IE 10-.
  */
+
 img {
   border-style: none;
 }
+
 /**
  * Hide the overflow in IE.
  */
+
 svg:not(:root) {
   overflow: hidden;
 }
+
 /* Forms
    ========================================================================== */
+
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+
 button,
 input,
 optgroup,
@@ -221,36 +274,44 @@ textarea {
 
   margin: 0; /* 2 */
 }
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+
 button,
 input { /* 1 */
   overflow: visible;
 }
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+
 button,
 select { /* 1 */
   text-transform: none;
 }
+
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+
 button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
+
 /**
  * Remove the inner border and padding in Firefox.
  */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -259,30 +320,36 @@ button::-moz-focus-inner,
 
   border-style: none;
 }
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
+
 fieldset {
   margin: 0 0.13rem;
   padding: 0.35em 0.625em 0.75em;
 
   border: 1px solid #c0c0c0;
 }
+
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+
 legend {
   display: table; /* 1 */
 
@@ -294,146 +361,716 @@ legend {
 
   color: inherit; /* 2 */
 }
+
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
 progress {
   display: inline-block; /* 1 */
 
   vertical-align: baseline; /* 2 */
 }
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
+
 textarea {
   overflow: auto;
 }
+
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+
 [type="search"] {
   outline-offset: -2px; /* 2 */
 
   -webkit-appearance: textfield; /* 1 */
 }
+
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+
 ::-webkit-file-upload-button {
   font: inherit; /* 2 */
 
   -webkit-appearance: button; /* 1 */
 }
+
 /* Interactive
    ========================================================================== */
+
 /*
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+
 details, /* 1 */
 menu {
   display: block;
 }
+
 /*
  * Add the correct display in all browsers.
  */
+
 summary {
   display: list-item;
 }
+
 /* Scripting
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
+
 canvas {
   display: inline-block;
 }
+
 /**
  * Add the correct display in IE.
  */
+
 template {
   display: none;
 }
+
 /* Hidden
    ========================================================================== */
+
 /**
  * Add the correct display in IE 10-.
  */
+
 [hidden] {
   display: none;
 }
+
+.base { color: #430e16 }
+
+.black { color: #463c3e }
+
+.gray0 { color: #f9f9f9 }
+
+.gray1 { color: #eeeded }
+
+.gray2 { color: #e1e0e0 }
+
+.gray3 { color: #d4d2d2 }
+
+.gray4 { color: #c5c2c3 }
+
+.gray5 { color: #b5b1b2 }
+
+.gray6 { color: #a39e9f }
+
+.gray7 { color: #8d8788 }
+
+.gray8 { color: #716a6b }
+
+.gray9 { color: #463c3e }
+
+.red0 { color: #efeaeb }
+
+.red1 { color: #ddd3d5 }
+
+.red2 { color: #c8b9bb }
+
+.red3 { color: #af999c }
+
+.red4 { color: #8d6d72 }
+
+.red5 { color: #430e17 }
+
+.red6 { color: #3b0c14 }
+
+.red7 { color: #310a11 }
+
+.red8 { color: #26080d }
+
+.red9 { color: #170408 }
+
+.orange0 { color: #eeebe9 }
+
+.orange1 { color: #dbd5d1 }
+
+.orange2 { color: #c6bbb6 }
+
+.orange3 { color: #ab9c94 }
+
+.orange4 { color: #887267 }
+
+.orange5 { color: #43200e }
+
+.orange6 { color: #3b1c0c }
+
+.orange7 { color: #32170a }
+
+.orange8 { color: #271208 }
+
+.orange9 { color: #170b04 }
+
+.yellow0 { color: #edece8 }
+
+.yellow1 { color: #d9d7ce }
+
+.yellow2 { color: #c2bfb1 }
+
+.yellow3 { color: #a6a28d }
+
+.yellow4 { color: #827c5f }
+
+.yellow5 { color: #433a0e }
+
+.yellow6 { color: #3b330c }
+
+.yellow7 { color: #332c0a }
+
+.yellow8 { color: #282308 }
+
+.yellow9 { color: #1a1605 }
+
+.lime0 { color: #ebede7 }
+
+.lime1 { color: #d5d8ce }
+
+.lime2 { color: #bbc1b0 }
+
+.lime3 { color: #9da68d }
+
+.lime4 { color: #75815e }
+
+.lime5 { color: #31430e }
+
+.lime6 { color: #2b3b0c }
+
+.lime7 { color: #25330a }
+
+.lime8 { color: #1d2808 }
+
+.lime9 { color: #131a05 }
+
+.green0 { color: #e9ede8 }
+
+.green1 { color: #d1d9cf }
+
+.green2 { color: #b5c3b2 }
+
+.green3 { color: #93a78f }
+
+.green4 { color: #668361 }
+
+.green5 { color: #17430e }
+
+.green6 { color: #143b0c }
+
+.green7 { color: #11330a }
+
+.green8 { color: #0e2808 }
+
+.green9 { color: #091a05 }
+
+.teal0 { color: #e8edea }
+
+.teal1 { color: #cfd9d2 }
+
+.teal2 { color: #b2c3b8 }
+
+.teal3 { color: #8fa797 }
+
+.teal4 { color: #61846d }
+
+.teal5 { color: #0e4320 }
+
+.teal6 { color: #0c3b1c }
+
+.teal7 { color: #0a3318 }
+
+.teal8 { color: #082813 }
+
+.teal9 { color: #051a0c }
+
+.cyan0 { color: #e8edec }
+
+.cyan1 { color: #cfd9d7 }
+
+.cyan2 { color: #b1c2bf }
+
+.cyan3 { color: #8ea7a3 }
+
+.cyan4 { color: #60837d }
+
+.cyan5 { color: #0e433a }
+
+.cyan6 { color: #0c3b33 }
+
+.cyan7 { color: #0a332c }
+
+.cyan8 { color: #082823 }
+
+.cyan9 { color: #051a17 }
+
+.blue0 { color: #e9ecee }
+
+.blue1 { color: #d0d7db }
+
+.blue2 { color: #b4bfc5 }
+
+.blue3 { color: #92a2aa }
+
+.blue4 { color: #657b87 }
+
+.blue5 { color: #0e3143 }
+
+.blue6 { color: #0c2b3b }
+
+.blue7 { color: #0a2432 }
+
+.blue8 { color: #081c27 }
+
+.blue9 { color: #051218 }
+
+.indigo0 { color: #eaebef }
+
+.indigo1 { color: #d3d5dd }
+
+.indigo2 { color: #b9bcc8 }
+
+.indigo3 { color: #999daf }
+
+.indigo4 { color: #6d738d }
+
+.indigo5 { color: #0e1743 }
+
+.indigo6 { color: #0c143a }
+
+.indigo7 { color: #0a1030 }
+
+.indigo8 { color: #070c23 }
+
+.indigo9 { color: #040613 }
+
+.violet0 { color: #eceaef }
+
+.violet1 { color: #d7d4dd }
+
+.violet2 { color: #bfbac9 }
+
+.violet3 { color: #a19ab0 }
+
+.violet4 { color: #796f8e }
+
+.violet5 { color: #200e43 }
+
+.violet6 { color: #1b0c3a }
+
+.violet7 { color: #170a30 }
+
+.violet8 { color: #110723 }
+
+.violet9 { color: #090414 }
+
+.fuschia0 { color: #eeeaef }
+
+.fuschia1 { color: #dbd3dd }
+
+.fuschia2 { color: #c5b8c8 }
+
+.fuschia3 { color: #ab98af }
+
+.fuschia4 { color: #876c8c }
+
+.fuschia5 { color: #3a0e43 }
+
+.fuschia6 { color: #330c3b }
+
+.fuschia7 { color: #2b0a31 }
+
+.fuschia8 { color: #210826 }
+
+.fuschia9 { color: #140417 }
+
+.pink0 { color: #efeaed }
+
+.pink1 { color: #ddd3d9 }
+
+.pink2 { color: #c8b8c2 }
+
+.pink3 { color: #ae98a7 }
+
+.pink4 { color: #8c6c81 }
+
+.pink5 { color: #430e31 }
+
+.pink6 { color: #3b0c2b }
+
+.pink7 { color: #320a24 }
+
+.pink8 { color: #26081c }
+
+.pink9 { color: #180511 }
+
+.bg-base { background-color: #430e16 }
+
+.bg-black { background-color: #463c3e }
+
+.bg-gray0 { background-color: #f9f9f9 }
+
+.bg-gray1 { background-color: #eeeded }
+
+.bg-gray2 { background-color: #e1e0e0 }
+
+.bg-gray3 { background-color: #d4d2d2 }
+
+.bg-gray4 { background-color: #c5c2c3 }
+
+.bg-gray5 { background-color: #b5b1b2 }
+
+.bg-gray6 { background-color: #a39e9f }
+
+.bg-gray7 { background-color: #8d8788 }
+
+.bg-gray8 { background-color: #716a6b }
+
+.bg-gray9 { background-color: #463c3e }
+
+.bg-red0 { background-color: #efeaeb }
+
+.bg-red1 { background-color: #ddd3d5 }
+
+.bg-red2 { background-color: #c8b9bb }
+
+.bg-red3 { background-color: #af999c }
+
+.bg-red4 { background-color: #8d6d72 }
+
+.bg-red5 { background-color: #430e17 }
+
+.bg-red6 { background-color: #3b0c14 }
+
+.bg-red7 { background-color: #310a11 }
+
+.bg-red8 { background-color: #26080d }
+
+.bg-red9 { background-color: #170408 }
+
+.bg-orange0 { background-color: #eeebe9 }
+
+.bg-orange1 { background-color: #dbd5d1 }
+
+.bg-orange2 { background-color: #c6bbb6 }
+
+.bg-orange3 { background-color: #ab9c94 }
+
+.bg-orange4 { background-color: #887267 }
+
+.bg-orange5 { background-color: #43200e }
+
+.bg-orange6 { background-color: #3b1c0c }
+
+.bg-orange7 { background-color: #32170a }
+
+.bg-orange8 { background-color: #271208 }
+
+.bg-orange9 { background-color: #170b04 }
+
+.bg-yellow0 { background-color: #edece8 }
+
+.bg-yellow1 { background-color: #d9d7ce }
+
+.bg-yellow2 { background-color: #c2bfb1 }
+
+.bg-yellow3 { background-color: #a6a28d }
+
+.bg-yellow4 { background-color: #827c5f }
+
+.bg-yellow5 { background-color: #433a0e }
+
+.bg-yellow6 { background-color: #3b330c }
+
+.bg-yellow7 { background-color: #332c0a }
+
+.bg-yellow8 { background-color: #282308 }
+
+.bg-yellow9 { background-color: #1a1605 }
+
+.bg-lime0 { background-color: #ebede7 }
+
+.bg-lime1 { background-color: #d5d8ce }
+
+.bg-lime2 { background-color: #bbc1b0 }
+
+.bg-lime3 { background-color: #9da68d }
+
+.bg-lime4 { background-color: #75815e }
+
+.bg-lime5 { background-color: #31430e }
+
+.bg-lime6 { background-color: #2b3b0c }
+
+.bg-lime7 { background-color: #25330a }
+
+.bg-lime8 { background-color: #1d2808 }
+
+.bg-lime9 { background-color: #131a05 }
+
+.bg-green0 { background-color: #e9ede8 }
+
+.bg-green1 { background-color: #d1d9cf }
+
+.bg-green2 { background-color: #b5c3b2 }
+
+.bg-green3 { background-color: #93a78f }
+
+.bg-green4 { background-color: #668361 }
+
+.bg-green5 { background-color: #17430e }
+
+.bg-green6 { background-color: #143b0c }
+
+.bg-green7 { background-color: #11330a }
+
+.bg-green8 { background-color: #0e2808 }
+
+.bg-green9 { background-color: #091a05 }
+
+.bg-teal0 { background-color: #e8edea }
+
+.bg-teal1 { background-color: #cfd9d2 }
+
+.bg-teal2 { background-color: #b2c3b8 }
+
+.bg-teal3 { background-color: #8fa797 }
+
+.bg-teal4 { background-color: #61846d }
+
+.bg-teal5 { background-color: #0e4320 }
+
+.bg-teal6 { background-color: #0c3b1c }
+
+.bg-teal7 { background-color: #0a3318 }
+
+.bg-teal8 { background-color: #082813 }
+
+.bg-teal9 { background-color: #051a0c }
+
+.bg-cyan0 { background-color: #e8edec }
+
+.bg-cyan1 { background-color: #cfd9d7 }
+
+.bg-cyan2 { background-color: #b1c2bf }
+
+.bg-cyan3 { background-color: #8ea7a3 }
+
+.bg-cyan4 { background-color: #60837d }
+
+.bg-cyan5 { background-color: #0e433a }
+
+.bg-cyan6 { background-color: #0c3b33 }
+
+.bg-cyan7 { background-color: #0a332c }
+
+.bg-cyan8 { background-color: #082823 }
+
+.bg-cyan9 { background-color: #051a17 }
+
+.bg-blue0 { background-color: #e9ecee }
+
+.bg-blue1 { background-color: #d0d7db }
+
+.bg-blue2 { background-color: #b4bfc5 }
+
+.bg-blue3 { background-color: #92a2aa }
+
+.bg-blue4 { background-color: #657b87 }
+
+.bg-blue5 { background-color: #0e3143 }
+
+.bg-blue6 { background-color: #0c2b3b }
+
+.bg-blue7 { background-color: #0a2432 }
+
+.bg-blue8 { background-color: #081c27 }
+
+.bg-blue9 { background-color: #051218 }
+
+.bg-indigo0 { background-color: #eaebef }
+
+.bg-indigo1 { background-color: #d3d5dd }
+
+.bg-indigo2 { background-color: #b9bcc8 }
+
+.bg-indigo3 { background-color: #999daf }
+
+.bg-indigo4 { background-color: #6d738d }
+
+.bg-indigo5 { background-color: #0e1743 }
+
+.bg-indigo6 { background-color: #0c143a }
+
+.bg-indigo7 { background-color: #0a1030 }
+
+.bg-indigo8 { background-color: #070c23 }
+
+.bg-indigo9 { background-color: #040613 }
+
+.bg-violet0 { background-color: #eceaef }
+
+.bg-violet1 { background-color: #d7d4dd }
+
+.bg-violet2 { background-color: #bfbac9 }
+
+.bg-violet3 { background-color: #a19ab0 }
+
+.bg-violet4 { background-color: #796f8e }
+
+.bg-violet5 { background-color: #200e43 }
+
+.bg-violet6 { background-color: #1b0c3a }
+
+.bg-violet7 { background-color: #170a30 }
+
+.bg-violet8 { background-color: #110723 }
+
+.bg-violet9 { background-color: #090414 }
+
+.bg-fuschia0 { background-color: #eeeaef }
+
+.bg-fuschia1 { background-color: #dbd3dd }
+
+.bg-fuschia2 { background-color: #c5b8c8 }
+
+.bg-fuschia3 { background-color: #ab98af }
+
+.bg-fuschia4 { background-color: #876c8c }
+
+.bg-fuschia5 { background-color: #3a0e43 }
+
+.bg-fuschia6 { background-color: #330c3b }
+
+.bg-fuschia7 { background-color: #2b0a31 }
+
+.bg-fuschia8 { background-color: #210826 }
+
+.bg-fuschia9 { background-color: #140417 }
+
+.bg-pink0 { background-color: #efeaed }
+
+.bg-pink1 { background-color: #ddd3d9 }
+
+.bg-pink2 { background-color: #c8b8c2 }
+
+.bg-pink3 { background-color: #ae98a7 }
+
+.bg-pink4 { background-color: #8c6c81 }
+
+.bg-pink5 { background-color: #430e31 }
+
+.bg-pink6 { background-color: #3b0c2b }
+
+.bg-pink7 { background-color: #320a24 }
+
+.bg-pink8 { background-color: #26081c }
+
+.bg-pink9 { background-color: #180511 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: var(--fontSystem);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
 
-  background-color: var(--bgcColor);
+  background-color: #b9eee6;
 }
+
 .txt-color {
-  color: var(--txtColor);
+  color: #430e16;
 }
+
 .title-size {
   font-size: 10rem;
 }
+
 .bold {
   font-weight: 800;
 }
+
 .display-ib {
   display: inline-block;
 }
+
 .vertical-am {
   vertical-align: middle;
 }
+
 .margin-t0 {
   margin-top: 0;
 }
+
 .margin-b0 {
   margin-bottom: 0;
 }
+
 .margin-r1 {
   margin-right: 1rem;
 }
+
 .margin-y0 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .texta-r {
   text-align: right;
 }
+
 .font-0 {
   font-size: 0;
 }
+
 .w-50 {
   width: 50%;
 }
+
 .btn-share {
   font-size: 1.13rem;
 
@@ -441,13 +1078,15 @@ body {
 
   text-decoration: none;
 
-  color: var(--white);
+  color: #fff;
 }
+
 .btn-share-facebook {
-  background-color: var(--facebookColor);
+  background-color: #3B5998;
 }
+
 .btn-share-twitter {
-  background-color: var(--twitterColor);
+  background-color: #00ACEE;
 }
 
 
