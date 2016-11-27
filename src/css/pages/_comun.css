@@ -36,11 +36,23 @@ body {
   margin-bottom: 0;
 }
 
+.margin-r1 {
+  margin-right: 1rem;
+}
+
 .margin-y0 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
+.texta-r {
+  text-align: right;
+}
 
+.font-0 {
+  font-size: 0;
+}
 
-
+.w-50 {
+  width: 50%;
+}
