@@ -1,7 +1,14 @@
-.twitter {
-
+.btn-share {
+  padding: 20px;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
 }
 
-.facebook {
+.btn-share-facebook {
+  background-color: var(--facebookColor);
+}
 
+.btn-share-twitter {
+  background-color: var(--twitterColor);
 }

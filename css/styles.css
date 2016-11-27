@@ -527,5 +527,23 @@ body {
   margin-bottom: 0;
 }
 
+.btn-share {
+  font-size: 1.25rem;
+
+  padding: 1.25rem;
+
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.btn-share-facebook {
+  background-color: #3B5998;
+}
+
+.btn-share-twitter {
+  background-color: #00ACEE;
+}
+
 
 /*# sourceMappingURL=styles.css.map */
