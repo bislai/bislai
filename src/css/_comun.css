@@ -3,13 +3,13 @@
 }
 
 body {
-  background-color: var(--bgcColor);
+  background-color: var(--cruise);
   line-height: 1.5;
   font-family: var(--fontSystem);
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 

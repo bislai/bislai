@@ -6,6 +6,7 @@
 
 @import '_reset';
 @import '_variables';
+@import '_comun';
 @import '_buttons';
 @import '_width';
 @import '_color';
