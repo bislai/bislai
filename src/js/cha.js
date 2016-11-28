@@ -2,7 +2,7 @@ var ctx = document.getElementById("zec");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["ZEC + C'S", "ZEC + CHA", "ZEC + PSOE", "ZEC + PP", "ZEC + CHA + PSOE", "ZEC + CHA + PP", "ZEC + CHA + C'S", "ZEC + C'S + PP", "ZEC + C'S + PSOE", "ZEC + PP + PSOE", "ZEC + PP + PSOE", "ZEC + PP + PSOE + CHA", "ZEC + PP + PSOE + C'S", "ZEC + PP + CHA + C'S", "ZEC + PSOE + CHA + C'S", ],
+        labels: ["CHA + C'S", "CHA + PSEO", "CHA + PP", "CHA + ZEC", "CHA + PSEO + PP", "CHA + PSEO + ZEC", "CHA + PSEO + C'S", "CHA + C'S + ZEC", "CHA + C'S + PP", "CHA + ZEC + PP", "CHA + ZEC + PP", "CHA + ZEC + PP + PSEO", "CHA + ZEC + PP + C'S", "CHA + ZEC + PSEO + C'S", "CHA + PP + PSEO + C'S", ],
         datasets: [{
             label: '# of Votes',
             data: [100, 19, 3, 5, 2, 3, 100, 19, 3, 5, 2, 3, 13, 14],
