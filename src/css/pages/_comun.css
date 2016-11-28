@@ -8,6 +8,11 @@ body {
   font-family: var(--fontSystem);
 }
 
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
 .txt-color {
   color: var(--txtColor);
 }
@@ -55,4 +60,12 @@ body {
 
 .w-50 {
   width: 50%;
+}
+
+.font-1 {
+  font-size: 1rem;
+}
+
+.font-2 {
+  font-size: 2rem;
 }

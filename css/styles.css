@@ -1022,6 +1022,11 @@ body {
   background-color: #b9eee6;
 }
 
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
 .txt-color {
   color: #430e16;
 }
@@ -1069,6 +1074,14 @@ body {
 
 .w-50 {
   width: 50%;
+}
+
+.font-1 {
+  font-size: 1rem;
+}
+
+.font-2 {
+  font-size: 2rem;
 }
 
 .btn-share {
