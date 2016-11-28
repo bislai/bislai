@@ -1,0 +1,20 @@
+.font-w8 {
+  font-weight: 800;
+}
+
+
+.black {
+  color: var(--black);
+}
+
+.cruise {
+  background-color: var(--cruise);
+}
+
+.white {
+  color: var(--white);
+}
+
+.heath {
+  color: var(--heath);
+}

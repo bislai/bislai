@@ -4,12 +4,15 @@
   Estructura básica para iniciar cualquier proyecto con postCSS
 */
 
-@import 'base/_reset';
-@import 'base/_variables';
-@import 'pages/_comun';
-@import 'components/_buttons';
-@import 'components/_navigation';
-@import 'layout/_header';
-@import 'layout/_footer';
-@import 'pages/_home';
+@import '_reset';
+@import '_variables';
+@import '_buttons';
+@import '_width';
+@import '_color';
+@import '_display';
+@import '_fonts';
+@import '_margin';
+@import '_textalign';
+@import '_vertical-align';
+@import '_weight';
 

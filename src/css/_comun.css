@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgcColor);
+  line-height: 1.5;
+  font-family: var(--fontSystem);
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.txt-color {
+  color: var(--txtColor);
+}
+
+.title-size {
+  font-size: 160px;
+}
