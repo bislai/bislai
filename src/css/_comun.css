@@ -29,10 +29,6 @@ canvas {
   border-bottom: 1px solid var(--black);
 }
 
-.padding-b1 {
-  padding-bottom: 1rem;
-}
-
 .whs-nw {
   white-space: nowrap;
 }

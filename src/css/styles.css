@@ -16,4 +16,6 @@
 @import '_textalign';
 @import '_vertical-align';
 @import '_weight';
+@import '_padding';
+@import '_border';
 

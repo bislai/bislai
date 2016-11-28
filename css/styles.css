@@ -514,10 +514,6 @@ canvas {
   border-bottom: 1px solid #463c3e;
 }
 
-.padding-b1 {
-  padding-bottom: 1rem;
-}
-
 .whs-nw {
   white-space: nowrap;
 }
@@ -641,6 +637,11 @@ canvas {
   margin-bottom: 0;
 }
 
+.margin-y1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .texta-l {
   text-align: left;
 }
@@ -659,6 +660,14 @@ canvas {
 
 .font-w8 {
   font-weight: 800;
+}
+
+.padding-b1 {
+  padding-bottom: 1rem;
+}
+
+.border-b {
+  border-bottom: 1px solid #463c3e;
 }
 
 
