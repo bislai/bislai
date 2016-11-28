@@ -1,7 +1,3 @@
-.font-w8 {
-  font-weight: 800;
-}
-
 .black {
   color: var(--black);
 }
@@ -20,4 +16,12 @@
 
 .heath {
   color: var(--heath);
+}
+
+.red9 {
+  color: var(--red9);
+}
+
+.green9 {
+  color: var(--green9);
 }

@@ -1,3 +1,11 @@
 .border-b {
   border-bottom: 1px solid var(--black);
 }
+
+.border1 {
+  border: 1px solid;
+}
+
+.borderc-black {
+  border-color: var(--black);
+}

@@ -13,7 +13,7 @@ body {
 }
 
 .txt-color {
-  color: var(--txtColor);
+  color: var(--heath);
 }
 
 .title-size {
@@ -31,4 +31,12 @@ canvas {
 
 .whs-nw {
   white-space: nowrap;
+}
+
+.textdecoration-u {
+  text-decoration: underline;
+}
+
+.textd-n {
+  text-decoration: none;
 }
