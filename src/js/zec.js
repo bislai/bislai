@@ -7,12 +7,17 @@ var myChart = new Chart(ctx, {
             label: '# of Votes',
             data: [100, 19, 3, 5, 2, 3, 100, 19, 3, 5, 2, 3, 13, 14],
             backgroundColor: [
-                '43200e',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                '#d7b7a7',
+                '#c7d7a7',
+                '#bda193',
+                '#afbd93',
+                '#afd7a7',
+                '#a7d7b7',
+                '#9abd93',
+                '#93bda1',
+                '#b7a7d7',
+                '#a7c7d7',
+                '#',
             ],
             borderColor: [
                 'rgba(255,99,132,1)',
