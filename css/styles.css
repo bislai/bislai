@@ -1018,8 +1018,6 @@ template {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
-
-  background-color: #b9eee6;
 }
 
 .container {
@@ -1033,6 +1031,23 @@ body {
 
 .title-size {
   font-size: 10rem;
+}
+
+canvas {
+  max-width: 50rem;
+  margin: 3.13rem auto;
+}
+
+.border-b {
+  border-bottom: 1px solid #463c3e;
+}
+
+.padding-b1 {
+  padding-bottom: 1rem;
+}
+
+.whs-nw {
+  white-space: nowrap;
 }
 
 .btn-share {
@@ -1103,6 +1118,10 @@ body {
 
 .cruise {
   background-color: #b9eee6;
+}
+
+.cruise2 {
+  background-color: #def7f2;
 }
 
 .white {

@@ -1,13 +1,13 @@
-var ctx = document.getElementById("myChart");
+var ctx = document.getElementById("zec");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["ZEC + C'S", "ZEC + CHA", "ZEC + PSOE", "ZEC + PP", "ZEC + CHA + PSOE", "ZEC + CHA + PP", "ZEC + CHA + C'S", "ZEC + C'S + PP", "ZEC + C'S + PSOE", "ZEC + PP + PSOE", "ZEC + PP + PSOE", "ZEC + PP + PSOE + CHA", "ZEC + PP + PSOE + C'S", "ZEC + PP + CHA + C'S", "ZEC + PSOE + CHA + C'S", ],
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [100, 19, 3, 5, 2, 3, 100, 19, 3, 5, 2, 3, 13, 14],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
+                '43200e',
                 'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
@@ -35,4 +35,3 @@ var myChart = new Chart(ctx, {
         }
     }
 });
-

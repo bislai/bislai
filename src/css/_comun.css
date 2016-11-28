@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: var(--cruise);
   line-height: 1.5;
   font-family: var(--fontSystem);
 }
@@ -19,4 +18,21 @@ body {
 
 .title-size {
   font-size: 160px;
+}
+
+canvas {
+  max-width: 50rem;
+  margin: 50px auto;
+}
+
+.border-b {
+  border-bottom: 1px solid var(--black);
+}
+
+.padding-b1 {
+  padding-bottom: 1rem;
+}
+
+.whs-nw {
+  white-space: nowrap;
 }

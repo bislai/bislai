@@ -11,6 +11,10 @@
   background-color: var(--cruise);
 }
 
+.cruise2 {
+  background-color: var(--cruise2);
+}
+
 .white {
   color: var(--white);
 }
