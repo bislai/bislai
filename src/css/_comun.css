@@ -25,15 +25,11 @@ canvas {
   margin: 50px auto;
 }
 
-.border-b {
-  border-bottom: 1px solid var(--black);
-}
-
 .whs-nw {
   white-space: nowrap;
 }
 
-.textdecoration-u {
+.textd-u {
   text-decoration: underline;
 }
 

@@ -510,15 +510,11 @@ canvas {
   margin: 3.13rem auto;
 }
 
-.border-b {
-  border-bottom: 1px solid #463c3e;
-}
-
 .whs-nw {
   white-space: nowrap;
 }
 
-.textdecoration-u {
+.textd-u {
   text-decoration: underline;
 }
 
@@ -612,6 +608,14 @@ canvas {
   color: #5d7259;
 }
 
+.azul-pp {
+  color: #0080B8;
+}
+
+.rojo-psoe {
+  color: #CE1A23;
+}
+
 .display-ib {
   display: inline-block;
 }
@@ -696,6 +700,30 @@ canvas {
 
 .borderc-black {
   border-color: #463c3e;
+}
+
+.border-l5 {
+  border-left: 5px solid;
+}
+
+.borderc-pp {
+  border-color: #0080B8;
+}
+
+.borderc-psoe {
+  border-color: #CE1A23;
+}
+
+.borderc-cs {
+  border-color: #D64224;
+}
+
+.borderc-ch {
+  border-color: #EFB027;
+}
+
+.borderc-zec {
+  border-color: #9A1622;
 }
 
 
