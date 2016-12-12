@@ -78,41 +78,40 @@ gulp.task('compress', function() {
  *
  */
 
-gulp.task('css', function() {
-  var processors = [
-    stylelint(),
-    reporter({
-      clearMessages: true
-    }),
-    atImport,
-    nested,
-    selector,
-    customProperties,
-    pxtorem({
-      root_value: 16,
-      unit_precision: 2,
-      prop_white_list: ['font', 'font-size', 'line-height', 'letter-spacing', 'margin', 'padding'],
-      replace: true,
-      media_query: false
-    }),
-    sorting({
-      "sort-order": "csscomb"
-    }),
-    autoprefixer
-  ];
-  return gulp.src('./src/css/styles.css')
+ gulp.task('css', function() {
+   var processors = [
+     atImport,
+     stylelint(),
+     reporter({
+       clearMessages: true
+     }),
+     nested,
+     cssnext,
+     pxtorem({
+       root_value: 16,
+       unit_precision: 2,
+       prop_white_list: ['font', 'font-size', 'line-height', 'letter-spacing', 'margin', 'padding'],
+       replace: true,
+       media_query: false
+     }),
+     sorting({
+       "sort-order": "csscomb"
+     }),
+     autoprefixer
+   ];
+   return gulp.src('./src/css/styles.css')
 
-  .pipe(sourcemaps.init())
-    .pipe(postcss(processors))
-    .on("error", errorAlertPost)
-    .pipe(sourcemaps.write('./', {
-      sourceRoot: '/src'
-    }))
-    .pipe(gulp.dest('./css'))
-    .pipe(notify({
-      message: 'postCSS complete'
-    }));
-});
+   .pipe(sourcemaps.init())
+     .pipe(postcss(processors))
+     .on("error", errorAlertPost)
+     .pipe(sourcemaps.write('./css', {
+       sourceRoot: '/src'
+     }))
+     .pipe(gulp.dest('./css'))
+     .pipe(notify({
+       message: 'postCSS complete'
+     }));
+ });x
 
 /* Lanzando CSSnano para comprimir CSS */
 gulp.task('minify', function() {
