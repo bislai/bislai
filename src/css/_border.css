@@ -10,6 +10,10 @@
   border-color: var(--black);
 }
 
+.border-l2 {
+  border-left: 2px solid;
+}
+
 .border-l5 {
   border-left: 5px solid;
 }

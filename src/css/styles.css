@@ -1,7 +1,6 @@
 /*
-  Base CSS por Jorge Aznar
+  Astral 0.1b CSS toolkit por Jorge Aznar
   http://jorgeatgu.com
-  Estructura básica para iniciar cualquier proyecto con postCSS
 */
 
 @import '_reset';
@@ -18,4 +17,4 @@
 @import '_weight';
 @import '_padding';
 @import '_border';
-
+@import '_height';
