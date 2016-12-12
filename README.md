@@ -5,3 +5,6 @@ En esta serie de datos y gráficas vamos a ver como gestionan los diferentes par
 Todos los datos han sido obtenidos de la web del Ayuntamiento de Zaragoza.
 
 En el primer gráfico se puede ver todas las veces que han coincido los diferentes grupos políticos a la hora de votar.
+
+
+

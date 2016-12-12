@@ -86,7 +86,8 @@ gulp.task('compress', function() {
        clearMessages: true
      }),
      nested,
-     cssnext,
+     customProperties,
+     selector,
      pxtorem({
        root_value: 16,
        unit_precision: 2,
@@ -104,14 +105,14 @@ gulp.task('compress', function() {
    .pipe(sourcemaps.init())
      .pipe(postcss(processors))
      .on("error", errorAlertPost)
-     .pipe(sourcemaps.write('./css', {
+     .pipe(sourcemaps.write('./', {
        sourceRoot: '/src'
      }))
      .pipe(gulp.dest('./css'))
      .pipe(notify({
        message: 'postCSS complete'
      }));
- });x
+ });
 
 /* Lanzando CSSnano para comprimir CSS */
 gulp.task('minify', function() {
