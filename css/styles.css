@@ -671,6 +671,10 @@ canvas {
   margin-right: 1rem;
 }
 
+.margin-yx {
+  margin: 0 auto;
+}
+
 .margin-y0 {
   margin-top: 0;
   margin-bottom: 0;
@@ -741,6 +745,14 @@ canvas {
   border-left: 5px solid;
 }
 
+.border-b5 {
+  border-bottom: 5px solid;
+}
+
+.border-t5 {
+  border-top: 5px solid;
+}
+
 .borderc-pp {
   border-color: #0080B8;
 }
@@ -771,6 +783,101 @@ canvas {
 
 .h-5 {
   height: 5rem;
+}
+
+.h-10 {
+  height: 10rem;
+}
+
+.h-24 {
+  height: 24rem;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-f {
+  position: fixed;
+}
+
+.pos-s {
+  position: static;
+}
+
+.tp-0 {
+  top: 0;
+}
+
+.tp-1 {
+  top: 10%;
+}
+
+.tp-2 {
+  top: 20%;
+}
+
+.tp-3 {
+  top: 30%;
+}
+
+.tp-4 {
+  top: 40%;
+}
+
+.tp-5 {
+  top: 50%;
+}
+
+.tp-6 {
+  top: 60%;
+}
+
+.tp-7 {
+  top: 70%;
+}
+
+.tp-8 {
+  top: 80%;
+}
+
+.tp-9 {
+  top: 90%;
+}
+
+.tp-10 {
+  top: 100%;
+}
+
+.rt-0 {
+  right: 0;
+}
+
+.fl-l {
+  float: left;
+}
+
+.fl-r {
+  float: right;
+}
+
+.fl-n {
+  float: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
 }
 
 /*# sourceMappingURL=styles.css.map */
