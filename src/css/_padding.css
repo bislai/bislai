@@ -6,6 +6,14 @@
   padding: 1rem;
 }
 
+.padding-1-0 {
+  padding: 1rem 0;
+}
+
 .padding-2 {
   padding: 2rem;
+}
+
+.padding-2-0 {
+  padding: 2rem 0;
 }

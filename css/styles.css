@@ -521,6 +521,32 @@ canvas {
   text-decoration: none;
 }
 
+/*
+
+Anchos especificos para cada partido en función del porcentaje de voto obtenido. Multiplicados por 1.5 ya que el ancho de CHA no dejaba ver sus siglas al tamaño mínimo de fuente para TODAS personas sin distinción de edad, problema visual, dispositivo.
+
+*/
+
+.w-pp {
+  width: calc(26.88% * 1.75);
+}
+
+.w-zec {
+  width: calc(24.57% * 1.75);
+}
+
+.w-psoe {
+  width: calc(18.65% * 1.75);
+}
+
+.w-cs {
+  width: calc(12.29% * 1.75);
+}
+
+.w-cha {
+  width: calc(6.78% * 1.75);
+}
+
 .btn-share {
   font-size: 1rem;
 
@@ -721,8 +747,16 @@ canvas {
   padding: 1rem;
 }
 
+.padding-1-0 {
+  padding: 1rem 0;
+}
+
 .padding-2 {
   padding: 2rem;
+}
+
+.padding-2-0 {
+  padding: 2rem 0;
 }
 
 .border-b {
@@ -739,6 +773,18 @@ canvas {
 
 .border-l2 {
   border-left: 2px solid;
+}
+
+.border-l3 {
+  border-left: 3px solid;
+}
+
+.border-b3 {
+  border-bottom: 3px solid;
+}
+
+.border-t3 {
+  border-top: 3px solid;
 }
 
 .border-l5 {

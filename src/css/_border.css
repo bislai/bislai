@@ -14,6 +14,18 @@
   border-left: 2px solid;
 }
 
+.border-l3 {
+  border-left: 3px solid;
+}
+
+.border-b3 {
+  border-bottom: 3px solid;
+}
+
+.border-t3 {
+  border-top: 3px solid;
+}
+
 .border-l5 {
   border-left: 5px solid;
 }
