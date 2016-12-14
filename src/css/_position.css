@@ -1,0 +1,67 @@
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-f {
+  position: fixed;
+}
+
+.pos-s {
+  position: static;
+}
+
+.tp-0 {
+  top: 0;
+}
+
+.tp-1 {
+  top: 10%;
+}
+
+.tp-2 {
+  top: 20%;
+}
+
+.tp-3 {
+  top: 30%;
+}
+
+.tp-4 {
+  top: 40%;
+}
+
+.tp-5 {
+  top: 50%;
+}
+
+.tp-6 {
+  top: 60%;
+}
+
+.tp-7 {
+  top: 70%;
+}
+
+.tp-8 {
+  top: 80%;
+}
+
+.tp-9 {
+  top: 90%;
+}
+
+.tp-10 {
+  top: 100%;
+}
+
+.rt-0 {
+  right: 0;
+}
+
+
+
+
