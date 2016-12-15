@@ -20,10 +20,10 @@ body {
   font-size: 160px;
 }
 
-canvas {
+/*canvas {
   max-width: 50rem;
   margin: 50px auto;
-}
+}*/
 
 .whs-nw {
   white-space: nowrap;
