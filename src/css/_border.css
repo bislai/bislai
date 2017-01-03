@@ -50,6 +50,14 @@
   border-top: 5px solid;
 }
 
+.border-b10 {
+  border-bottom: 10px solid;
+}
+
+.border-t10 {
+  border-top: 10px solid;
+}
+
 .borderc-pp {
   border-color: var(--pp);
 }
@@ -68,4 +76,8 @@
 
 .borderc-zec {
   border-color: var(--zec);
+}
+
+.borderc-b-cs {
+  border-bottom-color: var(--ciudadanos);
 }
