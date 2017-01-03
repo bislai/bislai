@@ -521,30 +521,13 @@ body {
   text-decoration: none;
 }
 
-/*
+.c3-chart-arc text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem !important;
+    font-weight: bold !important;
 
-Anchos especificos para cada partido en función del porcentaje de voto obtenido. Multiplicados por 1.5 ya que el ancho de CHA no dejaba ver sus siglas al tamaño mínimo de fuente para TODAS personas sin distinción de edad, problema visual, dispositivo.
+    fill: #000 !important;
 
-*/
-
-.w-pp {
-  width: calc(26.88% * 1.75);
-}
-
-.w-zec {
-  width: calc(24.57% * 1.75);
-}
-
-.w-psoe {
-  width: calc(18.65% * 1.75);
-}
-
-.w-cs {
-  width: calc(12.29% * 1.75);
-}
-
-.w-cha {
-  width: calc(6.78% * 1.75);
 }
 
 .btn-share {
