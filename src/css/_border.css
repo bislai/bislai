@@ -1,9 +1,9 @@
-.border-b {
-  border-bottom: 1px solid var(--black);
+.border-b1 {
+  border-bottom: 1px solid;
 }
 
-.border-t {
-  border-top: 1px solid var(--black);
+.border-t1 {
+  border-top: 1px solid;
 }
 
 .border1 {
@@ -12,6 +12,14 @@
 
 .borderc-black {
   border-color: var(--black);
+}
+
+.borderc-rojo {
+  border-color: var(--rojo);
+}
+
+.borderc-grey {
+  border-color: var(--grey);
 }
 
 .border-l2 {

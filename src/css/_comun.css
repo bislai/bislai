@@ -7,23 +7,9 @@ body {
   font-family: var(--fontSystem);
 }
 
-.container {
-  max-width: 70rem;
-  margin: 0 auto;
-}
-
 .txt-color {
   color: var(--heath);
 }
-
-.title-size {
-  font-size: 160px;
-}
-
-/*canvas {
-  max-width: 50rem;
-  margin: 50px auto;
-}*/
 
 .whs-nw {
   white-space: nowrap;

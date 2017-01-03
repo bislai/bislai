@@ -304,23 +304,9 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  max-width: 70rem;
-  margin: 0 auto;
-}
-
 .txt-color {
   color: #430e16;
 }
-
-.title-size {
-  font-size: 10rem;
-}
-
-/*canvas {
-  max-width: 50rem;
-  margin: 50px auto;
-}*/
 
 .whs-nw {
   white-space: nowrap;
@@ -351,7 +337,10 @@ body {
 .btn-share {
   font-size: 1rem;
 
-  padding: 1.25rem;
+  display: inline-block;
+
+  margin-top: .5rem;
+  padding: .5rem 1rem;
 
   text-decoration: none;
 
@@ -364,6 +353,11 @@ body {
 
 .btn-share-twitter {
   background-color: #00ACEE;
+}
+
+.maw-70 {
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 .w-0 {
@@ -576,12 +570,12 @@ body {
   padding: 2rem 0;
 }
 
-.border-b {
-  border-bottom: 1px solid #121;
+.border-b1 {
+  border-bottom: 1px solid;
 }
 
-.border-t {
-  border-top: 1px solid #121;
+.border-t1 {
+  border-top: 1px solid;
 }
 
 .border1 {
@@ -590,6 +584,14 @@ body {
 
 .borderc-black {
   border-color: #121;
+}
+
+.borderc-rojo {
+  border-color: #6593CD;
+}
+
+.borderc-grey {
+  border-color: #ccc;
 }
 
 .border-l2 {
