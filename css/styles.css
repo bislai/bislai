@@ -550,8 +550,16 @@ body {
   padding-bottom: 1rem;
 }
 
+.padding-b2 {
+  padding-bottom: 2rem;
+}
+
 .padding-t1 {
   padding-top: 1rem;
+}
+
+.padding-r1 {
+  padding-right: 1rem;
 }
 
 .padding-1 {
