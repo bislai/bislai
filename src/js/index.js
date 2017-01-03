@@ -1,25 +1,4 @@
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
-    type: 'pie',
-    data: {
-        labels: ["En contra: PP - PSOE - C'S", "A favor: ZEC", "Abstención: CHA"],
-        datasets: [{
-            label: '# of Votes',
-            data: [21, 10, 2],
-            backgroundColor: [
-                'rgba(255, 99, 132, .6)',
-                'rgba(54, 162, 235, .6)',
-                'rgba(255, 206, 86, .6)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)'
-            ],
-            borderWidth: 1
-        }]
-    }
-});
+
 
 var barra = document.querySelector('#pp');
 var barra2 = document.querySelector('#zec');
@@ -99,3 +78,46 @@ new mojs.Tween({
             'scaleX(' + scaleX + ') ' + 'scaleY(' + scaleY + ')';
     }
 }).play();
+
+
+var votosFavor = [
+  {partido: 'CHA', votos: 2},
+  {partido: 'ZEC', votos: 10}
+];
+
+var votosContra = [
+  {partido: 'PP', votos: 11},
+  {partido: 'CS', votos: 4},
+  {partido: 'PSOE', votos: 6}
+
+];
+
+//Funcion para sumar votos
+function sumarVotos(arrayVotos){
+  return arrayVotos.reduce(function(acumulado, votoObj){
+    return acumulado + votoObj.votos;
+  },0);
+}
+
+//Función que obtiene el títlo de los partidos. Ejemplo: CHA + ZEC
+function tituloPartidos(arrayVotos){
+  return arrayVotos
+    .map(function(votoObj){
+      return votoObj.partido;
+    })
+    .join(' + ');
+}
+
+
+var chart = c3.generate({
+    data: {
+        columns: [
+            [tituloPartidos(votosFavor), sumarVotos(votosFavor)],
+            [tituloPartidos(votosContra), sumarVotos(votosContra)]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#006600', '#660000']
+    }
+});
