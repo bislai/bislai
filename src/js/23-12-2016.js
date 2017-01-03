@@ -35,13 +35,13 @@ function tituloPartidos(arrayVotos){
 var chart = c3.generate({
     data: {
         columns: [
-            [tituloPartidos(votosFavor), sumarVotos(votosFavor)],
-            [tituloPartidos(votosContra), sumarVotos(votosContra)],
-            [tituloPartidos(abstencion), sumarVotos(abstencion)]
+            ["A favor: PP + ZEC + PSOE + C'S", 28],
+            // ["En contra:", 0],
+            ["Abstención: CHA", 2]
         ],
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159' , '#ccc']
+      pattern: ['#55AF32',  '#a9a5a5']
     }
 });
