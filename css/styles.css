@@ -320,6 +320,8 @@ body {
   text-decoration: none;
 }
 
+/*Machacando a fuego los estilos que incluye c3*/
+
 .c3-chart-arc text {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1rem !important;
@@ -332,6 +334,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1rem !important;
     font-weight: bold !important;
+}
+
+.c3-chart-arc path {
+    stroke: #6d6c6c !important;
 }
 
 .btn-share {
