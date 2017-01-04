@@ -57,6 +57,7 @@ function errorAlertPost(error) {
 /* Comprimiendo JavaScript */
 gulp.task('compress', function() {
   return gulp.src(jsSrc)
+    .pipe(newer(jsDist))
     .pipe(uglify())
     .on("error", errorAlertJS)
     .pipe(gulp.dest(jsDist))
