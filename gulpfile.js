@@ -150,7 +150,7 @@ gulp.task('default', ["browserSync"], function() {
   gulp.watch('./src/css/**', ['css']);
   gulp.watch('./src/js/**', ['compress']);
   gulp.watch('./src/img/**', ['images']);
-  gulp.watch(["./*.html", "./plenos/*.html", "css/*.css", "js/*.js"]).on("change", browserSync.reload);
+  gulp.watch(["./*.html", "./plenos/*/*.html", "css/*.css", "js/*.js"]).on("change", browserSync.reload);
 });
 
 /* Tarea final para comprimir CSS y JavaScript */
