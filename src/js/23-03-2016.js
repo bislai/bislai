@@ -2,7 +2,7 @@
 var primera = c3.generate({
     data: {
         columns: [
-           ["Unanimidad", 28]
+           ["Unanimidad", 31]
         ],
         type : 'pie'
     },
@@ -16,7 +16,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["Unanimidad", 28]
+           ["Unanimidad", 31]
         ],
         type : 'pie'
     },
@@ -30,7 +30,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["Unanimidad", 28]
+           ["Unanimidad", 31]
         ],
         type : 'pie'
     },
@@ -75,7 +75,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["Unanimidad", 28]
+           ["Unanimidad", 31]
         ],
         type : 'pie'
     },
