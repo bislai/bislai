@@ -366,6 +366,11 @@ body {
   margin: 0 auto;
 }
 
+.maw-60 {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
 .w-0 {
   width: 0;
 }
