@@ -1,8 +1,23 @@
-//Mocion 13
+//Mocion 2
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor: PP + PSOE + C'S", 19],
+           ["A favor: PP + PSOE + C'S + CHA", 21],
+           ["Abstención: ZEC", 9]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32', '#a9a5a5']
+    },
+     bindto: '#mocion2'
+});
+
+//Mocion 3
+var primera = c3.generate({
+    data: {
+        columns: [
+           ["A favor: PP + PSOE + C'S", 20],
            ["En contra: ZEC + CHA", 11]
         ],
         type : 'pie'
@@ -10,10 +25,10 @@ var primera = c3.generate({
     color: {
       pattern: ['#55AF32', '#C56159']
     },
-     bindto: '#mocion13'
+     bindto: '#mocion3'
 });
 
-//Mocion 14
+//Mocion 4
 var primera = c3.generate({
     data: {
         columns: [
@@ -24,21 +39,166 @@ var primera = c3.generate({
     color: {
       pattern: ['#55AF32', '#C56159']
     },
-     bindto: '#mocion14'
+     bindto: '#mocion4'
 });
 
-//Moción 14-2
+//Mocion 5
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: ZEC + PSOE + C'S", 19],
-            ["En contra: CHA", 2],
-            ["Abstención: PP", 9]
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32', '#C56159']
+    },
+     bindto: '#mocion5'
+});
+
+//Moción 5-2
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: PP + PSOE", 16],
+            ["En contra: ZEC", 9],
+            ["Abstención: C'S + CHA", 6]
         ],
         type : 'pie'
     },
     color: {
       pattern: ['#55AF32', '#C56159', '#a9a5a5']
     },
-     bindto: '#mocion14-2'
+     bindto: '#mocion5-2'
+});
+
+//Mocion 6
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion6'
+});
+
+//Mocion 7
+var primera = c3.generate({
+    data: {
+        columns: [
+           ["A favor: ZEC + C'S + CHA", 14],
+           ["En contra: PP + PSOE", 16]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32', '#C56159']
+    },
+     bindto: '#mocion7-1'
+});
+
+//Moción 7-2
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: PP + PSOE", 16],
+            ["En contra: ZEC + C'S", 11],
+            ["Abstención: CHA", 2]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32', '#C56159', '#a9a5a5']
+    },
+     bindto: '#mocion7-2'
+});
+
+//Mocion 8
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion8'
+});
+
+//Mocion 9
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion9'
+});
+
+//Moción 10
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: ZEC + CHA", 11],
+            ["En contra: PP + C'S", 13],
+            ["Abstención: PSOE", 6]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32', '#C56159', '#a9a5a5']
+    },
+     bindto: '#mocion10'
+});
+
+//Mocion 11
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion11'
+});
+
+//Mocion 12
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion12'
+});
+
+//Mocion 13
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#55AF32']
+    },
+     bindto: '#mocion13'
 });
