@@ -8,7 +8,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion13'
 });
@@ -22,7 +22,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion14'
 });
@@ -38,7 +38,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159', '#a9a5a5']
+      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
      bindto: '#mocion14-2'
 });

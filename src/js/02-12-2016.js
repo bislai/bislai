@@ -8,7 +8,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion24'
 });
@@ -24,7 +24,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion24-2'
 });
@@ -39,7 +39,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion24-3'
 });
@@ -53,7 +53,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32']
+      pattern: ['#209F69']
     },
      bindto: '#mocion25'
 });
@@ -67,7 +67,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32']
+      pattern: ['#209F69']
     },
      bindto: '#mocion26'
 });
@@ -82,7 +82,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion28'
 });
@@ -98,7 +98,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159', '#a9a5a5']
+      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
      bindto: '#mocion28-2'
 });
@@ -113,7 +113,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     },
      bindto: '#mocion30'
 });
@@ -128,7 +128,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#a9a5a5']
+      pattern: ['#209F69', '#D7E4E4']
     },
      bindto: '#mocion31'
 });
@@ -142,7 +142,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32']
+      pattern: ['#209F69']
     },
      bindto: '#mocion31-2'
 });
@@ -157,7 +157,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#a9a5a5']
+      pattern: ['#209F69', '#D7E4E4']
     },
      bindto: '#mocion31-3'
 });
@@ -171,7 +171,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32']
+      pattern: ['#209F69']
     },
      bindto: '#mocion31-4'
 });
@@ -186,7 +186,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32']
+      pattern: ['#209F69']
     },
      bindto: '#mocion31-5'
 });
@@ -202,7 +202,7 @@ var primera = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159', '#a9a5a5']
+      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
      bindto: '#mocion32'
 });

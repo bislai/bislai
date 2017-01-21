@@ -118,6 +118,6 @@ var chart = c3.generate({
         type : 'pie'
     },
     color: {
-      pattern: ['#55AF32', '#C56159']
+      pattern: ['#209F69', '#D01F2E']
     }
 });
