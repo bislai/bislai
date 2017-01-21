@@ -37,7 +37,3 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
-
-.c3-chart-arc path {
-    stroke: #6d6c6c !important;
-}
