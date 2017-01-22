@@ -6,6 +6,10 @@
   background-color: var(--cruise);
 }
 
+.grey {
+  background-color: var(--grey);
+}
+
 .cruise2 {
   background-color: var(--cruise2);
 }

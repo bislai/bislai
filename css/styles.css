@@ -416,7 +416,11 @@ body {
 }
 
 .cruise {
-  background-color: rgba(185, 238, 230,.3);
+  background-color: var(--cruise);
+}
+
+.grey {
+  background-color: #efefef;
 }
 
 .cruise2 {
@@ -610,7 +614,7 @@ body {
 }
 
 .borderc-grey {
-  border-color: #ccc;
+  border-color: #efefef;
 }
 
 .border-l2 {
