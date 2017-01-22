@@ -336,6 +336,11 @@ body {
     font-weight: bold !important;
 }
 
+canvas {
+  width: 400px !important;
+  height: 400px !important;
+}
+
 .btn-share {
   font-size: 1rem;
 
