@@ -10,6 +10,10 @@
   background-color: var(--grey);
 }
 
+.bgc-white {
+  background-color: var(--white);
+}
+
 .cruise2 {
   background-color: var(--cruise2);
 }

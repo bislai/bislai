@@ -428,6 +428,10 @@ canvas {
   background-color: #efefef;
 }
 
+.bgc-white {
+  background-color: #fff;
+}
+
 .cruise2 {
   background-color: #def7f2;
 }
@@ -490,6 +494,10 @@ canvas {
 
 .font-1 {
   font-size: 1rem;
+}
+
+.font-1-5 {
+  font-size: 1.5rem;
 }
 
 .font-2 {
@@ -586,6 +594,10 @@ canvas {
   padding: 1rem;
 }
 
+.padding-0-5 {
+  padding: .5rem;
+}
+
 .padding-1-0 {
   padding: 1rem 0;
 }
@@ -598,6 +610,10 @@ canvas {
   padding: 2rem 0;
 }
 
+.padding-l-n {
+  padding-left: 0;
+}
+
 .border-b1 {
   border-bottom: 1px solid;
 }
@@ -606,12 +622,24 @@ canvas {
   border-top: 1px solid;
 }
 
+.border-r1 {
+  border-right: 1px solid;
+}
+
+.border-1 {
+  border: 1px solid;
+}
+
 .border1 {
   border: 1px solid;
 }
 
 .borderc-black {
   border-color: #121;
+}
+
+.borderc-greyc {
+  border-color: #efefef;
 }
 
 .borderc-rojo {

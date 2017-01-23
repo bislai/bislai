@@ -6,12 +6,24 @@
   border-top: 1px solid;
 }
 
+.border-r1 {
+  border-right: 1px solid;
+}
+
+.border-1 {
+  border: 1px solid;
+}
+
 .border1 {
   border: 1px solid;
 }
 
 .borderc-black {
   border-color: var(--black);
+}
+
+.borderc-greyc {
+  border-color: var(--greyc);
 }
 
 .borderc-rojo {

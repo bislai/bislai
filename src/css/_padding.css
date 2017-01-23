@@ -18,6 +18,10 @@
   padding: 1rem;
 }
 
+.padding-0-5 {
+  padding: .5rem;
+}
+
 .padding-1-0 {
   padding: 1rem 0;
 }
@@ -28,4 +32,8 @@
 
 .padding-2-0 {
   padding: 2rem 0;
+}
+
+.padding-l-n {
+  padding-left: 0;
 }
