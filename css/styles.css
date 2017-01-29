@@ -342,7 +342,7 @@ canvas {
 }
 
 .btn-share {
-  font-size: 1rem;
+  font-size: 0.88rem;
 
   display: inline-block;
 
@@ -355,11 +355,23 @@ canvas {
 }
 
 .btn-share-facebook {
+  border: 1px solid #3B5998;
   background-color: #3B5998;
 }
 
+.btn-share-facebook:hover {
+  color: #3B5998;
+  background-color: #fff;
+}
+
 .btn-share-twitter {
+  border: 1px solid #00ACEE;
   background-color: #00ACEE;
+}
+
+.btn-share-twitter:hover {
+  color: #00ACEE;
+  background-color: #fff;
 }
 
 .maw-70 {
@@ -418,10 +430,6 @@ canvas {
 
 .black {
   color: #121;
-}
-
-.cruise {
-  background-color: var(--cruise);
 }
 
 .grey {
