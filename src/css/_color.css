@@ -6,6 +6,10 @@
   background-color: var(--grey);
 }
 
+.resto {
+  background-color: var(--resto);
+}
+
 .bgc-white {
   background-color: var(--white);
 }
