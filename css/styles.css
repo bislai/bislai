@@ -460,6 +460,10 @@ canvas {
   margin: 0 auto;
 }
 
+.w-1-5re {
+  width: 1.5rem;
+}
+
 .w-0 {
   width: 0;
 }
@@ -506,6 +510,22 @@ canvas {
 
 .black {
   color: #121;
+}
+
+.bgc-mint {
+  background-color: #44AB87;
+}
+
+.night-rider {
+  color: #431729;
+}
+
+.bgc-french-grey {
+  background-color: #E1DCE3;
+}
+
+.bunting {
+  color: #271764;
 }
 
 .grey {

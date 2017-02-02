@@ -2,6 +2,22 @@
   color: var(--black);
 }
 
+.bgc-mint {
+  background-color: var(--mint);
+}
+
+.night-rider {
+  color: var(--nightRider);
+}
+
+.bgc-french-grey {
+  background-color: var(--frenchGrey);
+}
+
+.bunting {
+  color: var(--bunting);
+}
+
 .grey {
   background-color: var(--grey);
 }
