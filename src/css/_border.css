@@ -34,6 +34,14 @@
   border-color: var(--grey);
 }
 
+.borderc-french-grey {
+  border-color: var(--frenchGrey);
+}
+
+.borderc-mint {
+  border-color: var(--mint);
+}
+
 .border-l2 {
   border-left: 2px solid;
 }

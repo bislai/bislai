@@ -702,6 +702,10 @@ canvas {
   padding: 1rem;
 }
 
+.padding-1-2 {
+  padding: 1rem 2rem;
+}
+
 .padding-0-5 {
   padding: .5rem;
 }
@@ -756,6 +760,14 @@ canvas {
 
 .borderc-grey {
   border-color: #efefef;
+}
+
+.borderc-french-grey {
+  border-color: #E1DCE3;
+}
+
+.borderc-mint {
+  border-color: #44AB87;
 }
 
 .border-l2 {
@@ -923,6 +935,12 @@ canvas {
 
 .clearfix:after {
   clear: both;
+}
+
+.ghost:hover,
+.ghost:focus {
+  border: 1px solid currentColor;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=styles.css.map */

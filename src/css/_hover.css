@@ -1,0 +1,5 @@
+.ghost:hover,
+.ghost:focus {
+  border: 1px solid currentColor;
+  background-color: transparent;
+}
