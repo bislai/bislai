@@ -304,6 +304,10 @@ body {
   line-height: 1.5;
 }
 
+.font-s {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .txt-color {
   color: #430e16;
 }
@@ -419,6 +423,235 @@ body {
 canvas {
   width: 400px !important;
   height: 400px !important;
+}
+
+/*
+Tipue Search 6.0
+Copyright (c) 2017 Tipue
+Tipue Search is released under the MIT License
+http://www.tipue.com/search
+*/
+
+/* fonts */
+
+#tipue_search_input, #tipue_search_foot_boxes
+{
+     font: 300 0.88rem/1 Roboto, sans-serif;
+}
+
+#tipue_search_results_count, #tipue_search_warning, .tipue_search_content_url, .tipue_search_content_debug, .tipue_search_related_text
+{
+     font: 300 0.88rem/1.7 Roboto, sans-serif;
+}
+
+.tipue_search_content_title
+{
+     font: 100 1.63rem/1.7 Roboto, sans-serif;
+}
+
+.tipue_search_content_text, .tipue_search_related_title
+{
+     font: 300 0.94rem/1.7 Roboto, sans-serif;
+}
+
+.tipue_search_content_bold, .tipue_search_related_bold
+{
+     font-weight: 400;
+}
+
+/* search box */
+
+#tipue_search_input
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+
+     max-width: 210px;
+  margin: 0;
+  padding: 1.06rem;
+
+     color: #333;
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
+  outline: 0;
+}
+
+.tipue_search_icon
+{
+     width: 24px;
+     height: 24px;
+}
+
+.tipue_search_left
+{
+     float: left;
+
+     padding: 0.94rem 0.56rem 0 0;
+}
+
+.tipue_search_right
+{
+     float: left;
+}
+
+/* search results */
+
+#tipue_search_content
+{
+     max-width: 750px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+#tipue_search_results_count
+{
+  color: #333;
+}
+
+#tipue_search_warning
+{
+  margin: 0.44rem 0;
+
+     color: #333;
+}
+
+#tipue_search_warning a
+{
+     text-decoration: none;
+
+     color: #5396ea;
+}
+
+#tipue_search_warning a:hover
+{
+     color: #555;
+}
+
+.tipue_search_content_title
+{
+  margin-top: 21px;
+
+     color: #666;
+}
+
+.tipue_search_content_title a
+{
+     text-decoration: none;
+
+     color: #666;
+}
+
+.tipue_search_content_title a:hover
+{
+     color: #666;
+}
+
+.tipue_search_content_url
+{
+     word-wrap: break-word;
+     hyphens: auto;
+}
+
+.tipue_search_content_url a, .tipue_search_related_text a
+{
+     text-decoration: none;
+
+     color: #5396ea;
+}
+
+.tipue_search_content_url a:hover, .tipue_search_related_text a:hover, .tipue_search_related_before, .tipue_search_related_after
+{
+     color: #555;
+}
+
+.tipue_search_content_text
+{
+     margin-top: 5px;
+
+     word-wrap: break-word;
+     hyphens: auto;
+
+  color: #333;
+}
+
+.tipue_search_content_bold
+{
+     color: #333;
+}
+
+.tipue_search_content_debug
+{
+     margin: 0.31rem 0;
+
+  color: #333;
+}
+
+.tipue_search_related_title
+{
+     margin: 1.63rem 0 0.44rem 0;
+
+  color: #333;
+}
+
+.tipue_search_related_cols
+{
+     -webkit-columns: 230px 2;
+     -moz-columns: 230px 2;
+     columns: 230px 2;
+}
+
+#tipue_search_foot
+{
+     margin: 3.19rem 0 1.31rem 0;
+}
+
+#tipue_search_foot_boxes
+{
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+#tipue_search_foot_boxes li
+{
+  display: inline;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+#tipue_search_foot_boxes li a
+{
+  margin-right: 7px;
+  padding: 0.63rem 1.06rem 0.69rem 1.06rem;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #333;
+     border: 1px solid #e3e3e3;
+     border-radius: 1px;
+     background-color: #fff;
+}
+
+#tipue_search_foot_boxes li.current
+{
+  margin-right: 7px;
+  padding: 0.63rem 1.06rem 0.69rem 1.06rem;
+
+  text-align: center;
+
+  color: #333;
+     border: 1px solid #e3e3e3;
+     border-radius: 1px;
+     background: #f6f6f6;
+}
+
+#tipue_search_foot_boxes li a:hover
+{
+     background: #f6f6f6;
 }
 
 .btn-share {
