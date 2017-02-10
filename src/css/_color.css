@@ -2,6 +2,10 @@
   color: var(--black);
 }
 
+.transparent {
+  background-color: transparent;
+}
+
 .bgc-mint {
   background-color: var(--mint);
 }
