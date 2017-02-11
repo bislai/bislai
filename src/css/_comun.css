@@ -291,6 +291,7 @@ http://www.tipue.com/search
   padding: 17px;
   outline: 0;
   margin: 0;
+  height: 60px;
   font-family: var(--fontSystem);
 }
 
@@ -412,7 +413,7 @@ http://www.tipue.com/search
 }
 
 #tipue_search_foot_boxes li a {
-  padding: 10px 17px 11px 17px;
+  padding: 10px 17px 11px;
   background-color: #fff;
   border: 1px solid #e3e3e3;
   border-radius: 1px;
@@ -423,7 +424,7 @@ http://www.tipue.com/search
 }
 
 #tipue_search_foot_boxes li.current {
-  padding: 10px 17px 11px 17px;
+  padding: 10px 17px 11px;
   background: #f6f6f6;
   border: 1px solid #e3e3e3;
   border-radius: 1px;
@@ -438,7 +439,7 @@ http://www.tipue.com/search
 
 .btn-search {
   width: 50px;
-  height: 53px;
+  height: 60px;
   border: 1px solid #1B305F;
   cursor: pointer;
   margin-left: -6px;
