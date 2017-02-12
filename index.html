@@ -22,7 +22,8 @@
     </header>
     <div class="w-100 border-b1 borderc-grey padding-1">
       <nav class="maw-60">
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ESTADÍSTICAS</a>
+          <a class="pfont-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ESTADÍSTICAS</a>
+          <a id="buscador" class="pfont-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">BUSCADOR</a>
           <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">PP</a>
           <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ZEC</a>
           <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">PSOE</a>
@@ -30,17 +31,7 @@
           <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">CHA</a>
       </nav>
     </div>
-    <div class="w-100 border-b1 borderc-grey padding-1">
-      <nav class="maw-60">
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ESTADÍSTICAS</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">PP</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ZEC</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">PSOE</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">C'S</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">CHA</a>
-      </nav>
-    </div>
-    <div class="border-b1 borderc-grey w-100 padding-2-0 grey container-buscador-js">
+    <div class="border-b1 borderc-grey w-100 padding-2-0 grey containerBuscador">
       <div class="maw-60 pos-r">
         <form class="w-60" action="buscador.html">
           <input class="w-60 padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
@@ -92,7 +83,7 @@
           <span class="black  font-w8">10.83%</span>
           </div>
 
-      </article>
+    </article>
       </div>
 
 
@@ -131,5 +122,28 @@
       </footer>
     <script type="text/javascript" src="js/mo.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+
+      function appendClass(element, newClass){
+        if (element.className.length == 0) {
+          element.className = newClass;
+        }
+        else if (element.className.indexOf(newClass) < 0) {
+          element.className += ' ' + newClass;
+        }
+      }
+
+
+      function click(){
+        var btnBuscador = document.querySelector("#buscador");
+        var containerBuscador = document.querySelector(".containerBuscador");
+        btnBuscador.onclick = function(e){
+          appendClass(containerBuscador, "desplegado")
+        }
+      }
+
+      click();
+
+    </script>
 </body>
 </html>

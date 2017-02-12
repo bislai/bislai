@@ -450,3 +450,11 @@ http://www.tipue.com/search
     }
   }
 }
+
+.containerBuscador {
+  display: none;
+}
+
+.desplegado {
+  display: block;
+}

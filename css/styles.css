@@ -778,6 +778,14 @@ http://www.tipue.com/search
   fill: #fff;
 }
 
+.containerBuscador {
+  display: none;
+}
+
+.desplegado {
+  display: block;
+}
+
 .btn-share {
   font-size: 0.88rem;
 
