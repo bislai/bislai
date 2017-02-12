@@ -2,6 +2,14 @@
   color: var(--black);
 }
 
+.bgc-celery {
+  background-color: var(--celery);
+}
+
+.luckyPoint {
+  color: var(--luckyPoint);
+}
+
 .transparent {
   background-color: transparent;
 }

@@ -885,6 +885,14 @@ http://www.tipue.com/search
   color: #121;
 }
 
+.bgc-celery {
+  background-color: #A5CC5F;
+}
+
+.luckyPoint {
+  color: var(--luckyPoint);
+}
+
 .transparent {
   background-color: transparent;
 }
