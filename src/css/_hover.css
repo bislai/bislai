@@ -3,3 +3,8 @@
   border: 1px solid currentColor;
   background-color: transparent;
 }
+
+.underline:hover,
+.underline:focus {
+  text-decoration: underline;
+}
