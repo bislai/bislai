@@ -92,9 +92,11 @@ new mojs.Tween({
     }
 }).play();
 
-//Javascript puro para añadir un clase con un click sin soporte para IE9
-[].forEach.call(document.querySelector('#buscador'), function(el) {
-    el.addEventListener('click', function() {
-        document.querySelector('.prueba').classList.add('wrap');
-    }, false);
-});
+// //Javascript puro para añadir un clase con un click sin soporte para IE9
+// [].forEach.call(document.querySelector('#buscador'), function(el) {
+//     el.addEventListener('click', function() {
+//         document.querySelector('.prueba').classList.add('wrap');
+//     }, false);
+// });
+
+
