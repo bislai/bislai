@@ -1071,6 +1071,10 @@ http://www.tipue.com/search
   padding-right: 1rem;
 }
 
+.padding-r1-5 {
+  padding-right: 1.5rem;
+}
+
 .padding-1 {
   padding: 1rem;
 }
@@ -1330,6 +1334,27 @@ http://www.tipue.com/search
 .ghost:focus {
   border: 1px solid currentColor;
   background-color: transparent;
+}
+
+.underline:hover,
+.underline:focus {
+  text-decoration: underline;
+}
+
+.letter-0-12 {
+  letter-spacing: .125rem;
+}
+
+.letter-0-25 {
+  letter-spacing: .25rem;
+}
+
+.letter-0-5 {
+  letter-spacing: .5rem;
+}
+
+.letter-1 {
+  letter-spacing: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
