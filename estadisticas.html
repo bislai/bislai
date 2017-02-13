@@ -12,7 +12,7 @@
 
 <body>
     <header class="font-0 border-b1 borderc-grey w-100">
-          <div class="maw-70">
+          <div class="maw-60">
             <a href="http://bislai.co" class="w-50 textd-n  black  font-3  margin-y0  bold display-ib vertical-am font-w8">Bislai</a>
             <div class="w-50 display-ib texta-r">
               <a href="http://twitter.com/debislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">Twitter</a>
@@ -43,41 +43,17 @@
     ¿Quién vota más en contra?
     ¿Quién vota más a favor?
 
-    <article id="lanzando" style="margin-top: 200vh;" class="margin-y1 display-ib  w-100">
-        <h4 class="margin-y0">Resultados de las elecciones al Ayuntamiento de Zaragoza 2015</h2>
-          <div class="display-b w-100">
-            <a href="partidos/pp.html" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">PP</a>
-            <div id="pp" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  bgc-pp  margin-r1"></div>
-            <span class="black  font-w8">26.88 % · 10 concejales</span>
-          </div>
-          <div class="display-b w-100">
-          <a href="partidos/zec.html" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">ZEC</a>
-          <div id="zec" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  bgc-zec  margin-r1"></div>
-          <span class="black  font-w8">24.57 % · 9 concejales</span>
-          </div>
-          <div class="display-b w-100">
-          <a href="partidos/psoe.html" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">PSOE</a>
-          <div id="psoe" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  bgc-psoe  margin-r1"></div>
-          <span class="black  font-w8">18.65 % · 6 concejales</span>
-          </div>
-          <div class="display-b w-100">
-          <a href="partidos/cs.html" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">C'S</a>
-          <div id="cs" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  bgc-cs  margin-r1"></div>
-          <span class="black  font-w8">12.29% · 4 concejales</span>
-          </div>
-          <div class="display-b w-100">
-          <a href="partidos/cha.html" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">CHA</a>
-          <div id="cha" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  bgc-cha  margin-r1"></div>
-          <span class="black  font-w8">6.78% · 2 concejales</span>
-          </div>
+    <section id="lanzando" class="w-100 h-100vh grey">
+      <article class="maw-60 h-100p vertical-am font-0">
+        <div class="estadisticas w-70 vertical-am display-ib font-1">
+          <canvas id="myChart" width="400" height="400"></canvas>
 
-          <div class="display-b w-100">
-          <a href="#" class="display-ib  margin-t1  w-10  textd-n  black  font-w8  padding-1" href="#">RESTO</a>
-          <div id="resto" class="border-l2  borderc-black  w-0  h-3  vertical-am  display-ib  resto  margin-r1"></div>
-          <span class="black  font-w8">10.83%</span>
-          </div>
-
-    </article>
+        </div>
+        <div class="texto w-30 vertical-am display-ib font-1">
+          Hola que pasa que tal mira mi coche de moda
+        </div>
+      </article>
+    </section>
 
 
       <footer class="padding-1-0 borderc-grey border-t1 bgc-celery">
@@ -85,6 +61,7 @@
       </footer>
     <script type="text/javascript" src="js/mo.min.js"></script>
     <script type="text/javascript" src="js/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="js/Chart.min.js"></script>
     <script type="text/javascript" src="js/estadisticas.js"></script>
 </body>
 </html>
