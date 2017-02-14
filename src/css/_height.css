@@ -18,8 +18,12 @@
   height: 24rem;
 }
 
+.mih-100 {
+  min-height: 100vh;
+}
+
 .mih-custom {
-  min-height: calc(100vh - 290px);
+  min-height: calc(100vh - 319px)
 }
 
 .h-100p {

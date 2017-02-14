@@ -549,10 +549,10 @@ body {
   font-weight: bold !important;
 }
 
-canvas {
+/*canvas {
   width: 400px !important;
   height: 400px !important;
-}
+}*/
 
 /*
 Tipue Search 6.0
@@ -1243,8 +1243,12 @@ http://www.tipue.com/search
   height: 24rem;
 }
 
+.mih-100 {
+  min-height: 100vh;
+}
+
 .mih-custom {
-  min-height: calc(100vh - 290px);
+  min-height: calc(100vh - 319px)
 }
 
 .h-100p {
