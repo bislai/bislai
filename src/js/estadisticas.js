@@ -200,7 +200,7 @@ function perdidoChart() {
 
 function ganadoChart() {
 
-  var ctx = document.getElementById("perdido-mociones-chart");
+  var ctx = document.getElementById("ganado-mociones-chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -250,7 +250,7 @@ function ganadoChart() {
 
 function abstenidoChart() {
 
-  var ctx = document.getElementById("perdido-mociones-chart");
+  var ctx = document.getElementById("abstencion-mociones-chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -300,7 +300,7 @@ function abstenidoChart() {
 
 function encontraChart() {
 
-  var ctx = document.getElementById("perdido-mociones-chart");
+  var ctx = document.getElementById("en-contra-mociones-chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -350,7 +350,7 @@ function encontraChart() {
 
 function afavorChart() {
 
-  var ctx = document.getElementById("perdido-mociones-chart");
+  var ctx = document.getElementById("a-favor-mociones-chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -432,6 +432,19 @@ new ScrollMagic.Scene({
     .setPin("#mas-mociones")
     .addTo(controller)
     .on("enter", masMocionesChart);
+
+
+var perdidoMociones = document.getElementById('perdido-mociones');
+var perdidoMocionesDimension = perdidoMociones.getBoundingClientRect();
+var perdidoMocionesTop = perdidoMocionesDimension.top - 50;
+
+new ScrollMagic.Scene({
+        duration: 200,
+        offset: perdidoMocionesTop
+    })
+    .setPin("#perdido-mociones")
+    .addTo(controller)
+    .on("enter", perdidoMocionesChart);
 
 
 var ganadoMociones = document.getElementById('ganado-mociones');
