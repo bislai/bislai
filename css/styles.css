@@ -1259,6 +1259,10 @@ http://www.tipue.com/search
   height: 100vh;
 }
 
+.h-50vh {
+  height: 50vh;
+}
+
 .pos-r {
   position: relative;
 }
