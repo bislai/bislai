@@ -1133,4 +1133,57 @@ Mocion 30
 
 
 
-# Resultados
+# Resultados de todas las Votaciones
+
+Estos datos estan realizados con las votaciones de los plenos del año 2015 y 2016
+
+
+Votaciones = 282
+
+Unanimidad 104
+
+PP + PSOE + C'S = 30
+
+ZEC + PSOE + CHA = 26
+
+PP + C'S = 23
+
+PP + PSOE = 9
+
+PP + ZEC = 2
+
+PP + CHA = 1
+
+ZEC + PSOE = 2
+
+ZEC + CHA = 34
+
+ZEC + C'S = 6
+
+ZEC + PSOE + C'S = 8
+
+ZEC + PSOE + C'S + CHA = 20
+
+PP + PSOE + C'S + CHA = 23 
+
+C'S + CHA = 3
+
+PSOE + C'S = 7
+
+PSOE + CHA = 5
+
+PP = 56
+
+CHA = 23
+
+ZEC = 40
+
+PSOE = 6
+
+C'S = 17
+
+PSOE + C'S + CHA = 2
+
+
+
+
