@@ -444,7 +444,7 @@ new ScrollMagic.Scene({
     })
     .setPin("#perdido-mociones")
     .addTo(controller)
-    .on("enter", perdidoMocionesChart);
+    .on("enter", perdidoChart);
 
 
 var ganadoMociones = document.getElementById('ganado-mociones');
