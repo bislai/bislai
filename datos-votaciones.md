@@ -7,7 +7,7 @@ Votacion
 ["Unanimidad", 31]
 
 Votacion 
-["A favor: PP + ZEC + PSOE + C'S", 25],
+["A favor: PP + ZEC + PSOE + CHA", 25],
 ["Abstención: C'S", 4]
 
 Votacion 
@@ -89,7 +89,7 @@ Votacion
 
 Votacion
 ["A favor: ZEC + CHA", 11],
-["En contra: PP + PSOE + C'S ", 20]
+["En contra: PP + PSOE + C'S", 20]
 
 Votacion
 ["Unanimidad", 31]
@@ -100,7 +100,7 @@ Votacion
 ["Abstención: C'S", 4]
 
 Votacion
-["A favor: ZEC  + PSOE + C'S + CHA", 21],
+["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra: PP", 10]
 
 Votacion
@@ -123,7 +123,7 @@ Votacion
 
 Votacion
 ["A favor: PP", 10],
-["En contra: ZEC  + PSOE + C'S + CHA", 21]
+["En contra: ZEC + PSOE + C'S + CHA", 21]
 
 ## 30-10-2015
 
@@ -171,7 +171,7 @@ Votacion
 ["Unanimidad", 31]
 
 Votacion
-["A favor: PP ", 10],
+["A favor: PP", 10],
 ["En contra: ZEC + PSOE + C'S + CHA", 21]
 
 Votacion
@@ -179,7 +179,7 @@ Votacion
 
 Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
+["En contra: PP", 10]
 
 Votacion
 ["Unanimidad", 31]
@@ -189,11 +189,11 @@ Votacion
 
 Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
+["En contra: PP", 10]
 
 Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 20],
-["En contra:  PP", 10]
+["En contra: PP", 10]
 
 Votacion
 ["A favor: PP + PSOE + CHA", 18],
@@ -201,8 +201,8 @@ Votacion
 ["Abstención: C'S", 4]
 
 Votacion
-["A favor:ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
+["A favor: ZEC + PSOE + C'S + CHA", 21],
+["En contra: PP", 10]
 
 Votacion
 ["A favor: ZEC + C'S + CHA", 15],
@@ -316,12 +316,12 @@ Votacion
 ["Unanimidad", 31]
 
 Votacion
-["A favor:  ZEC + PSOE + CHA", 17],
+["A favor: ZEC + PSOE + CHA", 17],
 ["En contra: PP", 10],
 ["Abstención: C'S", 4]
 
 Votacion
-["A favor:  PSOE", 6],
+["A favor: PSOE", 6],
 ["En contra: PP + C'S", 14],
 ["Abstención: ZEC + CHA", 11]
 
@@ -352,27 +352,27 @@ Votacion
 ["Abstención: PSOE + C'S", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
-["A favor: PP + ZEC + PSOE + CHA", 21],
+["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
 
 Votacion
@@ -659,12 +659,12 @@ Votacion
 
 Votacion
 ["A favor: ZEC + PSOE + C'S", 16],
-["En contra: PP ", 9],
+["En contra: PP", 9],
 ["Abstención: CHA", 2]
 
 Votacion
 ["A favor: PP + PSOE + C'S", 19],
-["En contra: ZEC ", 8],
+["En contra: ZEC", 8],
 ["Abstención: CHA", 2]
 
 Votacion
@@ -675,7 +675,7 @@ Votacion
 
 Votacion
 ["A favor: PP + PSOE + C'S", 19],
-["En contra: ZEC ", 8],
+["En contra: ZEC", 8],
 ["Abstención: CHA", 2]
 
 Votacion
@@ -683,7 +683,7 @@ Votacion
 
 Votacion
 ["A favor: ZEC + PSOE + CHA", 15],
-["En contra: PP ", 8],
+["En contra: PP", 8],
 ["Abstención: C'S", 4]
 
 ## 1-07-2016
@@ -730,7 +730,7 @@ Votacion
 Votacion
 ["A favor: ZEC + CHA", 10],
 ["En contra: PP + PSOE", 16],
-["Abstención: C'S ", 4]
+["Abstención: C'S", 4]
 
 
 ## 22-07-2016
@@ -938,7 +938,7 @@ Votacion
 ["Unanimidad", 31]
 
 Votacion
-["A favor: PP + PSOE + C'S ", 19],
+["A favor: PP + PSOE + C'S", 19],
 ["Abstención: ZEC + CHA", 11]
 
 Votacion
@@ -979,11 +979,11 @@ Votacion
 
 Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 19],
-["En contra: PP ", 9]
+["En contra: PP", 9]
 
 Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 19],
-["En contra: PP ", 9]
+["En contra: PP", 9]
 
 Votacion
 ["unanimidad", 30]
@@ -993,7 +993,7 @@ Votacion
 
 Votacion
 ["A favor: PP + C'S", 13],
-["En contra: ZEC + PSOE + CHA ", 16]
+["En contra: ZEC + PSOE + CHA", 16]
 
 Votacion
 ["A favor: PP + C'S", 13],
@@ -1098,47 +1098,47 @@ Votaciones = 274
 
 Unanimidad = 103
 
-PP + PSOE + C'S =
+PP + PSOE + C'S = 31
 
-ZEC + PSOE + CHA =
+ZEC + PSOE + CHA = 29
 
-PP + C'S =
+PP + C'S = 24
 
-PP + PSOE =
+PP + PSOE = 9
 
-PP + ZEC =
+PP + ZEC = 2
 
-PP + CHA =
+PP + CHA = 1
 
-ZEC + PSOE =
+ZEC + PSOE = 3
 
-ZEC + CHA =
+ZEC + CHA = 35
 
-ZEC + C'S =
+ZEC + C'S = 6
 
-ZEC + PSOE + C'S =
+ZEC + PSOE + C'S = 7
 
-ZEC + PSOE + C'S + CHA =
+ZEC + PSOE + C'S + CHA = 27
 
-PP + PSOE + C'S + CHA =
+PP + PSOE + C'S + CHA = 24
 
-C'S + CHA =
+C'S + CHA = 3
 
-PSOE + C'S =
+PSOE + C'S = 7
 
-PSOE + CHA =
+PSOE + CHA = 4
 
-PP =
+PP = 62
 
-CHA =
+CHA = 20
 
-ZEC =
+ZEC = 44
 
-PSOE =
+PSOE = 10
 
-C'S =
+C'S = 18
 
-PSOE + C'S + CHA =
+PSOE + C'S + CHA = 2
 
 
 
