@@ -199,7 +199,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor: PP + PSOE + CHA + C'S", 22],
+           ["A favor: PP + PSOE + CHA + C'S", 21],
            ["Abstención: ZEC", 9]
         ],
         type : 'pie'

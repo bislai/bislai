@@ -206,7 +206,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor:ZEC + PSOE + C'S + CHA", 21],
+           ["A favor: ZEC + PSOE + C'S + CHA", 21],
            ["En contra:  PP", 10]
         ],
         type : 'pie'
@@ -249,7 +249,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor:ZEC + PSOE + C'S + CHA", 21],
+           ["A favor: ZEC + PSOE + C'S + CHA", 21],
            ["En contra:  PP", 10]
         ],
         type : 'pie'
@@ -264,7 +264,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor:ZEC + PSOE + C'S + CHA", 20],
+           ["A favor: ZEC + PSOE + C'S + CHA", 20],
            ["En contra:  PP", 10]
         ],
         type : 'pie'
@@ -279,7 +279,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: PP + PSOE + CHA", 19],
+            ["A favor: PP + PSOE + CHA", 18],
             ["En contra: ZEC", 9],
             ["Abstención: C'S", 4]
         ],
