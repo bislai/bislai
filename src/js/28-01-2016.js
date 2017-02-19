@@ -147,7 +147,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: ZEC + PSOE + CHA", 19],
+            ["A favor: ZEC + PSOE + CHA", 17],
             ["En contra: PP", 9],
             ["Abstención: C'S", 4]
         ],
@@ -208,7 +208,7 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: ZEC + PSOE + CHA", 19],
+            ["A favor: ZEC + PSOE + CHA", 17],
             ["En contra: PP", 9],
             ["Abstención: C'S", 4]
         ],
@@ -281,7 +281,7 @@ var primera = c3.generate({
      bindto: '#mocion12-2'
 });
 
-//Mocion 12-1
+//Mocion 12-3
 var primera = c3.generate({
     data: {
         columns: [
