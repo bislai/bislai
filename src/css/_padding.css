@@ -45,3 +45,11 @@
 .padding-l-n {
   padding-left: 0;
 }
+
+.padding-l-10p {
+  padding-left: 10%;
+}
+
+.padding-r-10p {
+  padding-right: 10%;
+}

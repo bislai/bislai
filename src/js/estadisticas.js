@@ -22,7 +22,7 @@ function unanimidadChart() {
           labels: ["unanimidad", "disconformidad"],
           datasets: [{
               label: 'Unanimidad',
-              data: [50 , 30],
+              data: [37.59 , 62.41],
               backgroundColor: [
                   'rgba(32, 159, 105, 0.2)',
                   'rgba(255, 99, 132, 0.2)'
@@ -69,10 +69,10 @@ function repeticionChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
+          labels: ["PP + PSOE + C'S", "disconformidad"],
           datasets: [{
               label: 'Unanimidad',
-              data: [50 , 30],
+              data: [11.31 , 30],
               backgroundColor: [
                   'rgba(32, 159, 105, 0.2)',
                   'rgba(255, 99, 132, 0.2)'
