@@ -37,472 +37,378 @@ Votacion
 
 ## 02-10-2015
 
-
-Mocion 2
+Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 3
+Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra: PP", 10]
 
-Mocion 4
+Votacion
 ["Unanimidad", 31]
 
-Mocion 5
+Votacion
 ["Unanimidad", 31]
 
-Mocion 6
+Votacion
 ["Unanimidad", 31]
 
-Mocion 7
+Votacion
 ["Unanimidad", 31]
 
-Mocion 8
+Votacion
 ["Unanimidad", 31]
 
-Mocion 9
+Votacion
 ["A favor: PP + PSOE + C'S", 18],
 ["En contra: ZEC + CHA", 11]
 
-Mocion 10
+Votacion
 ["A favor: PP + C'S", 13],
 ["En contra: PSOE + ZEC + CHA", 16]
 
-Mocion 11
+Votacion
 ["A favor: PP + PSOE + C'S", 18],
 ["En contra: CHA", 2],
 ["Abstención: ZEC", 9]
 
-Mocion 12
+Votacion
 ["A favor: PP + PSOE + C'S", 18],
 ["En contra: CHA", 2],
 ["Abstención: ZEC", 9]
 
-Mocion 13
+Votacion
 ["A favor: PP + ZEC + PSOE + C'S", 27],
 ["Abstención: CHA", 2]
 
-Mocion 14
+Votacion
 ["A favor: PSOE + C'S", 9],
 ["En contra: PP + CHA", 11],
 ["Abstención: ZEC", 9]
 
-Mocion 15
+Votacion
 ["A favor: ZEC + CHA", 11],
 ["En contra: PP + PSOE + C'S ", 20]
 
-Mocion 16
+Votacion
 ["Unanimidad", 31]
 
-Mocion 17
+Votacion
 ["A favor: ZEC + PSOE + CHA", 17],
 ["En contra: PP", 10],
 ["Abstención: C'S", 4]
 
-Mocion 18
+Votacion
 ["A favor: ZEC  + PSOE + C'S + CHA", 21],
 ["En contra: PP", 10]
 
-Mocion 19
+Votacion
 ["Unanimidad", 31]
 
-Mocion 20
+Votacion
 ["Unanimidad", 31]
 
-Mocion 21
-["A favor: ZEC + PSOE + C'S + CHA", 27],
+Votacion
+["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 22
-["A favor: PP + PSOE + CHA", 17],
+Votacion
+["A favor: PP + PSOE + CHA", 18],
 ["En contra: ZEC", 9],
 ["Abstención: C'S", 4]
 
-Mocion 23
+Votacion
 ["Unanimidad", 31]
 
-Mocion 24
+Votacion
 ["A favor: PP", 10],
 ["En contra: ZEC  + PSOE + C'S + CHA", 21]
 
 ## 30-10-2015
 
-Mocion 2
+
+Votacion
 ["A favor: PP + PSOE + C'S + CHA", 22],
 ["En contra: ZEC", 9]
 
-Mocion 3
+Votacion
 ["A favor: PP", 10],
 ["En contra: ZEC + CHA", 11],
 ["Abstención: PSOE + C'S", 10]
 
-Mocion 4
+Votacion
 ["Unanimidad", 31]
 
-Mocion 5
+Votacion
 ["Unanimidad", 31]
 
-Mocion 6
+Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra: PP", 10]
 
-Mocion 7
+Votacion
 ["Unanimidad", 31]
 
-Mocion 8
+Votacion
 ["Unanimidad", 31]
 
-Mocion 9
+Votacion
 ["Unanimidad", 31]
 
-Mocion 10
+Votacion
 ["A favor: PP + C'S", 14],
 ["En contra: ZEC + PSOE + CHA", 17]
 
-Mocion 11
+Votacion
 ["A favor: PP + C'S", 14],
 ["En contra: ZEC + PSOE + CHA", 17]
 
-Mocion 12
+Votacion
 ["Unanimidad", 31]
 
-Mocion 13
+Votacion
 ["Unanimidad", 31]
 
-Mocion 14
+Votacion
 ["A favor: PP ", 10],
 ["En contra: ZEC + PSOE + C'S + CHA", 21]
 
-Mocion 15
+Votacion
 ["Unanimidad", 31]
 
-Mocion 16
-["A favor:ZEC + PSOE + C'S + CHA", 21],
+Votacion
+["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra:  PP", 10]
 
-Mocion 17
+Votacion
 ["Unanimidad", 31]
 
-Mocion 18
+Votacion
 ["Unanimidad", 31]
 
-Mocion 19
-["A favor:ZEC + PSOE + C'S + CHA", 21],
+Votacion
+["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra:  PP", 10]
 
-Mocion 20
-["A favor:ZEC + PSOE + C'S + CHA", 20],
+Votacion
+["A favor: ZEC + PSOE + C'S + CHA", 20],
 ["En contra:  PP", 10]
 
-Mocion 21
-["A favor: PP + PSOE + CHA", 19],
+Votacion
+["A favor: PP + PSOE + CHA", 18],
 ["En contra: ZEC", 9],
 ["Abstención: C'S", 4]
 
-Mocion 22
+Votacion
 ["A favor:ZEC + PSOE + C'S + CHA", 21],
 ["En contra:  PP", 10]
 
-Mocion 23
+Votacion
 ["A favor: ZEC + C'S + CHA", 15],
 ["En contra: PP", 10],
 ["Abstención: PSOE", 6]
 
-Mocion 24
+Votacion
 ["Unanimidad", 31]
 
-Mocion 25
+Votacion
 ["A favor: PSOE + CHA", 8],
 ["En contra: ZEC + C'S", 13],
 ["Abstención: PP", 10]
 
-Mocion 26
+Votacion
 ["Unanimidad", 31]
 
 ## 27-11-2015
 
-Mocion 2
+
+Votacion
 ["A favor: PP + C'S", 14],
 ["En contra: ZEC + PSOE + CHA", 17]
 
-Mocion 3
+Votacion
 ["A favor: PP", 10],
 ["En contra: ZEC + PSOE + CHA", 17],
 ["Abstención: C'S", 4]
 
-Mocion 4
+Votacion
 ["Unanimidad", 31]
 
-Mocion 5
+Votacion
 ["Unanimidad", 31]
 
-Mocion 6
+Votacion
 ["Unanimidad", 31]
 
-Mocion 7
+Votacion
 ["Unanimidad", 31]
 
-Mocion 8
+Votacion
 ["A favor: PP + PSOE + C'S + CHA", 22],
 ["En contra: ZEC", 9]
 
-Mocion 9
+Votacion
 ["A favor: PSOE + C'S + CHA", 12],
 ["En contra: PP", 10],
 ["Abstención: ZEC", 9]
 
-Mocion 10
+Votacion
 ["A favor: PP + C'S", 14],
 ["En contra: ZEC + PSOE + CHA", 17]
 
-Mocion 11
+Votacion
 ["A favor: PP", 10],
 ["En contra: ZEC + PSOE + C'S + CHA", 21]
 
-Mocion 12
+Votacion
 ["A favor: PP + C'S", 14],
 ["En contra: ZEC + PSOE + CHA", 17]
 
-Mocion 13
+Votacion
 ["Unanimidad", 31]
 
-Mocion 14
+Votacion
 ["Unanimidad", 31]
 
-Mocion 15
+Votacion
 ["Unanimidad", 31]
 
-Mocion 16
+Votacion
 ["Unanimidad", 31]
 
-Mocion 17
+Votacion
 ["Unanimidad", 31]
 
-Mocion 18
+Votacion
 ["Unanimidad", 31]
 
-Mocion 19
+Votacion
 ["A favor: PP + C'S + CHA", 16],
 ["Abstención: ZEC + PSOE", 15]
 
-Mocion 20
+Votacion
 ["Unanimidad", 31]
 
-Mocion 21
+Votacion
 ["A favor: C'S", 4],
 ["En contra: PP + PSOE + CHA", 18],
 ["Abstención: ZEC", 9]
 
-Mocion 22
+Votacion
 ["A favor: ZEC", 9],
 ["En contra: PP + PSOE + C'S", 20],
 ["Abstención: CHA", 2]
 
-Mocion 23
+Votacion
 ["A favor: ZEC + PSOE + C'S + CHA", 21],
 ["En contra: PP", 10]
 
-Mocion 24
+Votacion
 ["Unanimidad", 31]
 
-Mocion 25
+Votacion
 ["A favor: C'S", 4],
 ["En contra: ZEC + PSOE + CHA", 17],
 ["Abstención: PP", 10]
 
-Mocion 26
+Votacion
 ["Unanimidad", 31]
 
-Mocion 27
+Votacion
 ["A favor:  ZEC + PSOE + CHA", 17],
 ["En contra: PP", 10],
 ["Abstención: C'S", 4]
 
-Mocion 28
+Votacion
 ["A favor:  PSOE", 6],
 ["En contra: PP + C'S", 14],
 ["Abstención: ZEC + CHA", 11]
 
-Mocion 29
+Votacion
 ["Unanimidad", 31]
 
-Mocion 30
+Votacion
 ["A favor: PP + PSOE + C'S", 20],
 ["Abstención: ZEC + CHA", 10]
 
-Mocion 31
+Votacion
 ["A favor: PP + PSOE + C'S + CHA", 22],
 ["Abstención: ZEC", 8]
 
-Mocion 32
+Votacion
 ["A favor: PP + C'S", 12],
 ["En contra: ZEC + PSOE + CHA", 16]
 
-Mocion 33
+Votacion
 ["A favor: ZEC + C'S + CHA", 14],
 ["Abstención: PP + PSOE", 15]
 
 ## 23-12-2015
 
-Mocion 2
+Votacion
 ["A favor: ZEC + CHA", 11],
 ["En contra: PP", 10],
 ["Abstención: PSOE + C'S", 10]
 
-Mocion 3
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 4
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 5
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 6
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 7
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 8
+Votacion
 ["A favor: PP + ZEC + PSOE + CHA", 21],
 ["Abstención: PP", 10]
 
-Mocion 9
+Votacion
 ["Unanimidad", 31]
 
-Mocion 10
+Votacion
 ["A favor: PP", 10],
 ["En contra: ZEC + CHA", 11],
 ["Abstención: PSOE + C'S", 10]
 
-Mocion 11
+Votacion
 ["A favor: PP + PSOE + CHA + C'S", 22],
 ["Abstención: ZEC", 9]
 
-Mocion 12
+Votacion
 ["A favor: PP + ZEC", 19],
 ["En contra: PSOE + CHA", 8],
 ["Abstención: C'S", 4]
 
-Mocion 13
+Votacion
 ["A favor: PP + PSOE + C'S + CHA", 21],
 ["En contra: ZEC", 9]
 
-Mocion 14
+Votacion
 ["Unanimidad", 31]
 
-Mocion 15
-["A favor: PP + PSOE + CHA + C'S", 22],
+Votacion
+["A favor: PP + PSOE + CHA + C'S", 21],
 ["Abstención: ZEC", 9]
 
-Mocion 16
+Votacion
 ["Unanimidad", 31]
 
-Mocion 17
+Votacion
 ["A favor: ZEC + PSOE + CHA + C'S", 21],
 ["Abstención: PP", 10]
-
-## 30-10-2015
-
-Mocion 2
-["A favor: PP + PSOE + C'S + CHA", 22],
-["En contra: ZEC", 9]
-
-Mocion 3
-["A favor: PP", 10],
-["En contra: ZEC + CHA", 11],
-["Abstención: PSOE + C'S", 10]
-
-Mocion 4
-["Unanimidad", 31]
-
-Mocion 5
-["Unanimidad", 31]
-
-Mocion 6
-["A favor: ZEC + PSOE + C'S + CHA", 21],
-["En contra: PP", 10]
-
-Mocion 7
-["Unanimidad", 31]
-
-Mocion 8
-["Unanimidad", 31]
-
-Mocion 9
-["Unanimidad", 31]
-
-Mocion 10
-["A favor: PP + C'S", 14],
-["En contra: ZEC + PSOE + CHA", 17]
-
-Mocion 11
-["A favor: PP + C'S", 14],
-["En contra: ZEC + PSOE + CHA", 17]
-
-Mocion 12
-["Unanimidad", 31]
-
-Mocion 13
-["Unanimidad", 31]
-
-Mocion 14
-["A favor: PP ", 10],
-["En contra: ZEC + PSOE + C'S + CHA", 21]
-
-Mocion 15
-["Unanimidad", 31]
-
-Mocion 16
-["A favor:ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
-
-Mocion 17
-["Unanimidad", 31]
-
-Mocion 18
-["Unanimidad", 31]
-
-Mocion 19
-["A favor:ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
-
-Mocion 20
-["A favor:ZEC + PSOE + C'S + CHA", 20],
-["En contra:  PP", 10]
-
-Mocion 21
-["A favor: PP + PSOE + CHA", 19],
-["En contra: ZEC", 9],
-["Abstención: C'S", 4]
-
-Mocion 22
-["A favor:ZEC + PSOE + C'S + CHA", 21],
-["En contra:  PP", 10]
-
-Mocion 23
-["A favor: ZEC + C'S + CHA", 15],
-["En contra: PP", 10],
-["Abstención: PSOE", 6]
-
-Mocion 24
-["Unanimidad", 31]
-
-Mocion 25
-["A favor: PSOE + CHA", 8],
-["En contra: ZEC + C'S", 13],
-["Abstención: PP", 10]
-
-Mocion 26
-["Unanimidad", 31]
-
 
 # 2016
 
