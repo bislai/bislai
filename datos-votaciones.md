@@ -1104,9 +1104,15 @@ ZEC + PSOE + CHA = 29
 
 PP + C'S = 24
 
+PP + PSOE + CHA = 5
+
 PP + PSOE = 9
 
 PP + ZEC = 2
+
+PP + ZEC + C'S = 1
+
+PP + ZEC + CHA = 2
 
 PP + CHA = 1
 
@@ -1141,7 +1147,11 @@ C'S = 18
 PSOE + C'S + CHA = 2
 
 
-
+Mociones por CHA = 36
+Mociones por PP = 47
+Mociones por PSOE = 50
+Mociones por C'S = 44
+Mociones por ZEC = 28
 
 
 
