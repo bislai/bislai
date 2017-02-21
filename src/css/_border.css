@@ -122,3 +122,11 @@
 .border-radius-10 {
   border-radius: 10px;
 }
+
+.border-radius-top-left-0 {
+  border-top-left-radius: 0;
+}
+
+.border-radius-top-right-0 {
+  border-top-right-radius: 0;
+}
