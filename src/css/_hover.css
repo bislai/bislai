@@ -4,6 +4,19 @@
   background-color: transparent;
 }
 
+.ghost-y:hover,
+.ghost-y:focus {
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  background-color: transparent;
+}
+
+.ghost-b:hover,
+.ghost-b:focus {
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+
 .underline:hover,
 .underline:focus {
   text-decoration: underline;

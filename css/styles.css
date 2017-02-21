@@ -853,6 +853,10 @@ http://www.tipue.com/search
   width: 40%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -891,6 +895,10 @@ http://www.tipue.com/search
 
 .bgc-celery {
   background-color: #A5CC5F;
+}
+
+.bgc-floralwhite {
+  background-color: #fffaf0;
 }
 
 .luckyPoint {
@@ -1101,6 +1109,10 @@ http://www.tipue.com/search
   padding-right: 1rem;
 }
 
+.padding-l1 {
+  padding-left: 1rem;
+}
+
 .padding-r1-5 {
   padding-right: 1.5rem;
 }
@@ -1153,6 +1165,10 @@ http://www.tipue.com/search
   border-bottom: 1px solid;
 }
 
+.border-b2 {
+  border-bottom: 2px solid;
+}
+
 .border-t1 {
   border-top: 1px solid;
 }
@@ -1165,8 +1181,8 @@ http://www.tipue.com/search
   border: 1px solid;
 }
 
-.border1 {
-  border: 1px solid;
+.border-2 {
+  border: 2px solid;
 }
 
 .borderc-black {
@@ -1175,6 +1191,10 @@ http://www.tipue.com/search
 
 .borderc-greyc {
   border-color: #efefef;
+}
+
+.borderc-white {
+  border-color: #fff;
 }
 
 .borderc-rojo {
@@ -1251,6 +1271,18 @@ http://www.tipue.com/search
 
 .borderc-b-cs {
   border-bottom-color: #f07a36;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
 }
 
 .h-2 {
@@ -1398,6 +1430,20 @@ http://www.tipue.com/search
   background-color: transparent;
 }
 
+.ghost-y:hover,
+.ghost-y:focus {
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  background-color: transparent;
+}
+
+.ghost-b:hover,
+.ghost-b:focus {
+  font-weight: bold;
+
+  background-color: #f1f1f1;
+}
+
 .underline:hover,
 .underline:focus {
   text-decoration: underline;
@@ -1417,6 +1463,10 @@ http://www.tipue.com/search
 
 .letter-1 {
   letter-spacing: 1rem;
+}
+
+.bxs-3 {
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,.75);
 }
 
 /*# sourceMappingURL=styles.css.map */

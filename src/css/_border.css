@@ -2,6 +2,10 @@
   border-bottom: 1px solid;
 }
 
+.border-b2 {
+  border-bottom: 2px solid;
+}
+
 .border-t1 {
   border-top: 1px solid;
 }
@@ -14,8 +18,8 @@
   border: 1px solid;
 }
 
-.border1 {
-  border: 1px solid;
+.border-2 {
+  border: 2px solid;
 }
 
 .borderc-black {
@@ -24,6 +28,10 @@
 
 .borderc-greyc {
   border-color: var(--greyc);
+}
+
+.borderc-white {
+  border-color: var(--white);
 }
 
 .borderc-rojo {
@@ -100,4 +108,17 @@
 
 .borderc-b-cs {
   border-bottom-color: var(--ciudadanos);
+}
+
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
 }

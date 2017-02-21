@@ -6,6 +6,10 @@
   background-color: var(--celery);
 }
 
+.bgc-floralwhite {
+  background-color: var(--floralwhite);
+}
+
 .luckyPoint {
   color: var(--luckyPoint);
 }
