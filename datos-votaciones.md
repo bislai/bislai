@@ -1154,6 +1154,23 @@ Mociones por C'S = 44
 Mociones por ZEC = 28
 
 
+Abstención C'S = 25
+Abstención PP = 22 
+Abstención ZEC = 28 
+Abstención PSOE = 15 
+Abstención CHA = 28 
+
+A favor PP = 96
+A favor ZEC = 78
+A favor PSOE = 127
+A favor C'S = 126
+A favor CHA = 101
+
+En contra PP = 54
+En contra ZEC = 66
+En contra PSOE = 31
+En contra C'S = 22
+En contra CHA = 42
 
 
 
@@ -1166,59 +1183,6 @@ Mociones por ZEC = 28
 
 
 
-
-
-
-
-
-Datos antes de revisar
-
-
-Votaciones = 281
-
-Unanimidad 105
-
-PP + PSOE + C'S = 30
-
-ZEC + PSOE + CHA = 25
-
-PP + C'S = 23
-
-PP + PSOE = 9
-
-PP + ZEC = 2
-
-PP + CHA = 1
-
-ZEC + PSOE = 2
-
-ZEC + CHA = 34
-
-ZEC + C'S = 6
-
-ZEC + PSOE + C'S = 8
-
-ZEC + PSOE + C'S + CHA = 20
-
-PP + PSOE + C'S + CHA = 23 
-
-C'S + CHA = 3
-
-PSOE + C'S = 7
-
-PSOE + CHA = 5
-
-PP = 56
-
-CHA = 23
-
-ZEC = 40
-
-PSOE = 6
-
-C'S = 17
-
-PSOE + C'S + CHA = 2
 
 
 
