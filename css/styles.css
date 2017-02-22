@@ -897,8 +897,20 @@ http://www.tipue.com/search
   background-color: #A5CC5F;
 }
 
+.bgc-acapulco {
+  background-color: #b1dccc;
+}
+
+.gondola {
+  color: #542436;
+}
+
 .bgc-floralwhite {
   background-color: #fffaf0;
+}
+
+.bgc-fluor {
+  background-color: #c5ecac;
 }
 
 .luckyPoint {
@@ -1033,6 +1045,10 @@ http://www.tipue.com/search
   margin-bottom: 1rem;
 }
 
+.margin-b2 {
+  margin-bottom: 2rem;
+}
+
 .margin-r1 {
   margin-right: 1rem;
 }
@@ -1091,6 +1107,10 @@ http://www.tipue.com/search
 
 .font-w8 {
   font-weight: 800;
+}
+
+.font-w6 {
+  font-weight: 600;
 }
 
 .padding-b1 {

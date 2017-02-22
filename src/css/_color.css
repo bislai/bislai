@@ -6,8 +6,20 @@
   background-color: var(--celery);
 }
 
+.bgc-acapulco {
+  background-color: var(--acapulco);
+}
+
+.gondola {
+  color: var(--gondola);
+}
+
 .bgc-floralwhite {
   background-color: var(--floralwhite);
+}
+
+.bgc-fluor {
+  background-color: var(--fluor);
 }
 
 .luckyPoint {
