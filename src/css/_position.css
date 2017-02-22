@@ -2,6 +2,11 @@
   position: relative;
 }
 
+.pos-sy {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
 .pos-a {
   position: absolute;
 }
@@ -16,6 +21,9 @@
 
 .tp-0 {
   top: 0;
+}
+.tp-2- {
+  top: -2px;
 }
 
 .tp-5p {

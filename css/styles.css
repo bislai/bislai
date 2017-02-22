@@ -324,6 +324,10 @@ body {
   text-decoration: none;
 }
 
+.zi-10 {
+  z-index: 10;
+}
+
 /* ESTILOS C3 */
 
 /* stylelint-disable */
@@ -1209,6 +1213,10 @@ http://www.tipue.com/search
   border-color: #121;
 }
 
+.borderc-gondola {
+  border-color: #542436;
+}
+
 .borderc-greyc {
   border-color: #efefef;
 }
@@ -1357,6 +1365,11 @@ http://www.tipue.com/search
   position: relative;
 }
 
+.pos-sy {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
 .pos-a {
   position: absolute;
 }
@@ -1371,6 +1384,10 @@ http://www.tipue.com/search
 
 .tp-0 {
   top: 0;
+}
+
+.tp-2- {
+  top: -2px;
 }
 
 .tp-5p {
@@ -1495,6 +1512,10 @@ http://www.tipue.com/search
 
 .bxs-3 {
   box-shadow: 1px 1px 3px 0 rgba(0,0,0,.75);
+}
+
+.bxs-5 {
+  box-shadow: 0 2px 5px -3px rgba(0,0,0,.75);
 }
 
 /*# sourceMappingURL=styles.css.map */
