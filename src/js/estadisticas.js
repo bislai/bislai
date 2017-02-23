@@ -267,30 +267,26 @@ function abstenidoChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
-          datasets: [{
-              label: 'Unanimidad',
-              data: [50 , 30],
-              backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)'
-                  // 'rgba(54, 162, 235, 0.2)',
-                  // 'rgba(255, 206, 86, 0.2)',
-                  // 'rgba(75, 192, 192, 0.2)',
-                  // 'rgba(153, 102, 255, 0.2)',
-                  // 'rgba(255, 159, 64, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)'
-                  // 'rgba(54, 162, 235, 1)',
-                  // 'rgba(255, 206, 86, 1)',
-                  // 'rgba(75, 192, 192, 1)',
-                  // 'rgba(153, 102, 255, 1)',
-                  // 'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
-          }]
+        labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
+        datasets: [{
+            data: [ 8.02 , 10.21, 5.47, 10.21, 9.12],
+            backgroundColor: [
+                'rgba(0, 128, 184,.2)',
+                'rgba(154, 22, 34,.2)',
+                'rgba(227, 6, 19,.2)',
+                'rgba(240, 122, 54,.2)',
+                'rgba(239, 176, 39,.2)'
+            ],
+            borderColor: [
+                'rgba(0, 128, 184,1)',
+                'rgba(154, 22, 34,1)',
+                'rgba(227, 6, 19,1)',
+                'rgba(240, 122, 54,1)',
+                'rgba(239, 176, 39,1)'
+            ],
+            borderWidth: 1
+        }]
+
       }
   });
 
@@ -320,30 +316,26 @@ function encontraChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
-          datasets: [{
-              label: 'Unanimidad',
-              data: [50 , 30],
-              backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)'
-                  // 'rgba(54, 162, 235, 0.2)',
-                  // 'rgba(255, 206, 86, 0.2)',
-                  // 'rgba(75, 192, 192, 0.2)',
-                  // 'rgba(153, 102, 255, 0.2)',
-                  // 'rgba(255, 159, 64, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)'
-                  // 'rgba(54, 162, 235, 1)',
-                  // 'rgba(255, 206, 86, 1)',
-                  // 'rgba(75, 192, 192, 1)',
-                  // 'rgba(153, 102, 255, 1)',
-                  // 'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
-          }]
+        labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
+        datasets: [{
+            data: [ 19.70 , 24.08, 11.31, 8.02, 15.32],
+            backgroundColor: [
+                'rgba(0, 128, 184,.2)',
+                'rgba(154, 22, 34,.2)',
+                'rgba(227, 6, 19,.2)',
+                'rgba(240, 122, 54,.2)',
+                'rgba(239, 176, 39,.2)'
+            ],
+            borderColor: [
+                'rgba(0, 128, 184,1)',
+                'rgba(154, 22, 34,1)',
+                'rgba(227, 6, 19,1)',
+                'rgba(240, 122, 54,1)',
+                'rgba(239, 176, 39,1)'
+            ],
+            borderWidth: 1
+        }]
+
       }
   });
 
@@ -373,30 +365,26 @@ function afavorChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
-          datasets: [{
-              label: 'Unanimidad',
-              data: [50 , 30],
-              backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)'
-                  // 'rgba(54, 162, 235, 0.2)',
-                  // 'rgba(255, 206, 86, 0.2)',
-                  // 'rgba(75, 192, 192, 0.2)',
-                  // 'rgba(153, 102, 255, 0.2)',
-                  // 'rgba(255, 159, 64, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)'
-                  // 'rgba(54, 162, 235, 1)',
-                  // 'rgba(255, 206, 86, 1)',
-                  // 'rgba(75, 192, 192, 1)',
-                  // 'rgba(153, 102, 255, 1)',
-                  // 'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
-          }]
+        labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
+        datasets: [{
+            data: [ 35.03 , 28.46, 46.35, 45.98, 36.86],
+            backgroundColor: [
+                'rgba(0, 128, 184,.2)',
+                'rgba(154, 22, 34,.2)',
+                'rgba(227, 6, 19,.2)',
+                'rgba(240, 122, 54,.2)',
+                'rgba(239, 176, 39,.2)'
+            ],
+            borderColor: [
+                'rgba(0, 128, 184,1)',
+                'rgba(154, 22, 34,1)',
+                'rgba(227, 6, 19,1)',
+                'rgba(240, 122, 54,1)',
+                'rgba(239, 176, 39,1)'
+            ],
+            borderWidth: 1
+        }]
+
       }
   });
 
