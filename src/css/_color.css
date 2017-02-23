@@ -18,6 +18,10 @@
   background-color: var(--floralwhite);
 }
 
+.bgc-floralwhite-9 {
+  background-color: var(--florawhite9);
+}
+
 .bgc-fluor {
   background-color: var(--fluor);
 }
