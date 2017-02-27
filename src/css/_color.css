@@ -6,6 +6,14 @@
   background-color: var(--celery);
 }
 
+.bgc-periwinkie {
+  background-color: var(--periwinkie);
+}
+
+.woodsmoke {
+  color: var(--woodsmoke);
+}
+
 .bgc-acapulco {
   background-color: var(--acapulco);
 }
@@ -20,6 +28,10 @@
 
 .bgc-floralwhite-9 {
   background-color: var(--florawhite9);
+}
+
+.bgc-white-9 {
+  background-color: var(--white9);
 }
 
 .bgc-fluor {

@@ -901,6 +901,14 @@ http://www.tipue.com/search
   background-color: #A5CC5F;
 }
 
+.bgc-periwinkie {
+  background-color: #e7ecff;
+}
+
+.woodsmoke {
+  color: #19160a;
+}
+
 .bgc-acapulco {
   background-color: #b1dccc;
 }
@@ -915,6 +923,10 @@ http://www.tipue.com/search
 
 .bgc-floralwhite-9 {
   background-color: rgba(255, 250, 240,.9);
+}
+
+.bgc-white-9 {
+  background-color: rgba(255, 255, 255,.9);
 }
 
 .bgc-fluor {
