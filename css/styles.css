@@ -1025,6 +1025,10 @@ http://www.tipue.com/search
   display: block;
 }
 
+.display-n {
+  display: none;
+}
+
 .font-0 {
   font-size: 0;
 }
