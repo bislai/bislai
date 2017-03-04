@@ -2,6 +2,14 @@
   font-size: 0;
 }
 
+.font-05 {
+  font-size: .5rem;
+}
+
+.font-08 {
+  font-size: .88rem;
+}
+
 .font-1 {
   font-size: 1rem;
 }

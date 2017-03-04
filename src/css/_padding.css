@@ -30,6 +30,14 @@
   padding: 1rem 2rem;
 }
 
+.padding-0-2 {
+  padding: 0 2rem;
+}
+
+.padding-0-1 {
+  padding: 0 1rem;
+}
+
 .padding-0-5 {
   padding: .5rem;
 }

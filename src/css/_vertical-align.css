@@ -2,6 +2,10 @@
   vertical-align: middle;
 }
 
+.vertical-b {
+  vertical-align: bottom;
+}
+
 .vertical-at {
   vertical-align: top;
 }
