@@ -269,7 +269,7 @@ function abstenidoChart() {
       data: {
         labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
         datasets: [{
-            data: [ 8.02 , 10.21, 5.47, 10.21, 9.12],
+            data: [ 8.02 , 10.21, 5.47, 9.12, 10.21],
             backgroundColor: [
                 'rgba(0, 128, 184,.2)',
                 'rgba(154, 22, 34,.2)',
