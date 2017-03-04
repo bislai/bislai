@@ -1172,6 +1172,18 @@ En contra PSOE = 31 / 11.31
 En contra C'S = 22 / 8.02
 En contra CHA = 42 / 15.32
 
+Votación ganada PP = 14
+Votación ganada ZEC = 8
+Votación ganada PSOE = 11
+Votación ganada C'S = 5
+Votación ganada CHA = 22
+
+Votación perdida PP = 9
+Votación perdida ZEC = 4
+Votación perdida PSOE = 2
+Votación perdida C'S = 1
+Votación perdida CHA =
+
 
 
 

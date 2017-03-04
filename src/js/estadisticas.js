@@ -503,5 +503,5 @@ if(width > 1024) {
     abstenidoChart();
     encontraChart();
     afavorChart();
-}
 
+}
