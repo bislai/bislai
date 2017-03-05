@@ -535,8 +535,6 @@ body {
   fill: #000
 }
 
-/* stylelint-enable */
-
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -552,11 +550,6 @@ body {
   font-size: 1rem !important;
   font-weight: bold !important;
 }
-
-/*canvas {
-  width: 400px !important;
-  height: 400px !important;
-}*/
 
 /*
 Tipue Search 6.0
@@ -781,6 +774,8 @@ http://www.tipue.com/search
 .btn-search:hover path {
   fill: #fff;
 }
+
+/* stylelint-enable */
 
 .containerBuscador {
   display: none;
@@ -1336,12 +1331,34 @@ http://www.tipue.com/search
   font-weight: 600;
 }
 
-.padding-b1 {
-  padding-bottom: 1rem;
+.padding-y0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.padding-b2 {
-  padding-bottom: 2rem;
+.padding-x0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-1-0 {
+  padding: 1rem 0;
+}
+
+.padding-0-1 {
+  padding: 0 1rem;
+}
+
+.padding-b1 {
+  padding-bottom: 1rem;
 }
 
 .padding-t1 {
@@ -1356,12 +1373,12 @@ http://www.tipue.com/search
   padding-left: 1rem;
 }
 
-.padding-r1-5 {
-  padding-right: 1.5rem;
+.padding-b2 {
+  padding-bottom: 2rem;
 }
 
-.padding-1 {
-  padding: 1rem;
+.padding-r1-5 {
+  padding-right: 1.5rem;
 }
 
 .padding-1-2 {
@@ -1372,16 +1389,8 @@ http://www.tipue.com/search
   padding: 0 2rem;
 }
 
-.padding-0-1 {
-  padding: 0 1rem;
-}
-
 .padding-0-5 {
   padding: .5rem;
-}
-
-.padding-1-0 {
-  padding: 1rem 0;
 }
 
 .padding-2 {
@@ -1410,6 +1419,222 @@ http://www.tipue.com/search
 
 .padding-r-10p {
   padding-right: 10%;
+}
+
+@media only screen and (min-width: 30em) {
+  .padding-y0--s {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--s {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--s {
+    padding: 0;
+  }
+  .padding-1--s {
+    padding: 1rem;
+  }
+  .padding-1-0--s {
+    padding: 1rem 0;
+  }
+  .padding-0-1--s {
+    padding: 0 1rem;
+  }
+  .padding-b1--s {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--s {
+    padding-top: 1rem;
+  }
+  .padding-r1--s {
+    padding-right: 1rem;
+  }
+  .padding-l1--s {
+    padding-left: 1rem;
+  }
+  .padding-b2--s {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--s {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--s {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--s {
+    padding: 0 2rem;
+  }
+  .padding-0-5--s {
+    padding: .5rem;
+  }
+  .padding-2--s {
+    padding: 2rem;
+  }
+  .padding-2-0--s {
+    padding: 2rem 0;
+  }
+  .padding-l-n--s {
+    padding-left: 0;
+  }
+  .padding-l1--s {
+    padding-left: 1rem;
+  }
+  .padding-l2--s {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--s {
+    padding-left: 10%;
+  }
+  .padding-r-10p--s {
+    padding-right: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .padding-y0--m {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--m {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--m {
+    padding: 0;
+  }
+  .padding-1--m {
+    padding: 1rem;
+  }
+  .padding-1-0--m {
+    padding: 1rem 0;
+  }
+  .padding-0-1--m {
+    padding: 0 1rem;
+  }
+  .padding-b1--m {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--m {
+    padding-top: 1rem;
+  }
+  .padding-r1--m {
+    padding-right: 1rem;
+  }
+  .padding-l1--m {
+    padding-left: 1rem;
+  }
+  .padding-b2--m {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--m {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--m {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--m {
+    padding: 0 2rem;
+  }
+  .padding-0-5--m {
+    padding: .5rem;
+  }
+  .padding-2--m {
+    padding: 2rem;
+  }
+  .padding-2-0--m {
+    padding: 2rem 0;
+  }
+  .padding-l-n--m {
+    padding-left: 0;
+  }
+  .padding-l1--m {
+    padding-left: 1rem;
+  }
+  .padding-l2--m {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--m {
+    padding-left: 10%;
+  }
+  .padding-r-10p--m {
+    padding-right: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .padding-y0--l {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--l {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--l {
+    padding: 0;
+  }
+  .padding-1--l {
+    padding: 1rem;
+  }
+  .padding-1-0--l {
+    padding: 1rem 0;
+  }
+  .padding-0-1--l {
+    padding: 0 1rem;
+  }
+  .padding-b1--l {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--l {
+    padding-top: 1rem;
+  }
+  .padding-r1--l {
+    padding-right: 1rem;
+  }
+  .padding-l1--l {
+    padding-left: 1rem;
+  }
+  .padding-b2--l {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--l {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--l {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--l {
+    padding: 0 2rem;
+  }
+  .padding-0-5--l {
+    padding: .5rem;
+  }
+  .padding-2--l {
+    padding: 2rem;
+  }
+  .padding-2-0--l {
+    padding: 2rem 0;
+  }
+  .padding-l-n--l {
+    padding-left: 0;
+  }
+  .padding-l1--l {
+    padding-left: 1rem;
+  }
+  .padding-l2--l {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--l {
+    padding-left: 10%;
+  }
+  .padding-r-10p--l {
+    padding-right: 10%;
+  }
+
 }
 
 .border-b1 {
@@ -1573,7 +1798,7 @@ http://www.tipue.com/search
 }
 
 .mih-custom {
-  min-height: calc(100vh - 319px)
+  min-height: calc(100vh - 319px);
 }
 
 .h-100p {
@@ -1592,10 +1817,14 @@ http://www.tipue.com/search
   position: relative;
 }
 
+/* stylelint-disable */
+
 .pos-sy {
   position: sticky;
   position: -webkit-sticky;
 }
+
+/* stylelint-enable */
 
 .pos-a {
   position: absolute;
@@ -1721,6 +1950,10 @@ http://www.tipue.com/search
   text-decoration: underline;
 }
 
+.letter-0 {
+  letter-spacing: 0;
+}
+
 .letter-0-12 {
   letter-spacing: .125rem;
 }
@@ -1735,6 +1968,63 @@ http://www.tipue.com/search
 
 .letter-1 {
   letter-spacing: 1rem;
+}
+
+@media only screen and (min-width: 30em) {
+  .letter-0--s {
+    letter-spacing: 0;
+  }
+  .letter-0-12--s {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--s {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--s {
+    letter-spacing: .5rem;
+  }
+  .letter-1--s {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .letter-0--m {
+    letter-spacing: 0;
+  }
+  .letter-0-12--m {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--m {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--m {
+    letter-spacing: .5rem;
+  }
+  .letter-1--m {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .letter-0--l {
+    letter-spacing: 0;
+  }
+  .letter-0-12--l {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--l {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--l {
+    letter-spacing: .5rem;
+  }
+  .letter-1--l {
+    letter-spacing: 1rem;
+  }
+
 }
 
 .bxs-3 {

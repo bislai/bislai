@@ -23,7 +23,7 @@
 }
 
 .mih-custom {
-  min-height: calc(100vh - 319px)
+  min-height: calc(100vh - 319px);
 }
 
 .h-100p {

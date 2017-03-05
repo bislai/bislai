@@ -2,10 +2,12 @@
   position: relative;
 }
 
+/* stylelint-disable */
 .pos-sy {
   position: sticky;
   position: -webkit-sticky;
 }
+/* stylelint-enable */
 
 .pos-a {
   position: absolute;
