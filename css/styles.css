@@ -1247,6 +1247,102 @@ http://www.tipue.com/search
   font-size: 5rem;
 }
 
+@media only screen and (min-width: 30em) {
+  .font-0--s {
+    font-size: 0;
+  }
+  .font-05--s {
+    font-size: .5rem;
+  }
+  .font-08--s {
+    font-size: .88rem;
+  }
+  .font-1--s {
+    font-size: 1rem;
+  }
+  .font-1-5--s {
+    font-size: 1.5rem;
+  }
+  .font-2--s {
+    font-size: 2rem;
+  }
+  .font-3--s {
+    font-size: 3rem;
+  }
+  .font-4--s {
+    font-size: 4rem;
+  }
+  .font-5--s {
+    font-size: 5rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 48em) {
+  .font-0--m {
+    font-size: 0;
+  }
+  .font-05--m {
+    font-size: .5rem;
+  }
+  .font-08--m {
+    font-size: .88rem;
+  }
+  .font-1--m {
+    font-size: 1rem;
+  }
+  .font-1-5--m {
+    font-size: 1.5rem;
+  }
+  .font-2--m {
+    font-size: 2rem;
+  }
+  .font-3--m {
+    font-size: 3rem;
+  }
+  .font-4--m {
+    font-size: 4rem;
+  }
+  .font-5--m {
+    font-size: 5rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 64em) {
+  .font-0--l {
+    font-size: 0;
+  }
+  .font-05--l {
+    font-size: .5rem;
+  }
+  .font-08--l {
+    font-size: .88rem;
+  }
+  .font-1--l {
+    font-size: 1rem;
+  }
+  .font-1-5--l {
+    font-size: 1.5rem;
+  }
+  .font-2--l {
+    font-size: 2rem;
+  }
+  .font-3--l {
+    font-size: 3rem;
+  }
+  .font-4--l {
+    font-size: 4rem;
+  }
+  .font-5--l {
+    font-size: 5rem;
+  }
+
+
+}
+
 .margin-t0 {
   margin-top: 0;
 }
@@ -1345,6 +1441,10 @@ http://www.tipue.com/search
   padding: 0;
 }
 
+.padding-r0 {
+  padding-right: 0;
+}
+
 .padding-1 {
   padding: 1rem;
 }
@@ -1433,6 +1533,9 @@ http://www.tipue.com/search
   .padding-0--s {
     padding: 0;
   }
+  .padding-r0--s {
+    padding-right: 0;
+  }
   .padding-1--s {
     padding: 1rem;
   }
@@ -1505,6 +1608,9 @@ http://www.tipue.com/search
   .padding-0--m {
     padding: 0;
   }
+  .padding-r0--m {
+    padding-right: 0;
+  }
   .padding-1--m {
     padding: 1rem;
   }
@@ -1576,6 +1682,9 @@ http://www.tipue.com/search
   }
   .padding-0--l {
     padding: 0;
+  }
+  .padding-r0--l {
+    padding-right: 0;
   }
   .padding-1--l {
     padding: 1rem;

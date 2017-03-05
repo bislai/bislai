@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+.padding-r0 {
+  padding-right: 0;
+}
+
 .padding-1 {
   padding: 1rem;
 }
@@ -103,6 +107,10 @@
 
   .padding-0--s {
     padding: 0;
+  }
+
+  .padding-r0--s {
+    padding-right: 0;
   }
 
   .padding-1--s {
@@ -200,6 +208,10 @@
     padding: 0;
   }
 
+  .padding-r0--m {
+    padding-right: 0;
+  }
+
   .padding-1--m {
     padding: 1rem;
   }
@@ -293,6 +305,10 @@
 
   .padding-0--l {
     padding: 0;
+  }
+
+  .padding-r0--l {
+    padding-right: 0;
   }
 
   .padding-1--l {
