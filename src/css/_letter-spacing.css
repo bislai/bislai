@@ -1,3 +1,7 @@
+.letter-0 {
+  letter-spacing: 0;
+}
+
 .letter-0-12 {
   letter-spacing: .125rem;
 }
@@ -12,4 +16,78 @@
 
 .letter-1 {
   letter-spacing: 1rem;
+}
+
+@media only screen and (min-width: 30em) {
+
+  .letter-0--s {
+    letter-spacing: 0;
+  }
+
+  .letter-0-12--s {
+    letter-spacing: .125rem;
+  }
+
+  .letter-0-25--s {
+    letter-spacing: .25rem;
+  }
+
+  .letter-0-5--s {
+    letter-spacing: .5rem;
+  }
+
+  .letter-1--s {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+
+  .letter-0--m {
+    letter-spacing: 0;
+  }
+
+  .letter-0-12--m {
+    letter-spacing: .125rem;
+  }
+
+  .letter-0-25--m {
+    letter-spacing: .25rem;
+  }
+
+  .letter-0-5--m {
+    letter-spacing: .5rem;
+  }
+
+  .letter-1--m {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+
+  .letter-0--l {
+    letter-spacing: 0;
+  }
+
+  .letter-0-12--l {
+    letter-spacing: .125rem;
+  }
+
+  .letter-0-25--l {
+    letter-spacing: .25rem;
+  }
+
+  .letter-0-5--l {
+    letter-spacing: .5rem;
+  }
+
+  .letter-1--l {
+    letter-spacing: 1rem;
+  }
+
 }

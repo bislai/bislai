@@ -1,0 +1,1 @@
+function appendClass(c,e){0==c.className.length?c.className=e:c.className.indexOf(e)<0&&(c.className+=" "+e)}function click(){var c=document.querySelector("#buscador"),e=document.querySelector(".containerBuscador");c.onclick=function(c){appendClass(e,"desplegado")}}click();

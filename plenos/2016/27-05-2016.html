@@ -11,7 +11,7 @@
 </head>
 
 <body class="mih-100">
-    <header class="font-0 border-b1 borderc-grey w-100">
+    <header class="padding-0-1 font-0 border-b1 borderc-grey w-100">
           <div class="maw-60">
             <a href="http://bislai.co" class="w-50 textd-n  black  font-3  margin-y0  bold display-ib vertical-am font-w8">Bislai</a>
             <div class="w-50 display-ib texta-r">
@@ -21,21 +21,34 @@
           </div>
     </header>
     <nav class="w-100 border-b1 borderc-grey padding-1 pos-sy bgc-white-9 tp-0 zi-10">
-      <div class="maw-60">
-          <a class="pfont-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">ESTADÍSTICAS</a>
-          <a id="buscador" class="pfont-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">BUSCADOR</a>
-          <a class="font-1 padding-r1-5 textd-n underline letter-0-12 black" href="#">CREDITOS</a>
-      </div>
+        <div class="maw-60">
+            <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline letter-0 letter-0-12--s black" href="#">ESTADÍSTICAS</a>
+            <a id="buscador" class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline letter-0 letter-0-12--s black" href="#">BUSCADOR</a>
+            <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline letter-0 letter-0-12--s black" href="#">CREDITOS</a>
+        </div>
     </nav>
+    <div class="border-b1 borderc-grey w-100 padding-1 grey containerBuscador padding-1-0--l">
+        <div class="maw-60 pos-r">
+            <form class="w-100 w-60--s" action="http://bislai.co/buscador.html">
+                <input placeholder="Busca y encuentra..." class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
+                <button class="btn-search bgc-white" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#010101" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
 
-    <section class="maw-60 margin-y1 display-b padding-t1">
-      <a class="ghost padding-1-2 borderc-french-grey border-1 bgc-french-grey vertical-am textd-n margin-r1" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalleAnexo_AgendaInstitucional?id=172" target="_blank">
+    <section class="maw-60 margin-y1 display-b padding-1 padding-0--l">
+      <p class="font-2 margin-t0 margin-b1">Pleno celebrado el 27 de mayo de 2016.</p>
+      <a class="display-ib ghost padding-0-5 borderc-french-grey border-1 bgc-french-grey vertical-am textd-n margin-r1" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalleAnexo_AgendaInstitucional?id=172" target="_blank">
       <img class="vertical-am w-1-5re" src="../../img/icono-orden-del-dia.svg">
-      <span class="textd-n font-1 bunting font-w8">Orden del día</span>
+      <span class="textd-n font-1 bunting">Orden del día</span>
       </a>
-      <a class="ghost padding-1-2 margin-r1 border-1 borderc-mint bgc-mint vertical-am textd-n" href="https://www.zaragoza.es/ciudad/organizacion/detalleAnexo_AgendaInstitucional?id=187" target="_blank">
+      <a class="display-ib ghost padding-0-5 borderc-mint margin-r1 border-1 bgc-mint vertical-am textd-n" href="https://www.zaragoza.es/ciudad/organizacion/detalleAnexo_AgendaInstitucional?id=187" target="_blank">
       <img class="vertical-am  w-1-5re" src="../../img/icono-acuerdos.svg">
-      <span class="textd-n font-1 night-rider font-w8">Acuerdos</span>
+      <span class="textd-n font-1 night-rider">Acuerdos</span>
       </a>
       <div class="margin-y1">
       <a class="btn-share  btn-share-twitter  margin-r1" href="https://twitter.com/intent/tweet?text=Bislai - Como emplean tu voto los diferentes partidos del Ayuntamiento de Zaragoza&url=http://bislai.co/plenos/2016&via=debislai&related=debislai" rel="nofollow" target="_blank" title="Comparte en Twitter">Compartir en Twitter</a>
@@ -43,7 +56,7 @@
        </div>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="2" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-ch padding-1-0 display-ib margin-b0">Moción 2 · Presentada por Chunta Aragonesista</h1>
 
@@ -55,7 +68,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="3" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-zec padding-1-0 display-ib margin-b0">Moción 3 · Presentada por Zaragoza en Común</h1>
 
@@ -67,7 +80,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="4" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-ch padding-1-0 display-ib margin-b0">Moción 4 · Presentada por Chunta Aragonesista</h1>
 
@@ -80,7 +93,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="5" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-zec padding-1-0 display-ib margin-b0">Moción 5 · Presentada por Zaragoza en Común</h1>
 
@@ -92,7 +105,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="6" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-pp padding-1-0 display-ib margin-b0">Moción 6 · Presentada por el Partido Popular</h1>
 
@@ -105,7 +118,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="7" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-pp padding-1-0 display-ib margin-b0">Moción 7 · Presentada por el Partido Popular </h1>
 
@@ -118,7 +131,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="8" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-cs padding-1-0 display-ib margin-b0">Moción 8 · Presentada por Ciudadanos</h1>
 
@@ -130,7 +143,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="9" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-cs padding-1-0 display-ib margin-b0">Moción 9 · Presentada por Ciudadanos</h1>
 
@@ -144,7 +157,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="10" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-psoe padding-1-0 display-ib margin-b0">Moción 10 · Presentada por el Partido Socialista Obrero Español</h1>
 
@@ -157,7 +170,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="11" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-psoe padding-1-0 display-ib margin-b0">Moción 11 · Presentada por el Partido Socialista Obrero Español</h1>
 
@@ -170,7 +183,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="12" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-psoe padding-1-0 display-ib margin-b0">Moción 12 · Presentada por el Partido Socialista Obrero Español</h1>
 
@@ -189,7 +202,7 @@
       </article>
     </section>
 
-    <section class="border-t1 borderc-grey w-100">
+    <section id="13" class="padding-1 padding-1-0--l border-t1 borderc-grey w-100">
       <article class="maw-60 padding-1-0">
         <h1 class="border-t5 border-b5 borderc-ch padding-1-0 display-ib margin-b0">Moción 13 · Presentada por Chunta Aragonesista</h1>
 
@@ -205,7 +218,7 @@
       </footer>
     <script type="text/javascript" src="../../js/d3.min.js"></script>
     <script type="text/javascript" src="../../js/c3.min.js"></script>
-    <script type="text/javascript" src="../../js/27-05-2016.js"></script>
+<script type="text/javascript" src="../../js/buscador.js"></script>    <script type="text/javascript" src="../../js/27-05-2016.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

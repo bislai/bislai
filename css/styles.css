@@ -535,8 +535,6 @@ body {
   fill: #000
 }
 
-/* stylelint-enable */
-
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -552,11 +550,6 @@ body {
   font-size: 1rem !important;
   font-weight: bold !important;
 }
-
-/*canvas {
-  width: 400px !important;
-  height: 400px !important;
-}*/
 
 /*
 Tipue Search 6.0
@@ -781,6 +774,8 @@ http://www.tipue.com/search
 .btn-search:hover path {
   fill: #fff;
 }
+
+/* stylelint-enable */
 
 .containerBuscador {
   display: none;
@@ -1252,6 +1247,106 @@ http://www.tipue.com/search
   font-size: 5rem;
 }
 
+@media only screen and (min-width: 30em) {
+  .font-0--s {
+    font-size: 0;
+  }
+  .font-05--s {
+    font-size: .5rem;
+  }
+  .font-08--s {
+    font-size: .88rem;
+  }
+  .font-1--s {
+    font-size: 1rem;
+  }
+  .font-1-5--s {
+    font-size: 1.5rem;
+  }
+  .font-2--s {
+    font-size: 2rem;
+  }
+  .font-3--s {
+    font-size: 3rem;
+  }
+  .font-4--s {
+    font-size: 4rem;
+  }
+  .font-5--s {
+    font-size: 5rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 48em) {
+  .font-0--m {
+    font-size: 0;
+  }
+  .font-05--m {
+    font-size: .5rem;
+  }
+  .font-08--m {
+    font-size: .88rem;
+  }
+  .font-1--m {
+    font-size: 1rem;
+  }
+  .font-1-5--m {
+    font-size: 1.5rem;
+  }
+  .font-2--m {
+    font-size: 2rem;
+  }
+  .font-3--m {
+    font-size: 3rem;
+  }
+  .font-4--m {
+    font-size: 4rem;
+  }
+  .font-5--m {
+    font-size: 5rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 64em) {
+  .font-0--l {
+    font-size: 0;
+  }
+  .font-05--l {
+    font-size: .5rem;
+  }
+  .font-08--l {
+    font-size: .88rem;
+  }
+  .font-1--l {
+    font-size: 1rem;
+  }
+  .font-1-5--l {
+    font-size: 1.5rem;
+  }
+  .font-2--l {
+    font-size: 2rem;
+  }
+  .font-3--l {
+    font-size: 3rem;
+  }
+  .font-4--l {
+    font-size: 4rem;
+  }
+  .font-5--l {
+    font-size: 5rem;
+  }
+
+
+}
+
+.margin-0 {
+  margin: 0;
+}
+
 .margin-t0 {
   margin-top: 0;
 }
@@ -1304,6 +1399,147 @@ http://www.tipue.com/search
   margin-top: -2rem;
 }
 
+@media only screen and (min-width: 30em) {
+  .margin-0--s {
+    margin: 0;
+  }
+  .margin-t0--s {
+    margin-top: 0;
+  }
+  .margin-b0--s {
+    margin-bottom: 0;
+  }
+  .margin-b1--s {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--s {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--s {
+    margin-right: 1rem;
+  }
+  .margin-yx--s {
+    margin: 0 auto;
+  }
+  .margin-y0--s {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--s {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--s {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--s {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--s {
+    margin-top: 1rem;
+  }
+  .margin-t-2--s {
+    margin-top: -2rem;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .margin-0--m {
+    margin: 0;
+  }
+  .margin-t0--m {
+    margin-top: 0;
+  }
+  .margin-b0--m {
+    margin-bottom: 0;
+  }
+  .margin-b1--m {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--m {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--m {
+    margin-right: 1rem;
+  }
+  .margin-yx--m {
+    margin: 0 auto;
+  }
+  .margin-y0--m {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--m {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--m {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--m {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--m {
+    margin-top: 1rem;
+  }
+  .margin-t-2--m {
+    margin-top: -2rem;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .margin-0--l {
+    margin: 0;
+  }
+  .margin-t0--l {
+    margin-top: 0;
+  }
+  .margin-b0--l {
+    margin-bottom: 0;
+  }
+  .margin-b1--l {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--l {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--l {
+    margin-right: 1rem;
+  }
+  .margin-yx--l {
+    margin: 0 auto;
+  }
+  .margin-y0--l {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--l {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--l {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--l {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--l {
+    margin-top: 1rem;
+  }
+  .margin-t-2--l {
+    margin-top: -2rem;
+  }
+
+}
+
 .texta-l {
   text-align: left;
 }
@@ -1336,12 +1572,38 @@ http://www.tipue.com/search
   font-weight: 600;
 }
 
-.padding-b1 {
-  padding-bottom: 1rem;
+.padding-y0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.padding-b2 {
-  padding-bottom: 2rem;
+.padding-x0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.padding-r0 {
+  padding-right: 0;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-1-0 {
+  padding: 1rem 0;
+}
+
+.padding-0-1 {
+  padding: 0 1rem;
+}
+
+.padding-b1 {
+  padding-bottom: 1rem;
 }
 
 .padding-t1 {
@@ -1356,12 +1618,12 @@ http://www.tipue.com/search
   padding-left: 1rem;
 }
 
-.padding-r1-5 {
-  padding-right: 1.5rem;
+.padding-b2 {
+  padding-bottom: 2rem;
 }
 
-.padding-1 {
-  padding: 1rem;
+.padding-r1-5 {
+  padding-right: 1.5rem;
 }
 
 .padding-1-2 {
@@ -1372,16 +1634,8 @@ http://www.tipue.com/search
   padding: 0 2rem;
 }
 
-.padding-0-1 {
-  padding: 0 1rem;
-}
-
 .padding-0-5 {
   padding: .5rem;
-}
-
-.padding-1-0 {
-  padding: 1rem 0;
 }
 
 .padding-2 {
@@ -1410,6 +1664,231 @@ http://www.tipue.com/search
 
 .padding-r-10p {
   padding-right: 10%;
+}
+
+@media only screen and (min-width: 30em) {
+  .padding-y0--s {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--s {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--s {
+    padding: 0;
+  }
+  .padding-r0--s {
+    padding-right: 0;
+  }
+  .padding-1--s {
+    padding: 1rem;
+  }
+  .padding-1-0--s {
+    padding: 1rem 0;
+  }
+  .padding-0-1--s {
+    padding: 0 1rem;
+  }
+  .padding-b1--s {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--s {
+    padding-top: 1rem;
+  }
+  .padding-r1--s {
+    padding-right: 1rem;
+  }
+  .padding-l1--s {
+    padding-left: 1rem;
+  }
+  .padding-b2--s {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--s {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--s {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--s {
+    padding: 0 2rem;
+  }
+  .padding-0-5--s {
+    padding: .5rem;
+  }
+  .padding-2--s {
+    padding: 2rem;
+  }
+  .padding-2-0--s {
+    padding: 2rem 0;
+  }
+  .padding-l-n--s {
+    padding-left: 0;
+  }
+  .padding-l1--s {
+    padding-left: 1rem;
+  }
+  .padding-l2--s {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--s {
+    padding-left: 10%;
+  }
+  .padding-r-10p--s {
+    padding-right: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .padding-y0--m {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--m {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--m {
+    padding: 0;
+  }
+  .padding-r0--m {
+    padding-right: 0;
+  }
+  .padding-1--m {
+    padding: 1rem;
+  }
+  .padding-1-0--m {
+    padding: 1rem 0;
+  }
+  .padding-0-1--m {
+    padding: 0 1rem;
+  }
+  .padding-b1--m {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--m {
+    padding-top: 1rem;
+  }
+  .padding-r1--m {
+    padding-right: 1rem;
+  }
+  .padding-l1--m {
+    padding-left: 1rem;
+  }
+  .padding-b2--m {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--m {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--m {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--m {
+    padding: 0 2rem;
+  }
+  .padding-0-5--m {
+    padding: .5rem;
+  }
+  .padding-2--m {
+    padding: 2rem;
+  }
+  .padding-2-0--m {
+    padding: 2rem 0;
+  }
+  .padding-l-n--m {
+    padding-left: 0;
+  }
+  .padding-l1--m {
+    padding-left: 1rem;
+  }
+  .padding-l2--m {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--m {
+    padding-left: 10%;
+  }
+  .padding-r-10p--m {
+    padding-right: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .padding-y0--l {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .padding-x0--l {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-0--l {
+    padding: 0;
+  }
+  .padding-r0--l {
+    padding-right: 0;
+  }
+  .padding-1--l {
+    padding: 1rem;
+  }
+  .padding-1-0--l {
+    padding: 1rem 0;
+  }
+  .padding-0-1--l {
+    padding: 0 1rem;
+  }
+  .padding-b1--l {
+    padding-bottom: 1rem;
+  }
+  .padding-t1--l {
+    padding-top: 1rem;
+  }
+  .padding-r1--l {
+    padding-right: 1rem;
+  }
+  .padding-l1--l {
+    padding-left: 1rem;
+  }
+  .padding-b2--l {
+    padding-bottom: 2rem;
+  }
+  .padding-r1-5--l {
+    padding-right: 1.5rem;
+  }
+  .padding-1-2--l {
+    padding: 1rem 2rem;
+  }
+  .padding-0-2--l {
+    padding: 0 2rem;
+  }
+  .padding-0-5--l {
+    padding: .5rem;
+  }
+  .padding-2--l {
+    padding: 2rem;
+  }
+  .padding-2-0--l {
+    padding: 2rem 0;
+  }
+  .padding-l-n--l {
+    padding-left: 0;
+  }
+  .padding-l1--l {
+    padding-left: 1rem;
+  }
+  .padding-l2--l {
+    padding-left: 2rem;
+  }
+  .padding-l-10p--l {
+    padding-left: 10%;
+  }
+  .padding-r-10p--l {
+    padding-right: 10%;
+  }
+
 }
 
 .border-b1 {
@@ -1573,7 +2052,7 @@ http://www.tipue.com/search
 }
 
 .mih-custom {
-  min-height: calc(100vh - 319px)
+  min-height: calc(100vh - 319px);
 }
 
 .h-100p {
@@ -1588,14 +2067,120 @@ http://www.tipue.com/search
   height: 50vh;
 }
 
+@media only screen and (min-width: 30em) {
+  .h-2--s {
+    height: 2rem;
+  }
+  .h-3--s {
+    height: 3rem;
+  }
+  .h-5--s {
+    height: 5rem;
+  }
+  .h-10--s {
+    height: 10rem;
+  }
+  .h-24--s {
+    height: 24rem;
+  }
+  .mih-100--s {
+    min-height: 100vh;
+  }
+  .mih-custom--s {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--s {
+    height: 100%;
+  }
+  .h-100vh--s {
+    height: 100vh;
+  }
+  .h-50vh--s {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .h-2--m {
+    height: 2rem;
+  }
+  .h-3--m {
+    height: 3rem;
+  }
+  .h-5--m {
+    height: 5rem;
+  }
+  .h-10--m {
+    height: 10rem;
+  }
+  .h-24--m {
+    height: 24rem;
+  }
+  .mih-100--m {
+    min-height: 100vh;
+  }
+  .mih-custom--m {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--m {
+    height: 100%;
+  }
+  .h-100vh--m {
+    height: 100vh;
+  }
+  .h-50vh--m {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .h-2--l {
+    height: 2rem;
+  }
+  .h-3--l {
+    height: 3rem;
+  }
+  .h-5--l {
+    height: 5rem;
+  }
+  .h-10--l {
+    height: 10rem;
+  }
+  .h-24--l {
+    height: 24rem;
+  }
+  .mih-100--l {
+    min-height: 100vh;
+  }
+  .mih-custom--l {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--l {
+    height: 100%;
+  }
+  .h-100vh--l {
+    height: 100vh;
+  }
+  .h-50vh--l {
+    height: 50vh;
+  }
+
+}
+
 .pos-r {
   position: relative;
 }
+
+/* stylelint-disable */
 
 .pos-sy {
   position: sticky;
   position: -webkit-sticky;
 }
+
+/* stylelint-enable */
 
 .pos-a {
   position: absolute;
@@ -1721,6 +2306,10 @@ http://www.tipue.com/search
   text-decoration: underline;
 }
 
+.letter-0 {
+  letter-spacing: 0;
+}
+
 .letter-0-12 {
   letter-spacing: .125rem;
 }
@@ -1737,12 +2326,73 @@ http://www.tipue.com/search
   letter-spacing: 1rem;
 }
 
+@media only screen and (min-width: 30em) {
+  .letter-0--s {
+    letter-spacing: 0;
+  }
+  .letter-0-12--s {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--s {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--s {
+    letter-spacing: .5rem;
+  }
+  .letter-1--s {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .letter-0--m {
+    letter-spacing: 0;
+  }
+  .letter-0-12--m {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--m {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--m {
+    letter-spacing: .5rem;
+  }
+  .letter-1--m {
+    letter-spacing: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .letter-0--l {
+    letter-spacing: 0;
+  }
+  .letter-0-12--l {
+    letter-spacing: .125rem;
+  }
+  .letter-0-25--l {
+    letter-spacing: .25rem;
+  }
+  .letter-0-5--l {
+    letter-spacing: .5rem;
+  }
+  .letter-1--l {
+    letter-spacing: 1rem;
+  }
+
+}
+
 .bxs-3 {
   box-shadow: 1px 1px 3px 0 rgba(0,0,0,.75);
 }
 
 .bxs-5 {
   box-shadow: 0 2px 5px -3px rgba(0,0,0,.75);
+}
+
+.bxs-1 {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.075)
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -227,7 +227,7 @@ body {
 }
 
 
-/* stylelint-enable */
+
 
 
 /* Machacando a fuego los estilos que incluye c3 */
@@ -244,11 +244,6 @@ body {
   font-weight: bold !important;
   font-family: var(--fontSystem);
 }
-
-/*canvas {
-  width: 400px !important;
-  height: 400px !important;
-}*/
 
 
 /*
@@ -454,6 +449,8 @@ http://www.tipue.com/search
     }
   }
 }
+
+/* stylelint-enable */
 
 .containerBuscador {
   display: none;
