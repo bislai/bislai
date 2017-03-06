@@ -1343,6 +1343,10 @@ http://www.tipue.com/search
 
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .margin-t0 {
   margin-top: 0;
 }
@@ -1393,6 +1397,147 @@ http://www.tipue.com/search
 
 .margin-t-2 {
   margin-top: -2rem;
+}
+
+@media only screen and (min-width: 30em) {
+  .margin-0--s {
+    margin: 0;
+  }
+  .margin-t0--s {
+    margin-top: 0;
+  }
+  .margin-b0--s {
+    margin-bottom: 0;
+  }
+  .margin-b1--s {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--s {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--s {
+    margin-right: 1rem;
+  }
+  .margin-yx--s {
+    margin: 0 auto;
+  }
+  .margin-y0--s {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--s {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--s {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--s {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--s {
+    margin-top: 1rem;
+  }
+  .margin-t-2--s {
+    margin-top: -2rem;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .margin-0--m {
+    margin: 0;
+  }
+  .margin-t0--m {
+    margin-top: 0;
+  }
+  .margin-b0--m {
+    margin-bottom: 0;
+  }
+  .margin-b1--m {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--m {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--m {
+    margin-right: 1rem;
+  }
+  .margin-yx--m {
+    margin: 0 auto;
+  }
+  .margin-y0--m {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--m {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--m {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--m {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--m {
+    margin-top: 1rem;
+  }
+  .margin-t-2--m {
+    margin-top: -2rem;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .margin-0--l {
+    margin: 0;
+  }
+  .margin-t0--l {
+    margin-top: 0;
+  }
+  .margin-b0--l {
+    margin-bottom: 0;
+  }
+  .margin-b1--l {
+    margin-bottom: 1rem;
+  }
+  .margin-b2--l {
+    margin-bottom: 2rem;
+  }
+  .margin-r1--l {
+    margin-right: 1rem;
+  }
+  .margin-yx--l {
+    margin: 0 auto;
+  }
+  .margin-y0--l {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .margin-y1--l {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .margin-y2--l {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .margin-y5--l {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .margin-t1--l {
+    margin-top: 1rem;
+  }
+  .margin-t-2--l {
+    margin-top: -2rem;
+  }
+
 }
 
 .texta-l {
@@ -1920,6 +2065,108 @@ http://www.tipue.com/search
 
 .h-50vh {
   height: 50vh;
+}
+
+@media only screen and (min-width: 30em) {
+  .h-2--s {
+    height: 2rem;
+  }
+  .h-3--s {
+    height: 3rem;
+  }
+  .h-5--s {
+    height: 5rem;
+  }
+  .h-10--s {
+    height: 10rem;
+  }
+  .h-24--s {
+    height: 24rem;
+  }
+  .mih-100--s {
+    min-height: 100vh;
+  }
+  .mih-custom--s {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--s {
+    height: 100%;
+  }
+  .h-100vh--s {
+    height: 100vh;
+  }
+  .h-50vh--s {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .h-2--m {
+    height: 2rem;
+  }
+  .h-3--m {
+    height: 3rem;
+  }
+  .h-5--m {
+    height: 5rem;
+  }
+  .h-10--m {
+    height: 10rem;
+  }
+  .h-24--m {
+    height: 24rem;
+  }
+  .mih-100--m {
+    min-height: 100vh;
+  }
+  .mih-custom--m {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--m {
+    height: 100%;
+  }
+  .h-100vh--m {
+    height: 100vh;
+  }
+  .h-50vh--m {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .h-2--l {
+    height: 2rem;
+  }
+  .h-3--l {
+    height: 3rem;
+  }
+  .h-5--l {
+    height: 5rem;
+  }
+  .h-10--l {
+    height: 10rem;
+  }
+  .h-24--l {
+    height: 24rem;
+  }
+  .mih-100--l {
+    min-height: 100vh;
+  }
+  .mih-custom--l {
+    min-height: calc(100vh - 319px);
+  }
+  .h-100p--l {
+    height: 100%;
+  }
+  .h-100vh--l {
+    height: 100vh;
+  }
+  .h-50vh--l {
+    height: 50vh;
+  }
+
 }
 
 .pos-r {
