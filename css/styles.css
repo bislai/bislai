@@ -308,6 +308,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.cursor-p {
+  cursor: pointer;
+}
+
+#flecha-anterior:hover #anterior {
+  display: block;
+}
+
+#flecha-posterior:hover #posterior {
+  display: block;
+}
+
 .txt-color {
   color: #430e16;
 }
@@ -888,6 +900,10 @@ http://www.tipue.com/search
   width: 100px;
 }
 
+.w-a {
+  width: auto;
+}
+
 @media only screen and (min-width: 30em) {
     .w-0--s {
       width: 0;
@@ -924,6 +940,9 @@ http://www.tipue.com/search
     }
     .w-100--s {
       width: 100%;
+    }
+    .w-a--s {
+      width: auto;
     }
 
 }
@@ -965,6 +984,9 @@ http://www.tipue.com/search
     .w-100--m {
       width: 100%;
     }
+    .w-a--m {
+      width: auto;
+    }
 
 }
 
@@ -1004,6 +1026,9 @@ http://www.tipue.com/search
     }
     .w-100--l {
       width: 100%;
+    }
+    .w-a--l {
+      width: auto;
     }
 
 
@@ -1550,6 +1575,46 @@ http://www.tipue.com/search
 
 .texta-c {
   text-align: center;
+}
+
+@media only screen and (min-width: 30em) {
+  .texta-l--s {
+    text-align: left;
+  }
+  .texta-r--s {
+    text-align: right;
+  }
+  .texta-c--s {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .texta-l--m {
+    text-align: left;
+  }
+  .texta-r--m {
+    text-align: right;
+  }
+  .texta-c--m {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .texta-l--l {
+    text-align: left;
+  }
+  .texta-r--l {
+    text-align: right;
+  }
+  .texta-c--l {
+    text-align: center;
+  }
+
+
 }
 
 .vertical-am {
@@ -2279,6 +2344,46 @@ http://www.tipue.com/search
 
 .clearfix:after {
   clear: both;
+}
+
+@media only screen and (min-width: 30em) {
+  .fl-l--s {
+    float: left;
+  }
+  .fl-r--s {
+    float: right;
+  }
+  .fl-n--s {
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  .fl-l--m {
+    float: left;
+  }
+  .fl-r--m {
+    float: right;
+  }
+  .fl-n--m {
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+  .fl-l--l {
+    float: left;
+  }
+  .fl-r--l {
+    float: right;
+  }
+  .fl-n--l {
+    float: none;
+  }
+
+
 }
 
 .ghost:hover,

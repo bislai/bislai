@@ -11,6 +11,26 @@ body {
   font-family: var(--fontSystem);
 }
 
+.cursor-p {
+  cursor: pointer;
+}
+
+#flecha-anterior {
+  &:hover {
+    #anterior {
+      display: block;
+    }
+  }
+}
+
+#flecha-posterior {
+  &:hover {
+    #posterior {
+      display: block;
+    }
+  }
+}
+
 .txt-color {
   color: var(--heath);
 }

@@ -69,6 +69,10 @@
   width: 100px;
 }
 
+.w-a {
+  width: auto;
+}
+
 
 
 @media only screen and (min-width: 30em) {
@@ -122,6 +126,10 @@
       width: 100%;
     }
 
+    .w-a--s {
+      width: auto;
+    }
+
 }
 
 @media only screen and (min-width: 48em) {
@@ -154,7 +162,6 @@
       width: 50%;
     }
 
-
     .w-60--m {
       width: 60%;
     }
@@ -173,6 +180,10 @@
 
     .w-100--m {
       width: 100%;
+    }
+
+    .w-a--m {
+      width: auto;
     }
 
 }
@@ -225,6 +236,10 @@
 
     .w-100--l {
       width: 100%;
+    }
+
+    .w-a--l {
+      width: auto;
     }
 
 

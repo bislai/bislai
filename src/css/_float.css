@@ -19,3 +19,54 @@
 .clearfix:after {
   clear: both;
 }
+
+@media only screen and (min-width: 30em) {
+
+  .fl-l--s {
+    float: left;
+  }
+
+  .fl-r--s {
+    float: right;
+  }
+
+  .fl-n--s {
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+
+  .fl-l--m {
+    float: left;
+  }
+
+  .fl-r--m {
+    float: right;
+  }
+
+  .fl-n--m {
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+
+  .fl-l--l {
+    float: left;
+  }
+
+  .fl-r--l {
+    float: right;
+  }
+
+  .fl-n--l {
+    float: none;
+  }
+
+
+}
