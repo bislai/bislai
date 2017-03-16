@@ -2,6 +2,10 @@
   color: var(--black);
 }
 
+.bgc-black {
+  background-color: var(--black);
+}
+
 .bgc-celery {
   background-color: var(--celery);
 }
