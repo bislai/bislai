@@ -14,15 +14,23 @@
   flex-direction: column;
 }
 
+.f-flex-row {
+  flex-direction: row;
+}
+
 .f-flex-wrap {
   flex-wrap: wrap;
+}
+
+.f-flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .f-items-start {
   align-items: flex-start;
 }
 
-.f-flex {
+.f-flex-1 {
   flex: 1;
 }
 

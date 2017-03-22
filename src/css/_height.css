@@ -18,6 +18,14 @@
   height: 24rem;
 }
 
+.h-200px {
+  height: 200px;
+}
+
+.h-400px {
+  height: 400px;
+}
+
 .mih-100 {
   min-height: 100vh;
 }
