@@ -4,6 +4,12 @@
   background-color: transparent;
 }
 
+.ghost-t:hover,
+.ghost-t:focus {
+  color: currentColor;
+  background-color: transparent;
+}
+
 .ghost-y:hover,
 .ghost-y:focus {
   border-top: 1px solid currentColor;
