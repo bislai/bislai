@@ -142,3 +142,18 @@
 .border-radius-bottom-right-0 {
   border-bottom-right-radius: 0;
 }
+
+@media only screen and (min-width: 30em) {
+
+    .border-b1--s {
+      border-bottom: 1px solid;
+    }
+
+    .border-t1--s {
+      border-top: 1px solid;
+    }
+
+    .border-r1--s {
+      border-right: 1px solid;
+    }
+}

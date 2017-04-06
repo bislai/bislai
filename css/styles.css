@@ -1404,7 +1404,7 @@ http://www.tipue.com/search
   align-items: flex-start;
 }
 
-.f-flex-1 {
+.f-flex-1--s {
   flex: 1;
 }
 
@@ -2466,6 +2466,18 @@ http://www.tipue.com/search
   border-bottom-right-radius: 0;
 }
 
+@media only screen and (min-width: 30em) {
+    .border-b1--s {
+      border-bottom: 1px solid;
+    }
+    .border-t1--s {
+      border-top: 1px solid;
+    }
+    .border-r1--s {
+      border-right: 1px solid;
+    }
+}
+
 .h-2 {
   height: 2rem;
 }
@@ -2484,14 +2496,6 @@ http://www.tipue.com/search
 
 .h-24 {
   height: 24rem;
-}
-
-.h-200px {
-  height: 200px;
-}
-
-.h-400px {
-  height: 400px;
 }
 
 .mih-100 {
@@ -2532,6 +2536,12 @@ http://www.tipue.com/search
   }
   .mih-100--s {
     min-height: 100vh;
+  }
+  .h-200px--s {
+    height: 200px;
+  }
+  .h-400px--s {
+    height: 400px;
   }
   .mih-custom--s {
     min-height: calc(100vh - 319px);
