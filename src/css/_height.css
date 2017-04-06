@@ -18,6 +18,8 @@
   height: 24rem;
 }
 
+
+
 .mih-100 {
   min-height: 100vh;
 }
@@ -62,6 +64,14 @@
 
   .mih-100--s {
     min-height: 100vh;
+  }
+
+  .h-200px--s {
+    height: 200px;
+  }
+
+  .h-400px--s {
+    height: 400px;
   }
 
   .mih-custom--s {
