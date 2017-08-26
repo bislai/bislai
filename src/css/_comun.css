@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*background-color: #f0ebe6;*/
 }
 
 body {
@@ -43,6 +44,8 @@ body {
     text-decoration: none;
     font-family: var(--fontSystem);
     font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
     &:hover {
         color: var(--colorlink);
         border-color: var(--colorlink);
