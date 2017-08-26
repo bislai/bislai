@@ -4,15 +4,50 @@
 
 body {
   line-height: 1.5;
-  font-family: var(--fontSystem);
+  font-family: var(--serif);
 }
 
 .font-s {
   font-family: var(--fontSystem);
 }
 
+.font-serif {
+  font-family: var(--serif);
+}
+
 .cursor-p {
   cursor: pointer;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.nav-grid-first {
+    display: inline-grid;
+    justify-self: start;
+}
+
+.nav-grid-second {
+    justify-self: end;
+}
+
+.link {
+    color: var(--black);
+    border-bottom: 3px solid var(--black);
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    &:hover {
+        color: var(--colorlink);
+        border-color: var(--colorlink);
+        transition: all .3s ease-in;
+    }
 }
 
 #flecha-anterior {
@@ -471,11 +506,3 @@ http://www.tipue.com/search
 }
 
 /* stylelint-enable */
-
-.containerBuscador {
-  display: none;
-}
-
-.desplegado {
-  display: block;
-}

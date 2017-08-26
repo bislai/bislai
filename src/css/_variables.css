@@ -1,5 +1,6 @@
 :root {
     --fontSystem: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    --serif: 'Georgia', serif;
     --black: #121;
     --resto: #968282;
     --rojo: #6593CD;
@@ -29,8 +30,9 @@
     --fluor: #c5ecac;
     --acapulco: #b1dccc;
     --gondola: #542436;
-    --florawhite9: rgba(255, 250, 240,.9);
-    --white9: rgba(255, 255, 255,.9);
+    --florawhite9: rgba(255, 250, 240, .9);
+    --white9: rgba(255, 255, 255, .9);
     --periwinkie: #e7ecff;
     --woodsmoke: #19160a;
+    --colorlink: #1624f7;
 }

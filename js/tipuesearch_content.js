@@ -262,7 +262,7 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 30 de octubre de 2015",
-        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a no incrementar las tarifas del transporte público en 2016.",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a no incrementar las tarifas del transporte público en 2016",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/30-10-2015#4.html"
     },
@@ -1060,7 +1060,7 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 23 de marzo de 2016",
-        "text": "Revertir parte de las cuantías reforzando el servicio público de autobús con mejoras en las líneas, las frecuencias, la puntualidad o los vehículos -suplementando las ya previstas en la contrata-, como han aprobado dentro de los cauces de participación ciudadana la mayoría de juntas de distrito de la ciudad entre los meses de febrero y marzo de 2016.",
+        "text": "Revertir parte de las cuantías reforzando el servicio público de autobús con mejoras en las líneas, las frecuencias, la puntualidad o los vehículos -suplementando las ya previstas en la contrata-, como han aprobado dentro de los cauces de participación ciudadana la mayoría de juntas de distrito de la ciudad entre los meses de febrero y marzo de 2016",
         "tags": "",
         "url": "http://bislai.co/plenos/2016/23-03-2016#6.html"
     },
