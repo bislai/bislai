@@ -44,8 +44,7 @@
 
 @media only screen and (min-width: 64em) {
 
-
-  .texta-l--l {
+.texta-l--l {
     text-align: left;
   }
 
@@ -56,6 +55,5 @@
   .texta-c--l {
     text-align: center;
   }
-
 
 }

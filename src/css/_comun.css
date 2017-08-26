@@ -4,11 +4,15 @@
 
 body {
   line-height: 1.5;
-  font-family: var(--fontSystem);
+  font-family: var(--serif);
 }
 
 .font-s {
   font-family: var(--fontSystem);
+}
+
+.font-serif {
+  font-family: var(--serif);
 }
 
 .cursor-p {
