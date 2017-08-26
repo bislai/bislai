@@ -19,6 +19,20 @@ body {
   cursor: pointer;
 }
 
+.link {
+    color: var(--black);
+    border-bottom: 3px solid var(--black);
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    &:hover {
+        color: var(--colorlink);
+        border-color: var(--colorlink);
+        transition: all .3s ease-in;
+    }
+}
+
 #flecha-anterior {
   &:hover {
     #anterior {

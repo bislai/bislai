@@ -316,6 +316,24 @@ body {
   cursor: pointer;
 }
 
+.link {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+
+    padding-bottom: 3px;
+
+    text-decoration: none;
+
+    color: #121;
+    border-bottom: 3px solid #121;
+}
+
+.link:hover {
+  transition: all .3s ease-in;
+  color: #1624f7;
+  border-color: #1624f7;
+}
+
 #flecha-anterior:hover #anterior {
   display: block;
 }
