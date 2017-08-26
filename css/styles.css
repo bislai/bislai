@@ -793,14 +793,6 @@ http://www.tipue.com/search
 
 /* stylelint-enable */
 
-.containerBuscador {
-  display: none;
-}
-
-.desplegado {
-  display: block;
-}
-
 .btn-share {
   font-size: 0.88rem;
 
