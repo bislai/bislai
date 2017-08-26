@@ -873,11 +873,6 @@ http://www.tipue.com/search
   margin: 0 auto;
 }
 
-.maw-60 {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
 .w-1-5re {
   width: 1.5rem;
 }
@@ -1024,6 +1019,10 @@ http://www.tipue.com/search
     }
     .w-a--m {
       width: auto;
+    }
+    .maw-60 {
+      max-width: 60vw;
+      margin: 0 auto;
     }
 
 }

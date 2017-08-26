@@ -3,11 +3,6 @@
   margin: 0 auto;
 }
 
-.maw-60 {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
 .w-1-5re {
   width: 1.5rem;
 }
@@ -105,7 +100,6 @@
       width: 50%;
     }
 
-
     .w-60--s {
       width: 60%;
     }
@@ -184,6 +178,11 @@
 
     .w-a--m {
       width: auto;
+    }
+
+    .maw-60 {
+      max-width: 60vw;
+      margin: 0 auto;
     }
 
 }
