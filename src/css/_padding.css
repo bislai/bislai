@@ -76,10 +76,6 @@
   padding-left: 0;
 }
 
-.padding-l1 {
-  padding-left: 1rem;
-}
-
 .padding-l2 {
   padding-left: 2rem;
 }
@@ -91,7 +87,6 @@
 .padding-r-10p {
   padding-right: 10%;
 }
-
 
 @media only screen and (min-width: 30em) {
 

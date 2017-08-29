@@ -1179,6 +1179,18 @@ http://www.tipue.com/search
   color: #E30613;
 }
 
+.amarillo-chunta {
+    color: #EFB027;
+}
+
+.rojo-zec {
+    color: #9A1622;
+}
+
+.naranja-ciudadanos {
+    color: #f07a36;
+}
+
 .bgc-pp {
   background-color: #0080B8;
 }
@@ -1765,10 +1777,6 @@ http://www.tipue.com/search
   padding-left: 0;
 }
 
-.padding-l1 {
-  padding-left: 1rem;
-}
-
 .padding-l2 {
   padding-left: 2rem;
 }
@@ -2007,158 +2015,174 @@ http://www.tipue.com/search
 }
 
 .border-b1 {
-  border-bottom: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .border-b2 {
-  border-bottom: 2px solid;
+    border-bottom: 2px solid;
 }
 
 .border-t1 {
-  border-top: 1px solid;
+    border-top: 1px solid;
 }
 
 .border-r1 {
-  border-right: 1px solid;
+    border-right: 1px solid;
 }
 
 .border-1 {
-  border: 1px solid;
+    border: 1px solid;
 }
 
 .border-2 {
-  border: 2px solid;
+    border: 2px solid;
 }
 
 .borderc-black {
-  border-color: #121;
+    border-color: #121;
 }
 
 .borderc-gondola {
-  border-color: #542436;
+    border-color: #542436;
 }
 
 .borderc-greyc {
-  border-color: #ccc;
+    border-color: #ccc;
 }
 
 .borderc-white {
-  border-color: #fff;
+    border-color: #fff;
 }
 
 .borderc-rojo {
-  border-color: #6593CD;
+    border-color: #6593CD;
 }
 
 .borderc-grey {
-  border-color: #efefef;
+    border-color: #efefef;
 }
 
 .borderc-french-grey {
-  border-color: #E1DCE3;
+    border-color: #E1DCE3;
 }
 
 .borderc-mint {
-  border-color: #0fe1be;
+    border-color: #0fe1be;
 }
 
 .border-l2 {
-  border-left: 2px solid;
+    border-left: 2px solid;
 }
 
 .border-l3 {
-  border-left: 3px solid;
+    border-left: 3px solid;
 }
 
 .border-b3 {
-  border-bottom: 3px solid;
+    border-bottom: 3px solid;
 }
 
 .border-t3 {
-  border-top: 3px solid;
+    border-top: 3px solid;
 }
 
 .border-l5 {
-  border-left: 5px solid;
+    border-left: 5px solid;
 }
 
 .border-b5 {
-  border-bottom: 5px solid;
+    border-bottom: 5px solid;
 }
 
 .border-t5 {
-  border-top: 5px solid;
+    border-top: 5px solid;
 }
 
 .border-b10 {
-  border-bottom: 10px solid;
+    border-bottom: 10px solid;
 }
 
 .border-t10 {
-  border-top: 10px solid;
+    border-top: 10px solid;
 }
 
-.borderc-pp {
-  border-color: #0080B8;
+.borderc-pp:after,
+    .borderc-pp:before,
+    .borderc-psoe:after,
+    .borderc-psoe:before,
+    .borderc-cs:after,
+    .borderc-cs:before,
+    .borderc-ch:after,
+    .borderc-ch:before,
+    .borderc-zec:after,
+    .borderc-zec:before {
+  display: block;
+  width: 35px;
+  content: '';
+  border-bottom: 5px solid #E30613;
 }
 
-.borderc-psoe {
-  border-color: #E30613;
+.borderc-cs:after,
+    .borderc-cs:before {
+  border-bottom: 5px solid #f07a36;
 }
 
-.borderc-cs {
-  border-color: #f07a36;
+.borderc-pp:after,
+    .borderc-pp:before {
+  border-bottom: 5px solid #0080B8;
 }
 
-.borderc-ch {
-  border-color: #EFB027;
+.borderc-ch:after,
+    .borderc-ch:before {
+  border-bottom: 5px solid #EFB027;
 }
 
-.borderc-zec {
-  border-color: #9A1622;
+.borderc-zec:after,
+    .borderc-zec:before {
+  border-bottom: 5px solid #9A1622;
 }
 
 .borderc-b-cs {
-  border-bottom-color: #f07a36;
+    border-bottom-color: #f07a36;
 }
 
 .border-radius-2 {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 .border-radius-5 {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 .border-radius-10 {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .border-radius-top-left-0 {
-  border-top-left-radius: 0;
+    border-top-left-radius: 0;
 }
 
 .border-radius-top-right-0 {
-  border-top-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .border-radius-bottom-left-0 {
-  border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .border-radius-bottom-right-0 {
-  border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 @media only screen and (min-width: 30em) {
     .border-b1--s {
-      border-bottom: 1px solid;
+        border-bottom: 1px solid;
     }
     .border-t1--s {
-      border-top: 1px solid;
+        border-top: 1px solid;
     }
     .border-r1--s {
-      border-right: 1px solid;
+        border-right: 1px solid;
     }
 }
 
