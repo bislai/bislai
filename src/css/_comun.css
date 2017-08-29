@@ -38,7 +38,7 @@ body {
 }
 
 .link {
-    color: var(--black);
+    color: var(--colorlink);
     border-bottom: 3px solid var(--black);
     padding-bottom: 3px;
     text-decoration: none;
