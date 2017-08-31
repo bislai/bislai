@@ -106,6 +106,18 @@
   color: var(--psoe);
 }
 
+.amarillo-chunta {
+    color: var(--chunta);
+}
+
+.rojo-zec {
+    color: var(--zec);
+}
+
+.naranja-ciudadanos {
+    color: var(--ciudadanos);
+}
+
 .bgc-pp {
   background-color: var(--pp);
 }

@@ -7,129 +7,56 @@
     <title>Bislai - votaciones en el Ayuntamiento de Zaragoza</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body class="mih-100">
-    <header class="padding-0-1 font-0 border-b1 borderc-grey w-100">
+    <header class="padding-0-1 font-0 border-b1 borderc-greyc grey w-100 pos-sy tp-0 zi-10">
         <nav class="maw-60 nav-grid">
-            <a href="http://bislai.co" class="textd-n  black  font-3  margin-y0  bold display-ib vertical-am font-w8 font-s nav-grid-first">
-              Bislai
-            </a>
-            <div class="nav-grid-second">
-                <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline letter-0 letter-0-12--s black vertical-am display-ib font-s" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
-                <a href="http://twitter.com/debislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">Twitter</a>
-                <a href="http://github.com/jorgeatgu/bislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">GitHub</a>
+            <a href="http://bislai.co" class="textd-n  black font-1 font-2--m padding-0 padding-1-0--m  margin-y0  bold display-ib vertical-am font-w8 font-s nav-grid-first">
+        BISLAI
+        </a>
+            <div class="padding-1 w-100--m maw-70p--l">
+                <div class="pos-r">
+                    <form action="http://bislai.co/buscador">
+                        <input placeholder="Busca en cualquier pleno" class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
+                        <button class="btn-search bgc-white" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#010101" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="nav-grid-second display-n display-ib--m">
+                <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline black vertical-am display-ib font-s font-w6 letter-0-12--m" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
             </div>
         </nav>
     </header>
-    <div class="border-b1 borderc-grey w-100 padding-1 grey padding-1-0--l">
-        <div class="maw-60 pos-r">
-            <form class="w-100 w-60--s" action="buscador">
-                <input placeholder="Busca en cualquier pleno" class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
-                <button class="btn-search bgc-white" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#010101" />
-                    </svg>
-                </button>
-            </form>
-        </div>
-    </div>
     <div class="maw-60 padding-1 padding-1-0--l">
-        <p class="font-1">Bislai nace en una sobremesa de un día de octubre. Mientras veía el telediario de Aragon TV una reportera informaba sobre una votación en el pleno del Ayuntamiento de Zaragoza de la que no tenía noticia alguna. Así que cuando acabó la pieza decidí buscar información, encontre la página de plenos del Ayuntamiento de Zaragoza. Allí estaba toda la información en bruto, sin distinción alguna. Así que se me ocurrió la idea de recopilar toda la información de todos los plenos y mostrarla de una manera más visual.
+        <p class="font-1">Bislai es la <strong>respuesta</strong> a lo que encontre en la página de plenos del <strong>Ayuntamiento de Zaragoza</strong>. Allí la <strong>información se presentaba en bruto, sin distinción alguna</strong>. El fin de Bislai es mostrar los plenos de una manera más <strong>accesible y visual</strong>.
         </p>
-        <p class="font-1">En esta serie de datos y gráficas vamos a ver como gestionan los diferentes partidos los 328893 votos de los zaragozanos que decidieron ejercer su derecho a voto en las elecciones municipales que se celebraron el 2 de junio de 2015 en Zaragoza. Las decisiones que se toman en el pleno afectan a los 666058 habitantes de Zaragoza.
         </p>
-        <p class="font-1">Todos los datos han sido obtenidos de la <a class="link" href="https://www.zaragoza.es/ciudad/organizacion/plenos/activ_plenarias.htm">web del Ayuntamiento de Zaragoza.</a></p>
+        <p class="font-1">Todos los datos han sido obtenidos de la <a href="https://www.zaragoza.es/ciudad/organizacion/plenos/activ_plenarias.htm">web del Ayuntamiento de Zaragoza.</a></p>
     </div>
     <section class="border-t1  padding-1 border-b1 grey borderc-grey padding-1-0--l">
-        <h2 class="margin-b0  maw-60 font-2 margin-b2">Calendario de plenos</h2>
-        <div class="maw-60 margin-y2 border-1 borderc-black f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-            <div class="w-30--s f-flex-1--s texta-c--s padding-1 border-r1--s borderc-black">
-                <span class="font-3 font-w8 bgc-white--s textd-n h-100p f-items-center--s f-flex--s f-justify-center--s">2015</span>
-            </div>
-            <div class="w-70--s  texta-c--s f-flex--s h-200px--s f-flex-column--s">
-                <div class="f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-07-2015">27 de julio de 2015</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/02-10-2015">2 de octubre de 2015</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/30-10-2015">30 de octubre de 2015</a>
-                    </div>
-                </div>
-                <div class="border-t1--s borderc-black--s f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-11-2015">27 de noviembre de 2015</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/23-12-2015">23 de diciembre de 2015</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s">Bislai</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="margin-y2 maw-60 border-1 borderc-black f-flex-1--s--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s--s f-flex-row--s">
-            <div class="w-30--s f-flex-1--s--s texta-c--s padding-1 border-r1--s borderc-black">
-                <span class="night-rider font-3 font-w8 bgc-white--s textd-n h-100p f-items-center--s f-flex--s f-justify-center--s">2016</span>
-            </div>
-            <div class="w-70--s  texta-c--s  f-flex--s h-400px--s f-flex-column--s">
-                <div class="f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-07-2015">28 de enero de 2016</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/02-10-2015">26 de febrero de 2016</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/30-10-2015">23 de marzo de 2016</a>
-                    </div>
-                </div>
-                <div class="border-t1--s borderc-black--s f-flex-1--s texta-c--s  f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-11-2015">29 de abril de 2016</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/23-12-2015">27 de mayo de 2016</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="">1 de julio de 2016</a>
-                    </div>
-                </div>
-                <div class="border-t1--s borderc-black--s f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-11-2015">22 de julio de 2016</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/23-12-2015">30 de septiembre de 2016</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="">28 de octubre de 2016</a>
-                    </div>
-                </div>
-                <div class="border-t1--s borderc-black--s f-flex-1--s texta-c--s f-flex--s f-flex-nowrap--s f-justify-center--s f-flex-row--s">
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/27-11-2015">2 de diciembre de 2016</a>
-                    </div>
-                    <div class="border-r1--s borderc-black f-flex-1--s texta-c--s padding-1">
-                        <a class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s" href="http://bislai.co/plenos/2015/23-12-2015">23 de diciembre de 2016</a>
-                    </div>
-                    <div class="f-flex-1--s texta-c--s padding-1">
-                        <span class="night-rider underline ghost-b textd-n h-100p f-items-center--s f-flex--s f-justify-center--s">Bislai</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h2 class="margin-b0  maw-60 font-2 margin-b2 font-s">Calendario de plenos</h2>
     </section>
     <footer class="padding-1 padding-1-0--l borderc-grey border-t1 bgc-white woodsmoke font-w6">
         <p class="maw-60 padding-1-0 luckyPoint">© Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - MMXVII</p>
         <p class="maw-60 padding-1-0 margin-t0">hola@bislai.co</p>
-        <a class="maw-60 font-08 font-1--s padding-r0 padding-r1-5--m underline letter-0 letter-0-12--s black vertical-am display-b font-s" href="http://bislai.co/creditos">CREDITOS</a>
+        <div class="maw-60">
+            <a class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1" href="http://bislai.co/creditos">CREDITOS</a>
+            <a href="http://twitter.com/debislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">Twitter</a>
+            <a href="http://github.com/jorgeatgu/bislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">GitHub</a>
+        </div>
     </footer>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/mapa.js"></script>
     <script>
     $(document).ready(function() {
         $('#tipue_search_input').tipuesearch({
@@ -138,8 +65,6 @@
         });
     });
     </script>
-    <script type="text/javascript" src="js/mo.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
