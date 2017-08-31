@@ -51,7 +51,11 @@
 }
 
 .bgc-mint {
-  background-color: var(--mint);
+  background-color: hsl(170, 88%, 47%);
+  &:hover {
+    background-color: hsl(170, 56%, 47%);
+    transition: background-color .3s ease-in;
+  }
 }
 
 .night-rider {
@@ -59,7 +63,11 @@
 }
 
 .bgc-french-grey {
-  background-color: var(--frenchGrey);
+  background-color: hsl(283, 11%, 88%);
+  &:hover {
+    background-color: hsl(283, 5%, 68%);
+    transition: background-color .3s ease-in;
+  }
 }
 
 .bunting {
