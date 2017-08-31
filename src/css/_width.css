@@ -241,5 +241,9 @@
       width: auto;
     }
 
+    .maw-70p--l {
+        max-width: 60%;
+    }
+
 
 }
