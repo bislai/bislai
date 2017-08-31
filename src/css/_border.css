@@ -54,6 +54,10 @@
     border-color: var(--mint);
 }
 
+.borderc-n {
+    border-color: none;
+}
+
 .border-l2 {
     border-left: 2px solid;
 }

@@ -318,6 +318,12 @@ body {
   cursor: pointer;
 }
 
+/*STRIPE RULES*/
+
+.button-shw {
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
 .nav-grid {
   display: grid;
 
@@ -1127,7 +1133,12 @@ http://www.tipue.com/search
 }
 
 .bgc-mint {
-  background-color: #0fe1be;
+  background-color: hsl(170, 88%, 47%);
+}
+
+.bgc-mint:hover {
+  transition: background-color .3s ease-in;
+  background-color: hsl(170, 56%, 47%);
 }
 
 .night-rider {
@@ -1135,7 +1146,12 @@ http://www.tipue.com/search
 }
 
 .bgc-french-grey {
-  background-color: #E1DCE3;
+  background-color: hsl(283, 11%, 88%);
+}
+
+.bgc-french-grey:hover {
+  transition: background-color .3s ease-in;
+  background-color: hsl(283, 5%, 68%);
 }
 
 .bunting {
@@ -1732,6 +1748,10 @@ http://www.tipue.com/search
   padding: 0 1rem;
 }
 
+.padding-0__5-1 {
+  padding: .5rem 1rem;
+}
+
 .padding-b1 {
   padding-bottom: 1rem;
 }
@@ -2071,6 +2091,10 @@ http://www.tipue.com/search
 
 .borderc-mint {
     border-color: #0fe1be;
+}
+
+.borderc-n {
+    border-color: none;
 }
 
 .border-l2 {
