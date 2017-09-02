@@ -2163,40 +2163,27 @@ http://www.tipue.com/search
     border-top: 10px solid;
 }
 
-.borderc-pp:after,
-    .borderc-pp:before,
-    .borderc-psoe:after,
-    .borderc-psoe:before,
-    .borderc-cs:after,
-    .borderc-cs:before,
-    .borderc-ch:after,
-    .borderc-ch:before,
-    .borderc-zec:after,
-    .borderc-zec:before {
+.borderc-pp:after, .borderc-psoe:after, .borderc-cs:after, .borderc-ch:after, .borderc-zec:after {
   display: block;
-  width: 35px;
+  width: 200px;
   content: '';
-  border-bottom: 5px solid #E30613;
+  border-bottom: 3px solid #E30613;
 }
 
-.borderc-cs:after,
-    .borderc-cs:before {
-  border-bottom: 5px solid #f07a36;
+.borderc-cs:after {
+  border-bottom: 3px solid #f07a36;
 }
 
-.borderc-pp:after,
-    .borderc-pp:before {
-  border-bottom: 5px solid #0080B8;
+.borderc-pp:after {
+  border-bottom: 3px solid #0080B8;
 }
 
-.borderc-ch:after,
-    .borderc-ch:before {
-  border-bottom: 5px solid #EFB027;
+.borderc-ch:after {
+  border-bottom: 3px solid #EFB027;
 }
 
-.borderc-zec:after,
-    .borderc-zec:before {
-  border-bottom: 5px solid #9A1622;
+.borderc-zec:after {
+  border-bottom: 3px solid #9A1622;
 }
 
 .borderc-b-cs {

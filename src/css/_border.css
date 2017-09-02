@@ -103,40 +103,35 @@
 .borderc-cs,
 .borderc-ch,
 .borderc-zec {
-    &:after,
-    &:before {
+    &:after {
         content: '';
         display: block;
-        border-bottom: 5px solid var(--psoe);
-        width: 35px;
+        border-bottom: 3px solid var(--psoe);
+        width: 200px;
     }
 }
 
 .borderc-cs {
-    &:after,
-    &:before {
-        border-bottom: 5px solid var(--ciudadanos);
+    &:after {
+        border-bottom: 3px solid var(--ciudadanos);
     }
 }
 
 .borderc-pp {
-    &:after,
-    &:before {
-        border-bottom: 5px solid var(--pp);
+    &:after {
+        border-bottom: 3px solid var(--pp);
     }
 }
 
 .borderc-ch {
-    &:after,
-    &:before {
-        border-bottom: 5px solid var(--chunta);
+    &:after {
+        border-bottom: 3px solid var(--chunta);
     }
 }
 
 .borderc-zec {
-    &:after,
-    &:before {
-        border-bottom: 5px solid var(--zec);
+    &:after {
+        border-bottom: 3px solid var(--zec);
     }
 }
 
