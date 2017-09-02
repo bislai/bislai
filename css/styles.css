@@ -327,7 +327,7 @@ body {
 .nav-grid {
   display: grid;
 
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 25% 1fr 10%;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
@@ -360,7 +360,7 @@ body {
 
 .link:hover {
   transition: all .3s ease-in;
-  color: #1624f7;
+  color: #121;
   border-color: #1624f7;
 }
 
@@ -658,7 +658,8 @@ http://www.tipue.com/search
   padding: 1.06rem;
 
   color: #333;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-left: 1px solid #1B305F;
   border-radius: 0;
   outline: 0;
 }
@@ -828,7 +829,8 @@ http://www.tipue.com/search
 
   cursor: pointer;
 
-  border: 1px solid #1B305F;
+  border: 0;
+  border-right: 1px solid #1B305F;
 }
 
 .btn-search:hover {
@@ -1128,7 +1130,7 @@ http://www.tipue.com/search
   color: var(--luckyPoint);
 }
 
-.transparent {
+.bgc-transparent {
   background-color: transparent;
 }
 
@@ -1228,6 +1230,26 @@ http://www.tipue.com/search
 
 .bgc-cha {
   background-color: #EFB027;
+}
+
+@media only screen and (min-width: 30em) {
+    .bgc-transparent--s {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .bgc-transparent--m {
+        background-color: transparent;
+    }
+
+}
+
+@media only screen and (min-width: 64em) {
+    .bgc-transparent--l {
+        background-color: transparent;
+    }
+
 }
 
 .display-ib {
@@ -1718,6 +1740,10 @@ http://www.tipue.com/search
   font-weight: 600;
 }
 
+.font-w2 {
+  font-weight: 200;
+}
+
 .padding-y0 {
   padding-top: 0;
   padding-bottom: 0;
@@ -2037,6 +2063,10 @@ http://www.tipue.com/search
 
 }
 
+.border-0 {
+    border: 0px;
+}
+
 .border-b1 {
     border-bottom: 1px solid;
 }
@@ -2211,6 +2241,21 @@ http://www.tipue.com/search
     .border-r1--s {
         border-right: 1px solid;
     }
+    .border-0--s {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .border-0--m {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .border-0--l {
+        border: 0px;
+    }
 }
 
 .h-2 {
@@ -2362,92 +2407,109 @@ http://www.tipue.com/search
 }
 
 .pos-r {
-  position: relative;
+    position: relative;
 }
 
 /* stylelint-disable */
 
 .pos-sy {
-  position: sticky;
-  position: -webkit-sticky;
+    /*Para aquellos que no soportan sticky*/
+    position: fixed;
+    /*Aquellos que soportan sticky sobreescriben el fixed*/
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 /* stylelint-enable */
 
 .pos-a {
-  position: absolute;
+    position: absolute;
 }
 
 .pos-f {
-  position: fixed;
+    position: fixed;
 }
 
 .pos-s {
-  position: static;
+    position: static;
 }
 
 .tp-0 {
-  top: 0;
+    top: 0;
 }
 
 .tp-2- {
-  top: -2px;
+    top: -2px;
 }
 
 .tp-5p {
-  top: 5px;
+    top: 5px;
 }
 
 .tp-1 {
-  top: 10%;
+    top: 10%;
 }
 
 .tp-2 {
-  top: 20%;
+    top: 20%;
 }
 
 .tp-3 {
-  top: 30%;
+    top: 30%;
 }
 
 .tp-4 {
-  top: 40%;
+    top: 40%;
 }
 
 .tp-5 {
-  top: 50%;
+    top: 50%;
 }
 
 .tp-6 {
-  top: 60%;
+    top: 60%;
 }
 
 .tp-7 {
-  top: 70%;
+    top: 70%;
 }
 
 .tp-8 {
-  top: 80%;
+    top: 80%;
 }
 
 .tp-9 {
-  top: 90%;
+    top: 90%;
 }
 
 .tp-10 {
-  top: 100%;
+    top: 100%;
 }
 
 .rt-0 {
-  right: 0;
+    right: 0;
 }
 
 .lf-0 {
-  left: 0;
+    left: 0;
 }
 
 .lf-5 {
-  left: 5px;
+    left: 5px;
+}
+
+.bt-0 {
+    bottom: 0;
+}
+
+.tp-plenos {
+    top: calc(100vh - 58px);
+}
+
+@media only screen and (min-width: 48em) {
+    .tp-plenos {
+        top: 50%;
+    }
 }
 
 .fl-l {

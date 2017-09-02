@@ -27,7 +27,7 @@ body {
 
 .nav-grid {
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 25% 1fr 10%;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
@@ -52,7 +52,7 @@ body {
     letter-spacing: 1px;
     display: inline-block;
     &:hover {
-        color: var(--colorlink);
+        color: var(--black);
         border-color: var(--colorlink);
         transition: all .3s ease-in;
     }
@@ -348,7 +348,8 @@ http://www.tipue.com/search
 
 #tipue_search_input {
   color: #333;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-left: 1px solid #1B305F;
   border-radius: 0;
   padding: 17px;
   outline: 0;
@@ -502,7 +503,8 @@ http://www.tipue.com/search
 .btn-search {
   width: 50px;
   height: 60px;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-right: 1px solid #1B305F;
   cursor: pointer;
   margin-left: -6px;
   &:hover {

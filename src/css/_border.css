@@ -1,3 +1,7 @@
+.border-0 {
+    border: 0px;
+}
+
 .border-b1 {
     border-bottom: 1px solid;
 }
@@ -181,5 +185,23 @@
 
     .border-r1--s {
         border-right: 1px solid;
+    }
+
+    .border-0--s {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+
+    .border-0--m {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+
+    .border-0--l {
+        border: 0px;
     }
 }
