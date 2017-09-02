@@ -27,7 +27,7 @@ body {
 
 .nav-grid {
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 25% 1fr 10%;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;

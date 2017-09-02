@@ -327,7 +327,7 @@ body {
 .nav-grid {
   display: grid;
 
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 25% 1fr 10%;
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
@@ -1130,7 +1130,7 @@ http://www.tipue.com/search
   color: var(--luckyPoint);
 }
 
-.transparent {
+.bgc-transparent {
   background-color: transparent;
 }
 
@@ -1230,6 +1230,26 @@ http://www.tipue.com/search
 
 .bgc-cha {
   background-color: #EFB027;
+}
+
+@media only screen and (min-width: 30em) {
+    .bgc-transparent--s {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .bgc-transparent--m {
+        background-color: transparent;
+    }
+
+}
+
+@media only screen and (min-width: 64em) {
+    .bgc-transparent--l {
+        background-color: transparent;
+    }
+
 }
 
 .display-ib {
@@ -2043,6 +2063,10 @@ http://www.tipue.com/search
 
 }
 
+.border-0 {
+    border: 0px;
+}
+
 .border-b1 {
     border-bottom: 1px solid;
 }
@@ -2216,6 +2240,21 @@ http://www.tipue.com/search
     }
     .border-r1--s {
         border-right: 1px solid;
+    }
+    .border-0--s {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .border-0--m {
+        border: 0px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .border-0--l {
+        border: 0px;
     }
 }
 
@@ -2463,24 +2502,12 @@ http://www.tipue.com/search
     bottom: 0;
 }
 
-.tp-90vh {
-    top: 92vh;
-}
-
-@media only screen and (min-width: 30em) {
-    .tp-5--s {
-        top: 50%;
-    }
+.tp-plenos {
+    top: calc(100vh - 58px);
 }
 
 @media only screen and (min-width: 48em) {
-    .tp-5--m {
-        top: 50%;
-    }
-}
-
-@media only screen and (min-width: 64em) {
-    .tp-5--l {
+    .tp-plenos {
         top: 50%;
     }
 }

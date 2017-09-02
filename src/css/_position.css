@@ -97,28 +97,13 @@
     bottom: 0;
 }
 
-.tp-90vh {
-    top: 92vh;
-}
-
-
-@media only screen and (min-width: 30em) {
-
-    .tp-5--s {
-        top: 50%;
-    }
+.tp-plenos {
+    top: calc(100vh - 58px);
 }
 
 @media only screen and (min-width: 48em) {
 
-    .tp-5--m {
-        top: 50%;
-    }
-}
-
-@media only screen and (min-width: 64em) {
-
-    .tp-5--l {
+    .tp-plenos {
         top: 50%;
     }
 }
