@@ -52,7 +52,7 @@ body {
     letter-spacing: 1px;
     display: inline-block;
     &:hover {
-        color: var(--colorlink);
+        color: var(--black);
         border-color: var(--colorlink);
         transition: all .3s ease-in;
     }
