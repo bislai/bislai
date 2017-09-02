@@ -348,7 +348,8 @@ http://www.tipue.com/search
 
 #tipue_search_input {
   color: #333;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-left: 1px solid #1B305F;
   border-radius: 0;
   padding: 17px;
   outline: 0;
@@ -502,7 +503,8 @@ http://www.tipue.com/search
 .btn-search {
   width: 50px;
   height: 60px;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-right: 1px solid #1B305F;
   cursor: pointer;
   margin-left: -6px;
   &:hover {

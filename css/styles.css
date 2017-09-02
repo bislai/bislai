@@ -658,7 +658,8 @@ http://www.tipue.com/search
   padding: 1.06rem;
 
   color: #333;
-  border: 1px solid #1B305F;
+  border: 0;
+  border-left: 1px solid #1B305F;
   border-radius: 0;
   outline: 0;
 }
@@ -828,7 +829,8 @@ http://www.tipue.com/search
 
   cursor: pointer;
 
-  border: 1px solid #1B305F;
+  border: 0;
+  border-right: 1px solid #1B305F;
 }
 
 .btn-search:hover {
@@ -1716,6 +1718,10 @@ http://www.tipue.com/search
 
 .font-w6 {
   font-weight: 600;
+}
+
+.font-w2 {
+  font-weight: 200;
 }
 
 .padding-y0 {
