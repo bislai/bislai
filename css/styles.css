@@ -841,6 +841,124 @@ http://www.tipue.com/search
   fill: #fff;
 }
 
+.tabla-calendario {
+    display: none;
+
+    padding: 1.25rem 0;
+
+    text-align: center;
+
+    border: 1px solid var(--impureGrey);
+}
+
+.tabla-grid {
+    display: inline-grid;
+
+    width: 90%;
+
+    border: 1px solid #000;
+    background-color: #fff;
+
+    grid-template-columns: repeat(3, 33.33%);
+}
+
+.input-record {
+    display: none;
+}
+
+.label-record {
+    font-size: 0.88rem;
+    font-weight: 600;
+
+    display: inline-block;
+
+    width: 20%;
+    margin: 0 0 -0.06rem;
+    padding: 0.13rem;
+
+    text-align: center;
+
+    color: var(--impureGrey);
+    border: 1px solid var(--impureGrey);
+}
+
+.label-record:hover {
+  cursor: pointer;
+  color: var(--impureBlack);
+}
+
+.label-record:nth-of-type(4n+1) {
+  margin-left: 10px;
+}
+
+.label-responsive {
+    display: none;
+}
+
+.input-record:checked + .label-record {
+    color: var(--impureBlack);
+    border: 1px solid var(--impureGrey);
+    border-top: 5px solid var(--gradient2);
+    border-bottom: 1px solid #c4d1e8;
+    background-color: #c4d1e8;
+}
+
+#tab1:checked ~ .contenido1,
+#tab2:checked ~ .contenido2,
+#tab3:checked ~ .contenido3 {
+    display: block;
+
+    background-color: #c4d1e8;
+}
+
+.grid-text {
+    display: block;
+
+    padding: 0.63rem 0;
+}
+
+.grid-text:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.grid-title {
+    margin: 0;
+    padding: 0.63rem;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-title-min {
+    background-color: var(--btnMinBgc);
+}
+
+.grid-title-max {
+    background-color: var(--gradient2);
+}
+
+.tabla-record-header {
+    font-size: 0;
+
+    display: inline-block;
+
+    width: 100%;
+}
+
+.tabla-record-header-text {
+    font-size: 1.88rem;
+
+    display: inline-block;
+
+    width: 90%;
+    margin-bottom: 10px;
+
+    text-align: left;
+}
+
+.tabla-record-minimas-desktop {
+    display: none;
+}
+
 /* stylelint-enable */
 
 .btn-share {
