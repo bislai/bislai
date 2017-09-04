@@ -961,6 +961,35 @@ http://www.tipue.com/search
 
 /* stylelint-enable */
 
+.background {
+  pointer-events: all;
+
+  fill: #eee;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+
+.effect-layer{
+  pointer-events:none;
+}
+
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+text.big-text{
+  font-size: 1.88rem;
+  font-weight: 400;
+}
+
+.effect-layer text, text.dummy-text{
+  font-size: 0.75rem;
+}
+
 .btn-share {
   font-size: 0.88rem;
 
