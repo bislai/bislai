@@ -1,142 +1,77 @@
-var width = 960,
-    height = 500,
-    centered;
+    //Map dimensions (in pixels)
+    var width = 461,
+        height = 600;
 
-// Define color scale
-var color = d3.scale.linear()
-  .domain([1, 20])
-  .clamp(true)
-  .range(['#fff', '#409A99']);
+    //Map projection
+    var projection = d3.geo.mercator()
+        .scale(50832.460579212995)
+        .center([-0.9273105000000003,41.69198426570548]) //projection center
+        .translate([width/2,height/2]) //translate to center the map in view
 
-var projection = d3.geo.mercator()
-  .scale(1500)
-  // Center the Map in Colombia
-  .center([-74, 4.5])
-  .translate([width / 2, height / 2]);
+    //Generate paths based on projection
+    var path = d3.geo.path()
+        .projection(projection);
 
-var path = d3.geo.path()
-  .projection(projection);
+    //Create an SVG
+    var svg = d3.select('.mapa')
+        .append('svg')
+        .attr('class', 'mapa-elecciones')
+        .attr("width", width)
+        .attr("height", height);
 
-// Set svg width & height
-var margin = { top: 50, right: 50, bottom: 50, left: 110 },
-    widthH = 1200 - margin.left - margin.right,
-    heightH = 500 - margin.top - margin.bottom;
+    //Group for the map features
+    var features = svg.append("g")
+        .attr("class","features");
 
-var svg = d3.select('.mapa')
-    .append('svg')
-    .attr('class', 'mapa-elecciones')
-    .attr("width", widthH + margin.left + margin.right)
-    .attr("height", heightH + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + (margin.left - margin.right) + "," + margin.top + ")");
+    //Create choropleth scale
+    var color = d3.scale.quantize()
+        .domain([0,1])
+        .range(d3.range(3).map(function(i) { return "q" + i + "-3"; }));
 
-// Add background
-svg.append('rect')
-  .attr('class', 'background')
-  .attr('width', width)
-  .attr('height', height)
-  .on('click', clicked);
+    //Create a tooltip, hidden at the start
+    var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-var g = svg.append('g');
+    d3.json("mapas/distrito-electoral-zaragoza.geojson",function(error,geodata) {
+      if (error) return console.log(error); //unknown error, check the console
 
-var effectLayer = g.append('g')
-  .classed('effect-layer', true);
+      //Create a path for each map feature in the data
+      features.selectAll("path")
+        .data(geodata.features)
+        .enter()
+        .append("path")
+        .attr("d",path)
+        .on("mouseover",showTooltip)
+        .on("mousemove",moveTooltip)
+        .on("mouseout",hideTooltip)
+        .on("click",clicked);
 
-var mapLayer = g.append('g')
-  .classed('map-layer', true);
+    });
 
-var dummyText = g.append('text')
-  .classed('dummy-text', true)
-  .attr('x', 10)
-  .attr('y', 30)
-  .style('opacity', 0);
+    // Add optional onClick events for features here
+    // d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
+    function clicked(d,i) {
 
-var bigText = g.append('text')
-  .classed('big-text', true)
-  .attr('x', 20)
-  .attr('y', 45);
+    }
 
-// Load map data
-d3.json('mapas/distrito-electoral-zaragoza.geojson', function(error, mapData) {
-  var features = mapData.features;
 
-  // Update color scale domain based on data
-  color.domain([0, d3.max(features, nameLength)]);
+    //Position of the tooltip relative to the cursor
+    var tooltipOffset = {x: 5, y: -25};
 
-  // Draw each province as a path
-  mapLayer.selectAll('path')
-      .data(features)
-    .enter().append('path')
-      .attr('d', path)
-      .attr('vector-effect', 'non-scaling-stroke')
-      .style('fill', fillFn)
-      .on('mouseover', mouseover)
-      .on('mouseout', mouseout)
-      .on('click', clicked);
-});
+    //Create a tooltip, hidden at the start
+    function showTooltip(d) {
+      moveTooltip();
 
-// Get province name
-function nameFn(d){
-  return d && d.properties ? d.properties.distrito : null;
-}
+      tooltip.style("display","block")
+          .text(d.properties.distrito);
+    }
 
-// Get province name length
-function nameLength(d){
-  var n = nameFn(d);
-  return n ? n.length : 0;
-}
+    //Move the tooltip to track the mouse
+    function moveTooltip() {
+      tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
+          .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
+    }
 
-// Get province color
-function fillFn(d){
-  return color(nameLength(d));
-}
-
-// When clicked, zoom in
-function clicked(d) {
-  var x, y, k;
-
-  // Compute centroid of the selected path
-  if (d && centered !== d) {
-    var centroid = path.centroid(d);
-    x = centroid[0];
-    y = centroid[1];
-    k = 4;
-    centered = d;
-  } else {
-    x = width / 2;
-    y = height / 2;
-    k = 1;
-    centered = null;
-  }
-
-  // Highlight the clicked province
-  mapLayer.selectAll('path')
-    .style('fill', function(d){return centered && d===centered ? '#D5708B' : fillFn(d);});
-
-  // Zoom
-  g.transition()
-    .duration(750)
-    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
-}
-
-function mouseover(d){
-  // Highlight hovered province
-  d3.select(this).style('fill', 'orange');
-
-  // Draw effects
-  textArt(nameFn(d));
-}
-
-function mouseout(d){
-  // Reset province color
-  mapLayer.selectAll('path')
-    .style('fill', function(d){return centered && d===centered ? '#D5708B' : fillFn(d);});
-
-  // Remove effect text
-  effectLayer.selectAll('text').transition()
-    .style('opacity', 0)
-    .remove();
-
-  // Clear province name
-  bigText.text('');
-}
+    //Create a tooltip, hidden at the start
+    function hideTooltip() {
+      tooltip.style("display","none");
+    }

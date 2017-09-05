@@ -990,6 +990,40 @@ text.big-text{
   font-size: 0.75rem;
 }
 
+path {
+  cursor: pointer;
+
+  stroke-width: 1px;
+  stroke: white;
+  fill: #999;
+}
+
+path.q0-3 {
+  fill: #8856a7;
+}
+
+path.q1-3 {
+  fill: #9ebcda;
+}
+
+path.q2-3 {
+  fill: #e0ecf4;
+}
+
+div.tooltip {
+  font-weight: bold;
+
+  position: absolute;
+
+  display: none;
+
+  padding: 0.25rem 0.5rem;
+
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+
 .btn-share {
   font-size: 0.88rem;
 

@@ -643,3 +643,32 @@ text.big-text{
 .effect-layer text, text.dummy-text{
   font-size: 12px;
 }
+
+path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: #999;
+  cursor: pointer;
+}
+
+path.q0-3 {
+  fill: #8856a7;
+}
+
+path.q1-3 {
+  fill: #9ebcda;
+}
+
+path.q2-3 {
+  fill: #e0ecf4;
+}
+
+div.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: none;
+}
