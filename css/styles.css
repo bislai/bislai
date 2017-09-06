@@ -296,41 +296,41 @@ button:-moz-focusring,
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  /*background-color: #f0ebe6;*/
+    /*background-color: #f0ebe6;*/
 }
 
 body {
-  font-family: 'Georgia', serif;
-  line-height: 1.5;
+    font-family: 'Georgia', serif;
+    line-height: 1.5;
 }
 
 .font-s {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .font-serif {
-  font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif;
 }
 
 .cursor-p {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /*STRIPE RULES*/
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
-  display: grid;
+    display: grid;
 
-  grid-template-columns: 25% 1fr 10%;
-  grid-template-rows: auto;
-  justify-items: center;
-  align-items: center;
+    grid-template-columns: 25% 1fr 10%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .nav-grid-first {
@@ -373,23 +373,23 @@ body {
 }
 
 .txt-color {
-  color: #430e16;
+    color: #430e16;
 }
 
 .whs-nw {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .textd-u {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .textd-n {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .zi-10 {
-  z-index: 10;
+    z-index: 10;
 }
 
 /* ESTILOS C3 */
@@ -397,21 +397,21 @@ body {
 /* stylelint-disable */
 
 .c3 svg {
-  font: 0.63rem sans-serif;
+    font: 0.63rem sans-serif;
 
-  -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent
 }
 
 .c3 line,
 .c3 path {
-  fill: none;
-  stroke: #000
+    fill: none;
+    stroke: #000
 }
 
 .c3 text {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
 }
 
 .c3-bars path,
@@ -419,200 +419,200 @@ body {
 .c3-legend-item-tile,
 .c3-xgrid-focus,
 .c3-ygrid {
-  shape-rendering: crispEdges
+    shape-rendering: crispEdges
 }
 
 .c3-chart-arc path {
-  stroke: #fff
+    stroke: #fff
 }
 
 .c3-chart-arc text {
-  font-size: 0.81rem;
+    font-size: 0.81rem;
 
-  fill: #fff
+    fill: #fff
 }
 
 .c3-grid line {
-  stroke: #aaa
+    stroke: #aaa
 }
 
 .c3-grid text {
-  fill: #aaa
+    fill: #aaa
 }
 
 .c3-xgrid,
 .c3-ygrid {
-  stroke-dasharray: 3 3
+    stroke-dasharray: 3 3
 }
 
 .c3-text.c3-empty {
-  font-size: 2em;
+    font-size: 2em;
 
-  fill: gray
+    fill: gray
 }
 
 .c3-line {
-  stroke-width: 1px
+    stroke-width: 1px
 }
 
 .c3-circle._expanded_ {
-  stroke-width: 1px;
-  stroke: #fff
+    stroke-width: 1px;
+    stroke: #fff
 }
 
 .c3-selected-circle {
-  fill: #fff;
-  stroke-width: 2px
+    fill: #fff;
+    stroke-width: 2px
 }
 
 .c3-bar {
-  stroke-width: 0
+    stroke-width: 0
 }
 
 .c3-bar._expanded_ {
-  fill-opacity: .75
+    fill-opacity: .75
 }
 
 .c3-target.c3-focused {
-  opacity: 1
+    opacity: 1
 }
 
 .c3-target.c3-focused path.c3-line,
 .c3-target.c3-focused path.c3-step {
-  stroke-width: 2px
+    stroke-width: 2px
 }
 
 .c3-target.c3-defocused {
-  opacity: .3!important
+    opacity: .3!important
 }
 
 .c3-region {
-  fill: #4682b4;
-  fill-opacity: .1
+    fill: #4682b4;
+    fill-opacity: .1
 }
 
 .c3-brush .extent {
-  fill-opacity: .1
+    fill-opacity: .1
 }
 
 .c3-legend-item {
-  font-size: 0.75rem
+    font-size: 0.75rem
 }
 
 .c3-legend-item-hidden {
-  opacity: .15
+    opacity: .15
 }
 
 .c3-legend-background {
-  opacity: .75;
+    opacity: .75;
 
-  fill: #fff;
-  stroke: #d3d3d3;
-  stroke-width: 1
+    fill: #fff;
+    stroke: #d3d3d3;
+    stroke-width: 1
 }
 
 .c3-title {
-  font: 0.88rem sans-serif
+    font: 0.88rem sans-serif
 }
 
 .c3-tooltip-container {
-  z-index: 10
+    z-index: 10
 }
 
 .c3-tooltip {
-  empty-cells: show;
-  border-spacing: 0;
-  border-collapse: collapse;
+    empty-cells: show;
+    border-spacing: 0;
+    border-collapse: collapse;
 
-  opacity: .9;
-  background-color: #fff;
-  -webkit-box-shadow: 7px 7px 12px -9px #777;
-  -moz-box-shadow: 7px 7px 12px -9px #777;
-  box-shadow: 7px 7px 12px -9px #777
+    opacity: .9;
+    background-color: #fff;
+    -webkit-box-shadow: 7px 7px 12px -9px #777;
+    -moz-box-shadow: 7px 7px 12px -9px #777;
+    box-shadow: 7px 7px 12px -9px #777
 }
 
 .c3-tooltip tr {
-  border: 1px solid #CCC
+    border: 1px solid #CCC
 }
 
 .c3-tooltip th {
-  font-size: 0.88rem;
+    font-size: 0.88rem;
 
-  padding: 0.13rem 0.31rem;
+    padding: 0.13rem 0.31rem;
 
-  text-align: left;
+    text-align: left;
 
-  color: #FFF;
-  background-color: #aaa
+    color: #FFF;
+    background-color: #aaa
 }
 
 .c3-tooltip td {
-  font-size: 0.81rem;
+    font-size: 0.81rem;
 
-  padding: 0.19rem 0.38rem;
+    padding: 0.19rem 0.38rem;
 
-  border-left: 1px dotted #999;
-  background-color: #fff
+    border-left: 1px dotted #999;
+    background-color: #fff
 }
 
 .c3-tooltip td>span {
-  display: inline-block;
+    display: inline-block;
 
-  width: 10px;
-  height: 10px;
-  margin-right: 6px
+    width: 10px;
+    height: 10px;
+    margin-right: 6px
 }
 
 .c3-tooltip td.value {
-  text-align: right
+    text-align: right
 }
 
 .c3-area {
-  opacity: .2;
+    opacity: .2;
 
-  stroke-width: 0
+    stroke-width: 0
 }
 
 .c3-chart-arcs-title {
-  font-size: 1.3em;
+    font-size: 1.3em;
 
-  dominant-baseline: middle
+    dominant-baseline: middle
 }
 
 .c3-chart-arcs .c3-chart-arcs-background {
-  fill: #e0e0e0;
-  stroke: none
+    fill: #e0e0e0;
+    stroke: none
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-unit {
-  font-size: 1rem;
+    font-size: 1rem;
 
-  fill: #000
+    fill: #000
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-max,
 .c3-chart-arcs .c3-chart-arcs-gauge-min {
-  fill: #777
+    fill: #777
 }
 
 .c3-chart-arc .c3-gauge-value {
-  fill: #000
+    fill: #000
 }
 
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1rem !important;
-  font-weight: bold !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem !important;
+    font-weight: bold !important;
 
-  fill: #000 !important;
+    fill: #000 !important;
 }
 
 .c3 text {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1rem !important;
-  font-weight: bold !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem !important;
+    font-weight: bold !important;
 }
 
 /*
@@ -631,206 +631,206 @@ http://www.tipue.com/search
 .tipue_search_content_url,
 .tipue_search_content_debug,
 .tipue_search_related_text {
-  font-size: 0.88rem;
+    font-size: 0.88rem;
 }
 
 .tipue_search_content_title {
-  font-size: 1.63rem;
+    font-size: 1.63rem;
 }
 
 .tipue_search_content_text,
 .tipue_search_related_title {
-  font-size: 0.94rem;
+    font-size: 0.94rem;
 }
 
 .tipue_search_content_bold,
 .tipue_search_related_bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 /* search box */
 
 #tipue_search_input {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 
-  height: 60px;
-  margin: 0;
-  padding: 1.06rem;
+    height: 60px;
+    margin: 0;
+    padding: 1.06rem;
 
-  color: #333;
-  border: 0;
-  border-left: 1px solid #1B305F;
-  border-radius: 0;
-  outline: 0;
+    color: #333;
+    border: 0;
+    border-left: 1px solid #1B305F;
+    border-radius: 0;
+    outline: 0;
 }
 
 .tipue_search_icon {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .tipue_search_left {
-  float: left;
+    float: left;
 
-  padding: 0.94rem 0.56rem 0 0;
+    padding: 0.94rem 0.56rem 0 0;
 }
 
 .tipue_search_right {
-  float: left;
+    float: left;
 }
 
 /* search results */
 
 #tipue_search_content {
-  max-width: 750px;
-  margin: 0;
-  padding-top: 15px;
+    max-width: 750px;
+    margin: 0;
+    padding-top: 15px;
 }
 
 #tipue_search_results_count {
-  color: #333;
+    color: #333;
 }
 
 #tipue_search_warning {
-  margin: 0.44rem 0;
+    margin: 0.44rem 0;
 
-  color: #333;
+    color: #333;
 }
 
 #tipue_search_warning a {
-  text-decoration: none;
+    text-decoration: none;
 
-  color: #5396ea;
+    color: #5396ea;
 }
 
 #tipue_search_warning a:hover {
-  color: #555;
+    color: #555;
 }
 
 .tipue_search_content_title {
-  margin-top: 21px;
+    margin-top: 21px;
 
-  color: #666;
+    color: #666;
 }
 
 .tipue_search_content_title a {
-  text-decoration: none;
+    text-decoration: none;
 
-  color: #666;
+    color: #666;
 }
 
 .tipue_search_content_title a:hover {
-  color: #666;
+    color: #666;
 }
 
 .tipue_search_content_url {
-  word-wrap: break-word;
-  hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .tipue_search_content_url a,
 .tipue_search_related_text a {
-  text-decoration: none;
+    text-decoration: none;
 
-  color: #5396ea;
+    color: #5396ea;
 }
 
 .tipue_search_content_url a:hover,
 .tipue_search_related_text a:hover,
 .tipue_search_related_before,
 .tipue_search_related_after {
-  color: #555;
+    color: #555;
 }
 
 .tipue_search_content_text {
-  margin-top: 5px;
+    margin-top: 5px;
 
-  word-wrap: break-word;
-  hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
 
-  color: #333;
+    color: #333;
 }
 
 .tipue_search_content_bold {
-  color: #333;
+    color: #333;
 }
 
 .tipue_search_content_debug {
-  margin: 0.31rem 0;
+    margin: 0.31rem 0;
 
-  color: #333;
+    color: #333;
 }
 
 .tipue_search_related_title {
-  margin: 1.63rem 0 0.44rem 0;
+    margin: 1.63rem 0 0.44rem 0;
 
-  color: #333;
+    color: #333;
 }
 
 .tipue_search_related_cols {
-  -webkit-columns: 230px 2;
-  -moz-columns: 230px 2;
-  columns: 230px 2;
+    -webkit-columns: 230px 2;
+    -moz-columns: 230px 2;
+    columns: 230px 2;
 }
 
 #tipue_search_foot {
-  margin: 3.19rem 0 1.31rem 0;
+    margin: 3.19rem 0 1.31rem 0;
 }
 
 #tipue_search_foot_boxes {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #tipue_search_foot_boxes li {
-  display: inline;
+    display: inline;
 
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  list-style: none;
+    list-style: none;
 }
 
 #tipue_search_foot_boxes li a {
-  margin-right: 7px;
-  padding: 0.63rem 1.06rem 0.69rem;
+    margin-right: 7px;
+    padding: 0.63rem 1.06rem 0.69rem;
 
-  text-align: center;
-  text-decoration: none;
+    text-align: center;
+    text-decoration: none;
 
-  color: #333;
-  border: 1px solid #e3e3e3;
-  border-radius: 1px;
-  background-color: #fff;
+    color: #333;
+    border: 1px solid #e3e3e3;
+    border-radius: 1px;
+    background-color: #fff;
 }
 
 #tipue_search_foot_boxes li.current {
-  margin-right: 7px;
-  padding: 0.63rem 1.06rem 0.69rem;
+    margin-right: 7px;
+    padding: 0.63rem 1.06rem 0.69rem;
 
-  text-align: center;
+    text-align: center;
 
-  color: #333;
-  border: 1px solid #e3e3e3;
-  border-radius: 1px;
-  background: #f6f6f6;
+    color: #333;
+    border: 1px solid #e3e3e3;
+    border-radius: 1px;
+    background: #f6f6f6;
 }
 
 #tipue_search_foot_boxes li a:hover {
-  background: #f6f6f6;
+    background: #f6f6f6;
 }
 
 .btn-search {
-  width: 50px;
-  height: 60px;
-  margin-left: -6px;
+    width: 50px;
+    height: 60px;
+    margin-left: -6px;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  border: 0;
-  border-right: 1px solid #1B305F;
+    border: 0;
+    border-right: 1px solid #1B305F;
 }
 
 .btn-search:hover {
@@ -895,7 +895,7 @@ http://www.tipue.com/search
     display: none;
 }
 
-.input-record:checked + .label-record {
+.input-record:checked+.label-record {
     color: var(--impureBlack);
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
@@ -903,9 +903,9 @@ http://www.tipue.com/search
     background-color: #c4d1e8;
 }
 
-#tab1:checked ~ .contenido1,
-#tab2:checked ~ .contenido2,
-#tab3:checked ~ .contenido3 {
+#tab1:checked~.contenido1,
+#tab2:checked~.contenido2,
+#tab3:checked~.contenido3 {
     display: block;
 
     background-color: #c4d1e8;
@@ -962,66 +962,96 @@ http://www.tipue.com/search
 /* stylelint-enable */
 
 .background {
-  pointer-events: all;
+    pointer-events: all;
 
-  fill: #eee;
+    fill: #eee;
 }
 
 .map-layer {
-  fill: #fff;
-  stroke: #aaa;
+    fill: #fff;
+    stroke: #aaa;
 }
 
-.effect-layer{
-  pointer-events:none;
+.effect-layer {
+    pointer-events: none;
 }
 
-text{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
-text.big-text{
-  font-size: 1.88rem;
-  font-weight: 400;
+text.big-text {
+    font-size: 1.88rem;
+    font-weight: 400;
 }
 
-.effect-layer text, text.dummy-text{
-  font-size: 0.75rem;
+.effect-layer text,
+text.dummy-text {
+    font-size: 0.75rem;
 }
 
 path {
-  cursor: pointer;
+    cursor: pointer;
 
-  stroke-width: 1px;
-  stroke: white;
-  fill: #999;
+    stroke-width: 1px;
+    stroke: white;
+    fill: #999;
 }
 
 path.q0-3 {
-  fill: #8856a7;
+    fill: #8856a7;
 }
 
 path.q1-3 {
-  fill: #9ebcda;
+    fill: #9ebcda;
 }
 
 path.q2-3 {
-  fill: #e0ecf4;
+    fill: #e0ecf4;
 }
 
-div.tooltip {
-  font-weight: bold;
+.tooltip {
+    font-weight: bold;
 
-  position: absolute;
+    position: absolute;
 
-  display: none;
+    display: none;
 
-  padding: 0.25rem 0.5rem;
+    padding: 0.63rem 1.25rem;
 
-  color: black;
-  border: 1px solid black;
-  background-color: white;
+    vertical-align: middle;
+
+    color: black;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+}
+
+.tooltip-image {
+    display: inline-block;
+
+    max-width: 50px;
+    padding-right: 10px;
+
+    vertical-align: middle;
+}
+
+.tooltipTitulo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    margin: 0.31rem 0;
+}
+
+.tooltipPartido {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin: 0.31rem 0;
 }
 
 .btn-share {

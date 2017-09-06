@@ -1,36 +1,38 @@
 * {
-  box-sizing: border-box;
-  /*background-color: #f0ebe6;*/
+    box-sizing: border-box;
+    /*background-color: #f0ebe6;*/
 }
 
 body {
-  line-height: 1.5;
-  font-family: var(--serif);
+    line-height: 1.5;
+    font-family: var(--serif);
 }
 
 .font-s {
-  font-family: var(--fontSystem);
+    font-family: var(--fontSystem);
 }
 
 .font-serif {
-  font-family: var(--serif);
+    font-family: var(--serif);
 }
 
 .cursor-p {
-  cursor: pointer;
+    cursor: pointer;
 }
 
+
 /*STRIPE RULES*/
+
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
-  display: grid;
-  grid-template-columns: 25% 1fr 10%;
-  grid-template-rows: auto;
-  justify-items: center;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 25% 1fr 10%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .nav-grid-first {
@@ -59,40 +61,41 @@ body {
 }
 
 #flecha-anterior {
-  &:hover {
-    #anterior {
-      display: block;
+    &:hover {
+        #anterior {
+            display: block;
+        }
     }
-  }
 }
 
 #flecha-posterior {
-  &:hover {
-    #posterior {
-      display: block;
+    &:hover {
+        #posterior {
+            display: block;
+        }
     }
-  }
 }
 
 .txt-color {
-  color: var(--heath);
+    color: var(--heath);
 }
 
 .whs-nw {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .textd-u {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .textd-n {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .zi-10 {
-  z-index: 10;
+    z-index: 10;
 }
+
 
 
 /* ESTILOS C3 */
@@ -101,20 +104,20 @@ body {
 /* stylelint-disable */
 
 .c3 svg {
-  font: 10px sans-serif;
-  -webkit-tap-highlight-color: transparent
+    font: 10px sans-serif;
+    -webkit-tap-highlight-color: transparent
 }
 
 .c3 line,
 .c3 path {
-  fill: none;
-  stroke: #000
+    fill: none;
+    stroke: #000
 }
 
 .c3 text {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
 }
 
 .c3-bars path,
@@ -122,172 +125,173 @@ body {
 .c3-legend-item-tile,
 .c3-xgrid-focus,
 .c3-ygrid {
-  shape-rendering: crispEdges
+    shape-rendering: crispEdges
 }
 
 .c3-chart-arc path {
-  stroke: #fff
+    stroke: #fff
 }
 
 .c3-chart-arc text {
-  fill: #fff;
-  font-size: 13px
+    fill: #fff;
+    font-size: 13px
 }
 
 .c3-grid line {
-  stroke: #aaa
+    stroke: #aaa
 }
 
 .c3-grid text {
-  fill: #aaa
+    fill: #aaa
 }
 
 .c3-xgrid,
 .c3-ygrid {
-  stroke-dasharray: 3 3
+    stroke-dasharray: 3 3
 }
 
 .c3-text.c3-empty {
-  fill: gray;
-  font-size: 2em
+    fill: gray;
+    font-size: 2em
 }
 
 .c3-line {
-  stroke-width: 1px
+    stroke-width: 1px
 }
 
 .c3-circle._expanded_ {
-  stroke-width: 1px;
-  stroke: #fff
+    stroke-width: 1px;
+    stroke: #fff
 }
 
 .c3-selected-circle {
-  fill: #fff;
-  stroke-width: 2px
+    fill: #fff;
+    stroke-width: 2px
 }
 
 .c3-bar {
-  stroke-width: 0
+    stroke-width: 0
 }
 
 .c3-bar._expanded_ {
-  fill-opacity: .75
+    fill-opacity: .75
 }
 
 .c3-target.c3-focused {
-  opacity: 1
+    opacity: 1
 }
 
 .c3-target.c3-focused path.c3-line,
 .c3-target.c3-focused path.c3-step {
-  stroke-width: 2px
+    stroke-width: 2px
 }
 
 .c3-target.c3-defocused {
-  opacity: .3!important
+    opacity: .3!important
 }
 
 .c3-region {
-  fill: #4682b4;
-  fill-opacity: .1
+    fill: #4682b4;
+    fill-opacity: .1
 }
 
 .c3-brush .extent {
-  fill-opacity: .1
+    fill-opacity: .1
 }
 
 .c3-legend-item {
-  font-size: 12px
+    font-size: 12px
 }
 
 .c3-legend-item-hidden {
-  opacity: .15
+    opacity: .15
 }
 
 .c3-legend-background {
-  opacity: .75;
-  fill: #fff;
-  stroke: #d3d3d3;
-  stroke-width: 1
+    opacity: .75;
+    fill: #fff;
+    stroke: #d3d3d3;
+    stroke-width: 1
 }
 
 .c3-title {
-  font: 14px sans-serif
+    font: 14px sans-serif
 }
 
 .c3-tooltip-container {
-  z-index: 10
+    z-index: 10
 }
 
 .c3-tooltip {
-  border-collapse: collapse;
-  border-spacing: 0;
-  background-color: #fff;
-  empty-cells: show;
-  -webkit-box-shadow: 7px 7px 12px -9px #777;
-  -moz-box-shadow: 7px 7px 12px -9px #777;
-  box-shadow: 7px 7px 12px -9px #777;
-  opacity: .9
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    empty-cells: show;
+    -webkit-box-shadow: 7px 7px 12px -9px #777;
+    -moz-box-shadow: 7px 7px 12px -9px #777;
+    box-shadow: 7px 7px 12px -9px #777;
+    opacity: .9
 }
 
 .c3-tooltip tr {
-  border: 1px solid #CCC
+    border: 1px solid #CCC
 }
 
 .c3-tooltip th {
-  background-color: #aaa;
-  font-size: 14px;
-  padding: 2px 5px;
-  text-align: left;
-  color: #FFF
+    background-color: #aaa;
+    font-size: 14px;
+    padding: 2px 5px;
+    text-align: left;
+    color: #FFF
 }
 
 .c3-tooltip td {
-  font-size: 13px;
-  padding: 3px 6px;
-  background-color: #fff;
-  border-left: 1px dotted #999
+    font-size: 13px;
+    padding: 3px 6px;
+    background-color: #fff;
+    border-left: 1px dotted #999
 }
 
 .c3-tooltip td>span {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-right: 6px
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px
 }
 
 .c3-tooltip td.value {
-  text-align: right
+    text-align: right
 }
 
 .c3-area {
-  stroke-width: 0;
-  opacity: .2
+    stroke-width: 0;
+    opacity: .2
 }
 
 .c3-chart-arcs-title {
-  dominant-baseline: middle;
-  font-size: 1.3em
+    dominant-baseline: middle;
+    font-size: 1.3em
 }
 
 .c3-chart-arcs .c3-chart-arcs-background {
-  fill: #e0e0e0;
-  stroke: none
+    fill: #e0e0e0;
+    stroke: none
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-unit {
-  fill: #000;
-  font-size: 16px
+    fill: #000;
+    font-size: 16px
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-max,
 .c3-chart-arcs .c3-chart-arcs-gauge-min {
-  fill: #777
+    fill: #777
 }
 
 .c3-chart-arc .c3-gauge-value {
-  fill: #000
+    fill: #000
 }
+
 
 
 
@@ -296,17 +300,18 @@ body {
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
-  fill: #000 !important;
-  font-size: 16px !important;
-  font-weight: bold !important;
-  font-family: var(--fontSystem);
+    fill: #000 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: var(--fontSystem);
 }
 
 .c3 text {
-  font-size: 16px !important;
-  font-weight: bold !important;
-  font-family: var(--fontSystem);
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: var(--fontSystem);
 }
+
 
 
 /*
@@ -326,193 +331,195 @@ http://www.tipue.com/search
 .tipue_search_content_url,
 .tipue_search_content_debug,
 .tipue_search_related_text {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .tipue_search_content_title {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 .tipue_search_content_text,
 .tipue_search_related_title {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .tipue_search_content_bold,
 .tipue_search_related_bold {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 
 
 /* search box */
 
 #tipue_search_input {
-  color: #333;
-  border: 0;
-  border-left: 1px solid #1B305F;
-  border-radius: 0;
-  padding: 17px;
-  outline: 0;
-  margin: 0;
-  height: 60px;
-  font-family: var(--fontSystem);
+    color: #333;
+    border: 0;
+    border-left: 1px solid #1B305F;
+    border-radius: 0;
+    padding: 17px;
+    outline: 0;
+    margin: 0;
+    height: 60px;
+    font-family: var(--fontSystem);
 }
 
 .tipue_search_icon {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .tipue_search_left {
-  float: left;
-  padding: 15px 9px 0 0;
+    float: left;
+    padding: 15px 9px 0 0;
 }
 
 .tipue_search_right {
-  float: left;
+    float: left;
 }
+
 
 
 /* search results */
 
 #tipue_search_content {
-  max-width: 750px;
-  padding-top: 15px;
-  margin: 0;
+    max-width: 750px;
+    padding-top: 15px;
+    margin: 0;
 }
 
 #tipue_search_results_count {
-  color: #333;
+    color: #333;
 }
 
 #tipue_search_warning {
-  color: #333;
-  margin: 7px 0;
+    color: #333;
+    margin: 7px 0;
 }
 
 #tipue_search_warning a {
-  color: #5396ea;
-  text-decoration: none;
+    color: #5396ea;
+    text-decoration: none;
 }
 
 #tipue_search_warning a:hover {
-  color: #555;
+    color: #555;
 }
 
 .tipue_search_content_title {
-  color: #666;
-  margin-top: 21px;
+    color: #666;
+    margin-top: 21px;
 }
 
 .tipue_search_content_title a {
-  color: #666;
-  text-decoration: none;
+    color: #666;
+    text-decoration: none;
 }
 
 .tipue_search_content_title a:hover {
-  color: #666;
+    color: #666;
 }
 
 .tipue_search_content_url {
-  word-wrap: break-word;
-  hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .tipue_search_content_url a,
 .tipue_search_related_text a {
-  color: #5396ea;
-  text-decoration: none;
+    color: #5396ea;
+    text-decoration: none;
 }
 
 .tipue_search_content_url a:hover,
 .tipue_search_related_text a:hover,
 .tipue_search_related_before,
 .tipue_search_related_after {
-  color: #555;
+    color: #555;
 }
 
 .tipue_search_content_text {
-  color: #333;
-  word-wrap: break-word;
-  hyphens: auto;
-  margin-top: 5px;
+    color: #333;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-top: 5px;
 }
 
 .tipue_search_content_bold {
-  color: #333;
+    color: #333;
 }
 
 .tipue_search_content_debug {
-  color: #333;
-  margin: 5px 0;
+    color: #333;
+    margin: 5px 0;
 }
 
 .tipue_search_related_title {
-  color: #333;
-  margin: 26px 0 7px 0;
+    color: #333;
+    margin: 26px 0 7px 0;
 }
 
 .tipue_search_related_cols {
-  -webkit-columns: 230px 2;
-  -moz-columns: 230px 2;
-  columns: 230px 2;
+    -webkit-columns: 230px 2;
+    -moz-columns: 230px 2;
+    columns: 230px 2;
 }
 
 #tipue_search_foot {
-  margin: 51px 0 21px 0;
+    margin: 51px 0 21px 0;
 }
 
 #tipue_search_foot_boxes {
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
 }
 
 #tipue_search_foot_boxes li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
 }
 
 #tipue_search_foot_boxes li a {
-  padding: 10px 17px 11px;
-  background-color: #fff;
-  border: 1px solid #e3e3e3;
-  border-radius: 1px;
-  color: #333;
-  margin-right: 7px;
-  text-decoration: none;
-  text-align: center;
+    padding: 10px 17px 11px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 1px;
+    color: #333;
+    margin-right: 7px;
+    text-decoration: none;
+    text-align: center;
 }
 
 #tipue_search_foot_boxes li.current {
-  padding: 10px 17px 11px;
-  background: #f6f6f6;
-  border: 1px solid #e3e3e3;
-  border-radius: 1px;
-  color: #333;
-  margin-right: 7px;
-  text-align: center;
+    padding: 10px 17px 11px;
+    background: #f6f6f6;
+    border: 1px solid #e3e3e3;
+    border-radius: 1px;
+    color: #333;
+    margin-right: 7px;
+    text-align: center;
 }
 
 #tipue_search_foot_boxes li a:hover {
-  background: #f6f6f6;
+    background: #f6f6f6;
 }
 
 .btn-search {
-  width: 50px;
-  height: 60px;
-  border: 0;
-  border-right: 1px solid #1B305F;
-  cursor: pointer;
-  margin-left: -6px;
-  &:hover {
-    background-color: #1B305F;
-    path {
-      fill: #fff;
+    width: 50px;
+    height: 60px;
+    border: 0;
+    border-right: 1px solid #1B305F;
+    cursor: pointer;
+    margin-left: -6px;
+    &:hover {
+        background-color: #1B305F;
+        path {
+            fill: #fff;
+        }
     }
-  }
 }
 
 .tabla-calendario {
@@ -557,7 +564,7 @@ http://www.tipue.com/search
     display: none;
 }
 
-.input-record:checked + .label-record {
+.input-record:checked+.label-record {
     color: var(--impureBlack);
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
@@ -565,9 +572,9 @@ http://www.tipue.com/search
     background-color: var(--impureWhite);
 }
 
-#tab1:checked ~ .contenido1,
-#tab2:checked ~ .contenido2,
-#tab3:checked ~ .contenido3 {
+#tab1:checked~.contenido1,
+#tab2:checked~.contenido2,
+#tab3:checked~.contenido3 {
     display: block;
     background-color: var(--impureWhite);
 }
@@ -612,63 +619,88 @@ http://www.tipue.com/search
     display: none;
 }
 
+
 /* stylelint-enable */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
 
 .background {
-  fill: #eee;
-  pointer-events: all;
+    fill: #eee;
+    pointer-events: all;
 }
 
 .map-layer {
-  fill: #fff;
-  stroke: #aaa;
+    fill: #fff;
+    stroke: #aaa;
 }
 
-.effect-layer{
-  pointer-events:none;
+.effect-layer {
+    pointer-events: none;
 }
 
-text{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
-text.big-text{
-  font-size: 30px;
-  font-weight: 400;
+text.big-text {
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.effect-layer text, text.dummy-text{
-  font-size: 12px;
+.effect-layer text,
+text.dummy-text {
+    font-size: 12px;
 }
 
 path {
-  stroke-width: 1px;
-  stroke: white;
-  fill: #999;
-  cursor: pointer;
+    stroke-width: 1px;
+    stroke: white;
+    fill: #999;
+    cursor: pointer;
 }
 
 path.q0-3 {
-  fill: #8856a7;
+    fill: #8856a7;
 }
 
 path.q1-3 {
-  fill: #9ebcda;
+    fill: #9ebcda;
 }
 
 path.q2-3 {
-  fill: #e0ecf4;
+    fill: #e0ecf4;
 }
 
-div.tooltip {
-  position: absolute;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  font-weight: bold;
-  padding: 4px 8px;
-  display: none;
+.tooltip {
+    position: absolute;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+    vertical-align: middle;
+    display: none;
+}
+
+.tooltip-image {
+    max-width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.tooltipTitulo {
+    font-size: 24px;
+    font-family: var(--fontSystem);
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.tooltipPartido {
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
 }
