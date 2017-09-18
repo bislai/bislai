@@ -51,7 +51,7 @@
             .append("path")
             .attr("d", path)
             .attr("class", function(d) { return (typeof color(d.properties.votantes) == "string" ? color(d.properties.votantes) : ""); })
-            .on("mouseover", showTooltip)            .on("mouseout", hideTooltip)
+            .on("mouseover", showTooltip).on("mouseout", hideTooltip)
             .on("click", clicked);
 
     });
@@ -78,14 +78,14 @@
         // moveTooltip();
         tooltip.style("display", "block")
             .html('<h4 class="tooltipTitulo">' + d.properties.distrito + '</h4>' +
-                  '<p class="tooltipLeyenda">Población: ' + d.properties.total +'<p/>' +
-                  '<p class="tooltipLeyenda">Votantes: ' + d.properties.votantes +'%<p/>' +
-                  '<p class="tooltipLeyenda">Abstención: ' + d.properties.abstencion +'%<p/>' +
-                  '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + d.properties.pp +'%<p/>' +
-                  '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + d.properties.zec +'%<p/>' +
-                  '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + d.properties.psoe +'%<p/>' +
-                  '<p class="tooltipPartido">' + '<img src="../img/logo-cs.png" class="tooltip-image">' + d.properties.cs +'%<p/>' +
-                  '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + d.properties.cha +'%<p/>');
+                '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + d.properties.pp + '%<p/>' +
+                '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + d.properties.zec + '%<p/>' +
+                '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + d.properties.psoe + '%<p/>' +
+                '<p class="tooltipPartido">' + '<img src="../img/logo-cs.png" class="tooltip-image">' + d.properties.cs + '%<p/>' +
+                '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + d.properties.cha + '%<p/>'+
+                '<p class="tooltipLeyenda">Población: ' + d.properties.total + '<p/>' +
+                '<p class="tooltipLeyenda">Votantes: ' + d.properties.votantes + '%<p/>' +
+                '<p class="tooltipLeyenda">Abstención: ' + d.properties.abstencion + '%<p/>');
     }
 
     // //Move the tooltip to track the mouse

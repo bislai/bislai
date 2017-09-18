@@ -1008,8 +1008,6 @@ path.q2-3 {
 }
 
 .mapa {
-    position: relative;
-
     width: 60%;
     margin: 0 auto;
 }
@@ -1019,19 +1017,21 @@ path.q2-3 {
 
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10vw;
 
     display: none;
 
     min-width: 260px;
-    padding: 0.63rem 1.25rem;
+    height: 60%;
+    margin-top: 10px;
+    padding: 0.63rem 0;
 
     vertical-align: middle;
 
-    color: black;
-    border-radius: 3px;
-    background-color: #f1f1f1;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+    color: #111;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
 }
 
 .tooltip-image {
@@ -1048,7 +1048,11 @@ path.q2-3 {
     font-size: 1.5rem;
     font-weight: 800;
 
+    width: 100%;
     margin: 0.31rem 0;
+    padding: 0 0 1.25rem 1.25rem;
+
+    border-bottom: 1px solid #111;
 }
 
 .tooltipPartido {
@@ -1056,6 +1060,7 @@ path.q2-3 {
     font-weight: bold;
 
     margin: 0.31rem 0;
+    padding: 0 1.25rem;
 }
 
 .tooltipPartido + p {
@@ -1070,6 +1075,7 @@ path.q2-3 {
     display: block;
 
     margin: 0;
+    padding: 0 1.25rem;
 }
 
 .tooltipLeyenda:last-child {
@@ -1078,6 +1084,16 @@ path.q2-3 {
 
 .tooltipLeyenda + p {
   display: none;
+}
+
+.mapa-container {
+    position: relative;
+
+    background-color: #DBE3E1;
+}
+
+.mapa-elecciones path {
+  stroke: #111;
 }
 
 .btn-share {
@@ -2061,6 +2077,10 @@ path.q2-3 {
 
 .padding-2-0 {
   padding: 2rem 0;
+}
+
+.padding-5-0 {
+  padding: 5rem 0;
 }
 
 .padding-l-n {
