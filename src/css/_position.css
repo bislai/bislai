@@ -97,12 +97,5 @@
 }
 
 .tp-plenos {
-    top: calc(100vh - 58px);
-}
-
-@media only screen and (min-width: 48em) {
-
-    .tp-plenos {
-        top: 50%;
-    }
+    bottom: 0;
 }

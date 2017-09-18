@@ -1676,7 +1676,15 @@
             "shape_leng": 21103.0660447,
             "shape_area": 17743571.8502,
             "shape_len": 21103.0660447,
-            "distrito": "barrios rurales oeste"
+            "distrito": "Barrios Zona Oeste",
+            "total": 11196,
+            "votantes" : "57.25",
+            "abstencion": "42.75",
+            "pp": "24.72",
+            "zec": "22.89",
+            "psoe": "23.46",
+            "cs": "11.18",
+            "cha":"5.99"
         }
     },
     {
@@ -4242,7 +4250,15 @@
             "shape_leng": 97082.0538816,
             "shape_area": 293946863.849,
             "shape_len": 97082.0538816,
-            "distrito": "barrios rurales norte"
+            "distrito": "Barrios Zona Norte",
+            "total": 19267,
+            "votantes" : "63.39",
+            "abstencion": "36.61",
+            "pp": "24.31",
+            "zec": "24.18",
+            "psoe": "18.01",
+            "cs": "14.07",
+            "cha":"7.58"
         }
     },
     {
@@ -5279,7 +5295,15 @@
             "shape_leng": 793.16853659,
             "shape_area": 30835.5081383,
             "shape_len": 793.168536591,
-            "distrito": "universidad"
+            "distrito": "Universidad",
+            "total": 67672,
+            "votantes" : "69.97",
+            "abstencion": "30.03",
+            "pp": "32.20",
+            "zec": "22.58",
+            "psoe": "12.49",
+            "cs": "15.70",
+            "cha":"6.67"
         }
     },
     {
@@ -6658,7 +6682,15 @@
             "shape_leng": 1170.39810163,
             "shape_area": 44500.5073704,
             "shape_len": 1170.39810163,
-            "distrito": "Torrero"
+            "distrito": "Torrero",
+            "total": 27444,
+            "votantes" : "62.51",
+            "abstencion": "37.49",
+            "pp": "18.19",
+            "zec": "31.39",
+            "psoe": "21.36",
+            "cs": "10.26",
+            "cha":"7.29"
         }
     },
     {
@@ -7568,7 +7600,15 @@
             "shape_leng": 823.96421241,
             "shape_area": 28009.5448751,
             "shape_len": 823.964212416,
-            "distrito": "Las Fuentes"
+            "distrito": "Las Fuentes",
+            "total": 32291,
+            "votantes" : "62.75",
+            "abstencion": "37.75",
+            "pp": "21.69",
+            "zec": "24.79",
+            "psoe": "26.65",
+            "cs": "7.83",
+            "cha":"7.52"
         }
     },
     {
@@ -7831,7 +7871,15 @@
             "shape_leng": 831.04603393,
             "shape_area": 37769.489854,
             "shape_len": 831.046033935,
-            "distrito": "delicias"
+            "distrito": "Delicias",
+            "total": 75387,
+            "votantes" : "63.29",
+            "abstencion": "36.71",
+            "pp": "26.60",
+            "zec": "23.53",
+            "psoe": "21.82",
+            "cs": "9.99",
+            "cha":"7.21"
         }
     },
     {
@@ -8086,7 +8134,15 @@
             "shape_leng": 1337.2454518,
             "shape_area": 89952.4751499,
             "shape_len": 1337.2454518,
-            "distrito": "centro"
+            "distrito": "Centro",
+            "total": 41640,
+            "votantes" : "70.60",
+            "abstencion": "29.40",
+            "pp": "48.14",
+            "zec": "14.40",
+            "psoe": "10.31",
+            "cs": "14.72",
+            "cha":"3.08"
         }
     },
     {
@@ -8328,7 +8384,15 @@
             "shape_leng": 1646.33062134,
             "shape_area": 127970.322435,
             "shape_len": 1646.33062133,
-            "distrito": "La Almozara"
+            "distrito": "Aljafería",
+            "total": 20026,
+            "votantes" : "68.49",
+            "abstencion": "41.51",
+            "pp": "22.31",
+            "zec": "25.19",
+            "psoe": "22.59",
+            "cs": "11.84",
+            "cha":"6.99"
         }
     },
     {
@@ -8659,7 +8723,15 @@
             "shape_leng": 1001.76346126,
             "shape_area": 56392.6731154,
             "shape_len": 1001.76346126,
-            "distrito": "san jose"
+            "distrito": "San José",
+            "total": 48278,
+            "votantes" : "63.32",
+            "abstencion": "36.68",
+            "pp": "26.55",
+            "zec": "23.95",
+            "psoe": "20.55",
+            "cs": "11.09",
+            "cha":"6.66"
         }
     },
     {
@@ -8945,7 +9017,15 @@
             "shape_leng": 2993.40406443,
             "shape_area": 445273.954285,
             "shape_len": 2993.40406443,
-            "distrito": "Actur/Arrabal"
+            "distrito": "Actur-Arrabal",
+            "total": 99685,
+            "votantes" : "67.33",
+            "abstencion": "32.67",
+            "pp": "19.45",
+            "zec": "28.68",
+            "psoe": "20.28",
+            "cs": "12.57",
+            "cha":"8.10"
         }
     },
     {
@@ -9451,7 +9531,15 @@
             "shape_leng": 1099.77010706,
             "shape_area": 70688.2239385,
             "shape_len": 1099.77010706,
-            "distrito": "oliver-valdefierro"
+            "distrito": "Vía Hispanidad",
+            "total": 28768,
+            "votantes" : "61.82",
+            "abstencion": "38.18",
+            "pp": "23.44",
+            "zec": "24.12",
+            "psoe": "18.43",
+            "cs": "14.71",
+            "cha":"7.50"
         }
     },
     {
@@ -9679,7 +9767,15 @@
             "shape_leng": 1808.53587718,
             "shape_area": 140200.380219,
             "shape_len": 1808.53587718,
-            "distrito": "casco antiguo"
+            "distrito": "Casco Viejo",
+            "total": 30042,
+            "votantes" : "63.10",
+            "abstencion": "36.90",
+            "pp": "30.39",
+            "zec": "28.78",
+            "psoe": "15.36",
+            "cs": "10.74",
+            "cha":"4.90"
         }
     }]
 }
