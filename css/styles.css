@@ -297,8 +297,6 @@ button:-moz-focusring,
 
 * {
     box-sizing: border-box;
-
-    /*background-color: #f0ebe6;*/
 }
 
 body {
@@ -995,8 +993,6 @@ path {
     cursor: pointer;
 
     stroke-width: 1px;
-    stroke: white;
-    fill: #999;
 }
 
 path.q0-3 {
@@ -1015,6 +1011,7 @@ path.q2-3 {
     position: relative;
 
     width: 60%;
+    margin: 0 auto;
 }
 
 .tooltip {
@@ -2730,13 +2727,7 @@ path.q2-3 {
 }
 
 .tp-plenos {
-    top: calc(100vh - 58px);
-}
-
-@media only screen and (min-width: 48em) {
-    .tp-plenos {
-        top: 50%;
-    }
+    bottom: 0;
 }
 
 .fl-l {

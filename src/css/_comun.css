@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /*background-color: #f0ebe6;*/
 }
 
 body {
@@ -651,8 +650,6 @@ text.dummy-text {
 
 path {
     stroke-width: 1px;
-    stroke: white;
-    fill: #999;
     cursor: pointer;
 }
 
@@ -671,6 +668,7 @@ path.q2-3 {
 .mapa {
     width: 60%;
     position: relative;
+    margin: 0 auto;
 }
 
 .tooltip {
