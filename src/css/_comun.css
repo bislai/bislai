@@ -685,6 +685,7 @@ path.q2-3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
     vertical-align: middle;
     display: none;
+    min-width: 260px;
 }
 
 .tooltip-image {
@@ -704,6 +705,22 @@ path.q2-3 {
 .tooltipPartido {
     font-family: var(--fontSystem);
     font-weight: bold;
-    display: inline-block;
     margin: 5px 0;
+    + p {
+        display: none;
+    }
+}
+
+.tooltipLeyenda {
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    &:last-child {
+        border-bottom: 5px solid #111;
+    }
+    + p {
+        display: none;
+    }
 }

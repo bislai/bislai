@@ -78,9 +78,9 @@
         // moveTooltip();
         tooltip.style("display", "block")
             .html('<h4 class="tooltipTitulo">' + d.properties.distrito + '</h4>' +
-                  '<p class="tooltipPartido">' + d.properties.total +'%<p/>' +
-                  '<p class="tooltipPartido">' + d.properties.votantes +'%<p/>' +
-                  '<p class="tooltipPartido">' + d.properties.abstencion +'%<p/>' +
+                  '<p class="tooltipLeyenda">Población: ' + d.properties.total +'<p/>' +
+                  '<p class="tooltipLeyenda">Votantes: ' + d.properties.votantes +'%<p/>' +
+                  '<p class="tooltipLeyenda">Abstención: ' + d.properties.abstencion +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + d.properties.pp +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + d.properties.zec +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + d.properties.psoe +'%<p/>' +

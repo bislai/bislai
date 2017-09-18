@@ -1026,6 +1026,7 @@ path.q2-3 {
 
     display: none;
 
+    min-width: 260px;
     padding: 0.63rem 1.25rem;
 
     vertical-align: middle;
@@ -1057,9 +1058,29 @@ path.q2-3 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
 
-    display: inline-block;
-
     margin: 0.31rem 0;
+}
+
+.tooltipPartido + p {
+  display: none;
+}
+
+.tooltipLeyenda {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    display: block;
+
+    margin: 0;
+}
+
+.tooltipLeyenda:last-child {
+  border-bottom: 5px solid #111;
+}
+
+.tooltipLeyenda + p {
+  display: none;
 }
 
 .btn-share {
