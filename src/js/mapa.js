@@ -51,9 +51,7 @@
             .append("path")
             .attr("d", path)
             .attr("class", function(d) { return (typeof color(d.properties.votantes) == "string" ? color(d.properties.votantes) : ""); })
-            .on("mouseover", showTooltip)
-            .on("mousemove", moveTooltip)
-            .on("mouseout", hideTooltip)
+            .on("mouseover", showTooltip)            .on("mouseout", hideTooltip)
             .on("click", clicked);
 
     });
@@ -77,10 +75,12 @@
 
     //Create a tooltip, hidden at the start
     function showTooltip(d) {
-        moveTooltip();
-
+        // moveTooltip();
         tooltip.style("display", "block")
             .html('<h4 class="tooltipTitulo">' + d.properties.distrito + '</h4>' +
+                  '<p class="tooltipPartido">' + d.properties.total +'%<p/>' +
+                  '<p class="tooltipPartido">' + d.properties.votantes +'%<p/>' +
+                  '<p class="tooltipPartido">' + d.properties.abstencion +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + d.properties.pp +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + d.properties.zec +'%<p/>' +
                   '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + d.properties.psoe +'%<p/>' +
@@ -88,13 +88,13 @@
                   '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + d.properties.cha +'%<p/>');
     }
 
-    //Move the tooltip to track the mouse
-    function moveTooltip() {
-        tooltip.style("top", (d3.event.pageY + tooltipOffset.y) + "px")
-            .style("left", (d3.event.pageX + tooltipOffset.x) + "px");
-    }
+    // //Move the tooltip to track the mouse
+    // function moveTooltip() {
+    //     tooltip.style("top", (d3.event.pageY + tooltipOffset.y) + "px")
+    //         .style("left", (d3.event.pageX + tooltipOffset.x) + "px");
+    // }
 
     //Create a tooltip, hidden at the start
-    function hideTooltip() {
-        tooltip.style("display", "none");
-    }
+    // function hideTooltip() {
+    //     tooltip.style("display", "none");
+    // }
