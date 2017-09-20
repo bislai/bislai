@@ -52,6 +52,10 @@
   padding-bottom: 2rem;
 }
 
+.padding-b4 {
+  padding-bottom: 4rem;
+}
+
 .padding-r1-5 {
   padding-right: 1.5rem;
 }
@@ -74,6 +78,10 @@
 
 .padding-2-0 {
   padding: 2rem 0;
+}
+
+.padding-5-0 {
+  padding: 5rem 0;
 }
 
 .padding-l-n {

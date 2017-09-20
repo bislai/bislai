@@ -667,23 +667,23 @@ path.q2-3 {
 
 .mapa {
     width: 60%;
-    position: relative;
     margin: 0 auto;
 }
 
 .tooltip {
     position: absolute;
     top: 0;
-    right: 0;
-    border-radius: 3px;
-    background-color: #f1f1f1;
-    color: black;
+    right: 10vw;
+    background-color: #fff;
+    color: #111;
     font-weight: bold;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+    padding: 10px 0;
     vertical-align: middle;
-    display: none;
     min-width: 260px;
+    height: 60%;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .tooltip-image {
@@ -698,11 +698,15 @@ path.q2-3 {
     font-family: var(--fontSystem);
     font-weight: 800;
     margin: 5px 0;
+    width: 100%;
+    border-bottom: 1px solid #111;
+    padding: 0 0 20px 20px;
 }
 
 .tooltipPartido {
     font-family: var(--fontSystem);
     font-weight: bold;
+    padding: 0 20px;
     margin: 5px 0;
     + p {
         display: none;
@@ -714,6 +718,7 @@ path.q2-3 {
     font-weight: bold;
     display: block;
     margin: 0;
+    padding: 0 20px;
     font-size: 12px;
     &:last-child {
         border-bottom: 5px solid #111;
@@ -721,4 +726,41 @@ path.q2-3 {
     + p {
         display: none;
     }
+}
+
+.mapa-container {
+    background-color: #DBE3E1;
+    position: relative;
+}
+
+.mapa-elecciones {
+    path {
+        stroke: #111;
+    }
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+.SvgOverlay {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.SvgOverlay svg {
+    position: absolute;
+    top: -4000px;
+    left: -4000px;
+    width: 8000px;
+    height: 8000px;
+}
+
+.SvgOverlay path {
+    stroke: Orange;
+    stroke-width: 2px;
+    fill: Orange;
+    fill-opacity: .3;
 }
