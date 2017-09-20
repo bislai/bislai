@@ -6,11 +6,12 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
 
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <style>
 
         #map {
-            width: 500px;
+            width: 100%;
             height: 500px;
         }
 
@@ -52,19 +53,40 @@
             var map = new google.maps.Map($map[0], {
                     zoom: 10,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    center: new google.maps.LatLng(41.6517501, -0.9300004), // Mozambique
-                    styles:[{"stylers": [{"saturation": -75},{"lightness": 75}]}]
+                    center: new google.maps.LatLng(41.6517501, -0.9300004)
                 });
+
+            var color = d3.scale.quantize()
+                .domain([57.25, 70.6])
+                .range(d3.range(3).map(function(i) { return "q" + i + "-3"; }));
+
+            var tooltip = d3.select("#map")
+                .append("div")
+                .attr("class", "tooltip");
 
             var geoJson = provinces();
             var overlay = new google.maps.OverlayView();
             overlay.onAdd = function () {
 
-                var layer = d3.select(this.getPanes().overlayLayer).append("div").attr("class", "SvgOverlay");
+                var layer = d3.select(this.getPanes().overlayMouseTarget).append("div").attr("class", "SvgOverlay");
                 var svg = layer.append("svg");
                 var adminDivisions = svg.append("g").attr("class", "AdminDivisions");
 
                 overlay.draw = function () {
+
+                    function showTooltip(geoJson) {
+                        // moveTooltip();
+                        tooltip.style("display", "block")
+                            .html('<h4 class="tooltipTitulo">' + geoJson.properties.distrito + '</h4>' +
+                                '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + geoJson.properties.pp + '%<p/>' +
+                                '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + geoJson.properties.zec + '%<p/>' +
+                                '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + geoJson.properties.psoe + '%<p/>' +
+                                '<p class="tooltipPartido">' + '<img src="../img/logo-cs.png" class="tooltip-image">' + geoJson.properties.cs + '%<p/>' +
+                                '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + geoJson.properties.cha + '%<p/>'+
+                                '<p class="tooltipLeyenda">Población: ' + geoJson.properties.total + '<p/>' +
+                                '<p class="tooltipLeyenda">Votantes: ' + geoJson.properties.votantes + '%<p/>' +
+                                '<p class="tooltipLeyenda">Abstención: ' + geoJson.properties.abstencion + '%<p/>');
+                    }
                     var markerOverlay = this;
                     var overlayProjection = markerOverlay.getProjection();
 
@@ -76,11 +98,12 @@
                     }
 
                     path = d3.geo.path().projection(googleMapProjection);
-                    adminDivisions.selectAll("path")
+                        adminDivisions.selectAll("path")
                         .data(geoJson.features)
                         .attr("d", path) // update existing paths
-                    .enter().append("svg:path")
-                        .attr("d", path);
+                        .enter().append("svg:path")
+                        .attr("d", path)
+                        .on("mouseover", showTooltip)
                 };
 
             };
@@ -9872,6 +9895,8 @@
 
                 }
             }
+
+
 
         });
 
