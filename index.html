@@ -11,7 +11,9 @@
     <script type="text/javascript" src="js/tipuesearch_content.js"></script>
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
-    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
@@ -45,7 +47,10 @@
         <p class="font-1">Todos los datos han sido obtenidos de la <a href="https://www.zaragoza.es/ciudad/organizacion/plenos/activ_plenarias.htm">web del Ayuntamiento de Zaragoza.</a></p>
     </div>
     <section class="mapa-container padding-5-0">
-        <div class="mapa"></div>
+        <div id="map-wrap">
+            <div id="map">
+            </div>
+        </div>
     </section>
     <section class="border-t1  padding-1 border-b1 grey borderc-grey padding-1-0--l">
         <h2 class="margin-b0  maw-60 font-2 margin-b2 font-s">Calendario de plenos</h2>
@@ -77,8 +82,7 @@
             <a href="http://github.com/jorgeatgu/bislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">GitHub</a>
         </div>
     </footer>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
     <script type="text/javascript" src="js/mapa.js"></script>
     <script>
     $(document).ready(function() {
