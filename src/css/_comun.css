@@ -689,10 +689,14 @@ path.q2-3 {
     padding: 10px 0;
     vertical-align: middle;
     min-width: 260px;
-    height: 60%;
+    height: 60vh;
+    max-height: 450px;
     margin-top: 10px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 5px solid #772435;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -705,11 +709,11 @@ path.q2-3 {
 .tooltipTitulo {
     font-size: 24px;
     font-family: var(--fontSystem);
-    font-weight: 800;
-    margin: 5px 0;
+    font-weight: 600;
+    margin: .5rem 0;
     width: 100%;
-    border-bottom: 1px solid #111;
-    padding: 0 0 20px 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 16px 16px;
 }
 
 .tooltipPartido {
@@ -726,16 +730,32 @@ path.q2-3 {
     font-family: var(--fontSystem);
     font-weight: bold;
     display: block;
-    margin: 0;
-    padding: 0 20px;
-    font-size: 12px;
+    margin: 8px 0;
+    padding: 0 24px;
+    font-size: 16px;
     &:last-child {
         border-bottom: 5px solid #111;
+        font-size: 0;
     }
     + p {
         display: none;
     }
+    span {
+        color: hsl(214, 7%, 47%);
+        font-size: 14px;
+        min-width: 50%;
+        display: inline-block;
+
+    }
+    .resultado {
+        padding-left: 16px;
+        color: #111;
+        min-width: 45%;
+        text-align: right;
+    }
 }
+
+
 
 .mapa-container {
     background-color: #DBE3E1;
