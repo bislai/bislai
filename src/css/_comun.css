@@ -686,7 +686,6 @@ path.q2-3 {
     background-color: #fff;
     color: #111;
     font-weight: bold;
-    padding: 10px 0;
     vertical-align: middle;
     min-width: 260px;
     height: 60vh;
@@ -710,38 +709,25 @@ path.q2-3 {
     font-size: 24px;
     font-family: var(--fontSystem);
     font-weight: 600;
-    margin: .5rem 0;
+    margin: 0;
     width: 100%;
     border-bottom: 1px solid #ccc;
-    padding: 0 16px 16px;
+    padding: 16px;
 }
 
 .tooltipPartido {
     font-family: var(--fontSystem);
     font-weight: bold;
-    padding: 0 20px;
     margin: 5px 0;
     + p {
         display: none;
     }
 }
 
-.tooltipLeyenda {
-    font-family: var(--fontSystem);
-    font-weight: bold;
-    display: block;
-    margin: 8px 0;
-    padding: 0 24px;
-    font-size: 16px;
-    &:last-child {
-        border-bottom: 5px solid #111;
-        font-size: 0;
-    }
-    + p {
-        display: none;
-    }
+.tooltipLeyenda,
+.tooltipPartido {
     span {
-        color: hsl(214, 7%, 47%);
+        color: #6f7780;
         font-size: 14px;
         min-width: 50%;
         display: inline-block;
@@ -755,7 +741,35 @@ path.q2-3 {
     }
 }
 
+.tooltipPartido {
+    span {
+        color: #111;
+        padding: 8px;
+    }
+    .resultado {
+        padding-right: 0;
+    }
+}
 
+.container-tooltip-leyenda {
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+}
+
+.container-tooltip-partido {
+    padding: 16px;
+}
+
+.tooltipLeyenda {
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    + p {
+        display: none;
+    }
+}
 
 .mapa-container {
     background-color: #DBE3E1;

@@ -1028,7 +1028,6 @@ path.q2-3 {
     height: 60vh;
     max-height: 450px;
     margin-top: 10px;
-    padding: 0.63rem 0;
 
     vertical-align: middle;
 
@@ -1056,8 +1055,8 @@ path.q2-3 {
     font-weight: 600;
 
     width: 100%;
-    margin: .5rem 0;
-    padding: 0 1rem 1rem;
+    margin: 0;
+    padding: 1rem;
 
     border-bottom: 1px solid #ccc;
 }
@@ -1067,11 +1066,43 @@ path.q2-3 {
     font-weight: bold;
 
     margin: 0.31rem 0;
-    padding: 0 1.25rem;
 }
 
 .tooltipPartido + p {
   display: none;
+}
+
+.tooltipLeyenda span, .tooltipPartido span {
+  font-size: 0.88rem;
+  display: inline-block;
+  min-width: 50%;
+  color: #6f7780;
+}
+
+.tooltipLeyenda .resultado, .tooltipPartido .resultado {
+  min-width: 45%;
+  padding-left: 16px;
+  text-align: right;
+  color: #111;
+}
+
+.tooltipPartido span {
+  padding: 0.5rem;
+  color: #111;
+}
+
+.tooltipPartido .resultado {
+  padding-right: 0;
+}
+
+.container-tooltip-leyenda {
+    padding: 1rem;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.container-tooltip-partido {
+    padding: 1rem;
 }
 
 .tooltipLeyenda {
@@ -1081,31 +1112,11 @@ path.q2-3 {
 
     display: block;
 
-    margin: 0.5rem 0;
-    padding: 0 1.5rem;
-}
-
-.tooltipLeyenda:last-child {
-  font-size: 0;
-  border-bottom: 5px solid #111;
+    margin: 0;
 }
 
 .tooltipLeyenda + p {
   display: none;
-}
-
-.tooltipLeyenda span {
-  font-size: 0.88rem;
-  display: inline-block;
-  min-width: 50%;
-  color: hsl(214, 7%, 47%);
-}
-
-.tooltipLeyenda .resultado {
-  min-width: 45%;
-  padding-left: 16px;
-  text-align: right;
-  color: #111;
 }
 
 .mapa-container {
