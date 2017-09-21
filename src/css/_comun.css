@@ -19,6 +19,7 @@ body {
     cursor: pointer;
 }
 
+
 /* STRIPE RULES */
 
 .button-shw {
@@ -94,7 +95,9 @@ body {
     z-index: 10;
 }
 
+
 /* ESTILOS C3 */
+
 
 /* stylelint-disable */
 
@@ -292,6 +295,7 @@ body {
 
 
 
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -306,6 +310,7 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
 
 
 
@@ -343,8 +348,6 @@ http://www.tipue.com/search
     font-weight: bold;
 }
 
-
-
 /* search box */
 
 #tipue_search_input {
@@ -352,10 +355,10 @@ http://www.tipue.com/search
     border: 0;
     border-left: 1px solid #1B305F;
     border-radius: 0;
-    padding: 17px;
+    padding: 16px;
     outline: 0;
     margin: 0;
-    height: 60px;
+    height: 64px;
     font-family: var(--fontSystem);
 }
 
@@ -372,6 +375,7 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
 
 
 
@@ -504,15 +508,19 @@ http://www.tipue.com/search
 
 .btn-search {
     width: 50px;
-    height: 60px;
+    height: 64px;
     border: 0;
     border-right: 1px solid #1B305F;
     cursor: pointer;
-    margin-left: -6px;
+    background-color: #1B305F;
+    path {
+        fill: #fff;
+    }
     &:hover {
-        background-color: #1B305F;
+        background-color: #fff;
+        border-left: 1px solid #1B305F;
         path {
-            fill: #fff;
+            fill: #1B305F;;
         }
     }
 }
@@ -615,6 +623,7 @@ http://www.tipue.com/search
 }
 
 
+
 /* stylelint-enable */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
@@ -680,10 +689,14 @@ path.q2-3 {
     padding: 10px 0;
     vertical-align: middle;
     min-width: 260px;
-    height: 60%;
+    height: 60vh;
+    max-height: 450px;
     margin-top: 10px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 5px solid #772435;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -696,11 +709,11 @@ path.q2-3 {
 .tooltipTitulo {
     font-size: 24px;
     font-family: var(--fontSystem);
-    font-weight: 800;
-    margin: 5px 0;
+    font-weight: 600;
+    margin: .5rem 0;
     width: 100%;
-    border-bottom: 1px solid #111;
-    padding: 0 0 20px 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 16px 16px;
 }
 
 .tooltipPartido {
@@ -717,16 +730,32 @@ path.q2-3 {
     font-family: var(--fontSystem);
     font-weight: bold;
     display: block;
-    margin: 0;
-    padding: 0 20px;
-    font-size: 12px;
+    margin: 8px 0;
+    padding: 0 24px;
+    font-size: 16px;
     &:last-child {
         border-bottom: 5px solid #111;
+        font-size: 0;
     }
     + p {
         display: none;
     }
+    span {
+        color: hsl(214, 7%, 47%);
+        font-size: 14px;
+        min-width: 50%;
+        display: inline-block;
+
+    }
+    .resultado {
+        padding-left: 16px;
+        color: #111;
+        min-width: 45%;
+        text-align: right;
+    }
 }
+
+
 
 .mapa-container {
     background-color: #DBE3E1;
@@ -744,23 +773,25 @@ path.q2-3 {
     height: 500px;
 }
 
-.SvgOverlay {
+.svgLayer {
     position: relative;
     width: 100%;
     height: 500px;
-}
-
-.SvgOverlay svg {
-    position: absolute;
-    top: -4000px;
-    left: -4000px;
-    width: 8000px;
-    height: 8000px;
-}
-
-.SvgOverlay path {
-    stroke: Orange;
-    stroke-width: 2px;
-    fill: Orange;
-    fill-opacity: .3;
+    svg {
+        position: absolute;
+        top: -4000px;
+        left: -4000px;
+        width: 8000px;
+        height: 8000px;
+    }
+    path {
+        stroke: #772435;
+        stroke-width: 1px;
+        fill: #772435;
+        fill-opacity: .5;
+        cursor: pointer;
+        &:hover {
+            fill-opacity: 1;
+        }
+    }
 }

@@ -651,9 +651,9 @@ http://www.tipue.com/search
 #tipue_search_input {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 
-    height: 60px;
+    height: 64px;
     margin: 0;
-    padding: 1.06rem;
+    padding: 1rem;
 
     color: #333;
     border: 0;
@@ -822,21 +822,26 @@ http://www.tipue.com/search
 
 .btn-search {
     width: 50px;
-    height: 60px;
-    margin-left: -6px;
+    height: 64px;
 
     cursor: pointer;
 
     border: 0;
     border-right: 1px solid #1B305F;
+    background-color: #1B305F;
+}
+
+.btn-search path {
+  fill: #fff;
 }
 
 .btn-search:hover {
-  background-color: #1B305F;
+  border-left: 1px solid #1B305F;
+  background-color: #fff;
 }
 
 .btn-search:hover path {
-  fill: #fff;
+  fill: #1B305F;
 }
 
 .tabla-calendario {
@@ -1020,16 +1025,20 @@ path.q2-3 {
     right: 10vw;
 
     min-width: 260px;
-    height: 60%;
+    height: 60vh;
+    max-height: 450px;
     margin-top: 10px;
     padding: 0.63rem 0;
 
     vertical-align: middle;
 
     color: #111;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #772435;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -1044,13 +1053,13 @@ path.q2-3 {
 .tooltipTitulo {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 600;
 
     width: 100%;
-    margin: 0.31rem 0;
-    padding: 0 0 1.25rem 1.25rem;
+    margin: .5rem 0;
+    padding: 0 1rem 1rem;
 
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid #ccc;
 }
 
 .tooltipPartido {
@@ -1067,21 +1076,36 @@ path.q2-3 {
 
 .tooltipLeyenda {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: bold;
 
     display: block;
 
-    margin: 0;
-    padding: 0 1.25rem;
+    margin: 0.5rem 0;
+    padding: 0 1.5rem;
 }
 
 .tooltipLeyenda:last-child {
+  font-size: 0;
   border-bottom: 5px solid #111;
 }
 
 .tooltipLeyenda + p {
   display: none;
+}
+
+.tooltipLeyenda span {
+  font-size: 0.88rem;
+  display: inline-block;
+  min-width: 50%;
+  color: hsl(214, 7%, 47%);
+}
+
+.tooltipLeyenda .resultado {
+  min-width: 45%;
+  padding-left: 16px;
+  text-align: right;
+  color: #111;
 }
 
 .mapa-container {
@@ -1099,27 +1123,31 @@ path.q2-3 {
     height: 500px;
 }
 
-.SvgOverlay {
+.svgLayer {
     position: relative;
 
     width: 100%;
     height: 500px;
 }
 
-.SvgOverlay svg {
-    position: absolute;
-    top: -4000px;
-    left: -4000px;
-
-    width: 8000px;
-    height: 8000px;
+.svgLayer svg {
+  position: absolute;
+  top: -4000px;
+  left: -4000px;
+  width: 8000px;
+  height: 8000px;
 }
 
-.SvgOverlay path {
-    stroke: Orange;
-    stroke-width: 2px;
-    fill: Orange;
-    fill-opacity: .3;
+.svgLayer path {
+  cursor: pointer;
+  stroke: #772435;
+  stroke-width: 1px;
+  fill: #772435;
+  fill-opacity: .5;
+}
+
+.svgLayer path:hover {
+  fill-opacity: 1;
 }
 
 .btn-share {
