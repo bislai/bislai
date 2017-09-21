@@ -252,9 +252,9 @@
                             '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + geoJson.properties.psoe + '%<p/>' +
                             '<p class="tooltipPartido">' + '<img src="../img/logo-cs.png" class="tooltip-image">' + geoJson.properties.cs + '%<p/>' +
                             '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + geoJson.properties.cha + '%<p/>' +
-                            '<p class="tooltipLeyenda">Población: ' + geoJson.properties.total + '<p/>' +
-                            '<p class="tooltipLeyenda">Votantes: ' + geoJson.properties.votantes + '%<p/>' +
-                            '<p class="tooltipLeyenda">Abstención: ' + geoJson.properties.abstencion + '%<p/>');
+                            '<p class="tooltipLeyenda"><span>Población:</span> <span class="resultado"> ' + geoJson.properties.total + '</span><p/>' +
+                            '<p class="tooltipLeyenda"><span>Votantes:</span> <span class="resultado">' + geoJson.properties.votantes + '%</span><p/>' +
+                            '<p class="tooltipLeyenda"><span>Abstención:</span> <span class="resultado">' + geoJson.properties.abstencion + '%</span><p/>');
                 }
                 var markerOverlay = this;
                 var overlayProjection = markerOverlay.getProjection();
