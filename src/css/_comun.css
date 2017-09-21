@@ -348,9 +348,6 @@ http://www.tipue.com/search
     font-weight: bold;
 }
 
-
-
-
 /* search box */
 
 #tipue_search_input {
@@ -358,10 +355,10 @@ http://www.tipue.com/search
     border: 0;
     border-left: 1px solid #1B305F;
     border-radius: 0;
-    padding: 17px;
+    padding: 16px;
     outline: 0;
     margin: 0;
-    height: 60px;
+    height: 64px;
     font-family: var(--fontSystem);
 }
 
@@ -511,15 +508,19 @@ http://www.tipue.com/search
 
 .btn-search {
     width: 50px;
-    height: 60px;
+    height: 64px;
     border: 0;
     border-right: 1px solid #1B305F;
     cursor: pointer;
-    margin-left: -6px;
+    background-color: #1B305F;
+    path {
+        fill: #fff;
+    }
     &:hover {
-        background-color: #1B305F;
+        background-color: #fff;
+        border-left: 1px solid #1B305F;
         path {
-            fill: #fff;
+            fill: #1B305F;;
         }
     }
 }

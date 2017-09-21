@@ -651,9 +651,9 @@ http://www.tipue.com/search
 #tipue_search_input {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 
-    height: 60px;
+    height: 64px;
     margin: 0;
-    padding: 1.06rem;
+    padding: 1rem;
 
     color: #333;
     border: 0;
@@ -822,21 +822,26 @@ http://www.tipue.com/search
 
 .btn-search {
     width: 50px;
-    height: 60px;
-    margin-left: -6px;
+    height: 64px;
 
     cursor: pointer;
 
     border: 0;
     border-right: 1px solid #1B305F;
+    background-color: #1B305F;
+}
+
+.btn-search path {
+  fill: #fff;
 }
 
 .btn-search:hover {
-  background-color: #1B305F;
+  border-left: 1px solid #1B305F;
+  background-color: #fff;
 }
 
 .btn-search:hover path {
-  fill: #fff;
+  fill: #1B305F;
 }
 
 .tabla-calendario {
