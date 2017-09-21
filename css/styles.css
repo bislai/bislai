@@ -1099,27 +1099,31 @@ path.q2-3 {
     height: 500px;
 }
 
-.SvgOverlay {
+.svgLayer {
     position: relative;
 
     width: 100%;
     height: 500px;
 }
 
-.SvgOverlay svg {
-    position: absolute;
-    top: -4000px;
-    left: -4000px;
-
-    width: 8000px;
-    height: 8000px;
+.svgLayer svg {
+  position: absolute;
+  top: -4000px;
+  left: -4000px;
+  width: 8000px;
+  height: 8000px;
 }
 
-.SvgOverlay path {
-    stroke: Orange;
-    stroke-width: 2px;
-    fill: Orange;
-    fill-opacity: .3;
+.svgLayer path {
+  cursor: pointer;
+  stroke: #772435;
+  stroke-width: 1px;
+  fill: #772435;
+  fill-opacity: .5;
+}
+
+.svgLayer path:hover {
+  fill-opacity: 1;
 }
 
 .btn-share {

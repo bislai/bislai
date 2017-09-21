@@ -19,6 +19,7 @@ body {
     cursor: pointer;
 }
 
+
 /* STRIPE RULES */
 
 .button-shw {
@@ -94,7 +95,9 @@ body {
     z-index: 10;
 }
 
+
 /* ESTILOS C3 */
+
 
 /* stylelint-disable */
 
@@ -292,6 +295,7 @@ body {
 
 
 
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -306,6 +310,7 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
 
 
 
@@ -345,6 +350,7 @@ http://www.tipue.com/search
 
 
 
+
 /* search box */
 
 #tipue_search_input {
@@ -372,6 +378,7 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
 
 
 
@@ -615,6 +622,7 @@ http://www.tipue.com/search
 }
 
 
+
 /* stylelint-enable */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
@@ -744,23 +752,25 @@ path.q2-3 {
     height: 500px;
 }
 
-.SvgOverlay {
+.svgLayer {
     position: relative;
     width: 100%;
     height: 500px;
-}
-
-.SvgOverlay svg {
-    position: absolute;
-    top: -4000px;
-    left: -4000px;
-    width: 8000px;
-    height: 8000px;
-}
-
-.SvgOverlay path {
-    stroke: Orange;
-    stroke-width: 2px;
-    fill: Orange;
-    fill-opacity: .3;
+    svg {
+        position: absolute;
+        top: -4000px;
+        left: -4000px;
+        width: 8000px;
+        height: 8000px;
+    }
+    path {
+        stroke: #772435;
+        stroke-width: 1px;
+        fill: #772435;
+        fill-opacity: .5;
+        cursor: pointer;
+        &:hover {
+            fill-opacity: 1;
+        }
+    }
 }
