@@ -200,7 +200,6 @@
 
 @media only screen and (min-width: 48em) {
 
-
   .padding-y0--m {
     padding-top: 0;
     padding-bottom: 0;
@@ -324,6 +323,10 @@
 
   .padding-1-0--l {
     padding: 1rem 0;
+  }
+
+  .padding-5-0--l {
+    padding: 5rem 0;
   }
 
   .padding-0-1--l {

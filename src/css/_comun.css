@@ -544,22 +544,23 @@ http://www.tipue.com/search
     display: none;
 }
 
+.container-plenos {
+    max-width: 65vw;
+    margin: 0 auto;
+}
+
 .label-record {
     display: inline-block;
-    margin: 0 0 -1px;
-    padding: 2px;
-    font-weight: 600;
-    font-size: 14px;
+    padding: 16px;
+    font-weight: 200;
     text-align: center;
     color: var(--impureGrey);
     border: 1px solid var(--impureGrey);
     width: 20%;
+    background-color: #fff;
     &:hover {
         color: var(--impureBlack);
         cursor: pointer;
-    }
-    &:nth-of-type(4n+1) {
-        margin-left: 10px;
     }
 }
 
@@ -571,15 +572,14 @@ http://www.tipue.com/search
     color: var(--impureBlack);
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    border-bottom: 1px solid var(--impureWhite);
-    background-color: var(--impureWhite);
+    background-color: #92CDCB;
 }
 
 #tab1:checked~.contenido1,
 #tab2:checked~.contenido2,
 #tab3:checked~.contenido3 {
     display: block;
-    background-color: var(--impureWhite);
+    background-color: #92CDCB;
 }
 
 .grid-text {
@@ -718,7 +718,7 @@ path.q2-3 {
 .tooltipPartido {
     font-family: var(--fontSystem);
     font-weight: bold;
-    margin: 5px 0;
+    margin: 8px 0;
     + p {
         display: none;
     }
@@ -799,9 +799,9 @@ path.q2-3 {
         height: 8000px;
     }
     path {
-        stroke: #772435;
+        stroke: #630e1d;
         stroke-width: 1px;
-        fill: #772435;
+        fill: #630e1d;
         fill-opacity: .5;
         cursor: pointer;
         &:hover {
