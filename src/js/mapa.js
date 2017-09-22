@@ -247,14 +247,14 @@
                     // moveTooltip();
                     tooltip.style("display", "block")
                         .html('<h4 class="tooltipTitulo">' + geoJson.properties.distrito + '</h4>' +
-                            '<p class="tooltipPartido">' + '<img src="../img/logo-pp.png" class="tooltip-image">' + geoJson.properties.pp + '%<p/>' +
-                            '<p class="tooltipPartido">' + '<img src="../img/logo-zec.png" class="tooltip-image">' + geoJson.properties.zec + '%<p/>' +
-                            '<p class="tooltipPartido">' + '<img src="../img/logo-psoe.png" class="tooltip-image">' + geoJson.properties.psoe + '%<p/>' +
-                            '<p class="tooltipPartido">' + '<img src="../img/logo-cs.png" class="tooltip-image">' + geoJson.properties.cs + '%<p/>' +
-                            '<p class="tooltipPartido">' + '<img src="../img/logo-chunta.jpg" class="tooltip-image">' + geoJson.properties.cha + '%<p/>' +
-                            '<p class="tooltipLeyenda"><span>Población:</span> <span class="resultado"> ' + geoJson.properties.total + '</span><p/>' +
+                            '<div class="container-tooltip-leyenda"><p class="tooltipLeyenda"><span>Censo:</span> <span class="resultado"> ' + geoJson.properties.total + '</span><p/>' +
                             '<p class="tooltipLeyenda"><span>Votantes:</span> <span class="resultado">' + geoJson.properties.votantes + '%</span><p/>' +
-                            '<p class="tooltipLeyenda"><span>Abstención:</span> <span class="resultado">' + geoJson.properties.abstencion + '%</span><p/>');
+                            '<p class="tooltipLeyenda"><span>Abstención:</span> <span class="resultado">' + geoJson.properties.abstencion + '%</span><p/></div>' +
+                            '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="bgc-pp">PP</span><span class="resultado">' + geoJson.properties.pp + '%</span><p/>' +
+                            '<p class="tooltipPartido"> <span class="bgc-zec">ZEC</span><span class="resultado">' + geoJson.properties.zec + '%</span><p/>' +
+                            '<p class="tooltipPartido"><span class="bgc-psoe">PSOE</span><span class="resultado">' + geoJson.properties.psoe + '%</span><p/>' +
+                            '<p class="tooltipPartido"><span class="bgc-cs">C&#39s</span><span class="resultado">' + geoJson.properties.cs + '%</span><p/>' +
+                            '<p class="tooltipPartido"><span class="bgc-cha">CHA</span><span class="resultado">' + geoJson.properties.cha + '%</span><p/></div>');
                 }
                 var markerOverlay = this;
                 var overlayProjection = markerOverlay.getProjection();

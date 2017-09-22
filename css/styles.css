@@ -869,29 +869,29 @@ http://www.tipue.com/search
     display: none;
 }
 
+.container-plenos {
+    max-width: 65vw;
+    margin: 0 auto;
+}
+
 .label-record {
-    font-size: 0.88rem;
-    font-weight: 600;
+    font-weight: 200;
 
     display: inline-block;
 
     width: 20%;
-    margin: 0 0 -0.06rem;
-    padding: 0.13rem;
+    padding: 1rem;
 
     text-align: center;
 
     color: var(--impureGrey);
     border: 1px solid var(--impureGrey);
+    background-color: #fff;
 }
 
 .label-record:hover {
   cursor: pointer;
   color: var(--impureBlack);
-}
-
-.label-record:nth-of-type(4n+1) {
-  margin-left: 10px;
 }
 
 .label-responsive {
@@ -902,8 +902,7 @@ http://www.tipue.com/search
     color: var(--impureBlack);
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    border-bottom: 1px solid #c4d1e8;
-    background-color: #c4d1e8;
+    background-color: #92CDCB;
 }
 
 #tab1:checked~.contenido1,
@@ -911,7 +910,7 @@ http://www.tipue.com/search
 #tab3:checked~.contenido3 {
     display: block;
 
-    background-color: #c4d1e8;
+    background-color: #92CDCB;
 }
 
 .grid-text {
@@ -1028,7 +1027,6 @@ path.q2-3 {
     height: 60vh;
     max-height: 450px;
     margin-top: 10px;
-    padding: 0.63rem 0;
 
     vertical-align: middle;
 
@@ -1056,8 +1054,8 @@ path.q2-3 {
     font-weight: 600;
 
     width: 100%;
-    margin: .5rem 0;
-    padding: 0 1rem 1rem;
+    margin: 0;
+    padding: 1rem;
 
     border-bottom: 1px solid #ccc;
 }
@@ -1066,12 +1064,44 @@ path.q2-3 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
 
-    margin: 0.31rem 0;
-    padding: 0 1.25rem;
+    margin: 0.5rem 0;
 }
 
 .tooltipPartido + p {
   display: none;
+}
+
+.tooltipLeyenda span, .tooltipPartido span {
+  font-size: 0.88rem;
+  display: inline-block;
+  min-width: 50%;
+  color: #6f7780;
+}
+
+.tooltipLeyenda .resultado, .tooltipPartido .resultado {
+  min-width: 45%;
+  padding-left: 16px;
+  text-align: right;
+  color: #111;
+}
+
+.tooltipPartido span {
+  padding: 0.5rem;
+  color: #111;
+}
+
+.tooltipPartido .resultado {
+  padding-right: 0;
+}
+
+.container-tooltip-leyenda {
+    padding: 1rem;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.container-tooltip-partido {
+    padding: 1rem;
 }
 
 .tooltipLeyenda {
@@ -1081,31 +1111,11 @@ path.q2-3 {
 
     display: block;
 
-    margin: 0.5rem 0;
-    padding: 0 1.5rem;
-}
-
-.tooltipLeyenda:last-child {
-  font-size: 0;
-  border-bottom: 5px solid #111;
+    margin: 0;
 }
 
 .tooltipLeyenda + p {
   display: none;
-}
-
-.tooltipLeyenda span {
-  font-size: 0.88rem;
-  display: inline-block;
-  min-width: 50%;
-  color: hsl(214, 7%, 47%);
-}
-
-.tooltipLeyenda .resultado {
-  min-width: 45%;
-  padding-left: 16px;
-  text-align: right;
-  color: #111;
 }
 
 .mapa-container {
@@ -1140,9 +1150,9 @@ path.q2-3 {
 
 .svgLayer path {
   cursor: pointer;
-  stroke: #772435;
+  stroke: #630e1d;
   stroke-width: 1px;
-  fill: #772435;
+  fill: #630e1d;
   fill-opacity: .5;
 }
 
@@ -2323,6 +2333,9 @@ path.q2-3 {
   }
   .padding-1-0--l {
     padding: 1rem 0;
+  }
+  .padding-5-0--l {
+    padding: 5rem 0;
   }
   .padding-0-1--l {
     padding: 0 1rem;
