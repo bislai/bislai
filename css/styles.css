@@ -879,12 +879,11 @@ http://www.tipue.com/search
 
     display: inline-block;
 
-    width: 20%;
-    padding: 1rem;
+    padding: 1rem 2rem;
 
     text-align: center;
 
-    color: var(--impureGrey);
+    color: #DCE0DB;
     border: 1px solid var(--impureGrey);
     background-color: #fff;
 }
@@ -899,10 +898,10 @@ http://www.tipue.com/search
 }
 
 .input-record:checked+.label-record {
-    color: var(--impureBlack);
+    color: #DCE0DB;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #92CDCB;
+    background-color: #212843;
 }
 
 #tab1:checked~.contenido1,
@@ -910,7 +909,7 @@ http://www.tipue.com/search
 #tab3:checked~.contenido3 {
     display: block;
 
-    background-color: #92CDCB;
+    background-color: #212843;
 }
 
 .grid-text {

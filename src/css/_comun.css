@@ -551,12 +551,11 @@ http://www.tipue.com/search
 
 .label-record {
     display: inline-block;
-    padding: 16px;
+    padding: 1rem 2rem;
     font-weight: 200;
     text-align: center;
-    color: var(--impureGrey);
+    color: #DCE0DB;
     border: 1px solid var(--impureGrey);
-    width: 20%;
     background-color: #fff;
     &:hover {
         color: var(--impureBlack);
@@ -569,17 +568,17 @@ http://www.tipue.com/search
 }
 
 .input-record:checked+.label-record {
-    color: var(--impureBlack);
+    color: #DCE0DB;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #92CDCB;
+    background-color: #212843;
 }
 
 #tab1:checked~.contenido1,
 #tab2:checked~.contenido2,
 #tab3:checked~.contenido3 {
     display: block;
-    background-color: #92CDCB;
+    background-color: #212843;
 }
 
 .grid-text {
