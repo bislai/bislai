@@ -1,117 +1,125 @@
 .black {
-  color: var(--black);
+    color: var(--black);
 }
 
 .bgc-black {
-  background-color: var(--black);
+    background-color: var(--black);
+}
+
+.bgc-tabs {
+    background-color: var(--bgcTabs);
 }
 
 .bgc-celery {
-  background-color: var(--celery);
+    background-color: var(--celery);
 }
 
 .bgc-periwinkie {
-  background-color: var(--periwinkie);
+    background-color: var(--periwinkie);
 }
 
 .woodsmoke {
-  color: var(--woodsmoke);
+    color: var(--woodsmoke);
 }
 
 .bgc-acapulco {
-  background-color: var(--acapulco);
+    background-color: var(--acapulco);
 }
 
 .gondola {
-  color: var(--gondola);
+    color: var(--gondola);
 }
 
 .bgc-floralwhite {
-  background-color: var(--floralwhite);
+    background-color: var(--floralwhite);
 }
 
 .bgc-floralwhite-9 {
-  background-color: var(--florawhite9);
+    background-color: var(--florawhite9);
 }
 
 .bgc-white-9 {
-  background-color: var(--white9);
+    background-color: var(--white9);
 }
 
 .bgc-fluor {
-  background-color: var(--fluor);
+    background-color: var(--fluor);
 }
 
 .luckyPoint {
-  color: var(--luckyPoint);
+    color: var(--luckyPoint);
 }
 
 .bgc-transparent {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .bgc-mint {
-  background-color: hsl(170, 88%, 47%);
-  &:hover {
-    background-color: hsl(170, 56%, 47%);
-    transition: background-color .3s ease-in;
-  }
+    background-color: hsl(170, 88%, 47%);
+    &:hover {
+        background-color: hsl(170, 56%, 47%);
+        transition: background-color .3s ease-in;
+    }
 }
 
 .night-rider {
-  color: var(--nightRider);
+    color: var(--nightRider);
 }
 
 .bgc-french-grey {
-  background-color: hsl(283, 11%, 88%);
-  &:hover {
-    background-color: hsl(283, 5%, 68%);
-    transition: background-color .3s ease-in;
-  }
+    background-color: hsl(283, 11%, 88%);
+    &:hover {
+        background-color: hsl(283, 5%, 68%);
+        transition: background-color .3s ease-in;
+    }
 }
 
 .bunting {
-  color: var(--bunting);
+    color: var(--bunting);
 }
 
 .grey {
-  background-color: var(--grey);
+    background-color: var(--grey);
 }
 
 .resto {
-  background-color: var(--resto);
+    background-color: var(--resto);
 }
 
 .bgc-white {
-  background-color: var(--white);
+    background-color: var(--white);
 }
 
 .cruise2 {
-  background-color: var(--cruise2);
+    background-color: var(--cruise2);
 }
 
 .white {
-  color: var(--white);
+    color: var(--white);
+}
+
+.color-tabs {
+    color: var(--hoverTabs);
 }
 
 .heath {
-  color: var(--heath);
+    color: var(--heath);
 }
 
 .red9 {
-  color: var(--red9);
+    color: var(--red9);
 }
 
 .green9 {
-  color: var(--green9);
+    color: var(--green9);
 }
 
 .azul-pp {
-  color: var(--pp);
+    color: var(--pp);
 }
 
 .rojo-psoe {
-  color: var(--psoe);
+    color: var(--psoe);
 }
 
 .amarillo-chunta {
@@ -127,23 +135,23 @@
 }
 
 .bgc-pp {
-  background-color: var(--pp);
+    background-color: var(--pp);
 }
 
 .bgc-psoe {
-  background-color: var(--psoe);
+    background-color: var(--psoe);
 }
 
 .bgc-zec {
-  background-color: var(--zec);
+    background-color: var(--zec);
 }
 
 .bgc-cs {
-  background-color: var(--ciudadanos);
+    background-color: var(--ciudadanos);
 }
 
 .bgc-cha {
-  background-color: var(--chunta);
+    background-color: var(--chunta);
 }
 
 @media only screen and (min-width: 30em) {
@@ -158,7 +166,6 @@
     .bgc-transparent--m {
         background-color: transparent;
     }
-
 }
 
 @media only screen and (min-width: 64em) {
@@ -166,5 +173,4 @@
     .bgc-transparent--l {
         background-color: transparent;
     }
-
 }

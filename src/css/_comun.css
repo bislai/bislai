@@ -534,7 +534,7 @@ http://www.tipue.com/search
 
 .tabla-grid {
     display: inline-grid;
-    grid-template-columns: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, minmax(200px, 20%));
     border: 1px solid #000;
     width: 90%;
     background-color: #fff;
@@ -579,6 +579,11 @@ http://www.tipue.com/search
 #tab3:checked~.contenido3 {
     display: block;
     background-color: #212843;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 45%));
+    grid-gap: 40px;
+    grid-row-gap: 10px;
+    padding: 4rem 2rem;
 }
 
 .grid-text {

@@ -862,7 +862,7 @@ http://www.tipue.com/search
     border: 1px solid #000;
     background-color: #fff;
 
-    grid-template-columns: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, minmax(200px, 20%));
 }
 
 .input-record {
@@ -908,8 +908,15 @@ http://www.tipue.com/search
 #tab2:checked~.contenido2,
 #tab3:checked~.contenido3 {
     display: block;
+    display: grid;
+
+    padding: 4rem 2rem;
 
     background-color: #212843;
+
+    grid-template-columns: repeat(2, minmax(200px, 45%));
+    grid-gap: 40px;
+    grid-row-gap: 10px;
 }
 
 .grid-text {
@@ -1399,59 +1406,63 @@ path.q2-3 {
 }
 
 .black {
-  color: #121;
+    color: #121;
 }
 
 .bgc-black {
-  background-color: #121;
+    background-color: #121;
+}
+
+.bgc-tabs {
+    background-color: #45d5a0;
 }
 
 .bgc-celery {
-  background-color: #A5CC5F;
+    background-color: #A5CC5F;
 }
 
 .bgc-periwinkie {
-  background-color: #e7ecff;
+    background-color: #e7ecff;
 }
 
 .woodsmoke {
-  color: #19160a;
+    color: #19160a;
 }
 
 .bgc-acapulco {
-  background-color: #b1dccc;
+    background-color: #b1dccc;
 }
 
 .gondola {
-  color: #542436;
+    color: #542436;
 }
 
 .bgc-floralwhite {
-  background-color: #fffaf0;
+    background-color: #fffaf0;
 }
 
 .bgc-floralwhite-9 {
-  background-color: rgba(255, 250, 240, .9);
+    background-color: rgba(255, 250, 240, .9);
 }
 
 .bgc-white-9 {
-  background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .bgc-fluor {
-  background-color: #c5ecac;
+    background-color: #c5ecac;
 }
 
 .luckyPoint {
-  color: var(--luckyPoint);
+    color: var(--luckyPoint);
 }
 
 .bgc-transparent {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .bgc-mint {
-  background-color: hsl(170, 88%, 47%);
+    background-color: hsl(170, 88%, 47%);
 }
 
 .bgc-mint:hover {
@@ -1460,11 +1471,11 @@ path.q2-3 {
 }
 
 .night-rider {
-  color: #431729;
+    color: #431729;
 }
 
 .bgc-french-grey {
-  background-color: hsl(283, 11%, 88%);
+    background-color: hsl(283, 11%, 88%);
 }
 
 .bgc-french-grey:hover {
@@ -1473,47 +1484,51 @@ path.q2-3 {
 }
 
 .bunting {
-  color: #271764;
+    color: #271764;
 }
 
 .grey {
-  background-color: #efefef;
+    background-color: #efefef;
 }
 
 .resto {
-  background-color: #968282;
+    background-color: #968282;
 }
 
 .bgc-white {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .cruise2 {
-  background-color: #def7f2;
+    background-color: #def7f2;
 }
 
 .white {
-  color: #fff;
+    color: #fff;
+}
+
+.color-tabs {
+    color: #212843;
 }
 
 .heath {
-  color: #430e16;
+    color: #430e16;
 }
 
 .red9 {
-  color: #71585c;
+    color: #71585c;
 }
 
 .green9 {
-  color: #5d7259;
+    color: #5d7259;
 }
 
 .azul-pp {
-  color: #0080B8;
+    color: #0080B8;
 }
 
 .rojo-psoe {
-  color: #E30613;
+    color: #E30613;
 }
 
 .amarillo-chunta {
@@ -1529,23 +1544,23 @@ path.q2-3 {
 }
 
 .bgc-pp {
-  background-color: #0080B8;
+    background-color: #0080B8;
 }
 
 .bgc-psoe {
-  background-color: #E30613;
+    background-color: #E30613;
 }
 
 .bgc-zec {
-  background-color: #9A1622;
+    background-color: #9A1622;
 }
 
 .bgc-cs {
-  background-color: #f07a36;
+    background-color: #f07a36;
 }
 
 .bgc-cha {
-  background-color: #EFB027;
+    background-color: #EFB027;
 }
 
 @media only screen and (min-width: 30em) {
@@ -1558,14 +1573,12 @@ path.q2-3 {
     .bgc-transparent--m {
         background-color: transparent;
     }
-
 }
 
 @media only screen and (min-width: 64em) {
     .bgc-transparent--l {
         background-color: transparent;
     }
-
 }
 
 .display-ib {
@@ -2092,6 +2105,10 @@ path.q2-3 {
 
 .padding-0__5-1 {
   padding: .5rem 1rem;
+}
+
+.padding-0__5-0 {
+  padding: .5rem 0;
 }
 
 .padding-b1 {
@@ -2912,6 +2929,12 @@ path.q2-3 {
 .underline:hover,
 .underline:focus {
   text-decoration: underline;
+}
+
+.tabs:hover,
+.tabs:focus {
+    color: var(--hover-tabs);
+    background-color: hsl(158, 80%, 75%);
 }
 
 .letter-0 {
