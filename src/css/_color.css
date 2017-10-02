@@ -6,6 +6,10 @@
     background-color: var(--black);
 }
 
+.bgc-header-home {
+    background-color: var(--headerHome);
+}
+
 .bgc-tabs {
     background-color: var(--bgcTabs);
 }
