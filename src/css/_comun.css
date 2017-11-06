@@ -666,21 +666,16 @@ path.q2-3 {
 }
 
 .tooltip {
+    font-weight: bold;
     position: absolute;
     top: 0;
-    right: 10vw;
-    background-color: #fff;
+    right: 0;
+    min-width: 380px;
+    height: 100vh;
     color: #111;
-    font-weight: bold;
-    vertical-align: middle;
-    min-width: 260px;
-    min-height: 60vh;
-    max-height: 450px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-top: 5px solid #772435;
+    background-color: #fff;
+    border-top: 10px solid #81165a;
+    border-bottom: 10px solid #81165a;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 }
 

@@ -1032,20 +1032,14 @@ path.q2-3 {
 
     position: absolute;
     top: 0;
-    right: 10vw;
+    right: 0;
 
-    min-width: 260px;
-    min-height: 60vh;
-    max-height: 450px;
-    margin-top: 10px;
-
-    vertical-align: middle;
+    min-width: 380px;
+    height: 100vh;
 
     color: #111;
-    border-top: 5px solid #772435;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-top: 10px solid #81165a;
+    border-bottom: 10px solid #81165a;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 }
