@@ -1128,44 +1128,24 @@ path.q2-3 {
 
 .mapa-container {
     position: relative;
-
-    background-color: #dbe3e1;
 }
 
-.mapa-elecciones path {
-  stroke: #111;
+.hidden {
+    display: none;
 }
 
 #map {
-    width: 100%;
-    height: 500px;
-}
-
-.svgLayer {
     position: relative;
 
     width: 100%;
-    height: 500px;
+    height: 100vh;
+    margin: auto auto;
 }
 
-.svgLayer svg {
+#map svg {
   position: absolute;
-  top: -4000px;
-  left: -4000px;
-  width: 8000px;
-  height: 8000px;
-}
-
-.svgLayer path {
-  cursor: pointer;
-  stroke: #630e1d;
-  stroke-width: 1px;
-  fill: #630e1d;
-  fill-opacity: 0.5;
-}
-
-.svgLayer path:hover {
-  fill-opacity: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .bislai-grid {
