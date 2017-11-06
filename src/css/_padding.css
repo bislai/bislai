@@ -32,6 +32,10 @@
   padding: .5rem 1rem;
 }
 
+.padding-0__5-0 {
+  padding: .5rem 0;
+}
+
 .padding-b1 {
   padding-bottom: 1rem;
 }

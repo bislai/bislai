@@ -19,11 +19,10 @@ body {
     cursor: pointer;
 }
 
-
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .nav-grid {
@@ -55,7 +54,7 @@ body {
     &:hover {
         color: var(--black);
         border-color: var(--colorlink);
-        transition: all .3s ease-in;
+        transition: all 0.3s ease-in;
     }
 }
 
@@ -95,27 +94,25 @@ body {
     z-index: 10;
 }
 
-
 /* ESTILOS C3 */
-
 
 /* stylelint-disable */
 
 .c3 svg {
     font: 10px sans-serif;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
 }
 
 .c3 line,
 .c3 path {
     fill: none;
-    stroke: #000
+    stroke: #000;
 }
 
 .c3 text {
     -webkit-user-select: none;
     -moz-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .c3-bars path,
@@ -123,101 +120,101 @@ body {
 .c3-legend-item-tile,
 .c3-xgrid-focus,
 .c3-ygrid {
-    shape-rendering: crispEdges
+    shape-rendering: crispEdges;
 }
 
 .c3-chart-arc path {
-    stroke: #fff
+    stroke: #fff;
 }
 
 .c3-chart-arc text {
     fill: #fff;
-    font-size: 13px
+    font-size: 13px;
 }
 
 .c3-grid line {
-    stroke: #aaa
+    stroke: #aaa;
 }
 
 .c3-grid text {
-    fill: #aaa
+    fill: #aaa;
 }
 
 .c3-xgrid,
 .c3-ygrid {
-    stroke-dasharray: 3 3
+    stroke-dasharray: 3 3;
 }
 
 .c3-text.c3-empty {
     fill: gray;
-    font-size: 2em
+    font-size: 2em;
 }
 
 .c3-line {
-    stroke-width: 1px
+    stroke-width: 1px;
 }
 
 .c3-circle._expanded_ {
     stroke-width: 1px;
-    stroke: #fff
+    stroke: #fff;
 }
 
 .c3-selected-circle {
     fill: #fff;
-    stroke-width: 2px
+    stroke-width: 2px;
 }
 
 .c3-bar {
-    stroke-width: 0
+    stroke-width: 0;
 }
 
 .c3-bar._expanded_ {
-    fill-opacity: .75
+    fill-opacity: 0.75;
 }
 
 .c3-target.c3-focused {
-    opacity: 1
+    opacity: 1;
 }
 
 .c3-target.c3-focused path.c3-line,
 .c3-target.c3-focused path.c3-step {
-    stroke-width: 2px
+    stroke-width: 2px;
 }
 
 .c3-target.c3-defocused {
-    opacity: .3!important
+    opacity: 0.3 !important;
 }
 
 .c3-region {
     fill: #4682b4;
-    fill-opacity: .1
+    fill-opacity: 0.1;
 }
 
 .c3-brush .extent {
-    fill-opacity: .1
+    fill-opacity: 0.1;
 }
 
 .c3-legend-item {
-    font-size: 12px
+    font-size: 12px;
 }
 
 .c3-legend-item-hidden {
-    opacity: .15
+    opacity: 0.15;
 }
 
 .c3-legend-background {
-    opacity: .75;
+    opacity: 0.75;
     fill: #fff;
     stroke: #d3d3d3;
-    stroke-width: 1
+    stroke-width: 1;
 }
 
 .c3-title {
-    font: 14px sans-serif
+    font: 14px sans-serif;
 }
 
 .c3-tooltip-container {
-    z-index: 10
+    z-index: 10;
 }
 
 .c3-tooltip {
@@ -228,11 +225,11 @@ body {
     -webkit-box-shadow: 7px 7px 12px -9px #777;
     -moz-box-shadow: 7px 7px 12px -9px #777;
     box-shadow: 7px 7px 12px -9px #777;
-    opacity: .9
+    opacity: 0.9;
 }
 
 .c3-tooltip tr {
-    border: 1px solid #CCC
+    border: 1px solid #ccc;
 }
 
 .c3-tooltip th {
@@ -240,61 +237,55 @@ body {
     font-size: 14px;
     padding: 2px 5px;
     text-align: left;
-    color: #FFF
+    color: #fff;
 }
 
 .c3-tooltip td {
     font-size: 13px;
     padding: 3px 6px;
     background-color: #fff;
-    border-left: 1px dotted #999
+    border-left: 1px dotted #999;
 }
 
-.c3-tooltip td>span {
+.c3-tooltip td > span {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin-right: 6px
+    margin-right: 6px;
 }
 
 .c3-tooltip td.value {
-    text-align: right
+    text-align: right;
 }
 
 .c3-area {
     stroke-width: 0;
-    opacity: .2
+    opacity: 0.2;
 }
 
 .c3-chart-arcs-title {
     dominant-baseline: middle;
-    font-size: 1.3em
+    font-size: 1.3em;
 }
 
 .c3-chart-arcs .c3-chart-arcs-background {
     fill: #e0e0e0;
-    stroke: none
+    stroke: none;
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-unit {
     fill: #000;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-max,
 .c3-chart-arcs .c3-chart-arcs-gauge-min {
-    fill: #777
+    fill: #777;
 }
 
 .c3-chart-arc .c3-gauge-value {
-    fill: #000
+    fill: #000;
 }
-
-
-
-
-
-
 
 /* Machacando a fuego los estilos que incluye c3 */
 
@@ -311,16 +302,12 @@ body {
     font-family: var(--fontSystem);
 }
 
-
-
-
 /*
 Tipue Search 6.0
 Copyright (c) 2017 Tipue
 Tipue Search is released under the MIT License
 http://www.tipue.com/search
 */
-
 
 /* fonts */
 
@@ -353,12 +340,13 @@ http://www.tipue.com/search
 #tipue_search_input {
     color: #333;
     border: 0;
-    border-left: 1px solid #1B305F;
+    border: 1px solid #1b305f;
     border-radius: 0;
     padding: 16px;
     outline: 0;
     margin: 0;
     height: 64px;
+    background-color: #f1f1f1;
     font-family: var(--fontSystem);
 }
 
@@ -375,9 +363,6 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
-
-
-
 
 /* search results */
 
@@ -510,17 +495,16 @@ http://www.tipue.com/search
     width: 50px;
     height: 64px;
     border: 0;
-    border-right: 1px solid #1B305F;
+    border-right: 1px solid #1b305f;
     cursor: pointer;
-    background-color: #1B305F;
+    background-color: #1b305f;
     path {
         fill: #fff;
     }
     &:hover {
-        background-color: #fff;
-        border-left: 1px solid #1B305F;
+        background-color: var(--searchHover);
         path {
-            fill: #1B305F;;
+            fill: var(--chunta);
         }
     }
 }
@@ -534,7 +518,7 @@ http://www.tipue.com/search
 
 .tabla-grid {
     display: inline-grid;
-    grid-template-columns: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, minmax(200px, 20%));
     border: 1px solid #000;
     width: 90%;
     background-color: #fff;
@@ -551,12 +535,11 @@ http://www.tipue.com/search
 
 .label-record {
     display: inline-block;
-    padding: 16px;
+    padding: 1rem 2rem;
     font-weight: 200;
     text-align: center;
-    color: var(--impureGrey);
+    color: #dce0db;
     border: 1px solid var(--impureGrey);
-    width: 20%;
     background-color: #fff;
     &:hover {
         color: var(--impureBlack);
@@ -568,18 +551,23 @@ http://www.tipue.com/search
     display: none;
 }
 
-.input-record:checked+.label-record {
-    color: var(--impureBlack);
+.input-record:checked + .label-record {
+    color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #92CDCB;
+    background-color: #212843;
 }
 
-#tab1:checked~.contenido1,
-#tab2:checked~.contenido2,
-#tab3:checked~.contenido3 {
+#tab1:checked ~ .contenido1,
+#tab2:checked ~ .contenido2,
+#tab3:checked ~ .contenido3 {
     display: block;
-    background-color: #92CDCB;
+    background-color: #212843;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 45%));
+    grid-gap: 40px;
+    grid-row-gap: 10px;
+    padding: 4rem 2rem;
 }
 
 .grid-text {
@@ -622,8 +610,6 @@ http://www.tipue.com/search
     display: none;
 }
 
-
-
 /* stylelint-enable */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
@@ -643,7 +629,7 @@ http://www.tipue.com/search
 }
 
 text {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -680,22 +666,17 @@ path.q2-3 {
 }
 
 .tooltip {
+    font-weight: bold;
     position: absolute;
     top: 0;
-    right: 10vw;
-    background-color: #fff;
+    right: 0;
+    min-width: 380px;
+    height: 100vh;
     color: #111;
-    font-weight: bold;
-    vertical-align: middle;
-    min-width: 260px;
-    height: 60vh;
-    max-height: 450px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-top: 5px solid #772435;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+    background-color: #fff;
+    border-top: 10px solid #81165a;
+    border-bottom: 10px solid #81165a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 }
 
 .tooltip-image {
@@ -731,7 +712,6 @@ path.q2-3 {
         font-size: 14px;
         min-width: 50%;
         display: inline-block;
-
     }
     .resultado {
         padding-left: 16px;
@@ -772,7 +752,7 @@ path.q2-3 {
 }
 
 .mapa-container {
-    background-color: #DBE3E1;
+    background-color: #dbe3e1;
     position: relative;
 }
 
@@ -802,10 +782,242 @@ path.q2-3 {
         stroke: #630e1d;
         stroke-width: 1px;
         fill: #630e1d;
-        fill-opacity: .5;
+        fill-opacity: 0.5;
         cursor: pointer;
         &:hover {
             fill-opacity: 1;
         }
     }
+}
+
+.bislai-grid {
+    position: relative;
+    width: 100%;
+}
+
+.bislai-grid-text {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 40vw;
+}
+
+img {
+    width: 100%;
+}
+
+.retro {
+    background-color: #f1e3a0;
+}
+
+.retro img {
+    mix-blend-mode: darken;
+    -webkit-filter: grayscale(100%) contrast(2);
+    filter: grayscale(100%) contrast(2);
+    width: 100%;
+}
+
+.retro:after {
+    background: linear-gradient(180deg, #f430a9, #f2e782);
+    mix-blend-mode: lighten;
+}
+
+.vintage {
+    background-color: #caeaf2;
+}
+
+.vintage img {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.5);
+    filter: grayscale(100%) contrast(1.5);
+}
+
+.vintage:after {
+    background-color: #2cd6e1;
+    mix-blend-mode: lighten;
+}
+
+.blue-light {
+    background-color: #181e59;
+}
+
+.blue-light img {
+    mix-blend-mode: lighten;
+    -webkit-filter: grayscale(100%) contrast(0.8);
+    filter: grayscale(100%) contrast(0.8);
+}
+
+.blue-light:after {
+    background-color: #e7e1a6;
+    mix-blend-mode: multiply;
+}
+
+.blue {
+    background-color: #77acd4;
+}
+
+.blue img {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+}
+
+.blue:after {
+    background-color: #033dc5;
+    mix-blend-mode: lighten;
+}
+
+.dark-red {
+    background-color: #ed060b;
+}
+
+.dark-red img {
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: lighten;
+}
+
+.dark-red:after {
+    background-color: #70e4ee;
+    mix-blend-mode: multiply;
+}
+
+.flat-retro {
+    background-color: #fca300;
+}
+
+.flat-retro img {
+    mix-blend-mode: darken;
+    -webkit-filter: grayscale(100%) contrast(1.5);
+    filter: grayscale(100%) contrast(1.5);
+}
+
+.flat-retro:after {
+    background-color: #e23241;
+    mix-blend-mode: lighten;
+}
+
+.teal {
+    background-color: #d7a621;
+}
+
+.teal img {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+}
+
+.teal:after {
+    background-color: #0c6249;
+    mix-blend-mode: lighten;
+}
+
+.purple {
+    background-color: #88169d;
+}
+
+.purple img {
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: lighten;
+}
+
+.purple:after {
+    mix-blend-mode: hard-light;
+    background: linear-gradient(to top left, #75d775, #321a5b);
+}
+
+.pink {
+    background-color: #fca300;
+}
+
+.pink img {
+    mix-blend-mode: darken;
+}
+
+.pink::after {
+    background: #282581;
+    mix-blend-mode: lighten;
+    -webkit-filter: contrast(1.1);
+    filter: contrast(1.1);
+}
+
+.pink::before {
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.yellow {
+    background-color: #e0de2c;
+}
+
+.yellow img {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(0.8);
+    filter: grayscale(100%) contrast(0.8);
+}
+
+.yellow:after {
+    background-color: #b71310;
+    mix-blend-mode: lighten;
+}
+
+.orange {
+    background-color: #f65e35;
+}
+
+.orange img {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+}
+
+.orange:after {
+    background-color: #1e3265;
+    mix-blend-mode: lighten;
+}
+
+.blue-red {
+    background-color: #e50914;
+}
+
+.blue-red img {
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
+    opacity: 0.8;
+}
+
+.blue-red:after {
+    mix-blend-mode: lighten;
+    -webkit-filter: contrast(1.1);
+    filter: contrast(1.1);
+    background-color: #282581;
+}
+
+.gold {
+    background-color: #367abd;
+}
+
+.gold img {
+    mix-blend-mode: lighten;
+    -webkit-filter: grayscale(100%) contrast(1);
+    filter: grayscale(100%) contrast(0.8);
+}
+
+.gold:after {
+    background-color: #f9ed3a;
+    mix-blend-mode: multiply;
+}
+
+.column:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 0.5s;
 }
