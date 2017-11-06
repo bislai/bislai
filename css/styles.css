@@ -300,16 +300,17 @@ button:-moz-focusring,
 }
 
 body {
-    font-family: 'Georgia', serif;
+    font-family: "Georgia", serif;
     line-height: 1.5;
 }
 
 .font-s {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .font-serif {
-    font-family: 'Georgia', serif;
+    font-family: "Georgia", serif;
 }
 
 .cursor-p {
@@ -319,7 +320,7 @@ body {
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .nav-grid {
@@ -342,7 +343,8 @@ body {
 }
 
 .link {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
 
     display: inline-block;
@@ -357,7 +359,7 @@ body {
 }
 
 .link:hover {
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   color: #121;
   border-color: #1624f7;
 }
@@ -397,19 +399,19 @@ body {
 .c3 svg {
     font: 0.63rem sans-serif;
 
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
 }
 
 .c3 line,
 .c3 path {
     fill: none;
-    stroke: #000
+    stroke: #000;
 }
 
 .c3 text {
     -webkit-user-select: none;
     -moz-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .c3-bars path,
@@ -417,104 +419,104 @@ body {
 .c3-legend-item-tile,
 .c3-xgrid-focus,
 .c3-ygrid {
-    shape-rendering: crispEdges
+    shape-rendering: crispEdges;
 }
 
 .c3-chart-arc path {
-    stroke: #fff
+    stroke: #fff;
 }
 
 .c3-chart-arc text {
     font-size: 0.81rem;
 
-    fill: #fff
+    fill: #fff;
 }
 
 .c3-grid line {
-    stroke: #aaa
+    stroke: #aaa;
 }
 
 .c3-grid text {
-    fill: #aaa
+    fill: #aaa;
 }
 
 .c3-xgrid,
 .c3-ygrid {
-    stroke-dasharray: 3 3
+    stroke-dasharray: 3 3;
 }
 
 .c3-text.c3-empty {
     font-size: 2em;
 
-    fill: gray
+    fill: gray;
 }
 
 .c3-line {
-    stroke-width: 1px
+    stroke-width: 1px;
 }
 
 .c3-circle._expanded_ {
     stroke-width: 1px;
-    stroke: #fff
+    stroke: #fff;
 }
 
 .c3-selected-circle {
     fill: #fff;
-    stroke-width: 2px
+    stroke-width: 2px;
 }
 
 .c3-bar {
-    stroke-width: 0
+    stroke-width: 0;
 }
 
 .c3-bar._expanded_ {
-    fill-opacity: .75
+    fill-opacity: 0.75;
 }
 
 .c3-target.c3-focused {
-    opacity: 1
+    opacity: 1;
 }
 
 .c3-target.c3-focused path.c3-line,
 .c3-target.c3-focused path.c3-step {
-    stroke-width: 2px
+    stroke-width: 2px;
 }
 
 .c3-target.c3-defocused {
-    opacity: .3!important
+    opacity: 0.3 !important;
 }
 
 .c3-region {
     fill: #4682b4;
-    fill-opacity: .1
+    fill-opacity: 0.1;
 }
 
 .c3-brush .extent {
-    fill-opacity: .1
+    fill-opacity: 0.1;
 }
 
 .c3-legend-item {
-    font-size: 0.75rem
+    font-size: 0.75rem;
 }
 
 .c3-legend-item-hidden {
-    opacity: .15
+    opacity: 0.15;
 }
 
 .c3-legend-background {
-    opacity: .75;
+    opacity: 0.75;
 
     fill: #fff;
     stroke: #d3d3d3;
-    stroke-width: 1
+    stroke-width: 1;
 }
 
 .c3-title {
-    font: 0.88rem sans-serif
+    font: 0.88rem sans-serif;
 }
 
 .c3-tooltip-container {
-    z-index: 10
+    z-index: 10;
 }
 
 .c3-tooltip {
@@ -522,15 +524,15 @@ body {
     border-spacing: 0;
     border-collapse: collapse;
 
-    opacity: .9;
+    opacity: 0.9;
     background-color: #fff;
     -webkit-box-shadow: 7px 7px 12px -9px #777;
     -moz-box-shadow: 7px 7px 12px -9px #777;
-    box-shadow: 7px 7px 12px -9px #777
+    box-shadow: 7px 7px 12px -9px #777;
 }
 
 .c3-tooltip tr {
-    border: 1px solid #CCC
+    border: 1px solid #ccc;
 }
 
 .c3-tooltip th {
@@ -540,8 +542,8 @@ body {
 
     text-align: left;
 
-    color: #FFF;
-    background-color: #aaa
+    color: #fff;
+    background-color: #aaa;
 }
 
 .c3-tooltip td {
@@ -550,57 +552,58 @@ body {
     padding: 0.19rem 0.38rem;
 
     border-left: 1px dotted #999;
-    background-color: #fff
+    background-color: #fff;
 }
 
-.c3-tooltip td>span {
+.c3-tooltip td > span {
     display: inline-block;
 
     width: 10px;
     height: 10px;
-    margin-right: 6px
+    margin-right: 6px;
 }
 
 .c3-tooltip td.value {
-    text-align: right
+    text-align: right;
 }
 
 .c3-area {
-    opacity: .2;
+    opacity: 0.2;
 
-    stroke-width: 0
+    stroke-width: 0;
 }
 
 .c3-chart-arcs-title {
     font-size: 1.3em;
 
-    dominant-baseline: middle
+    dominant-baseline: middle;
 }
 
 .c3-chart-arcs .c3-chart-arcs-background {
     fill: #e0e0e0;
-    stroke: none
+    stroke: none;
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-unit {
     font-size: 1rem;
 
-    fill: #000
+    fill: #000;
 }
 
 .c3-chart-arcs .c3-chart-arcs-gauge-max,
 .c3-chart-arcs .c3-chart-arcs-gauge-min {
-    fill: #777
+    fill: #777;
 }
 
 .c3-chart-arc .c3-gauge-value {
-    fill: #000
+    fill: #000;
 }
 
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1rem !important;
     font-weight: bold !important;
 
@@ -608,7 +611,8 @@ body {
 }
 
 .c3 text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1rem !important;
     font-weight: bold !important;
 }
@@ -649,7 +653,8 @@ http://www.tipue.com/search
 /* search box */
 
 #tipue_search_input {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
 
     height: 64px;
     margin: 0;
@@ -657,9 +662,10 @@ http://www.tipue.com/search
 
     color: #333;
     border: 0;
-    border-left: 1px solid #1B305F;
+    border: 1px solid #1b305f;
     border-radius: 0;
     outline: 0;
+    background-color: #f1f1f1;
 }
 
 .tipue_search_icon {
@@ -827,8 +833,8 @@ http://www.tipue.com/search
     cursor: pointer;
 
     border: 0;
-    border-right: 1px solid #1B305F;
-    background-color: #1B305F;
+    border-right: 1px solid #1b305f;
+    background-color: #1b305f;
 }
 
 .btn-search path {
@@ -836,12 +842,11 @@ http://www.tipue.com/search
 }
 
 .btn-search:hover {
-  border-left: 1px solid #1B305F;
-  background-color: #fff;
+  background-color: hsl(201, 106%, 24%);
 }
 
 .btn-search:hover path {
-  fill: #1B305F;
+  fill: #efb027;
 }
 
 .tabla-calendario {
@@ -883,7 +888,7 @@ http://www.tipue.com/search
 
     text-align: center;
 
-    color: #DCE0DB;
+    color: #dce0db;
     border: 1px solid var(--impureGrey);
     background-color: #fff;
 }
@@ -897,16 +902,16 @@ http://www.tipue.com/search
     display: none;
 }
 
-.input-record:checked+.label-record {
-    color: #DCE0DB;
+.input-record:checked + .label-record {
+    color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
     background-color: #212843;
 }
 
-#tab1:checked~.contenido1,
-#tab2:checked~.contenido2,
-#tab3:checked~.contenido3 {
+#tab1:checked ~ .contenido1,
+#tab2:checked ~ .contenido2,
+#tab3:checked ~ .contenido3 {
     display: block;
     display: grid;
 
@@ -985,7 +990,7 @@ http://www.tipue.com/search
 }
 
 text {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -1042,7 +1047,7 @@ path.q2-3 {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 }
 
 .tooltip-image {
@@ -1055,7 +1060,8 @@ path.q2-3 {
 }
 
 .tooltipTitulo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
 
@@ -1067,7 +1073,8 @@ path.q2-3 {
 }
 
 .tooltipPartido {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
 
     margin: 0.5rem 0;
@@ -1111,7 +1118,8 @@ path.q2-3 {
 }
 
 .tooltipLeyenda {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: bold;
 
@@ -1127,7 +1135,7 @@ path.q2-3 {
 .mapa-container {
     position: relative;
 
-    background-color: #DBE3E1;
+    background-color: #dbe3e1;
 }
 
 .mapa-elecciones path {
@@ -1159,7 +1167,7 @@ path.q2-3 {
   stroke: #630e1d;
   stroke-width: 1px;
   fill: #630e1d;
-  fill-opacity: .5;
+  fill-opacity: 0.5;
 }
 
 .svgLayer path:hover {
@@ -1180,81 +1188,81 @@ path.q2-3 {
     width: 40vw;
     padding: 1.88rem;
 
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 .retro {
-background-color: #f1e3a0;
+    background-color: #f1e3a0;
 }
 
 .retro img {
-  width: 100%;
+    width: 100%;
 
-   mix-blend-mode: darken;
-  -webkit-filter: grayscale(100%) contrast(2);
-  filter: grayscale(100%) contrast(2);
+    mix-blend-mode: darken;
+    -webkit-filter: grayscale(100%) contrast(2);
+    filter: grayscale(100%) contrast(2);
 }
 
 .retro:after {
-  background: linear-gradient(180deg, #f430a9, #f2e782);
+    background: linear-gradient(180deg, #f430a9, #f2e782);
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .vintage {
-  background-color: #caeaf2;
+    background-color: #caeaf2;
 }
 
 .vintage img {
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.5);
-  filter: grayscale(100%) contrast(1.5);
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.5);
+    filter: grayscale(100%) contrast(1.5);
 }
 
 .vintage:after {
-  background-color: #2cd6e1;
+    background-color: #2cd6e1;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .blue-light {
-  background-color: #181e59;
+    background-color: #181e59;
 }
 
 .blue-light img {
-   mix-blend-mode: lighten;
-  -webkit-filter: grayscale(100%) contrast(.8);
-  filter: grayscale(100%) contrast(.8);
+    mix-blend-mode: lighten;
+    -webkit-filter: grayscale(100%) contrast(0.8);
+    filter: grayscale(100%) contrast(0.8);
 }
 
 .blue-light:after {
-  background-color: #E7E1A6;
+    background-color: #e7e1a6;
 
-  mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
 }
 
 .blue {
-  background-color: #77acd4;
+    background-color: #77acd4;
 }
 
 .blue img {
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.2);
-  filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
 }
 
 .blue:after {
-  background-color: #033dc5;
+    background-color: #033dc5;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .dark-red {
-  background-color: #ed060b;
+    background-color: #ed060b;
 }
 
 .dark-red img {
@@ -1264,147 +1272,147 @@ background-color: #f1e3a0;
 }
 
 .dark-red:after {
-   background-color: #70e4ee;
+    background-color: #70e4ee;
 
-   mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
 }
 
 .flat-retro {
-  background-color: #FCA300;
+    background-color: #fca300;
 }
 
 .flat-retro img {
-   mix-blend-mode: darken;
-  -webkit-filter: grayscale(100%) contrast(1.5);
-  filter: grayscale(100%) contrast(1.5);
+    mix-blend-mode: darken;
+    -webkit-filter: grayscale(100%) contrast(1.5);
+    filter: grayscale(100%) contrast(1.5);
 }
 
 .flat-retro:after {
-   background-color: #e23241;
+    background-color: #e23241;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .teal {
-  background-color: #d7a621;
+    background-color: #d7a621;
 }
 
 .teal img {
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.2);
-  filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
 }
 
 .teal:after {
-  background-color: #0c6249;
+    background-color: #0c6249;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .purple {
-  background-color: #88169d;
+    background-color: #88169d;
 }
 
 .purple img {
-  -webkit-filter: grayscale(100%) contrast(1.2);
+    -webkit-filter: grayscale(100%) contrast(1.2);
     filter: grayscale(100%) contrast(1.2);
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .purple:after {
-  background: linear-gradient(to top left, #75d775, #321a5b);
+    background: linear-gradient(to top left, #75d775, #321a5b);
 
-  mix-blend-mode: hard-light;
+    mix-blend-mode: hard-light;
 }
 
 .pink {
-  background-color: #FCA300;
+    background-color: #fca300;
 }
 
 .pink img {
-  mix-blend-mode: darken;
+    mix-blend-mode: darken;
 }
 
 .pink::after {
-  background: #282581;
+    background: #282581;
 
-  mix-blend-mode: lighten;
-  -webkit-filter: contrast(1.1);
-  filter: contrast(1.1);
+    mix-blend-mode: lighten;
+    -webkit-filter: contrast(1.1);
+    filter: contrast(1.1);
 }
 
 .pink::before {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 
-  opacity: .4;
+    opacity: 0.4;
 }
 
 .yellow {
-  background-color: #e0de2c;
+    background-color: #e0de2c;
 }
 
 .yellow img {
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(.8);
-  filter: grayscale(100%) contrast(.8);
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(0.8);
+    filter: grayscale(100%) contrast(0.8);
 }
 
 .yellow:after {
-  background-color: #b71310;
+    background-color: #b71310;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .orange {
-  background-color: #f65e35;
+    background-color: #f65e35;
 }
 
 .orange img {
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.2);
-  filter: grayscale(100%) contrast(1.2);
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%) contrast(1.2);
+    filter: grayscale(100%) contrast(1.2);
 }
 
 .orange:after {
-  background-color: #1e3265;
+    background-color: #1e3265;
 
-  mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
 }
 
 .blue-red {
-  background-color: #E50914;
+    background-color: #e50914;
 }
 
 .blue-red img {
-  opacity: .8;
+    opacity: 0.8;
 
-  -webkit-filter: grayscale(100%) contrast(1.2);
+    -webkit-filter: grayscale(100%) contrast(1.2);
     filter: grayscale(100%) contrast(1.2);
 }
 
 .blue-red:after {
-  background-color: #282581;
+    background-color: #282581;
 
-   mix-blend-mode: lighten;
+    mix-blend-mode: lighten;
     -webkit-filter: contrast(1.1);
     filter: contrast(1.1);
 }
 
 .gold {
-  background-color: #367ABD;
+    background-color: #367abd;
 }
 
 .gold img {
-   mix-blend-mode: lighten;
-  -webkit-filter: grayscale(100%) contrast(1);
-  filter: grayscale(100%) contrast(.8);
+    mix-blend-mode: lighten;
+    -webkit-filter: grayscale(100%) contrast(1);
+    filter: grayscale(100%) contrast(0.8);
 }
 
 .gold:after {
-  background-color: #F9ED3A;
+    background-color: #f9ed3a;
 
-  mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
 }
 
 .column:after {
@@ -1415,8 +1423,8 @@ background-color: #f1e3a0;
     width: 100%;
     height: 100%;
 
-    content: '';
-    transition: all ease-in-out .5s;
+    content: "";
+    transition: all ease-in-out 0.5s;
 }
 
 .btn-share {
@@ -1433,22 +1441,22 @@ background-color: #f1e3a0;
 }
 
 .btn-share-facebook {
-  border: 1px solid #3B5998;
-  background-color: #3B5998;
+  border: 1px solid #3b5998;
+  background-color: #3b5998;
 }
 
 .btn-share-facebook:hover {
-  color: #3B5998;
+  color: #3b5998;
   background-color: #fff;
 }
 
 .btn-share-twitter {
-  border: 1px solid #00ACEE;
-  background-color: #00ACEE;
+  border: 1px solid #00acee;
+  background-color: #00acee;
 }
 
 .btn-share-twitter:hover {
-  color: #00ACEE;
+  color: #00acee;
   background-color: #fff;
 }
 
@@ -1667,15 +1675,15 @@ background-color: #f1e3a0;
 }
 
 .bgc-header-home {
-    background-color: rgba(239, 239, 239, .5);
+    background-color: #fff;
 }
 
 .bgc-tabs {
-    background-color: #45d5a0;
+    background-color: #ba4864;
 }
 
 .bgc-celery {
-    background-color: #A5CC5F;
+    background-color: #a5cc5f;
 }
 
 .bgc-periwinkie {
@@ -1699,11 +1707,11 @@ background-color: #f1e3a0;
 }
 
 .bgc-floralwhite-9 {
-    background-color: rgba(255, 250, 240, .9);
+    background-color: rgba(255, 250, 240, 0.9);
 }
 
 .bgc-white-9 {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .bgc-fluor {
@@ -1723,7 +1731,7 @@ background-color: #f1e3a0;
 }
 
 .bgc-mint:hover {
-  transition: background-color .3s ease-in;
+  transition: background-color 0.3s ease-in;
   background-color: hsl(170, 56%, 47%);
 }
 
@@ -1736,7 +1744,7 @@ background-color: #f1e3a0;
 }
 
 .bgc-french-grey:hover {
-  transition: background-color .3s ease-in;
+  transition: background-color 0.3s ease-in;
   background-color: hsl(283, 5%, 68%);
 }
 
@@ -1781,19 +1789,19 @@ background-color: #f1e3a0;
 }
 
 .azul-pp {
-    color: #0080B8;
+    color: #0080b8;
 }
 
 .rojo-psoe {
-    color: #E30613;
+    color: #e30613;
 }
 
 .amarillo-chunta {
-    color: #EFB027;
+    color: #efb027;
 }
 
 .rojo-zec {
-    color: #9A1622;
+    color: #9a1622;
 }
 
 .naranja-ciudadanos {
@@ -1801,15 +1809,15 @@ background-color: #f1e3a0;
 }
 
 .bgc-pp {
-    background-color: #0080B8;
+    background-color: #0080b8;
 }
 
 .bgc-psoe {
-    background-color: #E30613;
+    background-color: #e30613;
 }
 
 .bgc-zec {
-    background-color: #9A1622;
+    background-color: #9a1622;
 }
 
 .bgc-cs {
@@ -1817,7 +1825,7 @@ background-color: #f1e3a0;
 }
 
 .bgc-cha {
-    background-color: #EFB027;
+    background-color: #efb027;
 }
 
 @media only screen and (min-width: 30em) {
@@ -2709,7 +2717,7 @@ background-color: #f1e3a0;
 }
 
 .borderc-rojo {
-    border-color: #6593CD;
+    border-color: #6593cd;
 }
 
 .borderc-grey {
@@ -2717,7 +2725,7 @@ background-color: #f1e3a0;
 }
 
 .borderc-french-grey {
-    border-color: #E1DCE3;
+    border-color: #e1dce3;
 }
 
 .borderc-mint {
@@ -2768,7 +2776,7 @@ background-color: #f1e3a0;
   display: block;
   width: 200px;
   content: '';
-  border-bottom: 3px solid #E30613;
+  border-bottom: 3px solid #e30613;
 }
 
 .borderc-cs:after {
@@ -2776,15 +2784,15 @@ background-color: #f1e3a0;
 }
 
 .borderc-pp:after {
-  border-bottom: 3px solid #0080B8;
+  border-bottom: 3px solid #0080b8;
 }
 
 .borderc-ch:after {
-  border-bottom: 3px solid #EFB027;
+  border-bottom: 3px solid #efb027;
 }
 
 .borderc-zec:after {
-  border-bottom: 3px solid #9A1622;
+  border-bottom: 3px solid #9a1622;
 }
 
 .borderc-b-cs {

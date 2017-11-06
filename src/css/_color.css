@@ -7,7 +7,7 @@
 }
 
 .bgc-header-home {
-    background-color: var(--headerHome);
+    background-color: var(--white);
 }
 
 .bgc-tabs {
@@ -62,7 +62,7 @@
     background-color: hsl(170, 88%, 47%);
     &:hover {
         background-color: hsl(170, 56%, 47%);
-        transition: background-color .3s ease-in;
+        transition: background-color 0.3s ease-in;
     }
 }
 
@@ -74,7 +74,7 @@
     background-color: hsl(283, 11%, 88%);
     &:hover {
         background-color: hsl(283, 5%, 68%);
-        transition: background-color .3s ease-in;
+        transition: background-color 0.3s ease-in;
     }
 }
 
@@ -159,21 +159,18 @@
 }
 
 @media only screen and (min-width: 30em) {
-
     .bgc-transparent--s {
         background-color: transparent;
     }
 }
 
 @media only screen and (min-width: 48em) {
-
     .bgc-transparent--m {
         background-color: transparent;
     }
 }
 
 @media only screen and (min-width: 64em) {
-
     .bgc-transparent--l {
         background-color: transparent;
     }
