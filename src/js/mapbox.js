@@ -33,9 +33,10 @@ $(function() {
             .enter()
             .append("path")
             .attr({
-                stroke: "#c22361",
-                "stroke-width": 0.1,
-                fill: "#fff",
+                stroke: "#81165a",
+                "stroke-opacity": 0.4,
+                "stroke-width": 50,
+                fill: "#c22361",
                 "fill-opacity": 0.1
             })
             .on("mouseover", showTooltip);
