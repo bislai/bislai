@@ -32,14 +32,10 @@ $(function() {
             .data(geojson.features)
             .enter()
             .append("path")
-            .attr({
-                stroke: "#81165a",
-                "stroke-opacity": 0.4,
-                "stroke-width": 50,
-                fill: "#c22361",
-                "fill-opacity": 0.1
-            })
-            .on("mouseover", showTooltip);
+            .attr("class", "distritos")
+            .on("mouseover", showTooltip)
+            .transition()
+            .duration(200);
 
         function update() {
             featureElement.attr("d", path);
@@ -77,7 +73,9 @@ $(function() {
                         '<p class="tooltipPartido"><span class="bgc-cha">CHA</span><span class="resultado">' +
                         geoJson.properties.cha +
                         "%</span><p/></div>"
-                );
+                )
+                .transition()
+                .duration(200);
         }
 
         map.on("viewreset", update);
@@ -100,4 +98,3 @@ $(function() {
         }
     }
 });
-

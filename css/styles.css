@@ -1134,6 +1134,21 @@ path.q2-3 {
     display: none;
 }
 
+.distritos {
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+
+    fill: rgba(255, 255, 255, 0.1);
+    stroke: #81165a;
+    stroke-opacity: 0.1;
+}
+
+.distritos:hover {
+  stroke-width: 1;
+  fill: #c22361;
+  fill-opacity: 0.5;
+}
+
 #map {
     position: relative;
 
