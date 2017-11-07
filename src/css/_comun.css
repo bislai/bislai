@@ -340,8 +340,10 @@ http://www.tipue.com/search
 #tipue_search_input {
     color: #333;
     border: 0;
-    border: 1px solid #1b305f;
-    border-radius: 0;
+    border: 2px solid #1b305f;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     padding: 16px;
     outline: 0;
     margin: 0;
@@ -495,7 +497,10 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-right: 1px solid #1b305f;
+    border-right: 2px solid #1b305f;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     cursor: pointer;
     background-color: #1b305f;
     path {
@@ -565,8 +570,8 @@ http://www.tipue.com/search
     background-color: #212843;
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 45%));
-    grid-gap: 40px;
-    grid-row-gap: 10px;
+    grid-gap: 48px;
+    grid-row-gap: 16px;
     padding: 4rem 2rem;
 }
 

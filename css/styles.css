@@ -662,8 +662,10 @@ http://www.tipue.com/search
 
     color: #333;
     border: 0;
-    border: 1px solid #1b305f;
-    border-radius: 0;
+    border: 2px solid #1b305f;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     outline: 0;
     background-color: #f1f1f1;
 }
@@ -833,7 +835,10 @@ http://www.tipue.com/search
     cursor: pointer;
 
     border: 0;
-    border-right: 1px solid #1b305f;
+    border-right: 2px solid #1b305f;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     background-color: #1b305f;
 }
 
@@ -920,8 +925,8 @@ http://www.tipue.com/search
     background-color: #212843;
 
     grid-template-columns: repeat(2, minmax(200px, 45%));
-    grid-gap: 40px;
-    grid-row-gap: 10px;
+    grid-gap: 48px;
+    grid-row-gap: 16px;
 }
 
 .grid-text {
