@@ -1,3 +1,22 @@
+$(document).ready(function() {
+    //Obtenemos la posición donde se ubica el mapa. Le sumamos la posición del scroll.
+    var positionMap = document
+        .getElementById("map-wrap")
+        .getBoundingClientRect();
+    var scroll = $(window).scrollTop();
+    var positionMapTop = 100;
+    var header = $("header");
+    console.log(scroll);
+
+    $(window).scroll(function() {
+        if (scroll > positionMapTop) {
+            $(header).addClass("display-n");
+        } else {
+            $(header).removeClass("display-n");
+        }
+    });
+});
+
 $(function() {
     d3.json("mapas/distrito-electoral-zaragoza.geojson", function(err, data) {
         mapDraw(data);
@@ -9,8 +28,8 @@ $(function() {
         var map = new mapboxgl.Map({
             container: "map", // container id
             style: "mapbox://styles/jorgeatgu/cj832ibiua5bs2rnpv6sdaihb", //hosted style id
-            center: [-0.877992, 41.650698], // starting position
-            zoom: 11.5 // starting zoom
+            center: [-0.89668, 41.657112], // starting position
+            zoom: 11 // starting zoom
         });
 
         map.addControl(new mapboxgl.Navigation());
@@ -78,17 +97,19 @@ $(function() {
                 .duration(200);
         }
 
-        map.on("viewreset", update);
-        map.on("movestart", function() {
-            svg.classed("hidden", true);
-        });
-        map.on("rotate", function() {
-            svg.classed("hidden", true);
-        });
-        map.on("moveend", function() {
-            update();
-            svg.classed("hidden", false);
-        });
+        // map.on("viewreset", update);
+        // map.on("movestart", function() {
+        //     svg.classed("hidden", true);
+        // });
+        // map.on("rotate", function() {
+        //     svg.classed("hidden", true);
+        // });
+        // map.on("moveend", function() {
+        //     update();
+        //     svg.classed("hidden", false);
+        // });
+
+        map.scrollZoom.disable();
 
         update();
 
