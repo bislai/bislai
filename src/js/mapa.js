@@ -6,7 +6,7 @@ $(document).ready(function() {
     var scroll = $(window).scrollTop();
     var positionMapTop = 100;
     var header = $("header");
-    console.log(scroll);
+    console.log(positionMapTop);
 
     $(window).scroll(function() {
         if (scroll > positionMapTop) {

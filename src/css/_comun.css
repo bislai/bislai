@@ -345,7 +345,7 @@ http://www.tipue.com/search
     padding: 16px;
     outline: 0;
     margin: 0;
-    height: 64px;
+    height: 48px;
     background-color: #f1f1f1;
     font-family: var(--fontSystem);
 }
@@ -493,7 +493,7 @@ http://www.tipue.com/search
 
 .btn-search {
     width: 50px;
-    height: 64px;
+    height: 48px;
     border: 0;
     border-right: 1px solid #1b305f;
     cursor: pointer;
