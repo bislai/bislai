@@ -82,8 +82,12 @@
     color: var(--white);
 }
 
-.color-tabs {
-    color: var(--hoverTabs);
+.bislai-color {
+    color: var(--bislai);
+}
+
+.bgc-bislai {
+    background-color: var(--bislai);
 }
 
 .azul-pp {

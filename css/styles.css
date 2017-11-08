@@ -896,7 +896,7 @@ http://www.tipue.com/search
     color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #212843;
+    background-color: #021e5c;
 }
 
 #tab1:checked ~ .contenido1,
@@ -907,7 +907,7 @@ http://www.tipue.com/search
 
     padding: 4rem 2rem;
 
-    background-color: #212843;
+    background-color: #021e5c;
 
     grid-template-columns: repeat(2, minmax(200px, 45%));
     grid-gap: 48px;
@@ -1477,8 +1477,12 @@ path.q2-3 {
     color: #fff;
 }
 
-.color-tabs {
-    color: #212843;
+.bislai-color {
+    color: #021e5c;
+}
+
+.bgc-bislai {
+    background-color: #021e5c;
 }
 
 .azul-pp {

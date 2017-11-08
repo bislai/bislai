@@ -546,14 +546,14 @@ http://www.tipue.com/search
     color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #212843;
+    background-color: var(--bislai);
 }
 
 #tab1:checked ~ .contenido1,
 #tab2:checked ~ .contenido2,
 #tab3:checked ~ .contenido3 {
     display: block;
-    background-color: #212843;
+    background-color: var(--bislai);
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 45%));
     grid-gap: 48px;
@@ -789,7 +789,7 @@ path.q2-3 {
 }
 
 .bislai-grid-text {
-    background-color: #021e5c;
+    background-color: var(--bislai);
     padding: 30px;
     width: 40vw;
     color: #f9dfe7;
