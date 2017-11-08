@@ -13,14 +13,13 @@
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body class="mih-100">
-    <header class="font-0 border-b1 borderc-greyc w-100 pos-f tp-0 zi-10 bgc-header-home">
-        <nav class="padding-0-1 nav-grid">
-            <a href="http://bislai.co" class="textd-n black font-1 font-2--m margin-y0  bold display-ib vertical-am font-w2 letter-0-25 font-s nav-grid-first">
+    <header class="font-0 border-b1 borderc-greyc w-100 zi-10 bgc-header-home">
+        <nav class="padding-0__5-1 nav-grid">
+            <a href="http://bislai.co" class="textd-n pink font-1 font-2--m margin-y0 bold display-ib vertical-am font-w2 letter-0-25 font-s nav-grid-first">
             BISLAI
             </a>
             <div class="w-100--m maw-70p--l padding-0__5-0">
@@ -29,30 +28,27 @@
                         <input placeholder="Busca en cualquier pleno" class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
                         <button class="btn-search" type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#010101" />
+                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#2f17a9" />
                             </svg>
                         </button>
                     </form>
                 </div>
             </div>
             <div class="nav-grid-second display-n display-ib--m">
-                <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline black vertical-am display-ib font-s font-w6 letter-0-12--m" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
+                <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline pink vertical-am display-ib font-s font-w6 letter-0-12--m" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
             </div>
         </nav>
     </header>
     <div class="bislai-grid padding-1 padding-1-0--l">
-        <div class="column orange">
-          <img src="img/urnas.jpg" alt="">
-        </div>
-        <div class="bislai-grid-text">
-            <h2 class="font-s pos-r"> ACCESIBILIDAD POLÍTICA</h2>
-            <p class="font-1">Bislai es la <strong>respuesta</strong> a lo que encontre en la página de plenos del <strong>Ayuntamiento de Zaragoza</strong>. Allí la <strong>información se presentaba en bruto, sin distinción alguna</strong>. El fin de Bislai es mostrar los plenos de una manera más <strong>accesible y visual</strong>.
-            </p>
-            </p>
+        <div class="bislai-grid-text font-s">
+            <h2 class="pos-r"> ACCESIBILIDAD POLÍTICA</h2>
+            <p class="font-1">El cometido de <strong>Bislai</strong> es mostrar de una manera más <strong>accesible</strong> las propuestas y acuerdos que toman los partidos políticos en el <strong>Ayuntamiento de Zaragoza</strong>.</p>
+            <p class="font-1">Puedes <strong>buscar cualquier término</strong> en las mociones que han presentado los distintos partidos en el pleno del Ayuntamiento de Zaragoza.</p>
             <p class="font-1">Todos los datos han sido obtenidos de la <a href="https://www.zaragoza.es/ciudad/organizacion/plenos/activ_plenarias.htm">web del Ayuntamiento de Zaragoza.</a></p>
         </div>
+        <svg class="bislai-icon" xmlns="http://www.w3.org/2000/svg" width="118" height="214" viewBox="0 0 118 214"><path d="M57.5 96l-.5 3.7c0 .4.4.7.7.5l3.3-1.7 3.3 1.7c.1.1.4 0 .5 0 .1-.1.3-.3.1-.4l-.7-3.5 2.6-2.6c.1-.1.1-.3.1-.5 0-.1-.1-.3-.4-.3l-3.7-.5-1.6-3.3c0-.1-.1-.1-.1-.1-.1 0-.1-.1-.3-.1-.1 0-.4.1-.4.3L59 92.4l-3.7.5c-.1 0-.3.1-.4.3 0 .1 0 .4.1.5l2.5 2.3z"/><path d="M89.7 64h-7.8c-.5-8-5.7-13.7-13.7-15.8 3.7-2.2 6.1-6.1 6.1-10.7v-1.6c0-1.7-.4-3.3-.9-4.7 1.8-1.2 3-3.7 3.1-6.9 0-1.8-.1-4-1.4-4.6-.7-.3-1.3 0-1.7.5-.8.9-3.4.3-6-.3-3-.7-6.4-1.4-9.5-.8-7.2 1.6-8.3 7.3-8 10 0 .1 0 .1.1.1-1.2 2-1.8 4.2-1.8 6.5v1.6c0 4.6 2.5 8.5 6.1 10.7-8.1 2.3-13.3 8-13.7 16h-7.8c-.8 0-1.3.5-1.3 1.3v6.4c0 .8.5 1.3 1.3 1.3H37v48.2c0 .8.5 1.3 1.3 1.3h45.9c.8 0 1.3-.5 1.3-1.3V73h4.3c.8 0 1.3-.5 1.3-1.3v-6.4c-.1-.8-.6-1.3-1.4-1.3zM58.4 21.7c2.6-.5 5.6.1 8.3.8s5.3 1.2 7.2.5c.1 1.2 0 3-.7 4.4-.3.7-.7 1.2-1 1.6-2.2-3.3-6-5.3-10.2-5.3h-1.6c-2.9 0-5.6 1-7.7 2.7.5-1.8 1.9-3.9 5.7-4.7zm2.1 25.6c-5.3 0-9.8-4.4-9.8-9.8v-1.6c0-5.3 4.4-9.8 9.8-9.8h1.6c5.3 0 9.8 4.4 9.8 9.8v1.6c0 5.3-4.4 9.8-9.8 9.8h-1.6zm.8 2.6c8.7 0 17.5 4.4 18.1 14.1H62.6v-3.4c.7-.4 1.2-1.2 1.2-2.1v-3.3c0-1.3-1-2.5-2.5-2.5s-2.5 1-2.5 2.5v3.3c0 .9.5 1.6 1.2 2.1V64H43.2c.6-9.8 9.4-14.1 18.1-14.1zM82.9 120H39.7V73.1H83V120zm5.5-49.6H34.1v-3.8h54.4v3.8zM97.7 138.1H71.1c-.3 0-.5.2-.5.5v17.6c0 .3.2.5.5.5h3v4.5c0 .2.1.4.3.5h.2c.1 0 .2 0 .3-.1l6.1-4.9h16.6c.3 0 .5-.2.5-.5v-17.6c.1-.3-.1-.5-.4-.5zm-.5 17.6H80.9c-.1 0-.2 0-.3.1l-5.4 4.4v-4c0-.3-.2-.5-.5-.5h-3v-16.6h25.6v16.6zM74.2 177.1c3.7 0 6.8-3 6.8-6.8s-3-6.8-6.8-6.8c-3.7 0-6.8 3-6.8 6.8s3.1 6.8 6.8 6.8zm0-12.5c3.2 0 5.8 2.6 5.8 5.8s-2.6 5.8-5.8 5.8c-3.2 0-5.8-2.6-5.8-5.8 0-3.2 2.6-5.8 5.8-5.8zM80.5 187.8h1v6.6h-1zM66.9 187.8h1v6.6h-1z"/><path d="M80.8 178.9c-4.3-1-8.8-1-13.2 0-4.2 1-6.4 3.9-6.2 8.1l.3 7.4h1l-.3-7.4c-.2-4.8 2.8-6.5 5.4-7.1 4.2-1 8.5-1 12.7 0 2.6.6 5.6 2.3 5.4 7.1l-.3 7.4h1l.4-7.4c.2-4.2-2-7.1-6.2-8.1zM40.4 161.6c.1.1.2.1.3.1h.2c.2-.1.3-.3.3-.5v-4.5h3c.3 0 .5-.2.5-.5v-17.6c0-.3-.2-.5-.5-.5H17.7c-.3 0-.5.2-.5.5v17.6c0 .3.2.5.5.5h16.6l6.1 4.9zm-22.2-22.5h25.6v16.6h-3c-.3 0-.5.2-.5.5v4l-5.4-4.4c-.1-.1-.2-.1-.3-.1H18.2v-16.6zM34.4 170.4c0 3.7 3 6.8 6.8 6.8 3.7 0 6.8-3 6.8-6.8s-3-6.8-6.8-6.8-6.8 3-6.8 6.8zm12.5 0c0 3.2-2.6 5.8-5.8 5.8s-5.8-2.6-5.8-5.8 2.6-5.8 5.8-5.8c3.2 0 5.8 2.6 5.8 5.8zM33.8 187.8h1v6.6h-1zM47.4 187.8h1v6.6h-1z"/><path d="M47.7 178.9c-4.3-1-8.8-1-13.2 0-4.2 1-6.4 3.9-6.2 8.1l.3 7.4h1l-.3-7.4c-.2-4.8 2.8-6.5 5.4-7.1 4.2-1 8.5-1 12.7 0 2.6.6 5.6 2.3 5.4 7.1l-.3 7.4h1l.3-7.4c.3-4.2-1.9-7.1-6.1-8.1zM51.7 142.6l4.1 4.1c.1.1.3.1.4 0l4.1-4.1 4.1 4.1c.1.1.1.1.2.1s.2 0 .2-.1l4.3-4.3-.4-.4-4.1 4.1-4.1-4.1c-.1-.1-.3-.1-.4 0l-4.1 4.1-4.1-4.1c-.1-.1-.3-.1-.4 0l-4.3 4.3.4.4 4.1-4.1zM56 152.8l-4.1-4.1c-.1-.1-.3-.1-.4 0l-4.3 4.3.4.4 4.1-4.1 4.1 4.1c.1.1.1.1.2.1s.2 0 .2-.1l4.3-4.3-.4-.4-4.1 4.1z"/></svg>
     </div>
-    <section class="border-t1 padding-1 border-b1 grey borderc-grey padding-3-0--l mih-100">
+    <section class="border-t1 padding-1 border-b1 grey borderc-grey padding-4-0--l mih-100">
         <h2 class="margin-b0 maw-60 font-2 margin-b2 font-s">CALENDARIO DE PLENOS</h2>
         <article class="maw-60">
             <input class="input-record" id="tab1" type="radio" name="tabs" checked>
@@ -95,7 +91,7 @@
             </div>
         </div>
     </section>
-    <footer class="padding-1 padding-1-0--l borderc-grey border-t1 bgc-white woodsmoke font-w6">
+    <footer class="padding-1 padding-1-0--l borderc-grey border-t1 bgc-white woodsmoke font-w6 font-s">
         <p class="maw-60 padding-1-0 luckyPoint">© Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - MMXVII</p>
         <p class="maw-60 padding-1-0 margin-t0">hola@bislai.co</p>
         <div class="maw-60">
@@ -104,7 +100,7 @@
             <a href="http://github.com/jorgeatgu/bislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">GitHub</a>
         </div>
     </footer>
-
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.0/mapbox-gl.js'></script>
     <script type="text/javascript" src="js/mapa.js"></script>
     <script>
     $(document).ready(function() {
