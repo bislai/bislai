@@ -1,22 +1,3 @@
-$(document).ready(function() {
-    //Obtenemos la posición donde se ubica el mapa. Le sumamos la posición del scroll.
-    var positionMap = document
-        .getElementById("map-wrap")
-        .getBoundingClientRect();
-    var scroll = $(window).scrollTop();
-    var positionMapTop = 100;
-    var header = $("header");
-    console.log(positionMapTop);
-
-    $(window).scroll(function() {
-        if (scroll > positionMapTop) {
-            $(header).addClass("display-n");
-        } else {
-            $(header).removeClass("display-n");
-        }
-    });
-});
-
 $(function() {
     d3.json("mapas/distrito-electoral-zaragoza.geojson", function(err, data) {
         mapDraw(data);
