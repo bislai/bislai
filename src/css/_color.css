@@ -10,8 +10,8 @@
     background-color: var(--bgcHeader);
 }
 
-.color-header {
-    color: var(--colorHeader);
+.pink {
+    color: var(--pink);
 }
 
 .bgc-tabs {

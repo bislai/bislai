@@ -336,9 +336,8 @@ http://www.tipue.com/search
 #tipue_search_input {
     color: #333;
     border: 0;
-    border: 2px solid #1b305f;
     padding: 16px;
-    outline: 0;
+    outline-color: var(--chunta);
     margin: 0;
     height: 48px;
     background-color: #f1f1f1;
@@ -490,20 +489,14 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-right: 2px solid #1b305f;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
+    border-left: 1px solid #1b305f;
     cursor: pointer;
-    background-color: #1b305f;
     path {
-        fill: #fff;
+        fill: #1b305f;
     }
     &:hover {
-        background-color: var(--searchHover);
-        path {
-            fill: var(--chunta);
-        }
+        background-color: var(--chunta);
     }
 }
 
@@ -664,10 +657,10 @@ path.q2-3 {
 .tooltip {
     font-weight: bold;
     position: absolute;
-    top: 0;
+    top: 10vh;
     right: 0;
     min-width: 380px;
-    height: 100vh;
+    height: 70vh;
     color: #111;
     background-color: #fff;
     border-top: 10px solid #81165a;

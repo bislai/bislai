@@ -658,8 +658,7 @@ http://www.tipue.com/search
 
     color: #333;
     border: 0;
-    border: 2px solid #1b305f;
-    outline: 0;
+    outline-color: #efb027;
     background-color: #f1f1f1;
 }
 
@@ -828,23 +827,16 @@ http://www.tipue.com/search
     cursor: pointer;
 
     border: 0;
-    border-right: 2px solid #1b305f;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #1b305f;
+    border-left: 1px solid #1b305f;
+    border-radius: 0;
 }
 
 .btn-search path {
-  fill: #fff;
+  fill: #1b305f;
 }
 
 .btn-search:hover {
-  background-color: hsl(201, 106%, 24%);
-}
-
-.btn-search:hover path {
-  fill: #efb027;
+  background-color: #efb027;
 }
 
 .tabla-calendario {
@@ -1029,11 +1021,11 @@ path.q2-3 {
     font-weight: bold;
 
     position: absolute;
-    top: 0;
+    top: 10vh;
     right: 0;
 
     min-width: 380px;
-    height: 100vh;
+    height: 70vh;
 
     color: #111;
     border-top: 10px solid #81165a;
@@ -1411,8 +1403,8 @@ path.q2-3 {
     background-color: #021e5c;
 }
 
-.color-header {
-    color: #fff;
+.pink {
+    color: #f9dfe7;
 }
 
 .bgc-tabs {
