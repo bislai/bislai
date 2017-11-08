@@ -74,10 +74,6 @@ body {
     }
 }
 
-.txt-color {
-    color: var(--heath);
-}
-
 .whs-nw {
     white-space: nowrap;
 }
@@ -787,8 +783,16 @@ path.q2-3 {
 .bislai-grid {
     position: relative;
     width: 100%;
+    display: grid;
     min-height: calc(100vh - 81px);
-    margin-top: 81px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.bislai-icon {
+    width: 200px;
 }
 
 .bislai-grid-text {
@@ -796,10 +800,7 @@ path.q2-3 {
     padding: 30px;
     width: 40vw;
     color: #f9dfe7;
-    position: absolute;
     border-radius: 10px;
-    top: 15%;
-    left: 5%;
     a {
         color: #eb7abb;
         font-weight: bold;
