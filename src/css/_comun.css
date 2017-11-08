@@ -341,9 +341,6 @@ http://www.tipue.com/search
     color: #333;
     border: 0;
     border: 2px solid #1b305f;
-    border-radius: 10px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     padding: 16px;
     outline: 0;
     margin: 0;
@@ -617,8 +614,6 @@ http://www.tipue.com/search
 
 /* stylelint-enable */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
-
 .background {
     fill: #eee;
     pointer-events: all;
@@ -792,42 +787,21 @@ path.q2-3 {
 .bislai-grid {
     position: relative;
     width: 100%;
+    min-height: calc(100vh - 81px);
+    margin-top: 81px;
 }
 
 .bislai-grid-text {
-    position: absolute;
-    top: 20%;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #021e5c;
     padding: 30px;
     width: 40vw;
-}
-
-img {
-    width: 100%;
-}
-
-.orange {
-    background-color: #f65e35;
-}
-
-.orange img {
-    mix-blend-mode: multiply;
-    -webkit-filter: grayscale(100%) contrast(1.2);
-    filter: grayscale(100%) contrast(1.2);
-}
-
-.orange:after {
-    background-color: #1e3265;
-    mix-blend-mode: lighten;
-}
-
-.column:after {
-    content: "";
+    color: #f9dfe7;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transition: all ease-in-out 0.5s;
+    border-radius: 10px;
+    top: 15%;
+    left: 5%;
+    a {
+        color: #eb7abb;
+        font-weight: bold;
+    }
 }
