@@ -1168,17 +1168,37 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 12rem;
+    width: 8rem;
+}
+
+.bislai-grid-title {
+    font-size: 2rem;
+
+    position: absolute;
+    top: -80px;
+
+    letter-spacing: 0.09rem;
+}
+
+.bislai-grid-paragraph {
+    max-width: 25rem;
 }
 
 .bislai-grid-text {
-    width: 30rem;
-    padding: 2rem;
+    position: relative;
+
+    width: 45rem;
+    padding: 1rem 5rem;
 
     color: #021e5c;
     border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     background-color: #28cdc4;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
+
+    justify-self: start;
 }
 
 .bislai-grid-text a {

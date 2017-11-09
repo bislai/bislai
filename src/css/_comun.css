@@ -785,16 +785,32 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 12rem;
+    width: 8rem;
+}
+
+.bislai-grid-title {
+    position: absolute;
+    top: -80px;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+}
+
+.bislai-grid-paragraph {
+    max-width: 25rem;
 }
 
 .bislai-grid-text {
+    position: relative;
     background-color: var(--bgcCard);
-    padding: 32px;
-    width: 30rem;
+    padding: 16px 80px;
+    justify-self: start;
+    width: 45rem;
     color: var(--bislai);
     border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
     a {
         font-weight: bold;
     }
