@@ -1022,9 +1022,9 @@ path.q2-3 {
 
     position: absolute;
     top: 10vh;
-    right: 0;
+    right: 2rem;
 
-    min-width: 380px;
+    min-width: 24rem;
     height: 70vh;
 
     color: #111;
@@ -1168,12 +1168,12 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 200px;
+    width: 12rem;
 }
 
 .bislai-grid-text {
-    width: 40vw;
-    padding: 1.88rem;
+    width: 30rem;
+    padding: 2rem;
 
     color: #021e5c;
     border-radius: 10px;

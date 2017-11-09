@@ -658,8 +658,8 @@ path.q2-3 {
     font-weight: bold;
     position: absolute;
     top: 10vh;
-    right: 0;
-    min-width: 380px;
+    right: 2rem;
+    min-width: 24rem;
     height: 70vh;
     color: #111;
     background-color: #fff;
@@ -785,13 +785,13 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 200px;
+    width: 12rem;
 }
 
 .bislai-grid-text {
     background-color: var(--bgcCard);
-    padding: 30px;
-    width: 40vw;
+    padding: 32px;
+    width: 30rem;
     color: var(--bislai);
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
