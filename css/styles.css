@@ -1175,14 +1175,14 @@ path.q2-3 {
     width: 40vw;
     padding: 1.88rem;
 
-    color: #f9dfe7;
+    color: #021e5c;
     border-radius: 10px;
-    background-color: #021e5c;
+    background-color: #28cdc4;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .bislai-grid-text a {
   font-weight: bold;
-  color: #eb7abb;
 }
 
 .maw-70 {

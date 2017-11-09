@@ -789,13 +789,13 @@ path.q2-3 {
 }
 
 .bislai-grid-text {
-    background-color: var(--bislai);
+    background-color: var(--bgcCard);
     padding: 30px;
     width: 40vw;
-    color: #f9dfe7;
+    color: var(--bislai);
     border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
     a {
-        color: #eb7abb;
         font-weight: bold;
     }
 }
