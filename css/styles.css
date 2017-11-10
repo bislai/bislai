@@ -1165,6 +1165,7 @@ path.q2-3 {
     background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
     background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
     background: linear-gradient(top, #f5f7fa, #c3cfe2);
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
