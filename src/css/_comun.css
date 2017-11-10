@@ -782,29 +782,28 @@ path.q2-3 {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+
+    background: #f5f7fa;
+    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: linear-gradient(top, #f5f7fa, #c3cfe2);
 }
 
 .bislai-icon {
-    width: 8rem;
+    width: 10rem;
 }
 
 .bislai-grid-title {
     position: absolute;
-    top: -80px;
-    font-size: 2rem;
-    letter-spacing: 1.5px;
-}
-
-.bislai-grid-paragraph {
-    max-width: 25rem;
+    top: -60px;
+    font-size: 1.5rem;
 }
 
 .bislai-grid-text {
     position: relative;
     background-color: var(--bgcCard);
     padding: 16px 80px;
-    justify-self: start;
-    width: 45rem;
+    width: 31rem;
     color: var(--bislai);
     border-radius: 10px;
     border-top-left-radius: 0;

@@ -1161,6 +1161,11 @@ path.q2-3 {
     width: 100%;
     min-height: calc(100vh - 81px);
 
+    background: #f5f7fa;
+    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: linear-gradient(top, #f5f7fa, #c3cfe2);
+
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     justify-items: center;
@@ -1168,26 +1173,20 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 8rem;
+    width: 10rem;
 }
 
 .bislai-grid-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     position: absolute;
-    top: -80px;
-
-    letter-spacing: 0.09rem;
-}
-
-.bislai-grid-paragraph {
-    max-width: 25rem;
+    top: -60px;
 }
 
 .bislai-grid-text {
     position: relative;
 
-    width: 45rem;
+    width: 31rem;
     padding: 1rem 5rem;
 
     color: #021e5c;
@@ -1197,8 +1196,6 @@ path.q2-3 {
     background-color: #28cdc4;
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
         0 5px 15px rgba(0, 0, 0, 0.07);
-
-    justify-self: start;
 }
 
 .bislai-grid-text a {
