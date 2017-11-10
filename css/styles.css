@@ -896,7 +896,7 @@ http://www.tipue.com/search
     color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #212843;
+    background-color: #021e5c;
 }
 
 #tab1:checked ~ .contenido1,
@@ -907,7 +907,7 @@ http://www.tipue.com/search
 
     padding: 4rem 2rem;
 
-    background-color: #212843;
+    background-color: #021e5c;
 
     grid-template-columns: repeat(2, minmax(200px, 45%));
     grid-gap: 48px;
@@ -1022,9 +1022,9 @@ path.q2-3 {
 
     position: absolute;
     top: 10vh;
-    right: 0;
+    right: 2rem;
 
-    min-width: 380px;
+    min-width: 24rem;
     height: 70vh;
 
     color: #111;
@@ -1161,6 +1161,12 @@ path.q2-3 {
     width: 100%;
     min-height: calc(100vh - 81px);
 
+    background: #f5f7fa;
+    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: linear-gradient(top, #f5f7fa, #c3cfe2);
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     justify-items: center;
@@ -1168,21 +1174,38 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: 200px;
+    width: 10rem;
+}
+
+.bislai-grid-title {
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: -60px;
 }
 
 .bislai-grid-text {
-    width: 40vw;
-    padding: 1.88rem;
+    position: relative;
 
-    color: #f9dfe7;
+    width: 31rem;
+    padding: 1rem 5rem;
+
+    color: #021e5c;
     border-radius: 10px;
-    background-color: #021e5c;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #28cdc4;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
 }
 
 .bislai-grid-text a {
   font-weight: bold;
-  color: #eb7abb;
+}
+
+.footer {
+    background-image: url("../img/pattern.svg");
+    background-repeat: repeat;
 }
 
 .maw-70 {
@@ -1477,8 +1500,12 @@ path.q2-3 {
     color: #fff;
 }
 
-.color-tabs {
-    color: #212843;
+.bislai-color {
+    color: #021e5c;
+}
+
+.bgc-bislai {
+    background-color: #021e5c;
 }
 
 .azul-pp {

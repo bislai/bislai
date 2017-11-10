@@ -546,14 +546,14 @@ http://www.tipue.com/search
     color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
-    background-color: #212843;
+    background-color: var(--bislai);
 }
 
 #tab1:checked ~ .contenido1,
 #tab2:checked ~ .contenido2,
 #tab3:checked ~ .contenido3 {
     display: block;
-    background-color: #212843;
+    background-color: var(--bislai);
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 45%));
     grid-gap: 48px;
@@ -658,8 +658,8 @@ path.q2-3 {
     font-weight: bold;
     position: absolute;
     top: 10vh;
-    right: 0;
-    min-width: 380px;
+    right: 2rem;
+    min-width: 24rem;
     height: 70vh;
     color: #111;
     background-color: #fff;
@@ -782,20 +782,42 @@ path.q2-3 {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+
+    background: #f5f7fa;
+    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
+    background: linear-gradient(top, #f5f7fa, #c3cfe2);
+
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 .bislai-icon {
-    width: 200px;
+    width: 10rem;
+}
+
+.bislai-grid-title {
+    position: absolute;
+    top: -60px;
+    font-size: 1.5rem;
 }
 
 .bislai-grid-text {
-    background-color: #021e5c;
-    padding: 30px;
-    width: 40vw;
-    color: #f9dfe7;
+    position: relative;
+    background-color: var(--bgcCard);
+    padding: 16px 80px;
+    width: 31rem;
+    color: var(--bislai);
     border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
     a {
-        color: #eb7abb;
         font-weight: bold;
     }
+}
+
+.footer {
+    background-image: url("../img/pattern.svg");
+    background-repeat: repeat;
 }
