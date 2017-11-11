@@ -26,7 +26,7 @@ body {
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
@@ -58,7 +58,7 @@ body {
     &:hover {
         color: var(--black);
         border-color: var(--colorlink);
-        transition: all 0.3s ease-in;
+        transition: all .3s ease-in;
     }
 }
 
@@ -522,46 +522,9 @@ http://www.tipue.com/search
     text-align: center;
 }
 
-.tabla-grid {
-    display: inline-grid;
-    grid-template-columns: repeat(2, minmax(200px, 20%));
-    border: 1px solid #000;
-    width: 90%;
-    background-color: #fff;
-}
-
-.input-record {
-    display: none;
-}
-
 .container-plenos {
     max-width: 65vw;
     margin: 0 auto;
-}
-
-.label-record {
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-weight: 200;
-    text-align: center;
-    color: #dce0db;
-    border: 1px solid var(--impureGrey);
-    background-color: #fff;
-    &:hover {
-        color: var(--impureBlack);
-        cursor: pointer;
-    }
-}
-
-.label-responsive {
-    display: none;
-}
-
-.input-record:checked + .label-record {
-    color: #dce0db;
-    border: 1px solid var(--impureGrey);
-    border-top: 5px solid var(--gradient2);
-    background-color: var(--bislai);
 }
 
 #tab1:checked ~ .contenido1,
@@ -582,20 +545,6 @@ http://www.tipue.com/search
     &:not(:last-child) {
         border-bottom: 1px solid #ccc;
     }
-}
-
-.grid-title {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    margin: 0;
-}
-
-.grid-title-min {
-    background-color: var(--btnMinBgc);
-}
-
-.grid-title-max {
-    background-color: var(--gradient2);
 }
 
 .tabla-record-header {
@@ -680,7 +629,7 @@ path.q2-3 {
     background-color: #fff;
     border-top: 10px solid #81165a;
     border-bottom: 10px solid #81165a;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -707,6 +656,13 @@ path.q2-3 {
     + p {
         display: none;
     }
+    span {
+        color: #111;
+        padding: 8px;
+    }
+    .resultado {
+        padding-right: 0;
+    }
 }
 
 .tooltipLeyenda,
@@ -722,16 +678,6 @@ path.q2-3 {
         color: #111;
         min-width: 45%;
         text-align: right;
-    }
-}
-
-.tooltipPartido {
-    span {
-        color: #111;
-        padding: 8px;
-    }
-    .resultado {
-        padding-right: 0;
     }
 }
 
@@ -764,15 +710,15 @@ path.q2-3 {
 }
 
 .distritos {
-    fill: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, .1);
     stroke: #81165a;
-    stroke-opacity: 0.1;
+    stroke-opacity: .1;
     cursor: pointer;
-    transition: all ease-in 0.3s;
+    transition: all ease-in .3s;
     &:hover {
         stroke-width: 1;
         fill: #c22361;
-        fill-opacity: 0.5;
+        fill-opacity: .5;
     }
 }
 
@@ -780,7 +726,7 @@ path.q2-3 {
     width: 100%;
     height: 100vh;
     position: relative;
-    margin: auto auto;
+    margin: auto;
     svg {
         position: absolute;
         width: 100%;
@@ -821,7 +767,7 @@ path.q2-3 {
     top: 0;
     left: 0;
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
-    opacity: 0.5;
+    opacity: .5;
     width: 36rem;
     height: 100%;
 }
@@ -838,6 +784,7 @@ path.q2-3 {
     font-size: 3rem;
     color: var(--white);
     display: inline-block;
+    padding-right: 1rem;
 }
 
 .bislai-home-body-left-container {
@@ -845,8 +792,7 @@ path.q2-3 {
     display: inline-block;
     padding: 1rem;
     padding-right: 4rem;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
 }
 
 .bislai-home-body-left-container-text {
@@ -870,5 +816,5 @@ path.q2-3 {
     font-size: 1rem;
     padding-left: 1rem;
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }

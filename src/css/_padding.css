@@ -29,11 +29,11 @@
 }
 
 .padding-0__5-1 {
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
 }
 
 .padding-0__5-0 {
-    padding: 0.5rem 0;
+    padding: .5rem 0;
 }
 
 .padding-b1 {
@@ -73,7 +73,7 @@
 }
 
 .padding-0-5 {
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 .padding-2 {
@@ -168,7 +168,7 @@
     }
 
     .padding-0-5--s {
-        padding: 0.5rem;
+        padding: .5rem;
     }
 
     .padding-2--s {
@@ -264,7 +264,7 @@
     }
 
     .padding-0-5--m {
-        padding: 0.5rem;
+        padding: .5rem;
     }
 
     .padding-2--m {
@@ -368,7 +368,7 @@
     }
 
     .padding-0-5--l {
-        padding: 0.5rem;
+        padding: .5rem;
     }
 
     .padding-2--l {
@@ -381,10 +381,6 @@
 
     .padding-l-n--l {
         padding-left: 0;
-    }
-
-    .padding-l1--l {
-        padding-left: 1rem;
     }
 
     .padding-l2--l {

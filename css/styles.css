@@ -324,7 +324,7 @@ body {
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
@@ -363,7 +363,7 @@ body {
 }
 
 .link:hover {
-  transition: all 0.3s ease-in;
+  transition: all .3s ease-in;
   color: #121;
   border-color: #1624f7;
 }
@@ -865,54 +865,9 @@ http://www.tipue.com/search
     border: 1px solid var(--impureGrey);
 }
 
-.tabla-grid {
-    display: inline-grid;
-
-    width: 90%;
-
-    border: 1px solid #000;
-    background-color: #fff;
-
-    grid-template-columns: repeat(2, minmax(200px, 20%));
-}
-
-.input-record {
-    display: none;
-}
-
 .container-plenos {
     max-width: 65vw;
     margin: 0 auto;
-}
-
-.label-record {
-    font-weight: 200;
-
-    display: inline-block;
-
-    padding: 1rem 2rem;
-
-    text-align: center;
-
-    color: #dce0db;
-    border: 1px solid var(--impureGrey);
-    background-color: #fff;
-}
-
-.label-record:hover {
-  cursor: pointer;
-  color: var(--impureBlack);
-}
-
-.label-responsive {
-    display: none;
-}
-
-.input-record:checked + .label-record {
-    color: #dce0db;
-    border: 1px solid var(--impureGrey);
-    border-top: 5px solid var(--gradient2);
-    background-color: #021e5c;
 }
 
 #tab1:checked ~ .contenido1,
@@ -938,21 +893,6 @@ http://www.tipue.com/search
 
 .grid-text:not(:last-child) {
   border-bottom: 1px solid #ccc;
-}
-
-.grid-title {
-    margin: 0;
-    padding: 0.63rem;
-
-    border-bottom: 1px solid #ccc;
-}
-
-.grid-title-min {
-    background-color: var(--btnMinBgc);
-}
-
-.grid-title-max {
-    background-color: var(--gradient2);
 }
 
 .tabla-record-header {
@@ -1047,7 +987,7 @@ path.q2-3 {
     border-top: 10px solid #81165a;
     border-bottom: 10px solid #81165a;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -1084,6 +1024,15 @@ path.q2-3 {
   display: none;
 }
 
+.tooltipPartido span {
+  padding: 0.5rem;
+  color: #111;
+}
+
+.tooltipPartido .resultado {
+  padding-right: 0;
+}
+
 .tooltipLeyenda span, .tooltipPartido span {
   font-size: 0.88rem;
   display: inline-block;
@@ -1096,15 +1045,6 @@ path.q2-3 {
   padding-left: 16px;
   text-align: right;
   color: #111;
-}
-
-.tooltipPartido span {
-  padding: 0.5rem;
-  color: #111;
-}
-
-.tooltipPartido .resultado {
-  padding-right: 0;
 }
 
 .container-tooltip-leyenda {
@@ -1142,17 +1082,17 @@ path.q2-3 {
 
 .distritos {
     cursor: pointer;
-    transition: all ease-in 0.3s;
+    transition: all ease-in .3s;
 
-    fill: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, .1);
     stroke: #81165a;
-    stroke-opacity: 0.1;
+    stroke-opacity: .1;
 }
 
 .distritos:hover {
   stroke-width: 1;
   fill: #c22361;
-  fill-opacity: 0.5;
+  fill-opacity: .5;
 }
 
 #map {
@@ -1160,7 +1100,7 @@ path.q2-3 {
 
     width: 100%;
     height: 100vh;
-    margin: auto auto;
+    margin: auto;
 }
 
 #map svg {
@@ -1209,7 +1149,7 @@ path.q2-3 {
     width: 36rem;
     height: 100%;
 
-    opacity: 0.5;
+    opacity: .5;
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }
 
@@ -1228,6 +1168,8 @@ path.q2-3 {
 
     display: inline-block;
 
+    padding-right: 1rem;
+
     color: #fff;
 }
 
@@ -1238,8 +1180,7 @@ path.q2-3 {
     padding-right: 4rem;
 
     background-color: #fff;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
 }
 
 .bislai-home-body-left-container-text {
@@ -1268,7 +1209,7 @@ path.q2-3 {
     display: inline-block;
 
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
     padding-left: 1rem;
 }
 
@@ -1502,22 +1443,6 @@ path.q2-3 {
     color: #19160a;
 }
 
-.gondola {
-    color: var(--gondola);
-}
-
-.bgc-white-9 {
-    background-color: var(--white9);
-}
-
-.bgc-fluor {
-    background-color: var(--fluor);
-}
-
-.luckyPoint {
-    color: var(--luckyPoint);
-}
-
 .bgc-transparent {
     background-color: transparent;
 }
@@ -1527,7 +1452,7 @@ path.q2-3 {
 }
 
 .bgc-mint:hover {
-  transition: background-color 0.3s ease-in;
+  transition: background-color .3s ease-in;
   background-color: hsl(170, 56%, 47%);
 }
 
@@ -1540,7 +1465,7 @@ path.q2-3 {
 }
 
 .bgc-french-grey:hover {
-  transition: background-color 0.3s ease-in;
+  transition: background-color .3s ease-in;
   background-color: hsl(283, 5%, 68%);
 }
 
@@ -1550,10 +1475,6 @@ path.q2-3 {
 
 .grey {
     background-color: #efefef;
-}
-
-.resto {
-    background-color: var(--resto);
 }
 
 .bgc-white {
@@ -2153,11 +2074,11 @@ path.q2-3 {
 }
 
 .padding-0__5-1 {
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
 }
 
 .padding-0__5-0 {
-    padding: 0.5rem 0;
+    padding: .5rem 0;
 }
 
 .padding-b1 {
@@ -2197,7 +2118,7 @@ path.q2-3 {
 }
 
 .padding-0-5 {
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 .padding-2 {
@@ -2277,7 +2198,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--s {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--s {
         padding: 2rem;
@@ -2351,7 +2272,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--m {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--m {
         padding: 2rem;
@@ -2431,7 +2352,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--l {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--l {
         padding: 2rem;
@@ -2441,9 +2362,6 @@ path.q2-3 {
     }
     .padding-l-n--l {
         padding-left: 0;
-    }
-    .padding-l1--l {
-        padding-left: 1rem;
     }
     .padding-l2--l {
         padding-left: 2rem;
