@@ -522,9 +522,42 @@ http://www.tipue.com/search
     text-align: center;
 }
 
+.tabla-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(2, minmax(200px, 20%));
+    border: 1px solid #000;
+    width: 90%;
+    background-color: #fff;
+}
+
+.input-record {
+    display: none;
+}
+
 .container-plenos {
     max-width: 65vw;
     margin: 0 auto;
+}
+
+.label-record {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-weight: 200;
+    text-align: center;
+    color: #dce0db;
+    border: 1px solid var(--impureGrey);
+    background-color: #fff;
+    &:hover {
+        color: var(--impureBlack);
+        cursor: pointer;
+    }
+}
+
+.input-record:checked + .label-record {
+    color: #dce0db;
+    border: 1px solid var(--impureGrey);
+    border-top: 5px solid var(--gradient2);
+    background-color: var(--bislai);
 }
 
 #tab1:checked ~ .contenido1,
@@ -668,7 +701,6 @@ path.q2-3 {
 .tooltipLeyenda,
 .tooltipPartido {
     span {
-        color: #6f7780;
         font-size: 14px;
         min-width: 50%;
         display: inline-block;

@@ -865,9 +865,50 @@ http://www.tipue.com/search
     border: 1px solid var(--impureGrey);
 }
 
+.tabla-grid {
+    display: inline-grid;
+
+    width: 90%;
+
+    border: 1px solid #000;
+    background-color: #fff;
+
+    grid-template-columns: repeat(2, minmax(200px, 20%));
+}
+
+.input-record {
+    display: none;
+}
+
 .container-plenos {
     max-width: 65vw;
     margin: 0 auto;
+}
+
+.label-record {
+    font-weight: 200;
+
+    display: inline-block;
+
+    padding: 1rem 2rem;
+
+    text-align: center;
+
+    color: #dce0db;
+    border: 1px solid var(--impureGrey);
+    background-color: #fff;
+}
+
+.label-record:hover {
+  cursor: pointer;
+  color: var(--impureBlack);
+}
+
+.input-record:checked + .label-record {
+    color: #dce0db;
+    border: 1px solid var(--impureGrey);
+    border-top: 5px solid var(--gradient2);
+    background-color: #021e5c;
 }
 
 #tab1:checked ~ .contenido1,
@@ -1037,7 +1078,6 @@ path.q2-3 {
   font-size: 0.88rem;
   display: inline-block;
   min-width: 50%;
-  color: #6f7780;
 }
 
 .tooltipLeyenda .resultado, .tooltipPartido .resultado {
