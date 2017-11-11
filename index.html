@@ -14,39 +14,54 @@
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
 
 <body class="mih-100">
-    <header class="font-0 w-100 zi-10 bgc-header-home">
-        <nav class="padding-0__5-1 nav-grid">
-            <a href="http://bislai.co" class="textd-n pink font-1 font-2--m margin-y0 bold display-ib vertical-am font-w2 letter-0-25 font-s nav-grid-first">
+    <div class="bislai-home">
+        <header class="font-0 w-100 zi-10">
+            <nav class="padding-0__5-1 nav-grid">
+                <a href="http://bislai.co" class="textd-n bislai-color font-1 font-2--m margin-y0 bold display-ib vertical-am font-w2 font-bislai nav-grid-first">
             BISLAI
             </a>
-            <div class="w-100--m maw-70p--l padding-0__5-0">
-                <div class="pos-r">
-                    <form action="http://bislai.co/buscador">
-                        <input placeholder="Busca en cualquier pleno" class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
-                        <button class="btn-search" type="submit">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#2f17a9" />
-                            </svg>
-                        </button>
-                    </form>
+                <div class="w-100--m maw-70p--l padding-0__5-0">
+                    <div class="pos-r">
+                        <form action="http://bislai.co/buscador">
+                            <input placeholder="Busca en cualquier pleno" class="w-80 w-70--m padding-1 vertical-at" type="text" name="q" id="tipue_search_input">
+                            <button class="btn-search" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" fill="#2f17a9" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="nav-grid-second display-n display-ib--m">
+                    <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline bislai-color vertical-am display-ib font-bislai font-w6 letter-0-12--m" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
+                </div>
+            </nav>
+        </header>
+        <div class="bisla-home-body">
+            <div class="bislai-home-body-left">
+                <div class="bislai-home-body-left">
+                    <img src="img/urnas.jpg" class="bislai-home-body-img">
+                    <div class="bisla-home-body-left-gradient"></div>
+                </div>
+                <div class="bislai-home-body-left-text">
+                    <span class="bislai-home-body-left-text-white font-bislai">ACCESIBILIDAD</span>
+                    <div class="bislai-home-body-left-container">
+                        <svg width="43" height="75" viewBox="0 0 43 75" class="bislai-icon" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M42 32.7h-5.7c-.3-5.8-4-10-9.8-11.5 2.6-1.6 4.3-4.4 4.3-7.7v-1.2c0-1.2-.2-2.4-.6-3.4 1.3-1 2-2.8 2.2-5 0-1.4 0-3-1-3.4-.5-.2-1 0-1.2.4-.6.6-2.5.2-4.4-.2-2-.5-4.6-1-6.8-.6-5 1-6 5.3-5.7 7.2-.8 1.5-1.2 3-1.2 4.8v1c0 3.5 2 6.3 4.4 8-5.8 1.6-9.6 5.7-9.8 11.5H1c-.6 0-1 .3-1 1V38c0 .6.4 1 1 1h3v35c0 .4.3.8 1 .8h33c.6 0 1-.4 1-1V39.3h3c.6 0 1-.4 1-1v-4.6c0-.6-.4-1-1-1zM19.4 2c2-.3 4 0 6 .6 2 .5 3.8 1 5.2.4 0 .8 0 2-.5 3.2 0 .5-.4.8-.6 1C27.8 5 25 3.6 22 3.6h-1.2c-2 0-4 .7-5.5 2 .3-1.4 1.4-3 4-3.4zM21 20.7c-4 0-7-3.2-7-7v-1.3c0-3.8 3-7 7-7h1c4 0 7 3 7 7v1.2c0 3.8-3 7-7 7h-1zm.5 2c6.3 0 12.6 3 13 10h-12v-2.4c.4-.3.8-.8.8-1.5v-2.4c0-1-.7-1.8-1.8-1.8-1 0-1.8.7-1.8 1.8v2.4c0 .7.4 1 1 1.5v2.5H8.3c.5-7.2 6.8-10.2 13-10.2zM37 73H6v-34h31v34zm4-36H2v-2.6h39v2.7z" fill="#000" />
+                        </svg>
+                        <span class="bislai-home-body-left-container-text font-bislai">POLÍTICA</span>
+                    </div>
                 </div>
             </div>
-            <div class="nav-grid-second display-n display-ib--m">
-                <a class="font-08 font-1--s padding-r0 padding-r1-5--m textd-n underline pink vertical-am display-ib font-s font-w6 letter-0-12--m" href="http://bislai.co/estadisticas">ESTADÍSTICAS</a>
+            <div class="bislai-home-body-right">
+                <p class="bislai-home-body-right-text">Bislai muestra de una manera más accesible las propuestas y acuerdos que toman los partidos políticos en el Ayuntamiento de Zaragoza.</p>
+                <p class="bislai-home-body-right-text">Todos los datos han sido obtenidos del Ayuntamiento de Zaragoza.</p>
             </div>
-        </nav>
-    </header>
-    <div class="bislai-grid padding-1 padding-1-0--l">
-        <div class="bislai-grid-text font-s">
-            <h2 class="bislai-grid-title"> ACCESIBILIDAD POLÍTICA</h2>
-            <p class="font-1 bislai-grid-paragraph">El cometido de <strong>Bislai</strong> es mostrar de una manera más <strong>accesible</strong> las propuestas y acuerdos que toman los partidos políticos en el <strong>Ayuntamiento de Zaragoza</strong>.</p>
-            <p class="font-1 bislai-grid-paragraph">Puedes <strong>buscar cualquier término</strong> en las mociones que han presentado los distintos partidos en el pleno del Ayuntamiento de Zaragoza.</p>
-            <p class="font-1 bislai-grid-paragraph">Todos los datos han sido obtenidos de la <a href="https://www.zaragoza.es/ciudad/organizacion/plenos/activ_plenarias.htm">web del Ayuntamiento de Zaragoza.</a></p>
         </div>
-        <svg class="bislai-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 327"><path d="M76.5 148.5l-.8 6c0 .6.6 1.1 1.1.8l5.3-2.7 5.3 2.7c.2.2.6 0 .8 0 .2-.2.5-.5.2-.6l-1.1-5.7 4.2-4.2c.2-.2.2-.5.2-.8 0-.2-.2-.5-.6-.5l-6-.8-2.6-5.3c0-.2-.2-.2-.2-.2-.2 0-.2-.2-.5-.2-.2 0-.6.2-.6.5l-2.3 5.2-6 .8c-.2 0-.5.2-.6.5 0 .2 0 .6.2.8l4 3.7z"/><path d="M128.5 96.9h-12.6c-.8-12.9-9.2-22.1-22.1-25.5 6-3.6 9.8-9.8 9.8-17.3v-2.6c0-2.7-.6-5.3-1.5-7.6 2.9-1.9 4.8-6 5-11.1 0-2.9-.2-6.5-2.3-7.4-1.1-.5-2.1 0-2.7.8-1.3 1.5-5.5.5-9.7-.5-4.8-1.1-10.3-2.3-15.3-1.3C65.6 27 63.8 36.2 64.3 40.5c0 .2 0 .2.2.2-1.9 3.2-2.9 6.8-2.9 10.5v2.6c0 7.4 4 13.7 9.8 17.3C58.3 74.8 49.9 84 49.3 96.9H36.7c-1.3 0-2.1.8-2.1 2.1v10.3c0 1.3.8 2.1 2.1 2.1h6.8v77.8c0 1.3.8 2.1 2.1 2.1h74.1c1.3 0 2.1-.8 2.1-2.1v-77.8h6.9c1.3 0 2.1-.8 2.1-2.1V99c-.2-1.3-1-2.1-2.3-2.1zM78 28.6c4.2-.8 9 .2 13.4 1.3s8.6 1.9 11.6.8c.2 1.9 0 4.8-1.1 7.1-.5 1.1-1.1 1.9-1.6 2.6-3.6-5.3-9.7-8.6-16.5-8.6h-2.6c-4.7 0-9 1.6-12.4 4.4.8-3 3.1-6.3 9.2-7.6zm3.4 41.3c-8.6 0-15.8-7.1-15.8-15.8v-2.6c0-8.6 7.1-15.8 15.8-15.8H84c8.6 0 15.8 7.1 15.8 15.8v2.6c0 8.6-7.1 15.8-15.8 15.8h-2.6zm1.3 4.2c14 0 28.3 7.1 29.2 22.8H84.8v-5.5c1.1-.6 1.9-1.9 1.9-3.4v-5.3c0-2.1-1.6-4-4-4s-4 1.6-4 4V88c0 1.5.8 2.6 1.9 3.4v5.5H53.4c1-15.9 15.2-22.8 29.3-22.8zm34.8 113.2H47.8v-75.7h69.9v75.7h-.2zm8.9-80.1H38.8v-6.1h87.8v6.1h-.2zM141.4 216.5H98.5c-.5 0-.8.3-.8.8v28.4c0 .5.3.8.8.8h4.8v7.3c0 .3.2.6.5.8h.3s.3 0 .5-.2l9.8-7.9h26.8c.5 0 .8-.3.8-.8v-28.4c.2-.5-.1-.8-.6-.8zm-.8 28.4h-26.3c-.2 0-.3 0-.5.2l-8.7 7.1v-6.5c0-.5-.3-.8-.8-.8h-4.8v-26.8h41.3v26.8h-.2zM103.5 279.5c6 0 11-4.8 11-11s-4.8-11-11-11c-6 0-11 4.8-11 11 0 6.1 5 11 11 11zm0-20.2c5.2 0 9.4 4.2 9.4 9.4s-4.2 9.4-9.4 9.4-9.4-4.2-9.4-9.4 4.2-9.4 9.4-9.4zM113.7 296.7h1.6v10.7h-1.6zM91.7 296.7h1.6v10.7h-1.6z"/><path d="M114.2 282.4c-6.9-1.6-14.2-1.6-21.3 0-6.8 1.6-10.3 6.3-10 13.1l.5 11.9H85l-.5-11.9c-.3-7.7 4.5-10.5 8.7-11.5 6.8-1.6 13.7-1.6 20.5 0 4.2 1 9 3.7 8.7 11.5l-.5 11.9h1.6l.6-11.9c.4-6.8-3.2-11.5-9.9-13.1zM48.9 254.4c.2.2.3.2.5.2h.3c.3-.2.5-.5.5-.8v-7.3H55c.5 0 .8-.3.8-.8v-28.4c0-.5-.3-.8-.8-.8H12.3c-.5 0-.8.3-.8.8v28.4c0 .5.3.8.8.8h26.8l9.8 7.9zm-35.8-36.3h41.3v26.8h-4.8c-.5 0-.8.3-.8.8v6.5l-8.7-7.1c-.2-.2-.3-.2-.5-.2H13.1v-26.8zM39.2 268.7c0 6 4.8 11 11 11 6 0 11-4.8 11-11s-4.8-11-11-11c-6.1 0-11 4.8-11 11zm20.2 0c0 5.2-4.2 9.4-9.4 9.4s-9.4-4.2-9.4-9.4 4.2-9.4 9.4-9.4 9.4 4.2 9.4 9.4zM38.3 296.7h1.6v10.7h-1.6zM60.2 296.7h1.6v10.7h-1.6z"/><path d="M60.7 282.4c-6.9-1.6-14.2-1.6-21.3 0-6.8 1.6-10.3 6.3-10 13.1l.5 11.9h1.6l-.5-11.9c-.3-7.7 4.5-10.5 8.7-11.5 6.8-1.6 13.7-1.6 20.5 0 4.2 1 9 3.7 8.7 11.5l-.5 11.9H70l.5-11.9c.5-6.8-3-11.5-9.8-13.1zM67.2 223.8l6.6 6.6c.2.2.5.2.6 0l6.6-6.6 6.6 6.6c.2.2.2.2.3.2.2 0 .3 0 .3-.2l6.9-6.9-.6-.6-6.6 6.6-6.6-6.6c-.2-.2-.5-.2-.6 0l-6.6 6.6-6.6-6.6c-.2-.2-.5-.2-.6 0l-6.9 6.9.6.6 6.6-6.6zM74.1 240.2l-6.6-6.6c-.2-.2-.5-.2-.6 0l-6.9 6.9.6.6 6.6-6.6 6.6 6.6c.2.2.2.2.3.2s.3 0 .3-.2l6.9-6.9-.6-.6-6.6 6.6z"/></svg>
     </div>
     <section class="border-t1 padding-1 border-b1 grey borderc-grey padding-4-0--l mih-100">
         <h2 class="margin-b0 maw-60 font-2 margin-b2 font-s">CALENDARIO DE PLENOS</h2>
@@ -79,7 +94,6 @@
                 <a class="bgc-tabs tabs color-tabs font-w6 padding-1 margin-b1 border-radius-5 font-s white textd-n display-b " href="http://bislai.co/plenos/2015/27-11-2015.html">2 de diciembre de 2016</a>
                 <a class="bgc-tabs tabs color-tabs font-w6 padding-1 margin-b1 border-radius-5 font-s white textd-n display-b " href="http://bislai.co/plenos/2015/23-12-2015.html">23 de diciembre de 2016</a>
             </section>
-
             <section class="tabla-calendario  contenido3">
                 <p>2017</p>
             </section>
@@ -127,4 +141,5 @@
     ga('send', 'pageview');
     </script>
 </body>
+
 </html>

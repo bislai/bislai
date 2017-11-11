@@ -15,6 +15,10 @@ body {
     font-family: var(--serif);
 }
 
+.font-bislai {
+    font-family: var(--fontBislai);
+}
+
 .cursor-p {
     cursor: pointer;
 }
@@ -340,8 +344,13 @@ http://www.tipue.com/search
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     font-family: var(--fontSystem);
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #1b305f;
+    border-right: 0;
 }
 
 .tipue_search_icon {
@@ -489,14 +498,20 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 0;
-    border-left: 1px solid #1b305f;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #1b305f;
     cursor: pointer;
+    background-color: #1b305f;
     path {
-        fill: #1b305f;
+        fill: #fff;
     }
     &:hover {
         background-color: var(--chunta);
+        path {
+            fill: #1b305f;
+        }
     }
 }
 
@@ -773,51 +788,87 @@ path.q2-3 {
     }
 }
 
-.bislai-grid {
-    position: relative;
-    width: 100%;
-    display: grid;
-    min-height: calc(100vh - 81px);
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-
-    background: #f5f7fa;
-    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: linear-gradient(top, #f5f7fa, #c3cfe2);
-
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-}
-
-.bislai-icon {
-    width: 10rem;
-}
-
-.bislai-grid-title {
-    position: absolute;
-    top: -60px;
-    font-size: 1.5rem;
-}
-
-.bislai-grid-text {
-    position: relative;
-    background-color: var(--bgcCard);
-    padding: 16px 80px;
-    width: 31rem;
-    color: var(--bislai);
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
-    a {
-        font-weight: bold;
-    }
+.bislai-home {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .footer {
     background-image: url("../img/pattern.svg");
     background-repeat: repeat;
+}
+
+.bisla-home-body {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 7rem;
+    font-size: 0;
+}
+
+.bislai-home-body-left {
+    width: 36rem;
+    display: inline-block;
+    position: relative;
+}
+
+.bislai-home-body-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.bisla-home-body-left-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    opacity: 0.5;
+    width: 36rem;
+    height: 100%;
+}
+
+.bislai-home-body-left-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 12rem;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.bislai-home-body-left-text-white {
+    font-size: 3rem;
+    color: var(--white);
+    display: inline-block;
+}
+
+.bislai-home-body-left-container {
+    background-color: var(--white);
+    display: inline-block;
+    padding: 1rem;
+    padding-right: 4rem;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.bislai-home-body-left-container-text {
+    font-size: 3rem;
+    color: var(--black);
+    display: block;
+}
+
+.bislai-icon {
+    display: block;
+}
+
+.bislai-home-body-right {
+    display: inline-block;
+    width: calc(100% - 36rem);
+    vertical-align: top;
+}
+
+.bislai-home-body-right-text {
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
 }

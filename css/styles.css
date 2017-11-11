@@ -313,6 +313,10 @@ body {
     font-family: "Georgia", serif;
 }
 
+.font-bislai {
+    font-family: "Fjalla One", sans-serif;
+}
+
 .cursor-p {
     cursor: pointer;
 }
@@ -658,8 +662,13 @@ http://www.tipue.com/search
 
     color: #333;
     border: 0;
+    border: 1px solid #1b305f;
+    border-right: 0;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     outline-color: #efb027;
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 .tipue_search_icon {
@@ -827,16 +836,23 @@ http://www.tipue.com/search
     cursor: pointer;
 
     border: 0;
-    border-left: 1px solid #1b305f;
-    border-radius: 0;
+    border: 1px solid #1b305f;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #1b305f;
 }
 
 .btn-search path {
-  fill: #1b305f;
+  fill: #fff;
 }
 
 .btn-search:hover {
   background-color: #efb027;
+}
+
+.btn-search:hover path {
+  fill: #1b305f;
 }
 
 .tabla-calendario {
@@ -1153,59 +1169,107 @@ path.q2-3 {
   height: 100%;
 }
 
-.bislai-grid {
-    position: relative;
+.bislai-home {
+    min-height: 100vh;
 
-    display: grid;
-
-    width: 100%;
-    min-height: calc(100vh - 81px);
-
-    background: #f5f7fa;
-    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: linear-gradient(top, #f5f7fa, #c3cfe2);
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-}
-
-.bislai-icon {
-    width: 10rem;
-}
-
-.bislai-grid-title {
-    font-size: 1.5rem;
-
-    position: absolute;
-    top: -60px;
-}
-
-.bislai-grid-text {
-    position: relative;
-
-    width: 31rem;
-    padding: 1rem 5rem;
-
-    color: #021e5c;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #28cdc4;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
-}
-
-.bislai-grid-text a {
-  font-weight: bold;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .footer {
     background-image: url("../img/pattern.svg");
     background-repeat: repeat;
+}
+
+.bisla-home-body {
+    font-size: 0;
+
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.bislai-home-body-left {
+    position: relative;
+
+    display: inline-block;
+
+    width: 36rem;
+}
+
+.bislai-home-body-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.bisla-home-body-left-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 36rem;
+    height: 100%;
+
+    opacity: 0.5;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+
+.bislai-home-body-left-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 12rem;
+
+    width: 100%;
+
+    white-space: nowrap;
+}
+
+.bislai-home-body-left-text-white {
+    font-size: 3rem;
+
+    display: inline-block;
+
+    color: #fff;
+}
+
+.bislai-home-body-left-container {
+    display: inline-block;
+
+    padding: 1rem;
+    padding-right: 4rem;
+
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+        0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.bislai-home-body-left-container-text {
+    font-size: 3rem;
+
+    display: block;
+
+    color: #121;
+}
+
+.bislai-icon {
+    display: block;
+}
+
+.bislai-home-body-right {
+    display: inline-block;
+
+    width: calc(100% - 36rem);
+
+    vertical-align: top;
+}
+
+.bislai-home-body-right-text {
+    font-size: 1rem;
+
+    display: inline-block;
+
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
 }
 
 .maw-70 {
