@@ -8,9 +8,9 @@ $(function() {
             "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
         var map = new mapboxgl.Map({
             container: "map", // container id
-            style: "mapbox://styles/jorgeatgu/cj832ibiua5bs2rnpv6sdaihb", //hosted style id
-            center: [-0.89668, 41.657112], // starting position
-            zoom: 11 // starting zoom
+            style: "mapbox://styles/jorgeatgu/cj9x61g5l6e3n2sl49to17spz", //hosted style id
+            center: [-0.850431, 41.651729], // starting position
+            zoom: 11.5 // starting zoom
         });
 
         map.addControl(new mapboxgl.Navigation());
