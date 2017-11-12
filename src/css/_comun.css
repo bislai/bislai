@@ -660,8 +660,8 @@ path.q2-3 {
     height: 70vh;
     color: #111;
     background-color: #fff;
-    border-top: 10px solid #81165a;
-    border-bottom: 10px solid #81165a;
+    border-top: 10px solid #2be5cf;
+    border-bottom: 10px solid #2be5cf;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
@@ -749,8 +749,8 @@ path.q2-3 {
     transition: all ease-in .3s;
     &:hover {
         stroke-width: 1;
-        fill: #f5ff7d;
-        fill-opacity: .5;
+        fill: #2be5cf;
+        fill-opacity: .8;
     }
 }
 
