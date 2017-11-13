@@ -1018,11 +1018,11 @@ path.q2-3 {
     font-weight: bold;
 
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     right: 2rem;
 
     min-width: 24rem;
-    height: 70vh;
+    height: 75vh;
 
     color: #111;
     border-top: 10px solid #2be5cf;
@@ -1058,7 +1058,7 @@ path.q2-3 {
         "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
 
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .tooltipPartido + p {
@@ -1071,13 +1071,25 @@ path.q2-3 {
 }
 
 .tooltipPartido .resultado {
-  padding-right: 0;
+  padding: 0;
+  padding-left: 8px;
+}
+
+.tooltipPartido .resultadoVotos {
+  padding: 0;
+  padding-left: 8px;
+}
+
+.tooltipPartido .resultadoVotos:not(:first-child) {
+  font-size: 0.75rem;
+  color: #333;
 }
 
 .tooltipLeyenda span, .tooltipPartido span {
   font-size: 0.88rem;
   display: inline-block;
   min-width: 50%;
+  vertical-align: middle;
 }
 
 .tooltipLeyenda .resultado, .tooltipPartido .resultado {
