@@ -15,6 +15,10 @@ body {
     font-family: var(--serif);
 }
 
+.font-bislai {
+    font-family: var(--fontBislai);
+}
+
 .cursor-p {
     cursor: pointer;
 }
@@ -22,7 +26,7 @@ body {
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
@@ -54,7 +58,7 @@ body {
     &:hover {
         color: var(--black);
         border-color: var(--colorlink);
-        transition: all 0.3s ease-in;
+        transition: all .3s ease-in;
     }
 }
 
@@ -340,8 +344,13 @@ http://www.tipue.com/search
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     font-family: var(--fontSystem);
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #1b305f;
+    border-right: 0;
 }
 
 .tipue_search_icon {
@@ -489,14 +498,20 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 0;
-    border-left: 1px solid #1b305f;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #1b305f;
     cursor: pointer;
+    background-color: #1b305f;
     path {
-        fill: #1b305f;
+        fill: #fff;
     }
     &:hover {
         background-color: var(--chunta);
+        path {
+            fill: #1b305f;
+        }
     }
 }
 
@@ -538,10 +553,6 @@ http://www.tipue.com/search
     }
 }
 
-.label-responsive {
-    display: none;
-}
-
 .input-record:checked + .label-record {
     color: #dce0db;
     border: 1px solid var(--impureGrey);
@@ -567,20 +578,6 @@ http://www.tipue.com/search
     &:not(:last-child) {
         border-bottom: 1px solid #ccc;
     }
-}
-
-.grid-title {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    margin: 0;
-}
-
-.grid-title-min {
-    background-color: var(--btnMinBgc);
-}
-
-.grid-title-max {
-    background-color: var(--gradient2);
 }
 
 .tabla-record-header {
@@ -657,15 +654,15 @@ path.q2-3 {
 .tooltip {
     font-weight: bold;
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     right: 2rem;
     min-width: 24rem;
-    height: 70vh;
+    height: 75vh;
     color: #111;
     background-color: #fff;
-    border-top: 10px solid #81165a;
-    border-bottom: 10px solid #81165a;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    border-top: 10px solid #2be5cf;
+    border-bottom: 10px solid #2be5cf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -688,35 +685,41 @@ path.q2-3 {
 .tooltipPartido {
     font-family: var(--fontSystem);
     font-weight: bold;
-    margin: 8px 0;
+    margin: 16px 0;
     + p {
         display: none;
+    }
+    span {
+        color: #111;
+        padding: 8px;
+    }
+    .resultado {
+        padding: 0;
+        padding-left: 8px;
+    }
+    .resultadoVotos {
+        padding: 0;
+        padding-left: 8px;
+        &:not(:first-child) {
+            color: #333;
+            font-size: 12px;
+        }
     }
 }
 
 .tooltipLeyenda,
 .tooltipPartido {
     span {
-        color: #6f7780;
         font-size: 14px;
         min-width: 50%;
         display: inline-block;
+        vertical-align: middle;
     }
     .resultado {
         padding-left: 16px;
         color: #111;
         min-width: 45%;
         text-align: right;
-    }
-}
-
-.tooltipPartido {
-    span {
-        color: #111;
-        padding: 8px;
-    }
-    .resultado {
-        padding-right: 0;
     }
 }
 
@@ -749,15 +752,15 @@ path.q2-3 {
 }
 
 .distritos {
-    fill: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, .1);
     stroke: #81165a;
-    stroke-opacity: 0.1;
+    stroke-opacity: .1;
     cursor: pointer;
-    transition: all ease-in 0.3s;
+    transition: all ease-in .3s;
     &:hover {
         stroke-width: 1;
-        fill: #c22361;
-        fill-opacity: 0.5;
+        fill: #2be5cf;
+        fill-opacity: .8;
     }
 }
 
@@ -765,7 +768,7 @@ path.q2-3 {
     width: 100%;
     height: 100vh;
     position: relative;
-    margin: auto auto;
+    margin: auto;
     svg {
         position: absolute;
         width: 100%;
@@ -773,51 +776,87 @@ path.q2-3 {
     }
 }
 
-.bislai-grid {
-    position: relative;
-    width: 100%;
-    display: grid;
-    min-height: calc(100vh - 81px);
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-
-    background: #f5f7fa;
-    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: linear-gradient(top, #f5f7fa, #c3cfe2);
-
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-}
-
-.bislai-icon {
-    width: 10rem;
-}
-
-.bislai-grid-title {
-    position: absolute;
-    top: -60px;
-    font-size: 1.5rem;
-}
-
-.bislai-grid-text {
-    position: relative;
-    background-color: var(--bgcCard);
-    padding: 16px 80px;
-    width: 31rem;
-    color: var(--bislai);
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
-    a {
-        font-weight: bold;
-    }
+.bislai-home {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .footer {
     background-image: url("../img/pattern.svg");
     background-repeat: repeat;
+}
+
+.bisla-home-body {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 7rem;
+    font-size: 0;
+}
+
+.bislai-home-body-left {
+    width: 36rem;
+    display: inline-block;
+    position: relative;
+}
+
+.bislai-home-body-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.bisla-home-body-left-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    opacity: .5;
+    width: 36rem;
+    height: 100%;
+}
+
+.bislai-home-body-left-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 12rem;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.bislai-home-body-left-text-white {
+    font-size: 3rem;
+    color: var(--white);
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.bislai-home-body-left-container {
+    background-color: var(--white);
+    display: inline-block;
+    padding: 1rem;
+    padding-right: 4rem;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+.bislai-home-body-left-container-text {
+    font-size: 3rem;
+    color: var(--black);
+    display: block;
+}
+
+.bislai-icon {
+    display: block;
+}
+
+.bislai-home-body-right {
+    display: inline-block;
+    width: calc(100% - 36rem);
+    vertical-align: top;
+}
+
+.bislai-home-body-right-text {
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+    margin-bottom: .5rem;
 }

@@ -313,6 +313,10 @@ body {
     font-family: "Georgia", serif;
 }
 
+.font-bislai {
+    font-family: "Fjalla One", sans-serif;
+}
+
 .cursor-p {
     cursor: pointer;
 }
@@ -320,7 +324,7 @@ body {
 /* STRIPE RULES */
 
 .button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .nav-grid {
@@ -359,7 +363,7 @@ body {
 }
 
 .link:hover {
-  transition: all 0.3s ease-in;
+  transition: all .3s ease-in;
   color: #121;
   border-color: #1624f7;
 }
@@ -658,8 +662,13 @@ http://www.tipue.com/search
 
     color: #333;
     border: 0;
+    border: 1px solid #1b305f;
+    border-right: 0;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     outline-color: #efb027;
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 .tipue_search_icon {
@@ -827,16 +836,23 @@ http://www.tipue.com/search
     cursor: pointer;
 
     border: 0;
-    border-left: 1px solid #1b305f;
-    border-radius: 0;
+    border: 1px solid #1b305f;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #1b305f;
 }
 
 .btn-search path {
-  fill: #1b305f;
+  fill: #fff;
 }
 
 .btn-search:hover {
   background-color: #efb027;
+}
+
+.btn-search:hover path {
+  fill: #1b305f;
 }
 
 .tabla-calendario {
@@ -888,10 +904,6 @@ http://www.tipue.com/search
   color: var(--impureBlack);
 }
 
-.label-responsive {
-    display: none;
-}
-
 .input-record:checked + .label-record {
     color: #dce0db;
     border: 1px solid var(--impureGrey);
@@ -922,21 +934,6 @@ http://www.tipue.com/search
 
 .grid-text:not(:last-child) {
   border-bottom: 1px solid #ccc;
-}
-
-.grid-title {
-    margin: 0;
-    padding: 0.63rem;
-
-    border-bottom: 1px solid #ccc;
-}
-
-.grid-title-min {
-    background-color: var(--btnMinBgc);
-}
-
-.grid-title-max {
-    background-color: var(--gradient2);
 }
 
 .tabla-record-header {
@@ -1021,17 +1018,17 @@ path.q2-3 {
     font-weight: bold;
 
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     right: 2rem;
 
     min-width: 24rem;
-    height: 70vh;
+    height: 75vh;
 
     color: #111;
-    border-top: 10px solid #81165a;
-    border-bottom: 10px solid #81165a;
+    border-top: 10px solid #2be5cf;
+    border-bottom: 10px solid #2be5cf;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
 }
 
 .tooltip-image {
@@ -1061,25 +1058,11 @@ path.q2-3 {
         "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
 
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .tooltipPartido + p {
   display: none;
-}
-
-.tooltipLeyenda span, .tooltipPartido span {
-  font-size: 0.88rem;
-  display: inline-block;
-  min-width: 50%;
-  color: #6f7780;
-}
-
-.tooltipLeyenda .resultado, .tooltipPartido .resultado {
-  min-width: 45%;
-  padding-left: 16px;
-  text-align: right;
-  color: #111;
 }
 
 .tooltipPartido span {
@@ -1088,7 +1071,32 @@ path.q2-3 {
 }
 
 .tooltipPartido .resultado {
-  padding-right: 0;
+  padding: 0;
+  padding-left: 8px;
+}
+
+.tooltipPartido .resultadoVotos {
+  padding: 0;
+  padding-left: 8px;
+}
+
+.tooltipPartido .resultadoVotos:not(:first-child) {
+  font-size: 0.75rem;
+  color: #333;
+}
+
+.tooltipLeyenda span, .tooltipPartido span {
+  font-size: 0.88rem;
+  display: inline-block;
+  min-width: 50%;
+  vertical-align: middle;
+}
+
+.tooltipLeyenda .resultado, .tooltipPartido .resultado {
+  min-width: 45%;
+  padding-left: 16px;
+  text-align: right;
+  color: #111;
 }
 
 .container-tooltip-leyenda {
@@ -1126,17 +1134,17 @@ path.q2-3 {
 
 .distritos {
     cursor: pointer;
-    transition: all ease-in 0.3s;
+    transition: all ease-in .3s;
 
-    fill: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, .1);
     stroke: #81165a;
-    stroke-opacity: 0.1;
+    stroke-opacity: .1;
 }
 
 .distritos:hover {
   stroke-width: 1;
-  fill: #c22361;
-  fill-opacity: 0.5;
+  fill: #2be5cf;
+  fill-opacity: .8;
 }
 
 #map {
@@ -1144,7 +1152,7 @@ path.q2-3 {
 
     width: 100%;
     height: 100vh;
-    margin: auto auto;
+    margin: auto;
 }
 
 #map svg {
@@ -1153,59 +1161,108 @@ path.q2-3 {
   height: 100%;
 }
 
-.bislai-grid {
-    position: relative;
+.bislai-home {
+    min-height: 100vh;
 
-    display: grid;
-
-    width: 100%;
-    min-height: calc(100vh - 81px);
-
-    background: #f5f7fa;
-    background: -webkit-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: -moz-linear-gradient(top, #f5f7fa, #c3cfe2);
-    background: linear-gradient(top, #f5f7fa, #c3cfe2);
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-}
-
-.bislai-icon {
-    width: 10rem;
-}
-
-.bislai-grid-title {
-    font-size: 1.5rem;
-
-    position: absolute;
-    top: -60px;
-}
-
-.bislai-grid-text {
-    position: relative;
-
-    width: 31rem;
-    padding: 1rem 5rem;
-
-    color: #021e5c;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #28cdc4;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
-        0 5px 15px rgba(0, 0, 0, 0.07);
-}
-
-.bislai-grid-text a {
-  font-weight: bold;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .footer {
     background-image: url("../img/pattern.svg");
     background-repeat: repeat;
+}
+
+.bisla-home-body {
+    font-size: 0;
+
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.bislai-home-body-left {
+    position: relative;
+
+    display: inline-block;
+
+    width: 36rem;
+}
+
+.bislai-home-body-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.bisla-home-body-left-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 36rem;
+    height: 100%;
+
+    opacity: .5;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+
+.bislai-home-body-left-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 12rem;
+
+    width: 100%;
+
+    white-space: nowrap;
+}
+
+.bislai-home-body-left-text-white {
+    font-size: 3rem;
+
+    display: inline-block;
+
+    padding-right: 1rem;
+
+    color: #fff;
+}
+
+.bislai-home-body-left-container {
+    display: inline-block;
+
+    padding: 1rem;
+    padding-right: 4rem;
+
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+.bislai-home-body-left-container-text {
+    font-size: 3rem;
+
+    display: block;
+
+    color: #121;
+}
+
+.bislai-icon {
+    display: block;
+}
+
+.bislai-home-body-right {
+    display: inline-block;
+
+    width: calc(100% - 36rem);
+
+    vertical-align: top;
+}
+
+.bislai-home-body-right-text {
+    font-size: 1rem;
+
+    display: inline-block;
+
+    margin: 0;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
 }
 
 .maw-70 {
@@ -1438,22 +1495,6 @@ path.q2-3 {
     color: #19160a;
 }
 
-.gondola {
-    color: var(--gondola);
-}
-
-.bgc-white-9 {
-    background-color: var(--white9);
-}
-
-.bgc-fluor {
-    background-color: var(--fluor);
-}
-
-.luckyPoint {
-    color: var(--luckyPoint);
-}
-
 .bgc-transparent {
     background-color: transparent;
 }
@@ -1463,7 +1504,7 @@ path.q2-3 {
 }
 
 .bgc-mint:hover {
-  transition: background-color 0.3s ease-in;
+  transition: background-color .3s ease-in;
   background-color: hsl(170, 56%, 47%);
 }
 
@@ -1476,7 +1517,7 @@ path.q2-3 {
 }
 
 .bgc-french-grey:hover {
-  transition: background-color 0.3s ease-in;
+  transition: background-color .3s ease-in;
   background-color: hsl(283, 5%, 68%);
 }
 
@@ -1486,10 +1527,6 @@ path.q2-3 {
 
 .grey {
     background-color: #efefef;
-}
-
-.resto {
-    background-color: var(--resto);
 }
 
 .bgc-white {
@@ -2089,11 +2126,11 @@ path.q2-3 {
 }
 
 .padding-0__5-1 {
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
 }
 
 .padding-0__5-0 {
-    padding: 0.5rem 0;
+    padding: .5rem 0;
 }
 
 .padding-b1 {
@@ -2133,7 +2170,7 @@ path.q2-3 {
 }
 
 .padding-0-5 {
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 .padding-2 {
@@ -2213,7 +2250,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--s {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--s {
         padding: 2rem;
@@ -2287,7 +2324,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--m {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--m {
         padding: 2rem;
@@ -2367,7 +2404,7 @@ path.q2-3 {
         padding: 0 2rem;
     }
     .padding-0-5--l {
-        padding: 0.5rem;
+        padding: .5rem;
     }
     .padding-2--l {
         padding: 2rem;
@@ -2377,9 +2414,6 @@ path.q2-3 {
     }
     .padding-l-n--l {
         padding-left: 0;
-    }
-    .padding-l1--l {
-        padding-left: 1rem;
     }
     .padding-l2--l {
         padding-left: 2rem;

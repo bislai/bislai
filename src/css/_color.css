@@ -22,22 +22,6 @@
     color: var(--woodsmoke);
 }
 
-.gondola {
-    color: var(--gondola);
-}
-
-.bgc-white-9 {
-    background-color: var(--white9);
-}
-
-.bgc-fluor {
-    background-color: var(--fluor);
-}
-
-.luckyPoint {
-    color: var(--luckyPoint);
-}
-
 .bgc-transparent {
     background-color: transparent;
 }
@@ -46,7 +30,7 @@
     background-color: hsl(170, 88%, 47%);
     &:hover {
         background-color: hsl(170, 56%, 47%);
-        transition: background-color 0.3s ease-in;
+        transition: background-color .3s ease-in;
     }
 }
 
@@ -58,7 +42,7 @@
     background-color: hsl(283, 11%, 88%);
     &:hover {
         background-color: hsl(283, 5%, 68%);
-        transition: background-color 0.3s ease-in;
+        transition: background-color .3s ease-in;
     }
 }
 
@@ -68,10 +52,6 @@
 
 .grey {
     background-color: var(--grey);
-}
-
-.resto {
-    background-color: var(--resto);
 }
 
 .bgc-white {

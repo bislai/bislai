@@ -8,9 +8,9 @@ $(function() {
             "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
         var map = new mapboxgl.Map({
             container: "map", // container id
-            style: "mapbox://styles/jorgeatgu/cj832ibiua5bs2rnpv6sdaihb", //hosted style id
-            center: [-0.89668, 41.657112], // starting position
-            zoom: 11 // starting zoom
+            style: "mapbox://styles/jorgeatgu/cj9x6vj1k6eux2sl4jh9c2jpn", //hosted style id
+            center: [-0.850431, 41.651729], // starting position
+            zoom: 11.5 // starting zoom
         });
 
         map.addControl(new mapboxgl.Navigation());
@@ -59,20 +59,16 @@ $(function() {
                         geoJson.properties.abstencion +
                         "%</span><p/></div>" +
                         '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="bgc-pp">PP</span><span class="resultado">' +
-                        geoJson.properties.pp +
-                        "%</span><p/>" +
-                        '<p class="tooltipPartido"> <span class="bgc-zec">ZEC</span><span class="resultado">' +
-                        geoJson.properties.zec +
+                        '<span class="resultadoVotos"> ' + geoJson.properties.pp + "%</span> <span class='resultadoVotos'> " + geoJson.properties.ppVotos + "</span><p/>" +
+                        '<p class="tooltipPartido"><span class="bgc-zec">ZEC</span><span class="resultado">' +
+                        '<span class="resultadoVotos"> ' + geoJson.properties.zec + "%</span> <span class='resultadoVotos'> " + geoJson.properties.zecVotos + "</span><p/>" +
                         "%</span><p/>" +
                         '<p class="tooltipPartido"><span class="bgc-psoe">PSOE</span><span class="resultado">' +
-                        geoJson.properties.psoe +
-                        "%</span><p/>" +
-                        '<p class="tooltipPartido"><span class="bgc-cs">C&#39s</span><span class="resultado">' +
-                        geoJson.properties.cs +
-                        "%</span><p/>" +
+                        '<span class="resultadoVotos"> ' + geoJson.properties.psoe + "%</span> <span class='resultadoVotos'> " + geoJson.properties.psoeVotos + "</span><p/>" +
+                        '<p class="tooltipPartido"><span class="bgc-cs">CS</span><span class="resultado">' +
+                        '<span class="resultadoVotos"> ' + geoJson.properties.cs + "%</span> <span class='resultadoVotos'> " + geoJson.properties.csVotos + "</span><p/>" +
                         '<p class="tooltipPartido"><span class="bgc-cha">CHA</span><span class="resultado">' +
-                        geoJson.properties.cha +
-                        "%</span><p/></div>"
+                        '<span class="resultadoVotos"> ' + geoJson.properties.cha + "%</span> <span class='resultadoVotos'> " + geoJson.properties.chaVotos + "</span><p/></div>"
                 )
                 .transition()
                 .duration(200);
