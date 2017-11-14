@@ -111,11 +111,11 @@
 }
 
 .bgc-orden {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: #c3cfe2;
 }
 
 .bgc-acuerdos {
-    background-image: linear-gradient(to top, #72afd3 0%, #37ecba 100%);
+    background-image: #37ecba;
 }
 
 @media only screen and (min-width: 30em) {
