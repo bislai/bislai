@@ -26,24 +26,8 @@
     background-color: transparent;
 }
 
-.bgc-mint {
-    background-color: hsl(170, 88%, 47%);
-    &:hover {
-        background-color: hsl(170, 56%, 47%);
-        transition: background-color .3s ease-in;
-    }
-}
-
 .night-rider {
     color: var(--nightRider);
-}
-
-.bgc-french-grey {
-    background-color: hsl(283, 11%, 88%);
-    &:hover {
-        background-color: hsl(283, 5%, 68%);
-        transition: background-color .3s ease-in;
-    }
 }
 
 .bunting {
@@ -111,11 +95,11 @@
 }
 
 .bgc-orden {
-    background: #c3cfe2;
+    background-color: #c3cfe2;
 }
 
 .bgc-acuerdos {
-    background-image: #37ecba;
+    background-color: #37ecba;
 }
 
 @media only screen and (min-width: 30em) {
