@@ -695,11 +695,17 @@ path.q2-3 {
     }
     .resultado {
         padding: 0;
-        padding-left: 8px;
+        display: inline-block;
+        min-width: 50%;
+        text-align: left;
+
     }
     .resultadoVotos {
         padding: 0;
         padding-left: 8px;
+        min-width: 50%;
+        display: block;
+        text-align: right;
         &:not(:first-child) {
             color: #333;
             font-size: 12px;
@@ -711,15 +717,22 @@ path.q2-3 {
 .tooltipPartido {
     span {
         font-size: 14px;
-        min-width: 50%;
         display: inline-block;
         vertical-align: middle;
     }
     .resultado {
-        padding-left: 16px;
         color: #111;
-        min-width: 45%;
+        min-width: 48%;
+    }
+}
+
+.tooltipLeyenda {
+    span {
+        min-width: 48%;
+    }
+    .resultado {
         text-align: right;
+        min-width: 48%;
     }
 }
 

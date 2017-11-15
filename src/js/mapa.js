@@ -48,27 +48,21 @@ $(function() {
                 .html(
                     '<h4 class="tooltipTitulo">' +
                         geoJson.properties.distrito +
-                        "</h4>" +
+                        '</h4>' +
                         '<div class="container-tooltip-leyenda"><p class="tooltipLeyenda"><span>Censo:</span> <span class="resultado"> ' +
                         geoJson.properties.total +
-                        "</span><p/>" +
+                        '</span><p/>' +
                         '<p class="tooltipLeyenda"><span>Votantes:</span> <span class="resultado">' +
                         geoJson.properties.votantes +
-                        "%</span><p/>" +
+                        '%</span><p/>' +
                         '<p class="tooltipLeyenda"><span>Abstención:</span> <span class="resultado">' +
                         geoJson.properties.abstencion +
-                        "%</span><p/></div>" +
-                        '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="bgc-pp">PP</span><span class="resultado">' +
-                        '<span class="resultadoVotos"> ' + geoJson.properties.pp + "%</span> <span class='resultadoVotos'> " + geoJson.properties.ppVotos + "</span><p/>" +
-                        '<p class="tooltipPartido"><span class="bgc-zec">ZEC</span><span class="resultado">' +
-                        '<span class="resultadoVotos"> ' + geoJson.properties.zec + "%</span> <span class='resultadoVotos'> " + geoJson.properties.zecVotos + "</span><p/>" +
-                        "%</span><p/>" +
-                        '<p class="tooltipPartido"><span class="bgc-psoe">PSOE</span><span class="resultado">' +
-                        '<span class="resultadoVotos"> ' + geoJson.properties.psoe + "%</span> <span class='resultadoVotos'> " + geoJson.properties.psoeVotos + "</span><p/>" +
-                        '<p class="tooltipPartido"><span class="bgc-cs">CS</span><span class="resultado">' +
-                        '<span class="resultadoVotos"> ' + geoJson.properties.cs + "%</span> <span class='resultadoVotos'> " + geoJson.properties.csVotos + "</span><p/>" +
-                        '<p class="tooltipPartido"><span class="bgc-cha">CHA</span><span class="resultado">' +
-                        '<span class="resultadoVotos"> ' + geoJson.properties.cha + "%</span> <span class='resultadoVotos'> " + geoJson.properties.chaVotos + "</span><p/></div>"
+                        '%</span><p/></div>' +
+                        '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado"><span style="width:' + geoJson.properties.pp * 2.5 + '%" class="bgc-pp">PP</span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.pp + '%</span><span class="resultadoVotos">' + geoJson.properties.ppVotos + '</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado"><span style="width:' + geoJson.properties.zec * 2.5 + '%" class="bgc-zec">ZEC</span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.zec + '%</span><span class="resultadoVotos">' + geoJson.properties.zecVotos + '</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado"><span style="width:' + geoJson.properties.psoe * 2.5 + '%" class="bgc-psoe">PSOE</span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.psoe + '%</span> <span class="resultadoVotos">' + geoJson.properties.psoeVotos + '</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado"><span style="width:' + geoJson.properties.cs * 2.5 + '%" class="bgc-cs">CS</span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cs + '%</span> <span class="resultadoVotos">' + geoJson.properties.csVotos + '</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado"><span style="width:' + geoJson.properties.cha * 2.5 + '%" class="bgc-cha">CHA</span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cha + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.chaVotos + '</span><p/></div>'
                 )
                 .transition()
                 .duration(200);
