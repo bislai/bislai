@@ -91,40 +91,23 @@
 .borderc-cs,
 .borderc-ch,
 .borderc-zec {
-    &:after {
-        content: "";
-        display: block;
-        border-bottom: 3px solid var(--psoe);
-        width: 200px;
-    }
+    border-left: 10px solid var(--psoe);
 }
 
 .borderc-cs {
-    &:after {
-        border-bottom: 3px solid var(--ciudadanos);
-    }
+    border-left-color: var(--ciudadanos);
 }
 
 .borderc-pp {
-    &:after {
-        border-bottom: 3px solid var(--pp);
-    }
+    border-left-color: var(--pp);
 }
 
 .borderc-ch {
-    &:after {
-        border-bottom: 3px solid var(--chunta);
-    }
+    border-left-color: var(--chunta);
 }
 
 .borderc-zec {
-    &:after {
-        border-bottom: 3px solid var(--zec);
-    }
-}
-
-.borderc-b-cs {
-    border-bottom-color: var(--ciudadanos);
+    border-left-color: var(--zec);
 }
 
 .border-radius-2 {

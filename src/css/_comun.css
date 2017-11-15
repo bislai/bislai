@@ -695,11 +695,17 @@ path.q2-3 {
     }
     .resultado {
         padding: 0;
-        padding-left: 8px;
+        display: inline-block;
+        min-width: 50%;
+        text-align: left;
+
     }
     .resultadoVotos {
         padding: 0;
         padding-left: 8px;
+        min-width: 50%;
+        display: block;
+        text-align: right;
         &:not(:first-child) {
             color: #333;
             font-size: 12px;
@@ -711,15 +717,22 @@ path.q2-3 {
 .tooltipPartido {
     span {
         font-size: 14px;
-        min-width: 50%;
         display: inline-block;
         vertical-align: middle;
     }
     .resultado {
-        padding-left: 16px;
         color: #111;
-        min-width: 45%;
+        min-width: 48%;
+    }
+}
+
+.tooltipLeyenda {
+    span {
+        min-width: 48%;
+    }
+    .resultado {
         text-align: right;
+        min-width: 48%;
     }
 }
 
@@ -859,4 +872,20 @@ path.q2-3 {
     padding-left: 1rem;
     margin: 0;
     margin-bottom: .5rem;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
