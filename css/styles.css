@@ -1295,6 +1295,26 @@ path.q2-3 {
   transform: scale(1.1);
 }
 
+.tooltip-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 5%;
+
+    padding: 1rem 1.5rem;
+
+    color: #000;
+    border-right: 10px solid #2be5cf;
+    border-left: 10px solid #2be5cf;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
 .maw-70 {
   max-width: 70rem;
   margin: 0 auto;

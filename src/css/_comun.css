@@ -889,3 +889,19 @@ path.q2-3 {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.tooltip-title {
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--fontSystem);
+    border-left: 10px solid #2be5cf;
+    border-right: 10px solid #2be5cf;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    color: #000;
+    background-color: var(--white);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
