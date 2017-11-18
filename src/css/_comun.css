@@ -800,21 +800,24 @@ path.q2-3 {
 }
 
 .bisla-home-body {
-    max-width: 1024px;
     margin: 0 auto;
-    padding-top: 7rem;
     font-size: 0;
+    max-height: calc(100vh - 5rem);
 }
 
 .bislai-home-body-left {
-    width: 36rem;
+    width: 100%;
     display: inline-block;
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .bislai-home-body-img {
     width: 100%;
     max-width: 100%;
+    max-height: calc(100vh - 5rem);
+    object-fit: cover;
 }
 
 .bisla-home-body-left-gradient {
@@ -823,47 +826,56 @@ path.q2-3 {
     left: 0;
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
     opacity: .5;
-    width: 36rem;
+    width: 100%;
     height: 100%;
 }
 
 .bislai-home-body-left-text {
     position: absolute;
-    bottom: 2rem;
+    top: 5rem;
     left: 12rem;
-    width: 100%;
-    white-space: nowrap;
+    background-color: var(--pureblack);
+    &:hover {
+        .bislai-home-body-left-text-white {
+            color: var(--impureBlack);
+            transition: all 1s ease-in;
+        }
+        .line-throught {
+            text-decoration: line-through;
+            color: var(--white);
+        }
+    }
 }
 
 .bislai-home-body-left-text-white {
     font-size: 3rem;
+    padding: 1rem 2rem;
     color: var(--white);
     display: inline-block;
-    padding-right: 1rem;
+    vertical-align: middle;
 }
 
 .bislai-home-body-left-container {
-    background-color: var(--white);
+    background-color: var(--yellow);
     display: inline-block;
-    padding: 1rem;
-    padding-right: 4rem;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
-}
-
-.bislai-home-body-left-container-text {
-    font-size: 3rem;
-    color: var(--black);
-    display: block;
+    vertical-align: middle;
+    height: 125px;
+    padding: 1rem 2rem;
 }
 
 .bislai-icon {
     display: block;
+    width: 32px;
 }
 
 .bislai-home-body-right {
     display: inline-block;
-    width: calc(100% - 36rem);
-    vertical-align: top;
+    background-color: var(--yellow);
+    padding: 5rem;
+    position: absolute;
+    left: 12rem;
+    top: 16rem;
+    max-width: 35rem;
 }
 
 .bislai-home-body-right-text {
