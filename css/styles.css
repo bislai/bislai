@@ -1281,13 +1281,13 @@ path.q2-3 {
 }
 
 .bislai-home-body-right-text {
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1rem;
 
     display: inline-block;
 
     margin: 0;
     margin-bottom: .5rem;
-    padding-left: 1rem;
 }
 
 .hvr-grow {
