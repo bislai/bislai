@@ -720,9 +720,18 @@ path.q2-3 {
         display: inline-block;
         vertical-align: middle;
     }
+    .resultado-izda {
+        width: 75%;
+        display: inline-block;
+        padding: 0;
+    }
     .resultado {
         color: #111;
-        min-width: 48%;
+        min-width: 24%;
+    }
+    .titulo-partido {
+        min-width: 18%;
+        padding: 0;
     }
 }
 
@@ -871,10 +880,10 @@ path.q2-3 {
 .bislai-home-body-right {
     display: inline-block;
     background-color: var(--yellow);
-    padding: 5rem;
+    padding: 2rem;
     position: absolute;
     left: 12rem;
-    top: 16rem;
+    top: 18rem;
     max-width: 35rem;
 }
 
