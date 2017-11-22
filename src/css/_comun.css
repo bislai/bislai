@@ -344,7 +344,7 @@ http://www.tipue.com/search
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: var(--white);
+    background-color: #f1f1f1;
     font-family: var(--fontSystem);
     border-radius: 6px;
     border-top-right-radius: 0;

@@ -668,7 +668,7 @@ http://www.tipue.com/search
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     outline-color: #efb027;
-    background-color: #fff;
+    background-color: #f1f1f1;
 }
 
 .tipue_search_icon {
@@ -1300,6 +1300,7 @@ path.q2-3 {
 
 .hvr-grow {
   display: inline-block;
+
   -webkit-transition-duration: .5s;
   transition-duration: .5s;
   -webkit-transition-property: transform;
@@ -1307,6 +1308,8 @@ path.q2-3 {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   vertical-align: middle;
+
+  box-shadow: 0 0 1px transparent;
 }
 
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
@@ -2575,6 +2578,30 @@ path.q2-3 {
 
 .border-t10 {
     border-top: 10px solid;
+}
+
+.borderc-pp,
+.borderc-psoe,
+.borderc-cs,
+.borderc-ch,
+.borderc-zec {
+    border-left: 10px solid #e30613;
+}
+
+.borderc-cs {
+    border-left-color: #f07a36;
+}
+
+.borderc-pp {
+    border-left-color: #0080b8;
+}
+
+.borderc-ch {
+    border-left-color: #efb027;
+}
+
+.borderc-zec {
+    border-left-color: #9a1622;
 }
 
 .border-radius-2 {
