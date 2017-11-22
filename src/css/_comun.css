@@ -124,11 +124,11 @@ body {
 }
 
 .c3-chart-arc path {
-    stroke: #fff;
+    stroke: var(--white);
 }
 
 .c3-chart-arc text {
-    fill: #fff;
+    fill: var(--white);
     font-size: 13px;
 }
 
@@ -156,11 +156,11 @@ body {
 
 .c3-circle._expanded_ {
     stroke-width: 1px;
-    stroke: #fff;
+    stroke: var(--white);
 }
 
 .c3-selected-circle {
-    fill: #fff;
+    fill: var(--white);
     stroke-width: 2px;
 }
 
@@ -204,7 +204,7 @@ body {
 
 .c3-legend-background {
     opacity: 0.75;
-    fill: #fff;
+    fill: var(--white);
     stroke: #d3d3d3;
     stroke-width: 1;
 }
@@ -220,7 +220,7 @@ body {
 .c3-tooltip {
     border-collapse: collapse;
     border-spacing: 0;
-    background-color: #fff;
+    background-color: var(--white);
     empty-cells: show;
     -webkit-box-shadow: 7px 7px 12px -9px #777;
     -moz-box-shadow: 7px 7px 12px -9px #777;
@@ -237,13 +237,13 @@ body {
     font-size: 14px;
     padding: 2px 5px;
     text-align: left;
-    color: #fff;
+    color: var(--white);
 }
 
 .c3-tooltip td {
     font-size: 13px;
     padding: 3px 6px;
-    background-color: #fff;
+    background-color: var(--white);
     border-left: 1px dotted #999;
 }
 
@@ -344,7 +344,7 @@ http://www.tipue.com/search
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: #fff;
+    background-color: var(--white);
     font-family: var(--fontSystem);
     border-radius: 6px;
     border-top-right-radius: 0;
@@ -471,7 +471,7 @@ http://www.tipue.com/search
 
 #tipue_search_foot_boxes li a {
     padding: 10px 17px 11px;
-    background-color: #fff;
+    background-color: var(--white);
     border: 1px solid #e3e3e3;
     border-radius: 1px;
     color: #333;
@@ -505,7 +505,7 @@ http://www.tipue.com/search
     cursor: pointer;
     background-color: #1b305f;
     path {
-        fill: #fff;
+        fill: var(--white);
     }
     &:hover {
         background-color: var(--chunta);
@@ -527,7 +527,7 @@ http://www.tipue.com/search
     grid-template-columns: repeat(2, minmax(200px, 20%));
     border: 1px solid #000;
     width: 90%;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .input-record {
@@ -542,11 +542,10 @@ http://www.tipue.com/search
 .label-record {
     display: inline-block;
     padding: 1rem 2rem;
-    font-weight: 200;
     text-align: center;
     color: #dce0db;
     border: 1px solid var(--impureGrey);
-    background-color: #fff;
+    background-color: var(--white);
     &:hover {
         color: var(--impureBlack);
         cursor: pointer;
@@ -606,7 +605,7 @@ http://www.tipue.com/search
 }
 
 .map-layer {
-    fill: #fff;
+    fill: var(--white);
     stroke: #aaa;
 }
 
@@ -659,7 +658,7 @@ path.q2-3 {
     min-width: 24rem;
     height: 75vh;
     color: #111;
-    background-color: #fff;
+    background-color: var(--white);
     border-top: 10px solid #2be5cf;
     border-bottom: 10px solid #2be5cf;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
@@ -857,7 +856,7 @@ path.q2-3 {
 }
 
 .bislai-home-body-left-text-white {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1rem 2rem;
     color: var(--white);
     display: inline-block;
@@ -868,7 +867,6 @@ path.q2-3 {
     background-color: var(--yellow);
     display: inline-block;
     vertical-align: middle;
-    height: 125px;
     padding: 1rem 2rem;
 }
 
@@ -880,11 +878,11 @@ path.q2-3 {
 .bislai-home-body-right {
     display: inline-block;
     background-color: var(--yellow);
-    padding: 2rem;
+    padding: 3rem 2rem;
     position: absolute;
     left: 12rem;
-    top: 18rem;
-    max-width: 35rem;
+    top: 15rem;
+    max-width: 30rem;
 }
 
 .bislai-home-body-right-text {

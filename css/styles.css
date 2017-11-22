@@ -886,8 +886,6 @@ http://www.tipue.com/search
 }
 
 .label-record {
-    font-weight: 200;
-
     display: inline-block;
 
     padding: 1rem 2rem;
@@ -1250,7 +1248,7 @@ path.q2-3 {
 }
 
 .bislai-home-body-left-text-white {
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     display: inline-block;
 
@@ -1264,7 +1262,6 @@ path.q2-3 {
 .bislai-home-body-left-container {
     display: inline-block;
 
-    height: 125px;
     padding: 1rem 2rem;
 
     vertical-align: middle;
@@ -1280,13 +1277,13 @@ path.q2-3 {
 
 .bislai-home-body-right {
     position: absolute;
-    top: 18rem;
+    top: 15rem;
     left: 12rem;
 
     display: inline-block;
 
-    max-width: 35rem;
-    padding: 2rem;
+    max-width: 30rem;
+    padding: 3rem 2rem;
 
     background-color: #EFFC11;
 }
