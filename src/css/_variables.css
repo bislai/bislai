@@ -2,8 +2,11 @@
     --fontSystem: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Helvetica Neue", Helvetica, sans-serif;
     --fontBislai: "Fjalla One", sans-serif;
+    --fontRoboto: 'Roboto Condensed', sans-serif;
     --serif: "Georgia", serif;
     --black: #121;
+    --pureblack: #000;
+    --yellow: #EFFC11;
     --grey: #efefef;
     --greyc: #ccc;
     --white: #fff;

@@ -124,11 +124,11 @@ body {
 }
 
 .c3-chart-arc path {
-    stroke: #fff;
+    stroke: var(--white);
 }
 
 .c3-chart-arc text {
-    fill: #fff;
+    fill: var(--white);
     font-size: 13px;
 }
 
@@ -156,11 +156,11 @@ body {
 
 .c3-circle._expanded_ {
     stroke-width: 1px;
-    stroke: #fff;
+    stroke: var(--white);
 }
 
 .c3-selected-circle {
-    fill: #fff;
+    fill: var(--white);
     stroke-width: 2px;
 }
 
@@ -204,7 +204,7 @@ body {
 
 .c3-legend-background {
     opacity: 0.75;
-    fill: #fff;
+    fill: var(--white);
     stroke: #d3d3d3;
     stroke-width: 1;
 }
@@ -220,7 +220,7 @@ body {
 .c3-tooltip {
     border-collapse: collapse;
     border-spacing: 0;
-    background-color: #fff;
+    background-color: var(--white);
     empty-cells: show;
     -webkit-box-shadow: 7px 7px 12px -9px #777;
     -moz-box-shadow: 7px 7px 12px -9px #777;
@@ -237,13 +237,13 @@ body {
     font-size: 14px;
     padding: 2px 5px;
     text-align: left;
-    color: #fff;
+    color: var(--white);
 }
 
 .c3-tooltip td {
     font-size: 13px;
     padding: 3px 6px;
-    background-color: #fff;
+    background-color: var(--white);
     border-left: 1px dotted #999;
 }
 
@@ -344,7 +344,7 @@ http://www.tipue.com/search
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: #fff;
+    background-color: #f1f1f1;
     font-family: var(--fontSystem);
     border-radius: 6px;
     border-top-right-radius: 0;
@@ -471,7 +471,7 @@ http://www.tipue.com/search
 
 #tipue_search_foot_boxes li a {
     padding: 10px 17px 11px;
-    background-color: #fff;
+    background-color: var(--white);
     border: 1px solid #e3e3e3;
     border-radius: 1px;
     color: #333;
@@ -505,7 +505,7 @@ http://www.tipue.com/search
     cursor: pointer;
     background-color: #1b305f;
     path {
-        fill: #fff;
+        fill: var(--white);
     }
     &:hover {
         background-color: var(--chunta);
@@ -527,7 +527,7 @@ http://www.tipue.com/search
     grid-template-columns: repeat(2, minmax(200px, 20%));
     border: 1px solid #000;
     width: 90%;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .input-record {
@@ -542,11 +542,10 @@ http://www.tipue.com/search
 .label-record {
     display: inline-block;
     padding: 1rem 2rem;
-    font-weight: 200;
     text-align: center;
     color: #dce0db;
     border: 1px solid var(--impureGrey);
-    background-color: #fff;
+    background-color: var(--white);
     &:hover {
         color: var(--impureBlack);
         cursor: pointer;
@@ -606,7 +605,7 @@ http://www.tipue.com/search
 }
 
 .map-layer {
-    fill: #fff;
+    fill: var(--white);
     stroke: #aaa;
 }
 
@@ -659,7 +658,7 @@ path.q2-3 {
     min-width: 24rem;
     height: 75vh;
     color: #111;
-    background-color: #fff;
+    background-color: var(--white);
     border-top: 10px solid #2be5cf;
     border-bottom: 10px solid #2be5cf;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .18);
@@ -720,9 +719,18 @@ path.q2-3 {
         display: inline-block;
         vertical-align: middle;
     }
+    .resultado-izda {
+        width: 75%;
+        display: inline-block;
+        padding: 0;
+    }
     .resultado {
         color: #111;
-        min-width: 48%;
+        min-width: 24%;
+    }
+    .titulo-partido {
+        min-width: 18%;
+        padding: 0;
     }
 }
 
@@ -800,21 +808,24 @@ path.q2-3 {
 }
 
 .bisla-home-body {
-    max-width: 1024px;
     margin: 0 auto;
-    padding-top: 7rem;
     font-size: 0;
+    max-height: calc(100vh - 5rem);
 }
 
 .bislai-home-body-left {
-    width: 36rem;
+    width: 100%;
     display: inline-block;
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .bislai-home-body-img {
     width: 100%;
     max-width: 100%;
+    max-height: calc(100vh - 5rem);
+    object-fit: cover;
 }
 
 .bisla-home-body-left-gradient {
@@ -823,53 +834,61 @@ path.q2-3 {
     left: 0;
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
     opacity: .5;
-    width: 36rem;
+    width: 100%;
     height: 100%;
 }
 
 .bislai-home-body-left-text {
     position: absolute;
-    bottom: 2rem;
+    top: 5rem;
     left: 12rem;
-    width: 100%;
-    white-space: nowrap;
+    background-color: var(--pureblack);
+    &:hover {
+        .bislai-home-body-left-text-white {
+            color: var(--impureBlack);
+            transition: all 1s ease-in;
+        }
+        .line-throught {
+            text-decoration: line-through;
+            color: var(--white);
+        }
+    }
 }
 
 .bislai-home-body-left-text-white {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
     color: var(--white);
     display: inline-block;
-    padding-right: 1rem;
+    vertical-align: middle;
 }
 
 .bislai-home-body-left-container {
-    background-color: var(--white);
+    background-color: var(--yellow);
     display: inline-block;
-    padding: 1rem;
-    padding-right: 4rem;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
-}
-
-.bislai-home-body-left-container-text {
-    font-size: 3rem;
-    color: var(--black);
-    display: block;
+    vertical-align: middle;
+    padding: 1rem 2rem;
 }
 
 .bislai-icon {
     display: block;
+    width: 32px;
 }
 
 .bislai-home-body-right {
     display: inline-block;
-    width: calc(100% - 36rem);
-    vertical-align: top;
+    background-color: var(--yellow);
+    padding: 3rem 2rem;
+    position: absolute;
+    left: 12rem;
+    top: 15rem;
+    max-width: 30rem;
 }
 
 .bislai-home-body-right-text {
     display: inline-block;
     font-size: 1rem;
-    padding-left: 1rem;
+    font-family: var(--fontRoboto);
     margin: 0;
     margin-bottom: .5rem;
 }
@@ -888,4 +907,20 @@ path.q2-3 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.tooltip-title {
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--fontSystem);
+    border-left: 10px solid #2be5cf;
+    border-right: 10px solid #2be5cf;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    color: #000;
+    background-color: var(--white);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
 }
