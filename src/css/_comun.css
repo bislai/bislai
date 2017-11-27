@@ -924,3 +924,7 @@ path.q2-3 {
     left: 5%;
     z-index: 2;
 }
+
+.partido-card {
+    background-color: #ccc;
+}

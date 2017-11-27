@@ -1337,6 +1337,10 @@ path.q2-3 {
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
+.partido-card {
+    background-color: #ccc;
+}
+
 .maw-70 {
   max-width: 70rem;
   margin: 0 auto;
