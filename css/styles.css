@@ -1337,8 +1337,55 @@ path.q2-3 {
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
+.partido {
+    background-color: #fafafa;
+}
+
+.partido-container {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
 .partido-card {
+    width: 32rem;
+    height: 18rem;
+    margin: 6rem 0;
+
+    border-radius: 10px;
     background-color: #ccc;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.partido-card:hover {
+  background-color: #000;
+}
+
+.partido-card-top {
+    position: absolute;
+    top: 6rem;
+    left: 12rem;
+
+    width: 20rem;
+    padding: 2rem 1rem;
+
+    border-bottom: 5px solid #0080b8;
+    background-color: #fff;
+}
+
+.partido-card-top:hover {
+  top: 5.5rem;
+  transition: all .3s ease-in;
+}
+
+.partido-card-title {
+    font-size: 2.5rem;
+
+    margin: 0;
+}
+
+.partido-card-votos,
+.partido-card-concejales {
+    font-size: 1rem;
 }
 
 .maw-70 {

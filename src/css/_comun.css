@@ -925,6 +925,47 @@ path.q2-3 {
     z-index: 2;
 }
 
+.partido {
+    background-color: #fafafa;
+}
+
+.partido-container {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
 .partido-card {
     background-color: #ccc;
+    width: 32rem;
+    height: 18rem;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    margin: 6rem 0;
+    border-radius: 10px;
+    &:hover {
+        background-color: #000;
+    }
+}
+
+.partido-card-top {
+    position: absolute;
+    background-color: #fff;
+    width: 20rem;
+    padding: 2rem 1rem;
+    left: 12rem;
+    top: 6rem;
+    border-bottom: 5px solid var(--pp);
+    &:hover {
+        top: 5.5rem;
+        transition: all .3s ease-in;
+    }
+}
+
+.partido-card-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.partido-card-votos,
+.partido-card-concejales {
+    font-size: 1rem;
 }
