@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Tipue Search Static Mode Demo</title>
+    <title>Bislai - Resultados de búsqueda </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/tipuesearch_content.js"></script>
@@ -43,6 +43,7 @@
     $(document).ready(function() {
         $('#tipue_search_input').tipuesearch({
             'minimumLength': 2,
+            'showURL': false,
             'contextBuffer': 360
         });
     });

@@ -720,10 +720,15 @@ http://www.tipue.com/search
     color: #666;
 }
 
+.tipue_search_content_title:not(:first-child) {
+  padding: 0.63rem 0;
+  border-top: 1px solid #ccc;
+}
+
 .tipue_search_content_title a {
     text-decoration: none;
 
-    color: #666;
+    color: #000;
 }
 
 .tipue_search_content_title a:hover {
@@ -750,7 +755,7 @@ http://www.tipue.com/search
 }
 
 .tipue_search_content_text {
-    margin-top: 5px;
+    margin-top: 8px;
 
     word-wrap: break-word;
     hyphens: auto;
@@ -1385,13 +1390,15 @@ path.q2-3 {
     width: 25rem;
     padding: 2rem 1rem;
 
+    transition: all .3s ease-in;
+
     border-bottom: 5px solid #0080b8;
     background-color: #fff;
+    box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
 }
 
 .partido-card-top:hover {
   top: 5.5rem;
-  transition: all .3s ease-in;
 }
 
 .partido-card-top-zec {
