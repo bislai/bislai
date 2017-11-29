@@ -856,6 +856,9 @@ path.q2-3 {
             text-decoration: line-through;
             color: var(--white);
         }
+        .bislai-home-body-left-container {
+            transform: scaleX(1);
+        }
     }
 }
 
@@ -872,6 +875,9 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     padding: 1rem 2rem;
+    transform-origin: right;
+    transition: transform .3s ease-in-out;
+    transform: scaleX(0);
 }
 
 .bislai-icon {
@@ -948,7 +954,6 @@ path.q2-3 {
     text-decoration: none;
     color: var(--black);
     &:hover {
-        background-color: #000;
         .partido-card-bg {
             transform: scaleX(1);
         }

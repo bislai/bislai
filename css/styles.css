@@ -1252,6 +1252,10 @@ path.q2-3 {
   color: #fff;
 }
 
+.bislai-home-body-left-text:hover .bislai-home-body-left-container {
+  transform: scaleX(1);
+}
+
 .bislai-home-body-left-text-white {
     font-size: 2.5rem;
 
@@ -1269,6 +1273,9 @@ path.q2-3 {
 
     padding: 1rem 2rem;
 
+    transition: transform .3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: right;
     vertical-align: middle;
 
     background-color: #EFFC11;
@@ -1363,10 +1370,6 @@ path.q2-3 {
     color: #121;
     background-color: #ccc;
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-}
-
-.partido-card:hover {
-  background-color: #000;
 }
 
 .partido-card:hover .partido-card-bg {
