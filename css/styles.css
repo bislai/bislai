@@ -1619,6 +1619,10 @@ path.q2-3 {
       max-width: 60vw;
       margin: 0 auto;
     }
+    .maw-70 {
+      max-width: 70vw;
+      margin: 0 auto;
+    }
 
 }
 
@@ -2127,9 +2131,6 @@ path.q2-3 {
   .margin-b1--m {
     margin-bottom: 1rem;
   }
-  .margin-b2--m {
-    margin-bottom: 2rem;
-  }
   .margin-r1--m {
     margin-right: 1rem;
   }
@@ -2143,6 +2144,9 @@ path.q2-3 {
   .margin-y1--m {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .margin-b2--m {
+    margin-bottom: 2rem;
   }
   .margin-y2--m {
     margin-top: 2rem;
