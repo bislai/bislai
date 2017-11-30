@@ -346,9 +346,7 @@ http://www.tipue.com/search
     height: 48px;
     background-color: #f1f1f1;
     font-family: var(--fontSystem);
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
     border: 1px solid #1b305f;
     border-right: 0;
 }
@@ -502,9 +500,7 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
     border: 1px solid #1b305f;
     cursor: pointer;
     background-color: #1b305f;
