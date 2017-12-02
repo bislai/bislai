@@ -1,39 +1,50 @@
 {
-  "name": "jorgeatgu-init",
+  "name": "base",
   "version": "2.0.0",
-  "description": "Base para cualquier proyecto de Jorge Aznar, front/design en Zaragoza ⦉ http://jorgeatgu.com ⦊",
+  "description": "Base para cualquier proyecto de Jorge Aznar, front/designer en Zaragoza ⦉ http://jorgeatgu.com ⦊",
   "main": "gulpfile.js",
-  "repository": {
-    "type": "git"
-  },
+  "repository": "jorgeatgu/base",
   "keywords": [
-    "Base",
-    "postcss"
+    "css",
+    "postcss",
+    "gulp",
+    "init"
   ],
   "author": "Jorge Aznar",
+  "lint-staged": {
+    "src/css/*.css": "stylelint"
+  },
+  "pre-commit": "lint-staged",
   "scripts": {
-    "server-on": "browser-sync start --server --files '*.css, *.html' --tunnel jorgeatgu"
+    "server-on": "browser-sync start --server --files '*.css, *.html' --tunnel jorgeatgu",
+    "lint-staged": "lint-staged",
+    "inline:css": "gulp inline",
+    "remove:uncss": "gulp remove"
   },
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.18.5",
-    "devbridge-perf-tool": "^0.1.39",
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-cssnano": "^2.1.2",
-    "gulp-imagemin": "^3.1.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inline-source": "^3.1.0",
     "gulp-newer": "^1.3.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-postcss": "^6.2.0",
-    "gulp-sourcemaps": "^2.2.0",
-    "gulp-uglify": "^2.0.0",
-    "postcss-custom-properties": "^5.0.1",
-    "postcss-custom-selectors": "^3.0.0",
-    "postcss-import": "^9.0.0",
-    "postcss-nested": "^1.0.0",
-    "postcss-pxtorem": "^3.3.1",
-    "postcss-reporter": "^3.0.0",
-    "postcss-sorting": "^1.7.0",
-    "stylelint": "^7.7.0"
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6",
+    "gulp-webp": "^2.3.0",
+    "lint-staged": "^4.0.2",
+    "postcss-custom-properties": "^6.1.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.4",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-reporter": "^4.0.0",
+    "postcss-sorting": "^3.0.1",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^8.0.0"
   }
 }
