@@ -664,9 +664,7 @@ http://www.tipue.com/search
     border: 0;
     border: 1px solid #1b305f;
     border-right: 0;
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
     outline-color: #efb027;
     background-color: #f1f1f1;
 }
@@ -720,10 +718,15 @@ http://www.tipue.com/search
     color: #666;
 }
 
+.tipue_search_content_title:not(:first-child) {
+  padding: 0.63rem 0;
+  border-top: 1px solid #ccc;
+}
+
 .tipue_search_content_title a {
     text-decoration: none;
 
-    color: #666;
+    color: #000;
 }
 
 .tipue_search_content_title a:hover {
@@ -750,7 +753,7 @@ http://www.tipue.com/search
 }
 
 .tipue_search_content_text {
-    margin-top: 5px;
+    margin-top: 8px;
 
     word-wrap: break-word;
     hyphens: auto;
@@ -837,9 +840,7 @@ http://www.tipue.com/search
 
     border: 0;
     border: 1px solid #1b305f;
-    border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
     background-color: #1b305f;
 }
 
@@ -1247,6 +1248,10 @@ path.q2-3 {
   color: #fff;
 }
 
+.bislai-home-body-left-text:hover .bislai-home-body-left-container {
+  transform: scaleX(1);
+}
+
 .bislai-home-body-left-text-white {
     font-size: 2.5rem;
 
@@ -1264,6 +1269,9 @@ path.q2-3 {
 
     padding: 1rem 2rem;
 
+    transition: transform .3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: right;
     vertical-align: middle;
 
     background-color: #EFFC11;
@@ -1335,6 +1343,124 @@ path.q2-3 {
     border-left: 10px solid #2be5cf;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.partido {
+    background-color: #fafafa;
+}
+
+.partido-container {
+    overflow: hidden;
+
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.partido-card {
+    width: 40rem;
+    height: 18rem;
+    margin: 2rem 0 5rem;
+
+    text-decoration: none;
+
+    color: #121;
+    background-color: #ccc;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.partido-card:hover .partido-card-bg {
+  transform: scaleX(1);
+}
+
+.partido-card:hover .partido-card-top {
+  top: 5.5rem;
+  border-width: 10px;
+}
+
+.partido-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    transition: transform .5s ease-in;
+    transform: scaleX(0);
+    transform-origin: right;
+
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.partido-card-left {
+    transform-origin: left;
+}
+
+.partido-card-zec {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.partido-card-psoe {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.partido-card-cs {
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.partido-card-cha {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.partido-card-top {
+    position: absolute;
+    top: 6rem;
+    left: 15rem;
+
+    width: 25rem;
+    padding: 2rem 1rem;
+
+    transition: all .3s ease-in;
+
+    border-bottom: 5px solid #0080b8;
+    background-color: #fff;
+    box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
+}
+
+.partido-card-top-zec {
+    border-bottom: 5px solid #9a1622;
+}
+
+.partido-card-top-psoe {
+    border-bottom: 5px solid #e30613;
+}
+
+.partido-card-top-cs {
+    border-bottom: 5px solid #f07a36;
+}
+
+.partido-card-top-cha {
+    border-bottom: 5px solid #efb027;
+}
+
+.partido-card-right {
+    float: right;
+}
+
+.partido-card-top-right {
+    left: -9rem;
+}
+
+.partido-card-title {
+    font-size: 2.5rem;
+    font-weight: normal;
+
+    margin: 0;
+}
+
+.partido-card-votos,
+.partido-card-concejales {
+    font-size: 1rem;
 }
 
 .maw-70 {
@@ -1491,6 +1617,10 @@ path.q2-3 {
     }
     .maw-60 {
       max-width: 60vw;
+      margin: 0 auto;
+    }
+    .maw-70 {
+      max-width: 70vw;
       margin: 0 auto;
     }
 
@@ -2001,9 +2131,6 @@ path.q2-3 {
   .margin-b1--m {
     margin-bottom: 1rem;
   }
-  .margin-b2--m {
-    margin-bottom: 2rem;
-  }
   .margin-r1--m {
     margin-right: 1rem;
   }
@@ -2017,6 +2144,9 @@ path.q2-3 {
   .margin-y1--m {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .margin-b2--m {
+    margin-bottom: 2rem;
   }
   .margin-y2--m {
     margin-top: 2rem;

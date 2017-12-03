@@ -346,9 +346,7 @@ http://www.tipue.com/search
     height: 48px;
     background-color: #f1f1f1;
     font-family: var(--fontSystem);
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
     border: 1px solid #1b305f;
     border-right: 0;
 }
@@ -396,10 +394,14 @@ http://www.tipue.com/search
 .tipue_search_content_title {
     color: #666;
     margin-top: 21px;
+    &:not(:first-child) {
+        border-top: 1px solid #ccc;
+        padding: 10px 0;
+    }
 }
 
 .tipue_search_content_title a {
-    color: #666;
+    color: #000;
     text-decoration: none;
 }
 
@@ -429,7 +431,7 @@ http://www.tipue.com/search
     color: #333;
     word-wrap: break-word;
     hyphens: auto;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .tipue_search_content_bold {
@@ -498,9 +500,7 @@ http://www.tipue.com/search
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
     border: 1px solid #1b305f;
     cursor: pointer;
     background-color: #1b305f;
@@ -852,6 +852,9 @@ path.q2-3 {
             text-decoration: line-through;
             color: var(--white);
         }
+        .bislai-home-body-left-container {
+            transform: scaleX(1);
+        }
     }
 }
 
@@ -868,6 +871,9 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     padding: 1rem 2rem;
+    transform-origin: right;
+    transition: transform .3s ease-in-out;
+    transform: scaleX(0);
 }
 
 .bislai-icon {
@@ -923,4 +929,112 @@ path.q2-3 {
     top: 5%;
     left: 5%;
     z-index: 2;
+}
+
+.partido {
+    background-color: #fafafa;
+}
+
+.partido-container {
+    max-width: 64rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.partido-card {
+    background-color: #ccc;
+    width: 40rem;
+    height: 18rem;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    margin: 2rem 0 5rem;
+    text-decoration: none;
+    color: var(--black);
+    &:hover {
+        .partido-card-bg {
+            transform: scaleX(1);
+        }
+        .partido-card-top {
+            top: 5.5rem;
+            border-width: 10px;
+        }
+    }
+}
+
+.partido-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s ease-in;
+}
+
+.partido-card-left {
+    transform-origin: left;
+}
+
+.partido-card-zec {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.partido-card-psoe {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.partido-card-cs {
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.partido-card-cha {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.partido-card-top {
+    position: absolute;
+    background-color: #fff;
+    width: 25rem;
+    padding: 2rem 1rem;
+    left: 15rem;
+    top: 6rem;
+    border-bottom: 5px solid var(--pp);
+    box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
+    transition: all .3s ease-in;
+}
+
+.partido-card-top-zec {
+    border-bottom: 5px solid var(--zec);
+}
+
+.partido-card-top-psoe {
+    border-bottom: 5px solid var(--psoe);
+}
+
+.partido-card-top-cs {
+    border-bottom: 5px solid var(--ciudadanos);
+}
+
+.partido-card-top-cha {
+    border-bottom: 5px solid var(--chunta);
+}
+
+.partido-card-right {
+    float: right;
+}
+
+.partido-card-top-right {
+    left: -9rem;
+}
+
+.partido-card-title {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: normal;
+}
+
+.partido-card-votos,
+.partido-card-concejales {
+    font-size: 1rem;
 }
