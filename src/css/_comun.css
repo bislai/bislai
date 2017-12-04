@@ -712,6 +712,7 @@ path.q2-3 {
     }
 }
 
+/* stylelint-disable */
 .tooltipLeyenda,
 .tooltipPartido {
     span {
@@ -744,6 +745,8 @@ path.q2-3 {
     }
 }
 
+/* stylelint-enable */
+
 .container-tooltip-leyenda {
     border-bottom: 1px solid #ccc;
     padding: 16px;
@@ -753,6 +756,7 @@ path.q2-3 {
     padding: 16px;
 }
 
+/* stylelint-disable */
 .tooltipLeyenda {
     font-family: var(--fontSystem);
     font-weight: bold;
@@ -763,6 +767,7 @@ path.q2-3 {
         display: none;
     }
 }
+/* stylelint-enable */
 
 .mapa-container {
     position: relative;
@@ -894,7 +899,7 @@ path.q2-3 {
 .bislai-home-body-right-text {
     display: inline-block;
     font-size: 1rem;
-    font-family: var(--fontRoboto);
+    font-family: var(--fonttext);
     margin: 0;
     margin-bottom: .5rem;
 }
@@ -910,7 +915,10 @@ path.q2-3 {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -1037,4 +1045,24 @@ path.q2-3 {
 .partido-card-votos,
 .partido-card-concejales {
     font-size: 1rem;
+}
+
+.estadisticas-photo {
+    max-width: 65%;
+}
+
+.estadisticas-text {
+    width: 34%;
+    vertical-align: top;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.estadisticas-title {
+    position: relative;
+    left: -10rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 3rem;
+    white-space: nowrap;
 }
