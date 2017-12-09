@@ -1,0 +1,17 @@
+{
+  "ciudad": "Zaragoza",
+  "mociones": [
+    {
+      "fecha": "29-05-2015",
+      "presentada": "PP",
+      "resultado": "ganada",
+      "a_favor": "PP + PSOE + CHA",
+      "en_contra": "ZEC + C'S",
+      "abstencion":,
+      "votos_contra": 21,
+      "votos_favor": 10,
+      "votos_abstencion": ,
+      "unanimidad":
+    }
+  ]
+}
