@@ -130,5 +130,44 @@
         "votos_abstencion": ,
         "unanimidad": ,
         "numero": 39
+    },
+    {
+        "fecha": "02-10-2015",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": ,
+        "abstencion": "PP" ,
+        "votos_contra": ,
+        "votos_favor": 21,
+        "votos_abstencion": 10,
+        "unanimidad": ,
+        "numero": 2
+    },
+    {
+        "fecha": "02-10-2015",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "abstencion": ,
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 3
+    },
+    {
+        "fecha": "02-10-2015",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "abstencion": ,
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 3
     }]
 }
