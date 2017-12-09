@@ -1,17 +1,134 @@
 {
-  "ciudad": "Zaragoza",
-  "mociones": [
+    "ciudad": "Zaragoza",
+    "mociones": [
     {
-      "fecha": "29-05-2015",
-      "presentada": "PP",
-      "resultado": "ganada",
-      "a_favor": "PP + PSOE + CHA",
-      "en_contra": "ZEC + C'S",
-      "abstencion":,
-      "votos_contra": 21,
-      "votos_favor": 10,
-      "votos_abstencion": ,
-      "unanimidad":
-    }
-  ]
+        "fecha": "27-07-2015",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + PSOE + C'S + CHA",
+        "en_contra": ,
+        "abstencion": ,
+        "votos_contra": 31,
+        "votos_favor": ,
+        "votos_abstencion": ,
+        "unanimidad": "si",
+        "numero": 30
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "ZEC",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + PSOE + CHA",
+        "en_contra": ,
+        "abstencion": "C'S",
+        "votos_contra": ,
+        "votos_favor": 25,
+        "votos_abstencion": 4,
+        "unanimidad": ,
+        "numero": 31
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PP",
+        "resultado": "retirada",
+        "a_favor": ,
+        "en_contra": ,
+        "abstencion": ,
+        "votos_contra": ,
+        "votos_favor": ,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 32
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PP",
+        "resultado": "perdida",
+        "a_favor": "PP + C'S",
+        "en_contra": "ZEC + PSOE + CHA",
+        "abstencion": ,
+        "votos_contra": 16,
+        "votos_favor": 13,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 33
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + CHA",
+        "en_contra": "ZEC + C'S",
+        "abstencion": ,
+        "votos_contra": 12,
+        "votos_favor": 17,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 34
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP + C'S",
+        "abstencion": ,
+        "votos_contra": 13,
+        "votos_favor": 16,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 35
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP + C'S",
+        "abstencion": ,
+        "votos_contra": 13,
+        "votos_favor": 16,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 36
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PSOE",
+        "resultado": "retirada",
+        "a_favor": ,
+        "en_contra": ,
+        "abstencion": ,
+        "votos_contra": ,
+        "votos_favor": ,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 37
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + CHA",
+        "en_contra": "ZEC + C'S",
+        "abstencion": ,
+        "votos_contra": 12,
+        "votos_favor": 17,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 38
+    },
+    {
+        "fecha": "27-07-2015",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC + CHA",
+        "abstencion": ,
+        "votos_contra": 10,
+        "votos_favor": 19,
+        "votos_abstencion": ,
+        "unanimidad": ,
+        "numero": 39
+    }]
 }
