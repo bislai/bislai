@@ -812,42 +812,49 @@ path.q2-3 {
     background-repeat: repeat;
 }
 
-.bisla-home-body {
-    margin: 0 auto;
-    font-size: 0;
-    max-height: calc(100vh - 5rem);
+.bislai-home-body-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .bislai-home-body-left {
     width: 100%;
     display: inline-block;
-    position: relative;
-    top: 0;
-    left: 0;
+
 }
 
 .bislai-home-body-img {
     width: 100%;
     max-width: 100%;
-    max-height: calc(100vh - 5rem);
     object-fit: cover;
+    position: relative;
+    height: 100vh;
 }
 
 .bisla-home-body-left-gradient {
     position: absolute;
+    z-index: 100;
     top: 0;
     left: 0;
     background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
     opacity: .5;
     width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
+.bislai-home-body-text {
+    align-self: center;
+    justify-self: center;
+}
+
 .bislai-home-body-left-text {
-    position: absolute;
-    top: 5rem;
-    left: 12rem;
     background-color: var(--pureblack);
+    width: 33rem;
     &:hover {
         .bislai-home-body-left-text-white {
             color: var(--impureBlack);
@@ -856,9 +863,6 @@ path.q2-3 {
         .line-throught {
             text-decoration: line-through;
             color: var(--white);
-        }
-        .bislai-home-body-left-container {
-            transform: scaleX(1);
         }
     }
 }
@@ -869,16 +873,14 @@ path.q2-3 {
     color: var(--white);
     display: inline-block;
     vertical-align: middle;
+    max-width: 27rem;
 }
 
 .bislai-home-body-left-container {
-    background-color: var(--yellow);
     display: inline-block;
     vertical-align: middle;
     padding: 1rem 2rem;
-    transform-origin: right;
-    transition: transform .3s ease-in-out;
-    transform: scaleX(0);
+    background-color: var(--yellow);
 }
 
 .bislai-icon {
@@ -888,18 +890,15 @@ path.q2-3 {
 
 .bislai-home-body-right {
     display: inline-block;
-    background-color: var(--yellow);
     padding: 3rem 2rem;
-    position: absolute;
-    left: 12rem;
-    top: 15rem;
-    max-width: 30rem;
+    background-color: var(--yellow);
+    max-width: 33rem;
+    margin-top: 3rem;
 }
 
 .bislai-home-body-right-text {
     display: inline-block;
     font-size: 1rem;
-    font-family: var(--fonttext);
     margin: 0;
     margin-bottom: .5rem;
 }
