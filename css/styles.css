@@ -1354,20 +1354,27 @@ path.q2-3 {
     font-size: 1rem;
 }
 
-.estadisticas-photo {
-    max-width: 65%;
+.estadisticas-grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+}
+
+.estadisticas-container {
+    height: 100vh;
 }
 
 .estadisticas-text {
-    width: 34%;
-    vertical-align: top;
-    display: inline-block;
     padding: 1rem 2rem;
+}
+
+.estadisticas-photo {
+    max-width: 100%;
+    width: 100%;
 }
 
 .estadisticas-title {
     position: relative;
-    left: -10rem;
     background-color: #000;
     color: #fff;
     padding: 1rem 3rem;
