@@ -1,16 +1,10 @@
-{
-    "ciudad": "Zaragoza",
-    "mociones": [
+var mociones = [
     {
         "fecha": "27-07-2015",
         "presentada": "C'S",
         "resultado": "ganada",
         "a_favor": "PP + ZEC + PSOE + C'S + CHA",
-        "en_contra": ,
-        "abstencion": ,
         "votos_contra": 31,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 30
     },
@@ -19,25 +13,15 @@
         "presentada": "ZEC",
         "resultado": "ganada",
         "a_favor": "PP + ZEC + PSOE + CHA",
-        "en_contra": ,
         "abstencion": "C'S",
-        "votos_contra": ,
         "votos_favor": 25,
         "votos_abstencion": 4,
-        "unanimidad": ,
         "numero": 31
     },
     {
         "fecha": "27-07-2015",
         "presentada": "PP",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 32
     },
     {
@@ -46,11 +30,8 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 16,
         "votos_favor": 13,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 33
     },
     {
@@ -59,11 +40,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + CHA",
         "en_contra": "ZEC + C'S",
-        "abstencion": ,
         "votos_contra": 12,
         "votos_favor": 17,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 34
     },
     {
@@ -72,11 +50,8 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA",
         "en_contra": "PP + C'S",
-        "abstencion": ,
         "votos_contra": 13,
         "votos_favor": 16,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 35
     },
     {
@@ -85,24 +60,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA",
         "en_contra": "PP + C'S",
-        "abstencion": ,
         "votos_contra": 13,
         "votos_favor": 16,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 36
     },
     {
         "fecha": "27-07-2015",
         "presentada": "PSOE",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 37
     },
     {
@@ -111,11 +76,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + CHA",
         "en_contra": "ZEC + C'S",
-        "abstencion": ,
         "votos_contra": 12,
         "votos_favor": 17,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 38
     },
     {
@@ -124,11 +86,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S",
         "en_contra": "ZEC + CHA",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 19,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 39
     },
     {
@@ -136,12 +95,8 @@
         "presentada": "PSOE",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
-        "en_contra": ,
-        "abstencion": "PP" ,
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 2
     },
     {
@@ -150,23 +105,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 3
     },
     {
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra":,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 32
     },
@@ -174,12 +120,6 @@
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 33
     },
@@ -187,12 +127,6 @@
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 34
     },
@@ -200,12 +134,6 @@
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 4
     },
@@ -213,25 +141,12 @@
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 5
     },
     {
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 6
     },
@@ -241,11 +156,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S",
         "en_contra": "ZEC + CHA",
-        "abstencion": ,
         "votos_contra": 11,
         "votos_favor": 18,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 7
     },
     {
@@ -254,11 +166,8 @@
         "resultado": "perdida",
         "a_favor": "PP  + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 13,
         "votos_favor": 16,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 8
     },
     {
@@ -271,7 +180,6 @@
         "votos_contra": 2,
         "votos_favor": 18,
         "votos_abstencion": 9,
-        "unanimidad": ,
         "numero": 9
     },
     {
@@ -284,7 +192,6 @@
         "votos_contra": 2,
         "votos_favor": 18,
         "votos_abstencion": 9,
-        "unanimidad": ,
         "numero": 10
     },
     {
@@ -292,12 +199,9 @@
         "presentada": "C'S",
         "resultado": "ganada",
         "a_favor": "PP + ZEC + PSOE + C'S",
-        "en_contra": ,
         "abstencion": "CHA",
-        "votos_contra": ,
         "votos_favor": 27,
         "votos_abstencion": 2,
-        "unanimidad": ,
         "numero": 11
     },
     {
@@ -310,7 +214,6 @@
         "votos_contra": 9,
         "votos_favor": 11,
         "votos_abstencion": 9,
-        "unanimidad": ,
         "numero": 12
     },
     {
@@ -319,23 +222,14 @@
         "resultado": "perdida",
         "a_favor": "ZEC + CHA",
         "en_contra": "PP + PSOE + C'S",
-        "abstencion": ,
         "votos_contra": 20,
         "votos_favor": 11,
-        "votos_abstencion":,
-        "unanimidad": ,
         "numero": 13
     },
     {
         "fecha": "02-10-2015",
         "presentada": "ZEC",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion":,
         "unanimidad": "si",
         "numero": 14
     },
@@ -349,7 +243,6 @@
         "votos_contra": 10,
         "votos_favor": 17,
         "votos_abstencion": 4,
-        "unanimidad": ,
         "numero": 142
     },
     {
@@ -358,23 +251,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion":,
-        "unanimidad": ,
         "numero": 143
     },
     {
         "fecha": "02-10-2015",
         "presentada": "ZEC",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion":,
         "unanimidad": "si",
         "numero": 144
     },
@@ -382,12 +266,6 @@
         "fecha": "02-10-2015",
         "presentada": "ZEC",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion":,
         "unanimidad": "si",
         "numero": 145
     },
@@ -396,38 +274,21 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad":,
         "numero": 15
     },
     {
         "fecha": "02-10-2015",
         "presentada": "C'S",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 16
     },
     {
         "fecha": "02-10-2015",
         "presentada": "CHA",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 17
     },
     {
@@ -440,19 +301,12 @@
         "votos_contra": 9,
         "votos_favor": 18,
         "votos_abstencion": 4,
-        "unanimidad":,
         "numero": 18
     },
     {
         "fecha": "02-10-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 19
     },
@@ -462,11 +316,8 @@
         "resultado": "perdida",
         "a_favor": "PP",
         "en_contra": "ZEC  + PSOE + C'S + CHA",
-        "abstencion": ,
         "votos_contra": 21,
         "votos_favor": 10,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 20
     },
     {
@@ -475,11 +326,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S + CHA",
         "en_contra": "ZEC",
-        "abstencion": ,
         "votos_contra": 9,
         "votos_favor": 22,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 2
     },
     {
@@ -492,32 +340,18 @@
         "votos_contra": 11,
         "votos_favor": 10,
         "votos_abstencion": 10,
-        "unanimidad":,
         "numero": 3
     },
     {
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 4
     },
     {
         "fecha": "30-10-2015",
         "presentada": "C'S",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 5
     },
@@ -525,12 +359,6 @@
         "fecha": "30-10-2015",
         "presentada": "C'S",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 6
     },
@@ -538,13 +366,6 @@
         "fecha": "30-10-2015",
         "presentada": "C'S",
         "resultado": "retirada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 7
     },
     {
@@ -553,23 +374,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 8
     },
     {
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 9
     },
@@ -577,12 +389,6 @@
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 92
     },
@@ -590,12 +396,6 @@
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 93
     },
@@ -605,11 +405,8 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 17,
         "votos_favor": 14,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 94
     },
     {
@@ -618,23 +415,14 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 17,
         "votos_favor": 14,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 95
     },
     {
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 96
     },
@@ -642,12 +430,6 @@
         "fecha": "30-10-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 97
     },
@@ -657,23 +439,14 @@
         "resultado": "perdida",
         "a_favor": "PP",
         "en_contra": "ZEC + PSOE + C'S + CHA",
-        "abstencion": ,
         "votos_contra": 21,
         "votos_favor": 10,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 10
     },
     {
         "fecha": "30-10-2015",
         "presentada": "C'S",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 11
     },
@@ -683,23 +456,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 12
     },
     {
         "fecha": "30-10-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 122
     },
@@ -707,12 +471,6 @@
         "fecha": "30-10-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 123
     },
@@ -722,11 +480,8 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 13
     },
     {
@@ -735,11 +490,8 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 14
     },
     {
@@ -752,7 +504,6 @@
         "votos_contra": 9,
         "votos_favor": 18,
         "votos_abstencion": 4,
-        "unanimidad":,
         "numero": 15
     },
     {
@@ -761,11 +512,8 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 18,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 16
     },
     {
@@ -778,20 +526,12 @@
         "votos_contra": 10,
         "votos_favor": 15,
         "votos_abstencion": 6,
-        "unanimidad":,
         "numero": 162
     },
     {
         "fecha": "30-10-2015",
         "presentada": "ZEC",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 17
     },
     {
@@ -804,20 +544,12 @@
         "votos_contra": 13,
         "votos_favor": 8,
         "votos_abstencion": 10,
-        "unanimidad":,
         "numero": 18
     },
     {
         "fecha": "30-10-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 19
     },
     {
@@ -826,11 +558,8 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 17,
         "votos_favor": 14,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 2
     },
     {
@@ -843,19 +572,12 @@
         "votos_contra": 17,
         "votos_favor": 10,
         "votos_abstencion": 4,
-        "unanimidad":,
         "numero": 22
     },
     {
         "fecha": "27-11-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 23
     },
@@ -863,12 +585,6 @@
         "fecha": "27-11-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 24
     },
@@ -876,12 +592,6 @@
         "fecha": "27-11-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 25
     },
@@ -889,12 +599,6 @@
         "fecha": "27-11-2015",
         "presentada": "C'S",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 3
     },
@@ -904,11 +608,8 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S + CHA",
         "en_contra": "ZEC",
-        "abstencion": ,
         "votos_contra": 9,
         "votos_favor": 22,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 4
     },
     {
@@ -921,7 +622,6 @@
         "votos_contra": 10,
         "votos_favor": 12,
         "votos_abstencion": 9,
-        "unanimidad": ,
         "numero": 42
     },
     {
@@ -930,11 +630,8 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 17,
         "votos_favor": 14,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 5
     },
     {
@@ -943,11 +640,8 @@
         "resultado": "perdida",
         "a_favor": "PP",
         "en_contra": "ZEC + PSOE + C'S + CHA",
-        "abstencion": ,
         "votos_contra": 21,
         "votos_favor": 10,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 6
     },
     {
@@ -956,23 +650,14 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 17,
         "votos_favor": 14,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 62
     },
     {
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 7
     },
@@ -980,12 +665,6 @@
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 8
     },
@@ -993,12 +672,6 @@
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 82
     },
@@ -1006,12 +679,6 @@
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 83
     },
@@ -1019,12 +686,6 @@
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 84
     },
@@ -1032,12 +693,6 @@
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 85
     },
@@ -1046,24 +701,15 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "PP + C'S + CHA",
-        "en_contra": ,
         "abstencion": "ZEC + PSOE",
-        "votos_contra": ,
         "votos_favor": 16,
         "votos_abstencion": 15,
-        "unanimidad":,
         "numero": 86
     },
     {
         "fecha": "27-11-2015",
         "presentada": "CHA",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 87
     },
@@ -1077,7 +723,6 @@
         "votos_contra": 18,
         "votos_favor": 4,
         "votos_abstencion": 9,
-        "unanimidad": ,
         "numero": 9
     },
     {
@@ -1090,7 +735,6 @@
         "votos_contra": 20,
         "votos_favor": 9,
         "votos_abstencion": 2,
-        "unanimidad": ,
         "numero": 10
     },
     {
@@ -1099,23 +743,14 @@
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + C'S + CHA",
         "en_contra": "PP",
-        "abstencion": ,
         "votos_contra": 10,
         "votos_favor": 21,
-        "votos_abstencion":,
-        "unanimidad": ,
         "numero": 11
     },
     {
         "fecha": "27-11-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion":,
         "unanimidad": "si",
         "numero": 12
     },
@@ -1129,19 +764,12 @@
         "votos_contra": 17,
         "votos_favor": 4,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 13
     },
     {
         "fecha": "27-11-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 14
     },
@@ -1155,7 +783,6 @@
         "votos_contra": 10,
         "votos_favor": 17,
         "votos_abstencion": 4,
-        "unanimidad": ,
         "numero": 15
     },
     {
@@ -1168,19 +795,12 @@
         "votos_contra": 14,
         "votos_favor": 6,
         "votos_abstencion": 11,
-        "unanimidad": ,
         "numero": 16
     },
     {
         "fecha": "27-11-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 17
     },
@@ -1189,12 +809,9 @@
         "presentada": "PSOE",
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S",
-        "en_contra": ,
         "abstencion": "ZEC + CHA",
-        "votos_contra": ,
         "votos_favor": 20,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 172
     },
     {
@@ -1202,12 +819,9 @@
         "presentada": "PSOE",
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S + CHA",
-        "en_contra": ,
         "abstencion": "ZEC",
-        "votos_contra": ,
         "votos_favor": 22,
         "votos_abstencion": 8,
-        "unanimidad": ,
         "numero": 173
     },
     {
@@ -1216,11 +830,8 @@
         "resultado": "perdida",
         "a_favor": "PP + C'S",
         "en_contra": "ZEC + PSOE + CHA",
-        "abstencion": ,
         "votos_contra": 16,
         "votos_favor": 12,
-        "votos_abstencion": ,
-        "unanimidad": ,
         "numero": 18
     },
     {
@@ -1229,11 +840,8 @@
         "resultado": "ganada",
         "a_favor": "ZEC + C'S + CHA",
         "en_contra": "PP + PSOE",
-        "abstencion": ,
-        "votos_contra": ,
         "votos_favor": 14,
         "votos_abstencion": 15,
-        "unanimidad": ,
         "numero": 19
     },
     {
@@ -1246,7 +854,6 @@
         "votos_contra": 10,
         "votos_favor": 11,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 34
     },
     {
@@ -1254,12 +861,9 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 342
     },
     {
@@ -1267,12 +871,9 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 343
     },
     {
@@ -1280,12 +881,9 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 344
     },
     {
@@ -1293,12 +891,9 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 345
     },
     {
@@ -1306,12 +901,9 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 346
     },
     {
@@ -1319,24 +911,15 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 347
     },
     {
         "fecha": "23-12-2015",
         "presentada": "PP",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 35
     },
@@ -1350,7 +933,6 @@
         "votos_contra": 11,
         "votos_favor": 10,
         "votos_abstencion": 10,
-        "unanimidad":,
         "numero": 352
     },
     {
@@ -1358,12 +940,9 @@
         "presentada": "PP",
         "resultado": "ganada",
         "a_favor": "PP + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "ZEC",
-        "votos_contra": ,
         "votos_favor": 22,
         "votos_abstencion": 9,
-        "unanimidad":,
         "numero": 353
     },
     {
@@ -1376,7 +955,6 @@
         "votos_contra": 8,
         "votos_favor": 19,
         "votos_abstencion": 4,
-        "unanimidad":,
         "numero": 36
     },
     {
@@ -1385,23 +963,14 @@
         "resultado": "ganada",
         "a_favor": "PP + PSOE + C'S + CHA",
         "en_contra": "ZEC",
-        "abstencion": ,
         "votos_contra": 9,
         "votos_favor": 21,
-        "votos_abstencion": ,
-        "unanimidad":,
         "numero": 37
     },
     {
         "fecha": "23-12-2015",
         "presentada": "PSOE",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 38
     },
@@ -1410,24 +979,15 @@
         "presentada": "PSOE",
         "resultado": "ganada",
         "a_favor": "PP + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "ZEC",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 9,
-        "unanimidad":,
         "numero": 382
     },
     {
         "fecha": "23-12-2015",
         "presentada": "C'S",
         "resultado": "ganada",
-        "a_favor": ,
-        "en_contra": ,
-        "abstencion": ,
-        "votos_contra": ,
-        "votos_favor": ,
-        "votos_abstencion": ,
         "unanimidad": "si",
         "numero": 39
     },
@@ -1436,12 +996,544 @@
         "presentada": "CHA",
         "resultado": "ganada",
         "a_favor": "ZEC + PSOE + CHA + C'S",
-        "en_contra": ,
         "abstencion": "PP",
-        "votos_contra": ,
         "votos_favor": 21,
         "votos_abstencion": 10,
-        "unanimidad": ,
         "numero": 40
-    }]
-}
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 2
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + C'S + CHA",
+        "en_contra": "PSOE",
+        "votos_contra": 6,
+        "votos_favor": 25,
+        "numero": 22
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 3
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC + CHA",
+        "votos_contra": 11,
+        "votos_favor": 20,
+        "numero": 4
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC + CHA",
+        "votos_contra": 11,
+        "votos_favor": 19,
+        "numero": 5
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 52
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 6
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 7
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 8
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA + C'S",
+        "en_contra": "PP",
+        "votos_contra": 9,
+        "votos_favor": 21,
+        "numero": 9
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA + C'S",
+        "en_contra": "PP",
+        "votos_contra": 9,
+        "votos_favor": 21,
+        "numero": 92
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA + C'S",
+        "en_contra": "PP",
+        "votos_contra": 9,
+        "votos_favor": 21,
+        "numero": 93
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA + C'S",
+        "en_contra": "PP",
+        "votos_contra": 9,
+        "votos_favor": 21,
+        "numero": 94
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP",
+        "abstencion": "C'S",
+        "votos_contra": 9,
+        "votos_favor": 17,
+        "votos_abstencion": 4,
+        "numero": 95
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 10
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + PSOE + C'S",
+        "abstencion": "CHA",
+        "votos_favor": 27,
+        "votos_abstencion": 2,
+        "numero": 11
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "abstencion": "PP + C'S",
+        "votos_favor": 17,
+        "votos_abstencion": 13,
+        "numero": 12
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "C'S",
+        "abstencion": "PP",
+        "votos_contra": 4,
+        "votos_favor": 17,
+        "votos_abstencion": 9,
+        "numero": 122
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "abstencion": "PP + C'S",
+        "votos_favor": 17,
+        "votos_abstencion": 13,
+        "numero": 123
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "CHA",
+        "resultado": "perdida",
+        "numero": 13
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "ZEC",
+        "resultado": "perdida",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP",
+        "abstencion": "C'S",
+        "votos_contra": 9,
+        "votos_favor": 17,
+        "votos_abstencion": 4,
+        "numero": 14
+    },
+    {
+        "fecha": "28-01-2016",
+        "presentada": "ZEC",
+        "resultado": "perdida",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC + CHA",
+        "votos_contra": 11,
+        "votos_favor": 20,
+        "numero": 15
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP",
+        "abstencion": "C'S",
+        "votos_contra": 9,
+        "votos_favor": 17,
+        "votos_abstencion": 4,
+        "numero": 3
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + PSOE + C'S",
+        "abstencion": "CHA",
+        "votos_favor": 29,
+        "votos_abstencion": 2,
+        "numero": 4
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "C'S",
+        "resultado": "perdida",
+        "a_favor": "PSOE + C'S",
+        "en_contra": "PP + ZEC + CHA",
+        "votos_contra": 21,
+        "votos_favor": 10,
+        "numero": 5
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "C'S",
+        "resultado": "retirada",
+        "numero": 6
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 7
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "ZEC",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 8
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "ZEC",
+        "resultado": "retirada",
+        "numero": 9
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S + CHA",
+        "en_contra": "ZEC",
+        "votos_contra": 9,
+        "votos_favor": 21,
+        "numero": 10
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC + CHA",
+        "votos_contra": 11,
+        "votos_favor": 20,
+        "numero": 11
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 112
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S + CHA",
+        "en_contra": "ZEC",
+        "votos_contra": 9,
+        "votos_favor": 22,
+        "numero": 12
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 13
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 14
+    },
+    {
+        "fecha": "26-02-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 15
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 2
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 3
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 4
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + ZEC + C'S",
+        "abstencion": "PSOE + CHA",
+        "votos_favor": 23,
+        "votos_abstencion": 8,
+        "numero": 5
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S + CHA",
+        "en_contra": "ZEC",
+        "votos_contra": 9,
+        "votos_favor": 22,
+        "numero": 6
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 62
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "ZEC",
+        "resultado": "retirada",
+        "numero": 7
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "ZEC",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "numero": 8
+    },
+    {
+        "fecha": "23-03-2016",
+        "presentada": "CHA",
+        "resultado": "perdida",
+        "a_favor": "ZEC + CHA",
+        "en_contra": "PP + PSOE + C'S",
+        "votos_contra": 20,
+        "votos_favor": 11,
+        "numero": 9
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "ZEC",
+        "resultado": "perdida",
+        "a_favor": "ZEC + CHA",
+        "en_contra": "PP + C'S",
+        "abstencion": "PSOE",
+        "votos_contra": 14,
+        "votos_favor": 11,
+        "votos_abstencion": 6,
+        "numero": 2
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 3
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE",
+        "abstencion": "ZEC + C'S + CHA",
+        "votos_favor": 16,
+        "votos_abstencion": 15,
+        "numero": 4
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "abstencion": "PP",
+        "votos_favor": 21,
+        "votos_abstencion": 10,
+        "numero": 5
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "numero": 6
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "numero": 62
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "numero": 63
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP + C'S",
+        "votos_contra": 14,
+        "votos_favor": 17,
+        "numero": 64
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "en_contra": "PP",
+        "votos_contra": 10,
+        "votos_favor": 21,
+        "numero": 65
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + C'S",
+        "en_contra": "ZEC + CHA",
+        "abstencion": "PSOE",
+        "votos_contra": 11,
+        "votos_favor": 14,
+        "votos_abstencion": 6,
+        "numero": 7
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S + CHA",
+        "abstencion": "ZEC",
+        "votos_favor": 22,
+        "votos_abstencion": 9,
+        "numero": 8
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S ",
+        "en_contra": "ZEC + CHA",
+        "votos_contra": 11,
+        "votos_favor": 20,
+        "numero": 9
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 10
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 11
+    },
+    {
+        "fecha": "29-04-2016",
+        "presentada": "C'S",
+        "resultado": "retirada",
+        "numero": 12
+    }
+]
+
+
+console.log(mociones[0].resultado)
