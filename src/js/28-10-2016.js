@@ -119,20 +119,6 @@ var primera = c3.generate({
     bindto: '#mocion9'
 });
 
-//Mocion 9
-var primera = c3.generate({
-    data: {
-        columns: [
-            ["Unanimidad", 31]
-        ],
-        type: 'pie'
-    },
-    color: {
-        pattern: ['#209F69']
-    },
-    bindto: '#mocion9'
-});
-
 //Mocion 10
 var primera = c3.generate({
     data: {
