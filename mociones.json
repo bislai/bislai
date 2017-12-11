@@ -1532,6 +1532,129 @@ var mociones = [
         "presentada": "C'S",
         "resultado": "retirada",
         "numero": 12
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 2
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "ZEC",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP + C'S",
+        "votos_contra": 13,
+        "votos_favor": 16,
+        "numero": 3
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "CHA",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S + CHA",
+        "abstencion": "PP",
+        "votos_favor": 20,
+        "votos_abstencion": 9,
+        "numero": 4
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "ZEC",
+        "resultado": "perdida",
+        "a_favor": "ZEC + C'S + CHA",
+        "en_contra": "PP + PSOE",
+        "votos_contra": 15,
+        "votos_favor": 14,
+        "numero": 5
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "abstencion": "ZEC + CHA",
+        "votos_contra": 19,
+        "votos_abstencion": 10,
+        "numero": 6
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PP",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 7
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + C'S",
+        "en_contra": "PP",
+        "abstencion": "CHA",
+        "votos_contra": 9,
+        "votos_favor": 16,
+        "votos_abstencion": 2,
+        "numero": 8
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "C'S",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC",
+        "abstencion": "CHA",
+        "votos_contra": 19,
+        "votos_favor": 9,
+        "votos_abstencion": 2,
+        "numero": 9
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 10
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 11
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "PP + PSOE + C'S",
+        "en_contra": "ZEC",
+        "abstencion": "CHA",
+        "votos_contra": 19,
+        "votos_favor": 8,
+        "votos_abstencion": 2,
+        "numero": 12
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "unanimidad": "si",
+        "numero": 122
+    },
+    {
+        "fecha": "27-05-2016",
+        "presentada": "PSOE",
+        "resultado": "ganada",
+        "a_favor": "ZEC + PSOE + CHA",
+        "en_contra": "PP",
+        "abstencion": "C'S",
+        "votos_contra": 8,
+        "votos_favor": 15,
+        "votos_abstencion": 4,
+        "numero": 13
     }
 ]
 
