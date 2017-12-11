@@ -80,8 +80,8 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor: PP + ZEC + CHA", 10],
-           ["En contra: PSOE + C'S", 20]
+           ["A favor: PSOE + C'S", 10],
+           ["En contra: PP + ZEC + CHA", 20]
         ],
         type : 'pie'
     },
