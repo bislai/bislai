@@ -2577,6 +2577,75 @@ var mociones = [
     "votos_abstencion": 4,
     "votos_contra": 17,
     "numero": 18
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + CHA",
+    "abstencion": "PSOE",
+    "votos_favor": 13,
+    "votos_abstencion": 6,
+    "votos_contra": 13,
+    "numero": 181
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + C'S + CHA",
+    "abstencion": "PSOE",
+    "votos_favor": 24,
+    "votos_abstencion": 6,
+    "numero": 182
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC",
+    "abstencion": "PSOE + CHA",
+    "votos_favor": 13,
+    "votos_abstencion": 8,
+    "votos_contra": 9,
+    "numero": 183
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + CHA",
+    "abstencion": "PSOE",
+    "votos_favor": 13,
+    "votos_abstencion": 6,
+    "votos_contra": 11,
+    "numero": 184
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "numero": 19
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 21,
+    "votos_contra": 8,
+    "numero": 20
+},
+{
+    "fecha": "23-12-2016",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 201
 }]
 
 
