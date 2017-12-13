@@ -1,21 +1,18 @@
-//Moción 2
+//Moción 39
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: PP + C'S", 14],
-            ["En contra: ZEC + CHA", 10],
-            ["Abstención: PSOE", 6]
+            ["Unanimidad", 31]
         ],
         type : 'pie'
     },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+      pattern: ['#209F69']
     },
-     bindto: '#mocion2'
+     bindto: '#mocion39'
 });
 
-
-//Mocion 2-2
+//Mocion 40
 var primera = c3.generate({
     data: {
         columns: [
@@ -27,42 +24,10 @@ var primera = c3.generate({
     color: {
       pattern: ['#209F69', '#D01F2E']
     },
-     bindto: '#mocion13'
+     bindto: '#mocion40'
 });
 
-//Mocion 3
-var primera = c3.generate({
-    data: {
-        columns: [
-           ["A favor: ZEC + PSOE + C'S + CHA", 20],
-           ["Abstención: PP", 10]
-        ],
-        type : 'pie'
-    },
-    color: {
-      pattern: ['#209F69', '#D7E4E4']
-    },
-     bindto: '#mocion13'
-});
-
-//Moción 3-2
-var primera = c3.generate({
-    data: {
-        columns: [
-            ["A favor: PSOE + C'S", 10],
-            ["En contra: ZEC + CHA", 9],
-            ["Abstención: PP", 10]
-        ],
-        type : 'pie'
-    },
-    color: {
-      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
-    },
-     bindto: '#mocion3-2'
-});
-
-
-//Mocion 4
+//Moción 41
 var primera = c3.generate({
     data: {
         columns: [
@@ -73,26 +38,70 @@ var primera = c3.generate({
     color: {
       pattern: ['#209F69']
     },
-     bindto: '#mocion4'
+     bindto: '#mocion41'
 });
 
-//Mocion 5
+//Moción 42
 var primera = c3.generate({
     data: {
         columns: [
-           ["A favor: PP + ZEC + CHA", 10],
-           ["En contra: PSOE + C'S", 20]
+            ["A favor: ZEC + PSOE + CHA", 17],
+            ["En contra: PP", 10],
+            ["Abstención: C'S", 4]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+    },
+     bindto: '#mocion42'
+});
+
+//Moción 43
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69']
+    },
+     bindto: '#mocion43'
+});
+
+//Moción 44
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69']
+    },
+     bindto: '#mocion44'
+});
+
+//Moción 45
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: PP + PSOE + C'S", 18],
+            ["En contra: ZEC + CHA", 11]
         ],
         type : 'pie'
     },
     color: {
       pattern: ['#209F69', '#D01F2E']
     },
-     bindto: '#mocion5'
+     bindto: '#mocion45'
 });
 
 
-//Mocion 6
+//Mocion 46
 var primera = c3.generate({
     data: {
         columns: [
@@ -103,65 +112,53 @@ var primera = c3.generate({
     color: {
       pattern: ['#209F69']
     },
-     bindto: '#mocion6'
+     bindto: '#mocion46'
 });
 
-//Moción 8
+//Moción 46-2
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: PP + PSOE", 16],
-            ["En contra: ZEC", 8],
-            ["Abstención: C'S + CHA", 6]
+            ["A favor: ZEC + PSOE + CHA", 17],
+            ["En contra: PP", 10],
+            ["Abstención: C'S", 4]
         ],
         type : 'pie'
     },
     color: {
       pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
-     bindto: '#mocion8'
+     bindto: '#mocion46-2'
 });
 
-//Mocion 9
+//Moción 46-3
 var primera = c3.generate({
     data: {
         columns: [
-            ["Unanimidad", 31]
-        ],
-        type : 'pie'
-    },
-    color: {
-      pattern: ['#209F69']
-    },
-     bindto: '#mocion9'
-});
-
-//Mocion 10
-var primera = c3.generate({
-    data: {
-        columns: [
-            ["Unanimidad", 31]
-        ],
-        type : 'pie'
-    },
-    color: {
-      pattern: ['#209F69']
-    },
-     bindto: '#mocion10'
-});
-
-//Moción 13
-var primera = c3.generate({
-    data: {
-        columns: [
-            ["A favor: ZEC + CHA", 10],
+            ["A favor: ZEC + C'S", 13],
             ["En contra: PP + PSOE", 16],
-            ["Abstención: C'S ", 4]
+            ["Abstención: CHA", 2]
         ],
         type : 'pie'
     },
     color: {
       pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
-     bindto: '#mocion13'
+     bindto: '#mocion46-3'
+});
+
+//Moción 47
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: PP + PSOE + C'S", 20],
+            ["En contra: ZEC", 9],
+            ["Abstención: CHA", 2]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+    },
+     bindto: '#mocion47'
 });
