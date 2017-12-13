@@ -1251,13 +1251,13 @@ path.q2-3 {
 }
 
 .partido-container {
-    max-width: 64rem;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .partido-card {
     background-color: #ccc;
+    display: inline-block;
     width: 40rem;
     height: 18rem;
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
@@ -1266,13 +1266,20 @@ path.q2-3 {
     color: #121;
 }
 
+.partido-card:first-child {
+        margin-top: 5rem;
+    }
+
 .partido-card:hover .partido-card-bg {
             transform: scaleX(1);
         }
 
 .partido-card:hover .partido-card-top {
-            top: 5.5rem;
-            border-width: 10px;
+            transform: translateX(2rem);
+        }
+
+.partido-card:hover .partido-card-top-right {
+            transform: translateX(-2rem);
         }
 
 .partido-card-bg {
@@ -1284,11 +1291,7 @@ path.q2-3 {
     background-color: rgba(255, 255, 255, .5);
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform .5s ease-in;
-}
-
-.partido-card-left {
-    transform-origin: left;
+    transition: transform .3s ease-in;
 }
 
 .partido-card-zec {
@@ -1313,10 +1316,18 @@ path.q2-3 {
     width: 25rem;
     padding: 2rem 1rem;
     left: 15rem;
-    top: 6rem;
+    top: 2rem;
     border-bottom: 5px solid #0080b8;
     box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
     transition: all .3s ease-in;
+}
+
+.partido-card-left {
+    transform-origin: left;
+}
+
+.partido-card-top-right {
+    left: 0;
 }
 
 .partido-card-top-zec {
@@ -1336,11 +1347,7 @@ path.q2-3 {
 }
 
 .partido-card-right {
-    float: right;
-}
-
-.partido-card-top-right {
-    left: -9rem;
+    margin-left: 40rem;
 }
 
 .partido-card-title {
