@@ -950,7 +950,7 @@ path.q2-3 {
 .partido-card {
     background-color: #ccc;
     display: inline-block;
-    width: 40rem;
+    width: 50vw;
     height: 18rem;
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     margin: 2rem 0 5rem;
@@ -1006,7 +1006,7 @@ path.q2-3 {
     background-color: #fff;
     width: 25rem;
     padding: 2rem 1rem;
-    left: 15rem;
+    right: 0;
     top: 2rem;
     border-bottom: 5px solid var(--pp);
     box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
@@ -1038,7 +1038,7 @@ path.q2-3 {
 }
 
 .partido-card-right {
-    margin-left: 40rem;
+    margin-left: 50vw;
 }
 
 .partido-card-title {
