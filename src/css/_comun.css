@@ -971,7 +971,8 @@ path.q2-3 {
         .partido-card-top-right {
             transform: translateX(-2rem);
         }
-        .partido-card-button {
+        .partido-card-button,
+        .partido-card-icon {
             opacity: 1;
         }
         .partido-card-votos,
@@ -987,9 +988,19 @@ path.q2-3 {
     transition: opacity .3s ease-in;
     transition-delay: .1s;
     font-weight: bold;
-    margin-bottom: 0;
-    position: absolute;
-    top: 40%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.partido-card-icon {
+    width: 10px;
+    opacity: 0;
+    display: inline-block;
+    vertical-align: middle;
+    transition: opacity .3s ease-in;
+    transition-delay: .1s;
+    margin-left: 8px;
 }
 
 .partido-card-bg {
