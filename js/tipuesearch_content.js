@@ -1842,103 +1842,433 @@ var tipuesearch = {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Impulsar medidas para facilitar el relevo generacional de los autónomos y el mantenimiento de la actividad y el empleo en negocios sin sucesión empresarial.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#10.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#10.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Estudiar la posibilidad de instalar azoteas verdes en edificios municipales.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#11.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#11.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Promover y liderar la creación de un grupo de trabajo con el objetivo de abrir un debate sobre el futuro urbanístico de la ciudad y su planificación en torno a la movilidad, la regeneración y rehabilitación urbana y la sostenibilidad medioambiental y económica.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#12.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#12.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al gobierno de Zaragoza a consignar en los próximos presupuestos partidas equivalentes a los ahorros generados en gasto energético para la sustitución de luminarias tradicionales por luminarias led.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#13.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#13.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno de Zaragoza a consignar en los próximos presupuestos, bien a través de proyecto, bien a través del trámite de enmiendas, partidas por valor de 3,1 millones de euros, equivalentes a los ahorros generados en gasto energético para la sustitución de luminarias tradicionales por luminarias LED de última tecnología con conexión punto a punto.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#14.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#14.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Avanzar decididamente hacia la descentralización administrativa, a través de Oficinas de Gestión Integradas en los Distritos o en otras fórmulas que puedan agrupar a éstos, que permitan incrementar el número de trámites y actuaciones susceptibles de ser realizadas en dichas oficinas. Para ello será imprescindible agilizar los trámites para la reforma del Reglamento de Participación Ciudadana.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#14.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#14.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Incrementar el catálogo de trámites susceptibles de realización online así como a desarrollar sistemas de notificación y gestión electrónica.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#14.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#14.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno central para que permita que las entidades locales reinviertan su superávit en 2017 sin necesidad de generar nuevos ingresos por el mismo importe, a través de una autorización legal que surja de la prórroga de los presupuestos generales del Estado.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#15.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#15.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al gobierno municipal a introducir en el sistema tarifario del transporte público de 2017 la gratuidad del billete para los menores de 7 años y bonificaciones sustanciales para los jóvenes entre 8 y 18 años.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#16.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#16.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno de la ciudad a estudiar la implantación del plan renove Zaragoza a lo largo de 2017, para fomentar la renovación del parque automovilístico de la ciudad, orientado a retirar los vehículos más contaminantes.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#17.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#17.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Dejar sin efecto los resultados obtenidos en el proceso participativo relativo a la encuesta sobre el trazado de la línea 2 del tranvía.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#18.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#18.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "lndependientemente de dejar sin efecto tales resultados, presentar a los Grupos Políticos un informe de los mismos que permita analizarlos desde diferentes perspectivas.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#18.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#18.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "lmpulsar de forma urgente la tramitación de la Ordenanza Municipal para la Regulación de los Procesos Participativos según se aprobó en eldebate sobre el Estado de la Ciudad.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#18.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#18.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Renunciar a la puesta en marcha de cualquier otro proceso participativo en la Ciudad hasta que no se disponga de la citada Ordenanza Municipal para la Regulación de los Procesos Participativos.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#18.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#18.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno de la ciudad a presentar un informe técnico tanto desde el punto de vista financiero como desde el punto de vista técnico y operativo, antes de cualquier contacto o toma de decisión orientada a la compra de electricidad en el mercado libre mayorista.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#19.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#19.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno del Estado y a los Grupos Parlamentarios del Congreso a promover una reforma constitucional que garantice la prohibición expresa de recortar o privatizar, total o parcialmente, el Sistema Público de Pensiones, garantizando el mantenimiento del poder adquisitivo de las mismas.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#20.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#20.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2016",
         "text": "Instar al Gobierno del Estado a promover un amplio debate ciudadano y a llegar a un acuerdo en el seno del Pacto de Toledo, que pueda concluir con la celebración de un referéndum donde el conjunto de la sociedad pueda pronunciarse de manera directa y democrática sobre este tema.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#20.html"
+        "url": "http://bislai.co/plenos/2016/23-12-2016#20.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar a la Consejería de Educación del Gobierno de Aragón a no renovar aquéllos conciertos educativos de aulas cuya oferta pueda ser asumida desde la educación pública, y a destinar los ahorros producidos a la mejora de la educación pública en los colegios de la ciudad.(P-2432/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de España a actuar con determinación contra la pobreza energética, prohibiendo cortes de suministros sin comprobación por los servicios sociales y diseñando una auténtica tarifa social, e instar a reformar urgentemente el modelo energético.(P-2433/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de reelaborar la relación de las listas de reserva existente, eliminando todas las bolsas agotadas en atención al pacto alcanzado con los sindicatos de fecha 14 de julio de 2016 que señala la vigencia limitada a tres años.(P-2434/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a especificar unos objetivos de crecimiento cuantitativos y poner en marcha una campaña de información para aumentar la base de usuarios registrados en la plataforma de la tarjeta ciudadana.(P-2435/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a solicitar a las entidades financieras ubicadas en la ciudad a la anulación inmediata de las cláusulas suelo de los contratos hipotecarios que tienen suscritos en el término municipal, así como la devolución de lo injustamente cobrado.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a estudiar la implantación de un Plan Renove Zaragoza, a lo largo de 2017, para fomentar la renovación del parque automovilístico de la ciudad, orientado a retirar los vehículos más contaminantes.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "Presentada por el grupo municipal Popular en el sentido de crear una comisión especial donde todos los grupos políticos conozcan el estado actual de los distintos contratos de publicidad del Ayuntamiento, los analicen y dictaminen sobre los pasos a seguir para que la ciudad tenga un modelo publicitario eficiente y equilibrado los próximos años.(P-2438/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de rechazar cualquier intento de regulación que favorezca el acceso y consumo de cannabis en nuestra ciudad, que trasladaría un mensaje de tolerancia a las drogas.(P-2440/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a presentar en un plazo no superior a 3 meses, un informe sobre la situación de todos los espacios municipales en desuso y su propuesta de utilización en el corto y medio plazo.(P-2441/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a presentar en un plazo no superior a 3 meses, un estudio de viabilidad del diseño y la puesta en marcha de un cuadro de mandos integral a modo de piloto y desde la perspectiva de los procesos internos y formación/carrera de los empleados municipales.(P-2442/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de manifestar apoyo expreso al trabajo desarrollado por la Plataforma de Víctimas del Alvia 04155 en su labor de dignificación de las víctimas y en la consecución de sus legítimas demandas y reivindicaciones.(P-2443/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a constituir de inmediato una mesa técnica y política que aborde en el plazo máximo de dos meses un plan director de zonas verdes de la ciudad, que aborde las necesidades a satisfacer en relación con el mantenimiento de las mismas.(P-2444/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno a formar en el plazo de un mes, un grupo de trabajo formado por los diferentes grupos políticos que busque un consenso sobre las líneas políticas a desarrollar en materia de juventud durante los próximos días.(P-2445/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#14.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de instar a las fuerzas políticas representadas en la Cortes de Aragón y particularmente a las fuerzas progresistas a iniciar de inmediato una negociación política sobre los próximos presupuestos de la comunidad autónoma que permita contar con un presupuesto acorde a las necesidades de la ciudadanía aragonesa.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#15.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de acordar adherirse a la Red de Municipios por un Estado Laico.(P-2448/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#16.html"
+    },
+    {
+        "title": "Pleno ordinario del 3 de febrero de 2017",
+        "text": "En el sentido de manifestar el rechazo de la sociedad zaragozana a las decisiones de la Administración de los EEUU, adoptadas respecto de la entrada de refugiados como a las intenciones respecto a la construcción de un muro de separación en la frontera con México. (P-2449/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/03-02-2017#17.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de España al cierre definitivo de la central nuclear de Santa María de Garoña, así como a consultar a Zaragoza y al resto de municipios de la cuenca del Ebro, como Miranda de Ebro, Logroño, Tudela y Tortosa, entre otros muchos, así como a otros afectados como Bilbao, Vitoria y Burgos, para adoptar la decisión definitiva y no sólo a las comunidades autónomas como ha anunciado y otros extremos (P-2.581/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a contemplar en la fase 1 de la ampliación del servicio de bicicleta pública Bizi Zaragoza, aquellos puntos del distrito de Casablanca más próximos a la red actual que hagan accesible la red a los habitantes de los llamados barrios del sur (P-2.583/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a realizar una estrategia de movilidad específica para Parque Venecia y su entorno que comience a aplicarse en este año 2017, abordando tanto mejoras en los accesos como acciones específicas de regulación de tráfico (P-2.584/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza acuerde constituir una Comisión Especial de Investigación al objeto de aclarar las actuaciones puestas en marcha por el Gobierno de Zaragoza que desembocaron en la presentación, por parte del Alcalde, de una denuncia ante el Ministerio Fiscal contra el gerente y otros responsables de Ecociudad, SAU así como la gestión del Alcalde como presidente del consejo de administración, en relación con el procedimiento convocado para la adjudicación de asistencia material para la prestación de tareas incluidas en la operativa diaria de la planta de recuperación de agua y la estación depuradora de La Almozara y otros extremos (P-2.586/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de España a cumplir todos los preceptos de la Carta Social Europea (P-2.587/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza apueste por estudiar la viabilidad técnica, jurídica y política de remunicipalización de todas aquellas contratas cuya finalización se encuentre próxima, siempre en base a criterios de rentabilidad social y mejora en la prestación de los servicios a la ciudadanía (P-2.588/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a colaborar con el Departamento de Educación y Cultura del Gobierno de Aragón, al objeto de suscribir un convenio para la creación de una comisión mixta encargada de la detección temprana de alumnos con necesidades educativas especiales (P-2.589/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 24 de febrero de 2017",
+        "text": "En el sentido de instar al Gobierno de la Ciudad a analizar todas las plusvalías recaudadas durante los últimos años y que no haya prescrito para que se pueda determinar el importe que, de acuerdo con la sentencia del Tribunal Constitucional, habría que devolver a los vecinos de ser declarados nulos e inconstitucionales los preceptos en que se basa la ordenanza.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-02-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de la ciudad a solicitar expediente técnico-jurídico que sirva de base para el proyecto de modificación parcial de todas las ordenanzas municipales susceptibles de incorporar en su articulado mecanismos que velen por el cumplimiento del compromiso con una sociedad libre de toda discriminación y exclusión, basada en la orientación sexual y la identidad de género, tal como se recogió en la declaración institucional formulada por los cinco grupos municipales en Pleno de 30 de junio de 2016 (P-2.596/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la ciudad a, previa tramitación parlamentaria, rectificar y solicitar del Gobierno de Aragón la modificación del acuerdo de 3 de marzo de 2017 sobre Ley de Capitalidad, con el objeto que en el texto de la moción queda recogido (P-2.692/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a renunciar al plan de apoyo al comercio de proximidad en los términos en los que ha sido presentado a los grupos municipales y a aprobar de forma inmediata el plan local de comercio tal como se aprobó en la sesión plenaria de octubre de 2016 (P-2.702/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste a la junta de compensación de Parque Venecia a ejecutar todas las obras contempladas en el presupuesto del proyecto de urbanización además de las contempladas en las obligaciones que sustituyen el puente de conexión con el sector 38/1 y al Gobierno de Zaragoza a informar puntualmente de la ejecución y recepción de las mismas (P-2.717/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que este Pleno rechace el planteamiento unilateral del Gobierno de Zaragoza para la regulación de los campos de fútbol municipales e inste al concejal de deportes a crear un grupo de trabajo que desarrolle un verdadero proceso de participación con los clubes afectados y con los grupos políticos municipales de cara al establecimiento de las condiciones para el uso y gestión de dichas instalaciones municipales (P-2.718/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento exija al Gobierno de Aragón el abono de 14.850.000 euros correspondientes al pago del convenio de colaboración entre el Gobierno de Aragón y este Ayuntamiento para financiación línea tranvía norte-sur, año 2015, así como el reconocimiento de la deuda generada por impago de convenio para financiación línea tranvía años 2013-2014 e iniciar negociaciones con Gobierno de Zaragoza para fijar calendario de pagos (P-1.619/2016).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a elaborar un estudio sobre la ocupación de los tramos de la red estructural urbana de vías ciclistas y a tomar en consideración los resultados de dicho estudio así como la opinión de los grupos municipales y de las juntas municipales antes de acometer cualquier nuevo proyecto de crecimiento de la red de carriles bici de la ciudad (P-2.734/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechace expresamente el acuerdo de la Generalidad de Cataluña para proceder al trasvase del Ebro a las cuencas internas de aquella comunidad e inste a la Confederación Hidrográfica del Ebro a negar cualquier autorización de este trasvase (P-2.735/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que este Ayuntamiento inste al Gobierno de la nación a iniciar los trámites parlamentarios que sean necesarios para la ratificación del convenio 189 de la OIT que implicará mayor protección laboral y social para las trabajadoras domésticas y de cuidados (P-2.737/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que este Pleno inste al Gobierno de España a acometer la modernización integral de la línea Sagunto-Teruel-Zaragoza con el objetivo de incrementar su capacidad de transporte de mercancías y viajeros, adoptando las decisiones y planes de acción e inversión necesarios para ello (P-2.739/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechace expresamente la gestión del área de Participación Ciudadana en relación a los presupuestos participativos y en particular en relación al papel fundamental que han de jugar las juntas municipales de distrito e inste al Gobierno de Zaragoza a adoptar cuantas medidas resulten precisas para garantizar la plena ejecución de los proyectos aprobados durante el año 2017 (P-2.741/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a dar cumplido trámite a las denuncias que, en su caso, realice la Policía Local; trasladar a los servicios sociales municipales las citadas denuncias al objeto de que evalúen las circunstancias que rodean a los presuntos infractores y a establecer un itinerario de apoyo social y atención a las personas que puedan encontrarse en situación de pobreza extrema o cualquier otra situación análoga (P-2.742/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de instar al Gobierno de España a aprobar un plan estatal de vivienda centrado en el alquiler, la rehabilitación de edificios y la regeneración urbana y a dotar suficientemente ese plan de manera que durante los próximos 10 años nos acerquemos al 1% del PIB para equipararnos con los países de la Unión Europea (P-2.743/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#14.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Aragón a cesar en sus ataques a la escuela concertada y a mantener el actual modelo educativo que garantiza la libertad de elección de las familias zaragozanas (P-2.744/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#15.html"
+    },
+    {
+        "title": "Pleno ordinario del 31 de marzo de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechace el ERE previsto en Ibercaja, manifieste su solidaridad con la plantilla e inste al consejo de administración a que, en colaboración con la representación sindical busque otras alternativas que no supongan la destrucción de puestos de trabajo (P-2.745/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/31-03-2017#16.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que este Pleno inste al Gobierno de la ciudad a favorecer todos los trámites que eviten poner en riesgo el acuerdo alcanzado por los trabajadores y la dirección de Auzsa en abril del pasado año, que se tradujo en la desconvocatoria de la huelga más larga de la historia del servicio. (P-2903/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que por parte de los órganos competentes del este Ayuntamiento se adopte un protocolo para las autorizaciones municipales sobre equipos de juego hinchables, e instar al Gobierno de Aragón a modificar la normativa para instalaciones móviles desmontables y juegos hinchables. (P-2956/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento inste al Gobierno de Zaragoza a abrir cauces de diálogo y negociación con la Iglesia Católica, a fin de alcanzar e instrumentar acuerdos que permitan incrementar los usos culturales y la accesibilidad y conocimiento del patrimonio histórico-artístico en manos de la iglesia.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento inste al Gobierno de Zaragoza a iniciar de forma inmediata un estudio que en el plazo de 3 meses permita proveer de conexión de fibra óptica y conexión wifi de calidad a todos los centros escolares dependientes del Ayuntamiento, así como a todos los equipamientos de uso ciudadano. (P-2972/17)",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento inste al Gobierno de la ciudad a, comunicar con antelación de 6 meses la ficha de finalización de cualquier contrato a la Comisión de Economía y Cultura, a los consejos de administración de las sociedades y a los consejos de los patronatos municipales.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento inste al Gobierno de Zaragoza a iniciar en el plazo de un mes un proceso de licitación de un contrato para la ejecución de actuaciones de mejora en el viario público municipal, que respete la legalidad vigente, la concurrencia competitiva y la igualdad de trato entre empresas.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento inste al Gobierno de la ciudad a que proceda a la adquisición de equipos de protección individual ligeros y homologados, como por ejemplo monos polivalentes de intervención alternativos al traje de fuego, para dotar a los bomberos de vestuario adecuado.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que este Ayuntamiento rechace la concesión de nuevas licencias para VTC, e inste al Gobierno de Zaragoza a tomar medidas jurídicas para rechazar su concesión, e instar al Gobierno de Aragón a consultar al Ayuntamiento antes de conceder nuevas licencias.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de España y a los grupos parlamentarios a que por la vía de la urgencia adopten iniciativas legislativas, que permitan a las entidades locales reinvertir su superávit sin tener que generar nuevos ingresos por la misma cuantía.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento exija al Estado Español la desmilitarización y desmantelamiento del campo de maniobras de San Gregorio, e instar al Gobierno de la ciudad a solicitar al Ministerio de Defensa compensaciones económicas en concepto de las afecciones que causa el citado campo.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento exija al Estado Español la desmilitarización y desmantelamiento del campo de maniobras de San Gregorio, e instar al Gobierno de la ciudad a solicitar al Ministerio de Defensa compensaciones económicas en concepto de las afecciones que causa el citado campo.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento rechace la actitud continuada de la Delegación de Gobierno de cercenar la autonomía municipal y limitar las competencias que tiene atribuidas el Ayuntamiento para regular las condiciones laborales de la plantilla municipal.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento repruebe a Pablo Echenique por incumplir sus obligaciones con la Seguridad social y censure su actitud tras conocerse la multa que le ha impuesto la Inspección de Trabajo.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno de este Ayuntamiento rechace rotundamente las políticas desarrolladas por el Partido Popular y el Gobierno de Mariano Rajoy en cuanto a control de déficit, deuda pública, empleo, apoyo a las familias y de lucha contra la corrupción, que tras casi 6 años de gestión se han demostrado fracasadas.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#14.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Ayuntamiento iniciará actuaciones con la finalidad de que, concluido el proceso liquidatorio de Zaragoza Arroba Desarrollo Expo; asuma la prestación directa del servicio, subrogándose en todos los derechos y obligaciones laborales y mercantiles, previa tramitación del expediente correspondiente y la emisión de los oportunos informes, e instando al Gobierno de Zaragoza a realizar los trámites administrativos necesarios para que en 10 días y en Pleno extraordinario se modifique la plantilla de personal para incluir las plazas que sean necesarias y permitan la subrogación del personal de la sociedad.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#15.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza condene rotundamente la decisión del Gobierno de EE.UU de abandonar los compromisos adquiridos contra el calentamiento global del planeta en el marco de la Cumbre de París.- Instar a las instituciones europeas a redoblar los esfuerzos a escala global para el cumplimiento de los compromisos en materia de reducción de emisiones, e instar al Gobierno de España a asumir un papel protagonista en esta materia impulsando una política energética que priorice las energías renovables.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/02-06-2017#16.html"
     }
     ]
 };
