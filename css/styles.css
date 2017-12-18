@@ -1286,6 +1286,7 @@ path.q2-3 {
 .partido-card:hover .partido-card-button,
         .partido-card:hover .partido-card-icon {
             opacity: 1;
+            transform: translateY(-70px);
         }
 
 .partido-card:hover .partido-card-votos,
