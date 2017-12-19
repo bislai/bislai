@@ -2269,6 +2269,348 @@ var tipuesearch = {
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza condene rotundamente la decisión del Gobierno de EE.UU de abandonar los compromisos adquiridos contra el calentamiento global del planeta en el marco de la Cumbre de París.- Instar a las instituciones europeas a redoblar los esfuerzos a escala global para el cumplimiento de los compromisos en materia de reducción de emisiones, e instar al Gobierno de España a asumir un papel protagonista en esta materia impulsando una política energética que priorice las energías renovables.",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/02-06-2017#16.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la Ciudad a organizar un acto en homenaje a las víctimas coincidiendo este 2017 con el 30 aniversario de los atentados de San Juan de los Panetes y la Casa Cuartel de la avenida de Cataluña (P-3201/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de la Ciudad a mejorar los mecanismos de coordinación de todos los proyectos y equipamientos vinculados a la innovación y el emprendimiento unificando su dependencia orgánica de una única área de gobierno",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de la Ciudad a convocar de inmediato a los agentes sociales (empresarios y sindicatos) a una mesa de diálogo de la que puedan extraer medidas encaminadas a mejorar la creación y calidad del empleo (P-3203/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de la Ciudad a poner en marcha los trámites precisos para encargar, antes de final de año, la elaboración de una encuesta sobre la percepción de la ciudadanía de la calidad de los servicios públicos en Zaragoza (P-3204/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la ciudad a licitar en plazo el próximo pliego de condiciones del contrato de mantenimiento y conservación de parques y jardines y evitar así un mayor deterioro del servicio (P-3207/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de Zaragoza a solicitar de manera inmediata a la Asesoría Jurídica, Urbanismo, Policía Local y Bomberos la elaboración de informes jurídicos y técnicos sobre la ocupación de la antigua Cárcel de Torrero (P-3208/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la Ciudad a presentar un proyecto de adecuación medioambiental del río Huerva, en su tramo urbano paralelo a la calle Manuel Lasala a la altura de Viveros Sopesens (P-3210/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento declara su respeto al derecho de asilo. Los derechos humanos deben ser una cuestión prioritaria para una ciudad abierta, plural y solidaria como Zaragoza, expresando nuestra disposición a ayudar y acoger a las personas que huyen de la guerra (P-3212/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a proceder de manera inmediata a la reparación de la compuerta averiada del azud, así como a realizar una inspección completa de la infraestructura para comprobar el estado de la misma acometiendo labores de mantenimiento que eviten futuras averías (P-3214/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de Aragón a iniciar la elaboración de un proyecto de ley de creación del área metropolitana de Zaragoza, como entidad local territorial con personalidad jurídica propia y autonomía para el cumplimiento de sus fines (P-3215/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza repruebe al Gobierno de España responsable del rescate bancario y de la amnistía fiscal, por ocasionar pérdidas al estado español por más de 70.000 millones de euros y concretamente a Mariano Rajoy, Soraya Sáenz de Santamaría y a Luis de Guindos, por mentir a la población española diciendo que no costaría nada (P-3216/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la Ciudad a resolver el problema de desplazamiento de los visitantes por el complejo funerario, mediante la puesta en marcha de un servicio gratuito de transporte de emisiones cero, que tras el estudio técnico sobre el posible itinerario pueda realizar el traslado de los visitantes a través del mismo. (P-3217/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza adopte los acuerdos por los que debe regirse la gestión municipal del ciclo del agua y Ecociudad Zaragoza SAU, e insta al Consejo de Administración de Ecociudad Zaragoza a su aplicación de manera inmediata, tanto a responsables políticos como responsables técnicos (P-3218/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza adopte los acuerdos por los que debe regirse la gestión municipal del ciclo del agua y Ecociudad Zaragoza SAU, e insta al Consejo de Administración de Ecociudad Zaragoza a su aplicación de manera inmediata, tanto a responsables políticos como responsables técnicos (P-3218/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-06-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Aragón a cumplir con los mapas de infraestructuras escolares previstos en Zaragoza y a ejecutar el 100% de lo presupuestado para dicho fin (P-3219/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de la ciudad a separar el Servicio de Protección Civil del Servicio contra Incendios, de Salvamento y Protección Civil, para darle el reconocimiento, entidad y capacidad que requiere (P-3265/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Ayuntamiento inste al Gobierno de la ciudad a licitar en plazo el próximo pliego de condiciones para el contrato de mantenimiento y conservación de parques y jardines y evitar así un mayor deterioro del servicio (P-3338/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de la ciudad a presentar un plan de mejora de la transparencia en el Ayuntamiento de Zaragoza que mejore con detalle los déficit detectados por el índice de transparencia internacional y que han llevado a que Zaragoza pierda la máxima puntuación en este índice en 4 de las 6 áreas (P-3353/17).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno municipal a ceder el suelo necesario para la ubicación de un área de servicio o acogida de autocaravanas en Zaragoza y a dotarlo con los servicios indispensables (luz, agua, gestión de residuos) (P¿3354/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a incoar el correspondiente expediente administrativo al objeto de acreditar las condiciones exigidas por la normativa vigente para la subrogación del personal técnico de la sociedad municipal Zaragoza@Desarrollo Expo al Ayuntamiento de Zaragoza, que culminará con el correspondiente acuerdo Plenario en septiembre próximo (P-3356/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno municipal a encargar al departamento de Derecho Administrativo de la Universidad de Zaragoza, un informe que analice y valore los resultados del informe de auditoría y análisis coste ejecución línea 1 tranvía, adjudicado a una consultora externa el 26 de abril último (P-3357/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a abordar todos los procesos de restricción del tráfico privado en el marco del plan de movilidad urbana sostenible y, en todo caso, hasta su aprobación, acompañar cualquier intervención sobre el mismo que implique una restricción o limitación, de un plan de mejora del transporte público colectivo que garantice una movilidad competitiva en los entornos afectados (P-3358/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno municipal a solicitar del Gobierno de España que inicie la modificación legislativa necesaria para adaptar el impuesto de plusvalía a la sentencia del Tribunal Constitucional de mayo de 2017 y evitar los perjuicios que se están dando en aquellos contribuyentes que pagan este impuesto sin obtener plusvalía en las transmisiones de sus inmuebles (P-3359/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste a las Cortes de Aragón a iniciar la modificación del art. 7 de la ley 3/2011, de 24 de febrero, en materia de contratos del sector público en Aragón, para que quede reflejado lo dispuesto en el informe 17/2015 de la Junta Consultiva de Contratación Administrativa de Aragón que establece que, a la vista de la regulación contenida en el art. 20 de la Directiva 2014/24, el límite establecido para la reserva de contratos para empresas de inserción pueda entenderse superado y sea posible la reserva de contratos de cualquier cuantía (P¿3361/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno apoye públicamente la ley de vivienda de la Plataforma de Afectados por la PAH con sus correspondientes 5 demandas para hacer frente a la emergencia habitacional (P-3363/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-07-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a crear un plan de ayudas suficientes para la adquisición de taxis medioambientalmente eficientes (eléctricos, híbridos y GLP) que contribuya a modernizar la flota de taxis que circula por la ciudad, a establecer 2019 como fecha límites para la incorporación de nuevos vehículos diésel a la flota de taxis y a implementar medidas de mejora de la calidad del servicio, tales como el desarrollo de aplicaciones informáticas para los usuarios o la plena incorporación de terminales de pago con tarjeta (P-3.513/2017)",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a garantizar por todos los medios a su alcance el cumplimiento estricto por parte de la concesionaria de los pliegos de contratación, con especial atención al mantenimiento de la flota de transporte público, a revocar con carácter inmediato el acuerdo por el que se amplió la vida útil de los vehículos de la flota de autobuses, a acelerar la incorporación de los 31 vehículos híbridos previsto en los pliegos y a iniciar los trámites para la incorporación de vehículos eléctricos antes de 2019 y a diseñar con la empresa concesionario un plan de mejora del mantenimiento de la flota que garantice la fiabilidad de la misma y la seguridad de usuarios y conductores (P-3.514/2017)",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a constituir un grupo de trabajo para la elaboración de un programa para la celebración del 10º aniversario de la Expo Zaragoza 2008, acorde a la importancia de semejante efeméride (P-3.516/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de establecer un protocolo de actuación para 2018 que informe sobre la mecánica y facilite la tramitación de las gestiones municipales necesarias para las distintas actividades que se desarrollan en las fiestas de los barrios y en particular las gestionadas por las comisiones y a habilitar un sistema de ventanilla única para los barrios rurales y otra para los urbanos oque facilite la gestión entre los distintos servicios del Ayuntamiento y obtener así las autorizaciones necesarias para llevar a cabo las fiestas en los barrios (P-3.518/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a implicarse al máximo en el conflicto laboral existente entre la sociedad de economía mixta Tranvías de Zaragoza y su plantilla, para hacer todo lo posible para resolver el conflicto y evitar la afección que supondría para la ciudadanía una huelga del servicio de tranvías en las próximas fiestas del Pilar (P-3.519/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno municipal a trasladar la colonia felina que habita en el Teatro Romano a una nueva ubicación que reúna las garantías exigibles, siguiendo las pautas adecuadas para minimizar el impacto sobre los animales y reducir su estrés durante el transporte y adaptación a los nuevos espacios (P-3.520/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno de la ciudad a adoptar cuanta medidas directas o indirectas sean necesarias para que se ejecuten de manera inmediata las obras pactadas con los vecinos de Parque Venecia y Arcosur (P-3.524/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Ayuntamiento inste a las Cortes Españolas a despenalizar y regularizar la eutanasia y el suicidio asistido para garantizar la dignidad de las personas (P-3.525/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Ayuntamiento de Zaragoza muestre su solidaridad con los 10 de Zaragoza y condene cualquier tipo de acto o manifestación racista o xenófoba (P-3.526/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de España y a las Cortes Generales a impulsar una modificación de la ley orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa con el objeto de abordar los untos que se detallan en el texto de la moción (P-3.527/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al conjunto de las administraciones a favorecer incrementos salariales anuales en los acuerdos entre patronal y sindicatos, para lograr que en 2021 los salarios hayan recuperado el peso que tenían en el reparto de la renta nacional en el periodo previo a la crisis y otros extremos (P-3.528/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno manifieste su rechazo ante las medidas adoptadas en los últimos días or el Gobierno estatal que están suponiendo una vulneración de facto del derecho de la ciudadanía a expresarse libremente a favor del derecho a decidir de los pueblos (P-3.529/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno municipal a desarrollar las acciones políticas necesarias en colaboración con el Gobierno de Aragón, la Universidad de Zaragoza y las entidades sociales relacionadas, para elaborar un programa de actividades destinado a conmemorar la incorporación de la ciudad de Zaragoza al Reino de Aragón, dado que el próximo año se celebra el 900 aniversario (P-3.532/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#14.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de apoyar rotundamente a los alcaldes y concejales de Cataluña que desempeñan sus funciones diariamente dentro de la legalidad, con respeto a las leyes y en defensa de los derechos de los ciudadanos y condenar firme y enérgicamente cualquier tipo de presión, coacción, acoso o persecución a los mismos y otros extremos (P-3.533/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#15.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de declara que Zaragoza es na ciudad acogedora que se caracteriza por el diálogo y la convivencia entre diferentes, rechazando que la minoría ultraderechista que se concentro ante el Pabellón Siglo XXI sea representativa de esta ciudad y otros extremos.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/29-09-2017#16.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento manifieste su apoyo y respaldo incondicional a la Policía Nacional y a la Guardia Civil en su labor de defensa y protección de los derechos y libertades de todos los ciudadanos y, especialmente y desde la legalidad constitucional, de la soberanía nacional, el estado de derecho, la democracia y la convivencia entre los españoles (P-3.535/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#38.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza reconozca y reivindique el papel que desarrollan en materia de infancia y juventud los CC.TT.LL. y ludotecas y en especial los trabajadores del sector (P-3.674/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#39.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de censurar la actitud permisiva de doña Teresa Artigas, en su condición de concejal presidenta de la junta municipal de Casco Histórico, al ceder el espacio del solar sito en la calle Alcober 1-3-5, también conocido como solar del conejo, a la Asociación para la Defensa y Promoción de os Derechos civiles y en último término, permitir la celebración de la 2ª edición de la fiesta antirrepresiva (P-3.675/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#40.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a presentar un informe jurídico económico que valore las diferentes posibilidades de actuación en relación a facilitar y bonificar las licencias necesarias para acometer las obras precisas para instalar puntos de recarga para vehículos eléctricos en garajes e instalaciones comunitarias así como para adaptar la red eléctrica, simplificando trámites y reduciendo los costes de este tipo de intervenciones (P-3.676/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#41.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de instar al conjunto de administraciones a favorecer incrementos salariales anuales en los acuerdos entre patronal y sindicatos, para lograr que en 2021 los salarios hayan recuperado el peso que tenían en el reparto de la renta nacional en el periodo previo a la crisis y otros extremos (P-3.677/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#42.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a constituir un grupo de trabajo a fin de elaborar un programa para la celebración del 10º aniversario de la Expo Zaragoza 2008 (P-3.679/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#43.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a comenzar de inmediato en los mercados municipales la implementación de las acciones contenidas en el Plan de Mercados (P-3.680/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#44.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a trasladar la colonia felina que habita en el Teatro Romano de Zaragoza a una nueva ubicación que reúna las garantías exigibles (P-3.681/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#45.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento muestre su dolor y apoyo a los familiares de las víctimas mortales de los incendios ocurridos en Galicia y su solidaridad con los damnificados y todo el pueblo gallego, asturiano y leonés; repruebe al Presidente de la Xunta de Galicia y a la Ministra de Agricultura y Pesca, Alimentación y Medio Ambiente como máximos responsables políticos por la tragedia sufrida y los irreparables daños ocasionados e inste al Gobierno de España y al Gobierno de Aragón a revisar sus políticas de prevención y extinción de incendios forestales (P-3.682/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#46.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno lamente la paralización de inversiones en la ciudad e inste al Gobierno de la ciudad a dar un mayor impulso a su gestión política para mejorar la ejecución del presupuesto de 2017 en los tres meses que restan hasta finalizar el ejercicio (P-3.683/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/30-10-2017#47.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de la comunidad autónoma a elaborar un plan para la inclusión de los menores con dislexia, de carácter multidisciplinar que involucre esencialmente los ámbitos sanitario, educativo y social, así como a la elaboración de una guía de apoyo a los educadores con la información imprescindible sobre todo lo que se debe conocer sobre la dislexia y otras DEA (P-3.715/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#21.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de la ciudad a suscribir un convenio de colaboración con la Unión Vecinal Cesaraugusta con una validez inicial de 4 años y en las condiciones que se expresan en la parte propositiva de la moción (P-3.787/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#22.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno municipal a iniciar negociaciones con el Gobierno de Aragón y a la Diputación Provincial de Zaragoza que, en coordinación con las asociaciones memorialistas y la Universidad de Zaragoza, previa la firma del oportuno convenio de colaboración, instalar el Centro de Investigación de la Memoria Histórica de Aragón en la ciudad de Zaragoza y a ser posible en el edificio de titularidad de la DPZ sito en paseo Ruiseñores 57-59 (P-3.807/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste a las Cortes de Aragón a modificar el art. 12 de la ley 2/2000, de 28 de junio, de juego en la comunidad autónoma de Aragón, en el sentido de establecer una prohibición a cualquier tipo de publicidad y/o patrocinio de casas de apuestas en ningún espectáculo deportivo ya sean recintos, equipos o deportistas de cualquier deporte, así como la emisión de publicidad en programas o secciones deportivas de radio, televisión y prensa, incluida la on line y otros extremos (P-3.808/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#24.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a adoptar de forma inmediata medidas para evitar el desplazamiento de los contenedores en los días de fuerte viento (P-3.828/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento insta al Gobierno de la ciudad a poner en marcha una campaña de sensibilización sobre la necesidad de ahorrar en el consumo de agua en los diferentes distritos así como a reforzar la inversión en renovación de la red de tuberías con especial atención a la sustitución de la red existente de fibrocemento por materiales más eficientes (P-3.829/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#26.html"
+    },
+    {
+        "title": "Pleno ordinario del 30 de junio de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/24-11-2017#27.html"
     }
     ]
 };
