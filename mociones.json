@@ -2795,6 +2795,143 @@ var mociones = [
     "votos_abstencion": 6,
     "votos_contra": 13,
     "numero": 16
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 2
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 17,
+    "votos_abstencion": 4,
+    "votos_contra": 9,
+    "numero": 22
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "en_contra": "PP",
+    "votos_favor": 21,
+    "votos_contra": 9,
+    "numero": 23
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 3
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 4
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PP + PSOE + C'S",
+    "resultado": "retirada",
+    "numero": 5
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "abstencion": "PP",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 6
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "abstencion": "PP",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 7
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PSOE",
+    "resultado": "retirada",
+    "numero": 8
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "ZEC + CHA",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 9
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 92
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_abstencion": 11,
+    "numero": 93
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "perdida",
+    "a_favor": "PSOE + C'S",
+    "en_contra": "PP + CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 10,
+    "votos_abstencion": 9,
+    "votos_contra": 11,
+    "numero": 94
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 95
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 96
 }]
 
 console.log(mociones[0].resultado)
