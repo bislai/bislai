@@ -834,11 +834,13 @@ path.q2-3 {
     &:hover {
         .bislai-home-body-left-text-white {
             color: var(--impureBlack);
-            transition: all 1s ease-in;
         }
         .line-throught {
             text-decoration: line-through;
             color: var(--white);
+        }
+        .bislai-icon {
+            opacity: 1;
         }
     }
 }
@@ -850,6 +852,7 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     max-width: 27rem;
+    transition: color .3s ease-in;
 }
 
 .bislai-home-body-left-container {
@@ -862,11 +865,13 @@ path.q2-3 {
 .bislai-icon {
     display: block;
     width: 32px;
+    opacity: 0;
+    transition: opacity .4s ease-in;
 }
 
 .bislai-home-body-right {
     display: inline-block;
-    padding: 1.5rem;
+    padding: 2rem;
     background-color: var(--yellow);
     max-width: 33rem;
     position: absolute;
@@ -877,7 +882,7 @@ path.q2-3 {
 
 .bislai-home-body-right-text {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
     margin-bottom: .5rem;
 }
@@ -1148,4 +1153,16 @@ path.q2-3 {
     position: absolute;
     top: .5rem;
     padding: .5rem 1rem;
+}
+
+.tabs {
+    transition: all .3s ease-in;
+}
+
+.tabs-title {
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    color: var(--white);
+    background-color: var(--pureblack);
+    font-weight: normal;
 }
