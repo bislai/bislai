@@ -2795,6 +2795,701 @@ var mociones = [
     "votos_abstencion": 6,
     "votos_contra": 13,
     "numero": 16
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 2
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 17,
+    "votos_abstencion": 4,
+    "votos_contra": 9,
+    "numero": 22
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "en_contra": "PP",
+    "votos_favor": 21,
+    "votos_contra": 9,
+    "numero": 23
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 3
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 4
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PP + PSOE + C'S",
+    "resultado": "retirada",
+    "numero": 5
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "abstencion": "PP",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 6
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "abstencion": "PP",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 7
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "PSOE",
+    "resultado": "retirada",
+    "numero": 8
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "ZEC + CHA",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 9
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 92
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_abstencion": 11,
+    "numero": 93
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "perdida",
+    "a_favor": "PSOE + C'S",
+    "en_contra": "PP + CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 10,
+    "votos_abstencion": 9,
+    "votos_contra": 11,
+    "numero": 94
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 95
+},
+{
+    "fecha": "24-02-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S",
+    "abstencion": "PP + ZEC + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 20,
+    "numero": 96
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 2
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 22
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE",
+    "abstencion": "CHA",
+    "votos_favor": 14,
+    "votos_abstencion": 2,
+    "votos_contra": 15,
+    "numero": 3
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "perdida",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 20,
+    "votos_abstencion": 8,
+    "votos_contra": 2,
+    "numero": 4
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "perdida",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + PSOE + C'S",
+    "votos_favor": 10,
+    "votos_contra": 20,
+    "numero": 5
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 6
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S +  CHA",
+    "abstencion": "PP",
+    "votos_favor": 20,
+    "votos_abstencion": 10,
+    "numero": 7
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "perdida",
+    "a_favor": "PSOE + CHA",
+    "en_contra": "ZEC + C'S",
+    "abstencion": "PP",
+    "votos_favor": 8,
+    "votos_abstencion": 10,
+    "votos_contra": 12,
+    "numero": 72
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "perdida",
+    "a_favor": "PSOE + CHA",
+    "en_contra": "ZEC + C'S",
+    "abstencion": "PP",
+    "votos_favor": 8,
+    "votos_abstencion": 10,
+    "votos_contra": 12,
+    "numero": 73
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + PSOE + C'S",
+    "abstencion": "CHA",
+    "votos_favor": 26,
+    "votos_abstencion": 2,
+    "numero": 8
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_contra": 9,
+    "numero": 82
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 9
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 10
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 11
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 12
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 122
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 123
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 13
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 20,
+    "votos_contra": 8,
+    "numero": 14
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 16,
+    "votos_abstencion": 10,
+    "votos_contra": 4,
+    "numero": 142
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE + CHA",
+    "votos_favor": 16,
+    "votos_contra": 11,
+    "numero": 15
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 123
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 20,
+    "votos_abstencion": 10,
+    "numero": 2
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 20,
+    "votos_abstencion": 10,
+    "numero": 3
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 32
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 4
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 5
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP",
+    "resultado": "retirada",
+    "numero": 6
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_contra": 10,
+    "numero": 7
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 8
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "abstencion": "PP + C'S",
+    "votos_favor": 16,
+    "votos_abstencion": 14,
+    "numero": 9
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + PSOE + CHA",
+    "abstencion": "C'S",
+    "votos_favor": 26,
+    "votos_abstencion": 4,
+    "numero": 92
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 93
+},
+{
+    "fecha": "02-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 20,
+    "votos_abstencion": 10,
+    "numero": 94
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 10
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC  + CHA",
+    "en_contra": "PP + C'S",
+    "abstencion": "PSOE",
+    "votos_favor": 10,
+    "votos_abstencion": 6,
+    "votos_contra": 13,
+    "numero": 11
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + C'S",
+    "abstencion": "PSOE",
+    "votos_favor": 16,
+    "votos_abstencion": 4,
+    "votos_contra": 10,
+    "numero": 12
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + CHA + C'S",
+    "abstencion": "ZEC + PSOE",
+    "votos_favor": 16,
+    "votos_abstencion": 4,
+    "numero": 13
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 14
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + PSOE + C'S",
+    "votos_favor": 10,
+    "votos_contra": 20,
+    "numero": 142
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP + PSOE + C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + CHA + C'S",
+    "abstencion": "ZEC",
+    "votos_favor": 22,
+    "votos_abstencion": 8,
+    "numero": 15
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP + PSOE + C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 16
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "C'S",
+    "resultado": "retirada",
+    "numero": 2
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 3
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PP + PSOE + C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + CHA + C'S",
+    "abstencion": "ZEC",
+    "votos_favor": 21,
+    "votos_abstencion": 8,
+    "numero": 4
+},
+{
+    "fecha": "31-03-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 5
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "PP",
+    "resultado": "retirada",
+    "numero": 6
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + CHA + C'S",
+    "abstencion": "ZEC",
+    "votos_favor": 21,
+    "votos_abstencion": 8,
+    "numero": 7
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 8
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 9
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 19,
+    "votos_abstencion": 10,
+    "numero": 92
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 19,
+    "votos_abstencion": 10,
+    "numero": 93
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 15,
+    "votos_contra": 10,
+    "numero": 10
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 16,
+    "votos_abstencion": 2,
+    "votos_contra": 10,
+    "numero": 11
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 16,
+    "votos_abstencion": 2,
+    "votos_contra": 10,
+    "numero": 12
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 16,
+    "votos_contra": 12,
+    "numero": 122
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 16,
+    "votos_contra": 12,
+    "numero": 123
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 18,
+    "votos_contra": 10,
+    "numero": 124
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 16,
+    "votos_contra": 12,
+    "numero": 125
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 13
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC",
+    "en_contra": "PP + PSOE + C'S",
+    "abstencion": "CHA",
+    "votos_favor": 8,
+    "votos_abstencion": 2,
+    "votos_contra": 18,
+    "numero": 14
 }]
 
 console.log(mociones[0].resultado)

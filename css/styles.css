@@ -532,7 +532,7 @@ body {
     border-left: 1px dotted #999;
 }
 
-.c3-tooltip td > span {
+.c3-tooltip td>span {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -845,16 +845,16 @@ http://www.tipue.com/search
         cursor: pointer;
     }
 
-.input-record:checked + .label-record {
+.input-record:checked+.label-record {
     color: #dce0db;
     border: 1px solid var(--impureGrey);
     border-top: 5px solid var(--gradient2);
     background-color: #021e5c;
 }
 
-#tab1:checked ~ .contenido1,
-#tab2:checked ~ .contenido2,
-#tab3:checked ~ .contenido3 {
+#tab1:checked~.contenido1,
+#tab2:checked~.contenido2,
+#tab3:checked~.contenido3 {
     display: block;
     background-color: #021e5c;
     display: grid;
@@ -997,7 +997,6 @@ path.q2-3 {
         display: inline-block;
         min-width: 50%;
         text-align: left;
-
     }
 
 .tooltipPartido .resultadoVotos {
@@ -1068,7 +1067,7 @@ path.q2-3 {
     font-size: 1rem;
 }
 
-.tooltipLeyenda + p {
+.tooltipLeyenda +p {
         display: none;
     }
 
@@ -1119,49 +1118,18 @@ path.q2-3 {
     background-repeat: repeat;
 }
 
-.bislai-home-body-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
-}
-
 .bislai-home-body-left {
     width: 100%;
     display: inline-block;
-
-}
-
-.bislai-home-body-img {
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    position: relative;
-    height: 100vh;
-}
-
-.bisla-home-body-left-gradient {
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
-    opacity: .5;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-}
-
-.bislai-home-body-text {
-    align-self: center;
-    justify-self: center;
 }
 
 .bislai-home-body-left-text {
     background-color: #000;
     width: 33rem;
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+    z-index: 10;
 }
 
 .bislai-home-body-left-text:hover .bislai-home-body-left-text-white {
@@ -1187,7 +1155,7 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     padding: 1rem 2rem;
-    background-color: #EFFC11;
+    background-color: #3BE4CF;
 }
 
 .bislai-icon {
@@ -1197,10 +1165,13 @@ path.q2-3 {
 
 .bislai-home-body-right {
     display: inline-block;
-    padding: 3rem 2rem;
-    background-color: #EFFC11;
+    padding: 1.5rem;
+    background-color: #3BE4CF;
     max-width: 33rem;
-    margin-top: 3rem;
+    position: absolute;
+    top: 18rem;
+    left: 35rem;
+    z-index: 10;
 }
 
 .bislai-home-body-right-text {
@@ -1211,22 +1182,22 @@ path.q2-3 {
 }
 
 .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: .5s;
-  transition-duration: .5s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .tooltip-title {
@@ -1425,6 +1396,67 @@ path.q2-3 {
     color: #fff;
     padding: 1rem 3rem;
     white-space: nowrap;
+}
+
+.column {
+    position: relative;
+    padding: .5rem;
+    transition: all ease-in-out .3s;
+    color: rgba(0, 0, 0, .75);
+    height: 100vh;
+}
+
+.column:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+.column img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+.blue-light {
+    background-color: #181e59;
+}
+
+.blue-light img {
+        mix-blend-mode: lighten;
+        -webkit-filter: grayscale(100%) contrast(.8);
+        filter: grayscale(100%) contrast(.8);
+    }
+
+.blue-light:after {
+        background-color: #E7E1A6;
+        mix-blend-mode: multiply;
+    }
+
+.blue {
+    background-color: #77acd4;
+}
+
+.blue img {
+        mix-blend-mode: multiply;
+        -webkit-filter: grayscale(100%) contrast(1.2);
+        filter: grayscale(100%) contrast(1.2);
+    }
+
+.blue:after {
+        background-color: #033dc5;
+        mix-blend-mode: lighten;
+    }
+
+.header-home {
+    background-color: transparent;
+    position: absolute;
+    top: .5rem;
+    padding: .5rem 1rem;
 }
 
 .maw-70 {
