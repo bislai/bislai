@@ -851,7 +851,7 @@ path.q2-3 {
     color: var(--white);
     display: inline-block;
     vertical-align: middle;
-    max-width: 27rem;
+    max-width: 30rem;
     transition: color .3s ease-in;
 }
 
