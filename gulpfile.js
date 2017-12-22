@@ -16,6 +16,8 @@ nano = require('gulp-cssnano');
 notify = require('gulp-notify');
 stylelint = require('stylelint');
 browserSync = require('browser-sync');
+gulp = require('gulp');
+babel = require('gulp-babel');
 
 
 gulp.task("browserSync", function() {
@@ -145,10 +147,21 @@ gulp.task('images', function() {
     .pipe(gulp.dest(imgDist));
 });
 
+gulp.task('babel', () =>
+    gulp.src(jsSrc)
+        .pipe(babel({
+            presets: ['env']
+        }))
+        .pipe(gulp.dest(jsDist))
+        .pipe(notify({
+          message: 'JavaScript complete'
+        }))
+);
+
 /* Tarea por defecto para compilar CSS y comprimir imagenes */
 gulp.task('default', ["browserSync"], function() {
   gulp.watch('./src/css/**', ['css']);
-  gulp.watch('./src/js/**', ['compress']);
+  gulp.watch('./src/js/**', ['babel', 'compress']);
   gulp.watch('./src/img/**', ['images']);
   gulp.watch(["./*.html", "./plenos/*/*.html", "css/*.css", "js/*.js"]).on("change", browserSync.reload);
 });
