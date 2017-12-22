@@ -22,20 +22,14 @@ function unanimidadChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
+          labels: ["Unanimidad", "Disconformidad"],
           datasets: [{
 
-              label: ["unanimidad", "disconformidad"],
               data: [37.59 , 62.41],
               backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)'
-              ],
-              borderWidth: 1
+                  '#36B287',
+                  '#D0577C'
+              ]
           }]
       }
   });
@@ -57,7 +51,7 @@ function repeticionChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 25,
               }
             }]
         },
@@ -70,16 +64,10 @@ function repeticionChart() {
           datasets: [{
               data: [11.31 , 10.58, 2.5],
               backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)',
+                  'rgba(32, 159, 105, 1)',
+                  'rgba(255, 99, 132, 1)',
                   'rgba(54, 162, 235, 1)'
-              ],
-              borderWidth: 1
+              ]
           }]
       }
   });
@@ -101,7 +89,7 @@ function masMocionesChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 80
               }
             }]
         },
@@ -114,20 +102,12 @@ function masMocionesChart() {
           datasets: [{
               data: [47 , 28, 50, 44, 36],
               backgroundColor: [
-                  'rgba(0, 128, 184,.2)',
-                  'rgba(154, 22, 34,.2)',
-                  'rgba(227, 6, 19,.2)',
-                  'rgba(240, 122, 54,.2)',
-                  'rgba(239, 176, 39,.2)'
-              ],
-              borderColor: [
-                  'rgba(0, 128, 184,1)',
-                  'rgba(154, 22, 34,1)',
-                  'rgba(227, 6, 19,1)',
-                  'rgba(240, 122, 54,1)',
-                  'rgba(239, 176, 39,1)'
-              ],
-              borderWidth: 1
+                  'rgba(0, 128, 184, 1)',
+                  'rgba(154, 22, 34, 1)',
+                  'rgba(227, 6, 19, 1)',
+                  'rgba(240, 122, 54, 1)',
+                  'rgba(239, 176, 39, 1)'
+              ]
           }]
       }
   });
@@ -149,7 +129,7 @@ function abstenidoChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 20,
               }
             }]
         },
@@ -162,20 +142,12 @@ function abstenidoChart() {
         datasets: [{
             data: [ 8.02 , 10.21, 5.47, 9.12, 10.21],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
-                'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+                'rgba(239, 176, 39,.2)'
+            ]
         }]
 
       }
@@ -198,7 +170,7 @@ function encontraChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 30,
               }
             }]
         },
@@ -211,20 +183,12 @@ function encontraChart() {
         datasets: [{
             data: [ 19.70 , 24.08, 11.31, 8.02, 15.32],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
                 'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+            ]
         }]
 
       }
@@ -247,7 +211,7 @@ function afavorChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 70,
               }
             }]
         },
@@ -260,20 +224,12 @@ function afavorChart() {
         datasets: [{
             data: [ 35.03 , 28.46, 46.35, 45.98, 36.86],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
                 'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+            ]
         }]
 
       }
