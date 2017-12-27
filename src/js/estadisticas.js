@@ -241,7 +241,35 @@ function afavorChart() {
 // initialize the scrollama
 var scroller = scrollama();
 
-var step = document.getElementsByClassName('.step');
+var container = document.getElementById('scroll');
+var step = document.getElementsByClassName('step');
+var graphic = document.getElementsByClassName('scroll__graphic');
+var text = document.getElementsByClassName('scroll__text');
+
+
+function handleResize() {
+    // 1. update height of step elements
+    var stepHeight = Math.floor(window.innerHeight * 0.75) + 'px';
+    step.style.height = stepHeight;
+
+    // 2. update width/height of graphic element
+
+    var graphicMargin = 16 * 4;
+    var textWidth = text.offsetWidth;
+    var containerWidth = container.offsetWidth;
+    console.log(containerWidth)
+    var graphicWidth = containerWidth - graphicMargin + 'px';
+    var graphicHeight = Math.floor(window.innerHeight / 2) + 'px';
+    console.log(graphicHeight)
+    console.log(graphicWidth)
+    var graphicMarginTop = Math.floor(graphicHeight / 2)
+
+    graphic.style.width =  graphicWidth;
+    graphic.style.height = graphicHeight;
+
+    // 3. tell scrollama to update new element dimensions
+    scroller.resize();
+}
 
 // scrollama event handlers
 function handleStepEnter(response) {
@@ -293,6 +321,7 @@ function handleContainerExit(response) {
 
 function init() {
     // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+    handleResize();
 
     // 2. setup the scroller passing options
     // this will also initialize trigger observations
@@ -305,9 +334,12 @@ function init() {
         debug: true,
         offset: 0.6,
     })
-        .onStepEnter(handleStepEnter)
-        .onContainerEnter(handleContainerEnter)
-        .onContainerExit(handleContainerExit);
+            .onStepEnter(handleStepEnter)
+            .onContainerEnter(handleContainerEnter)
+            .onContainerExit(handleContainerExit);
+
+        // setup resize event
+        window.addEventListener('resize', handleResize);
 
 }
 
