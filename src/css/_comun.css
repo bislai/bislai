@@ -1151,3 +1151,7 @@ path.q2-3 {
     background-color: var(--pureblack);
     font-weight: normal;
 }
+
+#chart {
+    max-width: 50vw;
+}
