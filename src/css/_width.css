@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.maw-50 {
+    max-width: 50rem;
+}
+
 .w-1-5re {
   width: 1.5rem;
 }
