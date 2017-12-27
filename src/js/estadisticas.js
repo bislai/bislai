@@ -1,6 +1,6 @@
 function unanimidadChart() {
 
-  var ctx = document.getElementById("unanimidad-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -22,20 +22,14 @@ function unanimidadChart() {
         }
       },
       data: {
-          labels: ["unanimidad", "disconformidad"],
+          labels: ["Unanimidad", "Disconformidad"],
           datasets: [{
 
-              label: ["unanimidad", "disconformidad"],
               data: [37.59 , 62.41],
               backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)'
-              ],
-              borderWidth: 1
+                  '#36B287',
+                  '#D0577C'
+              ]
           }]
       }
   });
@@ -44,7 +38,7 @@ function unanimidadChart() {
 
 function repeticionChart() {
 
-  var ctx = document.getElementById("repeticion-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -57,7 +51,7 @@ function repeticionChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 25,
               }
             }]
         },
@@ -70,16 +64,10 @@ function repeticionChart() {
           datasets: [{
               data: [11.31 , 10.58, 2.5],
               backgroundColor: [
-                  'rgba(32, 159, 105, 0.2)',
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(32, 159, 105,1)',
-                  'rgba(255,99,132,1)',
+                  'rgba(32, 159, 105, 1)',
+                  'rgba(255, 99, 132, 1)',
                   'rgba(54, 162, 235, 1)'
-              ],
-              borderWidth: 1
+              ]
           }]
       }
   });
@@ -88,7 +76,7 @@ function repeticionChart() {
 
 function masMocionesChart() {
 
-  var ctx = document.getElementById("mas-mociones-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -101,7 +89,7 @@ function masMocionesChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 80
               }
             }]
         },
@@ -114,20 +102,12 @@ function masMocionesChart() {
           datasets: [{
               data: [47 , 28, 50, 44, 36],
               backgroundColor: [
-                  'rgba(0, 128, 184,.2)',
-                  'rgba(154, 22, 34,.2)',
-                  'rgba(227, 6, 19,.2)',
-                  'rgba(240, 122, 54,.2)',
-                  'rgba(239, 176, 39,.2)'
-              ],
-              borderColor: [
-                  'rgba(0, 128, 184,1)',
-                  'rgba(154, 22, 34,1)',
-                  'rgba(227, 6, 19,1)',
-                  'rgba(240, 122, 54,1)',
-                  'rgba(239, 176, 39,1)'
-              ],
-              borderWidth: 1
+                  'rgba(0, 128, 184, 1)',
+                  'rgba(154, 22, 34, 1)',
+                  'rgba(227, 6, 19, 1)',
+                  'rgba(240, 122, 54, 1)',
+                  'rgba(239, 176, 39, 1)'
+              ]
           }]
       }
   });
@@ -136,7 +116,7 @@ function masMocionesChart() {
 
 function abstenidoChart() {
 
-  var ctx = document.getElementById("abstencion-mociones-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -149,7 +129,7 @@ function abstenidoChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 20,
               }
             }]
         },
@@ -162,20 +142,12 @@ function abstenidoChart() {
         datasets: [{
             data: [ 8.02 , 10.21, 5.47, 9.12, 10.21],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
-                'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+                'rgba(239, 176, 39,.2)'
+            ]
         }]
 
       }
@@ -185,7 +157,7 @@ function abstenidoChart() {
 
 function encontraChart() {
 
-  var ctx = document.getElementById("en-contra-mociones-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -198,7 +170,7 @@ function encontraChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 30,
               }
             }]
         },
@@ -211,20 +183,12 @@ function encontraChart() {
         datasets: [{
             data: [ 19.70 , 24.08, 11.31, 8.02, 15.32],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
                 'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+            ]
         }]
 
       }
@@ -234,7 +198,7 @@ function encontraChart() {
 
 function afavorChart() {
 
-  var ctx = document.getElementById("a-favor-mociones-chart");
+  var ctx = document.getElementById("chart");
 
   var myBarChart = new Chart(ctx, {
       type: 'bar',
@@ -247,7 +211,7 @@ function afavorChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
+                suggestedMax: 70,
               }
             }]
         },
@@ -260,20 +224,12 @@ function afavorChart() {
         datasets: [{
             data: [ 35.03 , 28.46, 46.35, 45.98, 36.86],
             backgroundColor: [
-                'rgba(0, 128, 184,.2)',
-                'rgba(154, 22, 34,.2)',
-                'rgba(227, 6, 19,.2)',
-                'rgba(240, 122, 54,.2)',
-                'rgba(239, 176, 39,.2)'
-            ],
-            borderColor: [
                 'rgba(0, 128, 184,1)',
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
                 'rgba(239, 176, 39,1)'
-            ],
-            borderWidth: 1
+            ]
         }]
 
       }
@@ -281,91 +237,79 @@ function afavorChart() {
 
 }
 
-//Obteniendo la anchura de la ventana
-var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-if(width > 1024) {
-  var controller = new ScrollMagic.Controller();
+// initialize the scrollama
+var scroller = scrollama();
 
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: 300
-      })
-      .setPin("#unanimidad")
-      .addTo(controller)
-      .on("enter", unanimidadChart);
+var step = document.getElementsByClassName('.step');
 
-  var repeticion = document.getElementById('repeticion');
-  var repeDimension = repeticion.getBoundingClientRect();
-  var repeTop = repeDimension.top - 50;
-
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: repeTop
-      })
-      .setPin("#repeticion")
-      .addTo(controller)
-      .on("enter", repeticionChart);
-
-  var masMociones = document.getElementById('mas-mociones');
-  var masMocionesDimension = masMociones.getBoundingClientRect();
-  var masMocionesTop = masMocionesDimension.top - 50;
-
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: masMocionesTop
-      })
-      .setPin("#mas-mociones")
-      .addTo(controller)
-      .on("enter", masMocionesChart);
+// scrollama event handlers
+function handleStepEnter(response) {
+    // response = { element, direction, index }
 
 
+    if (response.index === 0) {
+        unanimidadChart();
+    }
 
-  var abstenidoMociones = document.getElementById('abstenido-mociones');
-  var abstenidoMocionesDimension = abstenidoMociones.getBoundingClientRect();
-  var abstenidoMocionesTop = abstenidoMocionesDimension.top - 50;
+    if (response.index === 1) {
+        repeticionChart();
+    }
 
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: abstenidoMocionesTop
-      })
-      .setPin("#abstenido-mociones")
-      .addTo(controller)
-      .on("enter", abstenidoChart);
+    if (response.index === 2) {
+        masMocionesChart();
+    }
 
+    if (response.index === 3) {
+        abstenidoChart();
+    }
 
-  var encontraMociones = document.getElementById('en-contra-mociones');
-  var encontraMocionesDimension = encontraMociones.getBoundingClientRect();
-  var encontraMocionesTop = encontraMocionesDimension.top - 50;
+    if (response.index === 4) {
+        abstenidoChart();
+    }
 
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: encontraMocionesTop
-      })
-      .setPin("#en-contra-mociones")
-      .addTo(controller)
-      .on("enter", encontraChart);
+    if (response.index === 5) {
+        encontraChart();
+    }
 
+    if (response.index === 6) {
+        afavorChart();
+    }
 
-  var afavorMociones = document.getElementById('a-favor-mociones');
-  var afavorMocionesDimension = afavorMociones.getBoundingClientRect();
-  var afavorMocionesTop = afavorMocionesDimension.top - 50;
-
-  new ScrollMagic.Scene({
-          duration: 200,
-          offset: afavorMocionesTop
-      })
-      .setPin("#a-favor-mociones")
-      .addTo(controller)
-      .on("enter", afavorChart);
-
-} else {
-
-    unanimidadChart();
-    repeticionChart();
-    masMocionesChart();
-    abstenidoChart();
-    encontraChart();
-    afavorChart();
 
 }
+
+function handleContainerEnter(response) {
+    // response = { direction }
+
+
+}
+
+function handleContainerExit(response) {
+    // response = { direction }
+
+
+}
+
+function init() {
+    // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+
+    // 2. setup the scroller passing options
+    // this will also initialize trigger observations
+    // 3. bind scrollama event handlers (this can be chained like below)
+    scroller.setup({
+        container: '#scroll',
+        graphic: '.scroll__graphic',
+        text: '.scroll__text',
+        step: '.scroll__text .step',
+        debug: true,
+        offset: 0.6,
+    })
+        .onStepEnter(handleStepEnter)
+        .onContainerEnter(handleContainerEnter)
+        .onContainerExit(handleContainerExit);
+
+}
+
+// kick things off
+init();
