@@ -309,15 +309,9 @@ function handleStepEnter(response) {
 }
 
 function handleContainerEnter(response) {
-    // response = { direction }
-
-
 }
 
 function handleContainerExit(response) {
-    // response = { direction }
-
-
 }
 
 function init() {
