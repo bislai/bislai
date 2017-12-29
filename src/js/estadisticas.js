@@ -13,8 +13,26 @@ function unanimidadChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
-              }
+                suggestedMax: 100
+              },
+              gridLines: {
+                    color: [
+                    'rgba(0, 0, 0, 0)'
+                    ]
+              },
+              drawOnChartArea: false,
+              drawBorder: false,
+              drawTicks: false
+            }],
+            xAxes: [{
+              gridLines: {
+                    color: [
+                    'rgba(0, 0, 0, 1)'
+                    ]
+              },
+              drawOnChartArea: false,
+              drawBorder: false,
+              drawTicks: false
             }]
         },
         legend: {
@@ -327,7 +345,7 @@ function init() {
         text: '.scroll__text',
         step: '.scroll__text .step',
         debug: true,
-        offset: 0.33,
+        offset: 0.63,
     })
             .onStepEnter(handleStepEnter)
             .onContainerEnter(handleContainerEnter)

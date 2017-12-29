@@ -1463,6 +1463,54 @@ path.q2-3 {
 
 #chart {
     max-width: 50vw;
+    width: 50vw;
+}
+
+#scroll {
+ position: relative;
+}
+
+.scroll__graphic {
+/* stylelint-disable */
+ position: -webkit-sticky;
+ position: sticky;
+ /* stylelint-enable */
+ float: right;
+ top: 30vh;
+ right: 10vw;
+ -webkit-transform: translate3d(0, 0, 0);
+ -moz-transform: translate3d(0, 0, 0);
+ transform: translate3d(0, 0, 0);
+}
+
+.scroll__graphic p {
+ text-align: center;
+ padding: 1rem;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -moz-transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ font-size: 8rem;
+ font-weight: 900;
+ color: #666;
+}
+
+.scroll__text {
+ position: relative;
+ padding: 0 1rem;
+ max-width: 30rem;
+ width: 33%;
+}
+
+.step {
+ margin: 0 auto 2rem;
+ height: 100vh;
+}
+
+.step p {
+ padding: 1rem;
 }
 
 .maw-70 {
