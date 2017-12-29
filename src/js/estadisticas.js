@@ -164,7 +164,7 @@ function abstenidoChart() {
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
-                'rgba(239, 176, 39,.2)'
+                'rgba(239, 176, 39,1)'
             ]
         }]
 
@@ -326,11 +326,6 @@ function handleStepEnter(response) {
 
 }
 
-function handleContainerEnter(response) {
-}
-
-function handleContainerExit(response) {
-}
 
 function init() {
     // 1. force a resize on load to ensure proper dimensions are sent to scrollama
@@ -344,12 +339,9 @@ function init() {
         graphic: '.scroll__graphic',
         text: '.scroll__text',
         step: '.scroll__text .step',
-        debug: true,
         offset: 0.63,
     })
-            .onStepEnter(handleStepEnter)
-            .onContainerEnter(handleContainerEnter)
-            .onContainerExit(handleContainerExit);
+            .onStepEnter(handleStepEnter);
 
         // setup resize event
         window.addEventListener('resize', handleResize);

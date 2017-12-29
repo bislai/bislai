@@ -95,6 +95,7 @@ body {
 }
 
 /* ESTILOS C3 */
+
 /* stylelint-disable */
 
 .c3 svg {
@@ -286,6 +287,7 @@ body {
     fill: #000;
 }
 
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -300,6 +302,7 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
 
 /*
 Tipue Search 6.0
@@ -338,6 +341,7 @@ http://www.tipue.com/search
 
 
 
+
 /* search box */
 
 #tipue_search_input {
@@ -367,6 +371,8 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
+
 /* search results */
 
 #tipue_search_content {
@@ -602,6 +608,7 @@ http://www.tipue.com/search
 
 
 
+
 /* stylelint-enable */
 
 .background {
@@ -716,6 +723,7 @@ path.q2-3 {
     }
 }
 
+
 /* stylelint-disable */
 
 .tooltipLeyenda,
@@ -750,6 +758,7 @@ path.q2-3 {
     }
 }
 
+
 /* stylelint-enable */
 
 .container-tooltip-leyenda {
@@ -760,6 +769,7 @@ path.q2-3 {
 .container-tooltip-partido {
     padding: 16px;
 }
+
 
 /* stylelint-disable */
 
@@ -773,6 +783,7 @@ path.q2-3 {
         display: none;
     }
 }
+
 
 /* stylelint-enable */
 
@@ -1158,48 +1169,56 @@ path.q2-3 {
 }
 
 #scroll {
- position: relative;
+    position: relative;
 }
 
 .scroll__graphic {
-/* stylelint-disable */
- position: -webkit-sticky;
- position: sticky;
- /* stylelint-enable */
- float: right;
- top: 30vh;
- right: 10vw;
- -webkit-transform: translate3d(0, 0, 0);
- -moz-transform: translate3d(0, 0, 0);
- transform: translate3d(0, 0, 0);
+    /* stylelint-disable */
+    position: -webkit-sticky;
+    position: sticky;
+    /* stylelint-enable */
+    float: right;
+    top: 30vh;
+    right: 10vw;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .scroll__graphic p {
- text-align: center;
- padding: 1rem;
- position: absolute;
- top: 50%;
- left: 50%;
- -moz-transform: translate(-50%, -50%);
- -webkit-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- font-size: 8rem;
- font-weight: 900;
- color: #666;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 900;
+    color: #666;
 }
 
 .scroll__text {
- position: relative;
- padding: 0 1rem;
- max-width: 30rem;
- width: 33%;
+    position: relative;
+    padding: 2rem;
+    max-width: 30rem;
+    width: 33%;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ccc;
 }
 
 .step {
- margin: 0 auto 2rem;
- height: 100vh;
+    margin: 0 auto 2rem;
+    height: 100vh;
 }
 
-.step p {
- padding: 1rem;
+.title-estadisticas {
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: var(--pureblack);
+    color: var(--white);
+    padding: 1rem;
+    width: 100%;
+    font-family: var(--fontBislai);
 }
