@@ -13,8 +13,26 @@ function unanimidadChart() {
                 beginAtZero:true,
                 mirror:false,
                 suggestedMin: 0,
-                suggestedMax: 100,
-              }
+                suggestedMax: 100
+              },
+              gridLines: {
+                    color: [
+                    'rgba(0, 0, 0, 0)'
+                    ]
+              },
+              drawOnChartArea: false,
+              drawBorder: false,
+              drawTicks: false
+            }],
+            xAxes: [{
+              gridLines: {
+                    color: [
+                    'rgba(0, 0, 0, 1)'
+                    ]
+              },
+              drawOnChartArea: false,
+              drawBorder: false,
+              drawTicks: false
             }]
         },
         legend: {
@@ -146,7 +164,7 @@ function abstenidoChart() {
                 'rgba(154, 22, 34,1)',
                 'rgba(227, 6, 19,1)',
                 'rgba(240, 122, 54,1)',
-                'rgba(239, 176, 39,.2)'
+                'rgba(239, 176, 39,1)'
             ]
         }]
 
@@ -239,9 +257,38 @@ function afavorChart() {
 
 
 // initialize the scrollama
+
+var container = document.getElementById('scroll');
+var step = document.querySelector('.step');
+var graphic = document.querySelector('.scroll__graphic');
+var text = document.querySelector('.scroll__text');
+
 var scroller = scrollama();
 
-var step = document.getElementsByClassName('.step');
+function handleResize() {
+    // 1. update height of step elements
+    var stepHeight = Math.floor(window.innerHeight * 0.75);
+    step.style.height = stepHeight + 'px';
+
+
+    // 2. update width/height of graphic element
+
+    var graphicMargin = 16 * 4;
+    var textWidth = step.getBoundingClientRect();
+    var containerWidth = container.getBoundingClientRect().width;
+    console.log(containerWidth)
+    var totaltext = textWidth.width;
+    var totalcontainer = containerWidth.width;
+    var graphicWidth = containerWidth - graphicMargin;
+    var graphicHeight = Math.floor(window.innerHeight / 2);
+    var graphicMarginTop = Math.floor(graphicHeight / 2)
+
+    graphic.style.width = graphicWidth;
+    graphic.style.height = graphicHeight;
+
+    // 3. tell scrollama to update new element dimensions
+    scroller.resize();
+}
 
 // scrollama event handlers
 function handleStepEnter(response) {
@@ -279,20 +326,10 @@ function handleStepEnter(response) {
 
 }
 
-function handleContainerEnter(response) {
-    // response = { direction }
-
-
-}
-
-function handleContainerExit(response) {
-    // response = { direction }
-
-
-}
 
 function init() {
     // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+    handleResize();
 
     // 2. setup the scroller passing options
     // this will also initialize trigger observations
@@ -302,12 +339,12 @@ function init() {
         graphic: '.scroll__graphic',
         text: '.scroll__text',
         step: '.scroll__text .step',
-        debug: true,
-        offset: 0.6,
+        offset: 0.63,
     })
-        .onStepEnter(handleStepEnter)
-        .onContainerEnter(handleContainerEnter)
-        .onContainerExit(handleContainerExit);
+            .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener('resize', handleResize);
 
 }
 

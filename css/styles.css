@@ -1463,6 +1463,62 @@ path.q2-3 {
 
 #chart {
     max-width: 50vw;
+    width: 50vw;
+}
+
+#scroll {
+    position: relative;
+}
+
+.scroll__graphic {
+    /* stylelint-disable */
+    position: -webkit-sticky;
+    position: sticky;
+    /* stylelint-enable */
+    float: right;
+    top: 30vh;
+    right: 10vw;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.scroll__graphic p {
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 900;
+    color: #666;
+}
+
+.scroll__text {
+    position: relative;
+    padding: 2rem;
+    max-width: 30rem;
+    width: 33%;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ccc;
+}
+
+.step {
+    margin: 0 auto 2rem;
+    height: 100vh;
+}
+
+.title-estadisticas {
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .maw-70 {
