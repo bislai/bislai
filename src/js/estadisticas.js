@@ -1,8 +1,8 @@
 function unanimidadChart() {
 
-  var ctx = document.getElementById("chart");
+  var unanimidad = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarunanimidad = new Chart(unanimidad, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -37,7 +37,8 @@ function unanimidadChart() {
         },
         legend: {
             display: false
-        }
+        },
+        showAllTooltips: true
       },
       data: {
           labels: ["Unanimidad", "Disconformidad"],
@@ -56,9 +57,9 @@ function unanimidadChart() {
 
 function repeticionChart() {
 
-  var ctx = document.getElementById("chart");
+  var repeticion = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarrepeticion = new Chart(repeticion, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -94,9 +95,9 @@ function repeticionChart() {
 
 function masMocionesChart() {
 
-  var ctx = document.getElementById("chart");
+  var masMocione = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarmasMocione = new Chart(masMocione, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -134,9 +135,9 @@ function masMocionesChart() {
 
 function abstenidoChart() {
 
-  var ctx = document.getElementById("chart");
+  var abstenido = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarabstenido = new Chart(abstenido, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -175,9 +176,9 @@ function abstenidoChart() {
 
 function encontraChart() {
 
-  var ctx = document.getElementById("chart");
+  var encontra = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarencontra = new Chart(encontra, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -216,9 +217,9 @@ function encontraChart() {
 
 function afavorChart() {
 
-  var ctx = document.getElementById("chart");
+  var afavor = document.getElementById("chart");
 
-  var myBarChart = new Chart(ctx, {
+  var myBarafavor = new Chart(afavor, {
       type: 'bar',
       duration: 3000,
       easing: 'easeInCubic',
@@ -254,6 +255,7 @@ function afavorChart() {
   });
 
 }
+
 
 
 // initialize the scrollama
@@ -297,29 +299,17 @@ function handleStepEnter(response) {
 
     if (response.index === 0) {
         unanimidadChart();
-    }
-
-    if (response.index === 1) {
+    } else if (response.index === 1) {
         repeticionChart();
-    }
-
-    if (response.index === 2) {
+    } else if (response.index === 2) {
         masMocionesChart();
-    }
-
-    if (response.index === 3) {
+    } else if (response.index === 3) {
         abstenidoChart();
-    }
-
-    if (response.index === 4) {
+    } else if (response.index === 4) {
         abstenidoChart();
-    }
-
-    if (response.index === 5) {
+    } else if (response.index === 5) {
         encontraChart();
-    }
-
-    if (response.index === 6) {
+    } else if (response.index === 6) {
         afavorChart();
     }
 
@@ -342,7 +332,6 @@ function init() {
         offset: 0.63,
     })
             .onStepEnter(handleStepEnter);
-
         // setup resize event
         window.addEventListener('resize', handleResize);
 
