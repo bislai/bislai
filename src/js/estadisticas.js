@@ -1,3 +1,11 @@
+var configDataLabels = {
+    color: 'black',
+    font: {
+        size: "20",
+        weight: 'bold'
+    }
+}
+
 function unanimidadChart() {
 
     var unanimidad = document.getElementById("chart");
@@ -8,12 +16,7 @@ function unanimidadChart() {
         easing: 'easeInCubic',
         options: {
             plugins: {
-                datalabels: {
-                    color: 'black',
-                    font: {
-                        weight: 'bold'
-                    }
-                }
+                datalabels: configDataLabels
             },
             scales: {
                 yAxes: [{
@@ -23,21 +26,11 @@ function unanimidadChart() {
                         suggestedMin: 0,
                         suggestedMax: 100
                     },
-                    gridLines: {
-                        color: [
-                            'rgba(0, 0, 0, 0)'
-                        ]
-                    },
                     drawOnChartArea: false,
                     drawBorder: false,
                     drawTicks: false
                 }],
                 xAxes: [{
-                    gridLines: {
-                        color: [
-                            'rgba(0, 0, 0, 1)'
-                        ]
-                    },
                     drawOnChartArea: false,
                     drawBorder: false,
                     drawTicks: false
@@ -72,6 +65,9 @@ function repeticionChart() {
         duration: 3000,
         easing: 'easeInCubic',
         options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
             scales: {
                 yAxes: [{
                     ticks: {
@@ -110,6 +106,9 @@ function masMocionesChart() {
         duration: 3000,
         easing: 'easeInCubic',
         options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
             scales: {
                 yAxes: [{
                     ticks: {
@@ -150,6 +149,9 @@ function abstenidoChart() {
         duration: 3000,
         easing: 'easeInCubic',
         options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
             scales: {
                 yAxes: [{
                     ticks: {
@@ -191,6 +193,9 @@ function encontraChart() {
         duration: 3000,
         easing: 'easeInCubic',
         options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
             scales: {
                 yAxes: [{
                     ticks: {
@@ -232,6 +237,9 @@ function afavorChart() {
         duration: 3000,
         easing: 'easeInCubic',
         options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
             scales: {
                 yAxes: [{
                     ticks: {
@@ -314,10 +322,8 @@ function handleStepEnter(response) {
     } else if (response.index === 3) {
         abstenidoChart();
     } else if (response.index === 4) {
-        abstenidoChart();
-    } else if (response.index === 5) {
         encontraChart();
-    } else if (response.index === 6) {
+    } else if (response.index === 5) {
         afavorChart();
     }
 
