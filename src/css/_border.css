@@ -89,7 +89,7 @@
 .borderc-pp,
 .borderc-psoe,
 .borderc-cs,
-.borderc-ch,
+.borderc-cha,
 .borderc-zec {
     border-left: 10px solid var(--psoe);
 }
@@ -102,7 +102,7 @@
     border-left-color: var(--pp);
 }
 
-.borderc-ch {
+.borderc-cha {
     border-left-color: var(--chunta);
 }
 
