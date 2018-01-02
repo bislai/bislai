@@ -1223,13 +1223,8 @@ path.q2-3 {
     z-index: 2;
 }
 
-.partido {
-    background-color: #fafafa;
-}
-
 .partido-container {
     overflow: hidden;
-    background-color: #f6f9fc;
     text-align: center;
 }
 
@@ -1464,6 +1459,7 @@ path.q2-3 {
 #chart {
     max-width: 50vw;
     width: 50vw;
+    pointer-events: none;
 }
 
 #scroll {
@@ -2979,7 +2975,7 @@ path.q2-3 {
 .borderc-pp,
 .borderc-psoe,
 .borderc-cs,
-.borderc-ch,
+.borderc-cha,
 .borderc-zec {
     border-left: 10px solid #e30613;
 }
@@ -2992,7 +2988,7 @@ path.q2-3 {
     border-left-color: #0080b8;
 }
 
-.borderc-ch {
+.borderc-cha {
     border-left-color: #efb027;
 }
 

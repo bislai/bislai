@@ -933,13 +933,8 @@ path.q2-3 {
     z-index: 2;
 }
 
-.partido {
-    background-color: #fafafa;
-}
-
 .partido-container {
     overflow: hidden;
-    background-color: #f6f9fc;
     text-align: center;
 }
 
@@ -1166,6 +1161,7 @@ path.q2-3 {
 #chart {
     max-width: 50vw;
     width: 50vw;
+    pointer-events: none;
 }
 
 #scroll {
