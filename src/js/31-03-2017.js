@@ -37,7 +37,7 @@ var primera = c3.generate({
         type: 'pie'
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
     bindto: '#mocion3'
 });

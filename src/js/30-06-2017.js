@@ -248,5 +248,5 @@ var primera = c3.generate({
     color: {
       pattern: ['#209F69', '#D01F2E', '#D7E4E4']
     },
-     bindto: '#mocion13'
+     bindto: '#mocion14'
 });
