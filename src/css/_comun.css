@@ -826,8 +826,7 @@ path.q2-3 {
 }
 
 .footer {
-    background-image: url("../img/pattern.svg");
-    background-repeat: repeat;
+    background-color: #fafafa;
 }
 
 .bislai-home-body-left {

@@ -1114,8 +1114,7 @@ path.q2-3 {
 }
 
 .footer {
-    background-image: url("../img/pattern.svg");
-    background-repeat: repeat;
+    background-color: #fafafa;
 }
 
 .bislai-home-body-left {
@@ -3550,6 +3549,35 @@ path.q2-3 {
 
 .bxs-1 {
   box-shadow: 0 1px 2px rgba(0,0,0,0.075)
+}
+
+.partidos-cabecera {
+    height: 50vh;
+    padding: 3rem;
+    width: 100%;
+    font-size: 0;
+}
+
+.partidos-cabecera-izda {
+    width: 40%;
+    display: inline-block;
+}
+
+.partidos-cabecera-title {
+    font-size: 6rem;
+    font-family: "Fjalla One", sans-serif;
+    color: #121;
+    margin-top: 0;
+}
+
+.partidos-cabecera-dcha {
+    width: 60%;
+    display: inline-block;
+}
+
+#historico {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

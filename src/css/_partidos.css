@@ -1,0 +1,28 @@
+.partidos-cabecera {
+    height: 50vh;
+    padding: 3rem;
+    width: 100%;
+    font-size: 0;
+}
+
+.partidos-cabecera-izda {
+    width: 40%;
+    display: inline-block;
+}
+
+.partidos-cabecera-title {
+    font-size: 6rem;
+    font-family: var(--fontBislai);
+    color: var(--black);
+    margin-top: 0;
+}
+
+.partidos-cabecera-dcha {
+    width: 60%;
+    display: inline-block;
+}
+
+#historico {
+    max-width: 80%;
+    margin: 0 auto;
+}
