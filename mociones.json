@@ -1194,8 +1194,8 @@ var mociones = [
 },
 {
     "fecha": "28-01-2016",
-    "presentada": "ZEC",
-    "resultado": "perdida",
+    "presentada": "PSOE",
+    "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S",
     "en_contra": "ZEC + CHA",
     "votos_contra": 11,
