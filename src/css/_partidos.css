@@ -1,5 +1,5 @@
 .partidos-cabecera {
-    height: 50vh;
+    min-height: 50vh;
     padding: 3rem;
     width: 100%;
     font-size: 0;
@@ -14,7 +14,7 @@
     font-size: 6rem;
     font-family: var(--fontBislai);
     color: var(--black);
-    margin-top: 0;
+    margin: 0;
 }
 
 .partidos-cabecera-dcha {
@@ -25,4 +25,12 @@
 #historico {
     max-width: 80%;
     margin: 0 auto;
+}
+
+.partidos-concejales {
+    font-size: 1rem;
+}
+.partido-concejales-lista {
+    font-size: 1rem;
+    list-style-position: inside;
 }

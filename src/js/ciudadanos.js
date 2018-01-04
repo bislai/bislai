@@ -47,7 +47,7 @@ function historico() {
         data: {
             labels: votaciones,
             datasets: [{
-                data: [0,0,0,0,0,0,0,0,0,4],
+                data: ["-","-","-","-","-","-","-","-",0,4],
                 backgroundColor: [
                     '#fff'
                 ],
