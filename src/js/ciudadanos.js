@@ -1,13 +1,17 @@
 var configDataLabels = {
-    color: 'black',
-    font: {
-        size: "16",
-        weight: 'bold'
+    backgroundColor: 'rgba(0, 0, 0, .6)',
+    borderRadius: 5,
+    color: 'white',
+    padding: {
+        top: 5,
+        right: 10,
+        bottom: 5,
+        left: 10
     }
 }
 
 var votaciones = [
-    "1979","1983","1987","1991","1995","1999","2003","2007","2011","2015"
+    "1979", "1983", "1987", "1991", "1995", "1999", "2003", "2007", "2011", "2015"
 ]
 
 function historico() {
@@ -47,14 +51,18 @@ function historico() {
         data: {
             labels: votaciones,
             datasets: [{
-                data: ["-","-","-","-","-","-","-","-",0,4],
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
                 backgroundColor: [
                     '#fff'
                 ],
                 borderColor: [
                     "#ccc"
                 ],
-                borderWidth: [1]
+                borderWidth: [1],
+                datalabels: {
+                    align: 'end',
+                    anchor: 'end'
+                }
             }]
         }
     });
