@@ -2611,6 +2611,60 @@ var tipuesearch = {
         "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/24-11-2017#27.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#18.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#19.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#20.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#21.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#22.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#24.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 22 de diciembre de 2017",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/22-12-2017#26.html"
     }
     ]
 };
