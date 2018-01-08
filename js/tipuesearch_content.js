@@ -69,181 +69,181 @@ var tipuesearch = {
         "url": "http://bislai.co/plenos/2015/02-10-2015#2.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento rechace la actitud de la administración general del Estado ante la crisis humanitaria que estamos viviendo en Europa y el entorno del Mediterráneo y muestre su solidaridad con los ciudadanos que deben abandonar su país por razones ideológicas (P-62/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Rechaza la actitud de la Administración General del Estado ante la crisis humanitaria que estamos viviendo en Europa y en el entorno del Mediterráneo y muestra su profunda solidaridad con los ciudadanos que deben abandonar su país por razones ideológicas.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Aprueba adherir la Ciudad de Zaragoza a la red estatal de ciudades de acogida.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Insta al Gobierno de la Ciudad a iniciar contactos para crear una red aragonesa de municipios de acogida, en colaboración con el Gobierno de Aragón.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Pondrá en marcha, con carácter de urgencia, las medidas oportunas para acoger el mayor número posible de refugiados, poniendo en marcha un registro de ciudadanos y ciudadanas que quieran ayudarles, destinando viviendas públicas para este fin, ofreciendo instalaciones públicas, iniciando contactos con entidades bancarias para disponer a este fin pisos vados y cuantas otras medidas considere de interés.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento rechace la actitud de la administración general del Estado ante la crisis humanitaria que estamos viviendo en Europa y el entorno del Mediterráneo y muestre su solidaridad con los ciudadanos que deben abandonar su país por razones ideológicas (P-62/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#4.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Instar al Gobierno de España a reconsiderar la subida del IVA para bienes y actividades culturales, estableciendo su tipo en 5% y manteniendo el 4% el del libro.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#4.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Instar al Gobierno de España a que defienda en las instituciones europeas, el establecimeinto de un IVA reducido armonizado para todo el territorio de la UE.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#4.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Solicitar al Gobierno de Zaragoza para que adopte medidas destinadas a paliar el efecto de la subida del IVA cultural en salas, teatros y centros culturales, estableciendo al efecto un Bono Cultural que, hasta tanto no se modifique por el Gobierno de España el actual tipo del impuesto, absorba al menos 10 puntos de dicho tipo.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#4.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a abonar la parte restante de la extra de diciembre de 2012 devengada y no percibida, a todo el personal municipal y de patronatos, sociedades municipales y resto de organismos autónomos (P-66/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#5.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuantas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#6.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuantas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#7.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Gobierno municipal a cumplir con el requerimiento realizado por el grupo municipal Popular el 13 de julio de 2015 en el sentido de que se entreguen a los grupos municipales todos los informes y documentos del traspaso de poderes entre los diferentes responsables técnicos y políticos de la pasada y la actual corporación (P-70/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#8.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza se comprometa a: Poner en valor la cohesión y la unidad de España; respetar los derechos y libertades fundamentales de todos los ciudadanos; poner en valor la fortaleza democrática de nuestras instituciones; poner en valor y defender nuestra soberanía nacional e instar a todos los poderes públicos, instituciones, administraciones públicas y sociedad civil a la defensa y puesta en valor de nuestro estado de derechos, de nuestros principios y valores constitucionales y de nuestro sistema de libertades (P-71/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#9.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento solicite al Gobierno de Zaragoza que se comprometa a: que ningún parlamento, gobierno o institución política pueda desobedecer las leyes democráticamente aprobadas, ni las resoluciones de los tribunales, ni situarse por encima de la soberanía popular que corresponde, de acuerdo con la Constitución al conjunto del pueblo español y otros extremos (P-88/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#10.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "Instar al Gobierno de Zaragoza a: atender las demandas planteadas por el colectivo de taxistas permitiendo a los que se encuentren ocupados/alquilados realizar los giros que se indican en el texto de la moción y a estudiar la posibilidad de autorizar la circulación por la trazada del tranvía por el Coso y la avenida César Augusto hasta el Puente de Santiago (P-89/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#11.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "La defensa de la Constitución y la preservación de la convivencia y la cohesión social en Cataluña y el resto de España (P-196/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#12.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno solicite al Gobierno de España la desafección del campo de maniobras de San Gregorio para usos militares y la posterior cesión de los terrenos a los municipios afectados, así como la anulación de la declaración de dicha zona como de interés para la defensa nacional (P-197/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#13.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza inste al Congreso de los Diputados a la aprobación de una ley de financiación de los ayuntamientos suficiente y sostenible, con criterios de progresividad y justicia social y otros extremos (P-198/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "El pleno del Ayuntamiento de Zaragoza insta al Congreso de los Diputados a la aprobación de una Ley de Financiación de los Ayuntamientos suficiente y sostenible con criterios de progresividad y justicia social.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "El pleno del Ayuntamiento de Zaragoza insta al Ministro de Hacienda y Administraciones Públicas promover la modificación de la Ley de Estabilidad Presupuestaria y Sostenibilidad Financiera para que las políticas sociales decididas en cada ciudad no se subordinen a los planes económicos y financieros previstos en esta ley.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "El pleno del Ayuntamiento de Zaragoza insta al Consejero de Hacienda y Administración Pública del Gobierno de Aragón convoque la mesa política y técnica pertinente para analizar el coste de los servicios y los instrumentos jurídicos adecuados para que con la dotación económica suficiente, la sociedad zaragozana pueda seguir recibiendo los mismos servicios que actualmente viene prestando el Ayuntamiento a partir del próximo 1 de enero.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "El pleno del Ayuntamiento de Zaragoza insta al Gobierno de Aragón el rápido impulso a la Ley de Capitalidad que solucione defmitivamente la prestación de las competencias impropias y su apropiada financiación.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "El pleno del Ayuntamiento de Zaragoza solicita al Consejero de Hacienda y Administración Pública del Gobierno de Aragón, asuma de manera inmediata la deuda acumulada con este Ayuntamiento.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#14.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a la creación de un grupo de trabajo, con participación de todos los grupos municipales, para estudiar la reforma del Reglamento de Órganos Territoriales y de Participación Ciudadana, en los términos recogidos en el capítulo V de la sección 2ª del Título V del citado reglamento (P-200/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#15.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a la creación de un grupo de trabajo, con participación de todos los grupos municipales, para estudiar la reforma del Reglamento de Órganos Territoriales y de Participación Ciudadana, en los términos recogidos en el capítulo V de la sección 2ª del Título V del citado reglamento (P-200/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#16.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza muestre su apoyo y solidaridad con los trabajadores de Vodafone Ono (antes Cableuropa) y Vodafone España (P-202/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#17.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza en Común a no volver a utilizar de manera partidista los medios, instalaciones y equipamientos municipales, a abonar los importes que contempla la ordenanza fiscal por haber utilizado las salas del Auditorio el 25 de septiembre último y a abonar los gastos en publicidad en los que ha incurrido el Ayuntamiento para publicitar su acto de partido sobre los 100 primeros días de gobierno de esta formación política (P-203/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#18.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno inste al Alcalde y al Gobierno de Zaragoza a formalizar y aprobar el decreto de organización y estructura pormenorizada del Ayuntamiento de Zaragoza (P-204/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#19.html"
     },
     {
-        "title": "Pleno ordinario del 30 de octubre de 2015",
+        "title": "Pleno ordinario del 2 de octubre de 2015",
         "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza repruebe al concejal delegado de Deportes, don Pablo Híjar por burlar de manera consciente e intencionada el mandato judicial de paralización de los trabajos de eliminación de los rótulos del Pabellón Príncipe Felipe.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#20.html"
@@ -663,109 +663,109 @@ var tipuesearch = {
         "url": "http://bislai.co/plenos/2015/27-11-2015#19.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de la ciudad a interponer querella criminal ante los juzgados de instrucción de Zaragoza a los efectos de iniciar una investigación por los crímenes contra la humanidad cometidos por la dictadura franquista en la ciudad de Zaragoza. (P-607/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento de Zaragoza, insta al Gobierno de la ciudad a interponer querella criminal ante los Juzgados de Instrucción de Zaragoza a los efectos de iniciar una investigación por los crímenes contra la humanidad cometidos por la dictadura franquista en la ciudad de Zaragoza, de manera que se conozcan las circunstancias en que fueron perpetrados, quienes fueron sus responsables y, en su caso se proceda a su imputación, procesamiento, juicio y condena, dando traslado de este acuerdo al Juzgado Nacional de lo Criminal y Correccional Federal número 1 de Buenos Aires (República Argentina), querella 4591/2010.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a recordar la memoria y hacer un justo homenaje a los miembros de la Corporación y trabajadores de este Ayuntamiento que fueron víctimas de la guerra y la dictadura.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a recordar la memoria y hacer un justo homenaje a los miembros de la Corporación y trabajadores de este Ayuntamiento que fueron víctimas de la guerra y la dictadura.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento insta al Gobierno de la Ciudad a facilitar, en colaboración con las asociaciones memorialistas, la creación de un Centro de la Memoria Histórica que sirva como espacio dinamizador para la realización de actividades, exposiciones, intercambio de experiencias y archivo.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "De los acuerdos adoptados se dará traslado a los Grupos Parlamentarios de las Cortes de Aragón.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Aragón a iniciar la tramitación parlamentaria de una Ley Aragonesa de Memoria Histórica, que recoja, entre otras cuestiones, la colaboración entre Administraciones para localizar e identificar a las personas desaparecidas en aras a promover la reparación moral y la recuperación de su memoria personal y familiar y dotándola de los instrumentos más eficaces para el cumplimiento de sus fines.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#34.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de Zaragoza, a realizar cuantas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano, de acuerdo a los pliegos de condiciones, imponiendo las sanciones establecidas en caso de incumplimiento. (P- 626/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "Realizar cuantas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano de acuerdo a los Pliegos de Condiciones, imponiendo las sanciones establecidas en caso de incumplimiento.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "Revisar los servicios mínimos establecidos cuando un conflicto laboral afecte a un servicio público de carácter esencial, para que -sin menoscabo del derecho a la huelga constitucionalmente establecido- la afección a los zaragozanos sea la menor posible, garantizando unos servicios mínimos que nunca bajen del 50 % Y que siempre oscilen entre el 50 y el 90 %.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "Convocar a las reuniones de la mesa del transporte a los legítimos representantes de los zaragozanos, los grupos políticos, así como a los representantes de las Juntas de Distrito o Vecinales afectados según los temas a tratar y a cuantos especialistas en la materia sean necesarios.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de Aragón y a la Diputación Provincial de Zaragoza, a incluir o modificar sus presupuestos para 2016 y contener un mínimo de 25 millones de euros, cuyo destinatario final sea el Ayuntamiento de Zaragoza, en concepto de costes soportados por la capitalidad. (P- 627/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#36.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de la ciudad a revocar con carácter inmediato y urgente el Decreto de 9 de diciembre por el que se convoca una encuesta ciudadana, al amparo del Reglamento de Órganos Territoriales y Participación Ciudadana, procediendo en el mismo acto, al cumplimiento de la moción del Pleno de 30 octubre 2015, nombrando a los vocales designados por los grupos, atendiendo a la instrucción por la que se requería designar vocales antes de 1 de diciembre conforme a los resultados electorales del 24 de mayo. (P-628/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#37.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de manifestar respaldo a la Policía Local de la ciudad, reconociendo su actuación al servicio de los habitantes de esta ciudad. (P-629/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#38.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "El Pleno del Ayuntamiento de Zaragoza manifiesta su respaldo a la Policía Local de la ciudad, reconociendo con ello su actuación al servicio de los habitantes de esta ciudad.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#38.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "Por ello cualquier decisión que pueda adoptarse en cuanto a la estructura, funciones, y operatividad del Cuerpo de Policía Local de la ciudad de Zaragoza, servicio de carácter esencial para los ciudadanos, deberá contar inexcusablemente con el mismo grado de consenso con los grupos políticos con el que se acordó y puso en funcionamiento la actual. En consecuencia, para cualquier proyecto o reestructuración futura será imprescindible la articulación de un grupo de trabajo con todos los grupos políticos tendente al análisis, evaluación y búsqueda de la unanimidad, alejándose de criterios coyunturales o partidistas.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#38.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de la ciudad a revocar con carácter inmediato y urgente el Decreto de 9 de diciembre por el que se convoca una encuesta ciudadana, al amparo del Reglamento de Órganos Territoriales y Participación Ciudadana, procediendo en el mismo acto, al cumplimiento de la moción del Pleno de 30 octubre 2015, nombrando a los vocales designados por los grupos, atendiendo a la instrucción por la que se requería designar vocales antes de 1 de diciembre conforme a los resultados electorales del 24 de mayo. (P-628/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#39.html"
     },
     {
-        "title": "Pleno ordinario del 27 de noviembre de 2015",
+        "title": "Pleno ordinario del 23 de diciembre de 2015",
         "text": "En el sentido de instar al Gobierno de la ciudad a revocar con carácter inmediato y urgente el Decreto de 9 de diciembre por el que se convoca una encuesta ciudadana, al amparo del Reglamento de Órganos Territoriales y Participación Ciudadana, procediendo en el mismo acto, al cumplimiento de la moción del Pleno de 30 octubre 2015, nombrando a los vocales designados por los grupos, atendiendo a la instrucción por la que se requería designar vocales antes de 1 de diciembre conforme a los resultados electorales del 24 de mayo. (P-628/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#40.html"
@@ -1632,115 +1632,115 @@ var tipuesearch = {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno del Ayuntamiento de pronuncie en el sentido de reconocer y valorar positivamente la labor realizada hasta ahora por la Unidad de Apoyo Operativo (UAPO) e inste al Gobierno municipal a asegurar la continuidad del servicio",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#2.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#2.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno del Ayuntamiento respalde el mantenimiento de la Unidad de Apoyo Operativo de la Policía Local de Zaragoza y rechace cualquier planteamiento de disolución de la misma.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#3.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#3.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Instando al Pleno a aprobar la adhesión de nuestra ciudad a la Declaración de París para sentar las bases que pongan fin a la epidemia de SIDA y con ello al compromiso político de cumplimiento de los objetivos establecidos.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#4.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#4.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno inste al Gobierno de la ciudad a crear una comisión especial donde los grupos municipales debatan y decidan los pasos a seguir para planificar el diseño de la movilidad de Zaragoza y, en su caso, decidan cómo, cuándo y bajo qué pregunta, podrían los zaragozanos pronunciarse en una consulta sobre el transporte público que desean en el futuro para su ciudad.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#5.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#5.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "El Pleno del Ayuntamiento de Zaragoza manifiesta la solidaridad y el apoyo de la Corporación a los trabajadores de Extel-Adecco para impedir el ERE presentado por la empresa, que supondrá el despido de 355 empleados en todo el Estado, entre los que se encuentra el 104 de la plantilla en Zaragoza. El Pleno del Ayuntamiento de Zaragoza insta a Extel-Adecco a poner el máximo empeño para resolver un conflicto que puede afectar a los referidos 355 trabajadores y a comprometerse firmemente con el mantenimiento del empleo de calidad.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#6.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#6.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a aprobar de forma inmediata el plan local de comercio.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#7.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#7.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a habilitar los procesos pertinentes para que las mociones aprobadas, inicien un expediente de tramitación administrativa que garantice la viabilidad económica, competencialy jurídica de la propuesta planteada en las mismas. En caso negativo se expediría informe técnico de la no viabilidad argumentado, dándose traslado al resto de grupos municipales para su conocimiento.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#8.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#8.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a convocar trimestralmente una mesa de seguimiento de mociones para lograr un control de su cumplimiento.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#8.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#8.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que este Ayuntamiento reitere su apoyo a la bicicleta como instrumento para la movilidad en la ciudad y otros extremo.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#9.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#9.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad y a a la Sociedad Zaragoza Cultural a no autorizar ningún acto incumplidor con la Ordenanza Reguladora de Actividades Comerciales e Industriales en Terrenos Públicos.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#10.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#10.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a impulsar la creación de un grupo de trabajo con objeto de modificar la Ordenanza Reguladora de Actividades Comerciales e Industriales en Terrenos Públicos y acomodarla a la realidad.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#10.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#10.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a aplicar el principio de precaución en la redacción de nuevos pliegos para la compra de productos y la prestación de servicios susceptibles de contener EDC.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#11.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#11.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno del Ayuntamiento inste al Gobierno municipal a cumplir con los acuerdos adoptados por el Pleno en esta legislatura en relación con la ley de capitalidad, convocando de manera inmediata a los grupos municipales para acordar el texto de la norma que después se negociará en el Gobierno de Aragón.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#12.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#12.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Instar al Gobierno de Zaragoza a realizar un plan director del centro cívico Rosales.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#13.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#13.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "En el sentido de que el Pleno manifieste su más clara condena ante los hechos acontecidos en la facultad de Derecho de la Universidad Autónoma de Madrid el 19 de octubre en curso (P-1.957/2016)",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#14.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#14.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Que el Pleno inste al Gobierno de España a realizar un cambio radical de la política de asfixia financiera aplicada por el gobierno central hacia Ayuntamientos y Comunidades Autónomas y el cese inmediato de los recortes y la austeridad.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#15.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#15.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Instar al Gobierno de Zaragoza y concretamente al área de Servicios Públicos a adoptar las medidas necesarias para devolver aI átrea de la ribera comprendida entre el camino bajo y la lámina de agua a su estado inicial, acometiendo la limpieza de vegetación y deshechos existente.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#16.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#16.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Instar al Gobierno deZartgozaa elaborar un plan de mantenimiento general de las riberas a lo largo de todo el término municipal.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#16.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#16.html"
     },
     {
         "title": "Pleno ordinario del 28 de octubre de 2016",
         "text": "Reconocer el efecto negativo que la implantación del outlet de Pikolín va a producir el pequeño comercio y manifestar el apoyo al comercio de proximidad que da vida a los barrios.",
         "tags": "",
-        "url": "http://bislai.co/plenos/2016/30-09-2016#17.html"
+        "url": "http://bislai.co/plenos/2016/28-10-2016#17.html"
     },
     {
         "title": "Pleno ordinario del 2 de diciembre de 2016",
