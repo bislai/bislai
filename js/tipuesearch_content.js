@@ -2614,37 +2614,37 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a incrementar los recursos presupuestarios existentes para la iluminación navideña de la ciudad (P-3.955/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#18.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de España a promover un acuerdo marco que iguale los niveles salariales y las condiciones de trabajo y de conciliación, promoviendo la equidad y la igualdad e el seno de las fuerzas y cuerpos de seguridad del Estado (P-3.997/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#19.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento acuerde sumarse a la reivindicación de las organizaciones sindicatos UGT CC.OO. o de cualesquiera otras, en la defensa de un sistema público de pensiones que por encima de los intereses mercantilistas, garantice el mantenimiento del contrato social por el que se favorece la cohesión social y la redistribución de la riqueza (P-3.998/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#20.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "Apoyar proposición ley en Congreso para eximir de aplicación de la regla de gasto a las Entidades Locales que presenten cuentas públicas saneadas.- Instar al Mº Hacienda retirar intervención de cuentas Ayto. Madrid e Instar al Gobierno a aprobar prórroga aplicación de reglas contenida en D.A.6ª de Ley orgánica 2/2012 de estabilidad presupuestaria y sostenibilidad financiera",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#21.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a estudiar las fórmulas de colaboración más oportunas para contribuir económicamente, de acuerdo con las entidades sociales representativas del pueblo gitano, al sostenimiento de las actividades de difusión y promoción de la cultura gitana llevadas a cabo por dichas entidades (P-4.000/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#22.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a elaborar, de común acuerdo con todos los grupos municipales, un protocolo de actuación que desarrolle la propuesta institucional ante cualquier acto relacionado con los delitos de odio que se pueda producir en Zaragoza (P-4.001/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#23.html"
     },
@@ -2656,13 +2656,13 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a cumplir las mociones aprobadas por el Pleno en relación a la aprobación de los pliegos de condiciones con al menos 12 meses de anterioridad a la finalización de cualquier contrato de servicio así como a someter los pliegos a un periodo de estudio y aportaciones por parte de los grupos municipales a través de la Comisión Especial de Vigilancia de la Contratación, con carácter previo a su aprobación (P-4003/17).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#25.html"
     },
     {
         "title": "Pleno ordinario del 22 de diciembre de 2017",
-        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a iniciar un plan de desarrollo de la administración digital (P-3.830/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento acuerde apoyar de forma decidida el deporte femenino de base dentro del futuro plan estratégico de deporte (P-4.004/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/22-12-2017#26.html"
     }
