@@ -296,6 +296,22 @@ var primera = c3.generate({
      bindto: '#mocion12-3'
 });
 
+//Moción 13
+
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: CHA", 2],
+            ["En contra: PP + ZEC + PSOE + C'S", 28]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69', '#D01F2E']
+    },
+     bindto: '#mocion13'
+});
+
 //Mocion 14
 var primera = c3.generate({
     data: {

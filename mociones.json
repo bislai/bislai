@@ -1107,10 +1107,12 @@ var mociones = [
     "fecha": "28-01-2016",
     "presentada": "PSOE",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "a_favor": "ZEC + PSOE + CHA",
     "en_contra": "PP",
+    "abstencion": "C'S",
     "votos_contra": 9,
-    "votos_favor": 21,
+    "votos_favor": 17,
+    "votos_abstencion": 4,
     "numero": 93
 },
 {
@@ -1137,7 +1139,7 @@ var mociones = [
 },
 {
     "fecha": "28-01-2016",
-    "presentada": "C'S",
+    "presentada": "PP",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 10
@@ -1188,12 +1190,16 @@ var mociones = [
     "fecha": "28-01-2016",
     "presentada": "CHA",
     "resultado": "perdida",
+    "a_favor": "CHA",
+    "en_contra": "PP + ZEC + PSOE + C'S",
+    "votos_contra": 28,
+    "votos_favor": 2,
     "numero": 13
 },
 {
     "fecha": "28-01-2016",
     "presentada": "ZEC",
-    "resultado": "perdida",
+    "resultado": "ganada",
     "a_favor": "ZEC + PSOE + CHA",
     "en_contra": "PP",
     "abstencion": "C'S",
