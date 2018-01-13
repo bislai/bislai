@@ -1662,7 +1662,7 @@ var mociones = [
 },
 {
     "fecha": "27-05-2016",
-    "presentada": "PSOE",
+    "presentada": "CHA",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + CHA",
     "en_contra": "PP",
@@ -1688,11 +1688,21 @@ var mociones = [
     "fecha": "01-07-2016",
     "presentada": "PP",
     "resultado": "ganada",
-    "a_favor": "PP + C'S + PSOE",
+    "a_favor": "PP + PSOE + C'S",
     "en_contra": "ZEC + CHA",
     "votos_contra": 10,
     "votos_favor": 20,
     "numero": 22
+},
+{
+    "fecha": "01-07-2016",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_contra": 10,
+    "votos_favor": 20,
+    "numero": 23
 },
 {
     "fecha": "01-07-2016",
@@ -1707,12 +1717,12 @@ var mociones = [
 {
     "fecha": "01-07-2016",
     "presentada": "PSOE",
-    "resultado": "ganada",
+    "resultado": "perdida",
     "a_favor": "PSOE + C'S",
     "en_contra": "ZEC + CHA",
     "abstencion": "PP",
-    "votos_contra": 9,
-    "votos_favor": 10,
+    "votos_contra": 10,
+    "votos_favor": 9,
     "votos_abstencion": 10,
     "numero": 32
 },
@@ -1751,7 +1761,7 @@ var mociones = [
     "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "PP + PSOE",
-    "en_contra": "ZEC ",
+    "en_contra": "ZEC",
     "abstencion": "C'S + CHA",
     "votos_contra": 9,
     "votos_favor": 16,
@@ -1767,7 +1777,7 @@ var mociones = [
 },
 {
     "fecha": "01-07-2016",
-    "presentada": "CHA",
+    "presentada": "PP",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 10
@@ -1844,7 +1854,7 @@ var mociones = [
 },
 {
     "fecha": "22-07-2016",
-    "presentada": "CHA",
+    "presentada": "PP",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 6
@@ -1863,12 +1873,12 @@ var mociones = [
     "fecha": "22-07-2016",
     "presentada": "ZEC",
     "resultado": "ganada",
-    "a_favor": "PP + PSOE",
-    "en_contra": "ZEC + C'S",
+    "a_favor": "ZEC + C'S",
+    "en_contra": "PP + PSOE",
     "abstencion": "CHA",
     "votos_contra": 16,
-    "votos_favor": 9,
-    "votos_abstencion": 6,
+    "votos_favor": 11,
+    "votos_abstencion": 2,
     "numero": 72
 },
 {
