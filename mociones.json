@@ -95,6 +95,7 @@ var mociones = [
     "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + C'S + CHA",
+    "abstencion": "PP",
     "votos_favor": 21,
     "votos_abstencion": 10,
     "numero": 2
@@ -132,7 +133,7 @@ var mociones = [
 },
 {
     "fecha": "02-10-2015",
-    "presentada": "CHA",
+    "presentada": "PSOE",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 4
@@ -164,7 +165,7 @@ var mociones = [
     "fecha": "02-10-2015",
     "presentada": "PP",
     "resultado": "perdida",
-    "a_favor": "PP  + C'S",
+    "a_favor": "PP + C'S",
     "en_contra": "ZEC + PSOE + CHA",
     "votos_contra": 13,
     "votos_favor": 16,
@@ -293,8 +294,8 @@ var mociones = [
 },
 {
     "fecha": "02-10-2015",
-    "presentada": "CHA",
-    "resultado": "retirada",
+    "presentada": "PP",
+    "resultado": "ganada",
     "a_favor": " PP + PSOE + CHA",
     "en_contra": "ZEC",
     "abstencion": "C'S",
@@ -532,6 +533,7 @@ var mociones = [
     "fecha": "30-10-2015",
     "presentada": "ZEC",
     "resultado": "ganada",
+    "unanimidad": "si",
     "numero": 17
 },
 {
@@ -550,6 +552,7 @@ var mociones = [
     "fecha": "30-10-2015",
     "presentada": "PSOE",
     "resultado": "ganada",
+    "unanimidad": "si",
     "numero": 19
 },
 {
@@ -836,10 +839,10 @@ var mociones = [
 },
 {
     "fecha": "27-11-2015",
-    "presentada": "PP",
+    "presentada": "ZEC",
     "resultado": "ganada",
     "a_favor": "ZEC + C'S + CHA",
-    "en_contra": "PP + PSOE",
+    "abstencion": "PP + PSOE",
     "votos_favor": 14,
     "votos_abstencion": 15,
     "numero": 19
@@ -995,11 +998,18 @@ var mociones = [
     "fecha": "23-12-2015",
     "presentada": "CHA",
     "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 40
+},
+{
+    "fecha": "23-12-2015",
+    "presentada": "ZEC",
+    "resultado": "ganada",
     "a_favor": "ZEC + PSOE + CHA + C'S",
     "abstencion": "PP",
     "votos_favor": 21,
     "votos_abstencion": 10,
-    "numero": 40
+    "numero": 41
 },
 {
     "fecha": "28-01-2016",
@@ -4039,6 +4049,97 @@ var mociones = [
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 28
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC",
+    "abstencion": "CHA",
+    "votos_favor": 19,
+    "votos_abstencion": 2,
+    "votos_contra": 9,
+    "numero": 18
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 19
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 17,
+    "votos_abstencion": 4,
+    "votos_contra": 9,
+    "numero": 20
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 202
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S + CHA",
+    "en_contra": "PSOE",
+    "abstencion": "ZEC",
+    "votos_favor": 15,
+    "votos_abstencion": 9,
+    "votos_contra": 6,
+    "numero": 21
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 22
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 23
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 17,
+    "votos_contra": 13,
+    "numero": 24
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 25
+},
+{
+    "fecha": "22-12-2017",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 26
 }]
 
 console.log(mociones[0].resultado)
