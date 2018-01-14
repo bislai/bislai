@@ -3017,7 +3017,7 @@ var mociones = [
 {
     "fecha": "31-03-2017",
     "presentada": "C'S",
-    "resultado": "perdida",
+    "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S",
     "en_contra": "CHA",
     "abstencion": "ZEC",
@@ -3032,8 +3032,8 @@ var mociones = [
     "resultado": "perdida",
     "a_favor": "ZEC + CHA",
     "en_contra": "PP + PSOE + C'S",
-    "votos_favor": 10,
-    "votos_contra": 20,
+    "votos_favor": 20,
+    "votos_contra": 11,
     "numero": 5
 },
 {
@@ -3094,7 +3094,7 @@ var mociones = [
     "fecha": "31-03-2017",
     "presentada": "C'S",
     "resultado": "ganada",
-    "a_favor": "PP + PSOE",
+    "a_favor": "PP + PSOE + C'S",
     "en_contra": "ZEC + CHA",
     "votos_favor": 19,
     "votos_contra": 9,
@@ -3180,7 +3180,7 @@ var mociones = [
 {
     "fecha": "31-03-2017",
     "presentada": "PP",
-    "resultado": "ganada",
+    "resultado": "perdida",
     "a_favor": "PP + C'S",
     "en_contra": "ZEC + PSOE + CHA",
     "votos_favor": 16,
@@ -3192,7 +3192,7 @@ var mociones = [
     "presentada": "CHA",
     "resultado": "ganada",
     "unanimidad": "si",
-    "numero": 123
+    "numero": 16
 },
 {
     "fecha": "02-06-2017",
@@ -3296,16 +3296,16 @@ var mociones = [
     "numero": 94
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "CHA",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 10
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "CHA",
-    "resultado": "ganada",
+    "resultado": "perdida",
     "a_favor": "ZEC  + CHA",
     "en_contra": "PP + C'S",
     "abstencion": "PSOE",
@@ -3315,29 +3315,29 @@ var mociones = [
     "numero": 11
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "CHA",
     "resultado": "ganada",
-    "a_favor": "ZEC + CHA",
-    "en_contra": "PP + C'S",
-    "abstencion": "PSOE",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
     "votos_favor": 16,
     "votos_abstencion": 4,
     "votos_contra": 10,
     "numero": 12
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "PP",
     "resultado": "ganada",
-    "a_favor": "PP + CHA + C'S",
+    "a_favor": "PP + C'S + CHA",
     "abstencion": "ZEC + PSOE",
     "votos_favor": 16,
-    "votos_abstencion": 4,
+    "votos_abstencion": 14,
     "numero": 13
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "ZEC",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + C'S + CHA",
@@ -3347,9 +3347,9 @@ var mociones = [
     "numero": 14
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "ZEC",
-    "resultado": "ganada",
+    "resultado": "perdida",
     "a_favor": "ZEC + CHA",
     "en_contra": "PP + PSOE + C'S",
     "votos_favor": 10,
@@ -3357,7 +3357,7 @@ var mociones = [
     "numero": 142
 },
 {
-    "fecha": "31-03-2017",
+    "fecha": "02-06-2017",
     "presentada": "PP + PSOE + C'S",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + CHA + C'S",
@@ -3367,8 +3367,8 @@ var mociones = [
     "numero": 15
 },
 {
-    "fecha": "31-03-2017",
-    "presentada": "PP + PSOE + C'S",
+    "fecha": "02-06-2017",
+    "presentada": "PSOE",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 16
@@ -3388,7 +3388,7 @@ var mociones = [
 },
 {
     "fecha": "31-03-2017",
-    "presentada": "PP + PSOE + C'S",
+    "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + CHA + C'S",
     "abstencion": "ZEC",
@@ -3545,6 +3545,23 @@ var mociones = [
     "votos_abstencion": 2,
     "votos_contra": 18,
     "numero": 14
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 15
+},
+{
+    "fecha": "30-06-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP",
+    "abstencion": "ZEC + PSOE + C'S + CHA",
+    "votos_favor": 10,
+    "votos_abstencion": 18,
+    "numero": 151
 },
 {
     "fecha": "28-07-2017",
@@ -3751,8 +3768,8 @@ var mociones = [
 },
 {
     "fecha": "28-07-2017",
-    "presentada": "PSOE",
-    "resultado": "ganada",
+    "presentada": "ZEC",
+    "resultado": "perdida",
     "a_favor": "ZEC",
     "en_contra": "PP",
     "abstencion": "PSOE + C'S + CHA",
@@ -3814,7 +3831,7 @@ var mociones = [
 },
 {
     "fecha": "29-09-2017",
-    "presentada": "PP",
+    "presentada": "C'S",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 5
@@ -3869,8 +3886,8 @@ var mociones = [
     "en_contra": "PP + C'S",
     "abstencion": "ZEC",
     "votos_favor": 8,
-    "votos_abstencion": 14,
-    "votos_contra": 9,
+    "votos_abstencion": 9,
+    "votos_contra": 14,
     "numero": 11
 },
 {
@@ -3905,21 +3922,21 @@ var mociones = [
 },
 {
     "fecha": "29-09-2017",
-    "presentada": "PP",
+    "presentada": "ZEC",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 16
 },
 {
     "fecha": "29-09-2017",
-    "presentada": "PP",
+    "presentada": "ZEC",
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 162
 },
 {
     "fecha": "29-09-2017",
-    "presentada": "PP",
+    "presentada": "ZEC",
     "resultado": "perdida",
     "a_favor": "ZEC + CHA",
     "en_contra": "PP + PSOE + C'S",
@@ -3943,11 +3960,11 @@ var mociones = [
 {
     "fecha": "30-10-2017",
     "presentada": "C'S",
-    "resultado": "perdida",
-    "a_favor": "ZEC + CHA",
-    "en_contra": "PP + PSOE + C'S",
-    "votos_favor": 8,
-    "votos_contra": 9,
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 20,
+    "votos_contra": 11,
     "numero": 40
 },
 {
@@ -4002,7 +4019,7 @@ var mociones = [
 },
 {
     "fecha": "30-10-2017",
-    "presentada": "PSOE",
+    "presentada": "ZEC",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + CHA",
     "en_contra": "PP",
@@ -4026,7 +4043,7 @@ var mociones = [
 },
 {
     "fecha": "30-10-2017",
-    "presentada": "PSOE",
+    "presentada": "PP",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S",
     "en_contra": "ZEC",
