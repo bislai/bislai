@@ -2,19 +2,19 @@
 
 ## Votaciones a partir de las mociones presentadas por cada partido hasta el último pleno de 2017 
 
-PP = 102
-ZEC = 58
-PSOE = 126
-C'S = 94
-CHA = 89
+PP = 108
+ZEC = 65
+PSOE = 127
+C'S = 91
+CHA = 93
 
 ## Votaciones
-Ganadas = 377
-Perdidas = 53
+Ganadas = 394
+Perdidas = 62
 
 ## Mociones
 Presentadas = 323
-Retiradas = 31
+Retiradas = 30
 
 
 ## Mociones presentadas
@@ -27,17 +27,17 @@ CHA = 62
 
 ## Tripartitos
 
-PP + PSOE + C'S = 51
+PP + PSOE + C'S = 55
 
-ZEC + PSOE + CHA = 44
+ZEC + PSOE + CHA = 53
 
-PP + C'S = 37
+PP + C'S = 40
 
-PP + C'S + CHA = 2
+PP + C'S + CHA = 3
 
-PP + PSOE + CHA = 5
+PP + PSOE + CHA = 4
 
-PP + PSOE = 10
+PP + PSOE = 9
 
 PP + ZEC = 2
 
@@ -49,135 +49,203 @@ PP + CHA = 2
 
 ZEC + PSOE = 5
 
-ZEC + CHA = 48
+ZEC + CHA = 51
 
 ZEC + C'S = 7
 
 ZEC + PSOE + C'S = 3
 
-ZEC + PSOE + C'S + CHA = 34
+ZEC + PSOE + C'S + CHA = 37
 
-PP + PSOE + C'S + CHA = 34
+PP + PSOE + C'S + CHA = 36
 
 C'S + CHA = 3
 
-PSOE + C'S = 11
+PSOE + C'S = 12
 
 PSOE + CHA = 8
 
-PP = 91
+PP = 101
 
-CHA = 30
+CHA = 9
 
-ZEC = 68
+ZEC = 71 
 
-PSOE = 17
+PSOE = 16
 
-C'S = 28
+C'S = 34
 
 PSOE + C'S + CHA = 3
 
 # PP
 
-Votaciones: 73 ganadas, 8 perdidas y 8 mociones retiradas
+Votaciones: 74 ganadas, 28 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
-ZEC = 47
+ZEC = 56
 
-PSOE = 26
+PSOE = 30
 
-C'S = 5
+C'S = 7
 
-CHA = 36
+CHA = 42
 
 ¿Quién vota a favor en sus votaciones?
 
-ZEC = 6
+ZEC = 4
 
-PSOE = 28
+PSOE = 36
 
-C'S = 50
+C'S = 57
 
-CHA = 13
+CHA = 14
 
 ¿Quién se abstiene en sus votaciones?
 
-ZEC = 11
+ZEC = 14
 
-PSOE = 10
+PSOE = 14
 
-C'S = 9
+C'S = 16
 
-CHA = 15
+CHA = 14
 
 # ZEC
 
-Votaciones: 73 ganadas, 8 perdidas y 8 mociones retiradas
+Votaciones: 50 ganadas, 13 perdidas y 4 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
-PP = 34
+PP = 40
 
-PSOE = 8
+PSOE = 12
 
-C'S = 14
+C'S = 16
 
 CHA = 0
 
 ¿Quién vota a favor en sus votaciones?
 
-PP = 5
+PP = 6
 
-PSOE = 32
+PSOE = 35
 
-C'S = 19
+C'S = 24
 
-CHA = 38
+CHA = 43
 
 ¿Quién se abstiene en sus votaciones?
 
-PP = 6
+PP = 10
 
-PSOE = 5
+PSOE = 9
 
-C'S = 12
+C'S = 16
 
-CHA = 4
+CHA = 5
+
+# PSOE
+
+Votaciones: 120 ganadas, 3 perdidas y 6 mociones retiradas
+
+¿Quién vota en contra en sus votaciones?
+
+PP = 18
+
+ZEC = 23
+
+C'S = 8
+
+CHA = 9
+
+¿Quién vota a favor en sus votaciones?
+
+PP = 41
+
+ZEC = 21
+
+C'S = 50
+
+CHA = 45
+
+¿Quién se abstiene en sus votaciones?
+
+PP = 8
+
+ZEC = 21
+
+C'S = 9
+
+CHA = 7
 
 # Ciudadanos
 
-Votaciones: 72 ganadas, 8 perdidas y 8 mociones retiradas
+Votaciones: 78 ganadas, 7 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
 PP = 12
 
-ZEC = 12
+ZEC = 13
 
-PSOE = 5
+PSOE = 6
 
-CHA = 10
+CHA = 12
 
 ¿Quién vota a favor en sus votaciones?
 
-PP = 26
+PP = 30
 
-ZEC = 15
+ZEC = 13
 
-PSOE = 39
+PSOE = 42
 
-CHA = 17
+CHA = 16
 
 ¿Quién se abstiene en sus votaciones?
 
-PP = 7
+PP = 9
 
-ZEC = 18
+ZEC = 19
 
-PSOE = 1
+PSOE = 3
 
-CHA = 18
+CHA = 17
+
+# CHA
+
+Votaciones: 78 ganadas, 7 perdidas y 8 mociones retiradas
+
+¿Quién vota en contra en sus votaciones?
+
+PP = 31
+
+ZEC = 6
+
+PSOE = 8
+
+C'S = 15
+
+¿Quién vota a favor en sus votaciones?
+
+PP = 8
+
+ZEC = 42
+
+PSOE = 43
+
+C'S = 30
+
+¿Quién se abstiene en sus votaciones?
+
+PP = 19
+
+ZEC = 4
+
+PSOE = 7
+
+C'S = 13
 
 
 
