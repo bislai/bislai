@@ -2175,6 +2175,144 @@ var tipuesearch = {
         "url": "http://bislai.co/plenos/2017/31-03-2017#16.html"
     },
     {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza manifieste su reprobación al Gobierno de España ante la casi mula inversión prevista en los presupuestos generales del Estado del año 2017 para la ciudad de Zaragoza e inste a los diputados y senadores aragoneses a presentar enmiendas al proyecto de presupuestos generales del estado con el fin de incrementar las partidas relacionadas con las políticas sociales e inversiones precisas en Aragón y Zaragoza (P-2.843/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza manifiesta su reprobación al Gobierno de España ante la casi nula inversión prevista en los Presupuestos Generales del Estado del año 2017 para la ciudad de Zaragoza.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza insta a todos los diputados y senadores aragoneses a presentar enmiendas al proyecto de Presupuestos Generales del Estado con el fin de incrementar las partidas relacionadas con las políticas sociales y las inversiones precisas en Aragón y Zaragoza.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En particular, el Pleno del Ayuntamiento de Zaragoza insta a los grupos políticos con representación en las Cortes Generales a presentar y aprobar enmiendas al proyecto de Presupuestos Generales del Estado con el fin de incorporar partidas destinadas a la reforma de la avenida de Cataluña una vez acordada su cesión.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#23.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de instar al Gobierno de la ciudad a dar inmediato cumplimiento a las mociones de 28 de enero y 30 de septiembre de 2016 procediendo a constituir y reunir la Comisión Especial de Vigilancia de la Contratación y a remitir a los grupos presentes en la misma cuantos informes jurídicos y/o económicos obren en su poder en relación con una posible municipalización del servicio de Parques y Jardines (P-2.865/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#24.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento censure la gestión de las áreas de Servicios Públicos y de Movilidad en lo referente a los expedientes de ampliación y compensación del déficit del servicio BIZI e inste al Gobierno de Zaragoza a exponer a los grupos, antes de dos semanas, un plan concreto para la extensión de dicho servicio a todos los distritos de la ciudad (P-2.866/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza censura la gestión de la dirección política de las delegaciones de Servicios Públicos y Movilidad en lo referente al expediente de ampliación acordado el 28 de diciembre de 2016.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza censura la gestión de la dirección política de las delegaciones de Servicios Públicos y Movilidad referente al expediente de compensación del déficit del Servicio Bizi.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de la Ciudad a exponer a los grupos, antes de dos semanas, un plan concreto para la extensión del Servicio Bizi a todos los distritos municipales.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#25.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno repruebe al Consejero don Alberto Cubero por sus continuos ataques a jueces, funcionarios municipales y medios de comunicación y exija al Gobierno de Zaragoza máximo respeto en sus acciones y expresiones a las autoridades judiciales, medios de comunicación y funcionarios, especialmente en el caso de aquéllos cuya función principal es velar por la legalidad de las actuaciones municipales (P-2.889/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#26.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Ayuntamiento inste al Gobierno de Zaragoza a desistir de las acciones judiciales que ha emprendido para pleitear sobre las inmatriculaciones de varios templos de la iglesia, puesto que carece de competencia para ello y sólo supondrá un gasto y un uso de recursos públicos absurdo para sostener una falsa polémica con la que se busca el objetivo partidista de despertar una confrontación social estéril (P-2.890/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#27.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a modificar el art. 7 de la ordenanza fiscal núm. 9, reguladora del impuesto sobre el incremento del valor de los terrenos de naturaleza urbana, en el sentido que en el texto de la moción se indica (P-2.892/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#28.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a poner en marcha un conjunto de medidas y ayudas eco¿micas destinadas a la recuperación de locales en desuso que permitan regenerar calles en situación de degradación urbanística y que dichas medidas vayan destinadas prioritariamente a proyectos de emprendimiento, actividades relacionadas con el tercer sector e iniciativas de creación cultural (P-2.893/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#29.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a crear una oficina técnica con objeto de dinamizar el proceso de reutilización de todos los espacios municipales en desuso, según se acordó en sesión Plenaria de 3 de febrero último (P-2.894/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#30.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a actualizar el informe relativo a la cuantificación de los elementos constitutivos del régimen de financiación de 31 de mayo de 2016, confeccionado por la oficina de Información y Análisis Económico y de los servicios del Área de Presidencia de este Ayuntamiento, para adecuarlos al articulado de los títulos IV y VII del anteproyecto de ley (P-2.895/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#31.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a presentar un estudio sobre la viabilidad del diseño y la puesta en marcha de un cuadro de mandos integrado en el futuro plan de movilidad urbana sostenible, desde la perspectiva de las infraestructuras, el transporte y la movilidad (P-2.896/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#32.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de la ciudad a impulsar las medidas necesarias para llevar a cabo este próximo año la recreación histórica de los Sitios así como facilitar cualquier otra representación histórica que se manifieste de interés cultural (P-2.897/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#33.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Gobierno de Zaragoza inste al de España a eliminar las limitaciones a la tasa de reposición en los presupuestos generales del estado (P-2.898/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#34.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de España a incluir en los Presupuestos Generales del Estado para 2017 una previsión de tasa de reposición de los empleados públicos del 100% y a abrir una mesa de negociación con la FEMP para abordar un plan de recuperación del empleo perdido por la Administración Local en los últimos años.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#34.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de España a incluir en los Presupuestos Generales del Estado para 2017 una previsión de tasa de reposición de los empleados públicos del 100% y a abrir una mesa de negociación con la FEMP para abordar un plan de recuperación del empleo perdido por la Administración Local en los últimos años.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#34.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "El Pleno del Ayuntamiento de Zaragoza rechaza la disposición Adicional 27 del Proyecto de Ley de Presupuestos Generales del Estado para 2017, y solicita a los grupos parlamentarios del Congreso y el Senado la introducción de una enmienda de supresión de la misma y posterior aprobación.",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#34.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de instar al Pleno del Ayuntamiento de Zaragoza a modificar el Reglamento Orgánico para introducir el voto telemático o la delegación de voto para las personas que estén en situación de enfermedad o de asunción de tareas de cuidados que les imposibiliten la presencia en el Pleno e instar así mismo de las Cortes españolas la modificación de de los arts. 79.2 y 3 de la Constitución, la Ley Orgánica de Régimen Electoral General y los distintos reglamentos que la desarrollan para permitir la sustitución temporal de representantes públicos en casos de enfermedad de media y larga duración así como en los de asunción de tareas de cuidados (P-2.899/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#35.html"
+    },
+    {
+        "title": "Pleno ordinario del 28 de abril de 2017",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno de Zaragoza a impulsar una modificación de crédito que permita afrontar con garantías presupuestarias durante el presente ejercicio una operación asfalto en la ciudad (P-2.900/2017).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2017/28-04-2017#36.html"
+    },
+    {
         "title": "Pleno ordinario del 2 de junio de 2017",
         "text": "En el sentido de que este Pleno inste al Gobierno de la ciudad a favorecer todos los trámites que eviten poner en riesgo el acuerdo alcanzado por los trabajadores y la dirección de Auzsa en abril del pasado año, que se tradujo en la desconvocatoria de la huelga más larga de la historia del servicio. (P-2903/17).",
         "tags": "",
