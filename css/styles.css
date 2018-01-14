@@ -1067,7 +1067,7 @@ path.q2-3 {
     font-size: 1rem;
 }
 
-.tooltipLeyenda +p {
+.tooltipLeyenda + p {
         display: none;
     }
 
@@ -1514,6 +1514,11 @@ path.q2-3 {
     padding: 1rem;
     width: 100%;
     font-family: "Fjalla One", sans-serif;
+}
+
+.navegacion-plenos {
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .maw-70 {
