@@ -117,31 +117,31 @@ Votaciones: 50 ganadas, 13 perdidas y 4 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
-PP = 40
+PP = 38
 
-PSOE = 12
+PSOE = 10
 
-C'S = 16
+C'S = 14
 
 CHA = 0
 
 ¿Quién vota a favor en sus votaciones?
 
-PP = 6
+PP = 3
 
-PSOE = 35
+PSOE = 32
 
-C'S = 24
+C'S = 21
 
 CHA = 43
 
 ¿Quién se abstiene en sus votaciones?
 
-PP = 10
+PP = 7
 
-PSOE = 9
+PSOE = 6
 
-C'S = 16
+C'S = 13
 
 CHA = 5
 
