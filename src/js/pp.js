@@ -231,7 +231,7 @@ function Abstencion() {
             labels: partidos,
             datasets: [{
 
-                data: [14, 14, 16, 14],
+                data: [14, 14, 16, 18],
                 backgroundColor: [
                     'rgba(154, 22, 34, 1)',
                     'rgba(227, 6, 19, 1)',
