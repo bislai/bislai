@@ -3564,7 +3564,7 @@ path.q2-3 {
 }
 
 .partidos-cabecera-izda {
-    width: 40%;
+    width: 45%;
     display: inline-block;
     vertical-align: top;
 }
@@ -3588,7 +3588,7 @@ path.q2-3 {
 }
 
 .partidos-cabecera-dcha {
-    width: 60%;
+    width: 55%;
     display: inline-block;
 }
 
@@ -3642,6 +3642,16 @@ path.q2-3 {
     top: 37px;
     z-index: 2;
 }
+
+.partidos-grafico-pp .partidos-grafico-ciudadanos,
+    .partidos-grafico-pp .partidos-grafico-ciudadanos-after {
+        background-color: #0080b8;
+    }
+
+.partidos-grafico-zec .partidos-grafico-ciudadanos,
+    .partidos-grafico-zec .partidos-grafico-ciudadanos-after {
+        background-color: #9a1622;
+    }
 
 .partidos-grafico-ciudadanos-after {
     width: 15vw;

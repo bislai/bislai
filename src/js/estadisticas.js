@@ -137,7 +137,6 @@ function masMocionesChart() {
             }]
         }
     });
-
 }
 
 function abstenidoChart() {
