@@ -2671,6 +2671,7 @@ var mociones = [
     "fecha": "23-12-2016",
     "presentada": "C'S",
     "resultado": "ganada",
+    "unanimidad": "si",
     "numero": 19
 },
 {
@@ -2693,13 +2694,13 @@ var mociones = [
 {
     "fecha": "03-02-2017",
     "presentada": "ZEC",
-    "resultado": "ganada",
+    "resultado": "perdida",
     "a_favor": "ZEC + CHA",
     "en_contra": "PP + C'S",
     "abstencion": "PSOE",
-    "votos_favor": 13,
-    "votos_abstencion": 10,
-    "votos_contra": 6,
+    "votos_favor": 10,
+    "votos_abstencion": 6,
+    "votos_contra": 13,
     "numero": 2
 },
 {
@@ -2736,18 +2737,28 @@ var mociones = [
     "fecha": "03-02-2017",
     "presentada": "CHA",
     "resultado": "ganada",
-    "unanimidad": "si",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 21,
+    "votos_contra": 8,
     "numero": 6
 },
 {
     "fecha": "03-02-2017",
-    "presentada": "C'S",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 61
+},
+{
+    "fecha": "03-02-2017",
+    "presentada": "CHA",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + C'S + CHA",
     "en_contra": "PP",
     "votos_favor": 20,
     "votos_contra": 9,
-    "numero": 61
+    "numero": 62
 },
 {
     "fecha": "03-02-2017",
@@ -2885,7 +2896,8 @@ var mociones = [
 {
     "fecha": "24-02-2017",
     "presentada": "PP + PSOE + C'S",
-    "resultado": "retirada",
+    "resultado": "ganada",
+    "unanimidad": "si",
     "numero": 5
 },
 {
@@ -2900,7 +2912,7 @@ var mociones = [
 },
 {
     "fecha": "24-02-2017",
-    "presentada": "PSOE",
+    "presentada": "CHA",
     "resultado": "ganada",
     "a_favor": "ZEC + PSOE + C'S + CHA",
     "abstencion": "PP",

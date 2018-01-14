@@ -2,8 +2,8 @@
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: ZEC + CHA", 13],
-            ["En contra: PP + C'S", 10],
+            ["A favor: ZEC + CHA", 10],
+            ["En contra: PP + C'S", 13],
             ["Abstención: PSOE", 6]
         ],
         type : 'pie'
