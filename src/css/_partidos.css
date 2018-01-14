@@ -8,13 +8,25 @@
 .partidos-cabecera-izda {
     width: 40%;
     display: inline-block;
+    vertical-align: top;
 }
 
 .partidos-cabecera-title {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: var(--fontBislai);
     color: var(--black);
     margin: 0;
+}
+
+.partidos-cabecera-texto,
+.partidos-cabecera-texto-derecha {
+    font-size: 1rem;
+    margin: 0 0 1.5rem;
+}
+
+.partidos-cabecera-texto-derecha {
+    max-width: 80%;
+    margin: 1rem auto;
 }
 
 .partidos-cabecera-dcha {
@@ -88,30 +100,4 @@
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
-}
-
-.grafico-a-favor {
-    .partidos-grafico-ciudadanos {
-        width: 20vw;
-    }
-}
-
-.partidos-grafico-a-favor {
-    position: relative;
-    &:after,
-    &:before {
-        content: '';
-        height: 10px;
-        width: 100%;
-        background-color: var(--ciudadanos);
-        display: inline-block;
-        position: absolute;
-        left: 0;
-        top: -15px;
-        z-index: 2;
-    }
-    &:before {
-        top: initial;
-        bottom: -10px;
-    }
 }
