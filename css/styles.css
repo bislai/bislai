@@ -3594,4 +3594,84 @@ path.q2-3 {
     list-style-position: inside;
 }
 
+.partidos-grafico {
+    width: 100%;
+    padding: 5vw 10vw;
+    font-size: 0;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.partidos-grafico-texto {
+    width: 100%;
+    position: relative;
+}
+
+.partidos-grafico-titulo {
+    font-size: 4rem;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.partidos-grafico-ciudadanos,
+.partidos-grafico-ciudadanos-after {
+    content: '';
+    height: 15px;
+    width: 39vw;
+    background-color: #f07a36;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 37px;
+    z-index: 2;
+}
+
+.partidos-grafico-ciudadanos-after {
+    width: 15vw;
+    left: 39vw;
+    z-index: 4;
+}
+
+.partidos-grafico-parrafo {
+    font-size: 1rem;
+    font-family: "Georgia", serif;
+    margin: 5rem auto;
+}
+
+.partidos-grafico-grafica {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.grafico-a-favor .partidos-grafico-ciudadanos {
+        width: 20vw;
+    }
+
+.partidos-grafico-a-favor {
+    position: relative;
+}
+
+.partidos-grafico-a-favor:after,
+    .partidos-grafico-a-favor:before {
+        content: '';
+        height: 10px;
+        width: 100%;
+        background-color: #f07a36;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -15px;
+        z-index: 2;
+    }
+
+.partidos-grafico-a-favor:before {
+        top: initial;
+        bottom: -10px;
+    }
+
 /*# sourceMappingURL=styles.css.map */

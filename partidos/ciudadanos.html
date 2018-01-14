@@ -40,10 +40,10 @@
             <h3 class="partidos-cabecera-title">Ciudadanos</h3>
             <span class="partidos-concejales">Concejales:</span>
             <ol>
-                <li class="partido-concejales-lista">Pepito</li>
-                <li class="partido-concejales-lista">Juanito</li>
-                <li class="partido-concejales-lista">Fulanito</li>
-                <li class="partido-concejales-lista">Mengano</li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/martinez-ortin.htm">Dª. María Elena Martínez Ortín.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/alberto-casanal.htm">D. Alberto Casañal Pina</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/sara-fernandez.htm">Dª. Sara María Fernández Escuer</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/cristina-garcia.htm">Dª. Cristina García Torres.</a></li>
             </ol>
 
             <a href="#" class="partidos-twitter">TWITTER</a>
@@ -51,6 +51,71 @@
         </div>
         <div class="partidos-cabecera-dcha">
             <canvas id="historico"></canvas>
+        </div>
+    </section>
+    <p class="partidos-grafico-parrafo maw-50">Ciudadanos en esta legislatura ha presentado 76 mociones. Es el partido que más mociones ha presentado. Estas mociones han dado como resultado 85 votaciones.</p>
+    <section class="partidos-grafico">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA EN SU CONTRA?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <span class="partidos-grafico-ciudadanos-after"></span>
+
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado en su contra el resto de partidos. Es el partido que menos votos en contra recibe.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="en-contra"></canvas>
+
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-a-favor">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA <span class="partidos-grafico-a-favor">A FAVOR</span>?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado a su favor el resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="a-favor"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-abstencion">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN SE ABSTIENE?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces se han abstenido el resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="abstencion"></canvas>
+        </div>
+    </section>
+
+    <section class="partidos-grafico grafico-abstencion">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">VOTANDO EN CONTRA
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que Ciudadanos ha votado en contra del resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="votando-en-contra"></canvas>
+        </div>
+    </section>
+
+    <section class="partidos-grafico grafico-abstencion">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">VOTANDO A FAVOR
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que Ciudadanos ha votado a favor del resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="votando-a-favor"></canvas>
         </div>
     </section>
     <footer class="padding-1 padding-4-0--l borderc-grey border-t1 woodsmoke font-w6 font-s footer">

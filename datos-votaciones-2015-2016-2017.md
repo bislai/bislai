@@ -19,11 +19,11 @@ Retiradas = 30
 
 ## Mociones presentadas
 
-PP = 68
-ZEC = 39
-PSOE = 78
-C'S = 77
-CHA = 62
+PP = 74
+ZEC = 43
+PSOE = 75
+C'S = 76
+CHA = 63
 
 ## Tripartitos
 
