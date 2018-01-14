@@ -1,37 +1,39 @@
 # Resultados de mociones.js
 
-## Votaciones a partir de las mociones presentadas por cada partido falta el último pleno de 2017
+## Votaciones a partir de las mociones presentadas por cada partido hasta el último pleno de 2017 
 
-PP = 100
-ZEC = 57
-PSOE = 124
-C'S = 92
-CHA = 86
+PP = 102
+ZEC = 58
+PSOE = 126
+C'S = 94
+CHA = 89
 
 ## Votaciones
-Ganadas = 367
+Ganadas = 377
 Perdidas = 53
 
 ## Mociones
-Presentadas = 315
+Presentadas = 323
 Retiradas = 31
 
 
 ## Mociones presentadas
 
-PP = 66
+PP = 68
 ZEC = 39
-PSOE = 76
-C'S = 75
-CHA = 59
+PSOE = 78
+C'S = 77
+CHA = 62
 
 ## Tripartitos
 
-PP + PSOE + C'S = 50
+PP + PSOE + C'S = 51
 
-ZEC + PSOE + CHA = 42
+ZEC + PSOE + CHA = 44
 
-PP + C'S = 36
+PP + C'S = 37
+
+PP + C'S + CHA = 2
 
 PP + PSOE + CHA = 5
 
@@ -55,7 +57,7 @@ ZEC + PSOE + C'S = 3
 
 ZEC + PSOE + C'S + CHA = 34
 
-PP + PSOE + C'S + CHA = 33
+PP + PSOE + C'S + CHA = 34
 
 C'S + CHA = 3
 
@@ -63,25 +65,25 @@ PSOE + C'S = 11
 
 PSOE + CHA = 8
 
-PP = 90
+PP = 91
 
-CHA = 29
+CHA = 30
 
-ZEC = 66
+ZEC = 68
 
-PSOE = 16
+PSOE = 17
 
-C'S = 27
+C'S = 28
 
 PSOE + C'S + CHA = 3
 
 # PP
 
-Votaciones: 72 ganadas, 8 perdidas y 8 mociones retiradas
+Votaciones: 73 ganadas, 8 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
-ZEC = 46
+ZEC = 47
 
 PSOE = 26
 
@@ -93,9 +95,9 @@ CHA = 36
 
 ZEC = 6
 
-PSOE = 27
+PSOE = 28
 
-C'S = 49
+C'S = 50
 
 CHA = 13
 
@@ -107,19 +109,19 @@ PSOE = 10
 
 C'S = 9
 
-CHA = 14
+CHA = 15
 
 # ZEC
 
-Votaciones: 72 ganadas, 8 perdidas y 8 mociones retiradas
+Votaciones: 73 ganadas, 8 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
-PP = 33
+PP = 34
 
 PSOE = 8
 
-C'S = 13
+C'S = 14
 
 CHA = 0
 
@@ -127,11 +129,11 @@ CHA = 0
 
 PP = 5
 
-PSOE = 31
+PSOE = 32
 
 C'S = 19
 
-CHA = 37
+CHA = 38
 
 ¿Quién se abstiene en sus votaciones?
 
@@ -153,25 +155,25 @@ PP = 12
 
 ZEC = 12
 
-PSOE = 4
+PSOE = 5
 
 CHA = 10
 
 ¿Quién vota a favor en sus votaciones?
 
-PP = 25
+PP = 26
 
 ZEC = 15
 
 PSOE = 39
 
-CHA = 16
+CHA = 17
 
 ¿Quién se abstiene en sus votaciones?
 
 PP = 7
 
-ZEC = 17
+ZEC = 18
 
 PSOE = 1
 
