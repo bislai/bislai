@@ -1349,7 +1349,7 @@ path.q2-3 {
 .partido-card-concejales {
     transition: opacity .3s ease-in;
     font-size: .8rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: .5rem 0;
     font-weight: 600;
     text-align: left;
@@ -3338,7 +3338,7 @@ path.q2-3 {
 }
 
 .tp-plenos {
-    bottom: 0;
+    bottom: 50vh;
 }
 
 .fl-l {
@@ -3611,7 +3611,6 @@ path.q2-3 {
     padding: 5vw 10vw;
     font-size: 0;
     margin: 0 auto;
-    height: 100vh;
     background-color: #f1f1f1;
 }
 
@@ -3626,48 +3625,43 @@ path.q2-3 {
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    position: relative;
-    z-index: 3;
+    padding: 2rem 5rem;
+    background-color: white;
+    border-top: 10px solid #f07a36;
+    box-shadow: 0 15px 35px rgba(49, 41, 83, .2), 0 5px 15px rgba(0, 0, 0 , .1);
 }
 
-.partidos-grafico-ciudadanos,
-.partidos-grafico-ciudadanos-after {
-    content: '';
-    height: 25px;
-    width: 100vw;
-    background-color: rgba(240, 122, 54, .4);
-    display: inline-block;
-    position: absolute;
-    left: -10vw;
-    top: 30px;
-    z-index: 2;
-}
-
-.partidos-grafico-pp .partidos-grafico-ciudadanos,
-    .partidos-grafico-pp .partidos-grafico-ciudadanos-after {
-        background-color: #0080b8;
+.partidos-grafico-pp .partidos-grafico-titulo {
+        border-color: #0080b8;
     }
 
-.partidos-grafico-zec .partidos-grafico-ciudadanos,
-    .partidos-grafico-zec .partidos-grafico-ciudadanos-after {
-        background-color: #9a1622;
+.partidos-grafico-zec .partidos-grafico-titulo {
+        border-color: #9a1622;
     }
 
-.partidos-grafico-ciudadanos-after {
-    width: 15vw;
-    left: 39vw;
-    z-index: 4;
-}
+.partidos-grafico-psoe .partidos-grafico-titulo {
+        border-color: #e30613;
+    }
+
+.partidos-grafico-cha .partidos-grafico-titulo {
+        border-color: #efb027;
+    }
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: 'Source Serif Pro', serif;
-    margin: 5rem auto;
+    font-family: "Georgia", serif;
+    margin: 2rem 0;
+    max-width: 60%;
+}
+
+.partidos-grafico-parrafo ~ .partidos-grafico-parrafo {
+    margin: 0;
 }
 
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: 10vh;
 }
 
 .bgc-zec .partidos-cabecera-title {
@@ -3677,8 +3671,18 @@ path.q2-3 {
         margin: 0;
     }
 
-.bgc-zec .partido-concejales-lista a {
-        color: #dbf17e;
+.bgc-zec .partidos-cabecera-texto,
+    .bgc-zec .partidos-cabecera-texto-derecha,
+    .bgc-zec .partido-concejales-lista a {
+        color: #fff;
+    }
+
+.bgc-pp .partido-concejales-lista a {
+        color: #05062E;
+    }
+
+.bgc-psoe .partido-concejales-lista a {
+        color: #f8f8f9;
     }
 
 /*# sourceMappingURL=styles.css.map */
