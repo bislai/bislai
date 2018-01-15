@@ -1349,7 +1349,7 @@ path.q2-3 {
 .partido-card-concejales {
     transition: opacity .3s ease-in;
     font-size: .8rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: .5rem 0;
     font-weight: 600;
     text-align: left;
@@ -3630,16 +3630,15 @@ path.q2-3 {
     z-index: 3;
 }
 
-.partidos-grafico-ciudadanos,
-.partidos-grafico-ciudadanos-after {
+.partidos-grafico-ciudadanos {
     content: '';
-    height: 25px;
-    width: 100vw;
-    background-color: rgba(240, 122, 54, .4);
+    height: 15px;
+    width: 50vw;
+    background-color: #f07a36;
     display: inline-block;
     position: absolute;
     left: -10vw;
-    top: 30px;
+    top: 40px;
     z-index: 2;
 }
 
@@ -3661,13 +3660,19 @@ path.q2-3 {
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: 'Source Serif Pro', serif;
-    margin: 5rem auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 2rem auto;
+    max-width: 60%;
+}
+
+.partidos-grafico-parrafo ~ .partidos-grafico-parrafo {
+    margin: 0 auto;
 }
 
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: 5vh;
 }
 
 .bgc-zec .partidos-cabecera-title {
@@ -3679,6 +3684,10 @@ path.q2-3 {
 
 .bgc-zec .partido-concejales-lista a {
         color: #dbf17e;
+    }
+
+.bgc-pp .partido-concejales-lista a {
+        color: #05062E;
     }
 
 /*# sourceMappingURL=styles.css.map */

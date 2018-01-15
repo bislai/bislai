@@ -72,16 +72,15 @@
     z-index: 3;
 }
 
-.partidos-grafico-ciudadanos,
-.partidos-grafico-ciudadanos-after {
+.partidos-grafico-ciudadanos {
     content: '';
-    height: 25px;
-    width: 100vw;
-    background-color: rgba(240, 122, 54, .4);
+    height: 15px;
+    width: 50vw;
+    background-color: var(--ciudadanos);
     display: inline-block;
     position: absolute;
     left: -10vw;
-    top: 30px;
+    top: 40px;
     z-index: 2;
 }
 
@@ -108,12 +107,18 @@
 .partidos-grafico-parrafo {
     font-size: 1rem;
     font-family: var(--fonttext);
-    margin: 5rem auto;
+    margin: 2rem auto;
+    max-width: 60%;
+}
+
+.partidos-grafico-parrafo ~ .partidos-grafico-parrafo {
+    margin: 0 auto;
 }
 
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: 5vh;
 }
 
 .bgc-zec {
@@ -125,5 +130,11 @@
     }
     .partido-concejales-lista a {
         color: #dbf17e;
+    }
+}
+
+.bgc-pp {
+    .partido-concejales-lista a {
+        color: #05062E;
     }
 }
