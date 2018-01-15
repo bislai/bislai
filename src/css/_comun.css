@@ -288,6 +288,7 @@ body {
 }
 
 
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -302,6 +303,7 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
 
 
 /*
@@ -342,6 +344,7 @@ http://www.tipue.com/search
 
 
 
+
 /* search box */
 
 #tipue_search_input {
@@ -371,6 +374,7 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
 
 
 /* search results */
@@ -609,6 +613,7 @@ http://www.tipue.com/search
 
 
 
+
 /* stylelint-enable */
 
 .background {
@@ -723,7 +728,6 @@ path.q2-3 {
     }
 }
 
-
 /* stylelint-disable */
 
 .tooltipLeyenda,
@@ -759,6 +763,7 @@ path.q2-3 {
 }
 
 
+
 /* stylelint-enable */
 
 .container-tooltip-leyenda {
@@ -770,7 +775,6 @@ path.q2-3 {
     padding: 16px;
 }
 
-
 /* stylelint-disable */
 
 .tooltipLeyenda {
@@ -779,10 +783,11 @@ path.q2-3 {
     display: block;
     margin: 0;
     font-size: 16px;
-    +p {
+    + p {
         display: none;
     }
 }
+
 
 
 /* stylelint-enable */
@@ -1216,4 +1221,9 @@ path.q2-3 {
     padding: 1rem;
     width: 100%;
     font-family: var(--fontBislai);
+}
+
+.navegacion-plenos {
+    left: 50%;
+    transform: translate(-50%, 0);
 }

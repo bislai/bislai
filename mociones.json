@@ -2020,7 +2020,7 @@ var mociones = [
     "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S",
-    "contra": "ZEC + CHA",
+    "en_contra": "ZEC + CHA",
     "votos_favor": 19,
     "votos_contra": 11,
     "numero": 9
@@ -2050,7 +2050,7 @@ var mociones = [
     "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S + CHA",
-    "contra": "ZEC",
+    "en_contra": "ZEC",
     "votos_favor": 21,
     "votos_contra": 9,
     "numero": 93
@@ -2060,7 +2060,7 @@ var mociones = [
     "presentada": "ZEC",
     "resultado": "perdida",
     "a_favor": "ZEC + CHA",
-    "contra": "PP + PSOE + C'S",
+    "en_contra": "PP + PSOE + C'S",
     "votos_favor": 11,
     "votos_contra": 19,
     "numero": 10

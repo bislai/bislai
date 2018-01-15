@@ -11,7 +11,6 @@
 </head>
 
 <body class="mih-100">
-
     <header class="font-0 w-100 zi-10 bgc-white">
         <nav class="padding-0__5-1 nav-grid">
             <a href="http://bislai.co" class="textd-n bislai-color font-1 font-2--m margin-y0 bold display-ib vertical-am font-w2 font-bislai nav-grid-first">
@@ -34,6 +33,83 @@
             </div>
         </nav>
     </header>
+    <section class="partidos-cabecera bgc-pp">
+        <div class="partidos-cabecera-izda">
+            <h3 class="partidos-cabecera-title">Partido Popular</h3>
+            <p class="partidos-cabecera-texto maw-50">En esta legislatura ha presentado 74 mociones. Estas mociones han dado como resultado 108 votaciones.</p>
+            <span class="partidos-concejales"><strong>Concejales:</strong></span>
+            <ol>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/jorge-azcon.htm">D. Jorge Antonio Azcón Navarro.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/cavero-moreno.htm">Dª. Patricia María Cavero Moreno.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/campillo-castells.htm">Dª. María de los Reyes Campillo Castells.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/pedro-navarro.htm">D. Pedro Navarro López.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/sebastian-contin.htm">D. Sebastián Contín Trillo-Figueroa.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/mjesus-martinez.htm">Dª. María Jesús Martínez del Campo.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/angel-loren.htm">D. Ángel Carlos Lorén Villa.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/maria-navarro.htm">Dª. María Navarro Viscasillas.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/enrique-collados.htm">D. Luis Enrique Collados Mateo.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/jose-senao.htm">D. José Ignacio Senao Gómez.</a></li>
+            </ol>
+        </div>
+        <div class="partidos-cabecera-dcha">
+            <canvas id="historico"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico partidos-grafico-pp">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA EN SU CONTRA?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado en su contra el resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="en-contra"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-a-favor partidos-grafico-pp">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA A FAVOR?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado a su favor el resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="a-favor"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">¿QUIÉN SE ABSTIENE?
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces se han abstenido el resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="abstencion"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">VOTANDO EN CONTRA
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Partido Popular</strong> ha votado en contra del resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="votando-en-contra"></canvas>
+        </div>
+    </section>
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+        <div class="partidos-grafico-texto">
+            <h2 class="partidos-grafico-titulo">VOTANDO A FAVOR
+            </h2>
+            <span class="partidos-grafico-ciudadanos"></span>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Partido Popular</strong> ha votado a favor del resto de partidos.</p>
+        </div>
+        <div class="partidos-grafico-grafica">
+            <canvas id="votando-a-favor"></canvas>
+        </div>
+    </section>
     <footer class="padding-1 padding-4-0--l borderc-grey border-t1 woodsmoke font-w6 font-s footer">
         <p class="maw-60 padding-1-0 margin-t0">hola@bislai.co</p>
         <div class="maw-60">
@@ -42,17 +118,16 @@
             <a href="http://github.com/jorgeatgu/bislai" class="black  font-1 display-ib vertical-am textd-n texta-r padding-r1">GitHub</a>
         </div>
         <p class="maw-60 padding-1-0 luckyPoint">© Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - 2016 · 2018</p>
-
-    <a class="maw-60 display-b" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <a class="maw-60 display-b" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 
     <img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><span class="maw-60 display-b">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 
-        licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</span></a></div>
+        licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</span></a>
+        </div>
     </footer>
-    <script type="text/javascript" src="../js/scrollama.min.js"></script>
     <script type="text/javascript" src="../js/Chart.min.js"></script>
     <script type="text/javascript" src="../js/chartjs-plugin-datalabels.min.js"></script>
-    <script type="text/javascript" src="../js/estadisticas.js"></script>
+    <script type="text/javascript" src="../js/pp.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
