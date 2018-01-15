@@ -75,13 +75,13 @@
 .partidos-grafico-ciudadanos,
 .partidos-grafico-ciudadanos-after {
     content: '';
-    height: 15px;
-    width: 39vw;
-    background-color: var(--ciudadanos);
+    height: 25px;
+    width: 100vw;
+    background-color: rgba(240, 122, 54, .4);
     display: inline-block;
     position: absolute;
-    left: 50px;
-    top: 37px;
+    left: -10vw;
+    top: 30px;
     z-index: 2;
 }
 
@@ -107,11 +107,23 @@
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: var(--serif);
+    font-family: var(--fonttext);
     margin: 5rem auto;
 }
 
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
+}
+
+.bgc-zec {
+    .partidos-cabecera-title {
+        font-size: 5rem;
+        font-family: var(--fontBislai);
+        color: #d0f3f2;
+        margin: 0;
+    }
+    .partido-concejales-lista a {
+        color: #dbf17e;
+    }
 }
