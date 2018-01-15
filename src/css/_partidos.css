@@ -85,6 +85,18 @@
     }
 }
 
+.partidos-grafico-psoe {
+    .partidos-grafico-titulo {
+        border-color: var(--psoe);
+    }
+}
+
+.partidos-grafico-cha {
+    .partidos-grafico-titulo {
+        border-color: var(--chunta);
+    }
+}
+
 .partidos-grafico-parrafo {
     font-size: 1rem;
     font-family: var(--serif);
@@ -99,7 +111,7 @@
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .bgc-zec {
@@ -109,13 +121,21 @@
         color: #d0f3f2;
         margin: 0;
     }
+    .partidos-cabecera-texto,
+    .partidos-cabecera-texto-derecha,
     .partido-concejales-lista a {
-        color: #dbf17e;
+        color: #fff;
     }
 }
 
 .bgc-pp {
     .partido-concejales-lista a {
         color: #05062E;
+    }
+}
+
+.bgc-psoe {
+    .partido-concejales-lista a {
+        color: #f8f8f9;
     }
 }

@@ -3639,6 +3639,14 @@ path.q2-3 {
         border-color: #9a1622;
     }
 
+.partidos-grafico-psoe .partidos-grafico-titulo {
+        border-color: #e30613;
+    }
+
+.partidos-grafico-cha .partidos-grafico-titulo {
+        border-color: #efb027;
+    }
+
 .partidos-grafico-parrafo {
     font-size: 1rem;
     font-family: "Georgia", serif;
@@ -3653,7 +3661,7 @@ path.q2-3 {
 .partidos-grafico-grafica {
     max-width: 60%;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .bgc-zec .partidos-cabecera-title {
@@ -3663,12 +3671,18 @@ path.q2-3 {
         margin: 0;
     }
 
-.bgc-zec .partido-concejales-lista a {
-        color: #dbf17e;
+.bgc-zec .partidos-cabecera-texto,
+    .bgc-zec .partidos-cabecera-texto-derecha,
+    .bgc-zec .partido-concejales-lista a {
+        color: #fff;
     }
 
 .bgc-pp .partido-concejales-lista a {
         color: #05062E;
+    }
+
+.bgc-psoe .partido-concejales-lista a {
+        color: #f8f8f9;
     }
 
 /*# sourceMappingURL=styles.css.map */

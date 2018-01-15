@@ -70,7 +70,7 @@ function historico() {
         data: {
             labels: votaciones,
             datasets: [{
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+                data: [0, 0, 0, 0, 2, 4, 6, 3, 3, 2],
                 backgroundColor: [
                     '#05042f'
                 ],
