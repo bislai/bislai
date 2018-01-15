@@ -53,7 +53,6 @@
     padding: 5vw 10vw;
     font-size: 0;
     margin: 0 auto;
-    height: 100vh;
     background-color: #f1f1f1;
 }
 
@@ -68,51 +67,33 @@
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    position: relative;
-    z-index: 3;
-}
-
-.partidos-grafico-ciudadanos {
-    content: '';
-    height: 15px;
-    width: 50vw;
-    background-color: var(--ciudadanos);
-    display: inline-block;
-    position: absolute;
-    left: -10vw;
-    top: 40px;
-    z-index: 2;
+    padding: 2rem 5rem;
+    background-color: white;
+    border-top: 10px solid var(--ciudadanos);
+    box-shadow: 0 15px 35px rgba(49, 41, 83, .2), 0 5px 15px rgba(0, 0, 0 , .1);
 }
 
 .partidos-grafico-pp {
-    .partidos-grafico-ciudadanos,
-    .partidos-grafico-ciudadanos-after {
-        background-color: var(--pp);
+    .partidos-grafico-titulo {
+        border-color: var(--pp);
     }
 }
 
 .partidos-grafico-zec {
-    .partidos-grafico-ciudadanos,
-    .partidos-grafico-ciudadanos-after {
-        background-color: var(--zec);
+    .partidos-grafico-titulo {
+        border-color: var(--zec);
     }
-}
-
-.partidos-grafico-ciudadanos-after {
-    width: 15vw;
-    left: 39vw;
-    z-index: 4;
 }
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: var(--fonttext);
-    margin: 2rem auto;
+    font-family: var(--serif);
+    margin: 2rem 0;
     max-width: 60%;
 }
 
 .partidos-grafico-parrafo ~ .partidos-grafico-parrafo {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .partidos-grafico-grafica {
