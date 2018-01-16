@@ -1165,6 +1165,7 @@ path.q2-3 {
     float: right;
     top: 30vh;
     right: 10vw;
+    padding-top: 10vh;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);

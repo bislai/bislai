@@ -1457,6 +1457,7 @@ path.q2-3 {
     float: right;
     top: 30vh;
     right: 10vw;
+    padding-top: 10vh;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -3604,15 +3605,14 @@ path.q2-3 {
 }
 
 .partidos-grafico-titulo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Fjalla One", sans-serif;
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: 2rem 3rem;
+    padding: 2rem;
     background-color: #fff;
-    border-top: 10px solid #f07a36;
-    box-shadow: 0 15px 35px rgba(49, 41, 83, .2), 0 5px 15px rgba(0, 0, 0 , .1);
+    border-top: 5px solid #f07a36;
 }
 
 .partidos-grafico-pp .partidos-grafico-titulo {
