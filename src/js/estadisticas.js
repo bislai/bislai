@@ -271,6 +271,50 @@ function afavorChart() {
 
 }
 
+function soledadChart() {
+
+    var soledad = document.getElementById("chart");
+
+    var myBarsoledad = new Chart(soledad, {
+        type: 'bar',
+        duration: 3000,
+        easing: 'easeInCubic',
+        options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        mirror: false,
+                        suggestedMin: 0,
+                        suggestedMax: 70,
+                    }
+                }]
+            },
+            legend: {
+                display: false
+            }
+        },
+        data: {
+            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
+            datasets: [{
+                data: [101, 72, 16, 50, 30],
+                backgroundColor: [
+                    'rgba(0, 128, 184,1)',
+                    'rgba(154, 22, 34,1)',
+                    'rgba(227, 6, 19,1)',
+                    'rgba(240, 122, 54,1)',
+                    'rgba(239, 176, 39,1)'
+                ]
+            }]
+
+        }
+    });
+
+}
+
 
 
 // initialize the scrollama
@@ -324,6 +368,8 @@ function handleStepEnter(response) {
         encontraChart();
     } else if (response.index === 5) {
         afavorChart();
+    } else if (response.index === 6) {
+        soledadChart();
     }
 
 

@@ -16,6 +16,14 @@ Perdidas = 62
 Presentadas = 323
 Retiradas = 30
 
+##Soledad
+
+PP = 101
+ZEC = 72
+PSOE = 16
+C'S = 50
+CHA = 30
+
 
 ## Mociones presentadas
 
