@@ -1213,3 +1213,105 @@ path.q2-3 {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+@media only screen and (max-width: 48em) {
+
+    .column {
+        height: 60vh;
+    }
+
+    .bislai-home-body-left-text,
+    .bislai-home-body-right {
+        width: auto;
+        left: 10px;
+        top: 20%;
+    }
+
+    .bislai-home-body-right {
+        top: 40%;
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .bislai-home-body-left-container {
+        padding: 1rem;
+    }
+
+    .bislai-icon {
+        width: 16px;
+        height: 32px;
+    }
+
+    .bislai-home-body-left-text-white {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .nav-grid,
+    .nav-grid-second {
+        display: inline-block;
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .nav-grid-second {
+        padding: 0;
+        a {
+            font-weight: normal;
+            font-size: 1rem;
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    .tabs-title {
+        font-size: 1.5rem;
+    }
+
+    .label-record.font-3 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .tooltip-title {
+        position: static;
+        font-size: 1rem;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #tab1:checked ~ .contenido1,
+    #tab2:checked ~ .contenido2,
+    #tab3:checked ~ .contenido3 {
+        grid-template-columns: 100%;
+        padding: 1rem;
+    }
+
+    .tooltip {
+        position: absolute;
+        top: initial;
+        right: initial;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-tooltip-leyenda {
+        display: none;
+    }
+
+    .tooltipPartido {
+        margin: 0;
+    }
+
+    nav.tp-plenos {
+        bottom: 0;
+        a {
+            width: 50%;
+            display: inline-block;
+        }
+    }
+
+}

@@ -138,3 +138,41 @@
         color: #f8f8f9;
     }
 }
+
+@media only screen and (max-width: 48em) {
+
+    .partidos-cabecera-izda,
+    .partidos-cabecera-dcha,
+    #historico {
+        width: 100%;
+    }
+
+    .partido-card-top {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .partidos-cabecera-dcha {
+        margin-top: 1rem;
+    }
+
+    .partidos-cabecera {
+        padding: 1rem;
+    }
+
+    .partidos-grafico {
+        padding: 10px;
+    }
+
+    .partidos-grafico-titulo {
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .partidos-grafico-parrafo,
+    .partidos-grafico-grafica {
+        max-width: 100%;
+    }
+
+}
