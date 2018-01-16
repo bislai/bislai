@@ -53,12 +53,19 @@ function historico() {
                         suggestedMin: 0,
                         suggestedMax: 31,
                         fontColor: '#111'
-
+                    },
+                    gridLines: {
+                      color: '#111',
+                      lineWidth: 1
                     }
                 }],
                 xAxes: [{
                     ticks: {
                         fontColor: '#111'
+                    },
+                    gridLines: {
+                      color: '#111',
+                      lineWidth: 1
                     }
                 }]
             },

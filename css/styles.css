@@ -1506,6 +1506,108 @@ path.q2-3 {
     transform: translate(-50%, 0);
 }
 
+@media only screen and (max-width: 48em) {
+
+    .column {
+        height: 60vh;
+    }
+
+    .bislai-home-body-left-text,
+    .bislai-home-body-right {
+        width: auto;
+        left: 10px;
+        top: 20%;
+    }
+
+    .bislai-home-body-right {
+        top: 40%;
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .bislai-home-body-left-container {
+        padding: 1rem;
+    }
+
+    .bislai-icon {
+        width: 16px;
+        height: 32px;
+    }
+
+    .bislai-home-body-left-text-white {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .nav-grid,
+    .nav-grid-second {
+        display: inline-block;
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .nav-grid-second {
+        padding: 0;
+    }
+        .nav-grid-second a {
+            font-weight: normal;
+            font-size: 1rem;
+        }
+            .nav-grid-second a:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+    .tabs-title {
+        font-size: 1.5rem;
+    }
+
+    .label-record.font-3 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .tooltip-title {
+        position: static;
+        font-size: 1rem;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #tab1:checked ~ .contenido1,
+    #tab2:checked ~ .contenido2,
+    #tab3:checked ~ .contenido3 {
+        grid-template-columns: 100%;
+        padding: 1rem;
+    }
+
+    .tooltip {
+        position: absolute;
+        top: initial;
+        right: initial;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-tooltip-leyenda {
+        display: none;
+    }
+
+    .tooltipPartido {
+        margin: 0;
+    }
+
+    nav.tp-plenos {
+        bottom: 0;
+    }
+        nav.tp-plenos a {
+            width: 50%;
+            display: inline-block;
+        }
+
+}
+
 .maw-70 {
   max-width: 70rem;
   margin: 0 auto;
@@ -3668,5 +3770,43 @@ path.q2-3 {
 .bgc-psoe .partido-concejales-lista a {
         color: #f8f8f9;
     }
+
+@media only screen and (max-width: 48em) {
+
+    .partidos-cabecera-izda,
+    .partidos-cabecera-dcha,
+    #historico {
+        width: 100%;
+    }
+
+    .partido-card-top {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .partidos-cabecera-dcha {
+        margin-top: 1rem;
+    }
+
+    .partidos-cabecera {
+        padding: 1rem;
+    }
+
+    .partidos-grafico {
+        padding: 0.63rem;
+    }
+
+    .partidos-grafico-titulo {
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .partidos-grafico-parrafo,
+    .partidos-grafico-grafica {
+        max-width: 100%;
+    }
+
+}
 
 /*# sourceMappingURL=styles.css.map */
