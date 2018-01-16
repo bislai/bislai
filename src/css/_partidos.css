@@ -62,15 +62,14 @@
 }
 
 .partidos-grafico-titulo {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: var(--fontBislai);
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: 2rem 5rem;
-    background-color: white;
-    border-top: 10px solid var(--ciudadanos);
-    box-shadow: 0 15px 35px rgba(49, 41, 83, .2), 0 5px 15px rgba(0, 0, 0 , .1);
+    padding: 2rem;
+    background-color: var(--white);
+    border-top: 5px solid var(--ciudadanos);
 }
 
 .partidos-grafico-pp {

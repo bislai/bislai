@@ -322,7 +322,7 @@ body {
 
 .nav-grid {
     display: grid;
-    grid-template-columns: 25% 1fr 10%;
+    grid-template-columns: 10% 1fr 25%;
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
@@ -1131,19 +1131,6 @@ path.q2-3 {
     z-index: 10;
 }
 
-.bislai-home-body-left-text:hover .bislai-home-body-left-text-white {
-            color: var(--impureBlack);
-        }
-
-.bislai-home-body-left-text:hover .line-throught {
-            text-decoration: line-through;
-            color: #fff;
-        }
-
-.bislai-home-body-left-text:hover .bislai-icon {
-            opacity: 1;
-        }
-
 .bislai-home-body-left-text-white {
     font-size: 2.5rem;
     padding: 1rem 2rem;
@@ -1151,7 +1138,6 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     max-width: 30rem;
-    transition: color .3s ease-in;
 }
 
 .bislai-home-body-left-container {
@@ -1164,8 +1150,6 @@ path.q2-3 {
 .bislai-icon {
     display: block;
     width: 32px;
-    opacity: 0;
-    transition: opacity .4s ease-in;
 }
 
 .bislai-home-body-right {
@@ -1473,6 +1457,7 @@ path.q2-3 {
     float: right;
     top: 30vh;
     right: 10vw;
+    padding-top: 10vh;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -3620,15 +3605,14 @@ path.q2-3 {
 }
 
 .partidos-grafico-titulo {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: "Fjalla One", sans-serif;
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: 2rem 5rem;
-    background-color: white;
-    border-top: 10px solid #f07a36;
-    box-shadow: 0 15px 35px rgba(49, 41, 83, .2), 0 5px 15px rgba(0, 0, 0 , .1);
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 5px solid #f07a36;
 }
 
 .partidos-grafico-pp .partidos-grafico-titulo {

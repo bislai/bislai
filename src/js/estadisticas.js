@@ -24,7 +24,7 @@ function unanimidadChart() {
                         beginAtZero: true,
                         mirror: false,
                         suggestedMin: 0,
-                        suggestedMax: 100
+                        suggestedMax: 400
                     },
                     drawOnChartArea: false,
                     drawBorder: false,
@@ -45,7 +45,7 @@ function unanimidadChart() {
             labels: ["Unanimidad", "Disconformidad"],
             datasets: [{
 
-                data: [37.59, 62.41],
+                data: [181, 275],
                 backgroundColor: [
                     '#36B287',
                     '#D0577C'
@@ -83,9 +83,9 @@ function repeticionChart() {
             }
         },
         data: {
-            labels: ["PP + PSOE + C'S", "ZEC + PSOE + CHA", "ZEC + PSOE + C'S"],
+            labels: ["PP + PSOE + C'S", "ZEC + PSOE + CHA", "PP + ZEC + CHA"],
             datasets: [{
-                data: [11.31, 10.58, 2.5],
+                data: [55, 53, 5],
                 backgroundColor: [
                     'rgba(32, 159, 105, 1)',
                     'rgba(255, 99, 132, 1)',
@@ -126,7 +126,7 @@ function masMocionesChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [47, 28, 50, 44, 36],
+                data: [74, 43, 75, 76, 63],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -157,7 +157,7 @@ function abstenidoChart() {
                         beginAtZero: true,
                         mirror: false,
                         suggestedMin: 0,
-                        suggestedMax: 20,
+                        suggestedMax: 60,
                     }
                 }]
             },
@@ -168,7 +168,7 @@ function abstenidoChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [8.02, 10.21, 5.47, 9.12, 10.21],
+                data: [37, 52, 24, 45, 44],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -201,7 +201,7 @@ function encontraChart() {
                         beginAtZero: true,
                         mirror: false,
                         suggestedMin: 0,
-                        suggestedMax: 30,
+                        suggestedMax: 100,
                     }
                 }]
             },
@@ -212,7 +212,7 @@ function encontraChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [19.70, 24.08, 11.31, 8.02, 15.32],
+                data: [93, 98, 48, 38, 63],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -256,7 +256,51 @@ function afavorChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [35.03, 28.46, 46.35, 45.98, 36.86],
+                data: [96, 77, 143, 149, 113],
+                backgroundColor: [
+                    'rgba(0, 128, 184,1)',
+                    'rgba(154, 22, 34,1)',
+                    'rgba(227, 6, 19,1)',
+                    'rgba(240, 122, 54,1)',
+                    'rgba(239, 176, 39,1)'
+                ]
+            }]
+
+        }
+    });
+
+}
+
+function soledadChart() {
+
+    var soledad = document.getElementById("chart");
+
+    var myBarsoledad = new Chart(soledad, {
+        type: 'bar',
+        duration: 3000,
+        easing: 'easeInCubic',
+        options: {
+            plugins: {
+                datalabels: configDataLabels
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        mirror: false,
+                        suggestedMin: 0,
+                        suggestedMax: 70,
+                    }
+                }]
+            },
+            legend: {
+                display: false
+            }
+        },
+        data: {
+            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
+            datasets: [{
+                data: [101, 72, 16, 50, 30],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -324,6 +368,8 @@ function handleStepEnter(response) {
         encontraChart();
     } else if (response.index === 5) {
         afavorChart();
+    } else if (response.index === 6) {
+        soledadChart();
     }
 
 

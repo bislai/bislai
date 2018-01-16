@@ -31,7 +31,7 @@ body {
 
 .nav-grid {
     display: grid;
-    grid-template-columns: 25% 1fr 10%;
+    grid-template-columns: 10% 1fr 25%;
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
@@ -846,18 +846,6 @@ path.q2-3 {
     top: 10rem;
     left: 35rem;
     z-index: 10;
-    &:hover {
-        .bislai-home-body-left-text-white {
-            color: var(--impureBlack);
-        }
-        .line-throught {
-            text-decoration: line-through;
-            color: var(--white);
-        }
-        .bislai-icon {
-            opacity: 1;
-        }
-    }
 }
 
 .bislai-home-body-left-text-white {
@@ -867,7 +855,6 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     max-width: 30rem;
-    transition: color .3s ease-in;
 }
 
 .bislai-home-body-left-container {
@@ -880,8 +867,6 @@ path.q2-3 {
 .bislai-icon {
     display: block;
     width: 32px;
-    opacity: 0;
-    transition: opacity .4s ease-in;
 }
 
 .bislai-home-body-right {
@@ -1180,6 +1165,7 @@ path.q2-3 {
     float: right;
     top: 30vh;
     right: 10vw;
+    padding-top: 10vh;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
