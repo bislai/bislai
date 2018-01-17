@@ -1524,15 +1524,28 @@ path.q2-3 {
 
 @media only screen and (max-width: 48em) {
 
-    .column {
-        height: 60vh;
-    }
-
     .bislai-home-body-left-text,
     .bislai-home-body-right {
         width: auto;
-        left: 10px;
-        top: 20%;
+        left: 20px;
+        top: 13vh;
+    }
+
+    .bislai-home-card {
+        left: 0;
+        bottom: 20%;
+    }
+
+    .bislai-home-card-element {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        min-height: auto;
+        border-radius: 0;
+    }
+
+    .bislai-home-card-element-text {
+        max-width: 100%;
     }
 
     .bislai-home-body-right {
