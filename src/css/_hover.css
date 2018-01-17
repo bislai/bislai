@@ -31,5 +31,4 @@
 .tabs:hover,
 .tabs:focus {
     background-color: hsl(158, 80%, 75%);
-    color: var(--hover-tabs);
 }
