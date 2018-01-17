@@ -24,7 +24,7 @@ function unanimidadChart() {
                         beginAtZero: true,
                         mirror: false,
                         suggestedMin: 0,
-                        suggestedMax: 400
+                        suggestedMax: 500
                     },
                     drawOnChartArea: false,
                     drawBorder: false,
@@ -45,7 +45,7 @@ function unanimidadChart() {
             labels: ["Unanimidad", "Disconformidad"],
             datasets: [{
 
-                data: [181, 275],
+                data: [181, 486],
                 backgroundColor: [
                     '#36B287',
                     '#D0577C'
