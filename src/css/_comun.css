@@ -45,6 +45,9 @@ body {
     .nav-grid {
         grid-template-columns: 10% 1fr;
     }
+    .link-name {
+        color: var(--white);
+    }
 }
 
 .nav-grid-first {
@@ -1336,6 +1339,7 @@ path.q2-3 {
     color: var(--bgcHeader);
     position: relative;
     display: inline-block;
+    margin-right: 2rem;
 }
 
 .link-name:before,

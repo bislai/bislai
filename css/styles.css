@@ -339,6 +339,10 @@ body {
         grid-template-columns: 10% 1fr;
     }
 
+.header-home .link-name {
+        color: #fff;
+    }
+
 .nav-grid-first {
     display: inline-grid;
     justify-self: start;
@@ -1629,6 +1633,7 @@ path.q2-3 {
     color: #021e5c;
     position: relative;
     display: inline-block;
+    margin-right: 2rem;
 }
 
 .link-name:before,
