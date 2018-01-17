@@ -328,6 +328,15 @@ body {
     align-items: center;
 }
 
+.nav-grid-first {
+    display: inline-grid;
+    justify-self: start;
+}
+
+.nav-grid-first .link-name {
+        font-size: 2rem;
+    }
+
 .header-home {
     background-color: transparent;
     position: absolute;
@@ -342,11 +351,6 @@ body {
 .header-home .link-name {
         color: #fff;
     }
-
-.nav-grid-first {
-    display: inline-grid;
-    justify-self: start;
-}
 
 .nav-grid-second {
     justify-self: end;
@@ -1747,6 +1751,20 @@ path.q2-3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+/* stylelint-disable */
+
+.tp-plenos .bgc-header-home:hover {
+            transition: all ease-in-out .3s;
+            background-color: hsl(221, 76%, 38%);
+        }
+
+.tp-plenos .bgc-header-home:hover svg {
+                transition: all ease-in-out .3s;
+                transform: scale(1.25);
+            }
+
+/* stylelint-enable */
 
 .maw-70 {
   max-width: 70rem;

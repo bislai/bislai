@@ -256,4 +256,10 @@ PSOE = 5
 C'S = 11
 
 
+##ERRORES EN EL AYUNTAMIENTO
+
+No están disponibles los acuerdos del 22 de julio de 2016
+http://www.zaragoza.es/ciudad/organizacion/detalleAnexo_AgendaInstitucional?id=284
+
+
 
