@@ -37,6 +37,14 @@ body {
     align-items: center;
 }
 
+.nav-grid-first {
+    display: inline-grid;
+    justify-self: start;
+    .link-name {
+        font-size: 2rem;
+    }
+}
+
 .header-home {
     background-color: transparent;
     position: absolute;
@@ -48,11 +56,6 @@ body {
     .link-name {
         color: var(--white);
     }
-}
-
-.nav-grid-first {
-    display: inline-grid;
-    justify-self: start;
 }
 
 .nav-grid-second {
@@ -354,17 +357,17 @@ http://www.tipue.com/search
 /* search box */
 
 #tipue_search_input {
-    color: #333;
+    color: var(--pureblack);
     border: 0;
     padding: 16px;
     outline-color: var(--chunta);
     margin: 0;
     height: 48px;
-    background-color: #f1f1f1;
+    background-color: #d3d3d3;
     font-family: var(--fontSystem);
-    border-radius: 0;
-    border: 1px solid #1b305f;
-    border-right: 0;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .tipue_search_icon {
@@ -519,13 +522,16 @@ http://www.tipue.com/search
     height: 48px;
     border: 0;
     border-radius: 0;
-    border: 1px solid #1b305f;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     cursor: pointer;
-    background-color: #1b305f;
     path {
-        fill: var(--white);
+        fill: var(--pureblack);
     }
     &:hover {
+        transition: background-color ease-in .3s;
         background-color: var(--chunta);
         path {
             fill: #1b305f;
@@ -891,7 +897,7 @@ path.q2-3 {
     display: inline-block;
     width: 30%;
     border-radius: 5px;
-    background-color: #fafafa;
+    background-color: #3BE4CF;
     padding: 1.5rem;
     min-height: 160px;
     vertical-align: top;
@@ -1230,15 +1236,28 @@ path.q2-3 {
 
 @media only screen and (max-width: 48em) {
 
-    .column {
-        height: 60vh;
-    }
-
     .bislai-home-body-left-text,
     .bislai-home-body-right {
         width: auto;
-        left: 10px;
-        top: 20%;
+        left: 20px;
+        top: 13vh;
+    }
+
+    .bislai-home-card {
+        left: 0;
+        bottom: 20%;
+    }
+
+    .bislai-home-card-element {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        min-height: auto;
+        border-radius: 0;
+    }
+
+    .bislai-home-card-element-text {
+        max-width: 100%;
     }
 
     .bislai-home-body-right {
@@ -1325,6 +1344,18 @@ path.q2-3 {
         a {
             width: 50%;
             display: inline-block;
+        }
+    }
+
+    .grid-footer {
+        display: inline-block;
+        a {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 1rem;
+            &:not(:first-child) {
+                width: 30%;
+            }
         }
     }
 
@@ -1422,3 +1453,20 @@ path.q2-3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+/* stylelint-disable */
+
+.tp-plenos {
+    .bgc-header-home {
+        &:hover {
+            transition: all ease-in-out .3s;
+            background-color: hsl(221, 76%, 38%);
+            svg {
+                transition: all ease-in-out .3s;
+                transform: scale(1.25);
+            }
+        }
+    }
+}
+
+/* stylelint-enable */
