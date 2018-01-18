@@ -638,7 +638,6 @@ http://www.tipue.com/search
     color: #000;
     border: 0;
     padding: 1rem;
-    outline-color: #efb027;
     margin: 0;
     height: 48px;
     background-color: #d3d3d3;
@@ -1184,13 +1183,33 @@ path.q2-3 {
     border-radius: 5px;
     background-color: #3BE4CF;
     padding: 1.5rem;
-    min-height: 160px;
+    min-height: 210px;
     vertical-align: top;
     box-shadow: rgba(50, 50, 93, .2) 0 15px 35px, rgba(0, 0, 0, 1) 0 5px 15px;
 }
 
 .bislai-home-card-element:not(:last-child) {
         margin-right: 1rem;
+    }
+
+.bislai-home-card-title {
+    font-size: 1.5rem;
+    font-family: "Fjalla One", sans-serif;
+    margin: 0;
+    color: #121;
+    position: relative;
+    padding-bottom: .5rem;
+}
+
+.bislai-home-card-title:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 5vw;
+        height: 3px;
+        background-color: #7f135a;
     }
 
 .bislai-home-card-element-text {
@@ -3908,7 +3927,7 @@ path.q2-3 {
 }
 
 .bgc-zec .partidos-cabecera-title {
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: "Fjalla One", sans-serif;
         color: #d0f3f2;
         margin: 0;

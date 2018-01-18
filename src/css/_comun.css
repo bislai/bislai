@@ -360,7 +360,6 @@ http://www.tipue.com/search
     color: var(--pureblack);
     border: 0;
     padding: 16px;
-    outline-color: var(--chunta);
     margin: 0;
     height: 48px;
     background-color: #d3d3d3;
@@ -899,11 +898,30 @@ path.q2-3 {
     border-radius: 5px;
     background-color: #3BE4CF;
     padding: 1.5rem;
-    min-height: 160px;
+    min-height: 210px;
     vertical-align: top;
     box-shadow: rgba(50, 50, 93, .2) 0 15px 35px, rgba(0, 0, 0, 1) 0 5px 15px;
     &:not(:last-child) {
         margin-right: 1rem;
+    }
+}
+
+.bislai-home-card-title {
+    font-size: 1.5rem;
+    font-family: var(--fontBislai);
+    margin: 0;
+    color: var(--black);
+    position: relative;
+    padding-bottom: .5rem;
+    &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 5vw;
+        height: 3px;
+        background-color: #7f135a;
     }
 }
 
