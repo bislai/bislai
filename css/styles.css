@@ -1548,51 +1548,6 @@ path.q2-3 {
     transform: translate(-50%, 0);
 }
 
-@media only screen and (max-width: 46em) {
-
-    .bislai-home-body-left-text {
-        left: 10px;
-        top: 20vh;
-    }
-
-    .column {
-        height: auto;
-    }
-        .column:after {
-            height: 30%;
-        }
-
-    .bislai-home-card-title {
-        font-size: 1rem;
-    }
-
-    .bislai-home-card {
-        position: static;
-    }
-        .bislai-home-card:not(:last-child) {
-            margin-right: 0;
-        }
-
-    .bislai-home-card-element {
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        min-height: auto;
-        border-radius: 0;
-    }
-
-    .bislai-home-card-element-text {
-        max-width: 100%;
-    }
-
-    .bislai-home-body-right {
-        top: 40%;
-        max-width: 90%;
-        padding: 1rem;
-        margin: 0 auto;
-    }
-}
-
 @media only screen and (max-width: 48em) {
 
     .bislai-home-body-left-text {
@@ -1695,6 +1650,51 @@ path.q2-3 {
                 width: 30%;
             }
 
+}
+
+@media only screen and (max-width: 46em) {
+
+    .bislai-home-body-left-text {
+        left: 10px;
+        top: 20vh;
+    }
+
+    .column {
+        height: auto;
+    }
+        .column:after {
+            height: 25%;
+        }
+
+    .bislai-home-card-title {
+        font-size: 1rem;
+    }
+
+    .bislai-home-card {
+        position: static;
+    }
+        .bislai-home-card:not(:last-child) {
+            margin-right: 0;
+        }
+
+    .bislai-home-card-element {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        min-height: auto;
+        border-radius: 0;
+    }
+
+    .bislai-home-card-element-text {
+        max-width: 100%;
+    }
+
+    .bislai-home-body-right {
+        top: 40%;
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
 }
 
 .link-name {
