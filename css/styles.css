@@ -1548,10 +1548,9 @@ path.q2-3 {
     transform: translate(-50%, 0);
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 46em) {
 
     .bislai-home-body-left-text {
-        width: auto;
         left: 10px;
         top: 20vh;
     }
@@ -1560,7 +1559,7 @@ path.q2-3 {
         height: auto;
     }
         .column:after {
-            height: auto;
+            height: 30%;
         }
 
     .bislai-home-card-title {
@@ -1591,6 +1590,17 @@ path.q2-3 {
         max-width: 90%;
         padding: 1rem;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+
+    .bislai-home-body-left-text {
+        width: auto;
+    }
+
+    .column {
+        height: 60vh;
     }
 
     .bislai-home-body-left-container {
