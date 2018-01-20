@@ -1252,18 +1252,29 @@ path.q2-3 {
     transform: translate(-50%, 0);
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 46em) {
 
-    .bislai-home-body-left-text,
-    .bislai-home-body-right {
-        width: auto;
-        left: 20px;
-        top: 13vh;
+    .bislai-home-body-left-text {
+        left: 10px;
+        top: 20vh;
+    }
+
+    .column {
+        height: auto;
+        &:after {
+            height: 30%;
+        }
+    }
+
+    .bislai-home-card-title {
+        font-size: 1rem;
     }
 
     .bislai-home-card {
-        left: 0;
-        bottom: 20%;
+        position: static;
+        &:not(:last-child) {
+            margin-right: 0;
+        }
     }
 
     .bislai-home-card-element {
@@ -1283,6 +1294,17 @@ path.q2-3 {
         max-width: 90%;
         padding: 1rem;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+
+    .bislai-home-body-left-text {
+        width: auto;
+    }
+
+    .column {
+        height: 60vh;
     }
 
     .bislai-home-body-left-container {

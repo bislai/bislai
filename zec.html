@@ -7,7 +7,10 @@
     <title>Bislai - votaciones en el Ayuntamiento de Zaragoza</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body class="mih-100">
@@ -32,98 +35,97 @@
             </div>
         </nav>
     </header>
-    <section class="partidos-cabecera bgc-pp">
+    <section class="partidos-cabecera bgc-zec">
         <div class="partidos-cabecera-izda">
-            <h3 class="partidos-cabecera-title">Partido Popular</h3>
-            <p class="partidos-cabecera-texto maw-50">En esta legislatura ha presentado 74 mociones. Estas mociones han dado como resultado 108 votaciones.</p>
+            <h3 class="partidos-cabecera-title">Zaragoza En Común</h3>
+            <p class="partidos-cabecera-texto maw-50">En esta legislatura ha presentado 43 mociones. Estas mociones han dado como resultado 65 votaciones. Al ser el partido que gobierna solamente puede presentar 2 mociones por pleno.</p>
             <span class="partidos-concejales"><strong>Concejales:</strong></span>
             <ol>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/jorge-azcon.htm">D. Jorge Antonio Azcón Navarro.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/cavero-moreno.htm">Dª. Patricia María Cavero Moreno.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/campillo-castells.htm">Dª. María de los Reyes Campillo Castells.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/pedro-navarro.htm">D. Pedro Navarro López.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/sebastian-contin.htm">D. Sebastián Contín Trillo-Figueroa.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/mjesus-martinez.htm">Dª. María Jesús Martínez del Campo.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/angel-loren.htm">D. Ángel Carlos Lorén Villa.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/maria-navarro.htm">Dª. María Navarro Viscasillas.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/enrique-collados.htm">D. Luis Enrique Collados Mateo.</a></li>
-                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/jose-senao.htm">D. José Ignacio Senao Gómez.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/pedro-santisteve.htm">D. Pedro Santisteve Roche.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/luisa-broto.htm">Dª. María Luisa Broto Bernués.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/pablo-munoz.htm">D. Pablo Muñoz San Pío</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/arantza-gracia.htm">Dª. Arantzazu Gracia Moreno</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/alberto-cubero.htm">D. Alberto Cubero Serrano.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/elena-giner.htm">Dª. Elena Giner Monge</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/fernando-rivares.htm">D. Fernando Rivarés Esco.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/teresa-artigas.htm">Dª. Teresa Ana Artigas Sanz.</a></li>
+                <li class="partido-concejales-lista"><a target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/pablo-hijar.htm">D. Pablo Hijar Bayarte.</a></li>
             </ol>
         </div>
         <div class="partidos-cabecera-dcha">
             <canvas id="historico"></canvas>
         </div>
     </section>
-    <section class="partidos-grafico partidos-grafico-pp">
+    <section class="partidos-grafico partidos-grafico-zec">
         <div class="partidos-grafico-texto">
             <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA EN SU CONTRA?
             </h2>
             <span class="partidos-grafico-ciudadanos"></span>
             <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado en su contra el resto de partidos.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado 56 veces en contra.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 28 veces en contra.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 5 veces en contra.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado 42 veces en contra.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado 38 veces en contra.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 10 veces en contra.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 14 veces en contra.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> no ha votado nunca en su contra.</p>
         </div>
         <div class="partidos-grafico-grafica">
             <canvas id="en-contra"></canvas>
         </div>
     </section>
-    <section class="partidos-grafico grafico-a-favor partidos-grafico-pp">
+    <section class="partidos-grafico grafico-a-favor partidos-grafico-zec">
         <div class="partidos-grafico-texto">
             <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA A FAVOR?
             </h2>
             <span class="partidos-grafico-ciudadanos"></span>
             <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces han votado a su favor el resto de partidos.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado 4 veces a su favor.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 33 veces a su favor.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 54 veces a su favor.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado 13 veces a su favor.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado 3 veces a su favor.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 32 veces a su favor.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 21 veces a su favor.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado 43 veces a su favor.</p>
         </div>
         <div class="partidos-grafico-grafica">
             <canvas id="a-favor"></canvas>
         </div>
     </section>
-    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-zec">
         <div class="partidos-grafico-texto">
             <h2 class="partidos-grafico-titulo">¿QUIÉN SE ABSTIENE?
             </h2>
             <span class="partidos-grafico-ciudadanos"></span>
             <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuantas veces se han abstenido el resto de partidos.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha optado por la abstención en 12 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha optado por la abstención en 12 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha optado por la abstención en 14 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha optado por la abstención en 18 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha optado por la abstención en 7 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha optado por la abstención en 6 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha optado por la abstención en 13 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha optado por la abstención en 5 ocasiones.</p>
         </div>
         <div class="partidos-grafico-grafica">
             <canvas id="abstencion"></canvas>
         </div>
     </section>
-    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-zec">
         <div class="partidos-grafico-texto">
             <h2 class="partidos-grafico-titulo">VOTANDO EN CONTRA
             </h2>
             <span class="partidos-grafico-ciudadanos"></span>
-            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Partido Popular</strong> ha votado en contra del resto de partidos.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado en contra de <strong>Zaragoza En Común</strong> en 38 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado en contra del <strong>Partido Socialista Obrero Español</strong> en 16 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado en contra de <strong>Ciudadanos</strong> en 14 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado en contra de <strong>Chunta Aragonesista</strong> en 29 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que <strong>Zaragoza En Común</strong> ha votado en contra del resto de partidos.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado en contra del <strong>Partido Popular</strong> en 56 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado en contra del <strong>Partido Socialista Obrero Español</strong> en 23 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado en contra de <strong>Ciudadanos</strong> en 12 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado en contra de <strong>Chunta Aragonesista</strong> en 6 ocasiones.</p>
         </div>
         <div class="partidos-grafico-grafica">
             <canvas id="votando-en-contra"></canvas>
         </div>
     </section>
-    <section class="partidos-grafico grafico-abstencion partidos-grafico-pp">
+    <section class="partidos-grafico grafico-abstencion partidos-grafico-zec">
         <div class="partidos-grafico-texto">
             <h2 class="partidos-grafico-titulo">VOTANDO A FAVOR
             </h2>
             <span class="partidos-grafico-ciudadanos"></span>
-            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Partido Popular</strong> ha votado a favor del resto de partidos.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado a favor de <strong>Zaragoza En Común</strong> en 3 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado a favor del <strong>Partido Socialista Obrero Español</strong> en 38 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado a favor de <strong>Ciudadanos</strong> en 26 ocasiones.</p>
-            <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado a favor de <strong>Chunta Aragonesista</strong> en 5 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que <strong>Zaragoza En Común</strong> ha votado a favor del resto de partidos.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado a favor del <strong>Partido Popular</strong> en 4 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado a favor del <strong>Partido Socialista Obrero Español</strong> en 19 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado a favor de <strong>Ciudadanos</strong> en 12 ocasiones.</p>
+            <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado a favor de <strong>Chunta Aragonesista</strong> en 42 ocasiones.</p>
         </div>
         <div class="partidos-grafico-grafica">
             <canvas id="votando-a-favor"></canvas>
@@ -145,7 +147,7 @@
     </footer>
     <script type="text/javascript" src="../js/Chart.min.js"></script>
     <script type="text/javascript" src="../js/chartjs-plugin-datalabels.min.js"></script>
-    <script type="text/javascript" src="../js/pp.js"></script>
+    <script type="text/javascript" src="../js/zec.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
