@@ -1254,16 +1254,28 @@ path.q2-3 {
 
 @media only screen and (max-width: 48em) {
 
-    .bislai-home-body-left-text,
-    .bislai-home-body-right {
+    .bislai-home-body-left-text {
         width: auto;
-        left: 20px;
-        top: 13vh;
+        left: 10px;
+        top: 20vh;
+    }
+
+    .column {
+        height: auto;
+        &:after {
+            height: auto;
+        }
+    }
+
+    .bislai-home-card-title {
+        font-size: 1rem;
     }
 
     .bislai-home-card {
-        left: 0;
-        bottom: 20%;
+        position: static;
+        &:not(:last-child) {
+            margin-right: 0;
+        }
     }
 
     .bislai-home-card-element {
