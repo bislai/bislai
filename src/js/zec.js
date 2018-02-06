@@ -1,3 +1,4 @@
+//Objeto con todas las propiedas de los lables
 var configDataLabels = {
     backgroundColor: 'rgba(0, 0, 0, .6)',
     borderRadius: 5,
@@ -10,6 +11,7 @@ var configDataLabels = {
     }
 }
 
+//Objecto con los colores modificados para las gráficas
 var configDataLabelsPartidos = {
     color: 'black',
     font: {
@@ -18,14 +20,17 @@ var configDataLabelsPartidos = {
     }
 }
 
+//Todas las votaciones celebradas en Zaragoza desde la vuelta de la democracia
 var votaciones = [
     "1979", "1983", "1987", "1991", "1995", "1999", "2003", "2007", "2011", "2015"
 ]
 
+//Lista de partidos
 var partidos = [
     "PP", "PSOE", "C'S", "CHA"
 ]
 
+//Colores de cada partido | Se ha sacado de las guías de estilo(los que tienen) de cada partido
 var colorPartidos = [
     'rgba(154, 22, 34, 1)',
     'rgba(227, 6, 19, 1)',
