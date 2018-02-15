@@ -584,7 +584,8 @@ http://www.tipue.com/search
 
 #tab1:checked~.contenido1,
 #tab2:checked~.contenido2,
-#tab3:checked~.contenido3 {
+#tab3:checked~.contenido3,
+#tab4:checked~.contenido4 {
     display: block;
     background-color: var(--bislai);
     display: grid;
@@ -1308,7 +1309,8 @@ path.q2-3 {
 
     #tab1:checked ~ .contenido1,
     #tab2:checked ~ .contenido2,
-    #tab3:checked ~ .contenido3 {
+    #tab3:checked ~ .contenido3,
+    #tab4:checked ~ .contenido4 {
         grid-template-columns: 100%;
         padding: 1rem;
     }
@@ -1394,6 +1396,10 @@ path.q2-3 {
         max-width: 90%;
         padding: 1rem;
         margin: 0 auto;
+    }
+
+    .label-record {
+        padding: 1rem;
     }
 }
 
