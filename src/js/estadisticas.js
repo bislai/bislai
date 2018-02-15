@@ -45,7 +45,7 @@ function unanimidadChart() {
             labels: ["Unanimidad", "Disconformidad"],
             datasets: [{
 
-                data: [181, 486],
+                data: [189, 284],
                 backgroundColor: [
                     '#36B287',
                     '#D0577C'
@@ -85,7 +85,7 @@ function repeticionChart() {
         data: {
             labels: ["PP + PSOE + C'S", "ZEC + PSOE + CHA", "PP + ZEC + CHA"],
             datasets: [{
-                data: [55, 53, 5],
+                data: [57, 53, 5],
                 backgroundColor: [
                     'rgba(32, 159, 105, 1)',
                     'rgba(255, 99, 132, 1)',
@@ -126,7 +126,7 @@ function masMocionesChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [74, 43, 75, 76, 63],
+                data: [77, 45, 79, 80, 65],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -168,7 +168,7 @@ function abstenidoChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [37, 52, 24, 45, 44],
+                data: [38, 52, 24, 46, 45],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -212,7 +212,7 @@ function encontraChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [93, 98, 48, 38, 63],
+                data: [96, 102, 51, 39, 67],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -256,7 +256,7 @@ function afavorChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [96, 77, 143, 149, 113],
+                data: [101, 82, 149, 156, 117],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -300,7 +300,7 @@ function soledadChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [101, 72, 16, 50, 30],
+                data: [102, 75, 16, 50, 30],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',

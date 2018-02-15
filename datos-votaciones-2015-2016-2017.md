@@ -87,7 +87,7 @@ PSOE + C'S + CHA = 4
 
 # PP
 
-Votaciones: 76 ganadas, 28 perdidas y 8 mociones retiradas
+Votaciones: 77 ganadas, 28 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
@@ -121,7 +121,7 @@ CHA = 19
 
 # ZEC
 
-Votaciones: 50 ganadas, 15 perdidas y 4 mociones retiradas
+Votaciones: 48 ganadas, 15 perdidas y 4 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
@@ -189,7 +189,7 @@ CHA = 7
 
 # Ciudadanos
 
-Votaciones: 78 ganadas, 7 perdidas y 8 mociones retiradas
+Votaciones: 80 ganadas, 7 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
@@ -223,7 +223,7 @@ CHA = 17
 
 # CHA
 
-Votaciones: 78 ganadas, 7 perdidas y 8 mociones retiradas
+Votaciones: 80 ganadas, 7 perdidas y 8 mociones retiradas
 
 ¿Quién vota en contra en sus votaciones?
 
