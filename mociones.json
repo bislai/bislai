@@ -4373,6 +4373,156 @@ var mociones = [
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 26
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 2
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 3
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + C'S",
+    "en_contra": "PSOE + CHA",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 4
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + PSOE + C'S",
+    "abstencion": "CHA",
+    "votos_favor": 28,
+    "votos_abstencion": 2,
+    "numero": 5
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 6
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 7
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 8
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 9
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 10
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 11
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 12
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC",
+    "en_contra": "PP + PSOE + C'S + CHA",
+    "votos_favor": 8,
+    "votos_contra": 22,
+    "numero": 13
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + PSOE",
+    "abstencion": "C'S",
+    "votos_favor": 10,
+    "votos_contra": 16,
+    "votos_abstencion": 4,
+    "numero": 14
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 15
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 152
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S ",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_contra": 10,
+    "numero": 153
+},
+{
+    "fecha": "02-02-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "abstencion": "PP",
+    "votos_favor": 11,
+    "votos_contra": 8,
+    "votos_abstencion": 10,
+    "numero": 16
 }]
 
 console.log(mociones[0].resultado)
