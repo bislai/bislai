@@ -2,12 +2,20 @@
 
 Bislai nace en una sobremesa de un día de octubre. Mientras veía el telediario de Aragon TV una reportera informaba sobre una votación en el pleno del Ayuntamiento de Zaragoza de la que no tenía noticia alguna. Así que cuando acabó la pieza decidí buscar información, encontre la página de plenos del Ayuntamiento de Zaragoza. Allí estaba toda la información en bruto, sin distinción alguna. Así que se me ocurrió la idea de recopilar toda la información de todos los plenos y mostrarla de una manera más visual.
 
-En esta serie de datos y gráficas vamos a ver como gestionan los diferentes partidos los 328893 votos de los zaragozanos que decidieron ejercer su derecho a voto en las elecciones municipales que se celebraron el 2 de junio de 2015 en Zaragoza. Las decisiones que se toman en el pleno afectan a los 666058 habitantes de Zaragoza.
+# Accesibilidad política
 
-Todos los datos han sido obtenidos de la web del Ayuntamiento de Zaragoza.
+Mostramos de una manera más accesible las propuestas y acuerdos que toman los partidos políticos en el Ayuntamiento de Zaragoza.
 
-## plenos
+# Buscador de plenos
 
+Busca en todos los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?
 
-## Estadisticas
+[Buscador][bislai.co/buscador]
+
+# Estadisticas
+
+Recopilamos todas las votaciones y generamos diferentes estadísticas con ellas: tripartitos, ¿quién vota a favor?, ¿quién vota en contra?
+
+[estadísticas generales](http://bislai.co/estadisticas)
+[estadísticas por partidos](http://bislai.co/partidos)
 
