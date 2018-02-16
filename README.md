@@ -10,12 +10,12 @@ Mostramos de una manera más accesible las propuestas y acuerdos que toman los p
 
 Busca en todos los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?
 
-[Buscador][bislai.co/buscador]
+[Buscador](http://bislai.co/buscador)
 
 # Estadisticas
 
 Recopilamos todas las votaciones y generamos diferentes estadísticas con ellas: tripartitos, ¿quién vota a favor?, ¿quién vota en contra?
 
-[estadísticas generales](http://bislai.co/estadisticas)
+[estadísticas generales](http://bislai.co/estadisticas)    
 [estadísticas por partidos](http://bislai.co/partidos)
 
