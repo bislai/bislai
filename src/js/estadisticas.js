@@ -1,3 +1,5 @@
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
 var configDataLabels = {
     color: 'black',
     font: {
@@ -396,5 +398,19 @@ function init() {
 
 }
 
-// kick things off
-init();
+function initResponsive() {
+    scroller
+      .setup({
+        step: '.step' // required - class name of trigger steps
+      })
+      .onStepEnter(handleStepEnter)
+      .onStepExit(handleStepExit);
+}
+
+if (width > 769) {
+    init();
+} else {
+    initResponsive();
+}
+
+

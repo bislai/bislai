@@ -67,19 +67,6 @@ $(function() {
                 .transition()
                 .duration(200);
         }
-
-        // map.on("viewreset", update);
-        // map.on("movestart", function() {
-        //     svg.classed("hidden", true);
-        // });
-        // map.on("rotate", function() {
-        //     svg.classed("hidden", true);
-        // });
-        // map.on("moveend", function() {
-        //     update();
-        //     svg.classed("hidden", false);
-        // });
-
         map.scrollZoom.disable();
 
         update();
