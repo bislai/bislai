@@ -4580,7 +4580,7 @@ var mociones = [
     "numero": 10
 },
 {
-    "fecha": "02-02-2018",
+    "fecha": "02-03-2018",
     "presentada": "C'S",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S + CHA",
@@ -4590,7 +4590,7 @@ var mociones = [
     "numero": 11
 },
 {
-    "fecha": "02-02-2018",
+    "fecha": "02-03-2018",
     "presentada": "CHA",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S + CHA",
@@ -4600,7 +4600,7 @@ var mociones = [
     "numero": 12
 },
 {
-    "fecha": "02-02-2018",
+    "fecha": "02-03-2018",
     "presentada": "PSOE",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S + CHA",
@@ -4610,7 +4610,7 @@ var mociones = [
     "numero": 13
 },
 {
-    "fecha": "02-02-2018",
+    "fecha": "02-03-2018",
     "presentada": "PP",
     "resultado": "ganada",
     "a_favor": "PP + PSOE + C'S + CHA",
