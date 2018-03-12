@@ -2893,6 +2893,84 @@ var tipuesearch = {
         "text": "En el sentido de instar al Gobierno de Zaragoza y al de Aragón a negociar fórmulas que permitan revertir la recaudación del ICA en Zaragoza, en obras de mejora y renovación de la red de saneamiento y depuración y a las Cortes de Aragón y grupos parlamentarios allí representados a negociar una reforma del impuesto que permita mejorarlo, aumentar su progresividad, su transparencia y su adecuación a las diferentes realidades familiares (P-4.158/2018).",
         "tags": "",
         "url": "http://bislai.co/plenos/2018/02-02-2018#16.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno inste al Ministerio de Fomento a incluir las estaciones de Zaragoza y Calatayud entre las beneficiadas por los nuevos servicios de alta velocidad que se implanten en 2019 en la modalidad denominada EVA (P-4.244/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#2.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno rechace el contenido y la distribución del folleto sobre drogas coordinado por la asociación Consumo Conciencia (P-4.246/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#3.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno inste al Gobierno de Zaragoza a paralizar el procedimiento administrativo del contrato para el servicio de apoyo a la gestión de redes sociales del Ayuntamiento de Zaragoza y acuerde la elaboración de un manual de estilo que determine las necesidades existentes, permita unificar la gestión de todas las redes sociales vinculadas a la institución y garantice que las nuevas herramientas de comunicación e información se encuentran realmente al servicio de la ciudadanía (P-4.306/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#4.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a diseñar un plan par analizar la posible ampliación de los horarios de apertura de las instalaciones de los centros educativos (P-4.308/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#5.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a habilitar los procedimientos necesarios y a dotar de los medios humanos y económicos adecuados para acortar los plazos de retirada de residuos vertidos ilegalmente en los montes, campos y riberas de nuestro términos municipal con la mayor diligencia, con el fin de restaurar el estado de los mismos y garantizar la restitución del orden medioambiental y paisajístico (P-4.309/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#6.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "Sobre el sistema público de pensiones (P-4.313/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#7.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a elaborar un informe sobre la situación laboral y salarial de los trabajadores y trabajadoras del Ayuntamiento en el que se recojan además las medidas adoptadas en materia de igualdad laboral o las que se tengan que establecer en su caso; respaldar la convocatoria de paro del 8 marzo e instar a los grupos parlamentarios representados en el Congreso de los Diputados a presentar y aprobar una ley de igualdad laboral (P-4.314/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#8.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno del Ayuntamiento exija al Gobierno de España que presente el proyecto de presupuestos del Estado a las Cortes de manera inmediata (P-4.315/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#9.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En Común sobre adhesión del Ayuntamiento de Zaragoza al Manifiesto 2017 'Seguridad, democracia y ciudades: coproducción de políticas de seguridad urbana' (P-4.316/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#10.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno del Ayuntamiento inste al Gobierno municipal a estudiar la transformación de las sociedades municipales Ecociudad, Zaragoza Deporte Municipal, Zaragoza Vivienda y Zaragoza Cultural, en entidades públicas empresariales, previos los informes preceptivos e incoación del oportuno expediente (P-4.317/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#11.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno del Ayuntamiento repruebe al Alcalde de Zaragoza y a todos los miembros de su gobierno por romper unilateralmente el acuerdo de la Junta de Portavoces sobre la representación de los grupos municipales en las sociedades públicas Zaragoza Vivienda, Ecociudad Zaragoza, Zaragoza Deporte y Zaragoza Cultural e inste al Alcalde a rectificar de forma inmediata para restituir los acuerdos de Portavoces y recuperar la normalidad democrática en las sociedades municipales (P-4.318/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#12.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de que el Pleno declare en situación de no disponibles los créditos del presupuesto municipal de 2018 no afectos a pagos ordenados correspondientes a todas las aplicaciones presupuestarias de los arts. 44 transferencias corrientes a entes públicos y sociedades mercantiles de la entidad local y 74 transferencias de capital a entes públicos y sociedades mercantiles de la entidad local y otros extremos (P-4.319/2018).",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#13.html"
+    },
+    {
+        "title": "Pleno ordinario del 2 de marzo de 2018",
+        "text": "En el sentido de instar al Gobierno de Zaragoza a modificar en el plazo de un mes, el Reglamento Orgánico, incluyendo en su articulado que el Pleno del Ayuntamiento acordará el número de miembros de los consejos de administración de las sociedades públicas y su reparto conforme a un criterio proporcional, así como instar al Gobierno de España y al Gobierno de Aragón a alcanzar un acuerdo en el menor plazo posible, sobre la constitucionalidad de determinados artículos de la Ley de régimen especial del municipio de Zaragoza como capital de Aragón.ºx",
+        "tags": "",
+        "url": "http://bislai.co/plenos/2018/02-03-2018#14.html"
     }
     ]
 };
