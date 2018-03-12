@@ -47,7 +47,7 @@ function unanimidadChart() {
             labels: ["Unanimidad", "Disconformidad"],
             datasets: [{
 
-                data: [189, 284],
+                data: [190, 284],
                 backgroundColor: [
                     '#36B287',
                     '#D0577C'
@@ -128,7 +128,7 @@ function masMocionesChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [77, 45, 79, 80, 65],
+                data: [80, 47, 82, 83, 67],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -214,7 +214,7 @@ function encontraChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [96, 102, 51, 39, 67],
+                data: [96, 106, 51, 39, 67],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -258,7 +258,7 @@ function afavorChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [101, 82, 149, 156, 117],
+                data: [103, 82, 152, 159, 120],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',
@@ -302,7 +302,7 @@ function soledadChart() {
         data: {
             labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
             datasets: [{
-                data: [102, 75, 16, 50, 30],
+                data: [102, 79, 16, 50, 30],
                 backgroundColor: [
                     'rgba(0, 128, 184,1)',
                     'rgba(154, 22, 34,1)',

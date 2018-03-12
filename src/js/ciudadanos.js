@@ -134,7 +134,7 @@ function enContra() {
             labels: partidos,
             datasets: [{
 
-                data: [10, 14, 4, 13],
+                data: [10, 15, 4, 13],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -186,7 +186,7 @@ function aFavor() {
             labels: partidos,
             datasets: [{
 
-                data: [27, 12, 39, 14],
+                data: [28, 12, 40, 15],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -342,7 +342,7 @@ function votandoAFavor() {
             labels: partidos,
             datasets: [{
 
-                data: [57, 21, 49, 28],
+                data: [58, 21, 50, 29],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',

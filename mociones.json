@@ -4523,6 +4523,101 @@ var mociones = [
     "votos_contra": 8,
     "votos_abstencion": 10,
     "numero": 16
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "CHA",
+    "resultado": "retirada",
+    "numero": 2
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PP",
+    "resultado": "retirada",
+    "numero": 3
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PP",
+    "resultado": "retirada",
+    "numero": 4
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "C'S",
+    "resultado": "retirada",
+    "numero": 5
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "C'S",
+    "resultado": "retirada",
+    "numero": 6
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PSOE",
+    "resultado": "retirada",
+    "numero": 7
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PSOE",
+    "resultado": "retirada",
+    "numero": 8
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 9
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "ZEC",
+    "resultado": "retirada",
+    "numero": 10
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 9,
+    "numero": 11
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 9,
+    "numero": 12
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 9,
+    "numero": 13
+},
+{
+    "fecha": "02-03-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 9,
+    "numero": 14
 }]
 
 console.log(mociones[0].resultado)

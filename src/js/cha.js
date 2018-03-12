@@ -187,7 +187,7 @@ function aFavor() {
             labels: partidos,
             datasets: [{
 
-                data: [5, 43, 41, 28],
+                data: [6, 43, 42, 29],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
@@ -343,7 +343,7 @@ function votandoAFavor() {
             labels: partidos,
             datasets: [{
 
-                data: [13, 44, 45, 14],
+                data: [14, 44, 46, 15],
                 backgroundColor: [
                     'rgba(0, 128, 184, 1)',
                     'rgba(154, 22, 34, 1)',
