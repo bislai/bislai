@@ -191,5 +191,198 @@ var elecciones = [{
                 ]
             }
         }
+    },
+    "2007": {
+        "partidos": {
+            "pp": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "14360",
+                        "porcentaje": "24.68%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "3606",
+                        "porcentaje": "27.55%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "3309",
+                        "porcentaje": "31.61%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "1918",
+                        "porcentaje": "33.30%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "7467",
+                        "porcentaje": "39.80%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "17338",
+                        "porcentaje": "55.67%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "15559",
+                        "porcentaje": "30.95%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "9622",
+                        "porcentaje": "24.89%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "10187",
+                        "porcentaje": "32.50%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "3825",
+                        "porcentaje": "24.47%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "16206",
+                        "porcentaje": "47.03%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "4206",
+                        "porcentaje": "30.01%"
+                    }
+                ]
+            },
+            "psoe": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "25918",
+                        "porcentaje": "44.55%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "5620",
+                        "porcentaje": "42.93%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "4062",
+                        "porcentaje": "38.80%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "2345",
+                        "porcentaje": "40.72%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "6326",
+                        "porcentaje": "33.72%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "6885",
+                        "porcentaje": "22.11%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "20708",
+                        "porcentaje": "41.20%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "9622",
+                        "porcentaje": "45.97%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "12398",
+                        "porcentaje": "39.56%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "6905",
+                        "porcentaje": "44.17%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "9419",
+                        "porcentaje": "27.34%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "5515",
+                        "porcentaje": "39.35%"
+                    }
+                ]
+            },
+            "cha": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "6948",
+                        "porcentaje": "11.94%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "1564",
+                        "porcentaje": "11.95%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "1133",
+                        "porcentaje": "10.82%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "491",
+                        "porcentaje": "8.53%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "1532",
+                        "porcentaje": "8.17%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "1443",
+                        "porcentaje": "4.63%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "5096",
+                        "porcentaje": "10.14%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "2280",
+                        "porcentaje": "10.89%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "2941",
+                        "porcentaje": "9.38%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "1827",
+                        "porcentaje": "11.69%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "2310",
+                        "porcentaje": "6.70%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "1665",
+                        "porcentaje": "11.88%"
+                    }
+                ]
+            }
+        }
     }
 }]
