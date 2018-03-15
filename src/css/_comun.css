@@ -1538,3 +1538,29 @@ path.q2-3 {
 }
 
 /* stylelint-enable */
+
+.error {
+    display: flex;
+    margin: auto;
+    background-color: var(--black);
+    font-family: var(--fontFair);
+}
+
+.aaron {
+    font-family: var(--fontFair);
+    font-size: 3rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+    color: var(--white);
+}
+
+.swartz {
+    font-family: var(--fontSystem);
+    color: var(--white);
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    width: max-content;
+    margin-top: 1rem;
+}
