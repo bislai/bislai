@@ -1268,13 +1268,15 @@ path.q2-3 {
     }
 
     .step {
-        p {
-            background-color: #fff;
-        }
         .title-estadisticas {
             background-color: #111;
             font-size: 1rem;
         }
+    }
+
+    .step-blanco {
+        background-color: var(--grey);
+        padding: .5rem;
     }
 
     .scroll__graphic {
