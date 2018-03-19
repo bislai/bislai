@@ -804,6 +804,23 @@ path.q2-3 {
 }
 
 
+.tooltip-pp {
+    border-color: var(--pp);
+    min-width: 30rem;
+    height: 80vh;
+    right: 0;
+    .tooltipPartido {
+        .titulo-partido {
+            display: block;
+            font-weight: normal;
+        }
+        .resultadoVotos:not(:first-child) {
+            font-weight: normal;
+        }
+    }
+}
+
+
 
 /* stylelint-enable */
 

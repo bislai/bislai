@@ -10,6 +10,8 @@
     <script type="text/javascript" src="js/tipuesearch_content.js"></script>
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
@@ -49,6 +51,13 @@
         <div class="partidos-cabecera-dcha">
             <canvas id="historico"></canvas>
             <p class="partidos-cabecera-texto-derecha">Concurrió por primera vez a unas elecciones en 1987.</p>
+        </div>
+    </section>
+    <section class="mapa-container">
+        <div id="map-wrap">
+            <div id="map">
+                <span class="tooltip-title">ELECCIONES MUNICIPALES 2015</span>
+            </div>
         </div>
     </section>
     <section class="partidos-grafico partidos-grafico-cha">
