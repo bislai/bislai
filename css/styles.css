@@ -1089,10 +1089,11 @@ path.q2-3 {
     }
 
 .tooltip-pp {
-    border-color: #0080b8;
+    border-color: #46457b;
     min-width: 30rem;
     height: 80vh;
-    right: 0;
+    right: 1vw;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .tooltip-pp .tooltipPartido .titulo-partido {
@@ -1103,6 +1104,25 @@ path.q2-3 {
 .tooltip-pp .tooltipPartido .resultadoVotos:not(:first-child) {
             font-weight: normal;
         }
+
+.distritosPP {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosPP:hover {
+        stroke-width: 1;
+        fill: #2be5cf;
+        fill-opacity: .8;
+    }
+
+.mapa-container-pp .tooltip-title {
+        border-color: #46457b;
+        background-color: rgba(255, 255, 255, .8);
+    }
 
 /* stylelint-enable */
 
