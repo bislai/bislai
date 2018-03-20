@@ -297,8 +297,8 @@ var elecciones = [{
                     },
                     {
                         "nombre": "Centro",
-                        "votos": "12.126",
-                        "porcentaje": "19.82%"
+                        "votos": "3718",
+                        "porcentaje": "9.03%"
                     },
                     {
                         "nombre": "Delicias",

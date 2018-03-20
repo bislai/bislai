@@ -804,7 +804,8 @@ path.q2-3 {
 }
 
 
-.tooltip-pp {
+.tooltip-pp,
+.tooltip-psoe {
     border-color: #46457b;
     min-width: 30rem;
     height: 80vh;
@@ -821,7 +822,24 @@ path.q2-3 {
     }
 }
 
+.tooltip-psoe {
+    border-color: #421023;
+}
+
 .distritosPP {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+    &:hover {
+        stroke-width: 1;
+        fill: #2be5cf;
+        fill-opacity: .8;
+    }
+}
+
+.distritosPSOE {
     fill: rgba(255, 255, 255, .1);
     stroke: #1b2156;
     stroke-opacity: .3;
