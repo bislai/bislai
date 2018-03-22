@@ -1089,7 +1089,8 @@ path.q2-3 {
     }
 
 .tooltip-pp,
-.tooltip-psoe {
+.tooltip-psoe,
+.tooltip-cha {
     border-color: #46457b;
     min-width: 30rem;
     height: 80vh;
@@ -1097,17 +1098,21 @@ path.q2-3 {
     background-color: rgba(255, 255, 255, .8);
 }
 
-.tooltip-pp .tooltipPartido .titulo-partido, .tooltip-psoe .tooltipPartido .titulo-partido {
+.tooltip-pp .tooltipPartido .titulo-partido, .tooltip-psoe .tooltipPartido .titulo-partido, .tooltip-cha .tooltipPartido .titulo-partido {
             display: block;
             font-weight: normal;
         }
 
-.tooltip-pp .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-psoe .tooltipPartido .resultadoVotos:not(:first-child) {
+.tooltip-pp .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-psoe .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-cha .tooltipPartido .resultadoVotos:not(:first-child) {
             font-weight: normal;
         }
 
 .tooltip-psoe {
     border-color: #421023;
+}
+
+.tooltip-cha {
+    border-color: #e30613;
 }
 
 .distritosPP {
@@ -1138,8 +1143,27 @@ path.q2-3 {
         fill-opacity: .7;
     }
 
+.distritosCHA {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosCHA:hover {
+        stroke-width: 1;
+        fill: #2b384d;
+        fill-opacity: .7;
+    }
+
 .mapa-container-pp .tooltip-title {
         border-color: #46457b;
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+.mapa-container-cha .tooltip-title {
+        border-color: #e30613;
         background-color: rgba(255, 255, 255, .8);
     }
 
