@@ -206,7 +206,7 @@ var elecciones = [{
                 "distritos": [{
                         "nombre": "Actur-Arrabal",
                         "votos": "17322",
-                        "porcentaje": "36.35%%"
+                        "porcentaje": "36.35%"
                     },
                     {
                         "nombre": "Aljafería",

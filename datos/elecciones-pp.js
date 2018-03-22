@@ -144,7 +144,7 @@ var elecciones = [{
                     {
                         "nombre": "Aljafería",
                         "votos": "3967",
-                        "porcentaje": "27.19%%"
+                        "porcentaje": "27.19 %"
                     },
                     {
                         "nombre": "Barrios Zona Norte",
@@ -297,8 +297,8 @@ var elecciones = [{
                     },
                     {
                         "nombre": "Centro",
-                        "votos": "26512",
-                        "porcentaje": "43.33%"
+                        "votos": "28696",
+                        "porcentaje": "69.66%"
                     },
                     {
                         "nombre": "Delicias",

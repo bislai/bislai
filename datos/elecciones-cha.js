@@ -226,7 +226,7 @@ var elecciones = [{
                     {
                         "nombre": "Casco Viejo",
                         "votos": "2038",
-                        "porcentaje": "6.22%"
+                        "porcentaje": "10.71%"
                     },
                     {
                         "nombre": "Centro",
@@ -297,13 +297,13 @@ var elecciones = [{
                     },
                     {
                         "nombre": "Centro",
-                        "votos": "3993",
-                        "porcentaje": "6.53%"
+                        "votos": "1372",
+                        "porcentaje": "3.33%"
                     },
                     {
                         "nombre": "Delicias",
-                        "votos": "5096",
-                        "porcentaje": "10.14%"
+                        "votos": "3933",
+                        "porcentaje": "6.53%"
                     },
                     {
                         "nombre": "Las Fuentes",
