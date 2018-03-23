@@ -11,6 +11,8 @@
     <script type="text/javascript" src="js/tipuesearch_content.js"></script>
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
@@ -53,6 +55,13 @@
         </div>
         <div class="partidos-cabecera-dcha">
             <canvas id="historico"></canvas>
+        </div>
+    </section>
+    <section class="mapa-container mapa-container-pp">
+        <div id="map-wrap">
+            <div id="map">
+                <span class="tooltip-title">PSOE 1987-2015</span>
+            </div>
         </div>
     </section>
     <section class="partidos-grafico partidos-grafico-psoe">
@@ -150,7 +159,7 @@
     <script type="text/javascript" src="../js/chartjs-plugin-datalabels.min.js"></script>
     <script type="text/javascript" src="../js/psoe.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.0/mapbox-gl.js'></script>
-    <script type="text/javascript" src="js/mapa-psoe.js"></script>
+    <script type="text/javascript" src="../js/mapa-psoe.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

@@ -1677,19 +1677,8 @@
             "shape_area": 17743571.8502,
             "shape_len": 21103.0660447,
             "distrito": "Barrios Zona Oeste",
-            "total": 11196,
-            "votantes" : "57.25",
-            "abstencion": "42.75",
-            "pp": "24.72",
-            "ppVotos": "1567",
-            "zec": "22.89",
-            "zecVotos": "1451",
-            "psoe": "23.46",
-            "psoeVotos": "1487",
-            "cs": "11.18",
-            "csVotos": "709",
-            "cha":"5.99",
-            "chaVotos": "380"
+            "quince_p":"11.18",
+            "quince_v":"709"
         }
     },
     {
@@ -4256,19 +4245,8 @@
             "shape_area": 293946863.849,
             "shape_len": 97082.0538816,
             "distrito": "Barrios Zona Norte",
-            "total": 19267,
-            "votantes" : "63.39",
-            "abstencion": "36.61",
-            "pp": "24.31",
-            "ppVotos": "2936",
-            "zec": "24.18",
-            "zecVotos": "2921",
-            "psoe": "18.01",
-            "psoeVotos": "2175",
-            "cs": "14.07",
-            "csVotos": "1699",
-            "cha":"7.58",
-            "chaVotos": "915"
+            "quince_p":"14.07",
+            "quince_v":"1699"
         }
     },
     {
@@ -5306,19 +5284,8 @@
             "shape_area": 30835.5081383,
             "shape_len": 793.168536591,
             "distrito": "Universidad",
-            "total": 67672,
-            "votantes" : "69.97",
-            "abstencion": "30.03",
-            "pp": "32.20",
-            "ppVotos": "9334",
-            "zec": "22.58",
-            "zecVotos": "5028",
-            "psoe": "12.49",
-            "psoeVotos": "3067",
-            "cs": "6.67",
-            "csVotos": "1148",
-            "cha":"6.67",
-            "chaVotos": "1148"
+            "quince_p":"6.67",
+            "quince_v":"1148"
         }
     },
     {
@@ -6698,19 +6665,8 @@
             "shape_area": 44500.5073704,
             "shape_len": 1170.39810163,
             "distrito": "Torrero",
-            "total": 27444,
-            "votantes" : "62.51",
-            "abstencion": "37.49",
-            "pp": "18.19",
-            "ppVotos": "3084",
-            "zec": "31.39",
-            "zecVotos": "5322",
-            "psoe": "21.36",
-            "psoeVotos": "3622",
-            "cs": "10.26",
-            "csVotos": "1740",
-            "cha":"7.29",
-            "chaVotos": "1236"
+            "quince_p":"10.26",
+            "quince_v":"1740"
         }
     },
     {
@@ -7621,19 +7577,8 @@
             "shape_area": 28009.5448751,
             "shape_len": 823.964212416,
             "distrito": "Las Fuentes",
-            "total": 32291,
-            "votantes" : "62.75",
-            "abstencion": "37.75",
-            "pp": "21.69",
-            "ppVotos": "4115",
-            "zec": "24.79",
-            "zecVotos": "4677",
-            "psoe": "26.65",
-            "psoeVotos": "5133",
-            "cs": "7.83",
-            "csVotos": "1465",
-            "cha":"7.52",
-            "chaVotos": "1455"
+            "quince_p":"7.83",
+            "quince_v":"1465"
         }
     },
     {
@@ -7897,19 +7842,8 @@
             "shape_area": 37769.489854,
             "shape_len": 831.046033935,
             "distrito": "Delicias",
-            "total": 75387,
-            "votantes" : "63.29",
-            "abstencion": "36.71",
-            "pp": "26.60",
-            "ppVotos": "12563",
-            "zec": "23.53",
-            "zecVotos": "11113",
-            "psoe": "21.82",
-            "psoeVotos": "10308",
-            "cs": "9.99",
-            "csVotos": "4717",
-            "cha":"7.21",
-            "chaVotos": "3408"
+            "quince_p":"9.99",
+            "quince_v":"4717"
         }
     },
     {
@@ -8165,19 +8099,8 @@
             "shape_area": 89952.4751499,
             "shape_len": 1337.2454518,
             "distrito": "Centro",
-            "total": 41640,
-            "votantes" : "70.60",
-            "abstencion": "29.40",
-            "pp": "48.14",
-            "ppVotos": "14041",
-            "zec": "14.40",
-            "zecVotos": "4201",
-            "psoe": "10.31",
-            "psoeVotos": "3007",
-            "cs": "14.72",
-            "csVotos": "4292",
-            "cha":"3.08",
-            "chaVotos": "898"
+            "quince_p":"14.72",
+            "quince_v":"4292"
         }
     },
     {
@@ -8420,19 +8343,8 @@
             "shape_area": 127970.322435,
             "shape_len": 1646.33062133,
             "distrito": "Aljafería",
-            "total": 20026,
-            "votantes" : "68.49",
-            "abstencion": "41.51",
-            "pp": "22.31",
-            "ppVotos": "3064",
-            "zec": "25.19",
-            "zecVotos": "3417",
-            "psoe": "22.59",
-            "psoeVotos": "3027",
-            "cs": "11.84",
-            "csVotos": "1606",
-            "cha":"6.99",
-            "chaVotos": "948"
+            "quince_p":"11.84",
+            "quince_v":"1606"
         }
     },
     {
@@ -8764,19 +8676,8 @@
             "shape_area": 56392.6731154,
             "shape_len": 1001.76346126,
             "distrito": "San José",
-            "total": 48278,
-            "votantes" : "63.32",
-            "abstencion": "36.68",
-            "pp": "26.55",
-            "ppVotos": "8045",
-            "zec": "23.95",
-            "zecVotos": "7259",
-            "psoe": "20.55",
-            "psoeVotos": "6227",
-            "cs": "11.09",
-            "csVotos": "3362",
-            "cha":"6.66",
-            "chaVotos": "2019"
+            "quince_p":"11.09",
+            "quince_v":"3362"
         }
     },
     {
@@ -9063,19 +8964,8 @@
             "shape_area": 445273.954285,
             "shape_len": 2993.40406443,
             "distrito": "Actur-Arrabal",
-            "total": 99685,
-            "votantes" : "67.33",
-            "abstencion": "32.67",
-            "pp": "19.45",
-            "ppVotos": "12925",
-            "zec": "28.68",
-            "zecVotos": "19059",
-            "psoe": "20.28",
-            "psoeVotos": "13480",
-            "cs": "12.57",
-            "csVotos": "8352",
-            "cha":"8.10",
-            "chaVotos": "5382"
+            "quince_p":"12.57",
+            "quince_v":"8352"
         }
     },
     {
@@ -9582,19 +9472,8 @@
             "shape_area": 70688.2239385,
             "shape_len": 1099.77010706,
             "distrito": "Vía Hispanidad",
-            "total": 28768,
-            "votantes" : "61.82",
-            "abstencion": "38.18",
-            "pp": "23.44",
-            "ppVotos": "4130",
-            "zec": "24.12",
-            "zecVotos": "4250",
-            "psoe": "18.43",
-            "psoeVotos": "3248",
-            "cs": "14.71",
-            "csVotos": "2593",
-            "cha":"7.50",
-            "chaVotos": "1321"
+            "quince_p":"14.71",
+            "quince_v":"2593"
         }
     },
     {
@@ -9823,19 +9702,8 @@
             "shape_area": 140200.380219,
             "shape_len": 1808.53587718,
             "distrito": "Casco Viejo",
-            "total": 30042,
-            "votantes" : "63.10",
-            "abstencion": "36.90",
-            "pp": "30.39",
-            "ppVotos": "5785",
-            "zec": "28.78",
-            "zecVotos": "5480",
-            "psoe": "15.36",
-            "psoeVotos": "2924",
-            "cs": "10.74",
-            "csVotos": "2043",
-            "cha":"4.90",
-            "chaVotos":"933"
+            "quince_p":"10.73",
+            "quince_v":"2043"
         }
     }]
 }

@@ -1,5 +1,5 @@
 $(function() {
-    d3.json("mapas/distrito-electoral-zaragoza.geojson", function(err, data) {
+    d3.json("mapas/distritos-cha-zaragoza.geojson", function(err, data) {
         mapDraw(data);
     });
 
@@ -8,7 +8,7 @@ $(function() {
             "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
         var map = new mapboxgl.Map({
             container: "map", // container id
-            style: "mapbox://styles/jorgeatgu/cj9x6vj1k6eux2sl4jh9c2jpn", //hosted style id
+            style: "mapbox://styles/jorgeatgu/cjf4fr0sj019m2qqiaz1mynna", //hosted style id
             center: [-0.850431, 41.651729], // starting position
             zoom: 11.5 // starting zoom
         });
@@ -25,14 +25,14 @@ $(function() {
         var tooltip = d3
             .select("#map")
             .append("div")
-            .attr("class", "tooltip");
+            .attr("class", "tooltip tooltip-cha");
 
         var featureElement = svg
             .selectAll("path")
             .data(geojson.features)
             .enter()
             .append("path")
-            .attr("class", "distritos")
+            .attr("class", "distritosCHA")
             .on("mouseover", showTooltip)
             .transition()
             .duration(200);
@@ -49,20 +49,14 @@ $(function() {
                     '<h4 class="tooltipTitulo">' +
                         geoJson.properties.distrito +
                         '</h4>' +
-                        '<div class="container-tooltip-leyenda"><p class="tooltipLeyenda"><span>Censo:</span> <span class="resultado"> ' +
-                        geoJson.properties.total +
-                        '</span><p/>' +
-                        '<p class="tooltipLeyenda"><span>Votantes:</span> <span class="resultado">' +
-                        geoJson.properties.votantes +
-                        '%</span><p/>' +
-                        '<p class="tooltipLeyenda"><span>Abstención:</span> <span class="resultado">' +
-                        geoJson.properties.abstencion +
-                        '%</span><p/></div>' +
-                        '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">PP</span><span style="width:' + geoJson.properties.pp * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.pp + '%</span><span class="resultadoVotos">' + geoJson.properties.ppVotos + '</span><p/>' +
-                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">ZEC</span><span style="width:' + geoJson.properties.zec * 1.65 + '%" class="bgc-zec"></span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.zec + '%</span><span class="resultadoVotos">' + geoJson.properties.zecVotos + '</span><p/>' +
-                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">PSOE</span><span style="width:' + geoJson.properties.psoe * 1.65 + '%" class="bgc-psoe"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.psoe + '%</span> <span class="resultadoVotos">' + geoJson.properties.psoeVotos + '</span><p/>' +
-                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">CS</span><span style="width:' + geoJson.properties.cs * 1.65 + '%" class="bgc-cs"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cs + '%</span> <span class="resultadoVotos">' + geoJson.properties.csVotos + '</span><p/>' +
-                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">CHA</span><span style="width:' + geoJson.properties.cha * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cha + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.chaVotos + '</span><p/></div>'
+                        '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2015</span><span style="width:' + geoJson.properties.quince_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.quince_p + '%</span><span class="resultadoVotos">' + geoJson.properties.quince_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2011</span><span style="width:' + geoJson.properties.once_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.once_p + '%</span><span class="resultadoVotos">' + geoJson.properties.once_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2007</span><span style="width:' + geoJson.properties.siete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.siete_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.siete_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2003</span><span style="width:' + geoJson.properties.tres_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.tres_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.tres_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1999</span><span style="width:' + geoJson.properties.nueve_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.nueve_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.nueve_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1995</span><span style="width:' + geoJson.properties.cinco_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cinco_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.cinco_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1991</span><span style="width:' + geoJson.properties.uno_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.uno_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.uno_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1987</span><span style="width:' + geoJson.properties.ochosiete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.ochosiete_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.ochosiete_v + ' votos</span><p/></div>'
                 )
                 .transition()
                 .duration(200);

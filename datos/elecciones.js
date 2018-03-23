@@ -411,7 +411,7 @@ var elecciones = [{
                     {
                         "nombre": "Casco Viejo",
                         "votos": "8332",
-                        "porcentaje": "39.23%%"
+                        "porcentaje": "39.23%"
                     },
                     {
                         "nombre": "Centro",

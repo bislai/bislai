@@ -1088,6 +1088,115 @@ path.q2-3 {
         display: none;
     }
 
+.tooltip-pp,
+.tooltip-psoe,
+.tooltip-cha,
+.tooltip-cs,
+.tooltip-zec {
+    border-color: #46457b;
+    min-width: 30rem;
+    height: 80vh;
+    right: 1vw;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.tooltip-pp .tooltipPartido .titulo-partido, .tooltip-psoe .tooltipPartido .titulo-partido, .tooltip-cha .tooltipPartido .titulo-partido, .tooltip-cs .tooltipPartido .titulo-partido, .tooltip-zec .tooltipPartido .titulo-partido {
+            display: block;
+            font-weight: normal;
+        }
+
+.tooltip-pp .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-psoe .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-cha .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-cs .tooltipPartido .resultadoVotos:not(:first-child), .tooltip-zec .tooltipPartido .resultadoVotos:not(:first-child) {
+            font-weight: normal;
+        }
+
+.tooltip-psoe {
+    border-color: #421023;
+}
+
+.tooltip-cha {
+    border-color: #e30613;
+}
+
+.distritosPP {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosPP:hover {
+        stroke-width: 1;
+        fill: #2be5cf;
+        fill-opacity: .8;
+    }
+
+.distritosPSOE {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosPSOE:hover {
+        stroke-width: 1;
+        fill: #09176d;
+        fill-opacity: .7;
+    }
+
+.distritosCHA {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosCHA:hover {
+        stroke-width: 1;
+        fill: #a21337;
+        fill-opacity: .7;
+    }
+
+.distritosCS {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosCS:hover {
+        stroke-width: 1;
+        fill: #2b384d;
+        fill-opacity: .7;
+    }
+
+.distritosZEC {
+    fill: rgba(255, 255, 255, .1);
+    stroke: #1b2156;
+    stroke-opacity: .3;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.distritosZEC:hover {
+        stroke-width: 1;
+        fill: #2b384d;
+        fill-opacity: .7;
+    }
+
+.mapa-container-pp .tooltip-title {
+        border-color: #46457b;
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+.mapa-container-cha .tooltip-title {
+        border-color: #e30613;
+        background-color: rgba(255, 255, 255, .8);
+    }
+
 /* stylelint-enable */
 
 .mapa-container {
