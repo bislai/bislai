@@ -8,7 +8,7 @@ $(function() {
             "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
         var map = new mapboxgl.Map({
             container: "map", // container id
-            style: "mapbox://styles/jorgeatgu/cjf2z98fc7wtb2tnxyso9g7r9", //hosted style id
+            style: "mapbox://styles/jorgeatgu/cjf4fr0sj019m2qqiaz1mynna", //hosted style id
             center: [-0.850431, 41.651729], // starting position
             zoom: 11.5 // starting zoom
         });
