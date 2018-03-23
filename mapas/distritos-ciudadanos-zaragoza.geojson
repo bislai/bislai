@@ -1677,8 +1677,8 @@
             "shape_area": 17743571.8502,
             "shape_len": 21103.0660447,
             "distrito": "Barrios Zona Oeste",
-            "quince_p":"5.99",
-            "quince_v":"380"
+            "quince_p":"11.18",
+            "quince_v":"709"
         }
     },
     {
@@ -4245,8 +4245,8 @@
             "shape_area": 293946863.849,
             "shape_len": 97082.0538816,
             "distrito": "Barrios Zona Norte",
-            "quince_p":"7.58",
-            "quince_v":"915"
+            "quince_p":"14.07",
+            "quince_v":"1699"
         }
     },
     {
@@ -6665,8 +6665,8 @@
             "shape_area": 44500.5073704,
             "shape_len": 1170.39810163,
             "distrito": "Torrero",
-            "quince_p":"7.29",
-            "quince_v":"1236"
+            "quince_p":"10.26",
+            "quince_v":"1740"
         }
     },
     {
@@ -7577,8 +7577,8 @@
             "shape_area": 28009.5448751,
             "shape_len": 823.964212416,
             "distrito": "Las Fuentes",
-            "quince_p":"7.52",
-            "quince_v":"1455"
+            "quince_p":"7.83",
+            "quince_v":"1465"
         }
     },
     {
@@ -7842,8 +7842,8 @@
             "shape_area": 37769.489854,
             "shape_len": 831.046033935,
             "distrito": "Delicias",
-            "quince_p":"7.21",
-            "quince_v":"3408"
+            "quince_p":"9.99",
+            "quince_v":"4717"
         }
     },
     {
@@ -8099,8 +8099,8 @@
             "shape_area": 89952.4751499,
             "shape_len": 1337.2454518,
             "distrito": "Centro",
-            "quince_p":"3.08",
-            "quince_v":"898"
+            "quince_p":"14.72",
+            "quince_v":"4292"
         }
     },
     {
@@ -8343,8 +8343,8 @@
             "shape_area": 127970.322435,
             "shape_len": 1646.33062133,
             "distrito": "Aljafería",
-            "quince_p":"6.99",
-            "quince_v":"948"
+            "quince_p":"11.84",
+            "quince_v":"1606"
         }
     },
     {
@@ -8676,8 +8676,8 @@
             "shape_area": 56392.6731154,
             "shape_len": 1001.76346126,
             "distrito": "San José",
-            "quince_p":"6.66",
-            "quince_v":"2019"
+            "quince_p":"11.09",
+            "quince_v":"3362"
         }
     },
     {
@@ -8964,8 +8964,8 @@
             "shape_area": 445273.954285,
             "shape_len": 2993.40406443,
             "distrito": "Actur-Arrabal",
-            "quince_p":"8.10",
-            "quince_v":"5382"
+            "quince_p":"12.57",
+            "quince_v":"8352"
         }
     },
     {
@@ -9472,8 +9472,8 @@
             "shape_area": 70688.2239385,
             "shape_len": 1099.77010706,
             "distrito": "Vía Hispanidad",
-            "quince_p":"7.50",
-            "quince_v":"1321"
+            "quince_p":"14.71",
+            "quince_v":"2593"
         }
     },
     {
@@ -9702,8 +9702,8 @@
             "shape_area": 140200.380219,
             "shape_len": 1808.53587718,
             "distrito": "Casco Viejo",
-            "quince_p":"4.90",
-            "quince_v":"933"
+            "quince_p":"10.73",
+            "quince_v":"2043"
         }
     }]
 }
