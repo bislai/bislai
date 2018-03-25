@@ -1,0 +1,289 @@
+distrito, fecha, cantidad
+PP Arrabal, 1987, 10
+PP Arrabal, 1991, 10
+PP Arrabal, 1995, 10
+PP Arrabal, 1999, 10
+PP Arrabal, 2003, 10
+PP Arrabal, 2007, 10
+PP Arrabal, 2011, 10
+PP Arrabal, 2015, 10
+PP Aljaferia, 1987, 10
+PP Aljaferia, 1991, 10
+PP Aljaferia, 1995, 10
+PP Aljaferia, 1999, 10
+PP Aljaferia, 2003, 10
+PP Aljaferia, 2007, 10
+PP Aljaferia, 2011, 10
+PP Aljaferia, 2015, 10
+PP Casco Viejo, 1987, 10
+PP Casco Viejo, 1991, 10
+PP Casco Viejo, 1995, 10
+PP Casco Viejo, 1999, 10
+PP Casco Viejo, 2003, 10
+PP Casco Viejo, 2007, 10
+PP Casco Viejo, 2011, 10
+PP Casco Viejo, 2015, 10
+PP Centro, 1987, 10
+PP Centro, 1991, 10
+PP Centro, 1995, 10
+PP Centro, 1999, 10
+PP Centro, 2003, 10
+PP Centro, 2007, 10
+PP Centro, 2011, 10
+PP Centro, 2015, 10
+PP Delicias, 1987, 10
+PP Delicias, 1991, 10
+PP Delicias, 1995, 10
+PP Delicias, 1999, 10
+PP Delicias, 2003, 10
+PP Delicias, 2007, 10
+PP Delicias, 2011, 10
+PP Delicias, 2015, 10
+PP Barrios Oeste, 1987, 10
+PP Barrios Oeste, 1991, 10
+PP Barrios Oeste, 1995, 10
+PP Barrios Oeste, 1999, 10
+PP Barrios Oeste, 2003, 10
+PP Barrios Oeste, 2007, 10
+PP Barrios Oeste, 2011, 10
+PP Barrios Oeste, 2015, 10
+PP Barrios Norte, 1987, 10
+PP Barrios Norte, 1991, 10
+PP Barrios Norte, 1995, 10
+PP Barrios Norte, 1999, 10
+PP Barrios Norte, 2003, 10
+PP Barrios Norte, 2007, 10
+PP Barrios Norte, 2011, 10
+PP Barrios Norte, 2015, 10
+PP Las Fuentes, 1987, 10
+PP Las Fuentes, 1991, 10
+PP Las Fuentes, 1995, 10
+PP Las Fuentes, 1999, 10
+PP Las Fuentes, 2003, 10
+PP Las Fuentes, 2007, 10
+PP Las Fuentes, 2011, 10
+PP Las Fuentes, 2015, 10
+PP San Jose, 1987, 10
+PP San Jose, 1991, 10
+PP San Jose, 1995, 10
+PP San Jose, 1999, 10
+PP San Jose, 2003, 10
+PP San Jose, 2007, 10
+PP San Jose, 2011, 10
+PP San Jose, 2015, 10
+PP Torrero, 1987, 10
+PP Torrero, 1991, 10
+PP Torrero, 1995, 10
+PP Torrero, 1999, 10
+PP Torrero, 2003, 10
+PP Torrero, 2007, 10
+PP Torrero, 2011, 10
+PP Torrero, 2015, 10
+PP Universidad, 1987, 10
+PP Universidad, 1991, 10
+PP Universidad, 1995, 10
+PP Universidad, 1999, 10
+PP Universidad, 2003, 10
+PP Universidad, 2007, 10
+PP Universidad, 2011, 10
+PP Universidad, 2015, 10
+PP Via Hispanidad, 1987, 10
+PP Via Hispanidad, 1991, 10
+PP Via Hispanidad, 1995, 10
+PP Via Hispanidad, 1999, 10
+PP Via Hispanidad, 2003, 10
+PP Via Hispanidad, 2007, 10
+PP Via Hispanidad, 2011, 10
+PP Via Hispanidad, 2015, 10
+PSOE Arrabal, 1987, 10
+PSOE Arrabal, 1991, 10
+PSOE Arrabal, 1995, 10
+PSOE Arrabal, 1999, 10
+PSOE Arrabal, 2003, 10
+PSOE Arrabal, 2007, 10
+PSOE Arrabal, 2011, 10
+PSOE Arrabal, 2015, 10
+PSOE Aljaferia, 1987, 10
+PSOE Aljaferia, 1991, 10
+PSOE Aljaferia, 1995, 10
+PSOE Aljaferia, 1999, 10
+PSOE Aljaferia, 2003, 10
+PSOE Aljaferia, 2007, 10
+PSOE Aljaferia, 2011, 10
+PSOE Aljaferia, 2015, 10
+PSOE Casco Viejo, 1987, 10
+PSOE Casco Viejo, 1991, 10
+PSOE Casco Viejo, 1995, 10
+PSOE Casco Viejo, 1999, 10
+PSOE Casco Viejo, 2003, 10
+PSOE Casco Viejo, 2007, 10
+PSOE Casco Viejo, 2011, 10
+PSOE Casco Viejo, 2015, 10
+PSOE Centro, 1987, 10
+PSOE Centro, 1991, 10
+PSOE Centro, 1995, 10
+PSOE Centro, 1999, 10
+PSOE Centro, 2003, 10
+PSOE Centro, 2007, 10
+PSOE Centro, 2011, 10
+PSOE Centro, 2015, 10
+PSOE Delicias, 1987, 10
+PSOE Delicias, 1991, 10
+PSOE Delicias, 1995, 10
+PSOE Delicias, 1999, 10
+PSOE Delicias, 2003, 10
+PSOE Delicias, 2007, 10
+PSOE Delicias, 2011, 10
+PSOE Delicias, 2015, 10
+PSOE Barrios Oeste, 1987, 10
+PSOE Barrios Oeste, 1991, 10
+PSOE Barrios Oeste, 1995, 10
+PSOE Barrios Oeste, 1999, 10
+PSOE Barrios Oeste, 2003, 10
+PSOE Barrios Oeste, 2007, 10
+PSOE Barrios Oeste, 2011, 10
+PSOE Barrios Oeste, 2015, 10
+PSOE Barrios Norte, 1987, 10
+PSOE Barrios Norte, 1991, 10
+PSOE Barrios Norte, 1995, 10
+PSOE Barrios Norte, 1999, 10
+PSOE Barrios Norte, 2003, 10
+PSOE Barrios Norte, 2007, 10
+PSOE Barrios Norte, 2011, 10
+PSOE Barrios Norte, 2015, 10
+PSOE Las Fuentes, 1987, 10
+PSOE Las Fuentes, 1991, 10
+PSOE Las Fuentes, 1995, 10
+PSOE Las Fuentes, 1999, 10
+PSOE Las Fuentes, 2003, 10
+PSOE Las Fuentes, 2007, 10
+PSOE Las Fuentes, 2011, 10
+PSOE Las Fuentes, 2015, 10
+PSOE San Jose, 1987, 10
+PSOE San Jose, 1991, 10
+PSOE San Jose, 1995, 10
+PSOE San Jose, 1999, 10
+PSOE San Jose, 2003, 10
+PSOE San Jose, 2007, 10
+PSOE San Jose, 2011, 10
+PSOE San Jose, 2015, 10
+PSOE Torrero, 1987, 10
+PSOE Torrero, 1991, 10
+PSOE Torrero, 1995, 10
+PSOE Torrero, 1999, 10
+PSOE Torrero, 2003, 10
+PSOE Torrero, 2007, 10
+PSOE Torrero, 2011, 10
+PSOE Torrero, 2015, 10
+PSOE Universidad, 1987, 10
+PSOE Universidad, 1991, 10
+PSOE Universidad, 1995, 10
+PSOE Universidad, 1999, 10
+PSOE Universidad, 2003, 10
+PSOE Universidad, 2007, 10
+PSOE Universidad, 2011, 10
+PSOE Universidad, 2015, 10
+PSOE Via Hispanidad, 1987, 10
+PSOE Via Hispanidad, 1991, 10
+PSOE Via Hispanidad, 1995, 10
+PSOE Via Hispanidad, 1999, 10
+PSOE Via Hispanidad, 2003, 10
+PSOE Via Hispanidad, 2007, 10
+PSOE Via Hispanidad, 2011, 10
+PSOE Via Hispanidad, 2015, 10
+CHA Arrabal, 1987, 10
+CHA Arrabal, 1991, 10
+CHA Arrabal, 1995, 10
+CHA Arrabal, 1999, 10
+CHA Arrabal, 2003, 10
+CHA Arrabal, 2007, 10
+CHA Arrabal, 2011, 10
+CHA Arrabal, 2015, 10
+CHA Aljaferia, 1987, 10
+CHA Aljaferia, 1991, 10
+CHA Aljaferia, 1995, 10
+CHA Aljaferia, 1999, 10
+CHA Aljaferia, 2003, 10
+CHA Aljaferia, 2007, 10
+CHA Aljaferia, 2011, 10
+CHA Aljaferia, 2015, 10
+CHA Casco Viejo, 1987, 10
+CHA Casco Viejo, 1991, 10
+CHA Casco Viejo, 1995, 10
+CHA Casco Viejo, 1999, 10
+CHA Casco Viejo, 2003, 10
+CHA Casco Viejo, 2007, 10
+CHA Casco Viejo, 2011, 10
+CHA Casco Viejo, 2015, 10
+CHA Centro, 1987, 10
+CHA Centro, 1991, 10
+CHA Centro, 1995, 10
+CHA Centro, 1999, 10
+CHA Centro, 2003, 10
+CHA Centro, 2007, 10
+CHA Centro, 2011, 10
+CHA Centro, 2015, 10
+CHA Delicias, 1987, 10
+CHA Delicias, 1991, 10
+CHA Delicias, 1995, 10
+CHA Delicias, 1999, 10
+CHA Delicias, 2003, 10
+CHA Delicias, 2007, 10
+CHA Delicias, 2011, 10
+CHA Delicias, 2015, 10
+CHA Barrios Oeste, 1987, 10
+CHA Barrios Oeste, 1991, 10
+CHA Barrios Oeste, 1995, 10
+CHA Barrios Oeste, 1999, 10
+CHA Barrios Oeste, 2003, 10
+CHA Barrios Oeste, 2007, 10
+CHA Barrios Oeste, 2011, 10
+CHA Barrios Oeste, 2015, 10
+CHA Barrios Norte, 1987, 10
+CHA Barrios Norte, 1991, 10
+CHA Barrios Norte, 1995, 10
+CHA Barrios Norte, 1999, 10
+CHA Barrios Norte, 2003, 10
+CHA Barrios Norte, 2007, 10
+CHA Barrios Norte, 2011, 10
+CHA Barrios Norte, 2015, 10
+CHA Las Fuentes, 1987, 10
+CHA Las Fuentes, 1991, 10
+CHA Las Fuentes, 1995, 10
+CHA Las Fuentes, 1999, 10
+CHA Las Fuentes, 2003, 10
+CHA Las Fuentes, 2007, 10
+CHA Las Fuentes, 2011, 10
+CHA Las Fuentes, 2015, 10
+CHA San Jose, 1987, 10
+CHA San Jose, 1991, 10
+CHA San Jose, 1995, 10
+CHA San Jose, 1999, 10
+CHA San Jose, 2003, 10
+CHA San Jose, 2007, 10
+CHA San Jose, 2011, 10
+CHA San Jose, 2015, 10
+CHA Torrero, 1987, 10
+CHA Torrero, 1991, 10
+CHA Torrero, 1995, 10
+CHA Torrero, 1999, 10
+CHA Torrero, 2003, 10
+CHA Torrero, 2007, 10
+CHA Torrero, 2011, 10
+CHA Torrero, 2015, 10
+CHA Universidad, 1987, 10
+CHA Universidad, 1991, 10
+CHA Universidad, 1995, 10
+CHA Universidad, 1999, 10
+CHA Universidad, 2003, 10
+CHA Universidad, 2007, 10
+CHA Universidad, 2011, 10
+CHA Universidad, 2015, 10
+CHA Via Hispanidad, 1987, 10
+CHA Via Hispanidad, 1991, 10
+CHA Via Hispanidad, 1995, 10
+CHA Via Hispanidad, 1999, 10
+CHA Via Hispanidad, 2003, 10
+CHA Via Hispanidad, 2007, 10
+CHA Via Hispanidad, 2011, 10
+CHA Via Hispanidad, 2015, 10
