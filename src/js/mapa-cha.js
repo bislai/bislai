@@ -83,61 +83,62 @@ function graficasCha() {
     var x = d3.time.scale()
         .range([0, width]);
 
-    d3.tsv("stocks.tsv", type, function(error, data) {
+    d3.csv("elecciones-distrito-cha.csv", type, function(error, data) {
       var symbols = d3.nest()
-          .key(function(d) { return d.symbol; })
+          .key(function(d) { return d.distrito; })
           .entries(data);
 
       x.domain([
-        d3.min(symbols, function(symbol) { return symbol.values[0].date; }),
-        d3.max(symbols, function(symbol) { return symbol.values[symbol.values.length - 1].date; })
+        d3.min(symbols, function(distrito) { return distrito.values[0].date; }),
+        d3.max(symbols, function(distrito) { return distrito.values[distrito.values.length - 1].date; })
       ]);
 
-      var svg = d3.select("body").selectAll("svg")
+      var svg = d3.select(".graficas-cha").selectAll("svg")
           .data(symbols)
         .enter().append("svg")
           .attr("width", width + margin.left + margin.right)
           .attr("height", height + margin.top + margin.bottom)
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-          .each(function(symbol) {
-            symbol.y = d3.scale.linear()
-                .domain([0, d3.max(symbol.values, function(d) { return d.price; })])
+          .each(function(distrito) {
+            distrito.y = d3.scale.linear()
+                .domain([0, d3.max(distrito.values, function(d) { return d.cantidad; })])
                 .range([height, 0]);
           });
 
       svg.append("path")
           .attr("class", "area")
-          .attr("d", function(symbol) {
+          .attr("d", function(distrito) {
             return d3.svg.area()
-                .x(function(d) { return x(d.date); })
-                .y1(function(d) { return symbol.y(d.price); })
+                .x(function(d) { return x(d.fecha); })
+                .y1(function(d) { return distrito.y(d.cantidad); })
                 .y0(height)
-                (symbol.values);
+                (distrito.values);
           });
 
       svg.append("path")
           .attr("class", "line")
-          .attr("d", function(symbol) {
+          .attr("d", function(distrito) {
             return d3.svg.line()
-                .x(function(d) { return x(d.date); })
-                .y(function(d) { return symbol.y(d.price); })
-                (symbol.values);
+                .x(function(d) { return x(d.fecha); })
+                .y(function(d) { return distrito.y(d.cantidad); })
+                (distrito.values);
           });
 
       svg.append("text")
           .attr("x", width - 6)
           .attr("y", height - 6)
           .style("text-anchor", "end")
-          .text(function(symbol) { return symbol.key; });
+          .text(function(distrito) { return distrito.key; });
     });
 
     function type(d) {
-      d.price = +d.price;
-      d.date = parseDate(d.date);
+      d.cantidad = +d.cantidad;
+      d.fecha = parseDate(d.date);
       return d;
     }
-
-
-
 }
+
+
+graficasCha()
+
