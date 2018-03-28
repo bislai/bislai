@@ -1970,6 +1970,11 @@ path.q2-3 {
     margin-top: 1rem;
 }
 
+.distrito .domain {
+        fill: none;
+        stroke: #000;
+    }
+
 .maw-70 {
   max-width: 70rem;
   margin: 0 auto;

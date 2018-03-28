@@ -74,9 +74,9 @@ $(function() {
 
 function graficasCha() {
 
-    var margin = { top: 24, right: 24, bottom: 24, left: 24 },
-        width = 500 - (margin.left + margin.right),
-        height = 350 - (margin.top + margin.bottom);
+    var margin = {top: 48, right: 48, bottom: 48, left: 48},
+        width = 450 - margin.left - margin.right,
+        height = 390 - margin.top - margin.bottom;
 
     var x = d3.scale.ordinal()
         .rangeRoundBands([0, width], .2);
@@ -90,6 +90,7 @@ function graficasCha() {
 
     var yAxis = d3.svg.axis()
         .scale(y)
+        .ticks(5)
         .orient("left")
 
     d3.csv("datos/elecciones-distrito-cha.csv", function(err, data) {
@@ -105,15 +106,15 @@ function graficasCha() {
             .entries(data);
 
         x.domain(data.map(function(d) { return d.fecha; }));
-        y.domain([0, d3.max(nestdistrito, function(s) { return s.values[0].cantidad; })]);
+        y.domain([0, 30]);
 
         var svg = d3.select(".graficas-cha").selectAll("svg")
             .data(nestdistrito)
             .enter()
             .append("svg")
-            .attr("class", "distrito " + d.key)
-            .attr("width", width)
-            .attr("height", height)
+            .attr("class", "distrito")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -126,12 +127,12 @@ function graficasCha() {
             .attr("class", "yAxis")
             .call(yAxis)
             .append("text")
-            .attr("x", width + 10)
-            .attr("y", height)
+            .attr("y", "2%")
+            .attr("x", "2%")
             .text(function(d) { return d.key });
 
         svg.selectAll(".bar")
-            .data(datos)
+            .data(function(d) {return d.values;})
             .enter()
             .append("rect")
             .attr("class", "bar")

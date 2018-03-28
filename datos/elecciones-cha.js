@@ -70,7 +70,7 @@ var elecciones = [{
         "partidos": {
             "cha": {
                 "distritos": [{
-                        "nombre": "Actur-Arrabal",
+                        "nombre": "Actur-Arrabal",<
                         "votos": "6948",
                         "porcentaje": "11.94%"
                     },
