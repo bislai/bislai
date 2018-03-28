@@ -74,9 +74,9 @@ $(function() {
 
 function graficasCha() {
 
-    var margin = { top: 45, right: 100, bottom: 20, left: 20 },
-        width = 500 - margin.left - margin.right,
-        height = 350 - margin.top - margin.bottom;
+    var margin = { top: 24, right: 24, bottom: 24, left: 24 },
+        width = 500 - (margin.left + margin.right),
+        height = 350 - (margin.top + margin.bottom);
 
     var x = d3.scale.ordinal()
         .rangeRoundBands([0, width], .2);
@@ -111,25 +111,23 @@ function graficasCha() {
             .data(nestdistrito)
             .enter()
             .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
+            .attr("class", "distrito " + d.key)
+            .attr("width", width)
+            .attr("height", height)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         svg.append("g")
-            .attr("class", "x axis")
+            .attr("class", "xAxis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis);
 
         svg.append("g")
-            .attr("class", "y axis")
+            .attr("class", "yAxis")
             .call(yAxis)
             .append("text")
             .attr("x", width + 10)
             .attr("y", height)
-            .attr("dy", ".71em")
-            .attr("text-anchor", "start")
-            .attr("font-size", "1.1em")
             .text(function(d) { return d.key });
 
         svg.selectAll(".bar")
@@ -147,4 +145,4 @@ function graficasCha() {
 }
 
 
-graficasCha()
+graficasCha();
