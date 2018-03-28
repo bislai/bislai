@@ -867,7 +867,7 @@ path.q2-3 {
     transition: all ease-in .3s;
     &:hover {
         stroke-width: 1;
-        fill: #a21337;
+        fill: #26186e;
         fill-opacity: .7;
     }
 }
