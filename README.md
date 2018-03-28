@@ -2,6 +2,8 @@
 
 Bislai nace en una sobremesa de un día de octubre. Mientras veía el telediario de Aragon TV una reportera informaba sobre una votación en el pleno del Ayuntamiento de Zaragoza de la que no tenía noticia alguna. Así que cuando acabó la pieza decidí buscar información, encontre la página de plenos del Ayuntamiento de Zaragoza. Allí estaba toda la información en bruto, sin distinción alguna. Así que se me ocurrió la idea de recopilar toda la información de todos los plenos y mostrarla de una manera más visual.
 
+![plenos](img/plenos.gif)
+
 # Funcionalidades
 
 ## Accesibilidad política
@@ -13,6 +15,8 @@ Mostramos de una manera más accesible las propuestas y acuerdos que toman los p
 Busca en todos los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?
 
 [Buscador](http://bislai.co/buscador)
+
+![buscador](img/buscador.gif)
 
 ## Estadísticas
 
