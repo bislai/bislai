@@ -1,4 +1,71 @@
 var elecciones = [{
+    "2015": {
+        "partidos": {
+            "psoe": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "13480",
+                        "porcentaje": "20.28%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "3064",
+                        "porcentaje": "22.59%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "2175",
+                        "porcentaje": "18.01%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "1487",
+                        "porcentaje": "23.46%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "2924",
+                        "porcentaje": "15.36%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "3007",
+                        "porcentaje": "10.31%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "10308",
+                        "porcentaje": "21.82%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "5348",
+                        "porcentaje": "26.65%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "6227",
+                        "porcentaje": "20.55%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "3622",
+                        "porcentaje": "21.36%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "5856",
+                        "porcentaje": "12.49%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "3248",
+                        "porcentaje": "18.43%"
+                    }
+                ]
+            }
+        }
+    },
     "2011": {
         "partidos": {
             "psoe": {
