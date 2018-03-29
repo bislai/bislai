@@ -8,6 +8,11 @@
             stroke: none;
         }
     }
+    .xAxis {
+        .domain {
+            stroke-width: 2px;
+        }
+    }
     text {
         font-family: var(--fontPlex);
         font-size: 12px;

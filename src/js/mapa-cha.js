@@ -86,6 +86,7 @@ function graficasCha() {
 
     var xAxis = d3.svg.axis()
         .scale(x)
+        .tickFormat(d3.format("d"))
         .orient("bottom");
 
     var yAxis = d3.svg.axis()
@@ -118,6 +119,26 @@ function graficasCha() {
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+        svg.selectAll(".bar")
+            .data(function(d) {return d.values;})
+            .enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", function(d) { return x(d.fecha); })
+            .attr("width", x.rangeBand())
+            .attr("y", function(d) { return y(d.cantidad); })
+            .attr("height", function(d) { return height - y(d.cantidad); })
+            .attr("fill", "#ca0020");
+
+        svg.selectAll("text")
+            .data(function(d) {return d.values;})
+            .enter()
+            .append("text")
+            .text(function(d) { return d.cantidad})
+            .attr("x", function(d) { return x(d.fecha); })
+            .attr("y", function(d) { return y(d.cantidad) - 5; });
+
+
         svg.append("g")
             .attr("class", "xAxis")
             .attr("transform", "translate(0," + height + ")")
@@ -131,17 +152,6 @@ function graficasCha() {
             .attr("y", "2%")
             .attr("x", "2%")
             .text(function(d) { return d.key });
-
-        svg.selectAll(".bar")
-            .data(function(d) {return d.values;})
-            .enter()
-            .append("rect")
-            .attr("class", "bar")
-            .attr("x", function(d) { return x(d.fecha); })
-            .attr("width", x.rangeBand())
-            .attr("y", function(d) { return y(d.cantidad); })
-            .attr("height", function(d) { return height - y(d.cantidad); })
-            .attr("fill", "#ca0020")
     });
 
 }
