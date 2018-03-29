@@ -1,0 +1,9 @@
+.distrito {
+    .domain {
+        fill: none;
+        stroke: #000;
+    }
+    text {
+        font-family: var(--fontRoboto);
+    }
+}
