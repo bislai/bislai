@@ -134,6 +134,7 @@ function graficasCha() {
             .data(function(d) {return d.values;})
             .enter()
             .append("text")
+            .attr("class", "tooltip-porcentaje")
             .text(function(d) { return d.cantidad})
             .attr("x", function(d) { return x(d.fecha); })
             .attr("y", function(d) { return y(d.cantidad) - 5; });
