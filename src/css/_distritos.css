@@ -3,7 +3,17 @@
         fill: none;
         stroke: #000;
     }
+    .yAxis {
+        .domain {
+            stroke: none;
+        }
+    }
     text {
-        font-family: var(--fontRoboto);
+        font-family: var(--fontPlex);
+        font-size: 12px;
+    }
+    .nombre-distrito {
+        font-size: 16px;
+        font-weight: 600;
     }
 }

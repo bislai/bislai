@@ -4100,7 +4100,7 @@ path.q2-3 {
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: "Georgia", serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     margin: 2rem 0;
     max-width: 60%;
 }
@@ -4173,5 +4173,24 @@ path.q2-3 {
     }
 
 }
+
+.distrito .domain {
+        fill: none;
+        stroke: #000;
+    }
+
+.distrito .yAxis .domain {
+            stroke: none;
+        }
+
+.distrito text {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 0.75rem;
+    }
+
+.distrito .nombre-distrito {
+        font-size: 1rem;
+        font-weight: 600;
+    }
 
 /*# sourceMappingURL=styles.css.map */

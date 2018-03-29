@@ -4,7 +4,7 @@
 
 body {
     line-height: 1.5;
-    font-family: var(--fontRoboto);
+    font-family: var(--fontPlex);
 }
 
 .font-s {
@@ -12,7 +12,7 @@ body {
 }
 
 .font-serif {
-    font-family: var(--fontRoboto);
+    font-family: var(--fontPlex);
 }
 
 .font-bislai {
@@ -1202,7 +1202,7 @@ path.q2-3 {
 .partido-card-concejales {
     transition: opacity .3s ease-in;
     font-size: .8rem;
-    font-family: var(--fontRoboto);
+    font-family: var(--fontPlex);
     margin: .5rem 0;
     font-weight: 600;
     text-align: left;

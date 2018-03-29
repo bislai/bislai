@@ -127,6 +127,7 @@ function graficasCha() {
             .attr("class", "yAxis")
             .call(yAxis)
             .append("text")
+            .attr("class", "nombre-distrito")
             .attr("y", "2%")
             .attr("x", "2%")
             .text(function(d) { return d.key });
