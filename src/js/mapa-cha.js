@@ -92,6 +92,7 @@ function graficasCha() {
     var yAxis = d3.svg.axis()
         .scale(y)
         .ticks(5)
+        .tickSize(-width)
         .orient("left")
 
     d3.csv("datos/elecciones-distrito-cha.csv", function(err, data) {
@@ -150,7 +151,7 @@ function graficasCha() {
             .call(yAxis)
             .append("text")
             .attr("class", "nombre-distrito")
-            .attr("y", "2%")
+            .attr("y", "-1%")
             .attr("x", "2%")
             .text(function(d) { return d.key });
     });

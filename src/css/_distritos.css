@@ -7,6 +7,10 @@
         .domain {
             stroke: none;
         }
+        line {
+            stroke: #111;
+            stroke-dasharray: 3px;
+        }
     }
     .xAxis {
         .domain {
