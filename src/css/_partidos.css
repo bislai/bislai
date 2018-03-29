@@ -98,7 +98,7 @@
 
 .partidos-grafico-parrafo {
     font-size: 1rem;
-    font-family: var(--serif);
+    font-family: var(--fontPlex);
     margin: 2rem 0;
     max-width: 60%;
 }

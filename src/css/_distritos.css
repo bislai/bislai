@@ -1,0 +1,27 @@
+.distrito {
+    .domain {
+        fill: none;
+        stroke: #000;
+    }
+    .yAxis {
+        .domain {
+            stroke: none;
+        }
+    }
+    .xAxis {
+        .domain {
+            stroke-width: 2px;
+        }
+    }
+    text {
+        font-family: var(--fontPlex);
+        font-size: 12px;
+    }
+    .nombre-distrito {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .tooltip-porcentaje {
+        font-weight: 600;
+    }
+}
