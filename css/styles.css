@@ -4212,8 +4212,17 @@ path.q2-3 {
 
 .graficas-partido {
     width: 100%;
-    max-width: 75vw;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 64em) {
+
+    .graficas-partido {
+        width: 100%;
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
 }
 
 /*# sourceMappingURL=styles.css.map */

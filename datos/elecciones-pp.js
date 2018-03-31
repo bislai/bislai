@@ -60,7 +60,7 @@ var elecciones = [{
                     {
                         "nombre": "Vía Hispanidad",
                         "votos": "4130",
-                        "porcentaje": "24.12%"
+                        "porcentaje": "23.44%"
                     }
                 ]
             }
