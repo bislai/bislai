@@ -4174,6 +4174,10 @@ path.q2-3 {
 
 }
 
+.distrito {
+    margin: 1rem 0;
+}
+
 .distrito .domain {
         fill: none;
         stroke: #000;
@@ -4205,5 +4209,11 @@ path.q2-3 {
 .distrito .tooltip-porcentaje {
         font-weight: 600;
     }
+
+.graficas-partido {
+    width: 100%;
+    max-width: 75vw;
+    margin: 0 auto;
+}
 
 /*# sourceMappingURL=styles.css.map */

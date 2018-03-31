@@ -1,97 +1,97 @@
-distrito, fecha, cantidad
-PP Arrabal, 1987, 7.33
-PP Arrabal, 1991, 11.02
-PP Arrabal, 1995, 33.43
-PP Arrabal, 1999, 30.63
-PP Arrabal, 2003, 22.79
-PP Arrabal, 2007, 24.68
-PP Arrabal, 2011, 32.51
-PP Arrabal, 2015, 19.45
-PP Aljaferia, 1987, 9.73
-PP Aljaferia, 1991, 16.33
-PP Aljaferia, 1995, 40.73
-PP Aljaferia, 1999, 35.31
-PP Aljaferia, 2003, 27.19
-PP Aljaferia, 2007, 27.55
-PP Aljaferia, 2011, 35.21
-PP Aljaferia, 2015, 22.31
-PP Casco Viejo, 1987, 19.40
-PP Casco Viejo, 1991, 26.31
-PP Casco Viejo, 1995, 53.53
-PP Casco Viejo, 1999, 39.23
-PP Casco Viejo, 2003, 39.23
-PP Casco Viejo, 2007, 39.80
-PP Casco Viejo, 2011, 44.82
-PP Casco Viejo, 2015, 30.39
-PP Centro, 1987, 29.47
-PP Centro, 1991, 39.87
-PP Centro, 1995, 69.66
-PP Centro, 1999, 64.97
-PP Centro, 2003, 53.76
-PP Centro, 2007, 55.67
-PP Centro, 2011, 63.08
-PP Centro, 2015, 48.14
-PP Delicias, 1987, 12.05
-PP Delicias, 1991, 18.94
-PP Delicias, 1995, 30.95
-PP Delicias, 1999, 39.01
-PP Delicias, 2003, 29.88
-PP Delicias, 2007, 30.95
-PP Delicias, 2011, 39.01
-PP Delicias, 2015, 26.60
-PP Barrios Oeste, 1987, 15.73
-PP Barrios Oeste, 1991, 19.27
-PP Barrios Oeste, 1995, 42.31
-PP Barrios Oeste, 1999, 39.18
-PP Barrios Oeste, 2003, 29.86
-PP Barrios Oeste, 2007, 33.30
-PP Barrios Oeste, 2011, 41.47
-PP Barrios Oeste, 2015, 24.72
-PP Barrios Norte, 1987, 10.48
-PP Barrios Norte, 1991, 15.48
-PP Barrios Norte, 1995, 44.12
-PP Barrios Norte, 1999, 39.23
-PP Barrios Norte, 2003, 30.08
-PP Barrios Norte, 2007, 31.61
-PP Barrios Norte, 2011, 41.07
-PP Barrios Norte, 2015, 24.31
-PP Las Fuentes, 1987, 7.97
-PP Las Fuentes, 1991, 12.48
-PP Las Fuentes, 1995, 35.21
-PP Las Fuentes, 1999, 33.03
-PP Las Fuentes, 2003, 24.48
-PP Las Fuentes, 2007, 24.89
-PP Las Fuentes, 2011, 33.06
-PP Las Fuentes, 2015, 21.69
-PP San Jose, 1987, 13.14
-PP San Jose, 1991, 20.22
-PP San Jose, 1995, 45.38
-PP San Jose, 1999, 41.24
-PP San Jose, 2003, 31.60
-PP San Jose, 2007, 32.50
-PP San Jose, 2011, 40.11
-PP San Jose, 2015, 26.55
-PP Torrero, 1987, 8.21
-PP Torrero, 1991, 13.56
-PP Torrero, 1995, 35.73
-PP Torrero, 1999, 31.30
-PP Torrero, 2003, 25.62
-PP Torrero, 2007, 24.47
-PP Torrero, 2011, 32.65
-PP Torrero, 2015, 18.19
-PP Universidad, 1987, 24.39
-PP Universidad, 1991, 33.65
-PP Universidad, 1995, 61.66
-PP Universidad, 1999, 55.96
-PP Universidad, 2003, 45.15
-PP Universidad, 2007, 47.03
-PP Universidad, 2011, 49.89
-PP Universidad, 2015, 32.20
-PP Via Hispanidad, 1987, 8.01
-PP Via Hispanidad, 1991, 12.90
-PP Via Hispanidad, 1995, 36.45
-PP Via Hispanidad, 1999, 33.94
-PP Via Hispanidad, 2003, 27.85
-PP Via Hispanidad, 2007, 30.01
-PP Via Hispanidad, 2011, 40.33
-PP Via Hispanidad, 2015, 24.12
+distrito,fecha,cantidad
+Arrabal, 1987, 7.33
+Arrabal, 1991, 11.02
+Arrabal, 1995, 33.43
+Arrabal, 1999, 30.63
+Arrabal, 2003, 22.79
+Arrabal, 2007, 24.68
+Arrabal, 2011, 32.51
+Arrabal, 2015, 19.45
+Aljaferia, 1987, 9.73
+Aljaferia, 1991, 16.33
+Aljaferia, 1995, 40.73
+Aljaferia, 1999, 35.31
+Aljaferia, 2003, 27.19
+Aljaferia, 2007, 27.55
+Aljaferia, 2011, 35.21
+Aljaferia, 2015, 22.31
+Casco Viejo, 1987, 19.40
+Casco Viejo, 1991, 26.31
+Casco Viejo, 1995, 53.53
+Casco Viejo, 1999, 39.23
+Casco Viejo, 2003, 39.23
+Casco Viejo, 2007, 39.80
+Casco Viejo, 2011, 44.82
+Casco Viejo, 2015, 30.39
+Centro, 1987, 29.47
+Centro, 1991, 39.87
+Centro, 1995, 69.66
+Centro, 1999, 64.97
+Centro, 2003, 53.76
+Centro, 2007, 55.67
+Centro, 2011, 63.08
+Centro, 2015, 48.14
+Delicias, 1987, 12.05
+Delicias, 1991, 18.94
+Delicias, 1995, 30.95
+Delicias, 1999, 39.01
+Delicias, 2003, 29.88
+Delicias, 2007, 30.95
+Delicias, 2011, 39.01
+Delicias, 2015, 26.60
+Barrios Oeste, 1987, 15.73
+Barrios Oeste, 1991, 19.27
+Barrios Oeste, 1995, 42.31
+Barrios Oeste, 1999, 39.18
+Barrios Oeste, 2003, 29.86
+Barrios Oeste, 2007, 33.30
+Barrios Oeste, 2011, 41.47
+Barrios Oeste, 2015, 24.72
+Barrios Norte, 1987, 10.48
+Barrios Norte, 1991, 15.48
+Barrios Norte, 1995, 44.12
+Barrios Norte, 1999, 39.23
+Barrios Norte, 2003, 30.08
+Barrios Norte, 2007, 31.61
+Barrios Norte, 2011, 41.07
+Barrios Norte, 2015, 24.31
+Las Fuentes, 1987, 7.97
+Las Fuentes, 1991, 12.48
+Las Fuentes, 1995, 35.21
+Las Fuentes, 1999, 33.03
+Las Fuentes, 2003, 24.48
+Las Fuentes, 2007, 24.89
+Las Fuentes, 2011, 33.06
+Las Fuentes, 2015, 21.69
+San Jose, 1987, 13.14
+San Jose, 1991, 20.22
+San Jose, 1995, 45.38
+San Jose, 1999, 41.24
+San Jose, 2003, 31.60
+San Jose, 2007, 32.50
+San Jose, 2011, 40.11
+San Jose, 2015, 26.55
+Torrero, 1987, 8.21
+Torrero, 1991, 13.56
+Torrero, 1995, 35.73
+Torrero, 1999, 31.30
+Torrero, 2003, 25.62
+Torrero, 2007, 24.47
+Torrero, 2011, 32.65
+Torrero, 2015, 18.19
+Universidad, 1987, 24.39
+Universidad, 1991, 33.65
+Universidad, 1995, 61.66
+Universidad, 1999, 55.96
+Universidad, 2003, 45.15
+Universidad, 2007, 47.03
+Universidad, 2011, 49.89
+Universidad, 2015, 32.20
+Via Hispanidad, 1987, 8.01
+Via Hispanidad, 1991, 12.90
+Via Hispanidad, 1995, 36.45
+Via Hispanidad, 1999, 33.94
+Via Hispanidad, 2003, 27.85
+Via Hispanidad, 2007, 30.01
+Via Hispanidad, 2011, 40.33
+Via Hispanidad, 2015, 24.12

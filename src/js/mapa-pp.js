@@ -1,3 +1,5 @@
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
 $(function() {
     d3.json("mapas/distritos-pp-zaragoza.geojson", function(err, data) {
         mapDraw(data);
@@ -68,7 +70,99 @@ $(function() {
         function projectPoint(lon, lat) {
             var point = map.project(new mapboxgl.LngLat(lon, lat));
             this.stream.point(point.x, point.y);
+
         }
     }
 });
 
+function graficasPP() {
+
+    var porcentaje = "%";
+
+    var margin = {top: 48, right: 48, bottom: 48, left: 48},
+        width = 450 - margin.left - margin.right,
+        height = 390 - margin.top - margin.bottom;
+
+    var x = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .2);
+
+    var y = d3.scale.linear()
+        .range([height, 0]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .tickFormat(d3.format("d"))
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .ticks(5)
+        .tickFormat(function(d) { return d + porcentaje; })
+        .tickSize(-width)
+        .orient("left")
+
+    d3.csv("datos/elecciones-distrito-pp.csv", function(err, data) {
+
+        datos = data;
+        datos.forEach(function(d) {
+            d.fecha = d.fecha;
+            d.cantidad = +d.cantidad;
+        });
+
+        var nestdistrito = d3.nest()
+            .key(function(d) { return d.distrito; })
+            .entries(data);
+
+        x.domain(data.map(function(d) { return d.fecha; }));
+        y.domain([0, 80]);
+
+        var svg = d3.select(".graficas-pp").selectAll("svg")
+            .data(nestdistrito)
+            .enter()
+            .append("svg")
+            .attr("class", "distrito")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.selectAll(".bar")
+            .data(function(d) {return d.values;})
+            .enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", function(d) { return x(d.fecha); })
+            .attr("width", x.rangeBand())
+            .attr("y", function(d) { return y(d.cantidad); })
+            .attr("height", function(d) { return height - y(d.cantidad); })
+            .attr("fill", "#52788b");
+
+        svg.selectAll("text")
+            .data(function(d) {return d.values;})
+            .enter()
+            .append("text")
+            .attr("class", "tooltip-porcentaje")
+            .text(function(d) { return d.cantidad})
+            .attr("x", function(d) { return x(d.fecha); })
+            .attr("y", function(d) { return y(d.cantidad) - 5; });
+
+
+        svg.append("g")
+            .attr("class", "xAxis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "yAxis")
+            .call(yAxis)
+            .append("text")
+            .attr("class", "nombre-distrito")
+            .attr("y", "-3%")
+            .attr("x", "0")
+            .text(function(d) { return d.key });
+    });
+
+}
+
+
+graficasPP();

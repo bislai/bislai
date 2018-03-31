@@ -1,97 +1,97 @@
-distrito, fecha, cantidad
-PSOE Arrabal, 1987, 49.29
-PSOE Arrabal, 1991, 56.51
-PSOE Arrabal, 1995, 22.91
-PSOE Arrabal, 1999, 36.35
-PSOE Arrabal, 2003, 39.48
-PSOE Arrabal, 2007, 44.55
-PSOE Arrabal, 2011, 31.37
-PSOE Arrabal, 2015, 20.28
-PSOE Aljaferia, 1987, 44.17
-PSOE Aljaferia, 1991, 49.98
-PSOE Aljaferia, 1995, 20.61
-PSOE Aljaferia, 1999, 33.72
-PSOE Aljaferia, 2003, 37.12
-PSOE Aljaferia, 2007, 42.93
-PSOE Aljaferia, 2011, 31.81
-PSOE Aljaferia, 2015, 22.59
-PSOE Casco Viejo, 1987, 33.52
-PSOE Casco Viejo, 1991, 37.90
-PSOE Casco Viejo, 1995, 17.83
-PSOE Casco Viejo, 1999, 25.72
-PSOE Casco Viejo, 2003, 29.52
-PSOE Casco Viejo, 2007, 33.72
-PSOE Casco Viejo, 2011, 24.66
-PSOE Casco Viejo, 2015, 15.36
-PSOE Centro, 1987, 19.11
-PSOE Centro, 1991, 19.64
-PSOE Centro, 1995, 9.03
-PSOE Centro, 1999, 15.55
-PSOE Centro, 2003, 20.05
-PSOE Centro, 2007, 22.11
-PSOE Centro, 2011, 15.58
-PSOE Centro, 2015, 10.31
-PSOE Delicias, 1987, 39.59
-PSOE Delicias, 1991, 46.19
-PSOE Delicias, 1995, 41.20
-PSOE Delicias, 1999, 31.85
-PSOE Delicias, 2003, 35.85
-PSOE Delicias, 2007, 41.20
-PSOE Delicias, 2011, 29.72
-PSOE Delicias, 2015, 21.82
-PSOE Barrios Oeste, 1987, 44.98
-PSOE Barrios Oeste, 1991, 49.10
-PSOE Barrios Oeste, 1995, 28.52
-PSOE Barrios Oeste, 1999, 35.14
-PSOE Barrios Oeste, 2003, 36.05
-PSOE Barrios Oeste, 2007, 40.72
-PSOE Barrios Oeste, 2011, 28.21
-PSOE Barrios Oeste, 2015, 23.46
-PSOE Barrios Norte, 1987, 41.82
-PSOE Barrios Norte, 1991, 49.85
-PSOE Barrios Norte, 1995, 20.99
-PSOE Barrios Norte, 1999, 29.31
-PSOE Barrios Norte, 2003, 35.30
-PSOE Barrios Norte, 2007, 38.80
-PSOE Barrios Norte, 2011, 25.01
-PSOE Barrios Norte, 2015, 18.01
-PSOE Las Fuentes, 1987, 49.47
-PSOE Las Fuentes, 1991, 55.37
-PSOE Las Fuentes, 1995, 24.66
-PSOE Las Fuentes, 1999, 36.95
-PSOE Las Fuentes, 2003, 41.06
-PSOE Las Fuentes, 2007, 45.97
-PSOE Las Fuentes, 2011, 35.35
-PSOE Las Fuentes, 2015, 26.65
-PSOE San Jose, 1987, 42.30
-PSOE San Jose, 1991, 44.41
-PSOE San Jose, 1995, 18.75
-PSOE San Jose, 1999, 30.57
-PSOE San Jose, 2003, 35.20
-PSOE San Jose, 2007, 39.56
-PSOE San Jose, 2011, 28.86
-PSOE San Jose, 2015, 20.55
-PSOE Torrero, 1987, 50.55
-PSOE Torrero, 1991, 54.23
-PSOE Torrero, 1995, 24.67
-PSOE Torrero, 1999, 36.02
-PSOE Torrero, 2003, 38.06
-PSOE Torrero, 2007, 44.17
-PSOE Torrero, 2011, 30.80
-PSOE Torrero, 2015, 21.36
-PSOE Universidad, 1987, 25.22
-PSOE Universidad, 1991, 26.70
-PSOE Universidad, 1995, 11.49
-PSOE Universidad, 1999, 20.44
-PSOE Universidad, 2003, 25.16
-PSOE Universidad, 2007, 27.34
-PSOE Universidad, 2011, 20.41
-PSOE Universidad, 2015, 12.49
-PSOE Via Hispanidad, 1987, 50.97
-PSOE Via Hispanidad, 1991, 56
-PSOE Via Hispanidad, 1995, 26.34
-PSOE Via Hispanidad, 1999, 36.27
-PSOE Via Hispanidad, 2003, 38.16
-PSOE Via Hispanidad, 2007, 39.35
-PSOE Via Hispanidad, 2011, 25.21
-PSOE Via Hispanidad, 2015, 18.43
+distrito,fecha,cantidad
+Arrabal, 1987, 49.29
+Arrabal, 1991, 56.51
+Arrabal, 1995, 22.91
+Arrabal, 1999, 36.35
+Arrabal, 2003, 39.48
+Arrabal, 2007, 44.55
+Arrabal, 2011, 31.37
+Arrabal, 2015, 20.28
+Aljaferia, 1987, 44.17
+Aljaferia, 1991, 49.98
+Aljaferia, 1995, 20.61
+Aljaferia, 1999, 33.72
+Aljaferia, 2003, 37.12
+Aljaferia, 2007, 42.93
+Aljaferia, 2011, 31.81
+Aljaferia, 2015, 22.59
+Casco Viejo, 1987, 33.52
+Casco Viejo, 1991, 37.90
+Casco Viejo, 1995, 17.83
+Casco Viejo, 1999, 25.72
+Casco Viejo, 2003, 29.52
+Casco Viejo, 2007, 33.72
+Casco Viejo, 2011, 24.66
+Casco Viejo, 2015, 15.36
+Centro, 1987, 19.11
+Centro, 1991, 19.64
+Centro, 1995, 9.03
+Centro, 1999, 15.55
+Centro, 2003, 20.05
+Centro, 2007, 22.11
+Centro, 2011, 15.58
+Centro, 2015, 10.31
+Delicias, 1987, 39.59
+Delicias, 1991, 46.19
+Delicias, 1995, 19.82
+Delicias, 1999, 31.85
+Delicias, 2003, 35.85
+Delicias, 2007, 41.20
+Delicias, 2011, 29.72
+Delicias, 2015, 21.82
+Barrios Oeste, 1987, 44.98
+Barrios Oeste, 1991, 49.10
+Barrios Oeste, 1995, 28.52
+Barrios Oeste, 1999, 35.14
+Barrios Oeste, 2003, 36.05
+Barrios Oeste, 2007, 40.72
+Barrios Oeste, 2011, 28.21
+Barrios Oeste, 2015, 23.46
+Barrios Norte, 1987, 41.82
+Barrios Norte, 1991, 49.85
+Barrios Norte, 1995, 20.99
+Barrios Norte, 1999, 29.31
+Barrios Norte, 2003, 35.30
+Barrios Norte, 2007, 38.80
+Barrios Norte, 2011, 25.01
+Barrios Norte, 2015, 18.01
+Las Fuentes, 1987, 49.47
+Las Fuentes, 1991, 55.37
+Las Fuentes, 1995, 24.66
+Las Fuentes, 1999, 36.95
+Las Fuentes, 2003, 41.06
+Las Fuentes, 2007, 45.97
+Las Fuentes, 2011, 35.35
+Las Fuentes, 2015, 26.65
+San Jose, 1987, 42.30
+San Jose, 1991, 44.41
+San Jose, 1995, 18.75
+San Jose, 1999, 30.57
+San Jose, 2003, 35.20
+San Jose, 2007, 39.56
+San Jose, 2011, 28.86
+San Jose, 2015, 20.55
+Torrero, 1987, 50.55
+Torrero, 1991, 54.23
+Torrero, 1995, 24.67
+Torrero, 1999, 36.02
+Torrero, 2003, 38.06
+Torrero, 2007, 44.17
+Torrero, 2011, 30.80
+Torrero, 2015, 21.36
+Universidad, 1987, 25.22
+Universidad, 1991, 26.70
+Universidad, 1995, 11.49
+Universidad, 1999, 20.44
+Universidad, 2003, 25.16
+Universidad, 2007, 27.34
+Universidad, 2011, 20.41
+Universidad, 2015, 12.49
+Via Hispanidad, 1987, 50.97
+Via Hispanidad, 1991, 56
+Via Hispanidad, 1995, 26.34
+Via Hispanidad, 1999, 36.27
+Via Hispanidad, 2003, 38.16
+Via Hispanidad, 2007, 39.35
+Via Hispanidad, 2011, 25.21
+Via Hispanidad, 2015, 18.43

@@ -369,8 +369,8 @@ var elecciones = [{
                     },
                     {
                         "nombre": "Delicias",
-                        "votos": "20708",
-                        "porcentaje": "41.20%"
+                        "votos": "12126",
+                        "porcentaje": "19.82%"
                     },
                     {
                         "nombre": "Las Fuentes",
