@@ -159,7 +159,7 @@ function graficasCha() {
             .append("text")
             .attr("class", "nombre-distrito")
             .attr("y", "-3%")
-            .attr("x", "0")
+            .attr("x", "8px")
             .text(function(d) { return d.key });
     });
 
