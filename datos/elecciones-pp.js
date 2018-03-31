@@ -1,5 +1,71 @@
 var elecciones = [{
-    "2011": {
+    "2015": {
+        "partidos": {
+            "pp": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "12925",
+                        "porcentaje": "19.45%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "3027",
+                        "porcentaje": "22.31%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "2936",
+                        "porcentaje": "24.31%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "1567",
+                        "porcentaje": "24.72%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "5785",
+                        "porcentaje": "30.39%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "14041",
+                        "porcentaje": "48.14%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "12563",
+                        "porcentaje": "26.60%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "4352",
+                        "porcentaje": "21.69%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "8045",
+                        "porcentaje": "26.55%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "3084",
+                        "porcentaje": "18.19%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "15099",
+                        "porcentaje": "32.20%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "4130",
+                        "porcentaje": "24.12%"
+                    }
+                ]
+            }
+        }
+    },"2011": {
         "partidos": {
             "pp": {
                 "distritos": [{

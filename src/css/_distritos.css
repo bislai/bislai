@@ -1,4 +1,5 @@
 .distrito {
+    margin: 1rem 0;
     .domain {
         fill: none;
         stroke: #000;
@@ -6,6 +7,10 @@
     .yAxis {
         .domain {
             stroke: none;
+        }
+        line {
+            stroke: #111;
+            stroke-dasharray: 3px;
         }
     }
     .xAxis {
@@ -24,4 +29,10 @@
     .tooltip-porcentaje {
         font-weight: 600;
     }
+}
+
+.graficas-partido {
+    width: 100%;
+    max-width: 75vw;
+    margin: 0 auto;
 }

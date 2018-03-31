@@ -1,78 +1,84 @@
-$(function() {
-    d3.json("mapas/distritos-cha-zaragoza.geojson", function(err, data) {
-        mapDraw(data);
-    });
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-    function mapDraw(geojson) {
-        mapboxgl.accessToken =
-            "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
-        var map = new mapboxgl.Map({
-            container: "map", // container id
-            style: "mapbox://styles/jorgeatgu/cjf4fr0sj019m2qqiaz1mynna", //hosted style id
-            center: [-0.850431, 41.651729], // starting position
-            zoom: 11.5 // starting zoom
+if (width > 767) {
+    $(function() {
+        d3.json("mapas/distritos-cha-zaragoza.geojson", function(err, data) {
+            mapDraw(data);
         });
 
-        map.addControl(new mapboxgl.Navigation());
+        function mapDraw(geojson) {
+            mapboxgl.accessToken =
+                "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+            var map = new mapboxgl.Map({
+                container: "map", // container id
+                style: "mapbox://styles/jorgeatgu/cjf4fr0sj019m2qqiaz1mynna", //hosted style id
+                center: [-0.850431, 41.651729], // starting position
+                zoom: 11.5 // starting zoom
+            });
 
-        var container = map.getCanvasContainer();
-        var svg = d3.select(container).append("svg");
-        var distritos = svg.append("g").attr("class", "distritos");
+            map.addControl(new mapboxgl.Navigation());
 
-        var transform = d3.geo.transform({ point: projectPoint });
-        var path = d3.geo.path().projection(transform);
+            var container = map.getCanvasContainer();
+            var svg = d3.select(container).append("svg");
+            var distritos = svg.append("g").attr("class", "distritos");
 
-        var tooltip = d3
-            .select("#map")
-            .append("div")
-            .attr("class", "tooltip tooltip-cha");
+            var transform = d3.geo.transform({ point: projectPoint });
+            var path = d3.geo.path().projection(transform);
 
-        var featureElement = svg
-            .selectAll("path")
-            .data(geojson.features)
-            .enter()
-            .append("path")
-            .attr("class", "distritosCHA")
-            .on("mouseover", showTooltip)
-            .transition()
-            .duration(200);
+            var tooltip = d3
+                .select("#map")
+                .append("div")
+                .attr("class", "tooltip tooltip-cha");
 
-        function update() {
-            featureElement.attr("d", path);
-        }
-
-        function showTooltip(geoJson) {
-            // moveTooltip();
-            tooltip
-                .style("display", "block")
-                .html(
-                    '<h4 class="tooltipTitulo">' +
-                    geoJson.properties.distrito +
-                    '</h4>' +
-                    '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2015</span><span style="width:' + geoJson.properties.quince_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.quince_p + '%</span><span class="resultadoVotos">' + geoJson.properties.quince_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2011</span><span style="width:' + geoJson.properties.once_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.once_p + '%</span><span class="resultadoVotos">' + geoJson.properties.once_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2007</span><span style="width:' + geoJson.properties.siete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.siete_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.siete_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2003</span><span style="width:' + geoJson.properties.tres_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.tres_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.tres_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1999</span><span style="width:' + geoJson.properties.nueve_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.nueve_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.nueve_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1995</span><span style="width:' + geoJson.properties.cinco_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cinco_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.cinco_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1991</span><span style="width:' + geoJson.properties.uno_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.uno_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.uno_v + ' votos</span><p/>' +
-                    '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1987</span><span style="width:' + geoJson.properties.ochosiete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.ochosiete_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.ochosiete_v + ' votos</span><p/></div>'
-                )
+            var featureElement = svg
+                .selectAll("path")
+                .data(geojson.features)
+                .enter()
+                .append("path")
+                .attr("class", "distritosCHA")
+                .on("mouseover", showTooltip)
                 .transition()
                 .duration(200);
-        }
-        map.scrollZoom.disable();
 
-        update();
+            function update() {
+                featureElement.attr("d", path);
+            }
 
-        function projectPoint(lon, lat) {
-            var point = map.project(new mapboxgl.LngLat(lon, lat));
-            this.stream.point(point.x, point.y);
+            function showTooltip(geoJson) {
+                // moveTooltip();
+                tooltip
+                    .style("display", "block")
+                    .html(
+                        '<h4 class="tooltipTitulo">' +
+                        geoJson.properties.distrito +
+                        '</h4>' +
+                        '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2015</span><span style="width:' + geoJson.properties.quince_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.quince_p + '%</span><span class="resultadoVotos">' + geoJson.properties.quince_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2011</span><span style="width:' + geoJson.properties.once_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.once_p + '%</span><span class="resultadoVotos">' + geoJson.properties.once_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2007</span><span style="width:' + geoJson.properties.siete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.siete_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.siete_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2003</span><span style="width:' + geoJson.properties.tres_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.tres_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.tres_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1999</span><span style="width:' + geoJson.properties.nueve_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.nueve_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.nueve_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1995</span><span style="width:' + geoJson.properties.cinco_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cinco_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.cinco_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1991</span><span style="width:' + geoJson.properties.uno_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.uno_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.uno_v + ' votos</span><p/>' +
+                        '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1987</span><span style="width:' + geoJson.properties.ochosiete_p * 1.65 + '%" class="bgc-cha"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.ochosiete_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.ochosiete_v + ' votos</span><p/></div>'
+                    )
+                    .transition()
+                    .duration(200);
+            }
+            map.scrollZoom.disable();
+
+            update();
+
+            function projectPoint(lon, lat) {
+                var point = map.project(new mapboxgl.LngLat(lon, lat));
+                this.stream.point(point.x, point.y);
+            }
         }
-    }
-});
+    });
+}
 
 function graficasCha() {
+
+    var porcentaje = "%";
 
     var margin = {top: 48, right: 48, bottom: 48, left: 48},
         width = 450 - margin.left - margin.right,
@@ -92,6 +98,8 @@ function graficasCha() {
     var yAxis = d3.svg.axis()
         .scale(y)
         .ticks(5)
+        .tickFormat(function(d) { return d + porcentaje; })
+        .tickSize(-width)
         .orient("left")
 
     d3.csv("datos/elecciones-distrito-cha.csv", function(err, data) {
@@ -128,7 +136,7 @@ function graficasCha() {
             .attr("width", x.rangeBand())
             .attr("y", function(d) { return y(d.cantidad); })
             .attr("height", function(d) { return height - y(d.cantidad); })
-            .attr("fill", "#ca0020");
+            .attr("fill", "#52788b");
 
         svg.selectAll("text")
             .data(function(d) {return d.values;})
@@ -150,8 +158,8 @@ function graficasCha() {
             .call(yAxis)
             .append("text")
             .attr("class", "nombre-distrito")
-            .attr("y", "2%")
-            .attr("x", "2%")
+            .attr("y", "-3%")
+            .attr("x", "0")
             .text(function(d) { return d.key });
     });
 

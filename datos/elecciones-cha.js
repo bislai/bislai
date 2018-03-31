@@ -1,4 +1,71 @@
 var elecciones = [{
+    "2015": {
+        "partidos": {
+            "cha": {
+                "distritos": [{
+                        "nombre": "Actur-Arrabal",
+                        "votos": "5.382",
+                        "porcentaje": "8.1%%"
+                    },
+                    {
+                        "nombre": "Aljafería",
+                        "votos": "948",
+                        "porcentaje": "6.99%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Norte",
+                        "votos": "915",
+                        "porcentaje": "7.58%"
+                    },
+                    {
+                        "nombre": "Barrios Zona Oeste",
+                        "votos": "380",
+                        "porcentaje": "5.99%"
+                    },
+                    {
+                        "nombre": "Casco Viejo",
+                        "votos": "933",
+                        "porcentaje": "4.9%"
+                    },
+                    {
+                        "nombre": "Centro",
+                        "votos": "898",
+                        "porcentaje": "3.08%"
+                    },
+                    {
+                        "nombre": "Delicias",
+                        "votos": "3408",
+                        "porcentaje": "7.21%"
+                    },
+                    {
+                        "nombre": "Las Fuentes",
+                        "votos": "1510",
+                        "porcentaje": "7.52%"
+                    },
+                    {
+                        "nombre": "San José",
+                        "votos": "2019",
+                        "porcentaje": "6.66%"
+                    },
+                    {
+                        "nombre": "Torrero",
+                        "votos": "1236",
+                        "porcentaje": "7.29%"
+                    },
+                    {
+                        "nombre": "Universidad",
+                        "votos": "3126",
+                        "porcentaje": "6.67%"
+                    },
+                    {
+                        "nombre": "Vía Hispanidad",
+                        "votos": "1321",
+                        "porcentaje": "7.50%"
+                    }
+                ]
+            }
+        }
+    },
     "2011": {
         "partidos": {
             "cha": {
@@ -70,7 +137,8 @@ var elecciones = [{
         "partidos": {
             "cha": {
                 "distritos": [{
-                        "nombre": "Actur-Arrabal",<
+                        "nombre": "Actur-Arrabal",
+                        <
                         "votos": "6948",
                         "porcentaje": "11.94%"
                     },
