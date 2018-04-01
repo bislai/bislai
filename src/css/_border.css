@@ -42,10 +42,6 @@
     border-color: var(--grey);
 }
 
-.borderc-french-grey {
-    border-color: var(--frenchGrey);
-}
-
 .borderc-n {
     border-color: none;
 }

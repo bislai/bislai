@@ -10,16 +10,8 @@
     background-color: var(--bgcHeader);
 }
 
-.pink {
-    color: var(--pink);
-}
-
 .bgc-tabs {
     background-color: var(--bgcTabs);
-}
-
-.woodsmoke {
-    color: var(--woodsmoke);
 }
 
 .bgc-transparent {

@@ -4,8 +4,7 @@
     --fontBislai: "Fjalla One", sans-serif;
     --fontFair: 'Playfair Display', serif;
     --fontPlex: 'IBM Plex Sans', sans-serif;
-    --serif: "Georgia", serif;
-    --black: #121;
+        --black: #121;
     --pureblack: #000;
     --yellow: #3BE4CF;
     --grey: #efefef;
@@ -18,14 +17,9 @@
     --ciudadanos: #f07a36;
     --chunta: #efb027;
     --nightRider: #431729;
-    --frenchGrey: #e1dce3;
     --bunting: #271764;
-    --woodsmoke: #19160a;
     --colorlink: #1624f7;
     --bgcTabs: #46E3CF;
     --searchHover: hsl(201, 106%, 24%);
     --bgcHeader: #021e5c;
-    --pink: #f9dfe7;
-    --bgcCard: #28cdc4;
-    --rojoZgz: linear-gradient(190deg, #021e5c 15%, hsl(221, 96%, 58%) 100%);
 }

@@ -6,6 +6,8 @@
 @import "_reset";
 @import "_variables";
 @import "_comun";
+@import "_header";
+@import "_footer";
 @import "_width";
 @import "_color";
 @import "_display";
