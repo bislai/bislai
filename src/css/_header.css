@@ -1,0 +1,33 @@
+.header {
+    font-size: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--white);
+}
+
+.header-home {
+    background-color: transparent;
+    position: absolute;
+    top: .5rem;
+    padding: .5rem 1rem;
+    .nav-grid {
+        grid-template-columns: 10% 1fr;
+    }
+    .link-name {
+        color: var(--white);
+    }
+}
+
+.nav-grid-second-link {
+    font-family: var(--fontBislai);
+    color: var(--white);
+    position: relative;
+}
+
+@media only screen and (min-width: 48em) {
+
+    .nav-grid-second-link {
+        letter-spacing: .125rem;
+    }
+
+}

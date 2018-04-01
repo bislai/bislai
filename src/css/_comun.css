@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 body {
@@ -35,6 +38,7 @@ body {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+    padding: .5rem 1rem;
 }
 
 .nav-grid-first {
@@ -42,19 +46,6 @@ body {
     justify-self: start;
     .link-name {
         font-size: 2rem;
-    }
-}
-
-.header-home {
-    background-color: transparent;
-    position: absolute;
-    top: .5rem;
-    padding: .5rem 1rem;
-    .nav-grid {
-        grid-template-columns: 10% 1fr;
-    }
-    .link-name {
-        color: var(--white);
     }
 }
 
@@ -541,7 +532,6 @@ http://www.tipue.com/search
 .tabla-calendario {
     display: none;
     padding: 20px 0;
-    border: 1px solid var(--impureGrey);
     text-align: center;
 }
 
@@ -567,18 +557,16 @@ http://www.tipue.com/search
     padding: 1rem 2rem;
     text-align: center;
     color: #dce0db;
-    border: 1px solid var(--impureGrey);
     background-color: var(--white);
     &:hover {
-        color: var(--impureBlack);
+        color: var(--black);
         cursor: pointer;
     }
 }
 
 .input-record:checked+.label-record {
     color: #dce0db;
-    border: 1px solid var(--impureGrey);
-    border-top: 5px solid var(--gradient2);
+    border-top: 5px solid var(--bgcTabs);
     background-color: var(--bislai);
 }
 
@@ -1546,6 +1534,7 @@ path.q2-3 {
 
 .link-name {
     font-size: 1rem;
+    font-family: var(--fontBislai);
     font-weight: bold;
     overflow: hidden;
     padding: 0 .25rem;
