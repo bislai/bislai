@@ -317,11 +317,6 @@ body {
     cursor: pointer;
 }
 
-.maw-60 {
-  max-width: 60vw;
-  margin: 0 auto;
-}
-
 .nav-grid {
     display: grid;
     grid-template-columns: 10% 1fr 25%;
@@ -2019,6 +2014,66 @@ path.q2-3 {
     border-top: 1px solid #efefef;
 }
 
+.contenedor-plenos-btn {
+    padding: 1rem;
+}
+
+.contenedor-plenos-btn-titulo {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+}
+
+.contenedor-plenos-btn-txt {
+    color: #271764;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.titulo-plenos {
+    border-left: 10px solid #e30613;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.titulo-plenos.zec {
+        border-color: #9a1622;
+    }
+
+.titulo-plenos.pp {
+        border-color: #0080b8;
+    }
+
+.titulo-plenos.psoe {
+        border-color: #e30613;
+    }
+
+.titulo-plenos.cha {
+        border-color: #efb027;
+    }
+
+.titulo-plenos.cs {
+        border-color: #f07a36;
+    }
+
+.titulo-plenos-numero {
+    font-size: 2rem;
+    font-weight: 800;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 30em) {
+
+    .contenedor-plenos-btn-titulo {
+        font-size: 2rem;
+    }
+
+}
+
 @media only screen and (min-width: 48em) {
 
     .nav-plenos {
@@ -2039,12 +2094,24 @@ path.q2-3 {
         float: right;
     }
 
+    .titulo-plenos-numero {
+        font-size: 4rem;
+    }
+
+    .titulo-plenos {
+        font-size: 2rem;
+    }
+
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 64em) {
 
     .contenedor-plenos {
         padding: 1rem 0;
+    }
+
+    .contenedor-plenos-btn {
+        padding: 2rem 0;
     }
 
 }

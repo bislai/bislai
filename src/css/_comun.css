@@ -26,11 +26,6 @@ body {
     cursor: pointer;
 }
 
-.maw-60 {
-  max-width: 60vw;
-  margin: 0 auto;
-}
-
 .nav-grid {
     display: grid;
     grid-template-columns: 10% 1fr 25%;
