@@ -59,7 +59,7 @@
     padding-left: 1rem;
     margin: 0;
     font-size: 1rem;
-    font-family: var(--fontBislai);
+    font-family: var(--fontSystem);
     &.zec {
         border-color: var(--zec);
     }

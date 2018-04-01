@@ -317,11 +317,6 @@ body {
     cursor: pointer;
 }
 
-.maw-60 {
-  max-width: 60vw;
-  margin: 0 auto;
-}
-
 .nav-grid {
     display: grid;
     grid-template-columns: 10% 1fr 25%;
@@ -2040,7 +2035,8 @@ path.q2-3 {
     padding-left: 1rem;
     margin: 0;
     font-size: 1rem;
-    font-family: "Fjalla One", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .titulo-plenos.zec {
