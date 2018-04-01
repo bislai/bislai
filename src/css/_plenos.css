@@ -1,0 +1,55 @@
+.nav-plenos {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0;
+    z-index: 100;
+}
+
+.nav-plenos-anterior,
+.nav-plenos-posterior {
+    width: 50%;
+    display: inline-block;
+    border-right: 1px solid var(--greyc);
+    padding: 1rem;
+    background-color: var(--bgcHeader);
+    cursor: pointer;
+    &:hover {
+        transition: background-color .3s ease-in;
+        background-color: #274890;
+    }
+}
+
+.nav-plenos-posterior {
+    text-align: right;
+}
+
+.nav-plenos-texto {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: var(--fontPlex);
+    font-size: .88rem;
+    color: var(--white);
+}
+
+@media only screen and (min-width: 48em) {
+
+    .nav-plenos {
+        bottom: 50vh;
+    }
+
+    .nav-plenos-texto {
+        display: none;
+    }
+
+    .nav-plenos-anterior,
+    .nav-plenos-posterior {
+        border: 0;
+        width: max-content;
+    }
+
+    .nav-plenos-posterior {
+        float: right;
+    }
+
+}
