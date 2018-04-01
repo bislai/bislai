@@ -2015,6 +2015,12 @@ path.q2-3 {
     color: #fff;
 }
 
+.contenedor-plenos {
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #efefef;
+}
+
 @media only screen and (min-width: 48em) {
 
     .nav-plenos {
@@ -2033,6 +2039,14 @@ path.q2-3 {
 
     .nav-plenos-posterior {
         float: right;
+    }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+    .contenedor-plenos {
+        padding: 1rem 0;
     }
 
 }
