@@ -2019,6 +2019,30 @@ path.q2-3 {
     border-top: 1px solid #efefef;
 }
 
+.contenedor-plenos-btn {
+    padding: 1rem;
+}
+
+.contenedor-plenos-btn-titulo {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+}
+
+.contenedor-plenos-btn-txt {
+    color: #271764;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 30em) {
+
+    .contenedor-plenos-btn-titulo {
+        font-size: 2rem;
+    }
+
+}
+
 @media only screen and (min-width: 48em) {
 
     .nav-plenos {
@@ -2041,10 +2065,14 @@ path.q2-3 {
 
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 64em) {
 
     .contenedor-plenos {
         padding: 1rem 0;
+    }
+
+    .contenedor-plenos-btn {
+        padding: 2rem 0;
     }
 
 }
