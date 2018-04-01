@@ -535,6 +535,23 @@ http://www.tipue.com/search
     text-align: center;
 }
 
+.tabla-calendario-link {
+    border-radius: 5px;
+    padding: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: block;
+    background-color: var(--bgcTabs);
+    color: var(--black);
+    text-decoration: none;
+    transition: background-color .3s ease-in;
+    &:hover,
+    &:focus {
+        transition: background-color .3s ease-in;
+        background-color: var(--tabsHover);
+    }
+}
+
 .tabla-grid {
     display: inline-grid;
     grid-template-columns: repeat(2, minmax(200px, 20%));
@@ -1573,8 +1590,9 @@ path.q2-3 {
 }
 
 .link-mocion {
-    display: block;
+    display: inline-block;
     padding: 1rem 2rem;
+    margin: 2rem 0;
     position: relative;
     border-radius: 5px;
     text-decoration: none;

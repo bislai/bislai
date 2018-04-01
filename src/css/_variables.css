@@ -20,6 +20,7 @@
     --bunting: #271764;
     --colorlink: #1624f7;
     --bgcTabs: #46E3CF;
+    --tabsHover: hsl(158, 80%, 75%);
     --searchHover: hsl(201, 106%, 24%);
     --bgcHeader: #021e5c;
 }
