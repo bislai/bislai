@@ -26,10 +26,9 @@ body {
     cursor: pointer;
 }
 
-/* STRIPE RULES */
-
-.button-shw {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+.maw-60 {
+  max-width: 60vw;
+  margin: 0 auto;
 }
 
 .nav-grid {
@@ -571,9 +570,11 @@ http://www.tipue.com/search
 
 .label-record {
     display: inline-block;
-    padding: 1rem 2rem;
-    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--fontPlex);
     color: #dce0db;
+    text-align: center;
     background-color: var(--white);
     &:hover {
         color: var(--black);
@@ -957,10 +958,6 @@ path.q2-3 {
 .bislai-home {
     min-height: 100vh;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-}
-
-.footer {
-    background-color: #fafafa;
 }
 
 .bislai-home-body-left {
@@ -1441,11 +1438,6 @@ path.q2-3 {
         font-size: 1.5rem;
     }
 
-    .label-record.font-3 {
-        padding: 1rem;
-        font-size: 1.5rem;
-    }
-
     .tooltip-title {
         position: static;
         font-size: 1rem;
@@ -1544,9 +1536,6 @@ path.q2-3 {
         margin: 0 auto;
     }
 
-    .label-record {
-        padding: 1rem;
-    }
 }
 
 .link-name {
@@ -1685,4 +1674,13 @@ path.q2-3 {
     text-align: right;
     width: max-content;
     margin-top: 1rem;
+}
+
+@media only screen and (min-width: 48em) {
+
+    .label-record {
+        font-size: 3rem;
+        padding: 1rem 2rem;
+    }
+
 }

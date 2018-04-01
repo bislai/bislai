@@ -1,0 +1,34 @@
+.contenedor-buscador {
+    padding: .5rem 0;
+}
+
+.input-buscador {
+    width: 80%;
+    vertical-align: top;
+}
+
+@media only screen and (min-width: 48em) {
+
+    .contenedor-buscador {
+        width: 100%;
+    }
+
+    .input-buscador {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+    .contenedor-buscador {
+        max-width: 60%;
+    }
+
+    .bislai-home-card {
+        .contenedor-buscador {
+            max-width: 100%;
+        }
+    }
+
+}
