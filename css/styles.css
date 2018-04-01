@@ -2035,6 +2035,41 @@ path.q2-3 {
     text-decoration: none;
 }
 
+.titulo-plenos {
+    border-left: 10px solid #e30613;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.titulo-plenos.zec {
+        border-color: #9a1622;
+    }
+
+.titulo-plenos.pp {
+        border-color: #0080b8;
+    }
+
+.titulo-plenos.psoe {
+        border-color: #e30613;
+    }
+
+.titulo-plenos.cha {
+        border-color: #efb027;
+    }
+
+.titulo-plenos.cs {
+        border-color: #f07a36;
+    }
+
+.titulo-plenos-numero {
+    font-size: 2rem;
+    font-weight: 800;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 @media only screen and (min-width: 30em) {
 
     .contenedor-plenos-btn-titulo {
@@ -2061,6 +2096,14 @@ path.q2-3 {
 
     .nav-plenos-posterior {
         float: right;
+    }
+
+    .titulo-plenos-numero {
+        font-size: 4rem;
+    }
+
+    .titulo-plenos {
+        font-size: 2rem;
     }
 
 }
