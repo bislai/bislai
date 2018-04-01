@@ -32,6 +32,12 @@
     color: var(--white);
 }
 
+.contenedor-plenos {
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid var(--grey);
+}
+
 @media only screen and (min-width: 48em) {
 
     .nav-plenos {
@@ -50,6 +56,14 @@
 
     .nav-plenos-posterior {
         float: right;
+    }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+    .contenedor-plenos {
+        padding: 1rem 0;
     }
 
 }
