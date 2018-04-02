@@ -2229,7 +2229,7 @@ path.q2-3 {
 .data-texto {
     font-size: 1rem;
     font-family: 'IBM Plex Sans', sans-serif;
-    max-width: 40rem;
+    max-width: 30rem;
     display: inline-block;
 }
 
@@ -2238,14 +2238,18 @@ path.q2-3 {
     }
 
 .data-icon {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .dataset {
     background-color: #EFF6FC;
     padding: 2rem;
 }
+
+.dataset:nth-child(2n) {
+        background-color: #fff;
+    }
 
 .dataset-container {
     max-width: 70%;

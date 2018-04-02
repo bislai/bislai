@@ -15,7 +15,7 @@
 .data-texto {
     font-size: 1rem;
     font-family: var(--fontPlex);
-    max-width: 40rem;
+    max-width: 30rem;
     display: inline-block;
     + .data-texto {
         margin-top: 0;
@@ -23,13 +23,16 @@
 }
 
 .data-icon {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .dataset {
     background-color: var(--data);
     padding: 2rem;
+    &:nth-child(2n) {
+        background-color: var(--white);
+    }
 }
 
 .dataset-container {
