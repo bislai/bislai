@@ -1,22 +1,58 @@
 .data {
-    width: 50rem;
-    padding: 2rem;
-    margin: 1rem 5rem;
+    width: 70rem;
+    padding: 5rem 2rem;
+    margin: 0 5rem;
     position: relative;
     font-size: 0;
+}
+
+.data-figura {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+    border-radius: 40%;
+    z-index: 2;
+    background-color: var(--data);
+    transform: rotate(45deg);
+    animation: rotacion 10000ms linear infinite;
+}
+
+@keyframes rotacion {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+.data-header-container {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .data-titulo {
     font-size: 6rem;
     font-family: var(--fontBislai);
     margin: 0;
+    &:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 3rem;
+        background-color: var(--bgcHeader);
+    }
 }
 
 .data-texto {
     font-size: 1rem;
     font-family: var(--fontPlex);
     max-width: 30rem;
-    display: inline-block;
+    display: block;
     + .data-texto {
         margin-top: 0;
     }
@@ -25,6 +61,10 @@
 .data-icon {
     width: 10rem;
     height: 10rem;
+    position: absolute;
+    top: 9rem;
+    right: 10rem;
+    z-index: 2;
 }
 
 .dataset {
