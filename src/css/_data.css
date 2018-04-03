@@ -87,6 +87,18 @@
     margin-bottom: 0;
 }
 
+.dataset-label {
+    padding: .5rem;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: var(--bgcHeader);
+    color: var(--white);
+    font-weight: bold;
+    &:not(:last-child) {
+        margin-right: .5rem;
+    }
+}
+
 .data-texto-container {
     width: 40%;
     display: inline-block;
@@ -102,10 +114,10 @@
 /* stylelint-enable */
 
 .data-texto-list {
-    padding: .5rem 0;
-    border-bottom: 1px solid var(--grey);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--bgcHeader);
     &:first-child {
-        border-top: 1px solid var(--grey);
+        border-top: 1px solid var(--bgcHeader);
     }
 }
 

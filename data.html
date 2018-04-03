@@ -62,44 +62,41 @@
         <article class="dataset-container">
             <h2 class="dataset-title">ELECCIONES</h2>
             <div class="data-texto-container">
+                <span class="dataset-label">JSON</span>
+                <span class="dataset-label">CSV</span>
                 <p class="data-texto">Este dataset contiene todos los resultados por distrito electoral de las elecciones municipales de Zaragoza. Los datos por distrito electoral se empezaron a recoger en 1987. Solamente incluye los datos de Partido Popular, Partido Socialista Obrero Español y Chunta Aragonesista.</p>
                 <ul class="data-texto">
-                    <li>
-                        <strong>Fecha:</strong> el día en el que se realizo la votación
+                    <li class="data-texto-list">
+                        <strong>Nombre:</strong> nombre del distrito electoral
                     </li>
-                    <li>
-                        <strong>Presentada:</strong> el partido político que presento la moción.
+                    <li class="data-texto-list">
+                        <strong>Votos:</strong> número de votos
                     </li>
-                    <li><strong>Resultado:</strong> ganada, perdida o retirada</li>
-                    <li><strong>a_favor:</strong> partidos que votaron a favor en la votación</li>
-                    <li><strong>abstencion:</strong> partidos que se abstuvieron en la votación</li>
-                    <li><strong></strong></li>
+                    <li class="data-texto-list"><strong>Porcentaje:</strong> porcentaje de votos</li>
                 </ul>
             </div>
                     <div class="dataset-image">
                         <pre>
                             <code class="json">
-            var mociones = [
-                {
-                    "fecha": "27-07-2015",
-                    "presentada": "C'S",
-                    "resultado": "ganada",
-                    "a_favor": "PP + ZEC + PSOE + C'S + CHA",
-                    "votos_contra": 31,
-                    "unanimidad": "si",
-                    "numero": 30
-                },
-                {
-                    "fecha": "27-07-2015",
-                    "presentada": "ZEC",
-                    "resultado": "ganada",
-                    "a_favor": "PP + ZEC + PSOE + CHA",
-                    "abstencion": "C'S",
-                    "votos_favor": 25,
-                    "votos_abstencion": 4,
-                    "numero": 31
+    var elecciones = [{
+        "2015": {
+            "partidos": {
+                "psoe": {
+                    "distritos": [{
+                            "nombre": "Actur-Arrabal",
+                            "votos": "13480",
+                            "porcentaje": "20.28%"
+                        },
+                        {
+                            "nombre": "Aljafería",
+                            "votos": "3064",
+                            "porcentaje": "22.59%"
+                        },
+                        ]
+                    }
                 }
-            ]
+            }
+        }]
                             </code>
                     </pre>
                     </div>
@@ -109,6 +106,7 @@
         <article class="dataset-container">
             <h2 class="dataset-title">MOCIONES</h2>
             <div class="data-texto-container">
+                <span class="dataset-label">JSON</span>
                 <p class="data-texto">Algunas mociones se dividen por puntos. Este dataset contiene todas las votaciones que han generado las mociones.</p>
                 <p class="data-texto">A continuación que representa cada valor del objeto:</p>
                 <ul class="data-texto">

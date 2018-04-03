@@ -2305,6 +2305,19 @@ path.q2-3 {
     margin-bottom: 0;
 }
 
+.dataset-label {
+    padding: .5rem;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: #021e5c;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dataset-label:not(:last-child) {
+        margin-right: .5rem;
+    }
+
 .data-texto-container {
     width: 40%;
     display: inline-block;
@@ -2320,12 +2333,12 @@ path.q2-3 {
 /* stylelint-enable */
 
 .data-texto-list {
-    padding: .5rem 0;
-    border-bottom: 1px solid #efefef;
+    padding: 1rem 0;
+    border-bottom: 1px solid #021e5c;
 }
 
 .data-texto-list:first-child {
-        border-top: 1px solid #efefef;
+        border-top: 1px solid #021e5c;
     }
 
 .dataset-image {
