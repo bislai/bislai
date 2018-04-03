@@ -10,6 +10,9 @@
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
 </head>
 
@@ -41,26 +44,25 @@
             <p class="data-texto"><strong>Es hora de compartir lo recolectado.</strong></p>
         </div>
         <svg class="data-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.8 62.8">
-        <rect x="18.6" y="25" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1"/>
-        <rect x="18.6" y="9" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1"/>
-        <rect x="57.5" y="18.2" width="1.4" height="1.4"/>
-        <rect x="53.1" y="18.2" width="1.4" height="1.4"/>
-        <rect x="48.8" y="18.2" width="1.4" height="1.4"/>
-        <rect x="57.5" y="33.9" fill="#000" width="1.4" height="1.4"/>
-        <rect x="53.1" y="33.9" fill="#000" width="1.4" height="1.4"/>
-        <rect x="48.8" y="33.9" fill="#000" width="1.4" height="1.4"/>
-        <line fill="none" stroke="#000" x1="4.4" y1="52.1" x2="76.6" y2="52.1"/>
-        <rect x="35.4" y="46.8" fill="#021E5C" stroke="#000" width="10.8" height="10.8"/>
-        <line fill="none" stroke="#000" x1="40.5" y1="46.5" x2="40.5" y2="41.1"/>
-        <line fill="none" stroke="#000" x1="18.6" y1="25" x2="62.6" y2="25"/>
+            <rect x="18.6" y="25" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1" />
+            <rect x="18.6" y="9" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1" />
+            <rect x="57.5" y="18.2" width="1.4" height="1.4" />
+            <rect x="53.1" y="18.2" width="1.4" height="1.4" />
+            <rect x="48.8" y="18.2" width="1.4" height="1.4" />
+            <rect x="57.5" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <rect x="53.1" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <rect x="48.8" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <line fill="none" stroke="#000" x1="4.4" y1="52.1" x2="76.6" y2="52.1" />
+            <rect x="35.4" y="46.8" fill="#021E5C" stroke="#000" width="10.8" height="10.8" />
+            <line fill="none" stroke="#000" x1="40.5" y1="46.5" x2="40.5" y2="41.1" />
+            <line fill="none" stroke="#000" x1="18.6" y1="25" x2="62.6" y2="25" />
         </svg>
-
     </section>
     <section class="dataset">
         <article class="dataset-container">
             <h2 class="dataset-title">ELECCIONES</h2>
             <div class="data-texto-container">
-                <p class="data-texto">Algunas mociones  se dividen por puntos. Este dataset contiene todas las votaciones que han generado las mociones.</p>
+                <p class="data-texto">Este dataset contiene todos los resultados por distrito electoral de las elecciones municipales de Zaragoza. Los datos por distrito electoral se empezaron a recoger en 1987. Solamente incluye los datos de Partido Popular, Partido Socialista Obrero Español y Chunta Aragonesista.</p>
                 <ul class="data-texto">
                     <li>
                         <strong>Fecha:</strong> el día en el que se realizo la votación
@@ -74,54 +76,107 @@
                     <li><strong></strong></li>
                 </ul>
             </div>
-            <img src="img/elecciones.png" alt="imagen que muestra el código del dataset de mociones" class="dataset-image">
+                    <div class="dataset-image">
+                        <pre>
+                            <code class="json">
+            var mociones = [
+                {
+                    "fecha": "27-07-2015",
+                    "presentada": "C'S",
+                    "resultado": "ganada",
+                    "a_favor": "PP + ZEC + PSOE + C'S + CHA",
+                    "votos_contra": 31,
+                    "unanimidad": "si",
+                    "numero": 30
+                },
+                {
+                    "fecha": "27-07-2015",
+                    "presentada": "ZEC",
+                    "resultado": "ganada",
+                    "a_favor": "PP + ZEC + PSOE + CHA",
+                    "abstencion": "C'S",
+                    "votos_favor": 25,
+                    "votos_abstencion": 4,
+                    "numero": 31
+                }
+            ]
+                            </code>
+                    </pre>
+                    </div>
         </article>
     </section>
     <section class="dataset">
         <article class="dataset-container">
             <h2 class="dataset-title">MOCIONES</h2>
             <div class="data-texto-container">
-                <p class="data-texto">Algunas mociones  se dividen por puntos. Este dataset contiene todas las votaciones que han generado las mociones.</p>
+                <p class="data-texto">Algunas mociones se dividen por puntos. Este dataset contiene todas las votaciones que han generado las mociones.</p>
                 <p class="data-texto">A continuación que representa cada valor del objeto:</p>
                 <ul class="data-texto">
-                    <li>
+                    <li class="data-texto-list">
                         <strong>Fecha:</strong> día en el que se realizo la votación
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>Presentada:</strong> partido político que presento la moción.
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>Resultado:</strong> ganada, perdida o retirada
                     </li>
-                    <li>
-                        <strong>unanimidad:</strong> solo aparece cuando la votación ha sido unanime
+                    <li class="data-texto-list">
+                        <strong>unanimidad:</strong> cuando la votación ha sido unanime
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>a_favor:</strong> partidos que votaron a favor en la votación
                     </li>
-                    <li>
-                        <strong>abstencion:</strong> partidos que se abstuvieron en la votación
+                    <li class="data-texto-list">
+                        <strong>abstencion:</strong> partidos que se abstuvieron
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>en_contra:</strong> partidos que votaron en contra
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>votos_favor:</strong> número de votos a favor
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>votos_contra:</strong> número de votos en contra
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>votos_abstencion:</strong> número de abstenciones
                     </li>
-                    <li>
+                    <li class="data-texto-list">
                         <strong>numero:</strong> número de la moción
                     </li>
                 </ul>
-            <a href="http://github" class="data-btn">DESCARGAR</a>
-            <a href="http://github" class="data-btn">RAW</a>
+                <a href="http://github" class="link-mocion link-mocion-ujarak data-btn">DESCARGAR</a>
+                <a href="http://github" class="link-mocion link-mocion-ujarak data-btn">RAW</a>
             </div>
-            <img src="img/mociones.png" alt="imagen que muestra el código del dataset de mociones" class="dataset-image">
+            <div class="dataset-image">
+                <pre>
+                    <code class="json">
+    var mociones = [
+        {
+            "fecha": "27-07-2015",
+            "presentada": "C'S",
+            "resultado": "ganada",
+            "a_favor": "PP + ZEC + PSOE + C'S + CHA",
+            "votos_contra": 31,
+            "unanimidad": "si",
+            "numero": 30
+        },
+        {
+            "fecha": "27-07-2015",
+            "presentada": "ZEC",
+            "resultado": "ganada",
+            "a_favor": "PP + ZEC + PSOE + CHA",
+            "abstencion": "C'S",
+            "votos_favor": 25,
+            "votos_abstencion": 4,
+            "numero": 31
+        }
+    ]
+                    </code>
+            </pre>
+            </div>
+            <!-- <img src="img/mociones.png" alt="imagen que muestra el código del dataset de mociones" class="dataset-image"> -->
         </article>
     </section>
     <footer class="footer">

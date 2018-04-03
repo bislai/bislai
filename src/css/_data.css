@@ -76,7 +76,7 @@
 }
 
 .dataset-container {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 5rem;
     font-size: 0;
 }
@@ -96,15 +96,27 @@
 /* stylelint-disable */
 
 .data-texto {
-    list-style-type: square;
+    list-style-type: none;
 }
 
 /* stylelint-enable */
+
+.data-texto-list {
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--grey);
+    &:first-child {
+        border-top: 1px solid var(--grey);
+    }
+}
 
 .dataset-image {
     display: inline-block;
     width: 50%;
     margin-left: 10%;
+    font-size: 1rem;
+    .hljs {
+        border-radius: 20px;
+    }
 }
 
 .data-btn {

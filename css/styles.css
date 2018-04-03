@@ -2294,7 +2294,7 @@ path.q2-3 {
     }
 
 .dataset-container {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 5rem;
     font-size: 0;
 }
@@ -2314,16 +2314,30 @@ path.q2-3 {
 /* stylelint-disable */
 
 .data-texto {
-    list-style-type: square;
+    list-style-type: none;
 }
 
 /* stylelint-enable */
+
+.data-texto-list {
+    padding: .5rem 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.data-texto-list:first-child {
+        border-top: 1px solid #efefef;
+    }
 
 .dataset-image {
     display: inline-block;
     width: 50%;
     margin-left: 10%;
+    font-size: 1rem;
 }
+
+.dataset-image .hljs {
+        border-radius: 20px;
+    }
 
 .data-btn {
     margin-top: 1rem;
