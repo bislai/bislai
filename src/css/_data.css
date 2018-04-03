@@ -7,16 +7,22 @@
 }
 
 .data-figura {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     position: absolute;
-    right: 5rem;
+    right: 0;
     top: 5rem;
     border-radius: 40%;
     z-index: 2;
     background-color: var(--data);
     transform: rotate(45deg);
     animation: rotacion 10000ms linear infinite;
+}
+
+.data-figura-dos {
+    background-color: var(--bgcHeader);
+    animation: rotacion 9000ms linear infinite;
+    z-index: 1;
 }
 
 @keyframes rotacion {
@@ -62,7 +68,7 @@
     width: 10rem;
     height: 10rem;
     position: absolute;
-    top: 9rem;
+    top: 15rem;
     right: 10rem;
     z-index: 2;
 }

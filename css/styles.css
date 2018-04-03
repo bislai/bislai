@@ -2221,16 +2221,22 @@ path.q2-3 {
 }
 
 .data-figura {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
     position: absolute;
-    right: 5rem;
+    right: 0;
     top: 5rem;
     border-radius: 40%;
     z-index: 2;
     background-color: #EFF6FC;
     transform: rotate(45deg);
     animation: rotacion 10000ms linear infinite;
+}
+
+.data-figura-dos {
+    background-color: #021e5c;
+    animation: rotacion 9000ms linear infinite;
+    z-index: 1;
 }
 
 @keyframes rotacion {
@@ -2279,7 +2285,7 @@ path.q2-3 {
     width: 10rem;
     height: 10rem;
     position: absolute;
-    top: 9rem;
+    top: 15rem;
     right: 10rem;
     z-index: 2;
 }
