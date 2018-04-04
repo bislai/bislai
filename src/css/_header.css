@@ -23,11 +23,3 @@
     color: var(--white);
     position: relative;
 }
-
-@media only screen and (min-width: 48em) {
-
-    .nav-grid-second-link {
-        letter-spacing: .125rem;
-    }
-
-}
