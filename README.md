@@ -1,6 +1,6 @@
 # Bislai
 
-![logotipo](img/BISLAI.png){:width="150px"}
+![logotipo](img/BISLAI.png)
 
 Mostramos de una manera más accesible las propuestas y acuerdos que toman los partidos políticos en el Ayuntamiento de Zaragoza.
 
