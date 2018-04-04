@@ -169,17 +169,17 @@ var primera = c3.generate({
 //Mocion 9
 var primera = c3.generate({
     data: {
-            columns: [
-                ["A favor: PP + PSOE + C'S", 19],
-                ["En contra: ZEC", 8],
-                ["Abstención: CHA", 2]
-            ],
-            type: 'pie'
-        },
-        color: {
-            pattern: ['#209F69', '#D01F2E', '#D7E4E4']
-        },
-        bindto: '#mocion9'
+        columns: [
+            ["A favor: PP + PSOE + C'S", 19],
+            ["En contra: ZEC", 8],
+            ["Abstención: CHA", 2]
+        ],
+        type: 'pie'
+    },
+    color: {
+        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+    },
+    bindto: '#mocion9'
 });
 
 //Moción 9-2
@@ -227,17 +227,17 @@ var primera = c3.generate({
 //Moción 11
 var primera = c3.generate({
     data: {
-                columns: [
-                    ["A favor: ZEC + PSOE + CHA", 16],
-                    ["En contra: PP", 9],
-                    ["Abstención: C'S", 3]
-                ],
-                type: 'pie'
-            },
-            color: {
-                pattern: ['#209F69', '#D01F2E', '#D7E4E4']
-            },
-            bindto: '#mocion11'
+        columns: [
+            ["A favor: PP", 9],
+            ["En contra: ZEC + PSOE + CHA", 16],
+            ["Abstención: C'S", 3]
+        ],
+        type: 'pie'
+    },
+    color: {
+        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+    },
+    bindto: '#mocion11'
 });
 
 //Moción 12
@@ -271,15 +271,15 @@ var primera = c3.generate({
 //Moción 14
 var primera = c3.generate({
     data: {
-           columns: [
-               ["A favor: PP + PSOE + C'S + CHA", 20],
-               ["En contra: ZEC", 9]
-           ],
-           type: 'pie'
-       },
-       color: {
-           pattern: ['#209F69', '#D01F2E']
-       },
+        columns: [
+            ["A favor: PP + PSOE + C'S + CHA", 20],
+            ["En contra: ZEC", 9]
+        ],
+        type: 'pie'
+    },
+    color: {
+        pattern: ['#209F69', '#D01F2E']
+    },
     bindto: '#mocion14'
 });
 
@@ -310,4 +310,3 @@ var primera = c3.generate({
     },
     bindto: '#mocion16'
 });
-
