@@ -319,7 +319,7 @@ body {
 
 .nav-grid {
     display: grid;
-    grid-template-columns: 10% 1fr 25%;
+    grid-template-columns: 10% 1fr 30%;
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
@@ -2144,14 +2144,6 @@ path.q2-3 {
     position: relative;
 }
 
-@media only screen and (min-width: 48em) {
-
-    .nav-grid-second-link {
-        letter-spacing: .125rem;
-    }
-
-}
-
 .contenedor-buscador {
     padding: .5rem 0;
 }
@@ -2210,6 +2202,210 @@ path.q2-3 {
         padding: 4rem 0;
     }
 
+}
+
+.data {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0;
+    position: relative;
+    font-size: 0;
+}
+
+.data-figura {
+    display: none;
+}
+
+.data-header-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.data-titulo {
+    font-size: 3rem;
+    font-family: "Fjalla One", sans-serif;
+    margin: 0;
+}
+
+.data-titulo:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 3rem;
+        background-color: #021e5c;
+    }
+
+.data-texto {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 30rem;
+    display: block;
+    list-style-type: none;
+}
+
+.data-texto + .data-texto {
+        margin-top: 0;
+    }
+
+.data-icon {
+    display: none;
+}
+
+.dataset {
+    background-color: #EFF6FC;
+    padding: 2rem 1rem;
+}
+
+.dataset:nth-child(2n) {
+        background-color: #fff;
+    }
+
+.dataset-container {
+    max-width: 100%;
+}
+
+.dataset-title {
+    font-size: 2rem;
+    font-family: "Fjalla One", sans-serif;
+    margin: 0;
+}
+
+.dataset-label {
+    padding: .5rem;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: #021e5c;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dataset-label:not(:last-child) {
+        margin-right: .5rem;
+    }
+
+.data-texto-container {
+    width: 100%;
+}
+
+.data-texto-list {
+    padding: 1rem 0;
+    border-bottom: 1px solid #021e5c;
+}
+
+.data-texto-list:first-child {
+        border-top: 1px solid #021e5c;
+    }
+
+.dataset-image {
+    width: 100%;
+    font-size: .8rem;
+}
+
+.dataset-image .hljs {
+        border-radius: 20px;
+    }
+
+.data-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #121;
+    border-radius: 5px;
+    background-color: #46E3CF;
+    text-decoration: none;
+}
+
+.data-btn:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+@media only screen and (min-width: 48em) {
+
+    .data-titulo {
+        font-size: 6rem;
+    }
+
+    .dataset-title {
+        font-size: 4rem;
+    }
+
+    .data-figura {
+        display: inline-block;
+        width: 30rem;
+        height: 30rem;
+        position: absolute;
+        right: 0;
+        top: 5rem;
+        border-radius: 40%;
+        z-index: 2;
+        background-color: #EFF6FC;
+        transform: rotate(45deg);
+        animation: rotacion 10000ms linear infinite;
+    }
+
+    .data-figura-dos {
+        background-color: #021e5c;
+        animation: rotacion 9000ms linear infinite;
+        z-index: 1;
+
+    }
+
+    @keyframes rotacion {
+
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+
+    }
+
+    .data-icon {
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        top: 15rem;
+        right: 10rem;
+        z-index: 2;
+    }
+
+    .dataset-container {
+        max-width: 90%;
+        margin: 0 5rem;
+        font-size: 0;
+    }
+
+    .data-texto-container {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .dataset {
+        padding: 2rem;
+    }
+
+    .dataset-image {
+        display: inline-block;
+        width: 50%;
+        margin-left: 10%;
+        max-width: 40rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+    .data {
+        width: 70rem;
+        padding: 5rem 2rem;
+        margin: 0 5rem;
+    }
 }
 
 .maw-70 {
