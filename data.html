@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Bislai - data </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
+</head>
+
+<body class="mih-100">
+    <header class="header">
+        <nav class="nav-grid">
+            <a href="http://bislai.co" class="link display-ib nav-grid-first"><span class="link-name">BISLAI</span></a>
+            <div class="contenedor-buscador">
+                <form action="/buscador">
+                    <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                    <button class="btn-search" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="nav-grid-second display-ib--m">
+    <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
+    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
+    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">DATOS</span></a>
+</div>
+        </nav>
+    </header>
+    <section class="data">
+        <div class="data-figura"></div>
+        <div class="data-figura data-figura-dos"></div>
+        <div class="data-header-container">
+            <h2 class="data-titulo">DATOS</h2>
+            <p class="data-texto">Conforme he ido desarrollando <strong>BISLAI</strong> he ido generando más y más datos. Algunos datos que he obtenido de organismos oficiales los he convertido y filtrado a formatos más amigables como JSON y CSV.</p>
+            <p class="data-texto"><strong>Es hora de compartir lo recolectado.</strong></p>
+            <p class="data-texto"><strong>Todos los datasets están bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</strong></p>
+
+            <a href="https://github.com/bislai/datasets/" class="link-mocion link-mocion-ujarak data-btn">REPOSITORIO GITHUB</a>
+        </div>
+        <svg class="data-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.8 62.8">
+            <rect x="18.6" y="25" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1" />
+            <rect x="18.6" y="9" fill="#3BE4CF" stroke="#000" width="43.9" height="16.1" />
+            <rect x="57.5" y="18.2" width="1.4" height="1.4" />
+            <rect x="53.1" y="18.2" width="1.4" height="1.4" />
+            <rect x="48.8" y="18.2" width="1.4" height="1.4" />
+            <rect x="57.5" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <rect x="53.1" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <rect x="48.8" y="33.9" fill="#000" width="1.4" height="1.4" />
+            <line fill="none" stroke="#000" x1="4.4" y1="52.1" x2="76.6" y2="52.1" />
+            <rect x="35.4" y="46.8" fill="#021E5C" stroke="#000" width="10.8" height="10.8" />
+            <line fill="none" stroke="#000" x1="40.5" y1="46.5" x2="40.5" y2="41.1" />
+            <line fill="none" stroke="#000" x1="18.6" y1="25" x2="62.6" y2="25" />
+        </svg>
+    </section>
+    <section class="dataset">
+        <article class="dataset-container">
+            <h2 class="dataset-title">ELECCIONES</h2>
+            <div class="data-texto-container">
+                <span class="dataset-label">JSON</span>
+                <span class="dataset-label">CSV</span>
+                <p class="data-texto">Este dataset contiene todos los resultados por distrito electoral de las elecciones municipales de Zaragoza. Los datos por distrito electoral se empezaron a recoger en 1987. Solamente incluye los datos de Partido Popular, Partido Socialista Obrero Español y Chunta Aragonesista.</p>
+                <ul class="data-texto">
+                    <li class="data-texto-list">
+                        <strong>Nombre:</strong> nombre del distrito electoral
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>Votos:</strong> número de votos
+                    </li>
+                    <li class="data-texto-list"><strong>Porcentaje:</strong> porcentaje de votos</li>
+                </ul>
+                <a href="https://github.com/bislai/datasets/tree/master/elecciones-distrito-1987-2015" class="link-mocion link-mocion-ujarak data-btn">GITHUB</a>
+                <a href="https://github.com/bislai/datasets/blob/master/elecciones-distrito-1987-2015/elecciones-csv.zip" class="link-mocion link-mocion-ujarak data-btn">CSV</a>
+                <a href="https://github.com/bislai/datasets/blob/master/elecciones-distrito-1987-2015/elecciones-json.zip" class="link-mocion link-mocion-ujarak data-btn">JSON</a>
+            </div>
+                    <div class="dataset-image">
+                        <pre>
+                            <code class="json">
+    var elecciones = [{
+        "2015": {
+            "partidos": {
+                "psoe": {
+                    "distritos": [{
+                            "nombre": "Actur-Arrabal",
+                            "votos": "13480",
+                            "porcentaje": "20.28%"
+                        },
+                        {
+                            "nombre": "Aljafería",
+                            "votos": "3064",
+                            "porcentaje": "22.59%"
+                        },
+                        ]
+                    }
+                }
+            }
+        }]
+                            </code>
+                    </pre>
+                    </div>
+        </article>
+    </section>
+    <section class="dataset">
+        <article class="dataset-container">
+            <h2 class="dataset-title">MOCIONES</h2>
+            <div class="data-texto-container">
+                <span class="dataset-label">JSON</span>
+                <p class="data-texto">Algunas mociones se dividen por puntos. Este dataset contiene todas las votaciones que han generado las mociones.</p>
+                <p class="data-texto">A continuación que representa cada valor del objeto:</p>
+                <ul class="data-texto">
+                    <li class="data-texto-list">
+                        <strong>Fecha:</strong> día en el que se realizo la votación
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>Presentada:</strong> partido político que presento la moción.
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>Resultado:</strong> ganada, perdida o retirada
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>unanimidad:</strong> cuando la votación ha sido unanime
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>a_favor:</strong> partidos que votaron a favor en la votación
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>abstencion:</strong> partidos que se abstuvieron
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>en_contra:</strong> partidos que votaron en contra
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>votos_favor:</strong> número de votos a favor
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>votos_contra:</strong> número de votos en contra
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>votos_abstencion:</strong> número de abstenciones
+                    </li>
+                    <li class="data-texto-list">
+                        <strong>numero:</strong> número de la moción
+                    </li>
+                </ul>
+                <a href="https://github.com/bislai/datasets/tree/master/mociones" class="link-mocion link-mocion-ujarak data-btn">GITHUB</a>
+                <a href="https://raw.githubusercontent.com/bislai/datasets/master/mociones/mociones.json" class="link-mocion link-mocion-ujarak data-btn">RAW</a>
+            </div>
+            <div class="dataset-image">
+                <pre>
+                    <code class="json">
+    var mociones = [
+        {
+            "fecha": "27-07-2015",
+            "presentada": "C'S",
+            "resultado": "ganada",
+            "unanimidad": "si",
+            "numero": 30
+        },
+        {
+            "fecha": "27-07-2015",
+            "presentada": "ZEC",
+            "resultado": "ganada",
+            "a_favor": "PP + ZEC + PSOE + CHA",
+            "abstencion": "C'S",
+            "votos_favor": 25,
+            "votos_abstencion": 4,
+            "numero": 31
+        }
+    ]
+                    </code>
+            </pre>
+            </div>
+        </article>
+    </section>
+    <footer class="footer">
+        <div class="maw-60 grid-footer">
+            <a class="grid-footer-links" href="/">BISLAI · ACCESIBILIDAD POLÍTICA</a>
+            <a class="grid-footer-links" href="/creditos">CRÉDITOS</a>
+            <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
+            <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
+        </div>
+        <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+        <p class="maw-60 padding-1-0">© 2018 - Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
+        </div>
+    </footer>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-92751500-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
