@@ -4765,9 +4765,9 @@ var mociones = [
 {
     "fecha": "26-03-2018",
     "presentada": "PP",
-    "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + CHA",
-    "en_contra": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP",
+    "en_contra": "ZEC + PSOE + CHA",
     "abstencion": "C'S",
     "votos_favor": 16,
     "votos_contra": 9,
