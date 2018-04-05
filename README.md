@@ -4,7 +4,7 @@
 
 Mostramos de una manera más accesible las propuestas y acuerdos que toman los partidos políticos en el Ayuntamiento de Zaragoza.
 
-![plenos](img/plenos.gif)
+![portada](img/portada.png)
 
 # Que vas a encontrar en Bislai
 
@@ -31,7 +31,7 @@ Busca en todos los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?
 
 El resultado de cada una de las votaciones contiene un gráfica personalizada
 
-![plenos](img/plenos-individuales.gif)
+![plenos](img/grafica-mocion.png)
 
 ## Estadísticas
 
@@ -48,7 +48,7 @@ Un mapa que muestra los resultados de cada partido por distrito electoral desde 
 
 Una gráfica por distrito que muestra los resultados desde 1987 hasta 2015
 
-![graficas](img/graficas.gif)
+![graficas](img/graficas.png)
 
 ## Autores
 
