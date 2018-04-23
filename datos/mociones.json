@@ -1333,6 +1333,16 @@ var mociones = [
     "numero": 15
 },
 {
+    "fecha": "26-02-2016",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_contra": 10,
+    "votos_favor": 21,
+    "numero": 16
+},
+{
     "fecha": "23-03-2016",
     "presentada": "C'S",
     "resultado": "ganada",

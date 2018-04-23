@@ -173,3 +173,18 @@ var primera = c3.generate({
     },
      bindto: '#mocion15'
 });
+
+//Moción 16
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["A favor: ZEC + PSOE + C'S + CHA", 21],
+            ["En contra: PP", 10]
+        ],
+        type : 'pie'
+    },
+    color: {
+      pattern: ['#209F69', '#D01F2E']
+    },
+     bindto: '#mocion16'
+});
