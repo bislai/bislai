@@ -10,7 +10,7 @@ var primera = c3.generate({
     color: {
       pattern: ['#209F69', '#D01F2E']
     },
-     bindto: '#mocion2-1'
+     bindto: '#mocion2'
 });
 
 //Moción 2-2
