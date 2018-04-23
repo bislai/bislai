@@ -252,32 +252,17 @@ var primera = c3.generate({
     bindto: '#mocion16-2'
 });
 
-//Mocion 17
-var primera = c3.generate({
-    data: {
-        columns: [
-            ["A favor: ZEC + CHA", 10],
-            ["En contra: PP + PSOE + C'S", 20]
-        ],
-        type: 'pie'
-    },
-    color: {
-        pattern: ['#209F69' , '#D01F2E']
-    },
-    bindto: '#mocion17'
-});
-
 //Mocion 18
 var primera = c3.generate({
     data: {
         columns: [
-            ["A favor: PP + PSOE + C'S + CHA", 22],
-            ["Abstención: ZEC", 8]
+            ["A favor: PP + PSOE + C'S + CHA", 20],
+            ["Abstención: ZEC", 7]
         ],
         type: 'pie'
     },
     color: {
         pattern: ['#209F69', '#D7E4E4']
     },
-    bindto: '#mocion18'
+    bindto: '#mocion17'
 });
