@@ -238,6 +238,20 @@ var primera = c3.generate({
     bindto: '#mocion16'
 });
 
+//Mocion 162
+var primera = c3.generate({
+    data: {
+        columns: [
+            ["Unanimidad", 31]
+        ],
+        type: 'pie'
+    },
+    color: {
+        pattern: ['#209F69']
+    },
+    bindto: '#mocion16-2'
+});
+
 //Mocion 17
 var primera = c3.generate({
     data: {
