@@ -1671,11 +1671,25 @@ path.q2-3 {
     margin-top: 1rem;
 }
 
+.maw-50 {
+    max-width: 50rem;
+}
+
 @media only screen and (min-width: 48em) {
 
     .label-record {
         font-size: 3rem;
         padding: 1rem 2rem;
+    }
+
+    .maw-60 {
+      max-width: 60vw;
+      margin: 0 auto;
+    }
+
+    .maw-70 {
+      max-width: 70vw;
+      margin: 0 auto;
     }
 
 }
