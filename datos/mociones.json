@@ -1333,6 +1333,16 @@ var mociones = [
     "numero": 15
 },
 {
+    "fecha": "26-02-2016",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_contra": 10,
+    "votos_favor": 21,
+    "numero": 16
+},
+{
     "fecha": "23-03-2016",
     "presentada": "C'S",
     "resultado": "ganada",
@@ -2912,8 +2922,8 @@ var mociones = [
     "fecha": "24-02-2017",
     "presentada": "CHA",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + C'S + CHA",
-    "abstencion": "PP",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "abstencion": "ZEC",
     "votos_favor": 21,
     "votos_abstencion": 9,
     "numero": 7
@@ -2992,13 +3002,6 @@ var mociones = [
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 2
-},
-{
-    "fecha": "31-03-2017",
-    "presentada": "C'S",
-    "resultado": "ganada",
-    "unanimidad": "si",
-    "numero": 22
 },
 {
     "fecha": "31-03-2017",
@@ -3181,8 +3184,8 @@ var mociones = [
     "resultado": "perdida",
     "a_favor": "PP + C'S",
     "en_contra": "ZEC + PSOE + CHA",
-    "votos_favor": 16,
-    "votos_contra": 11,
+    "votos_favor": 14,
+    "votos_contra": 16,
     "numero": 15
 },
 {
@@ -3395,8 +3398,8 @@ var mociones = [
     "fecha": "28-04-2017",
     "presentada": "C'S",
     "resultado": "ganada",
-    "a_favor": "PP + PSOE + C'S",
-    "en_contra": "ZEC + CHA",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
     "votos_favor": 20,
     "votos_contra": 10,
     "numero": 33
@@ -3426,6 +3429,16 @@ var mociones = [
     "votos_favor": 14,
     "votos_contra": 16,
     "numero": 36
+},
+{
+    "fecha": "28-04-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 37
 },
 {
     "fecha": "02-06-2017",
@@ -4223,6 +4236,16 @@ var mociones = [
     "numero": 47
 },
 {
+    "fecha": "30-10-2017",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 20,
+    "votos_contra": 11,
+    "numero": 48
+},
+{
     "fecha": "24-11-2017",
     "presentada": "C'S",
     "resultado": "ganada",
@@ -4809,8 +4832,9 @@ var mociones = [
     "fecha": "26-03-2018",
     "presentada": "C'S",
     "resultado": "ganada",
-    "unanimidad": "si",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_abstencion": 10,
     "numero": 16
 }]
-
-console.log(mociones[0].resultado)

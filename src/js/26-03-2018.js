@@ -301,12 +301,13 @@ var primera = c3.generate({
 var primera = c3.generate({
     data: {
         columns: [
-            ["Unanimidad", 31]
+            ["A favor: PP + PSOE + C'S", 19],
+            ["Abstención: ZEC + CHA", 10]
         ],
         type: 'pie'
     },
     color: {
-        pattern: ['#209F69']
+        pattern: ['#209F69', '#D7E4E4']
     },
     bindto: '#mocion16'
 });

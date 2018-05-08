@@ -207,12 +207,12 @@ var primera = c3.generate({
     data: {
         columns: [
            ["A favor: ZEC + PSOE + C'S + CHA", 21],
-           ["En contra:  PP", 10]
+           ["Abstención:  PP", 10]
         ],
         type : 'pie'
     },
     color: {
-      pattern: ['#209F69', '#D01F2E']
+      pattern: ['#209F69', '<div id="D7E4E4"></div>']
     },
      bindto: '#mocion12'
 });
