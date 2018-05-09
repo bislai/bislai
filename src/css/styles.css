@@ -1,8 +1,3 @@
-/*
-  Astral 0.1b CSS toolkit por Jorge Aznar
-  http://jorgeatgu.com
-*/
-
 @import "_reset";
 @import "_variables";
 @import "_comun";
@@ -11,21 +6,7 @@
 @import "_buscador";
 @import "_footer";
 @import "_data";
-@import "_width";
 @import "_color";
-@import "_display";
 @import "_fonts";
-@import "_margin";
-@import "_textalign";
-@import "_vertical-align";
-@import "_weight";
-@import "_padding";
-@import "_border";
-@import "_height";
-@import "_position";
-@import "_float";
-@import "_hover";
-@import "_letter-spacing";
-@import "_box-shadow";
 @import "_partidos";
 @import "_distritos";

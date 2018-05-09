@@ -22,4 +22,5 @@
     font-family: var(--fontBislai);
     color: var(--white);
     position: relative;
+    text-decoration: none;
 }
