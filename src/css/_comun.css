@@ -22,8 +22,8 @@ body {
     font-family: var(--fontBislai);
 }
 
-.cursor-p {
-    cursor: pointer;
+.mih-100 {
+    min-height: 100vh;
 }
 
 .nav-grid {
@@ -38,6 +38,7 @@ body {
 .nav-grid-first {
     display: inline-grid;
     justify-self: start;
+    text-decoration: none;
     .link-name {
         font-size: 2rem;
     }
@@ -72,23 +73,8 @@ body {
     }
 }
 
-.whs-nw {
-    white-space: nowrap;
-}
-
-.textd-u {
-    text-decoration: underline;
-}
-
-.textd-n {
-    text-decoration: none;
-}
-
-.zi-10 {
-    z-index: 10;
-}
-
 /* ESTILOS C3 */
+
 
 /* stylelint-disable */
 
@@ -283,6 +269,7 @@ body {
 
 
 
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -297,6 +284,7 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
 
 
 
@@ -339,6 +327,7 @@ http://www.tipue.com/search
 
 
 
+
 /* search box */
 
 #tipue_search_input {
@@ -367,6 +356,7 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
 
 
 
@@ -627,6 +617,7 @@ http://www.tipue.com/search
 
 
 
+
 /* stylelint-enable */
 
 .background {
@@ -744,6 +735,7 @@ path.q2-3 {
     }
 }
 
+
 /* stylelint-disable */
 
 .tooltipLeyenda,
@@ -780,6 +772,7 @@ path.q2-3 {
 
 
 
+
 /* stylelint-enable */
 
 .container-tooltip-leyenda {
@@ -791,6 +784,7 @@ path.q2-3 {
     padding: .5rem 1rem;
 }
 
+
 /* stylelint-disable */
 
 .tooltipLeyenda {
@@ -799,7 +793,7 @@ path.q2-3 {
     display: block;
     margin: 0;
     font-size: 1rem;
-    + p {
+    +p {
         display: none;
     }
 }
@@ -912,6 +906,7 @@ path.q2-3 {
         background-color: rgba(255, 255, 255, .8);
     }
 }
+
 
 
 
@@ -1284,18 +1279,6 @@ path.q2-3 {
     }
 }
 
-.tabs {
-    transition: all .3s ease-in;
-}
-
-.tabs-title {
-    font-size: 2.5rem;
-    padding: 1rem 2rem;
-    color: var(--white);
-    background-color: var(--pureblack);
-    font-weight: normal;
-}
-
 #chart {
     max-width: 50vw;
     width: 50vw;
@@ -1484,53 +1467,6 @@ path.q2-3 {
             }
         }
     }
-
-}
-
-@media only screen and (max-width: 46em) {
-
-    .bislai-home-body-left-text {
-        left: 10px;
-        top: 20vh;
-    }
-
-    .column {
-        height: auto;
-        &:after {
-            height: 25%;
-        }
-    }
-
-    .bislai-home-card-title {
-        font-size: 1rem;
-    }
-
-    .bislai-home-card {
-        position: static;
-        &:not(:last-child) {
-            margin-right: 0;
-        }
-    }
-
-    .bislai-home-card-element {
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        min-height: auto;
-        border-radius: 0;
-    }
-
-    .bislai-home-card-element-text {
-        max-width: 100%;
-    }
-
-    .bislai-home-body-right {
-        top: 40%;
-        max-width: 90%;
-        padding: 1rem;
-        margin: 0 auto;
-    }
-
 }
 
 .link-name {
@@ -1592,6 +1528,7 @@ path.q2-3 {
     -webkit-transition: border-color .4s, color .4s;
     transition: border-color .4s, color .4s;
 }
+
 .link-mocion-ujarak:before {
     content: '';
     position: absolute;
@@ -1616,34 +1553,19 @@ path.q2-3 {
     -webkit-transition-timing-function: cubic-bezier(.2, 1, .3, 1);
     transition-timing-function: cubic-bezier(.2, 1, .3, 1);
 }
+
 .link-mocion-ujarak:hover {
     color: #fff;
     border-radius: 5px;
     border-color: hsl(171, 66%, 38%);
 }
+
 .link-mocion-ujarak:hover:before {
     opacity: 1;
     border-radius: 5px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-
-/* stylelint-disable */
-
-.tp-plenos {
-    .bgc-header-home {
-        &:hover {
-            transition: all ease-in-out .3s;
-            background-color: hsl(221, 76%, 38%);
-            svg {
-                transition: all ease-in-out .3s;
-                transform: scale(1.25);
-            }
-        }
-    }
-}
-
-/* stylelint-enable */
 
 .error {
     display: flex;
@@ -1675,6 +1597,27 @@ path.q2-3 {
     max-width: 50rem;
 }
 
+.calendario-plenos {
+    padding: 1rem;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    background-color: #efefef;
+    min-height: 100vh;
+}
+
+.calendario-plenos-titulo {
+    font-size: 1.5rem;
+    font-family: var(--fontBislai);
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    color: var(--white);
+    background-color: var(--pureblack);
+}
+
+.calendario-plenos-texto {
+    margin: 1rem 0 2rem;
+}
+
 @media only screen and (min-width: 48em) {
 
     .label-record {
@@ -1682,14 +1625,70 @@ path.q2-3 {
         padding: 1rem 2rem;
     }
 
+    .calendario-plenos {
+        padding: 4rem 0;
+    }
+
+    .calendario-plenos-titulo {
+        font-size: 2.5rem;
+    }
+
     .maw-60 {
-      max-width: 60vw;
-      margin: 0 auto;
+        max-width: 60vw;
+        margin: 0 auto;
     }
 
     .maw-70 {
-      max-width: 70vw;
-      margin: 0 auto;
+        max-width: 70vw;
+        margin: 0 auto;
     }
 
+    .calendario-plenos-texto {
+        margin: 2rem auto;
+    }
+}
+
+@media only screen and (max-width: 46em) {
+
+    .bislai-home-body-left-text {
+        left: 10px;
+        top: 20vh;
+    }
+
+    .column {
+        height: auto;
+        &:after {
+            height: 25%;
+        }
+    }
+
+    .bislai-home-card-title {
+        font-size: 1rem;
+    }
+
+    .bislai-home-card {
+        position: static;
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+    }
+
+    .bislai-home-card-element {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        min-height: auto;
+        border-radius: 0;
+    }
+
+    .bislai-home-card-element-text {
+        max-width: 100%;
+    }
+
+    .bislai-home-body-right {
+        top: 40%;
+        max-width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
 }

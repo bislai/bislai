@@ -52,10 +52,17 @@
     color: var(--bunting);
     font-weight: 600;
     text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.mocion-retirada {
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
 }
 
 .titulo-plenos {
-    border-left: 10px solid #e30613;
+    border-left: 5px solid #e30613;
     padding-left: 1rem;
     margin: 0;
     font-size: 1rem;
@@ -118,16 +125,14 @@
 
     .titulo-plenos {
         font-size: 2rem;
+        border-width: 10px;
     }
 
 }
 
 @media only screen and (min-width: 64em) {
 
-    .contenedor-plenos {
-        padding: 1rem 0;
-    }
-
+    .contenedor-plenos,
     .contenedor-plenos-btn {
         padding: 2rem 0;
     }
