@@ -1290,6 +1290,14 @@ path.q2-3 {
     z-index: 10;
 }
 
+.bislai-home-body-left-text.bislai-stats {
+        background-color: #ffd474;
+    }
+
+.bislai-home-body-left-text.bislai-stats .bislai-home-body-left-text-white {
+            color: #121;
+        }
+
 .bislai-home-body-left-text-white {
     font-size: 2.5rem;
     padding: 1rem 2rem;
@@ -1297,6 +1305,7 @@ path.q2-3 {
     display: inline-block;
     vertical-align: middle;
     max-width: 30rem;
+    font-weight: bold;
 }
 
 .bislai-home-body-left-container {
@@ -1676,6 +1685,15 @@ path.q2-3 {
     padding: 1rem;
     width: 100%;
     font-family: "Fjalla One", sans-serif;
+}
+
+.bislai-stats-card-element {
+    position: absolute;
+    top: 15.7rem;
+    z-index: 10;
+    left: 16.25vw;
+    background: #fff;
+    padding: 2rem;
 }
 
 .navegacion-plenos {
