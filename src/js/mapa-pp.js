@@ -101,7 +101,7 @@ function distritoElectoralPP() {
         .tickSize(-width)
         .orient("left")
 
-    d3.csv("datos/elecciones-distrito-pp.csv", function(err, data) {
+    d3.csv("datos/elecciones/elecciones-distrito-pp.csv", function(err, data) {
 
         datos = data;
         datos.forEach(function(d) {

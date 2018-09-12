@@ -13,9 +13,6 @@
     .nav-grid {
         grid-template-columns: 10% 1fr;
     }
-    .link-name {
-        color: var(--white);
-    }
 }
 
 .nav-grid-second-link {

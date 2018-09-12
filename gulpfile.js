@@ -17,13 +17,14 @@ notify = require('gulp-notify');
 stylelint = require('stylelint');
 browserSync = require('browser-sync');
 
-
 gulp.task("browserSync", function() {
-  browserSync({
-    server: {
-      baseDir: "./"
-    }
-  })
+    browserSync({
+        server: {
+            baseDir: "./",
+            reloadDelay: 200
+        },
+        online: true
+    })
 });
 
 /* Variables */

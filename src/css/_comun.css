@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
@@ -72,6 +70,8 @@ body {
         }
     }
 }
+
+
 
 /* ESTILOS C3 */
 
@@ -270,6 +270,8 @@ body {
 
 
 
+
+
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -284,6 +286,8 @@ body {
     font-weight: bold !important;
     font-family: var(--fontSystem);
 }
+
+
 
 
 
@@ -328,6 +332,8 @@ http://www.tipue.com/search
 
 
 
+
+
 /* search box */
 
 #tipue_search_input {
@@ -356,6 +362,8 @@ http://www.tipue.com/search
 .tipue_search_right {
     float: left;
 }
+
+
 
 
 
@@ -618,6 +626,8 @@ http://www.tipue.com/search
 
 
 
+
+
 /* stylelint-enable */
 
 .background {
@@ -709,7 +719,7 @@ path.q2-3 {
     &:first-child {
         margin-top: 0;
     }
-    + p {
+    +p {
         display: none;
     }
     span {
@@ -734,6 +744,8 @@ path.q2-3 {
         }
     }
 }
+
+
 
 
 /* stylelint-disable */
@@ -773,6 +785,8 @@ path.q2-3 {
 
 
 
+
+
 /* stylelint-enable */
 
 .container-tooltip-leyenda {
@@ -783,6 +797,8 @@ path.q2-3 {
 .container-tooltip-partido {
     padding: .5rem 1rem;
 }
+
+
 
 
 /* stylelint-disable */
@@ -910,6 +926,8 @@ path.q2-3 {
 
 
 
+
+
 /* stylelint-enable */
 
 .mapa-container {
@@ -985,11 +1003,6 @@ path.q2-3 {
     vertical-align: middle;
     padding: 1rem 2rem;
     background-color: var(--yellow);
-}
-
-.bislai-icon {
-    display: block;
-    width: 2rem;
 }
 
 .bislai-home-card {
@@ -1239,11 +1252,144 @@ path.q2-3 {
 }
 
 .column {
-    position: relative;
-    padding: .5rem;
-    transition: all ease-in-out .3s;
-    color: rgba(0, 0, 0, .75);
     height: 100vh;
+    position: relative;
+    background-color: var(--data);
+}
+
+.home-position-container {
+    position: absolute;
+    left: 30vw;
+    top: 10vw;
+    width: 50vw;
+    &.home-position-container-stats {
+        .home-position-container-claim {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            top: 20%;
+            background-color: #70e8b3;
+            color: var(--black);
+        }
+        .bislai-icon {
+            background-color: transparent;
+            padding: 1rem;
+        }
+        .home-position-container-title {
+            color: var(--black);
+        }
+    }
+}
+
+.home-cite-container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.home-cite {
+    font-family: var(--fontFair);
+    font-size: 1rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 2rem;
+    position: relative;
+}
+
+.home-cite-quote {
+    display: inline-block;
+    font-size: 6rem;
+    margin-right: 1rem;
+    font-family: var(--fontFair);
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+}
+
+.home-cite-aaron {
+    font-size: .75rem;
+    margin: .25rem 0;
+    display: block;
+    font-family: var(--fontPlex);
+    &:before {
+        content: '';
+        width: .5rem;
+        height: 1px;
+        margin-right: .25rem;
+        display: inline-block;
+        background-color: var(--black);
+        vertical-align: middle;
+    }
+}
+
+.bislai-icon {
+    width: max-content;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--yellow);
+    svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+.home-position-container-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--white);
+    display: block;
+    font-family: var(--fontBislai);
+}
+
+.home-position-container-claim,
+.home-position-container-search {
+    background-color: #060429;
+    color: var(--white);
+    position: absolute;
+    left: -30%;
+    padding: 6rem 2rem;
+    width: 25rem;
+    top: 6%;
+    line-height: 1.4;
+}
+
+.home-position-container-claim {
+    padding-bottom: 1rem;
+    .contenedor-buscador {
+        font-size: 0;
+        max-width: 100%;
+        #tipue_search_input {
+            background-color: var(--white);
+        }
+    }
+}
+
+.home-position-container-text {
+    font-size: 1rem;
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.home-position-container-search {
+    padding: 2rem;
+    background-color: #3c365f;
+    left: auto;
+    right: -15vw;
+    bottom: -5vw;
+    top: auto;
+    .home-position-container-title {
+        margin: 0;
+    }
+}
+
+.home-image-effect {
+    color: rgba(0, 0, 0, .75);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
     &:after {
         content: '';
         position: absolute;
@@ -1251,39 +1397,38 @@ path.q2-3 {
         height: 100%;
         top: 0;
         left: 0;
+        transition: all ease-in-out .5s;
     }
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
+    &.blue-light {
+        background-color: #FCA300;
+        .home-image {
+            mix-blend-mode: darken;
+        }
+         :after {
+            background: #282581;
+            mix-blend-mode: lighten;
+            -webkit-filter: contrast(1.1);
+            filter: contrast(1.1);
+        }
+    }
+    &.stats {
+        background-color: #181e59;
+        img {
+            mix-blend-mode: lighten;
+            -webkit-filter: grayscale(100%) contrast(.8);
+            filter: grayscale(100%) contrast(.8);
+        }
+         :after {
+            background-color: #E7E1A6;
+            mix-blend-mode: multiply;
+        }
     }
 }
 
-.blue-light {
-    background-color: #181e59;
-    img {
-        mix-blend-mode: lighten;
-        -webkit-filter: grayscale(100%) contrast(.8);
-        filter: grayscale(100%) contrast(.8);
-    }
-    &:after {
-        background-color: #E7E1A6;
-        mix-blend-mode: multiply;
-    }
-}
-
-.blue {
-    background-color: #77acd4;
-    img {
-        mix-blend-mode: multiply;
-        -webkit-filter: grayscale(100%) contrast(1.2);
-        filter: grayscale(100%) contrast(1.2);
-    }
-    &:after {
-        background-color: #033dc5;
-        mix-blend-mode: lighten;
-    }
+.home-image {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
 }
 
 #chart {
@@ -1439,10 +1584,10 @@ path.q2-3 {
         width: 100%;
     }
 
-    #tab1:checked ~ .contenido1,
-    #tab2:checked ~ .contenido2,
-    #tab3:checked ~ .contenido3,
-    #tab4:checked ~ .contenido4 {
+    #tab1:checked~.contenido1,
+    #tab2:checked~.contenido2,
+    #tab3:checked~.contenido3,
+    #tab4:checked~.contenido4 {
         grid-template-columns: 100%;
         padding: 1rem;
     }

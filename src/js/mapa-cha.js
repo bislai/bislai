@@ -102,7 +102,7 @@ function graficasCha() {
         .tickSize(-width)
         .orient("left")
 
-    d3.csv("datos/elecciones-distrito-cha.csv", function(err, data) {
+    d3.csv("datos/elecciones/elecciones-distrito-cha.csv", function(err, data) {
 
         datos = data;
         datos.forEach(function(d) {

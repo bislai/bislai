@@ -104,7 +104,7 @@ function graficasPSOE() {
         .tickSize(-width)
         .orient("left")
 
-    d3.csv("datos/elecciones-distrito-psoe.csv", function(err, data) {
+    d3.csv("datos/elecciones/elecciones-distrito-psoe.csv", function(err, data) {
 
         datos = data;
         datos.forEach(function(d) {
