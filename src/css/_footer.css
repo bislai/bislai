@@ -9,7 +9,6 @@
 .grid-footer-links {
     font-size: 1rem;
     font-family: var(--fontBislai);
-    letter-spacing: 1px;
     font-weight: 600;
     color: var(--bgcHeader);
     padding-right: 1rem;

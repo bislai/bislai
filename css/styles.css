@@ -2029,7 +2029,6 @@ path.q2-3 {
 .grid-footer-links {
     font-size: 1rem;
     font-family: "Fjalla One", sans-serif;
-    letter-spacing: 0.06rem;
     font-weight: 600;
     color: #021e5c;
     padding-right: 1rem;
@@ -2654,6 +2653,13 @@ path.q2-3 {
         margin: 0 auto;
     }
 
+}
+.credit-title {
+    font-style: 2rem;
+    font-family: "Fjalla One", sans-serif;
+}
+.credit-list-element {
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

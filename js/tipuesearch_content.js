@@ -94,7 +94,7 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 2 de octubre de 2015",
-        "text": "Pondrá en marcha, con carácter de urgencia, las medidas oportunas para acoger el mayor número posible de refugiados, poniendo en marcha un registro de ciudadanos y ciudadanas que quieran ayudarles, destinando viviendas públicas para este fin, ofreciendo instalaciones públicas, iniciando contactos con entidades bancarias para disponer a este fin pisos vados y cuantas otras medidas considere de interés.",
+        "text": "Pondrá en marcha, con carácter de urgencia, las medidas oportunas para acoger el mayor número posible de refugiados, poniendo en marcha un registro de ciudadanos y ciudadanas que quieran ayudarles, destinando viviendas públicas para este fin, ofreciendo instalaciones públicas, iniciando contactos con entidades bancarias para disponer a este fin pisos vados y cuántas otras medidas considere de interés.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#3.html"
     },
@@ -130,13 +130,13 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 2 de octubre de 2015",
-        "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuantas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuántas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#6.html"
     },
     {
         "title": "Pleno ordinario del 2 de octubre de 2015",
-        "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuantas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento reitere su apoyo al proyecto de recrecimiento de Yesa; rechace las pretensiones del Gobierno de Navarra de paralizar proyectos estratégicos para el desarrollo económico y social de Aragón e inste al Gobierno de Zaragoza y al de Aragón a trasladar al Gobierno de Navarra el respaldo firme de ambas instituciones al recrecimiento de Yesa y a cuántas acciones políticas, jurídicas o de cualquier otra índole resulten necesarias para defender dicho proyecto (P-69/2015).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/02-10-2015#7.html"
     },
@@ -706,13 +706,13 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2015",
-        "text": "En el sentido de instar al Gobierno de Zaragoza, a realizar cuantas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano, de acuerdo a los pliegos de condiciones, imponiendo las sanciones establecidas en caso de incumplimiento. (P- 626/15).",
+        "text": "En el sentido de instar al Gobierno de Zaragoza, a realizar cuántas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano, de acuerdo a los pliegos de condiciones, imponiendo las sanciones establecidas en caso de incumplimiento. (P- 626/15).",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
     {
         "title": "Pleno ordinario del 23 de diciembre de 2015",
-        "text": "Realizar cuantas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano de acuerdo a los Pliegos de Condiciones, imponiendo las sanciones establecidas en caso de incumplimiento.",
+        "text": "Realizar cuántas labores de inspección y control sean necesarias para garantizar el funcionamiento del servicio de autobús urbano de acuerdo a los Pliegos de Condiciones, imponiendo las sanciones establecidas en caso de incumplimiento.",
         "tags": "",
         "url": "http://bislai.co/plenos/2015/23-12-2015#35.html"
     },
@@ -1546,7 +1546,7 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 30 de septiembre de 2016",
-        "text": "Adoptar cuantas medidas sean precisas para lograr la ejecución de dichas obras a lo largo del último trimestre del año, alcanzando al cierre del ejercicio la plena ejecución de la citada partida.",
+        "text": "Adoptar cuántas medidas sean precisas para lograr la ejecución de dichas obras a lo largo del último trimestre del año, alcanzando al cierre del ejercicio la plena ejecución de la citada partida.",
         "tags": "",
         "url": "http://bislai.co/plenos/2016/30-09-2016#12.html"
     },
@@ -2146,7 +2146,7 @@ var tipuesearch = {
     },
     {
         "title": "Pleno ordinario del 31 de marzo de 2017",
-        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechace expresamente la gestión del área de Participación Ciudadana en relación a los presupuestos participativos y en particular en relación al papel fundamental que han de jugar las juntas municipales de distrito e inste al Gobierno de Zaragoza a adoptar cuantas medidas resulten precisas para garantizar la plena ejecución de los proyectos aprobados durante el año 2017 (P-2.741/2017).",
+        "text": "En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechace expresamente la gestión del área de Participación Ciudadana en relación a los presupuestos participativos y en particular en relación al papel fundamental que han de jugar las juntas municipales de distrito e inste al Gobierno de Zaragoza a adoptar cuántas medidas resulten precisas para garantizar la plena ejecución de los proyectos aprobados durante el año 2017 (P-2.741/2017).",
         "tags": "",
         "url": "http://bislai.co/plenos/2017/31-03-2017#12.html"
     },
