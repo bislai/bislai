@@ -5198,4 +5198,317 @@ var mociones = [
     "votos_contra": 13,
     "numero": 12
 },
+{
+    "fecha": "29-06-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 21,
+    "votos_contra": 8,
+    "numero": 21
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 22
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP",
+    "abstencion": "PSOE + CHA",
+    "en_contra": "ZEC + C'S",
+    "votos_favor": 10,
+    "votos_contra": 13,
+    "votos_abstencion": 6,
+    "numero": 3
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE + CHA",
+    "votos_favor": 21,
+    "votos_contra": 8,
+    "numero": 4
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 21,
+    "votos_contra": 8,
+    "numero": 51
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 52
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 21,
+    "votos_contra": 8,
+    "numero": 53
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 10,
+    "votos_contra": 13,
+    "votos_abstencion": 6,
+    "numero": 6
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 62
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 63
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 64
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 65
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 66
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PSOE",
+    "resultado": "perdida",
+    "a_favor": "PSOE + C'S + CHA",
+    "en_contra": "PP + ZEC",
+    "votos_favor": 12,
+    "votos_contra": 17,
+    "numero": 7
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 8
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE + CHA",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 82
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE + CHA",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 83
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP + C'S",
+    "en_contra": "ZEC + PSOE + CHA",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 84
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "ZEC + C'S + CHA",
+    "abstencion": "PP + PSOE",
+    "votos_favor": 15,
+    "votos_abstencion": 15,
+    "numero": 9
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "ZEC + C'S + CHA",
+    "abstencion": "PP + PSOE",
+    "votos_favor": 15,
+    "votos_abstencion": 15,
+    "numero": 92
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 20,
+    "votos_contra": 9,
+    "numero": 10
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 11
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 12
+},
+{
+    "fecha": "29-06-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "abstencion": "C'S",
+    "en_contra": "PP",
+    "votos_favor": 17,
+    "votos_contra": 9,
+    "votos_abstencion": 4,
+    "numero": 13
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 19,
+    "votos_abstencion": 8,
+    "numero": 22
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + PSOE + C'S",
+    "abstencion": "CHA",
+    "votos_favor": 26,
+    "votos_abstencion": 2,
+    "numero": 23
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + ZEC + PSOE + C'S",
+    "abstencion": "CHA",
+    "votos_favor": 26,
+    "votos_abstencion": 2,
+    "numero": 24
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "PP + C'S",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 19,
+    "votos_contra": 10,
+    "numero": 25
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 26
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC",
+    "en_contra": "PP",
+    "abstencion": "PSOE + C'S + CHA",
+    "votos_favor": 7,
+    "votos_abstencion": 12,
+    "votos_contra": 10,
+    "numero": 27
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 22,
+    "votos_contra": 8,
+    "numero": 28
+},
+{
+    "fecha": "27-07-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 29
+}
 ]
