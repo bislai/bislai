@@ -1,1 +1,172 @@
-var width=0<window.innerWidth?window.innerWidth:screen.width;function distritoElectoralPP(){var e=48,n=48,r=48,p=48,i=450-p-n,l=390-e-r,c=d3.scale.ordinal().rangeRoundBands([0,i],.2),d=d3.scale.linear().range([l,0]),u=d3.svg.axis().scale(c).tickFormat(d3.format("d")).orient("bottom"),g=d3.svg.axis().scale(d).ticks(5).tickFormat(function(t){return t+"%"}).tickSize(-i).orient("left");d3.csv("datos/elecciones/elecciones-distrito-pp.csv",function(t,a){datos=a,datos.forEach(function(t){t.fecha=t.fecha,t.cantidad=+t.cantidad});var s=d3.nest().key(function(t){return t.distrito}).entries(a);c.domain(a.map(function(t){return t.fecha})),d.domain([0,80]);var o=d3.select(".graficas-pp").selectAll("svg").data(s).enter().append("svg").attr("class","distrito").attr("width",i+p+n).attr("height",l+e+r).append("g").attr("transform","translate("+p+","+e+")");o.selectAll(".bar").data(function(t){return t.values}).enter().append("rect").attr("class","bar").attr("x",function(t){return c(t.fecha)}).attr("width",c.rangeBand()).attr("y",function(t){return d(t.cantidad)}).attr("height",function(t){return l-d(t.cantidad)}).attr("fill","#52788b"),o.selectAll("text").data(function(t){return t.values}).enter().append("text").attr("class","tooltip-porcentaje").text(function(t){return t.cantidad}).attr("x",function(t){return c(t.fecha)}).attr("y",function(t){return d(t.cantidad)-5}),o.append("g").attr("class","xAxis").attr("transform","translate(0,"+l+")").call(u),o.append("g").attr("class","yAxis").call(g).append("text").attr("class","nombre-distrito").attr("y","-3%").attr("x","8px").text(function(t){return t.key})})}function aFavorPP(){var t=20,a=20,s=70,o=40,e=600-o-a,n=300-t-s,r=d3.scale.ordinal().rangeRoundBands([0,e],.05),p=d3.scale.linear().range([n,0]),i=d3.svg.axis().scale(r).orient("bottom"),l=d3.svg.axis().scale(p).orient("left").ticks(10),c=d3.select("body").append("svg").attr("width",e+o+a).attr("height",n+t+s).append("g").attr("transform","translate("+o+","+t+")");d3.json("data.json",function(t,a){a.forEach(function(t){t.code=+t.code,t.grade=+t.grade}),a.sort(function(t,a){return t.grade-a.grade}),r.domain(a.map(function(t){return t.code})),p.domain([0,d3.max(a,function(t){return t.grade})]),c.append("g").attr("class","x axis").attr("transform","translate(0,"+n+")").call(i).selectAll("text").style("text-anchor","end").attr("dx","-.8em").attr("dy","-.55em").attr("transform","rotate(-90)"),c.append("g").attr("class","y axis").call(l).append("text").attr("transform","rotate(0)").attr("y",-10).attr("dy",".71em").style("text-anchor","middle").text("Grade Scale"),c.selectAll("bar").data(a).enter().append("rect").attr("class","bar").attr("x",function(t){return r(t.code)}).attr("width",r.rangeBand()).attr("y",function(t){return p(t.grade)}).attr("height",function(t){return n-p(t.grade)}).sort()})}$(function(){d3.json("mapas/distritos-pp-zaragoza.geojson",function(t,a){!function(t){mapboxgl.accessToken="pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";var o=new mapboxgl.Map({container:"map",style:"mapbox://styles/jorgeatgu/cj8c0okok7se32spv3t4rx8bv",center:[-.850431,41.651729],zoom:11.5});o.addControl(new mapboxgl.Navigation);var a=o.getCanvasContainer(),s=d3.select(a).append("svg"),e=(s.append("g").attr("class","distritos"),d3.geo.transform({point:function(t,a){var s=o.project(new mapboxgl.LngLat(t,a));this.stream.point(s.x,s.y)}})),n=d3.geo.path().projection(e),r=d3.select("#map").append("div").attr("class","tooltip tooltip-pp"),p=s.selectAll("path").data(t.features).enter().append("path").attr("class","distritosPP").on("mouseover",function(t){r.style("display","block").html('<h4 class="tooltipTitulo">'+t.properties.distrito+'</h4><div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2015</span><span style="width:'+1.65*t.properties.quince_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.quince_p+'%</span><span class="resultadoVotos">'+t.properties.quince_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2011</span><span style="width:'+1.65*t.properties.once_p+'%" class="bgc-pp"></span></span><span class="resultado"><span  class="resultadoVotos"> '+t.properties.once_p+'%</span><span class="resultadoVotos">'+t.properties.once_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2007</span><span style="width:'+1.65*t.properties.siete_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.siete_p+'%</span> <span class="resultadoVotos">'+t.properties.siete_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2003</span><span style="width:'+1.65*t.properties.tres_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.tres_p+'%</span> <span class="resultadoVotos">'+t.properties.tres_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1999</span><span style="width:'+1.65*t.properties.nueve_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.nueve_p+'%</span> <span class="resultadoVotos"> '+t.properties.nueve_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1995</span><span style="width:'+1.65*t.properties.cinco_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.cinco_p+'%</span> <span class="resultadoVotos"> '+t.properties.cinco_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1991</span><span style="width:'+1.65*t.properties.uno_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.uno_p+'%</span> <span class="resultadoVotos"> '+t.properties.uno_v+' votos</span><p/><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1987</span><span style="width:'+1.65*t.properties.ochosiete_p+'%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> '+t.properties.ochosiete_p+'%</span> <span class="resultadoVotos"> '+t.properties.ochosiete_v+" votos</span><p/></div>").transition().duration(200)}).transition().duration(200);o.scrollZoom.disable(),p.attr("d",n)}(a)})}),distritoElectoralPP();
+"use strict";
+
+var width = window.innerWidth > 0 ? window.innerWidth : screen.width;
+
+$(function () {
+    d3.json("mapas/distritos-pp-zaragoza.geojson", function (err, data) {
+        mapDraw(data);
+    });
+
+    function mapDraw(geojson) {
+        mapboxgl.accessToken = "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+        var map = new mapboxgl.Map({
+            container: "map", // container id
+            style: "mapbox://styles/jorgeatgu/cj8c0okok7se32spv3t4rx8bv", //hosted style id
+            center: [-0.850431, 41.651729], // starting position
+            zoom: 11.5 // starting zoom
+        });
+
+        map.addControl(new mapboxgl.Navigation());
+
+        var container = map.getCanvasContainer();
+        var svg = d3.select(container).append("svg");
+        var distritos = svg.append("g").attr("class", "distritos");
+
+        var transform = d3.geo.transform({ point: projectPoint });
+        var path = d3.geo.path().projection(transform);
+
+        var tooltip = d3.select("#map").append("div").attr("class", "tooltip tooltip-pp");
+
+        var featureElement = svg.selectAll("path").data(geojson.features).enter().append("path").attr("class", "distritosPP").on("mouseover", showTooltip).transition().duration(200);
+
+        function update() {
+            featureElement.attr("d", path);
+        }
+
+        function showTooltip(geoJson) {
+            // moveTooltip();
+            tooltip.style("display", "block").html('<h4 class="tooltipTitulo">' + geoJson.properties.distrito + '</h4>' + '<div class="container-tooltip-partido"><p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2015</span><span style="width:' + geoJson.properties.quince_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.quince_p + '%</span><span class="resultadoVotos">' + geoJson.properties.quince_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2011</span><span style="width:' + geoJson.properties.once_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span  class="resultadoVotos"> ' + geoJson.properties.once_p + '%</span><span class="resultadoVotos">' + geoJson.properties.once_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2007</span><span style="width:' + geoJson.properties.siete_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.siete_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.siete_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">2003</span><span style="width:' + geoJson.properties.tres_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.tres_p + '%</span> <span class="resultadoVotos">' + geoJson.properties.tres_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1999</span><span style="width:' + geoJson.properties.nueve_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.nueve_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.nueve_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1995</span><span style="width:' + geoJson.properties.cinco_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.cinco_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.cinco_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1991</span><span style="width:' + geoJson.properties.uno_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.uno_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.uno_v + ' votos</span><p/>' + '<p class="tooltipPartido"><span class="resultado-izda"><span class="titulo-partido">1987</span><span style="width:' + geoJson.properties.ochosiete_p * 1.65 + '%" class="bgc-pp"></span></span><span class="resultado"><span class="resultadoVotos"> ' + geoJson.properties.ochosiete_p + '%</span> <span class="resultadoVotos"> ' + geoJson.properties.ochosiete_v + ' votos</span><p/></div>').transition().duration(200);
+        }
+        map.scrollZoom.disable();
+
+        update();
+
+        function projectPoint(lon, lat) {
+            var point = map.project(new mapboxgl.LngLat(lon, lat));
+            this.stream.point(point.x, point.y);
+        }
+    }
+});
+
+function distritoElectoralPP() {
+
+    var porcentaje = "%";
+
+    var margin = { top: 48, right: 48, bottom: 48, left: 48 },
+        width = 450 - margin.left - margin.right,
+        height = 390 - margin.top - margin.bottom;
+
+    var x = d3.scale.ordinal().rangeRoundBands([0, width], .2);
+
+    var y = d3.scale.linear().range([height, 0]);
+
+    var xAxis = d3.svg.axis().scale(x).tickFormat(d3.format("d")).orient("bottom");
+
+    var yAxis = d3.svg.axis().scale(y).ticks(5).tickFormat(function (d) {
+        return d + porcentaje;
+    }).tickSize(-width).orient("left");
+
+    d3.csv("datos/elecciones/elecciones-distrito-pp.csv", function (err, data) {
+
+        datos = data;
+        datos.forEach(function (d) {
+            d.fecha = d.fecha;
+            d.cantidad = +d.cantidad;
+        });
+
+        var nestdistrito = d3.nest().key(function (d) {
+            return d.distrito;
+        }).entries(data);
+
+        x.domain(data.map(function (d) {
+            return d.fecha;
+        }));
+        y.domain([0, 80]);
+
+        var svg = d3.select(".graficas-pp").selectAll("svg").data(nestdistrito).enter().append("svg").attr("class", "distrito").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.selectAll(".bar").data(function (d) {
+            return d.values;
+        }).enter().append("rect").attr("class", "bar").attr("x", function (d) {
+            return x(d.fecha);
+        }).attr("width", x.rangeBand()).attr("y", function (d) {
+            return y(d.cantidad);
+        }).attr("height", function (d) {
+            return height - y(d.cantidad);
+        }).attr("fill", "#52788b");
+
+        svg.selectAll("text").data(function (d) {
+            return d.values;
+        }).enter().append("text").attr("class", "tooltip-porcentaje").text(function (d) {
+            return d.cantidad;
+        }).attr("x", function (d) {
+            return x(d.fecha);
+        }).attr("y", function (d) {
+            return y(d.cantidad) - 5;
+        });
+
+        svg.append("g").attr("class", "xAxis").attr("transform", "translate(0," + height + ")").call(xAxis);
+
+        svg.append("g").attr("class", "yAxis").call(yAxis).append("text").attr("class", "nombre-distrito").attr("y", "-3%").attr("x", "8px").text(function (d) {
+            return d.key;
+        });
+    });
+}
+
+function aFavorPP() {
+
+    // set the dimensions of the canvas
+    var margin = { top: 20, right: 20, bottom: 70, left: 40 },
+        width = 600 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
+
+    // set the ranges
+    var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+    var y = d3.scale.linear().range([height, 0]);
+
+    // define the axis
+    var xAxis = d3.svg.axis().scale(x).orient("bottom");
+
+    var yAxis = d3.svg.axis().scale(y).orient("left").ticks(10);
+
+    // add the SVG element
+    var svg = d3.select("body").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    // load the data
+    d3.json("data.json", function (error, data) {
+
+        data.forEach(function (d) {
+            d.code = +d.code;
+            d.grade = +d.grade;
+        });
+
+        data.sort(function (a, b) {
+            return a.grade - b.grade;
+        });
+
+        // scale the range of the data
+        x.domain(data.map(function (d) {
+            return d.code;
+        }));
+        y.domain([0, d3.max(data, function (d) {
+            return d.grade;
+        })]);
+
+        // add axis
+        svg.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis).selectAll("text").style("text-anchor", "end").attr("dx", "-.8em").attr("dy", "-.55em").attr("transform", "rotate(-90)");
+
+        svg.append("g").attr("class", "y axis").call(yAxis).append("text").attr("transform", "rotate(0)").attr("y", -10).attr("dy", ".71em").style("text-anchor", "middle").text("Grade Scale");
+
+        // Add bar chart
+        svg.selectAll("bar").data(data).enter().append("rect").attr("class", "bar").attr("x", function (d) {
+            return x(d.code);
+        }).attr("width", x.rangeBand()).attr("y", function (d) {
+            return y(d.grade);
+        }).attr("height", function (d) {
+            return height - y(d.grade);
+        }).sort();
+    });
+}
+
+distritoElectoralPP();

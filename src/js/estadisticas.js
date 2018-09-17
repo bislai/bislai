@@ -1,322 +1,146 @@
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-var configDataLabels = {
-    color: 'black',
-    font: {
-        size: "20",
-        weight: 'bold'
-    }
-}
+var csvElements = [ 'datos/unanimidad.csv', 'datos/tripartitos.csv', 'datos/presentada.csv', 'datos/abstencion.csv', 'datos/en-contra.csv', 'datos/a-favor.csv', 'datos/soledad.csv']
 
-function unanimidadChart() {
 
-    var unanimidad = document.getElementById("chart");
+function estadisticasChart(datos) {
+        //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
+        const margin = { top: 24, right: 24, bottom: 24, left: 24 };
+        let width = 0;
+        let height = 0;
+        let w = 0;
+        let h = 0;
+        const chart = d3.select('.chart-estadisticas');
+        const svg = chart.select('svg');
+        const scales = {};
+        let dataz;
 
-    var myBarunanimidad = new Chart(unanimidad, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 500
-                    },
-                    drawOnChartArea: false,
-                    drawBorder: false,
-                    drawTicks: false
-                }],
-                xAxes: [{
-                    drawOnChartArea: false,
-                    drawBorder: false,
-                    drawTicks: false
-                }]
-            },
-            legend: {
-                display: false
-            },
-            tooltips: false
-        },
-        data: {
-            labels: ["Unanimidad", "Disconformidad"],
-            datasets: [{
+        //Escala para los ejes X e Y
+        function setupScales() {
 
-                data: [212, 397],
-                backgroundColor: [
-                    '#36B287',
-                    '#D0577C'
-                ]
-            }]
+            const countX = d3.scaleBand()
+                .domain(dataz.map(function(d) { return d.nombre; }));
+
+            const countY = d3.scaleLinear()
+                    .domain(
+                        [0,
+                        d3.max(dataz, d => d.valor)]
+                );
+
+            scales.count = { x: countX,  y: countY };
+
         }
-    });
 
-}
+        //Seleccionamos el contenedor donde irán las escalas y en este caso el area donde se pirntara nuestra gráfica
+        function setupElements() {
 
-function repeticionChart() {
+            const g = svg.select('.chart-estadisticas-container');
 
-    var repeticion = document.getElementById("chart");
+            g.append('g').attr('class', 'axis axis-x');
 
-    var myBarrepeticion = new Chart(repeticion, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 25,
+            g.append('g').attr('class', 'axis axis-y');
+
+            g.append('g').attr('class', 'area-container-chart-vertical');
+
+        }
+
+        //Actualizando escalas
+        function updateScales(width, height){
+            scales.count.x.range([0, width]).padding(0.8);
+            scales.count.y.range([height, 0]);
+        }
+
+        //Dibujando ejes
+        function drawAxes(g) {
+
+            const axisX = d3.axisBottom(scales.count.x)
+
+            g.select(".axis-x")
+                .attr("transform", "translate(0," + height + ")")
+                .call(axisX)
+
+            const axisY = d3.axisLeft(scales.count.y)
+                .tickFormat(d3.format("d"))
+                .ticks(5)
+                .tickSizeInner(-w)
+
+            g.select(".axis-y")
+                .call(axisY)
+
+        }
+
+        function updateChart(dataz) {
+            w = chart.node().offsetWidth;
+            h = 600;
+
+            width = w - margin.left - margin.right;
+            height = h - margin.top - margin.bottom;
+
+            svg
+                .attr('width', w)
+                .attr('height', h);
+
+            const translate = "translate(" + margin.left + "," + margin.top + ")";
+
+            const g = svg.select('.chart-estadisticas-container')
+
+            g.attr("transform", translate)
+
+            updateScales(width, height)
+
+            const container = chart.select('.area-container-chart-vertical')
+
+            const layer = container.selectAll('.bar-vertical')
+                   .data(dataz)
+
+            const newLayer = layer.enter()
+                    .append('rect')
+                    .attr('class', 'bar-vertical')
+
+            layer.merge(newLayer)
+                .attr("width", 45)
+                .attr("x", d => scales.count.x(d.nombre))
+                .attr("y", d => scales.count.y(0))
+                .attr("height", 0)
+                .transition()
+                .ease(d3.easeSin)
+                .duration(1200)
+                .attr("y", d => scales.count.y(d.valor))
+                .attr("height", d => height - scales.count.y(d.valor));
+
+            drawAxes(g)
+
+        }
+
+        function resize() {
+            updateChart(dataz)
+        }
+
+        // LOAD THE DATA
+        function loadData() {
+
+            d3.csv(datos, function(error, data) {
+                    if (error) {
+                          console.log(error);
+                    } else {
+                          dataz = data
+                          dataz.forEach( d => {
+                              d.valor = +d.valor;
+                          });
+                          setupElements()
+                          setupScales()
+                          updateChart(dataz)
                     }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP + PSOE + C'S", "ZEC + PSOE + CHA"],
-            datasets: [{
-                data: [66, 64, 5],
-                backgroundColor: [
-                    'rgba(32, 159, 105, 1)',
-                    'rgba(255, 99, 132, 1)'
-                ]
-            }]
+
+            });
         }
-    });
+
+        window.addEventListener('resize', resize)
+
+        loadData()
+
 
 }
-
-function masMocionesChart() {
-
-    var masMocione = document.getElementById("chart");
-
-    var myBarmasMocione = new Chart(masMocione, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 80
-                    }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
-            datasets: [{
-                data: [97, 88, 100, 100, 75],
-                backgroundColor: [
-                    'rgba(0, 128, 184, 1)',
-                    'rgba(154, 22, 34, 1)',
-                    'rgba(227, 6, 19, 1)',
-                    'rgba(240, 122, 54, 1)',
-                    'rgba(239, 176, 39, 1)'
-                ]
-            }]
-        }
-    });
-}
-
-function abstenidoChart() {
-
-    var abstenido = document.getElementById("chart");
-
-    var myBarabstenido = new Chart(abstenido, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 60,
-                    }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
-            datasets: [{
-                data: [41, 62, 35, 54, 59],
-                backgroundColor: [
-                    'rgba(0, 128, 184,1)',
-                    'rgba(154, 22, 34,1)',
-                    'rgba(227, 6, 19,1)',
-                    'rgba(240, 122, 54,1)',
-                    'rgba(239, 176, 39,1)'
-                ]
-            }]
-
-        }
-    });
-
-}
-
-function encontraChart() {
-
-    var encontra = document.getElementById("chart");
-
-    var myBarencontra = new Chart(encontra, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 100,
-                    }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
-            datasets: [{
-                data: [115, 145, 62, 47, 82],
-                backgroundColor: [
-                    'rgba(0, 128, 184,1)',
-                    'rgba(154, 22, 34,1)',
-                    'rgba(227, 6, 19,1)',
-                    'rgba(240, 122, 54,1)',
-                    'rgba(239, 176, 39,1)'
-                ]
-            }]
-
-        }
-    });
-
-}
-
-function afavorChart() {
-
-    var afavor = document.getElementById("chart");
-
-    var myBarafavor = new Chart(afavor, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 70,
-                    }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
-            datasets: [{
-                data: [202, 151, 262, 257, 217],
-                backgroundColor: [
-                    'rgba(0, 128, 184,1)',
-                    'rgba(154, 22, 34,1)',
-                    'rgba(227, 6, 19,1)',
-                    'rgba(240, 122, 54,1)',
-                    'rgba(239, 176, 39,1)'
-                ]
-            }]
-
-        }
-    });
-
-}
-
-function soledadChart() {
-
-    var soledad = document.getElementById("chart");
-
-    var myBarsoledad = new Chart(soledad, {
-        type: 'bar',
-        duration: 3000,
-        easing: 'easeInCubic',
-        options: {
-            plugins: {
-                datalabels: configDataLabels
-            },
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        mirror: false,
-                        suggestedMin: 0,
-                        suggestedMax: 70,
-                    }
-                }]
-            },
-            legend: {
-                display: false
-            }
-        },
-        data: {
-            labels: ["PP", "ZEC", "PSOE", "C'S", "CHA"],
-            datasets: [{
-                data: [116, 108, 21, 39, 38],
-                backgroundColor: [
-                    'rgba(0, 128, 184,1)',
-                    'rgba(154, 22, 34,1)',
-                    'rgba(227, 6, 19,1)',
-                    'rgba(240, 122, 54,1)',
-                    'rgba(239, 176, 39,1)'
-                ]
-            }]
-
-        }
-    });
-
-}
-
-
 
 // initialize the scrollama
 
@@ -338,7 +162,6 @@ function handleResize() {
     var graphicMargin = 16 * 4;
     var textWidth = step.getBoundingClientRect();
     var containerWidth = container.getBoundingClientRect().width;
-    console.log(containerWidth)
     var totaltext = textWidth.width;
     var totalcontainer = containerWidth.width;
     var graphicWidth = containerWidth - graphicMargin;
@@ -355,22 +178,21 @@ function handleResize() {
 // scrollama event handlers
 function handleStepEnter(response) {
     // response = { element, direction, index }
-
-
-    if (response.index === 0) {
-        unanimidadChart();
+    if (response.index === 0)  {
+        d3.selectAll('rect').remove();
+        estadisticasChart(csvElements[0])
     } else if (response.index === 1) {
-        repeticionChart();
+        estadisticasChart(csvElements[1])
     } else if (response.index === 2) {
-        masMocionesChart();
+        estadisticasChart(csvElements[2])
     } else if (response.index === 3) {
-        abstenidoChart();
+        estadisticasChart(csvElements[3])
     } else if (response.index === 4) {
-        encontraChart();
+        estadisticasChart(csvElements[4])
     } else if (response.index === 5) {
-        afavorChart();
+        estadisticasChart(csvElements[5])
     } else if (response.index === 6) {
-        soledadChart();
+        estadisticasChart(csvElements[6])
     }
 
 
