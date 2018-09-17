@@ -1,0 +1,27 @@
+.axis-y {
+    .domain {
+        stroke: none;
+    }
+    .tick {
+        line {
+            stroke-dasharray: 3px;
+        }
+    }
+}
+
+.axis-x {
+    .domain {
+        stroke: none;
+    }
+}
+
+.axis {
+    text {
+        font-family: var(--condensed);
+        font-size: 14px;
+    }
+}
+
+.bar-vertical {
+    fill: #1D1451;
+}
