@@ -1447,7 +1447,7 @@ path.q2-3 {
     position: sticky;
     /* stylelint-enable */
     float: right;
-    top: 10vh;
+    top: 15vh;
     right: 10vw;
     width: 46%;
     -webkit-transform: translate3d(0, 0, 0);
@@ -1482,19 +1482,21 @@ path.q2-3 {
 }
 
 .step-blanco {
-    border-left: 3px solid #1B1A55;
-    background-color: #6AEAB9;
-    padding: .5rem;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    background-color: #f7dc7f;
+    padding: 1rem;
+    border-radius: 4px;
 }
 
 .title-estadisticas {
     text-transform: uppercase;
     font-size: 1rem;
+    margin: .25rem 0;
     color: var(--pureblack);
     width: 100%;
     font-family: var(--fontBislai);
+    ~ p {
+        margin: .25rem 0;
+    }
 }
 
 .bislai-stats-card-element {

@@ -71,7 +71,7 @@ function estadisticasChart(datos) {
 
         function updateChart(dataz) {
             w = chart.node().offsetWidth;
-            h = 600;
+            h = 400;
 
             width = w - margin.left - margin.right;
             height = h - margin.top - margin.bottom;
@@ -182,6 +182,7 @@ function handleStepEnter(response) {
         d3.selectAll('rect').remove();
         estadisticasChart(csvElements[0])
     } else if (response.index === 1) {
+        d3.selectAll('rect').remove();
         estadisticasChart(csvElements[1])
     } else if (response.index === 2) {
         estadisticasChart(csvElements[2])
