@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,7 @@
     <meta name="description" content="Accesibilidad y transparencia política para los plenos del Ayuntamiento de Zaragoza">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600|Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body class="mih-100">
@@ -35,74 +34,78 @@
     </div>
     <section id='scroll'>
         <div class='scroll__graphic'>
-            <canvas id="chart"></canvas>
+            <article class="chart-estadisticas">
+                <svg>
+                    <g class="chart-estadisticas-container"></g>
+                </svg>
+            </article>
         </div>
         <div class='scroll__text'>
             <div class='step' data-step='1'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">¿Cuántas votaciones por unanimidad?</p>
-                    <p class="font-1">En el pleno del Ayuntamiento de Zaragoza se han realizado <span class="font-w8">507 votaciones</span>, de las cuales, <span class="font-w8">199</span> se han votado por unanimidad.</p>
+                    <p>En el pleno del Ayuntamiento de Zaragoza se han realizado <span class="font-w8">609 votaciones</span>, de las cuales, <span class="font-w8">212</span> se han votado por unanimidad.</p>
                 </div>
             </div>
             <div class='step' data-step='2'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">Los tripartitos del pleno</p>
                     <p>El <span class="font-w8">tripartito</span> es una expresión que se ha utilizado en <span class="font-w8">Zaragoza</span> a lo largo de los años.</p>
-                    <p>El tripartito compuesto por <span class="font-w8">PP, PSOE y C'S</span> se alza con el primer puesto con un <span class="font-w8"> 59 votaciones.</span></p>
-                    <p>En segundo lugar el tripartito compuesto por <span class="font-w8">ZEC, PSOE y CHA</span> con <span class="font-w8">55 votaciones</span>.</p>
+                    <p>El tripartito compuesto por <span class="font-w8">PP, PSOE y C'S</span> se alza con el primer puesto con un <span class="font-w8"> 68 votaciones.</span></p>
+                    <p>En segundo lugar el tripartito compuesto por <span class="font-w8">ZEC, PSOE y CHA</span> con <span class="font-w8">64 votaciones</span>.</p>
                 </div>
             </div>
             <div class='step' data-step='3'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">¿Quién ha presentado más mociones?</p>
-                    <p>En el pleno del Ayuntamiento de Zaragoza <span class="font-w8">se han presentado 323 mociones, y se han retirado 30.</span></p>
-                    <p> En primer lugar <span class="font-w8">C'S</span> con <span class="font-w8">87</span>.</p>
-                    <p> En segundo lugar el <span class="font-w8">PSOE</span> con <span class="font-w8">86</span>.</p>
-                    <p> En tercer lugar el <span class="font-w8">PP</span> con <span class="font-w8">84</span>.</p>
-                    <p> En cuarto lugar <span class="font-w8">CHA</span> con <span class="font-w8">70</span>.</p>
-                    <p> En quinto lugar <span class="font-w8">ZEC</span> con <span class="font-w8">49</span>.</p>
+                    <p>En el pleno del Ayuntamiento de Zaragoza <span class="font-w8">se han presentado 428 mociones, y se han retirado 39.</span></p>
+                    <p> En primer lugar <span class="font-w8">PSOE</span> con <span class="font-w8">100</span>.</p>
+                    <p> En segundo lugar el <span class="font-w8">C'S</span> con <span class="font-w8">100</span>.</p>
+                    <p> En tercer lugar el <span class="font-w8">PP</span> con <span class="font-w8">97</span>.</p>
+                    <p> En cuarto lugar <span class="font-w8">CHA</span> con <span class="font-w8">75</span>.</p>
+                    <p> En quinto lugar <span class="font-w8">ZEC</span> con <span class="font-w8">56</span>.</p>
                 </div>
             </div>
             <div class='step' data-step='4'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">¿Quién se ha abstenido más?</p>
-                    <p>En primer lugar <span class="font-w8">ZEC</span> con 54.</span>
+                    <p>En primer lugar <span class="font-w8">ZEC</span> con 62.</span>
                     </p>
-                    <p>En segundo lugar <span class="font-w8">C'S</span> con 49.
-                        <p>En tercer lugar <span class="font-w8">CHA</span> con 46.</p>
-                        <p> En cuarto lugar el <span class="font-w8">PP</span> con 39.</p>
-                        <p> En quinto lugar el <span class="font-w8">PSOE</span> con 27.</p>
+                    <p>En segundo lugar <span class="font-w8">CHA</span> con 59.
+                        <p>En tercer lugar <span class="font-w8">C'S</span> con 54.</p>
+                        <p> En cuarto lugar el <span class="font-w8">PP</span> con 41.</p>
+                        <p> En quinto lugar el <span class="font-w8">PSOE</span> con 35.</p>
                 </div>
             </div>
             <div class='step' data-step='5'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">¿Quién vota más en contra?</p>
-                    <p>En primer lugar <span class="font-w8">ZEC</span> con 109.</p>
-                    <p> En segundo lugar el <span class="font-w8">PP</span> con 99.</p>
-                    <p>En tercer lugar <span class="font-w8">CHA</span> con 69.</p>
-                    <p> En cuarto lugar el <span class="font-w8">PSOE</span> con 53.</p>
-                    <p> En quinto lugar <span class="font-w8">C'S</span> con 41.</p>
+                    <p>En primer lugar <span class="font-w8">ZEC</span> con 145.</p>
+                    <p> En segundo lugar el <span class="font-w8">PP</span> con 115.</p>
+                    <p>En tercer lugar <span class="font-w8">CHA</span> con 82.</p>
+                    <p> En cuarto lugar el <span class="font-w8">PSOE</span> con 62.</p>
+                    <p> En quinto lugar <span class="font-w8">C'S</span> con 47.</p>
                 </div>
             </div>
             <div class='step' data-step='6'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">¿Quién vota más a favor?</p>
-                    <p>En primer lugar <span class="font-w8">C'S</span> con 166.</p>
-                    <p> En segundo lugar el <span class="font-w8">PSOE</span> con 159.</p>
-                    <p> En tercer lugar <span class="font-w8">CHA</span> con 129.</p>
-                    <p> En cuarto lugar el <span class="font-w8">PP</span> con 109.</p>
-                    <p> En quinto lugar <span class="font-w8">ZEC</span> con 87.</p>
+                    <p>En primer lugar <span class="font-w8">PSOE</span> con 261.</p>
+                    <p> En segundo lugar el <span class="font-w8">C'S</span> con 257.</p>
+                    <p> En tercer lugar <span class="font-w8">CHA</span> con 217.</p>
+                    <p> En cuarto lugar el <span class="font-w8">PP</span> con 202.</p>
+                    <p> En quinto lugar <span class="font-w8">ZEC</span> con 151.</p>
                 </div>
             </div>
             <div class='step' data-step='7'>
                 <div class="step-blanco">
                     <p class="title-estadisticas">La soledad del pleno</p>
                     <p>El número de veces que cada partido ha votado en solitario.</p>
-                    <p>En primer lugar el <span class="font-w8">PP</span> con 108.</p>
-                    <p> En segundo lugar <span class="font-w8">ZEC</span> con 83.</p>
-                    <p> En tercer lugar <span class="font-w8">C'S</span> con 53.</p>
-                    <p> En cuarto lugar <span class="font-w8">CHA</span> con 32.</p>
-                    <p> En quinto lugar el <span class="font-w8">PSOE</span> con 18.</p>
+                    <p>En primer lugar el <span class="font-w8">PP</span> con 116.</p>
+                    <p> En segundo lugar <span class="font-w8">ZEC</span> con 108.</p>
+                    <p> En tercer lugar <span class="font-w8">C'S</span> con 39.</p>
+                    <p> En cuarto lugar <span class="font-w8">CHA</span> con 38.</p>
+                    <p> En quinto lugar el <span class="font-w8">PSOE</span> con 21.</p>
                 </div>
             </div>
         </div>
@@ -120,6 +123,7 @@
     </footer>
     <script type="text/javascript" src="js/scrollama.min.js"></script>
     <script type="text/javascript" src="js/Chart.min.js"></script>
+    <script type="text/javascript" src="js/d3.min4.js"></script>
     <script type="text/javascript" src="js/chartjs-plugin-datalabels.min.js"></script>
     <script type="text/javascript" src="js/estadisticas.js"></script>
     <script>

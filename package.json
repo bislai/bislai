@@ -1,7 +1,7 @@
 {
-  "name": "base",
+  "name": "base-d3",
   "version": "2.0.0",
-  "description": "Base para cualquier proyecto de Jorge Aznar, front/designer en Zaragoza ⦉ http://jorgeatgu.com ⦊",
+  "description": "base para cualquier proyecto de visualización de datos | Jorge Aznar {data/designer} http://jorgeatgu.com",
   "main": "gulpfile.js",
   "repository": "jorgeatgu/base",
   "keywords": [
@@ -23,12 +23,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.18.13",
+    "debounce": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
-    "gulp-babel": "^7.0.0",
+    "gulp-babel": "^7.0.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-imagemin": "^3.3.0",
     "gulp-inline-source": "^3.1.0",
