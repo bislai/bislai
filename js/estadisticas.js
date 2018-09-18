@@ -25,7 +25,9 @@ function estadisticasChart(datos) {
 
         var countY = d3.scaleLinear().domain([0, d3.max(dataz, function (d) {
             return d.valor;
-        })]);
+        }) + d3.max(dataz, function (d) {
+            return d.valor;
+        }) / 4]);
 
         scales.count = { x: countX, y: countY };
     }
@@ -57,7 +59,7 @@ function estadisticasChart(datos) {
 
         var axisY = d3.axisLeft(scales.count.y).tickFormat(d3.format("d")).ticks(5).tickSizeInner(-w);
 
-        g.select(".axis-y").call(axisY);
+        g.select(".axis-y").transition().duration(1000).call(axisY);
     }
 
     function updateChart(dataz) {

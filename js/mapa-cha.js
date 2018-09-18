@@ -7,7 +7,6 @@ if (width > 767) {
         d3.json("mapas/distritos-cha-zaragoza.geojson", function (err, data) {
             mapDraw(data);
         });
-
         function mapDraw(geojson) {
             mapboxgl.accessToken = "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
             var map = new mapboxgl.Map({
@@ -54,9 +53,9 @@ function graficasCha() {
 
     var porcentaje = "%";
 
-    var margin = { top: 48, right: 48, bottom: 48, left: 48 },
-        width = 450 - margin.left - margin.right,
-        height = 390 - margin.top - margin.bottom;
+    var margin = { top: 24, right: 24, bottom: 24, left: 24 },
+        width = 320 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
     var x = d3.scale.ordinal().rangeRoundBands([0, width], .2);
 
@@ -70,7 +69,7 @@ function graficasCha() {
 
     d3.csv("datos/elecciones/elecciones-distrito-cha.csv", function (err, data) {
 
-        datos = data;
+        var datos = data;
         datos.forEach(function (d) {
             d.fecha = d.fecha;
             d.cantidad = +d.cantidad;
@@ -95,7 +94,7 @@ function graficasCha() {
             return y(d.cantidad);
         }).attr("height", function (d) {
             return height - y(d.cantidad);
-        }).attr("fill", "#52788b");
+        }).attr("fill", "#efb027");
 
         svg.selectAll("text").data(function (d) {
             return d.values;

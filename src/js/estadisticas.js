@@ -2,7 +2,6 @@ var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 var csvElements = [ 'datos/unanimidad.csv', 'datos/tripartitos.csv', 'datos/presentada.csv', 'datos/abstencion.csv', 'datos/en-contra.csv', 'datos/a-favor.csv', 'datos/soledad.csv']
 
-
 function estadisticasChart(datos) {
         //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
         const margin = { top: 24, right: 24, bottom: 24, left: 24 };
@@ -24,7 +23,7 @@ function estadisticasChart(datos) {
             const countY = d3.scaleLinear()
                     .domain(
                         [0,
-                        d3.max(dataz, d => d.valor)]
+                        d3.max(dataz, d => d.valor) + (d3.max(dataz, d => d.valor) / 4)]
                 );
 
             scales.count = { x: countX,  y: countY };
@@ -65,6 +64,8 @@ function estadisticasChart(datos) {
                 .tickSizeInner(-w)
 
             g.select(".axis-y")
+                .transition()
+                .duration(1000)
                 .call(axisY)
 
         }
