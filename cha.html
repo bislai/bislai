@@ -11,7 +11,7 @@
     <script type="text/javascript" src="js/tipuesearch_content.js"></script>
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/d3.min4.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600|Roboto+Condensed" rel="stylesheet">
@@ -41,6 +41,7 @@
     <section class="partidos-cabecera chunta">
         <h3 class="partidos-cabecera-title">CHUNTA ARAGONESISTA</h3>
         <div class="partidos-cabecera-izda">
+            <h2 class="partidos-cabecera-subtitle">Lista de concejales</h2>
             <a class="partido-concejales-lista-elemento" target="_blank" href="http://www.zaragoza.es/ciudad/organizacion/carmelo-asensio.htm">
                 <svg class="concejales-icon" width="43" height="75" viewBox="0 0 43 75" xmlns="http://www.w3.org/2000/svg">
                     <path d="M42 32.7h-5.7c-.3-5.8-4-10-9.8-11.5 2.6-1.6 4.3-4.4 4.3-7.7v-1.2c0-1.2-.2-2.4-.6-3.4 1.3-1 2-2.8 2.2-5 0-1.4 0-3-1-3.4-.5-.2-1 0-1.2.4-.6.6-2.5.2-4.4-.2-2-.5-4.6-1-6.8-.6-5 1-6 5.3-5.7 7.2-.8 1.5-1.2 3-1.2 4.8v1c0 3.5 2 6.3 4.4 8-5.8 1.6-9.6 5.7-9.8 11.5H1c-.6 0-1 .3-1 1V38c0 .6.4 1 1 1h3v35c0 .4.3.8 1 .8h33c.6 0 1-.4 1-1V39.3h3c.6 0 1-.4 1-1v-4.6c0-.6-.4-1-1-1zM19.4 2c2-.3 4 0 6 .6 2 .5 3.8 1 5.2.4 0 .8 0 2-.5 3.2 0 .5-.4.8-.6 1C27.8 5 25 3.6 22 3.6h-1.2c-2 0-4 .7-5.5 2 .3-1.4 1.4-3 4-3.4zM21 20.7c-4 0-7-3.2-7-7v-1.3c0-3.8 3-7 7-7h1c4 0 7 3 7 7v1.2c0 3.8-3 7-7 7h-1zm.5 2c6.3 0 12.6 3 13 10h-12v-2.4c.4-.3.8-.8.8-1.5v-2.4c0-1-.7-1.8-1.8-1.8-1 0-1.8.7-1.8 1.8v2.4c0 .7.4 1 1 1.5v2.5H8.3c.5-7.2 6.8-10.2 13-10.2zM37 73H6v-34h31v34zm4-36H2v-2.6h39v2.7z" fill="#000" />
@@ -81,10 +82,10 @@
                     <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA EN SU CONTRA?
                     </h2>
                     <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuántas veces han votado en su contra el resto de partidos.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado 30 veces en contra.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado 7 veces en contra.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 6 veces en contra.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 13 veces en contra.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PP</strong> 30 veces en contra.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>ZEC</strong> 7 veces en contra.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PSOE</strong> 6 veces en contra.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> 13 veces en contra.</p>
                 </div>
             </div>
             <div class='step' data-step='2'>
@@ -92,10 +93,10 @@
                     <h2 class="partidos-grafico-titulo">¿QUIÉN VOTA A FAVOR?
                     </h2>
                     <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuántas veces han votado a su favor el resto de partidos.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha votado 6 veces a su favor.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha votado 43 veces a su favor.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha votado 42 veces a su favor.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha votado 29 veces a su favor.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PP</strong> 6 veces a su favor.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>ZEC</strong> 43 veces a su favor.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PSOE</strong> 42 veces a su favor.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> 29 veces a su favor.</p>
                 </div>
             </div>
             <div class='step' data-step='3'>
@@ -103,32 +104,32 @@
                     <h2 class="partidos-grafico-titulo">¿QUIÉN SE ABSTIENE?
                 </h2>
                     <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver cuántas veces se han abstenido el resto de partidos.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Popular</strong> ha optado por la abstención en 17 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Zaragoza En Común</strong> ha optado por la abstención en 3 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50">El <strong>Partido Socialista Obrero Español</strong> ha optado por la abstención en 5 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> ha optado por la abstención en 11 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PP</strong> se ha abstenido en 17 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>ZEC</strong> se ha abstenido en 3 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>PSOE</strong> se ha abstenido en 5 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50"><strong>Ciudadanos</strong> se ha abstenido en 11 ocasiones.</p>
                 </div>
             </div>
             <div class='step' data-step='4'>
                 <div class="step-blanco">
                     <h2 class="partidos-grafico-titulo">VOTANDO EN CONTRA
                     </h2>
-                    <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Chunta Aragonesista</strong> ha votado en contra del resto de partidos.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado en contra del <strong>Partido Popular</strong> en 46 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado en contra de <strong>Zaragoza En Común</strong> en 1 ocasión.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado en contra del <strong>Partido Socialista Obrero Español</strong> en 9 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado en contra de <strong>Ciudadanos</strong> en 13 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que <strong>Chunta Aragonesista</strong> ha votado en contra del resto de partidos.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado en contra del <strong>PP</strong> en 46 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado en contra de <strong>ZEC</strong> en 1 ocasión.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado en contra del <strong>PSOE</strong> en 9 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado en contra de <strong>Ciudadanos</strong> en 13 ocasiones.</p>
                 </div>
             </div>
             <div class='step' data-step='5'>
                 <div class="step-blanco">
                     <h2 class="partidos-grafico-titulo">VOTANDO A FAVOR
                 </h2>
-                    <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que el <strong>Chunta Aragonesista</strong> ha votado a favor del resto de partidos.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado a favor del <strong>Partido Popular</strong> en 15 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado a favor de <strong>Zaragoza En Común</strong> en 48 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado a favor del <strong>Partido Socialista Obrero Español</strong> en 51 ocasiones.</p>
-                    <p class="partidos-grafico-parrafo maw-50"><strong>Chunta Aragonesista</strong> ha votado a favor de <strong>Ciudadanos</strong> en 16 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">En la siguiente gráfica podemos ver el número de veces que <strong>Chunta Aragonesista</strong> votado a favor del resto de partidos.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado a favor del <strong>PP</strong> en 15 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado a favor de <strong>ZEC</strong> en 48 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado a favor del <strong>PSOE</strong> en 51 ocasiones.</p>
+                    <p class="partidos-grafico-parrafo maw-50">Ha votado a favor de <strong>Ciudadanos</strong> en 16 ocasiones.</p>
                 </div>
             </div>
         </div>
@@ -145,7 +146,8 @@
         </div>
     </footer>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.0/mapbox-gl.js'></script>
-    <script type="text/javascript" src="../js/mapa-cha.js"></script>
+    <script type="text/javascript" src="js/scrollama.min.js"></script>
+    <script type="text/javascript" src="js/mapa-cha.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
