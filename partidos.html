@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Partidos</title>
@@ -9,7 +10,7 @@
     <script type="text/javascript" src="js/tipuesearch_set.js"></script>
     <script type="text/javascript" src="js/tipuesearch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700|Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600|Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
@@ -17,53 +18,53 @@
         <nav class="nav-grid">
             <a href="/" class="link nav-grid-first"><span class="link-name">BISLAI</span></a>
             <div class="contenedor-buscador">
-                    <form action="/buscador">
-                        <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
-                        <button class="btn-search" type="submit">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z"/>
-                            </svg>
-                        </button>
-                    </form>
+                <form action="/buscador">
+                    <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                    <button class="btn-search" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                        </svg>
+                    </button>
+                </form>
             </div>
             <div class="nav-grid-second">
-    <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
-    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
-    <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
-</div>
+                <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
+                <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
+                <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
+            </div>
         </nav>
     </header>
     <section class="partido-container">
-            <a href="/pp" class="partido-card-top partido-card-top-pp font-bislai">
-                    <div class="partido-card-bg partido-card-pp"></div>
-                    <h3 class="partido-card-title">PARTIDO POPULAR</h3>
-                    <p class="partido-card-votos">87554 VOTOS / 26.88%</p>
-                    <p class="partido-card-concejales">10 CONCEJALES</p>
-            </a>
-            <a href="/zec" class="partido-card-top partido-card-top-zec pos-r font-bislai">
-                    <div class="partido-card-bg partido-card-zec"></div>
-                    <h3 class="partido-card-title">ZARAGOZA EN COMÚN</h3>
-                    <p class="partido-card-votos">80040 VOTOS / 24.57%</p>
-                    <p class="partido-card-concejales">9 CONCEJALES</p>
-            </a>
-            <a href="/psoe" class="partido-card-top partido-card-top-psoe font-bislai">
-                    <div class="partido-card-bg partido-card-psoe"></div>
-                    <h3 class="partido-card-title">PSOE</h3>
-                    <p class="partido-card-votos">60746 VOTOS / 18.65%</p>
-                    <p class="partido-card-concejales">6 CONCEJALES</p>
-            </a>
-            <a href="/ciudadanos" class="partido-card-top partido-card-top-cs pos-r font-bislai">
-                    <div class="partido-card-bg partido-card-cs"></div>
-                    <h3 class="partido-card-title">CIUDADANOS</h3>
-                    <p class="partido-card-votos">40046 VOTOS / 12.29%</p>
-                    <p class="partido-card-concejales">4 CONCEJALES</p>
-            </a>
-            <a href="/cha" class="partido-card-top partido-card-top-cha font-bislai">
-                    <div class="partido-card-bg partido-card-cha"></div>
-                    <h3 class="partido-card-title">CHUNTA ARAGONESISTA</h3>
-                    <p class="partido-card-votos">22076 VOTOS / 6.78%</p>
-                    <p class="partido-card-concejales">2 CONCEJALES</p>
-            </a>
+        <a href="/pp" class="partido-card-top partido-card-top-pp font-bislai">
+            <div class="partido-card-bg partido-card-pp"></div>
+            <h3 class="partido-card-title">PARTIDO POPULAR</h3>
+            <p class="partido-card-concejales">10 CONCEJALES</p>
+            <p class="partido-card-votos">87.554 VOTOS · 26.88%</p>
+        </a>
+        <a href="/zec" class="partido-card-top partido-card-top-zec pos-r font-bislai">
+            <div class="partido-card-bg partido-card-zec"></div>
+            <h3 class="partido-card-title">ZARAGOZA EN COMÚN</h3>
+            <p class="partido-card-concejales">9 CONCEJALES</p>
+            <p class="partido-card-votos">80.040 VOTOS · 24.57%</p>
+        </a>
+        <a href="/psoe" class="partido-card-top partido-card-top-psoe font-bislai">
+            <div class="partido-card-bg partido-card-psoe"></div>
+            <h3 class="partido-card-title">PSOE</h3>
+            <p class="partido-card-concejales">6 CONCEJALES</p>
+            <p class="partido-card-votos">60.746 VOTOS · 18.65%</p>
+        </a>
+        <a href="/ciudadanos" class="partido-card-top partido-card-top-cs pos-r font-bislai">
+            <div class="partido-card-bg partido-card-cs"></div>
+            <h3 class="partido-card-title">CIUDADANOS</h3>
+            <p class="partido-card-concejales">4 CONCEJALES</p>
+            <p class="partido-card-votos">40.046 VOTOS · 12.29%</p>
+        </a>
+        <a href="/cha" class="partido-card-top partido-card-top-cha font-bislai">
+            <div class="partido-card-bg partido-card-cha"></div>
+            <h3 class="partido-card-title">CHUNTA ARAGONESISTA</h3>
+            <p class="partido-card-concejales">2 CONCEJALES</p>
+            <p class="partido-card-votos">22.076 VOTOS · 6.78%</p>
+        </a>
     </section>
     <footer class="footer">
         <div class="maw-60 grid-footer">
@@ -72,11 +73,8 @@
             <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
             <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
         </div>
-
-
-
-            <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
-            <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
+        <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+        <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
         </div>
     </footer>
     <script>

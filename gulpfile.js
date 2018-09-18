@@ -20,6 +20,8 @@ inlinesource = require('gulp-inline-source');
 uncss = require('gulp-uncss');
 webp = require('gulp-webp');
 const babel = require('gulp-babel');
+obfuscate = require('gulp-obfuscate');
+
 
 
 
@@ -230,4 +232,4 @@ gulp.task('default', ["browserSync"], function() {
 */
 
 // Build para un proyecto sin imágenes
-gulp.task('build', ['minify', 'compress', 'removecss', 'inline']);
+gulp.task('build', ['minify', 'compress' ]);
