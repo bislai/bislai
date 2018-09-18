@@ -7,8 +7,6 @@
 
 .header-home {
     background-color: transparent;
-    position: absolute;
-    top: .5rem;
     padding: .5rem 1rem;
     .nav-grid {
         grid-template-columns: 10% 1fr;
@@ -18,6 +16,5 @@
 .nav-grid-second-link {
     font-family: var(--fontBislai);
     color: var(--white);
-    position: relative;
     text-decoration: none;
 }

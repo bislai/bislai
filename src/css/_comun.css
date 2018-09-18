@@ -202,8 +202,6 @@ body {
     border-spacing: 0;
     background-color: var(--white);
     empty-cells: show;
-    -webkit-box-shadow: 7px 7px 12px -9px #777;
-    -moz-box-shadow: 7px 7px 12px -9px #777;
     box-shadow: 7px 7px 12px -9px #777;
     opacity: 0.9;
 }
@@ -267,11 +265,6 @@ body {
     fill: #000;
 }
 
-
-
-
-
-
 /* Machacando a fuego los estilos que incluye c3 */
 
 .c3-chart-arc text {
@@ -285,218 +278,6 @@ body {
     font-size: 16px !important;
     font-weight: bold !important;
     font-family: var(--fontSystem);
-}
-
-
-
-
-
-
-/*
-Tipue Search 6.0
-Copyright (c) 2017 Tipue
-Tipue Search is released under the MIT License
-http://www.tipue.com/search
-*/
-
-
-/* fonts */
-
-#tipue_search_input,
-#tipue_search_foot_boxes,
-#tipue_search_results_count,
-#tipue_search_warning,
-.tipue_search_content_url,
-.tipue_search_content_debug,
-.tipue_search_related_text {
-    font-size: 14px;
-}
-
-.tipue_search_content_title {
-    font-size: 26px;
-}
-
-.tipue_search_content_text,
-.tipue_search_related_title {
-    font-size: 15px;
-}
-
-.tipue_search_content_bold,
-.tipue_search_related_bold {
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-/* search box */
-
-#tipue_search_input {
-    color: var(--pureblack);
-    border: 0;
-    padding: 16px;
-    margin: 0;
-    height: 48px;
-    background-color: #d3d3d3;
-    font-family: var(--fontSystem);
-    border-radius: 5px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.tipue_search_icon {
-    width: 24px;
-    height: 24px;
-}
-
-.tipue_search_left {
-    float: left;
-    padding: 15px 9px 0 0;
-}
-
-.tipue_search_right {
-    float: left;
-}
-
-
-
-
-
-
-/* search results */
-
-#tipue_search_content {
-    max-width: 750px;
-    padding-top: 15px;
-    margin: 0;
-}
-
-#tipue_search_results_count {
-    color: #333;
-}
-
-#tipue_search_warning {
-    color: #333;
-    margin: 7px 0;
-}
-
-#tipue_search_warning a {
-    color: #5396ea;
-    text-decoration: none;
-}
-
-#tipue_search_warning a:hover {
-    color: #555;
-}
-
-.tipue_search_content_title {
-    color: #666;
-    margin-top: 21px;
-    &:not(:first-child) {
-        border-top: 1px solid #ccc;
-        padding: 10px 0;
-    }
-}
-
-.tipue_search_content_title a {
-    color: #000;
-    text-decoration: none;
-}
-
-.tipue_search_content_title a:hover {
-    color: #666;
-}
-
-.tipue_search_content_url {
-    word-wrap: break-word;
-    hyphens: auto;
-}
-
-.tipue_search_content_url a,
-.tipue_search_related_text a {
-    color: #5396ea;
-    text-decoration: none;
-}
-
-.tipue_search_content_url a:hover,
-.tipue_search_related_text a:hover,
-.tipue_search_related_before,
-.tipue_search_related_after {
-    color: #555;
-}
-
-.tipue_search_content_text {
-    color: #333;
-    word-wrap: break-word;
-    hyphens: auto;
-    margin-top: 8px;
-}
-
-.tipue_search_content_bold {
-    color: #333;
-}
-
-.tipue_search_content_debug {
-    color: #333;
-    margin: 5px 0;
-}
-
-.tipue_search_related_title {
-    color: #333;
-    margin: 26px 0 7px 0;
-}
-
-.tipue_search_related_cols {
-    -webkit-columns: 230px 2;
-    -moz-columns: 230px 2;
-    columns: 230px 2;
-}
-
-#tipue_search_foot {
-    margin: 51px 0 21px 0;
-}
-
-#tipue_search_foot_boxes {
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-}
-
-#tipue_search_foot_boxes li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-}
-
-#tipue_search_foot_boxes li a {
-    padding: 10px 17px 11px;
-    background-color: var(--white);
-    border: 1px solid #e3e3e3;
-    border-radius: 1px;
-    color: #333;
-    margin-right: 7px;
-    text-decoration: none;
-    text-align: center;
-}
-
-#tipue_search_foot_boxes li.current {
-    padding: 10px 17px 11px;
-    background: #f6f6f6;
-    border: 1px solid #e3e3e3;
-    border-radius: 1px;
-    color: #333;
-    margin-right: 7px;
-    text-align: center;
-}
-
-#tipue_search_foot_boxes li a:hover {
-    background: #f6f6f6;
 }
 
 .btn-search {
@@ -619,15 +400,6 @@ http://www.tipue.com/search
 .tabla-record-minimas-desktop {
     display: none;
 }
-
-
-
-
-
-
-
-
-
 /* stylelint-enable */
 
 .background {
@@ -719,7 +491,7 @@ path.q2-3 {
     &:first-child {
         margin-top: 0;
     }
-    +p {
+    + p {
         display: none;
     }
     span {
@@ -744,9 +516,6 @@ path.q2-3 {
         }
     }
 }
-
-
-
 
 /* stylelint-disable */
 
@@ -781,12 +550,6 @@ path.q2-3 {
         min-width: 48%;
     }
 }
-
-
-
-
-
-
 /* stylelint-enable */
 
 .container-tooltip-leyenda {
@@ -797,10 +560,6 @@ path.q2-3 {
 .container-tooltip-partido {
     padding: .5rem 1rem;
 }
-
-
-
-
 /* stylelint-disable */
 
 .tooltipLeyenda {
@@ -813,7 +572,6 @@ path.q2-3 {
         display: none;
     }
 }
-
 
 .tooltip-pp,
 .tooltip-psoe,
@@ -922,12 +680,6 @@ path.q2-3 {
         background-color: rgba(255, 255, 255, .8);
     }
 }
-
-
-
-
-
-
 /* stylelint-enable */
 
 .mapa-container {
@@ -1810,50 +1562,5 @@ path.q2-3 {
     .calendario-plenos-texto {
         margin: 0 auto;
         margin-bottom: 1rem;
-    }
-}
-
-@media only screen and (max-width: 46em) {
-
-    .bislai-home-body-left-text {
-        left: 10px;
-        top: 20vh;
-    }
-
-    .column {
-        height: auto;
-        &:after {
-            height: 25%;
-        }
-    }
-
-    .bislai-home-card-title {
-        font-size: 1rem;
-    }
-
-    .bislai-home-card {
-        position: static;
-        &:not(:last-child) {
-            margin-right: 0;
-        }
-    }
-
-    .bislai-home-card-element {
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        min-height: auto;
-        border-radius: 0;
-    }
-
-    .bislai-home-card-element-text {
-        max-width: 100%;
-    }
-
-    .bislai-home-body-right {
-        top: 40%;
-        max-width: 90%;
-        padding: 1rem;
-        margin: 0 auto;
     }
 }
