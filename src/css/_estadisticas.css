@@ -1,17 +1,9 @@
 .axis-y {
-    .domain {
-        stroke: none;
-    }
     .tick {
         line {
             stroke-dasharray: 3px;
+            stroke: #ccc;
         }
-    }
-}
-
-.axis-x {
-    .domain {
-        stroke: none;
     }
 }
 
@@ -23,5 +15,5 @@
 }
 
 .bar-vertical {
-    fill: #1D1451;
+    fill: #605b77;
 }

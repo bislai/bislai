@@ -2,7 +2,7 @@
     margin: 1rem 0;
     .domain {
         fill: none;
-        stroke: #000;
+        stroke: none;
     }
     .yAxis {
         .domain {
@@ -12,6 +12,9 @@
             stroke: #111;
             stroke-dasharray: 3px;
         }
+        text {
+            display: none;
+        }
     }
     .xAxis {
         .domain {
@@ -19,15 +22,23 @@
         }
     }
     text {
-        font-family: var(--fontPlex);
+        font-family: var(--condensed);
         font-size: 12px;
     }
-    .nombre-distrito {
+    text.nombre-distrito {
         font-size: 16px;
+        display: inline-block;
         font-weight: 600;
     }
     .tooltip-porcentaje {
         font-weight: 600;
+    }
+    &:nth-child(3n+1) {
+        .yAxis {
+            text {
+                display: inline-block;
+            }
+        }
     }
 }
 

@@ -1215,12 +1215,12 @@ path.q2-3 {
     transition: opacity .3s ease-in;
     font-size: .8rem;
     font-family: var(--fontPlex);
-    margin: .5rem 0;
+    margin: .25rem 0;
     font-weight: 600;
     text-align: left;
 }
 
-.partido-card-concejales {
+.partido-card-votos {
     font-weight: 400;
 }
 
@@ -1278,6 +1278,23 @@ path.q2-3 {
             color: var(--black);
         }
     }
+}
+
+.bislai-icon {
+    .active {
+        display: none;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    &:hover {
+        .no-active {
+            display: none;
+        }
+        .active {
+            display: inline-block;
+        }
+    }
+
 }
 
 .home-cite-container {
@@ -1431,12 +1448,6 @@ path.q2-3 {
     position: relative;
 }
 
-#chart {
-    max-width: 50vw;
-    width: 50vw;
-    pointer-events: none;
-}
-
 #scroll {
     position: relative;
 }
@@ -1522,25 +1533,19 @@ path.q2-3 {
         padding: 1rem;
     }
 
-    #chart {
-        max-width: 100vw;
-        width: 100%;
-    }
-
     .step {
         .title-estadisticas {
-            background-color: #111;
             font-size: 1rem;
         }
     }
 
     .step-blanco {
-        background-color: var(--grey);
         padding: .5rem;
     }
 
     .scroll__graphic {
         float: none;
+        width: 100%;
     }
 
     .bislai-home-body-left-text {
@@ -1769,7 +1774,6 @@ path.q2-3 {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
     background-color: #efefef;
-    min-height: 100vh;
 }
 
 .calendario-plenos-titulo {

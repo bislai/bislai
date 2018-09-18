@@ -109,13 +109,6 @@
 
 @media only screen and (min-width: 48em) {
 
-    .data-titulo {
-        font-size: 6rem;
-    }
-
-    .dataset-title {
-        font-size: 4rem;
-    }
 
     .data-figura {
         display: inline-block;
