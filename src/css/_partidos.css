@@ -27,9 +27,8 @@
 }
 
 .partidos-cabecera-izda {
-    width: max-content;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     vertical-align: top;
@@ -73,7 +72,7 @@
 }
 
 .partidos-cabecera-subtitle {
-  grid-column: 1 / 5;
+  grid-column: 1 / 4;
   font-size: 1rem;
   margin: 0;
 }
@@ -186,6 +185,7 @@
     text {
         font-family: var(--condensed);
     }
+    /*stylelint-disable*/
     .axis-x {
         .tick {
             line {
@@ -204,8 +204,8 @@
             }
         }
     }
+    /*stylelint-enable*/
 }
-
 
 @media only screen and (max-width: 48em) {
 
