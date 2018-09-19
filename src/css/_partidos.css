@@ -119,12 +119,12 @@
 }
 
 .partidos-grafico-titulo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: var(--fontBislai);
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: .5rem 0;
+    padding: 0;
     border-radius: 4px;
 }
 
@@ -168,8 +168,50 @@
     margin-top: 10vh;
 }
 
+.grafica-favor-legislatura {
+    max-width: 70%;
+    margin: 3rem auto;
+    .partidos-grafico-parrafo {
+        max-width: 20rem;
+    }
+    circle.PSOE {
+        background-image: url('../img/psoe.svg');
+        -webkit-background-size: 100%;
+        background-size: 100%;
+
+    }
+    .line {
+        fill: none;
+    }
+    text {
+        font-family: var(--condensed);
+    }
+    .axis-x {
+        .tick {
+            line {
+                stroke: none;
+            }
+        }
+        .domain {
+            stroke: none;
+        }
+    }
+    .axis-y {
+        .tick {
+            line {
+                stroke: #ccc;
+                stroke-dasharray: 0;
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width: 48em) {
+
+    .grafica-favor-legislatura {
+        max-width: 90%;
+    }
 
     .partidos-cabecera-izda,
     .partidos-cabecera-dcha,

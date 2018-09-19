@@ -2,7 +2,7 @@
     .tick {
         line {
             stroke-dasharray: 3px;
-            stroke: #ccc;
+            stroke: var(--black);
         }
     }
 }
@@ -12,8 +12,11 @@
         font-family: var(--condensed);
         font-size: 14px;
     }
+    .domain {
+        stroke: none;
+    }
 }
 
 .bar-vertical {
-    fill: #605b77;
+    fill: #313e70;
 }

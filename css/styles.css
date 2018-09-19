@@ -1295,6 +1295,7 @@ path.q2-3 {
 }
 #scroll {
     position: relative;
+    background-color: #f1f1f1;
 }
 .scroll__graphic {
     /* stylelint-disable */
@@ -2329,12 +2330,12 @@ http://www.tipue.com/search
     position: relative;
 }
 .partidos-grafico-titulo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Fjalla One", sans-serif;
     font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: .5rem 0;
+    padding: 0;
     border-radius: 4px;
 }
 .partidos-grafico-pp .partidos-grafico-titulo {
@@ -2362,7 +2363,40 @@ http://www.tipue.com/search
     margin: 0 auto;
     margin-top: 10vh;
 }
+.grafica-favor-legislatura {
+    max-width: 70%;
+    margin: 3rem auto;
+}
+.grafica-favor-legislatura .partidos-grafico-parrafo {
+        max-width: 20rem;
+    }
+.grafica-favor-legislatura circle.PSOE {
+        background-image: url('../img/psoe.svg');
+        -webkit-background-size: 100%;
+        background-size: 100%;
+
+    }
+.grafica-favor-legislatura .line {
+        fill: none;
+    }
+.grafica-favor-legislatura text {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+.grafica-favor-legislatura .axis-x .tick line {
+                stroke: none;
+            }
+.grafica-favor-legislatura .axis-x .domain {
+            stroke: none;
+        }
+.grafica-favor-legislatura .axis-y .tick line {
+                stroke: #ccc;
+                stroke-dasharray: 0;
+            }
 @media only screen and (max-width: 48em) {
+
+    .grafica-favor-legislatura {
+        max-width: 90%;
+    }
 
     .partidos-cabecera-izda,
     .partidos-cabecera-dcha,
@@ -2465,14 +2499,17 @@ http://www.tipue.com/search
 }
 .axis-y .tick line {
             stroke-dasharray: 3px;
-            stroke: #ccc;
+            stroke: #121;
         }
 .axis text {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 0.88rem;
     }
+.axis .domain {
+        stroke: none;
+    }
 .bar-vertical {
-    fill: #605b77;
+    fill: #313e70;
 }
 
 /*# sourceMappingURL=styles.css.map */

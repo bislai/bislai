@@ -1202,6 +1202,7 @@ path.q2-3 {
 
 #scroll {
     position: relative;
+    background-color: #f1f1f1;
 }
 
 .scroll__graphic {
