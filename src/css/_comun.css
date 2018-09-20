@@ -71,6 +71,15 @@ body {
     }
 }
 
+code.code {
+    font-family: var(--condensed);
+    display: block;
+    padding: 1rem;
+    background-color: var(--black);
+    color: var(--white);
+    margin: .75rem 0;
+}
+
 
 
 /* ESTILOS C3 */
@@ -842,8 +851,8 @@ path.q2-3 {
 }
 
 .partido-container {
-    overflow: hidden;
-    text-align: center;
+    width: 100%;
+    font-size: 0;
 }
 
 .partido-card-button {
@@ -868,6 +877,7 @@ path.q2-3 {
 
 .partido-card-bg {
     position: absolute;
+    z-index: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -879,48 +889,47 @@ path.q2-3 {
 }
 
 .partido-card-zec {
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    opacity: .2;
+    background-color: var(--zec);
+    opacity: .8;
 }
 
 .partido-card-pp {
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-    opacity: .2;
+    background-color: var(--pp);
+    opacity: .8;
 }
 
 .partido-card-psoe {
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    opacity: .2;
+    background-color: var(--psoe);
+    opacity: .8;
 }
 
 .partido-card-cs {
-    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
-    opacity: .2;
+    background-color: var(--ciudadanos);
+    opacity: .8;
 }
 
 .partido-card-cha {
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    opacity: .2;
+    background-color: var(--chunta);
+    opacity: .8;
 }
 
 .partido-card-top {
-    background-color: #fff;
-    width: 25%;
-    border-radius: 4px;
-    border: 1px solid rgba(149, 154, 154, .27);
+    background-color: var(--data);
+    width: 20%;
     padding: 2rem 1rem;
     color: var(--pureblack);
-    border-top: 5px solid var(--pp);
-    box-shadow: 0 2px 20px 2px rgba(149, 154, 154, .27);
     transition: all .3s ease-in;
     display: inline-block;
     text-decoration: none;
     position: relative;
-    margin: 4rem 3rem;
+    height: 60vh;
     &:hover {
-        transform: translateY(-.5rem);
         .partido-card-bg {
             transform: scaleX(0);
+        }
+        .partido-card-votos,
+        .partido-card-concejales {
+            background-color: var(--greyc);
         }
     }
 }
@@ -933,41 +942,33 @@ path.q2-3 {
     left: 0;
 }
 
-.partido-card-top-zec {
-    border-top: 5px solid var(--zec);
-}
-
-.partido-card-top-psoe {
-    border-top: 5px solid var(--psoe);
-}
-
-.partido-card-top-cs {
-    border-top: 5px solid var(--ciudadanos);
-}
-
-.partido-card-top-cha {
-    border-top: 5px solid var(--chunta);
-}
-
 .partido-card-right {
     margin-left: 50vw;
 }
 
 .partido-card-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-family: var(--fontBislai);
     text-align: left;
     margin: 0;
     font-weight: normal;
     transition: opacity .3s ease-in;
     opacity: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .partido-card-votos,
 .partido-card-concejales {
-    transition: opacity .3s ease-in;
+    background-color: var(--grey);
+    border-radius: 4px;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+    transition: background-color .3s ease-in;
     font-size: .8rem;
     font-family: var(--fontPlex);
-    margin: .25rem 0;
+    margin: .5rem 0;
     font-weight: 600;
     text-align: left;
 }
@@ -1093,7 +1094,9 @@ path.q2-3 {
 }
 
 .bislai-icon {
-    width: max-content;
+    width: intrinsic;
+    width: -moz-max-content;
+    width: -webkit-max-content;
     position: absolute;
     z-index: 10;
     top: 0;
@@ -1109,7 +1112,6 @@ path.q2-3 {
 
 .home-position-container-title {
     font-size: 1.5rem;
-    font-weight: bold;
     color: var(--white);
     display: block;
     font-family: var(--fontBislai);
@@ -1279,6 +1281,33 @@ path.q2-3 {
 
 @media only screen and (max-width: 48em) {
 
+    .home-position-container {
+        position: static;
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .bislai-icon {
+        position: static;
+    }
+
+    .home-position-container-claim,
+    .home-position-container-search,
+    .home-position-container.home-position-container-stats .home-position-container-claim {
+        left: 10%;
+        top: 35%;
+        padding: 2rem;
+    }
+
+    .home-position-container-claim {
+        max-width: 95%;
+    }
+
+    .column {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
     .scroll__text {
         width: 100%;
         max-width: 100%;
@@ -1287,6 +1316,8 @@ path.q2-3 {
     }
 
     .step {
+        max-width: 60%;
+        margin: 0 auto;
         .title-estadisticas {
             font-size: 1rem;
         }
@@ -1298,7 +1329,8 @@ path.q2-3 {
 
     .scroll__graphic {
         float: none;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .bislai-home-body-left-text {
@@ -1310,8 +1342,8 @@ path.q2-3 {
     }
 
     .bislai-icon {
-        width: 16px;
-        height: 32px;
+        width: auto;
+        height: auto;
     }
 
     .bislai-home-body-left-text-white {
@@ -1397,7 +1429,6 @@ path.q2-3 {
 .link-name {
     font-size: 1rem;
     font-family: var(--fontBislai);
-    font-weight: bold;
     overflow: hidden;
     padding: 0 .25rem;
     text-transform: uppercase;
@@ -1563,5 +1594,42 @@ path.q2-3 {
     .calendario-plenos-texto {
         margin: 0 auto;
         margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 30em) {
+    .step {
+        max-width: 90%;
+    }
+
+    .link-name {
+        margin-right: .5rem;
+    }
+
+    .label-record {
+        padding: .5rem;
+    }
+
+    .home-position-container-claim, .home-position-container-search, .home-position-container.home-position-container-stats .home-position-container-claim {
+        position: static;
+    }
+
+    .home-position-container {
+        width: 90%;
+    }
+
+    .tooltip {
+        width: 90%;
+    }
+
+    .home-position-container-claim {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .home-image-effect.blue-light {
+        display: none;
+
     }
 }

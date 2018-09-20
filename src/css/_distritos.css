@@ -40,6 +40,9 @@
             }
         }
     }
+    .nombre-distrito {
+        font-size: 12px;
+    }
 }
 
 .graficas-partido {
@@ -55,4 +58,15 @@
         margin: 0 auto;
     }
 
+}
+
+@media only screen and (max-width: 48em) {
+
+    .graficas-partido {
+        text-align: center;
+    }
+
+    .distrito .yAxis text {
+        display: inline-block;
+    }
 }

@@ -117,7 +117,9 @@
     .nav-plenos-anterior,
     .nav-plenos-posterior {
         border: 0;
-        width: max-content;
+        width: intrinsic;
+        width: -moz-max-content;
+        width: -webkit-max-content;
     }
 
     .nav-plenos-posterior {
