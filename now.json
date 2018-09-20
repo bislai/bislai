@@ -1,0 +1,11 @@
+{
+    "name": "Bislai",
+    "env":
+    {
+        "NODE_ENV": "production"
+    },
+    "alias": [
+        "bislai.co"
+    ],
+    "type": "static"
+}
