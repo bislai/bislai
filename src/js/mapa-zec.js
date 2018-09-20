@@ -284,8 +284,7 @@ function initResponsive() {
       .setup({
         step: '.step' // required - class name of trigger steps
       })
-      .onStepEnter(handleStepEnter)
-      .onStepExit(handleStepExit);
+      .onStepEnter(handleStepEnter);
 }
 
 if (width > 769) {
