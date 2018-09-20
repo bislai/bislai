@@ -4,13 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Bislai - data </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/tipuesearch_content.js"></script>
+    <script src="lib/tipuesearch_set.js"></script>
+    <script src="lib/tipuesearch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="css/default.css">
-    <script src="js/highlight.pack.js"></script>
+    <script src="lib/highlight.pack.js"></script>
     <script>
     hljs.initHighlightingOnLoad();
     </script>
@@ -179,6 +179,18 @@
     ]
                     </code>
             </pre>
+            </div>
+        </article>
+    </section>
+    <section class="dataset">
+        <article class="dataset-container">
+            <h2 class="dataset-title">SCRAPER</h2>
+            <div class="data-texto-container">
+                <span class="dataset-label">BASH</span>
+                <p class="data-texto">La peor parte de este proyecto es la obtención de datos. La estructura del HTML de los plenos y la nomenclatura de los mismos dificulta el orden a la hora de extraer los datos. Para ello he intentado automatizarlo creado un scraper con el que se obtienen las votaciones, el texto de la moción y el enlace a la moción presentada.</p>
+                <p class="data-texto">Para ejecutarlo hay que descargarse el scrapper de <a href="https://github.com/bislai/datasets/blob/master/scrapper-mociones.sh">GitHub</a>. Una vez descargado lo ejecutamos, el único parametro que necesitamos es la fecha del pleno, por ejemplo 27.07.2018 <code class="code">sh scrapper-mociones.sh 27.07.2018</code></p>
+                <p class="data-texto">Aquí se puede ver lo obtenido con el scrapper: <a href="https://github.com/bislai/datasets/tree/master/mociones-scrapeadas">enlace</a></p>
+                <a href="https://github.com/bislai/datasets" class="link-mocion link-mocion-ujarak data-btn">GITHUB</a>
             </div>
         </article>
     </section>

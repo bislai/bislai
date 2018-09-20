@@ -10,7 +10,6 @@ nested = require('postcss-nested');
 pxtorem = require('postcss-pxtorem');
 reporter = require('postcss-reporter');
 imagemin = require('gulp-imagemin');
-uglify = require('gulp-uglify');
 newer = require('gulp-newer');
 nano = require('gulp-cssnano');
 notify = require('gulp-notify');
@@ -19,10 +18,8 @@ browserSync = require('browser-sync');
 inlinesource = require('gulp-inline-source');
 uncss = require('gulp-uncss');
 webp = require('gulp-webp');
-const babel = require('gulp-babel');
-obfuscate = require('gulp-obfuscate');
-
-
+babel = require('gulp-babel');
+changed = require('gulp-changed');
 
 
 var paths = {
@@ -44,6 +41,9 @@ var watch = {
   minifycss: [
     paths.buildCss + '/**/*.css'
   ],
+  minifyjs: [
+    paths.buildJs + '/**/*.js'
+  ],
   images: [
     paths.images + '/**/*.*'
   ],
@@ -54,6 +54,7 @@ var watch = {
 
 gulp.task('babel', () =>
     gulp.src(watch.js)
+        .pipe(changed(paths.buildJs))
         .pipe(babel({
             presets: ['env']
         }))
@@ -95,17 +96,6 @@ function errorAlertPost(error) {
     console.log(error.toString());
     this.emit("end");
 };
-
-/* Comprimiendo JavaScript */
-gulp.task('compress', function() {
-    return gulp.src(watch.js)
-        .pipe(uglify())
-        .on("error", errorAlertJS)
-        .pipe(gulp.dest(paths.buildJs))
-        .pipe(notify({
-            message: 'JavaScript complete'
-        }));
-});
 
 /* ==========================================================================
    Lanzando postCSS
@@ -232,4 +222,4 @@ gulp.task('default', ["browserSync"], function() {
 */
 
 // Build para un proyecto sin imágenes
-gulp.task('build', ['minify', 'compress' ]);
+gulp.task('build', ['minify']);
