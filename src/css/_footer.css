@@ -1,7 +1,6 @@
 .footer {
     border-top: 1px solid var(--grey);
     padding: 1rem;
-    font-weight: 600;
     font-family: var(--fontPlex);
     background-color: #fafafa;
 }
@@ -9,8 +8,6 @@
 .grid-footer-links {
     font-size: 1rem;
     font-family: var(--fontBislai);
-    letter-spacing: 1px;
-    font-weight: 600;
     color: var(--bgcHeader);
     padding-right: 1rem;
     vertical-align: middle;

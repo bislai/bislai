@@ -1,15 +1,3 @@
-.black {
-    color: var(--black);
-}
-
-.bgc-black {
-    background-color: var(--black);
-}
-
-.bgc-header-home {
-    background-color: var(--bgcHeader);
-}
-
 .bgc-tabs {
     background-color: var(--bgcTabs);
 }
@@ -92,22 +80,4 @@
 
 .bgc-acuerdos {
     background-color: #37ecba;
-}
-
-@media only screen and (min-width: 30em) {
-    .bgc-transparent--s {
-        background-color: transparent;
-    }
-}
-
-@media only screen and (min-width: 48em) {
-    .bgc-transparent--m {
-        background-color: transparent;
-    }
-}
-
-@media only screen and (min-width: 64em) {
-    .bgc-transparent--l {
-        background-color: transparent;
-    }
 }

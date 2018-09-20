@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bislai - votaciones en el Ayuntamiento de Zaragoza</title>
     <meta name="description" content="Accesibilidad y transparencia política para los plenos del Ayuntamiento de Zaragoza">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/tipuesearch_content.js"></script>
+    <script src="lib/tipuesearch_set.js"></script>
+    <script src="lib/tipuesearch.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600|Playfair+Display" rel="stylesheet">
 </head>
 
 <body class="mih-100">
@@ -28,40 +29,40 @@
                 </div>
             </nav>
         </header>
-        <img alt="una mano de un hombre ayuda a una mano de una mujer introducir un voto en una urna" src="img/urnas.jpg"/>
-        <div class="bislai-home-body-left-text">
-            <span class="bislai-home-body-left-text-white font-bislai"><span class="line-throught">ACCESIBILIDAD</span> POLÍTICA</span>
-            <div class="bislai-home-body-left-container">
-                <svg width="43" height="75" viewBox="0 0 43 75" class="bislai-icon" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M42 32.7h-5.7c-.3-5.8-4-10-9.8-11.5 2.6-1.6 4.3-4.4 4.3-7.7v-1.2c0-1.2-.2-2.4-.6-3.4 1.3-1 2-2.8 2.2-5 0-1.4 0-3-1-3.4-.5-.2-1 0-1.2.4-.6.6-2.5.2-4.4-.2-2-.5-4.6-1-6.8-.6-5 1-6 5.3-5.7 7.2-.8 1.5-1.2 3-1.2 4.8v1c0 3.5 2 6.3 4.4 8-5.8 1.6-9.6 5.7-9.8 11.5H1c-.6 0-1 .3-1 1V38c0 .6.4 1 1 1h3v35c0 .4.3.8 1 .8h33c.6 0 1-.4 1-1V39.3h3c.6 0 1-.4 1-1v-4.6c0-.6-.4-1-1-1zM19.4 2c2-.3 4 0 6 .6 2 .5 3.8 1 5.2.4 0 .8 0 2-.5 3.2 0 .5-.4.8-.6 1C27.8 5 25 3.6 22 3.6h-1.2c-2 0-4 .7-5.5 2 .3-1.4 1.4-3 4-3.4zM21 20.7c-4 0-7-3.2-7-7v-1.3c0-3.8 3-7 7-7h1c4 0 7 3 7 7v1.2c0 3.8-3 7-7 7h-1zm.5 2c6.3 0 12.6 3 13 10h-12v-2.4c.4-.3.8-.8.8-1.5v-2.4c0-1-.7-1.8-1.8-1.8-1 0-1.8.7-1.8 1.8v2.4c0 .7.4 1 1 1.5v2.5H8.3c.5-7.2 6.8-10.2 13-10.2zM37 73H6v-34h31v34zm4-36H2v-2.6h39v2.7z" fill="#000" />
-                </svg>
+        <div class="home-position-container">
+            <div class="home-image-effect blue-light">
+                <img class="home-image" alt="una mano de un hombre ayuda a una mano de una mujer introducir un voto en una urna" src="img/urnas.jpg" />
             </div>
-        </div>
-        <div class="bislai-home-card">
-            <div class="bislai-home-card-element">
-                <h3 class="bislai-home-card-title">ACCESIBILIDAD</h3>
-                <p class="bislai-home-card-element-text">Mostramos de una manera más <strong>accesible</strong> las <strong>propuestas y acuerdos</strong> que toman los partidos políticos en el <strong>Ayuntamiento de Zaragoza.</strong></p>
-            </div>
-            <div class="bislai-home-card-element">
-                <h3 class="bislai-home-card-title">BUSCADOR</h3>
-                <p class="bislai-home-card-element-text">Busca en todos los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?</p>
-                <div class="contenedor-buscador">
-                        <form action="/buscador">
-                            <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
-                            <button class="btn-search" type="submit">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z"/>
-                                </svg>
-                            </button>
-                        </form>
+            <div class="home-position-container-claim">
+                <div class="bislai-icon">
+                    <svg class="no-active" width="43" height="75" viewBox="0 0 43 75" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M42 32.7h-5.7c-.3-5.8-4-10-9.8-11.5 2.6-1.6 4.3-4.4 4.3-7.7v-1.2c0-1.2-.2-2.4-.6-3.4 1.3-1 2-2.8 2.2-5 0-1.4 0-3-1-3.4-.5-.2-1 0-1.2.4-.6.6-2.5.2-4.4-.2-2-.5-4.6-1-6.8-.6-5 1-6 5.3-5.7 7.2-.8 1.5-1.2 3-1.2 4.8v1c0 3.5 2 6.3 4.4 8-5.8 1.6-9.6 5.7-9.8 11.5H1c-.6 0-1 .3-1 1V38c0 .6.4 1 1 1h3v35c0 .4.3.8 1 .8h33c.6 0 1-.4 1-1V39.3h3c.6 0 1-.4 1-1v-4.6c0-.6-.4-1-1-1zM19.4 2c2-.3 4 0 6 .6 2 .5 3.8 1 5.2.4 0 .8 0 2-.5 3.2 0 .5-.4.8-.6 1C27.8 5 25 3.6 22 3.6h-1.2c-2 0-4 .7-5.5 2 .3-1.4 1.4-3 4-3.4zM21 20.7c-4 0-7-3.2-7-7v-1.3c0-3.8 3-7 7-7h1c4 0 7 3 7 7v1.2c0 3.8-3 7-7 7h-1zm.5 2c6.3 0 12.6 3 13 10h-12v-2.4c.4-.3.8-.8.8-1.5v-2.4c0-1-.7-1.8-1.8-1.8-1 0-1.8.7-1.8 1.8v2.4c0 .7.4 1 1 1.5v2.5H8.3c.5-7.2 6.8-10.2 13-10.2zM37 73H6v-34h31v34zm4-36H2v-2.6h39v2.7z" fill="#000" />
+                    </svg>
+                    <svg class="active" width="77" height="76" viewBox="0 0 77 76" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#000" fill-rule="nonzero">
+                            <path d="M16.479 33.822V38.5c0 .525.425.95.95.95h3.12v35.174c0 .526.426.95.95.95H54.91a.95.95 0 0 0 .95-.95V39.45h3.12a.95.95 0 0 0 .95-.95V33.82a.95.95 0 0 0-.95-.95h-5.656c-.376-5.767-4.145-9.997-9.982-11.535 2.651-1.568 4.44-4.45 4.44-7.748v-1.146c0-1.749-.51-3.376-1.375-4.76.014-.045.04-.085.047-.133.295-2.051-.538-6.225-5.81-7.336-2.26-.477-4.726.095-6.901.6-1.89.438-3.847.891-4.398.223-.317-.384-.805-.525-1.248-.356-.961.365-1.108 2.011-1.061 3.329.083 2.363.915 4.157 2.261 5.046a8.945 8.945 0 0 0-.667 3.386v1.146c0 3.297 1.788 6.18 4.44 7.748-5.837 1.538-9.608 5.768-9.982 11.535H17.43a.953.953 0 0 0-.952.952zM44.4 5.422a8.952 8.952 0 0 0-5.622-1.982h-1.147a9 9 0 0 0-7.433 3.933c-.318-.25-.587-.609-.796-1.097-.463-1.084-.52-2.396-.448-3.25 1.359.534 3.246.096 5.217-.362 1.982-.46 4.228-.983 6.08-.591 2.75.578 3.779 2.095 4.15 3.35zm-6.768 15.27c-3.916 0-7.103-3.186-7.103-7.104v-1.146a7.111 7.111 0 0 1 7.103-7.103h1.147a7.111 7.111 0 0 1 7.103 7.103v1.146c0 3.917-3.186 7.104-7.103 7.104h-1.147zm13.787 12.18H39.155v-2.453c.497-.316.831-.87.831-1.5v-2.375c0-.98-.801-1.781-1.78-1.781-.98 0-1.782.801-1.782 1.78v2.376c0 .63.334 1.184.831 1.5v2.452H24.992c.528-7.083 6.89-10.28 13.213-10.28 6.323 0 12.686 3.198 13.214 10.28zm-28.97 6.577H53.96v34.224H22.45V39.45zm-4.07-4.677H58.03v2.778H18.379v-2.778z" />
+                            <path d="M58.145 25.499a11.157 11.157 0 0 0 8.165 2.714 11.17 11.17 0 0 0 7.691-3.856 11.166 11.166 0 0 0 2.713-8.165A11.166 11.166 0 0 0 72.858 8.5a11.173 11.173 0 0 0-8.165-2.714 11.17 11.17 0 0 0-7.691 3.857 11.186 11.186 0 0 0-2.617 5.683l-2.5 2.888a.95.95 0 0 0 .096 1.34l4.047 3.504a11.32 11.32 0 0 0 2.117 2.441zm1.243-1.436a9.33 9.33 0 0 1-1.823-2.133.96.96 0 0 0-.185-.217l-3.435-2.974 2.062-2.384a.951.951 0 0 0 .225-.505 9.301 9.301 0 0 1 2.207-4.966 9.28 9.28 0 0 1 6.393-3.203 9.274 9.274 0 0 1 6.785 2.254 9.28 9.28 0 0 1 3.203 6.393 9.282 9.282 0 0 1-2.254 6.785 9.28 9.28 0 0 1-6.393 3.204 9.292 9.292 0 0 1-6.785-2.254zM.931 15.6c1.397 4.948 5.918 8.188 10.823 8.188 1.01 0 2.034-.138 3.052-.425a11.189 11.189 0 0 0 5.31-3.308l3.677-1.04a.949.949 0 0 0 .655-1.171l-1.455-5.153c.014-1.08-.13-2.155-.425-3.2C20.884 3.525 14.66.04 8.694 1.727 2.728 3.411-.754 9.636.931 15.6zm8.28-12.046c4.956-1.398 10.128 1.494 11.528 6.451.258.91.376 1.846.352 2.784-.003.096.01.19.035.282l1.235 4.374-3.033.857a.952.952 0 0 0-.466.298 9.3 9.3 0 0 1-4.573 2.935C9.327 22.933 4.16 20.04 2.759 15.083 1.36 10.126 4.254 4.955 9.21 3.553z" />
+                        </g>
+                    </svg>
                 </div>
-            </div>
-            <div class="bislai-home-card-element">
-                <h3 class="bislai-home-card-title">ESTADÍSTICAS</h3>
-                <p class="bislai-home-card-element-text">Recopilamos todas las votaciones y generamos diferentes estadísticas con ellas: tripartitos, ¿quién vota a favor?, ¿quién vota en contra?</p>
+                <span class="home-position-container-title">ACCESIBILIDAD POLÍTICA</span> Fiscalizamos y hacemos más <strong>accesible</strong> las <strong>propuestas y acuerdos</strong> que toman los partidos en el <strong>Ayuntamiento de Zaragoza.</strong>
+                <p class="home-position-container-text">Busca en los plenos por cualquier palabra: ¿agua? ¿bus? ¿bicicleta?</p>
+                <div class="contenedor-buscador">
+                    <form action="/buscador">
+                        <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                        <button class="btn-search" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+    <section class="home-cite-container">
+        <p class="home-cite"><span class="home-cite-quote">“</span>La información es poder. Pero como todo poder, hay quienes quieren mantenerlo para sí mismos. <span class="home-cite-aaron">Aaron Swartz | 1986 - 2013</span></p>
+    </section>
     <section class="calendario-plenos">
         <h2 class="maw-60 calendario-plenos-titulo">CALENDARIO DE PLENOS</h2>
         <p class="maw-60 calendario-plenos-texto">Este calendario recoge todas las <strong>mociones ordinarias</strong> que se han presentado desde 2015 en el pleno del Ayuntamiento de Zaragoza.</p>
@@ -100,6 +101,7 @@
                 <a class="tabla-calendario-link" href="/plenos/2017/03-02-2017">3 de febrero de 2017</a>
                 <a class="tabla-calendario-link" href="/plenos/2017/24-02-2017">24 de febrero de 2017</a>
                 <a class="tabla-calendario-link" href="/plenos/2017/31-03-2017">31 de marzo de 2017</a>
+                <a class="tabla-calendario-link" href="/plenos/2017/28-04-2017">28 de abril de 2017</a>
                 <a class="tabla-calendario-link" href="/plenos/2017/02-06-2017">2 de junio de 2017</a>
                 <a class="tabla-calendario-link" href="/plenos/2017/30-06-2017">30 de junio de 2017</a>
                 <a class="tabla-calendario-link" href="/plenos/2017/28-07-2017">28 de julio de 2017</a>
@@ -113,6 +115,9 @@
                 <a class="tabla-calendario-link" href="/plenos/2018/02-03-2018">2 de marzo de 2018</a>
                 <a class="tabla-calendario-link" href="/plenos/2018/26-03-2018">26 de marzo de 2018</a>
                 <a class="tabla-calendario-link" href="/plenos/2018/04-05-2018">4 de mayo de 2018</a>
+                <a class="tabla-calendario-link" href="/plenos/2018/01-06-2018">1 de junio de 2018</a>
+                <a class="tabla-calendario-link" href="/plenos/2018/29-06-2018">29 de junio de 2018</a>
+                <a class="tabla-calendario-link" href="/plenos/2018/27-07-2018">27 de julio de 2018</a>
             </section>
         </article>
     </section>
@@ -130,15 +135,12 @@
             <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
             <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
         </div>
-
-
-
-            <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
-            <p class="maw-60 padding-1-0">© 2018 - Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
+        <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+        <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
         </div>
     </footer>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.0/mapbox-gl.js'></script>
-    <script type="text/javascript" src="js/mapa.js"></script>
+    <script src="js/mapa.js"></script>
     <script>
     $(document).ready(function() {
         $('#tipue_search_input').tipuesearch({

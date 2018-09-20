@@ -1,30 +1,62 @@
 .partidos-cabecera {
-    min-height: 50vh;
-    padding: 3rem;
+    padding: 1.5rem 10vw;
     width: 100%;
     font-size: 0;
+    &.chunta {
+        .partidos-cabecera-title {
+            background-color: var(--chunta);
+        }
+    }
+    &.ciudadanos {
+        .partidos-cabecera-title {
+            background-color: var(--ciudadanos);
+        }
+    }
+    &.partido-popular {
+        .partidos-cabecera-title {
+            background-color: var(--pp);
+        }
+    }
+    &.zec {
+        .partidos-cabecera-title {
+            background-color: var(--zec);
+            color: var(--white);
+            border-color: var(--black);
+        }
+    }
 }
 
 .partidos-cabecera-izda {
-    width: 45%;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     vertical-align: top;
+    border-radius: 4px;
+    padding: 1rem;
+    position: relative;
+    background-color: #ccc;
 }
 
 .partidos-cabecera-title {
-    font-size: 5rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border-left: 5px solid;
+    background-color: var(--psoe);
     font-family: var(--fontBislai);
     color: var(--black);
     margin: 0;
+    width: intrinsic;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    margin-bottom: .5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: .5rem 1rem;
 }
 
-.partidos-cabecera-texto,
 .partidos-cabecera-texto-derecha {
     font-size: 1rem;
-    margin: 0 0 1.5rem;
-}
-
-.partidos-cabecera-texto-derecha {
     max-width: 80%;
     margin: 1rem auto;
 }
@@ -34,23 +66,50 @@
     display: inline-block;
 }
 
-#historico {
-    max-width: 80%;
-    margin: 0 auto;
-}
-
 .partidos-concejales {
     font-size: 1rem;
 }
 
-.partido-concejales-lista {
+.partidos-concejales-listado {
+    padding-left: 0;
+}
+
+.partidos-cabecera-subtitle {
+  grid-column: 1 / 4;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.partido-concejales-lista-elemento {
     font-size: 1rem;
-    list-style-position: inside;
+    list-style: none;
+    display: block;
+    background-color: var(--white);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--black);
+    text-decoration: none;
+    transition: background-color .3s ease-in;
+    &:hover {
+        background-color: var(--grey);
+    }
+}
+
+.concejales-icon {
+    width: 16px;
+    height: auto;
+    display: block;
+    margin-right: .5rem;
+}
+
+.partido-concejales-lista-elemento-texto {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .partidos-grafico {
     width: 100%;
-    padding: 5vw 10vw;
+    padding: 1rem 10vw;
     font-size: 0;
     margin: 0 auto;
     background-color: #f1f1f1;
@@ -62,14 +121,13 @@
 }
 
 .partidos-grafico-titulo {
-    font-size: 2.5rem;
+    font-size: 1rem;
+    font-weight: normal;
     font-family: var(--fontBislai);
-    font-weight: bold;
     display: inline-block;
     margin: 0;
-    padding: 2rem;
-    background-color: var(--white);
-    border-top: 5px solid var(--ciudadanos);
+    padding: 0;
+    border-radius: 4px;
 }
 
 .partidos-grafico-pp {
@@ -99,8 +157,7 @@
 .partidos-grafico-parrafo {
     font-size: 1rem;
     font-family: var(--fontPlex);
-    margin: 2rem 0;
-    max-width: 60%;
+    margin: .5rem 0 2rem;
 }
 
 .partidos-grafico-parrafo ~ .partidos-grafico-parrafo {
@@ -113,43 +170,79 @@
     margin-top: 10vh;
 }
 
-.bgc-zec {
-    .partidos-cabecera-title {
-        font-size: 4rem;
-        font-family: var(--fontBislai);
-        color: #d0f3f2;
-        margin: 0;
+.grafica-favor-legislatura {
+    max-width: 70%;
+    margin: 3rem auto;
+    .partidos-grafico-parrafo {
+        max-width: 25rem;
     }
-    .partidos-cabecera-texto,
-    .partidos-cabecera-texto-derecha,
-    .partido-concejales-lista a {
-        color: #fff;
+    .line {
+        fill: none;
     }
-}
-
-.bgc-pp {
-    .partido-concejales-lista a {
-        color: #05062E;
+    text {
+        font-family: var(--condensed);
     }
-}
-
-.bgc-psoe {
-    .partido-concejales-lista a {
-        color: #f8f8f9;
+    .PSOE {
+        fill: var(--psoe);
     }
+    .CIUDADANOS {
+        fill: var(--ciudadanos);
+    }
+    .ZEC {
+        fill: var(--zec);
+    }
+    .PP {
+        fill: var(--pp);
+    }
+    .CHA {
+        fill: var(--chunta);
+    }
+    /*stylelint-disable*/
+    .axis-x {
+        .tick {
+            line {
+                stroke: none;
+            }
+        }
+        .domain {
+            stroke: none;
+        }
+    }
+    .axis-y {
+        .tick {
+            line {
+                stroke: #ccc;
+                stroke-dasharray: 0;
+            }
+        }
+    }
+    /*stylelint-enable*/
 }
 
 @media only screen and (max-width: 48em) {
+
+    .grafica-favor-legislatura {
+        max-width: 90%;
+    }
+
+    .partido-card-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .partido-card-votos,
+    .partido-card-concejales {
+        width: 40%;
+        display: inline-block;
+        margin-right: 1rem;
+        vertical-align: top;
+
+    }
 
     .partidos-cabecera-izda,
     .partidos-cabecera-dcha,
     #historico {
         width: 100%;
-    }
-
-    .partido-card-top {
-        width: 90%;
-        margin: 1rem auto;
     }
 
     .partidos-cabecera-dcha {
@@ -165,9 +258,9 @@
     }
 
     .partidos-grafico-titulo {
-        padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         width: 100%;
+        padding: 0;
     }
 
     .partidos-grafico-parrafo,
@@ -175,4 +268,26 @@
         max-width: 100%;
     }
 
+    .partidos-grafico-parrafo {
+        font-size: .75rem;
+    }
+
+    .distrito {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 30em) {
+
+    .partidos-cabecera-izda {
+        display: inline-block;
+    }
+
+    .partido-concejales-lista-elemento {
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+    }
 }

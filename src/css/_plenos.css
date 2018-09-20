@@ -45,6 +45,7 @@
 .contenedor-plenos-btn-titulo {
     font-size: 1rem;
     font-family: var(--fontPlex);
+    font-weight: bold;
     margin: 0;
 }
 
@@ -52,7 +53,6 @@
     color: var(--bunting);
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 1px;
 }
 
 .mocion-retirada {
@@ -91,10 +91,15 @@
     display: inline-block;
 }
 
+.punto-plenos {
+    font-weight: bold;
+    display: block;
+}
+
 @media only screen and (min-width: 30em) {
 
     .contenedor-plenos-btn-titulo {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -112,7 +117,9 @@
     .nav-plenos-anterior,
     .nav-plenos-posterior {
         border: 0;
-        width: max-content;
+        width: intrinsic;
+        width: -moz-max-content;
+        width: -webkit-max-content;
     }
 
     .nav-plenos-posterior {
@@ -132,9 +139,12 @@
 
 @media only screen and (min-width: 64em) {
 
-    .contenedor-plenos,
-    .contenedor-plenos-btn {
+    .contenedor-plenos {
         padding: 2rem 0;
+    }
+
+    .contenedor-plenos-btn {
+        padding: 0;
     }
 
 }

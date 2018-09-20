@@ -1,1 +1,210 @@
-var width=window.innerWidth>0?window.innerWidth:screen.width,configDataLabels={color:"black",font:{size:"20",weight:"bold"}};function unanimidadChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:500},drawOnChartArea:!1,drawBorder:!1,drawTicks:!1}],xAxes:[{drawOnChartArea:!1,drawBorder:!1,drawTicks:!1}]},legend:{display:!1},tooltips:!1},data:{labels:["Unanimidad","Disconformidad"],datasets:[{data:[199,296],backgroundColor:["#36B287","#D0577C"]}]}})}function repeticionChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:25}}]},legend:{display:!1}},data:{labels:["PP + PSOE + C'S","ZEC + PSOE + CHA","PP + ZEC + CHA"],datasets:[{data:[59,55,5],backgroundColor:["rgba(32, 159, 105, 1)","rgba(255, 99, 132, 1)","rgba(54, 162, 235, 1)"]}]}})}function masMocionesChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:80}}]},legend:{display:!1}},data:{labels:["PP","ZEC","PSOE","C'S","CHA"],datasets:[{data:[84,49,86,87,70],backgroundColor:["rgba(0, 128, 184, 1)","rgba(154, 22, 34, 1)","rgba(227, 6, 19, 1)","rgba(240, 122, 54, 1)","rgba(239, 176, 39, 1)"]}]}})}function abstenidoChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:60}}]},legend:{display:!1}},data:{labels:["PP","ZEC","PSOE","C'S","CHA"],datasets:[{data:[39,54,27,49,46],backgroundColor:["rgba(0, 128, 184,1)","rgba(154, 22, 34,1)","rgba(227, 6, 19,1)","rgba(240, 122, 54,1)","rgba(239, 176, 39,1)"]}]}})}function encontraChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:100}}]},legend:{display:!1}},data:{labels:["PP","ZEC","PSOE","C'S","CHA"],datasets:[{data:[99,109,53,41,69],backgroundColor:["rgba(0, 128, 184,1)","rgba(154, 22, 34,1)","rgba(227, 6, 19,1)","rgba(240, 122, 54,1)","rgba(239, 176, 39,1)"]}]}})}function afavorChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:70}}]},legend:{display:!1}},data:{labels:["PP","ZEC","PSOE","C'S","CHA"],datasets:[{data:[109,87,159,166,129],backgroundColor:["rgba(0, 128, 184,1)","rgba(154, 22, 34,1)","rgba(227, 6, 19,1)","rgba(240, 122, 54,1)","rgba(239, 176, 39,1)"]}]}})}function soledadChart(){var e=document.getElementById("chart");new Chart(e,{type:"bar",duration:3e3,easing:"easeInCubic",options:{plugins:{datalabels:configDataLabels},scales:{yAxes:[{ticks:{beginAtZero:!0,mirror:!1,suggestedMin:0,suggestedMax:70}}]},legend:{display:!1}},data:{labels:["PP","ZEC","PSOE","C'S","CHA"],datasets:[{data:[108,83,18,53,32],backgroundColor:["rgba(0, 128, 184,1)","rgba(154, 22, 34,1)","rgba(227, 6, 19,1)","rgba(240, 122, 54,1)","rgba(239, 176, 39,1)"]}]}})}var container=document.getElementById("scroll"),step=document.querySelector(".step"),graphic=document.querySelector(".scroll__graphic"),text=document.querySelector(".scroll__text"),scroller=scrollama();function handleResize(){var e=Math.floor(.75*window.innerHeight);step.style.height=e+"px";var a=step.getBoundingClientRect(),t=container.getBoundingClientRect().width;console.log(t);a.width,t.width;var n=t-64,r=Math.floor(window.innerHeight/2);Math.floor(r/2);graphic.style.width=n,graphic.style.height=r,scroller.resize()}function handleStepEnter(e){0===e.index?unanimidadChart():1===e.index?repeticionChart():2===e.index?masMocionesChart():3===e.index?abstenidoChart():4===e.index?encontraChart():5===e.index?afavorChart():6===e.index&&soledadChart()}function init(){handleResize(),scroller.setup({container:"#scroll",graphic:".scroll__graphic",text:".scroll__text",step:".scroll__text .step",offset:.63}).onStepEnter(handleStepEnter),window.addEventListener("resize",handleResize)}function initResponsive(){scroller.setup({step:".step"}).onStepEnter(handleStepEnter).onStepExit(handleStepExit)}width>769?init():initResponsive();
+'use strict';
+
+var width = window.innerWidth > 0 ? window.innerWidth : screen.width;
+
+var csvElements = ['datos/unanimidad.csv', 'datos/tripartitos.csv', 'datos/presentada.csv', 'datos/abstencion.csv', 'datos/en-contra.csv', 'datos/a-favor.csv', 'datos/soledad.csv'];
+
+function estadisticasChart(datos) {
+    //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
+    var margin = { top: 24, right: 24, bottom: 24, left: 24 };
+    var width = 0;
+    var height = 0;
+    var w = 0;
+    var h = 0;
+    var chart = d3.select('.chart-estadisticas');
+    var svg = chart.select('svg');
+    var scales = {};
+    var dataz = void 0;
+
+    //Escala para los ejes X e Y
+    function setupScales() {
+
+        var countX = d3.scaleBand().domain(dataz.map(function (d) {
+            return d.nombre;
+        }));
+
+        var countY = d3.scaleLinear().domain([0, d3.max(dataz, function (d) {
+            return d.valor;
+        }) + d3.max(dataz, function (d) {
+            return d.valor;
+        }) / 4]);
+
+        scales.count = { x: countX, y: countY };
+    }
+
+    //Seleccionamos el contenedor donde irán las escalas y en este caso el area donde se pirntara nuestra gráfica
+    function setupElements() {
+
+        var g = svg.select('.chart-estadisticas-container');
+
+        g.append('g').attr('class', 'axis axis-x');
+
+        g.append('g').attr('class', 'axis axis-y');
+
+        g.append('g').attr('class', 'area-container-chart-vertical');
+    }
+
+    //Actualizando escalas
+    function updateScales(width, height) {
+        scales.count.x.range([0, width]).padding(0.8);
+        scales.count.y.range([height, 0]);
+    }
+
+    //Dibujando ejes
+    function drawAxes(g) {
+
+        var axisX = d3.axisBottom(scales.count.x);
+
+        g.select(".axis-x").attr("transform", "translate(0," + height + ")").call(axisX);
+
+        var axisY = d3.axisLeft(scales.count.y).tickFormat(d3.format("d")).ticks(5).tickSizeInner(-w);
+
+        g.select(".axis-y").transition().duration(1000).call(axisY);
+    }
+
+    function updateChart(dataz) {
+        w = chart.node().offsetWidth;
+        h = 400;
+
+        width = w - margin.left - margin.right;
+        height = h - margin.top - margin.bottom;
+
+        svg.attr('width', w).attr('height', h);
+
+        var translate = "translate(" + margin.left + "," + margin.top + ")";
+
+        var g = svg.select('.chart-estadisticas-container');
+
+        g.attr("transform", translate);
+
+        updateScales(width, height);
+
+        var container = chart.select('.area-container-chart-vertical');
+
+        var layer = container.selectAll('.bar-vertical').data(dataz);
+
+        var newLayer = layer.enter().append('rect').attr('class', 'bar-vertical');
+
+        layer.merge(newLayer).attr("width", scales.count.x.bandwidth()).attr("x", function (d) {
+            return scales.count.x(d.nombre);
+        }).attr("y", function (d) {
+            return scales.count.y(0);
+        }).attr("height", 0).transition().ease(d3.easeSin).duration(1200).attr("y", function (d) {
+            return scales.count.y(d.valor);
+        }).attr("height", function (d) {
+            return height - scales.count.y(d.valor);
+        });
+
+        drawAxes(g);
+    }
+
+    function resize() {
+        updateChart(dataz);
+    }
+
+    // LOAD THE DATA
+    function loadData() {
+
+        d3.csv(datos, function (error, data) {
+            if (error) {
+                console.log(error);
+            } else {
+                dataz = data;
+                dataz.forEach(function (d) {
+                    d.valor = +d.valor;
+                });
+                setupElements();
+                setupScales();
+                updateChart(dataz);
+            }
+        });
+    }
+
+    window.addEventListener('resize', resize);
+
+    loadData();
+}
+
+// initialize the scrollama
+
+var container = document.getElementById('scroll');
+var step = document.querySelector('.step');
+var graphic = document.querySelector('.scroll__graphic');
+var text = document.querySelector('.scroll__text');
+
+var scroller = scrollama();
+
+function handleResize() {
+    // 1. update height of step elements
+    var stepHeight = Math.floor(window.innerHeight * 0.75);
+    step.style.height = stepHeight + 'px';
+
+    // 2. update width/height of graphic element
+
+    var graphicMargin = 16 * 4;
+    var textWidth = step.getBoundingClientRect();
+    var containerWidth = container.getBoundingClientRect().width;
+    var totaltext = textWidth.width;
+    var totalcontainer = containerWidth.width;
+    var graphicWidth = containerWidth - graphicMargin;
+    var graphicHeight = Math.floor(window.innerHeight / 2);
+    var graphicMarginTop = Math.floor(graphicHeight / 2);
+
+    graphic.style.width = graphicWidth;
+    graphic.style.height = graphicHeight;
+
+    // 3. tell scrollama to update new element dimensions
+    scroller.resize();
+}
+
+// scrollama event handlers
+function handleStepEnter(response) {
+    // response = { element, direction, index }
+    if (response.index === 0) {
+        d3.selectAll('rect').remove();
+        estadisticasChart(csvElements[0]);
+    } else if (response.index === 1) {
+        d3.selectAll('rect').remove();
+        estadisticasChart(csvElements[1]);
+    } else if (response.index === 2) {
+        estadisticasChart(csvElements[2]);
+    } else if (response.index === 3) {
+        estadisticasChart(csvElements[3]);
+    } else if (response.index === 4) {
+        estadisticasChart(csvElements[4]);
+    } else if (response.index === 5) {
+        estadisticasChart(csvElements[5]);
+    } else if (response.index === 6) {
+        estadisticasChart(csvElements[6]);
+    }
+}
+
+function init() {
+    // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+    handleResize();
+
+    // 2. setup the scroller passing options
+    // this will also initialize trigger observations
+    // 3. bind scrollama event handlers (this can be chained like below)
+    scroller.setup({
+        container: '#scroll',
+        graphic: '.scroll__graphic',
+        text: '.scroll__text',
+        step: '.scroll__text .step',
+        offset: 0.63
+    }).onStepEnter(handleStepEnter);
+    // setup resize event
+    window.addEventListener('resize', handleResize);
+}
+
+function initResponsive() {
+    scroller.setup({
+        step: '.step' // required - class name of trigger steps
+    }).onStepEnter(handleStepEnter).onStepExit(handleStepExit);
+}
+
+if (width > 769) {
+    init();
+} else {
+    initResponsive();
+}

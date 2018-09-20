@@ -1,0 +1,8 @@
+.credit-title {
+    font-style: 2rem;
+    font-family: var(--fontBislai);
+}
+
+.credit-list-element {
+    font-family: var(--fontPlex);
+}

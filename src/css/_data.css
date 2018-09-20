@@ -17,6 +17,7 @@
 
 .data-titulo {
     font-size: 3rem;
+    font-weight: normal;
     font-family: var(--fontBislai);
     margin: 0;
     &:after {
@@ -57,6 +58,7 @@
 
 .dataset-title {
     font-size: 2rem;
+    font-weight: normal;
     font-family: var(--fontBislai);
     margin: 0;
 }
@@ -109,13 +111,6 @@
 
 @media only screen and (min-width: 48em) {
 
-    .data-titulo {
-        font-size: 6rem;
-    }
-
-    .dataset-title {
-        font-size: 4rem;
-    }
 
     .data-figura {
         display: inline-block;

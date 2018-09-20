@@ -1,75 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bislai - votaciones en el Ayuntamiento de Zaragoza</title>
     <meta name="description" content="Accesibilidad y transparencia política para los plenos del Ayuntamiento de Zaragoza">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_content.js"></script>
-    <script type="text/javascript" src="js/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="js/tipuesearch.min.js"></script>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/tipuesearch_content.js"></script>
+    <script src="lib/tipuesearch_set.js"></script>
+    <script src="lib/tipuesearch.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
 </head>
+
 <body class="mih-100">
     <header class="header">
         <nav class="nav-grid">
             <a href="/" class="link nav-grid-first"><span class="link-name">BISLAI</span></a>
             <div class="contenedor-buscador">
-                    <form action="/buscador">
-                        <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
-                        <button class="btn-search" type="submit">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z"/>
-                            </svg>
-                        </button>
-                    </form>
+                <form action="/buscador">
+                    <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                    <button class="btn-search" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                        </svg>
+                    </button>
+                </form>
             </div>
             <div class="nav-grid-second">
-    <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
-    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
-    <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
-</div>
+                <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
+                <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
+                <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
+            </div>
         </nav>
     </header>
-    <div class="maw-60 margin-y1 font-s">
-
-    <p>Todos los datos de las mociones han sido obtenidos de la web del Ayuntamiento de Zaragoza.</p>
-
-    <p>Esta web no hubiera sido posible sin la generosa ayuda de librerías e iconos distribuídos como open source.</p>
-
-    <h2>Librerías</h2>
-    <ul>
-        <li>Para las gráficas de las mociones he utilizado <a href="https://github.com/c3js/c3">c3.js</a> de Masayuki Tanaka.</li>
-        <li>Para las gráficas de las estadísticas he utilizado <a href="http://www.chartjs.org">chart.js</a> de <a href="https://twitter.com/_nnnick">Nick Downie</a>, y que ahora es mantenida por la <a href="https://github.com/chartjs/Chart.js/graphs/contributors">comunidad</a>.</li>
-        <li>Para la arquitectura CSS he utilizado <a href="http://github.com/jorgeatgu/astral">Astral</a>, un framework CSS hecho a mi medida y que esta fuermente inspirado en <a href="http://tachyons.io">Tachyons</a> y <a href="http://basscss.com">Basscss</a>.</li>
-        <li>Para el buscador he utilizado <a href="https://github.com/Tipue/Tipue-Search">Tipue-Search</a> que esta desarrollado por <a href="http://www.tipue.com">Tipue</a>.</li>
-    </ul>
-
-    <h2>Iconos</h2>
-
-    <ul>
-        <li>Para la iconografía he utilizado iconos de <a href="material.io/icons/">Material</a>.</li>
-        <li>El icono que acompaña las gráficas de unanimidad ha sido diseñado por <a href="https://thenounproject.com/aneeque/">Aneeque Ahmed</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas de ¿quién ha presentado más mociones ha sido diseñado por <a href="https://thenounproject.com/aneeque/">Aneeque Ahmed</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas del tripartito ha sido diseñado por <a href="https://thenounproject.com/dant/">Dant</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas del tripartito ha sido diseñado por <a href="https://thenounproject.com/dergraph/">Thomas Helbig</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas de votos en contra ha sido diseñador por <a href="https://thenounproject.com/made.somewhere/">Made Somewhere</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas de votos a favor ha sido diseñador por <a href="https://thenounproject.com/made.somewhere/">Made Somewhere</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas de abstenciones ha sido diseñador por <a href="https://thenounproject.com/bravo/">Juan Pablo Bravo</a> on the @NounProject.</li>
-        <li>El icono que acompaña las gráficas de ¿quién ha ganado más? y ¿quién ha perdido más? ha sido diseñador por <a href="https://thenounproject.com/dergraph/">Thomas Helbig</a> on the @NounProject.</li>
-        <li>Podium by Made by Made from the Noun Project</li>
-        <li>President by Made by Made from the Noun Project</li>
-        <li>Podium speech by Juan Pablo Bravo from the Noun Project</li>
-        <li>Photo by Louis Moncouyoux on Unsplash</li>
-        <li>Photo by Lukas from Pexels https://www.pexels.com/photo/charts-on-black-wooden-table-669622/</li>
-        <li>Rocket by Dev Patel from the Noun Project</li>
-    </ul>
-
+    <div class="maw-60">
+        <p>Todos los datos de las mociones han sido obtenidos de la web del Ayuntamiento de Zaragoza.</p>
+        <p>Este proyecto no hubiera sido posible sin la generosa ayuda de librerías e iconos distribuídos como open source.</p>
+        <h2 class="credit-title">Librerías</h2>
+        <ul class="credit-list">
+            <li class="credit-list-element">Para las gráficas de las mociones he utilizado <a href="https://github.com/c3js/c3">c3.js</a> de Masayuki Tanaka.</li>
+            <li class="credit-list-element">Para la arquitectura CSS he utilizado <a href="http://github.com/jorgeatgu/astral">Astral</a>, un framework CSS hecho a mi medida y que esta fuermente inspirado en <a href="http://tachyons.io">Tachyons</a> y <a href="http://basscss.com">Basscss</a>.</li>
+            <li class="credit-list-element">Para el buscador he utilizado <a href="https://github.com/Tipue/Tipue-Search">Tipue-Search</a> que esta desarrollado por <a href="http://www.tipue.com">Tipue</a>.</li>
+        </ul>
+        <h2 class="credit-title">Iconos</h2>
+        <ul class="credit-list">
+            <li class="credit-list-element">Podium by <a href="https://thenounproject.com/made.somewhere/">Made by Made</a> from the Noun Project</li>
+            <li class="credit-list-element">President by <a href="https://thenounproject.com/made.somewhere/">Made by Made</a> from the Noun Project </li>
+            <li class="credit-list-element">Photo by <a href="https://unsplash.com/photos/IBWJsMObnnU">Arnaud Jaegers</a> on Unsplash</li>
+            <li class="credit-list-element">Data icon by By <a href="https://thenounproject.com/icon/1540803/">Joey Chen, US</a></li>
+            <li class="credit-list-element">Abstract photo By <a href="https://www.pexels.com/photo/abstract-bright-color-dark-397998/">Mohamed Khaled</a></li>
+        </ul>
     </div>
-
     <footer class="footer">
         <div class="maw-60 grid-footer">
             <a class="grid-footer-links" href="/">BISLAI · ACCESIBILIDAD POLÍTICA</a>
@@ -77,23 +61,26 @@
             <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
             <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
         </div>
-
-
-
-            <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
-            <p class="maw-60 padding-1-0">© 2018 - Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
+        <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+        <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
         </div>
     </footer>
-
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-92751500-1', 'auto');
-      ga('send', 'pageview');
-
+    ga('create', 'UA-92751500-1', 'auto');
+    ga('send', 'pageview');
     </script>
 </body>
+
 </html>

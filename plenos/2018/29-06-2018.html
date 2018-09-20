@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bislai - Pleno del 29 de junio de 2018</title>
+    <meta name="description" content="Accesibilidad y transparencia política para los plenos del Ayuntamiento de Zaragoza">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="../../lib/tipuesearch_content.js"></script>
+    <script src="../../lib/tipuesearch_set.js"></script>
+    <script src="../../lib/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
+
+    <body>
+        <header class="header">
+            <nav class="nav-grid">
+                <a href="/" class="link nav-grid-first"><span class="link-name">BISLAI</span></a>
+                <div class="contenedor-buscador">
+                    <form action="/buscador">
+                        <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                        <button class="btn-search" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="nav-grid-second">
+                    <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
+                    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
+                    <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
+                </div>
+            </nav>
+        </header>
+        <nav class="nav-plenos">
+            <a id="flecha-anterior" class="nav-plenos-anterior" href="/plenos/2017/01-06-2018">
+                <svg class="vertical-am" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+                </svg>
+                <span class="nav-plenos-texto">PLENO ANTERIOR</span>
+            </a>
+            <a class="nav-plenos-posterior" href="/plenos/2018/27-07-2018">
+                    <span class="nav-plenos-texto">PLENO POSTERIOR</span>
+                    <svg class="vertical-am" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+              </a>
+        </nav>
+        <section class="maw-60 contenedor-plenos-btn">
+            <p class="contenedor-plenos-btn-titulo">Pleno del 4 de mayo de 2018</p>
+            <a class="link-mocion link-mocion-ujarak bgc-acuerdos" href="https://www.zaragoza.es/sede/portal/organizacion/plenos/servicio/fehaciente/65842" target="_blank">
+
+            <span class="contenedor-plenos-btn-txt">ORDEN DEL DÍA</span>
+        </a>
+            <a class="link-mocion link-mocion-ujarak bgc-acuerdos" href="https://www.zaragoza.es/sede/portal/organizacion/plenos/servicio/fehaciente/66143" target="_blank">
+
+            <span class="contenedor-plenos-btn-txt">ACUERDOS</span>
+        </a>
+        </section>
+        <section id="2" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">2</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de instar al Gobierno de Zaragoza a reconsiderar la viabilidad de los proyectos rechazados buscando fórmulas que permitan garantizar el mayor respeto posible a la voluntad ciudadana expresada en el marco de las votaciones sobre los presupuestos participativos (P-4.812/2018).</p>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span></p>
+                <div id="mocion2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span></p>
+                <div id="mocion2-2"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3495" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="3" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">3</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de instar al Gobierno de la ciudad a impulsar un grupo de trabajo bilateral con la Universidad de Zaragoza con el objetivo de elaborar un nuevo convenio de colaboración para la ejecución de proyectos y programas conjuntos en las distintas líneas de trabajo de la estrategia Zaragoza Smart City (P-4.894/2018).</p>
+                <div id="mocion3"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3496" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="4" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">4</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que instar al Gobierno de Zaragoza a introducir, en la próxima revisión de las ordenanzas fiscales, una modificación del impuesto de bienes inmuebles que suprima, en el art. 12, el tipo de gravamen diferenciado para el uso relativo a ¿almacén¿, pasando éste a tributar al tipo general de liquidación (P-4.919/2018).</p>
+                <div id="mocion4"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3497" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="5" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cha"><span class="titulo-plenos-numero">5</span> · Chunta Aragonesista</h1>
+                <p class="maw-50">En el sentido de que el Pleno manifieste su rechazo y lamente el mal funcionamiento que está teniendo el proceso de presupuestos participativos de 2018 hasta la fecha, las dificultades en el acceso a la información del mismo y el resultado de la valoración técnica de los proyectos priorizados por la mesa del distrito (P-4.930/2018).</p>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span></p>
+                <div id="mocion5"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span></p>
+                <div id="mocion5-2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 3.</span></p>
+                <div id="mocion5-3"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3499" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="6" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">6</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno rechace el traslado del rastro al entorno de la Romareda y de la Estación del Norte y lamente la ausencia de participación ciudadana en los cambios planteados por el gobierno de Zaragoza (P-4.931/2018).</p>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span> El Pleno del Ayuntamiento de Zaragoza rechaza el traslado del Rastro al entorno de La Romareda y de la Estación del Norte y lamenta la ausencia de participación ciudadana en los cambios planteados por el Gobierno de Zaragoza.
+                </p>
+                <div id="mocion6"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Zaragoza a realizar la actuación verde en la Explanada Estación del Norte seleccionada por los vecinos del distrito en los presupuestos participativos de 2017.</p>
+                <div id="mocion6-2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 3.</span>El Pleno del Ayuntamiento de Zaragoza insta al Alcalde de Zaragoza a garantizar el cumplimiento de lo dispuesto en el Reglamento de Órganos Territoriales y Participación Ciudadana respecto a las decisiones y proyectos que afecten a los distritos de la ciudad, asegurando que los plenos de las juntas municipales de Universidad y El Rabal informen preceptivamente respecto a la posible instalación del citado mercadillo en su ámbito territorial.</p>
+                <div id="mocion6-3"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 4.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Zaragoza a entregar a los grupos y juntas municipales toda la documentación e informes existentes hasta la fecha en relación con la nueva ubicación del Rastro, así como a abrir un proceso de debate en el seno de la comisión de Participación Ciudadana, del Consejo de Ciudad y de las Juntas Municipales donde se incorporen a los representantes políticos de las asociaciones vecinales de comerciantes y de las comunidades de propietarios afectadas.</p>
+                <div id="mocion6-4"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 5.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Zaragoza a cumplir con el contenido de la moción P-4157/18 aprobada por el Pleno Municipal el 2 de febrero de 2018 y donde los puntos 1 y 2 de la moción se aprobaron por unanimidad.</p>
+                <div id="mocion6-5"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 6.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Zaragoza a completar con la mayor brevedad posible, el proyecto de recuperación y potenciación del espacio del Parking Sur de la Expo donde actualmente se lleva a cabo el Rastro.</p>
+                <div id="mocion6-6"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3500" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="7" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">7</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de que el Pleno inste al Gobierno de la ciudad a reponer la representación proporcional de los consejos de administración de las sociedades de capital íntegramente municipal, en los términos acordados en julio de 2015 y en caso contrario los grupos que apoyan esta moción se comprometen a restituir dicha proporcionalidad tras las próximas elecciones, sea cual sea su representación (P-4933/2018).</p>
+                <div id="mocion7"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3503" target="_blank">Moción completa</a> Unanimidad
+            </article>
+        </section>
+        <section id="8" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">8</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno inste al Gobierno de Zaragoza a rectificar su golpe a la democracia en las sociedades municipales, recuperando la proporcionalidad en sus consejos de administración; al Gobierno de Aragón a modificar los artículos de la Ley de Capitalidad que el Consejo de Estado considera inconstitucionales y al Gobierno de España a recurrir ante el Tribunal Constitucional los artículos que el Consejo de Estado ha dictaminado inconstitucionales solicitando la suspensión inmediata de los mismos (P-4.935/2018).</p>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de ?aragoza a rectificar su golpe a la democracia en las sociedades municipales recuperando la proporcionalidad en sus consejos de administración tal y como se acordó en la Junta de Portavoces al inicio de la presente Corporación.</p>
+                <div id="mocion8"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Aragón a proceder, de forma inmediata, a la modificación de los artículos de la Ley de Capitalidad que el Consejo de Estado considera inconstitucionales, trasladando a las Cortes de Aragón una propuesta que permita recuperar la normalidad democrática en las sociedades municipales.</p>
+                <div id="mocion8-2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 3.</span>El Pleno del Ayuntamiento de Zaragoza insta al Gobierno de España a recurrir ante el Tribunal Constitucional los artículos de la Ley de Capitalidad que el Consejo de Estado ha dictaminado inconstitucionales, solicitando igualmente la suspensión inmediata de los mismos.</p>
+                <div id="mocion8-3"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 4.</span>Los grupos políticos que apoyen la presente moción asumen ante 1~ ciudadanía el compromiso político de. hacer cuanto esté en su mano para que el Gobierno de Zaragoza, el Gobierno de Aragón y el Gobierno de España adopten de manera inmediata las medidas oportunas que faciliten la vuelta a la normalidad democrática en las sociedad~s municipales del Ayuntamiento de Zaragoza.</p>
+                <div id="mocion8-4"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3502" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="9" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cs"><span class="titulo-plenos-numero">9</span> · Ciudadanos</h1>
+                <p class="maw-50">En el sentido de instar al Gobierno de la ciudad a implementar, a modo de prueba piloto, el programa TEI, en una serie limitada de centros escolares de la ciudad que voluntariamente deseen participar en dicho proyecto (P-4.937/2018).</p>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3506" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="10" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">10</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de instar al gobierno de Zaragoza a paralizar de inmediato el proyecto Zaragoza Transit Proyect ante las evidentes carencias en materia de transparencia, procedimiento y legalidad que el mismo presenta y a configurar un proyecto de danza, enfocado principalmente a bailarines aragoneses, a a través del Conservatorio Municipal y de acuerdo con las compañías de danza existentes (P-4.938/2018).</p>
+                <div id="mocion10"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3507" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="11" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos zec"><span class="titulo-plenos-numero">11</span> · Zaragoza En Común</h1>
+                <p class="maw-50">En el sentido de que este Ayuntamiento exprese su apoyo a la lucha de los colectivos LGTBIQ por la igualdad real en todos los ámbitos de la vida (P-4.942/2018).</p>
+                <div id="mocion11"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3511" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="12" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos zec"><span class="titulo-plenos-numero">12</span> · Zaragoza En Común</h1>
+                <p class="maw-50">En el sentido de que este Ayuntamiento exprese su reconocimiento a don Luis Otero Fernández, a todos sus compañeros de armas y a la Unión Democrática Militar, los cuales lucharon contra la dictadura y a favor de la libertad y la democratización de España (P-4.943/2018).</p>
+                <div id="mocion12"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3512" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="13" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cha"><span class="titulo-plenos-numero">13</span> · Chunta Aragonesista </h1>
+                <p class="maw-50">En el sentido de que el Pleno inste al Gobierno del estado a adoptar los acuerdos y pactos necesarios para eliminar la política de recortes económicos y de derechos sociales y libertades públicas, llevados a cabo por el anterior gobierno y avanzar en la aplicación y consolidación de políticas progresistas, dando prioridad en su agenda a las necesidades y compromisos pendientes con Aragón (P-4.944/2018).</p>
+                <div id="mocion13"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3513" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <footer class="footer">
+            <div class="maw-60 grid-footer">
+                <a class="grid-footer-links" href="/">BISLAI · ACCESIBILIDAD POLÍTICA</a>
+                <a class="grid-footer-links" href="/creditos">CRÉDITOS</a>
+                <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
+                <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
+            </div>
+            <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+            <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a> - hola@bislai.co</p>
+            </div>
+        </footer>
+        <script src="../../lib/d3.min4.js"></script>
+        <script src="../../lib/c3.min.js"></script>
+        <script src="../../js/29-06-2018.js"></script>
+        <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92751500-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+    </body>
+
+</html>
