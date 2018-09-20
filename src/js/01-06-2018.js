@@ -340,3 +340,4 @@ var primera = c3.generate({
     },
     bindto: '#mocion16'
 });
+

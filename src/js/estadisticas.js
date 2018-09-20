@@ -99,7 +99,7 @@ function estadisticasChart(datos) {
                     .attr('class', 'bar-vertical')
 
             layer.merge(newLayer)
-                .attr("width", 45)
+                .attr("width", scales.count.x.bandwidth())
                 .attr("x", d => scales.count.x(d.nombre))
                 .attr("y", d => scales.count.y(0))
                 .attr("height", 0)

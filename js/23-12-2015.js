@@ -1,9 +1,11 @@
-"use strict";
-
 //Moción 34-1
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + CHA", 11], ["En contra: PP", 10], ["Abstención: PSOE + C'S", 10]],
+        columns: [
+            ["A favor: ZEC + CHA", 11],
+            ["En contra: PP", 10],
+            ["Abstención: PSOE + C'S", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -12,10 +14,14 @@ var primera = c3.generate({
     bindto: '#mocion34-1'
 });
 
+
 //Mocion 34-2
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -27,7 +33,10 @@ var primera = c3.generate({
 //Mocion 34-3
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -39,7 +48,10 @@ var primera = c3.generate({
 //Mocion 34-4
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -51,7 +63,10 @@ var primera = c3.generate({
 //Mocion 34-5
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -63,7 +78,10 @@ var primera = c3.generate({
 //Mocion 34-6
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -75,7 +93,10 @@ var primera = c3.generate({
 //Mocion 34-7
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -87,7 +108,9 @@ var primera = c3.generate({
 //Mocion 35-1
 var primera = c3.generate({
     data: {
-        columns: [["Unanimidad", 31]],
+        columns: [
+            ["Unanimidad", 31]
+        ],
         type: 'pie'
     },
     color: {
@@ -99,7 +122,11 @@ var primera = c3.generate({
 //Moción 35-2
 var primera = c3.generate({
     data: {
-        columns: [["A favor: PP", 10], ["En contra: ZEC + CHA", 11], ["Abstención: PSOE + C'S", 10]],
+        columns: [
+            ["A favor: PP", 10],
+            ["En contra: ZEC + CHA", 11],
+            ["Abstención: PSOE + C'S", 10]
+        ],
         type: 'pie'
     },
     color: {
@@ -111,7 +138,10 @@ var primera = c3.generate({
 //Mocion 35-3
 var primera = c3.generate({
     data: {
-        columns: [["A favor: PP + PSOE + CHA + C'S", 22], ["Abstención: ZEC", 9]],
+        columns: [
+            ["A favor: PP + PSOE + CHA + C'S", 22],
+            ["Abstención: ZEC", 9]
+        ],
         type: 'pie'
     },
     color: {
@@ -123,7 +153,11 @@ var primera = c3.generate({
 //Moción 36
 var primera = c3.generate({
     data: {
-        columns: [["A favor: PP + ZEC", 19], ["En contra: PSOE + CHA", 8], ["Abstención: C'S", 4]],
+        columns: [
+            ["A favor: PP + ZEC", 19],
+            ["En contra: PSOE + CHA", 8],
+            ["Abstención: C'S", 4]
+        ],
         type: 'pie'
     },
     color: {
@@ -135,7 +169,10 @@ var primera = c3.generate({
 //Moción 37
 var primera = c3.generate({
     data: {
-        columns: [["A favor: PP + PSOE + C'S + CHA", 21], ["En contra: ZEC", 9]],
+        columns: [
+            ["A favor: PP + PSOE + C'S + CHA", 21],
+            ["En contra: ZEC", 9]
+        ],
         type: 'pie'
     },
     color: {
@@ -147,7 +184,9 @@ var primera = c3.generate({
 //Mocion 38
 var primera = c3.generate({
     data: {
-        columns: [["Unanimidad", 31]],
+        columns: [
+            ["Unanimidad", 31]
+        ],
         type: 'pie'
     },
     color: {
@@ -159,7 +198,10 @@ var primera = c3.generate({
 //Mocion 38-2
 var primera = c3.generate({
     data: {
-        columns: [["A favor: PP + PSOE + CHA + C'S", 21], ["Abstención: ZEC", 9]],
+        columns: [
+            ["A favor: PP + PSOE + CHA + C'S", 21],
+            ["Abstención: ZEC", 9]
+        ],
         type: 'pie'
     },
     color: {
@@ -171,7 +213,9 @@ var primera = c3.generate({
 //Mocion 39
 var primera = c3.generate({
     data: {
-        columns: [["Unanimidad", 31]],
+        columns: [
+            ["Unanimidad", 31]
+        ],
         type: 'pie'
     },
     color: {
@@ -183,7 +227,9 @@ var primera = c3.generate({
 //Mocion 40
 var primera = c3.generate({
     data: {
-        columns: [["Unanimidad", 31]],
+        columns: [
+            ["Unanimidad", 31]
+        ],
         type: 'pie'
     },
     color: {
@@ -195,7 +241,10 @@ var primera = c3.generate({
 //Mocion 41
 var primera = c3.generate({
     data: {
-        columns: [["A favor: ZEC + PSOE + CHA + C'S", 21], ["Abstención: PP", 10]],
+        columns: [
+            ["A favor: ZEC + PSOE + CHA + C'S", 21],
+            ["Abstención: PP", 10]
+        ],
         type: 'pie'
     },
     color: {
