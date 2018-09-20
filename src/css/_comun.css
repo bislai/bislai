@@ -1161,6 +1161,7 @@ path.q2-3 {
 .home-image-effect {
     color: rgba(0, 0, 0, .75);
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
     &:after {
         content: '';
         position: absolute;
@@ -1582,7 +1583,7 @@ path.q2-3 {
     }
 
     .maw-60 {
-        max-width: 60vw;
+        max-width: 66vw;
         margin: 0 auto;
     }
 
