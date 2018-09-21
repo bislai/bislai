@@ -376,7 +376,7 @@ function multipleLines() {
 
     var margin = { top: 24, right: 24, bottom: 24, left: 24 },
         width = 960 - margin.left - margin.right,
-        height = 220 - margin.top - margin.bottom;
+        height = 420 - margin.top - margin.bottom;
 
     var colors = ["#9a1622", "#e30613", "#0080b8", "#f07a36"];
     var color = d3.scaleOrdinal(colors);
@@ -423,7 +423,7 @@ function multipleLines() {
             return d.votos;
         })]);
 
-        var svg = d3.select(".grafica-favor-legislatura").selectAll("svg").data(symbols).enter().append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        var svg = d3.select(".grafica-favor-legislatura").selectAll("svg").data(symbols).enter().append("svg").attr('viewBox', '0 0 ' + (width + (margin.left + margin.right)) + '  ' + (height + (margin.top + margin.bottom))).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         svg.append('g').attr('class', 'axis axis-x');
 
@@ -447,7 +447,7 @@ function multipleLines() {
             return line(d.values);
         }).style("stroke", "#111");
 
-        svg.append("text").attr("class", "multiple-legend").attr("x", 16).attr("y", -8).style("text-anchor", "start").text(function (d) {
+        svg.append("text").attr("class", "multiple-legend").attr("x", 16).attr("y", -10).style("text-anchor", "start").text(function (d) {
             return d.key;
         });
     });
