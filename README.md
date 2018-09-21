@@ -50,6 +50,10 @@ Una gráfica por distrito que muestra los resultados desde 1987 hasta 2015
 
 ![graficas](img/graficas.png)
 
+Evolución del voto a favor a lo largo de la legistlatura
+
+![evolucion](img/distribucion-de-voto.png)
+
 ## Autores
 
 [Jorge Aznar](https://github.com/jorgeatgu)
