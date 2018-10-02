@@ -18,8 +18,7 @@
   "scripts": {
     "server-on": "browser-sync start --server --files '*.css, *.html' --tunnel jorgeatgu",
     "lint-staged": "lint-staged",
-    "inline:css": "gulp inline",
-    "remove:uncss": "gulp remove"
+    "build:release": "gulp build"
   },
   "license": "MIT",
   "devDependencies": {
