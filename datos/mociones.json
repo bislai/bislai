@@ -5510,5 +5510,123 @@ var mociones = [
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 29
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 2
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 3
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "en_contra": "ZEC + CHA",
+    "votos_favor": 18,
+    "votos_contra": 11,
+    "numero": 4
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S",
+    "abstencion": "CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 19,
+    "votos_contra": 9,
+    "votos_abstencion": 2,
+    "numero": 6
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PSOE",
+    "resultado": "ganada",
+    "a_favor": "PP + PSOE + C'S + CHA",
+    "abstencion": "ZEC",
+    "votos_favor": 18,
+    "votos_abstencion": 7,
+    "numero": 7
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 8
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "C'S",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 9
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "a_favor": "PP + C'S",
+    "abstencion": "PSOE + CHA",
+    "en_contra": "ZEC",
+    "votos_favor": 13,
+    "votos_contra": 7,
+    "votos_abstencion": 8,
+    "numero": 10
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PP",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 11
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 12
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 15,
+    "votos_contra": 13,
+    "numero": 13
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "PP",
+    "resultado": "perdida",
+    "a_favor": "PP",
+    "en_contra": "ZEC + PSOE + CHA",
+    "abstencion": "C'S",
+    "votos_favor": 15,
+    "votos_contra": 13,
+    "votos_abstencion": 8,
+    "numero": 14
+},
+{
+    "fecha": "28-09-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 17,
+    "votos_contra": 13,
+    "numero": 15
 }
 ]
