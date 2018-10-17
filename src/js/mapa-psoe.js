@@ -164,10 +164,9 @@ function graficasPSOE() {
 
 }
 
-
 graficasPSOE();
 
-const csvElements = [ 'datos/zec/en-su-contra.csv', 'datos/zec/a-su-favor.csv', 'datos/zec/abstencion.csv', 'datos/zec/en-contra.csv', 'datos/zec/a-favor.csv']
+const csvElements = [ 'datos/psoe/en-su-contra.csv', 'datos/psoe/a-su-favor.csv', 'datos/psoe/abstencion.csv', 'datos/psoe/en-contra.csv', 'datos/psoe/a-favor.csv']
 
 function estadisticasChart(datos) {
         //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
