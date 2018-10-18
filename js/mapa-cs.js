@@ -48,7 +48,7 @@ $(function () {
     }
 });
 
-var csvElements = ['datos/cha/en-su-contra.csv', 'datos/cha/a-su-favor.csv', 'datos/cha/abstencion.csv', 'datos/cha/en-contra.csv', 'datos/cha/a-favor.csv'];
+var csvElements = ['datos/ciudadanos/en-su-contra.csv', 'datos/ciudadanos/a-su-favor.csv', 'datos/ciudadanos/abstencion.csv', 'datos/ciudadanos/en-contra.csv', 'datos/ciudadanos/a-favor.csv'];
 
 function estadisticasChart(datos) {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool

@@ -248,7 +248,7 @@ function aFavorPP() {
 
 distritoElectoralPP();
 
-const csvElements = [ 'datos/zec/en-su-contra.csv', 'datos/zec/a-su-favor.csv', 'datos/zec/abstencion.csv', 'datos/zec/en-contra.csv', 'datos/zec/a-favor.csv']
+const csvElements = [ 'datos/pp/en-su-contra.csv', 'datos/pp/a-su-favor.csv', 'datos/pp/abstencion.csv', 'datos/pp/en-contra.csv', 'datos/pp/a-favor.csv']
 
 function estadisticasChart(datos) {
         //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
