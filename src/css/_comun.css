@@ -1252,6 +1252,7 @@ path.q2-3 {
     background-color: #f7dc7f;
     padding: 1rem;
     border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.31), 0 2px 4px 0 rgba(50,50,58,0.20);
 }
 
 .title-estadisticas {
