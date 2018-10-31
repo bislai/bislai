@@ -80,220 +80,10 @@ code.code {
     margin: .75rem 0;
 }
 
-
-
-/* ESTILOS C3 */
-
-
-/* stylelint-disable */
-
-.c3 svg {
-    font: 10px sans-serif;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.c3 line,
-.c3 path {
-    fill: none;
-    stroke: #000;
-}
-
-.c3 text {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-.c3-bars path,
-.c3-event-rect,
-.c3-legend-item-tile,
-.c3-xgrid-focus,
-.c3-ygrid {
-    shape-rendering: crispEdges;
-}
-
-.c3-chart-arc path {
-    stroke: var(--white);
-}
-
-.c3-chart-arc text {
-    fill: var(--white);
-    font-size: 13px;
-}
-
-.c3-grid line {
-    stroke: #aaa;
-}
-
-.c3-grid text {
-    fill: #aaa;
-}
-
-.c3-xgrid,
-.c3-ygrid {
-    stroke-dasharray: 3 3;
-}
-
-.c3-text.c3-empty {
-    fill: gray;
-    font-size: 2em;
-}
-
-.c3-line {
-    stroke-width: 1px;
-}
-
-.c3-circle._expanded_ {
-    stroke-width: 1px;
-    stroke: var(--white);
-}
-
-.c3-selected-circle {
-    fill: var(--white);
-    stroke-width: 2px;
-}
-
-.c3-bar {
-    stroke-width: 0;
-}
-
-.c3-bar._expanded_ {
-    fill-opacity: 0.75;
-}
-
-.c3-target.c3-focused {
-    opacity: 1;
-}
-
-.c3-target.c3-focused path.c3-line,
-.c3-target.c3-focused path.c3-step {
-    stroke-width: 2px;
-}
-
-.c3-target.c3-defocused {
-    opacity: 0.3 !important;
-}
-
-.c3-region {
-    fill: #4682b4;
-    fill-opacity: 0.1;
-}
-
-.c3-brush .extent {
-    fill-opacity: 0.1;
-}
-
-.c3-legend-item {
-    font-size: 12px;
-}
-
-.c3-legend-item-hidden {
-    opacity: 0.15;
-}
-
-.c3-legend-background {
-    opacity: 0.75;
-    fill: var(--white);
-    stroke: #d3d3d3;
-    stroke-width: 1;
-}
-
-.c3-title {
-    font: 14px sans-serif;
-}
-
-.c3-tooltip-container {
-    z-index: 10;
-}
-
-.c3-tooltip {
-    border-collapse: collapse;
-    border-spacing: 0;
-    background-color: var(--white);
-    empty-cells: show;
-    box-shadow: 7px 7px 12px -9px #777;
-    opacity: 0.9;
-}
-
-.c3-tooltip tr {
-    border: 1px solid #ccc;
-}
-
-.c3-tooltip th {
-    background-color: #aaa;
-    font-size: 14px;
-    padding: 2px 5px;
-    text-align: left;
-    color: var(--white);
-}
-
-.c3-tooltip td {
-    font-size: 13px;
-    padding: 3px 6px;
-    background-color: var(--white);
-    border-left: 1px dotted #999;
-}
-
-.c3-tooltip td>span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-right: 6px;
-}
-
-.c3-tooltip td.value {
-    text-align: right;
-}
-
-.c3-area {
-    stroke-width: 0;
-    opacity: 0.2;
-}
-
-.c3-chart-arcs-title {
-    dominant-baseline: middle;
-    font-size: 1.3em;
-}
-
-.c3-chart-arcs .c3-chart-arcs-background {
-    fill: #e0e0e0;
-    stroke: none;
-}
-
-.c3-chart-arcs .c3-chart-arcs-gauge-unit {
-    fill: #000;
-    font-size: 16px;
-}
-
-.c3-chart-arcs .c3-chart-arcs-gauge-max,
-.c3-chart-arcs .c3-chart-arcs-gauge-min {
-    fill: #777;
-}
-
-.c3-chart-arc .c3-gauge-value {
-    fill: #000;
-}
-
-/* Machacando a fuego los estilos que incluye c3 */
-
-.c3-chart-arc text {
-    fill: #000 !important;
-    font-size: 16px !important;
-    font-weight: bold !important;
-    font-family: var(--fontSystem);
-}
-
-.c3 text {
-    font-size: 16px !important;
-    font-weight: bold !important;
-    font-family: var(--fontSystem);
-}
-
 .btn-search {
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 0;
     background-color: #d3d3d3;
     border-radius: 5px;
     border-top-left-radius: 0;
@@ -365,17 +155,16 @@ code.code {
     }
 }
 
-.input-record:checked+.label-record {
+.input-record:checked + .label-record {
     color: #dce0db;
     border-top: 5px solid var(--bgcTabs);
     background-color: var(--bislai);
 }
 
-#tab1:checked~.contenido1,
-#tab2:checked~.contenido2,
-#tab3:checked~.contenido3,
-#tab4:checked~.contenido4 {
-    display: block;
+#tab1:checked ~ .contenido1,
+#tab2:checked ~ .contenido2,
+#tab3:checked ~ .contenido3,
+#tab4:checked ~ .contenido4 {
     background-color: var(--bislai);
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 45%));
@@ -409,7 +198,6 @@ code.code {
 .tabla-record-minimas-desktop {
     display: none;
 }
-/* stylelint-enable */
 
 .background {
     fill: #eee;
@@ -1034,6 +822,22 @@ path.q2-3 {
 }
 
 .bislai-icon {
+    width: intrinsic;
+    /*stylelint-disable*/
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    /*stylelint-enable*/
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--yellow);
+    svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
     .active {
         display: none;
         width: 2.5rem;
@@ -1090,23 +894,6 @@ path.q2-3 {
         display: inline-block;
         background-color: var(--black);
         vertical-align: middle;
-    }
-}
-
-.bislai-icon {
-    width: intrinsic;
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    padding: 1rem;
-    background-color: var(--yellow);
-    svg {
-        width: 2.5rem;
-        height: 2.5rem;
     }
 }
 
@@ -1252,7 +1039,7 @@ path.q2-3 {
     background-color: #f7dc7f;
     padding: 1rem;
     border-radius: 4px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.31), 0 2px 4px 0 rgba(50,50,58,0.20);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
 }
 
 .title-estadisticas {
@@ -1291,6 +1078,8 @@ path.q2-3 {
 
     .bislai-icon {
         position: static;
+        width: auto;
+        height: auto;
     }
 
     .home-position-container-claim,
@@ -1343,11 +1132,6 @@ path.q2-3 {
         padding: 1rem;
     }
 
-    .bislai-icon {
-        width: auto;
-        height: auto;
-    }
-
     .bislai-home-body-left-text-white {
         font-size: 1.5rem;
         padding: 1rem;
@@ -1382,10 +1166,10 @@ path.q2-3 {
         width: 100%;
     }
 
-    #tab1:checked~.contenido1,
-    #tab2:checked~.contenido2,
-    #tab3:checked~.contenido3,
-    #tab4:checked~.contenido4 {
+    #tab1:checked ~ .contenido1,
+    #tab2:checked ~ .contenido2,
+    #tab3:checked ~ .contenido3,
+    #tab4:checked ~ .contenido4 {
         grid-template-columns: 100%;
         padding: 1rem;
     }
@@ -1613,7 +1397,9 @@ path.q2-3 {
         padding: .5rem;
     }
 
-    .home-position-container-claim, .home-position-container-search, .home-position-container.home-position-container-stats .home-position-container-claim {
+    .home-position-container-claim,
+    .home-position-container-search,
+    .home-position-container.home-position-container-stats .home-position-container-claim {
         position: static;
     }
 

@@ -47,8 +47,10 @@
     color: var(--black);
     margin: 0;
     width: intrinsic;
+    /* stylelint-disable declaration-block-no-duplicate-properties */
     width: -moz-max-content;
     width: -webkit-max-content;
+    /* stylelint-enable declaration-block-no-duplicate-properties */
     margin-bottom: .5rem;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -197,26 +199,18 @@
     .CHA {
         fill: var(--chunta);
     }
-    /*stylelint-disable*/
     .axis-x {
-        .tick {
-            line {
-                stroke: none;
-            }
-        }
+        .tick line,
         .domain {
             stroke: none;
         }
     }
     .axis-y {
-        .tick {
-            line {
-                stroke: #ccc;
-                stroke-dasharray: 0;
-            }
+        .tick line {
+            stroke: #ccc;
+            stroke-dasharray: 0;
         }
     }
-    /*stylelint-enable*/
 }
 
 @media only screen and (max-width: 48em) {

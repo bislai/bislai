@@ -1,59 +1,3 @@
-.bgc-tabs {
-    background-color: var(--bgcTabs);
-}
-
-.bgc-transparent {
-    background-color: transparent;
-}
-
-.night-rider {
-    color: var(--nightRider);
-}
-
-.bunting {
-    color: var(--bunting);
-}
-
-.grey {
-    background-color: var(--grey);
-}
-
-.bgc-white {
-    background-color: var(--white);
-}
-
-.white {
-    color: var(--white);
-}
-
-.bislai-color {
-    color: var(--bislai);
-}
-
-.bgc-bislai {
-    background-color: var(--bislai);
-}
-
-.azul-pp {
-    color: var(--pp);
-}
-
-.rojo-psoe {
-    color: var(--psoe);
-}
-
-.amarillo-chunta {
-    color: var(--chunta);
-}
-
-.rojo-zec {
-    color: var(--zec);
-}
-
-.naranja-ciudadanos {
-    color: var(--ciudadanos);
-}
-
 .bgc-pp {
     background-color: var(--pp);
 }
@@ -72,10 +16,6 @@
 
 .bgc-cha {
     background-color: var(--chunta);
-}
-
-.bgc-orden {
-    background-color: #c3cfe2;
 }
 
 .bgc-acuerdos {

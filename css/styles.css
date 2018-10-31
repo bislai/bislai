@@ -329,177 +329,10 @@ code.code {
     color: #fff;
     margin: .75rem 0;
 }
-/* ESTILOS C3 */
-/* stylelint-disable */
-.c3 svg {
-    font: 0.63rem sans-serif;
-    -webkit-tap-highlight-color: transparent;
-}
-.c3 line,
-.c3 path {
-    fill: none;
-    stroke: #000;
-}
-.c3 text {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-.c3-bars path,
-.c3-event-rect,
-.c3-legend-item-tile,
-.c3-xgrid-focus,
-.c3-ygrid {
-    shape-rendering: crispEdges;
-}
-.c3-chart-arc path {
-    stroke: #fff;
-}
-.c3-chart-arc text {
-    fill: #fff;
-    font-size: 0.81rem;
-}
-.c3-grid line {
-    stroke: #aaa;
-}
-.c3-grid text {
-    fill: #aaa;
-}
-.c3-xgrid,
-.c3-ygrid {
-    stroke-dasharray: 3 3;
-}
-.c3-text.c3-empty {
-    fill: gray;
-    font-size: 2em;
-}
-.c3-line {
-    stroke-width: 1px;
-}
-.c3-circle._expanded_ {
-    stroke-width: 1px;
-    stroke: #fff;
-}
-.c3-selected-circle {
-    fill: #fff;
-    stroke-width: 2px;
-}
-.c3-bar {
-    stroke-width: 0;
-}
-.c3-bar._expanded_ {
-    fill-opacity: 0.75;
-}
-.c3-target.c3-focused {
-    opacity: 1;
-}
-.c3-target.c3-focused path.c3-line,
-.c3-target.c3-focused path.c3-step {
-    stroke-width: 2px;
-}
-.c3-target.c3-defocused {
-    opacity: 0.3 !important;
-}
-.c3-region {
-    fill: #4682b4;
-    fill-opacity: 0.1;
-}
-.c3-brush .extent {
-    fill-opacity: 0.1;
-}
-.c3-legend-item {
-    font-size: 0.75rem;
-}
-.c3-legend-item-hidden {
-    opacity: 0.15;
-}
-.c3-legend-background {
-    opacity: 0.75;
-    fill: #fff;
-    stroke: #d3d3d3;
-    stroke-width: 1;
-}
-.c3-title {
-    font: 0.88rem sans-serif;
-}
-.c3-tooltip-container {
-    z-index: 10;
-}
-.c3-tooltip {
-    border-collapse: collapse;
-    border-spacing: 0;
-    background-color: #fff;
-    empty-cells: show;
-    box-shadow: 7px 7px 12px -9px #777;
-    opacity: 0.9;
-}
-.c3-tooltip tr {
-    border: 1px solid #ccc;
-}
-.c3-tooltip th {
-    background-color: #aaa;
-    font-size: 0.88rem;
-    padding: 0.13rem 0.31rem;
-    text-align: left;
-    color: #fff;
-}
-.c3-tooltip td {
-    font-size: 0.81rem;
-    padding: 0.19rem 0.38rem;
-    background-color: #fff;
-    border-left: 1px dotted #999;
-}
-.c3-tooltip td>span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-right: 6px;
-}
-.c3-tooltip td.value {
-    text-align: right;
-}
-.c3-area {
-    stroke-width: 0;
-    opacity: 0.2;
-}
-.c3-chart-arcs-title {
-    dominant-baseline: middle;
-    font-size: 1.3em;
-}
-.c3-chart-arcs .c3-chart-arcs-background {
-    fill: #e0e0e0;
-    stroke: none;
-}
-.c3-chart-arcs .c3-chart-arcs-gauge-unit {
-    fill: #000;
-    font-size: 1rem;
-}
-.c3-chart-arcs .c3-chart-arcs-gauge-max,
-.c3-chart-arcs .c3-chart-arcs-gauge-min {
-    fill: #777;
-}
-.c3-chart-arc .c3-gauge-value {
-    fill: #000;
-}
-/* Machacando a fuego los estilos que incluye c3 */
-.c3-chart-arc text {
-    fill: #000 !important;
-    font-size: 1rem !important;
-    font-weight: bold !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Helvetica Neue", Helvetica, sans-serif;
-}
-.c3 text {
-    font-size: 1rem !important;
-    font-weight: bold !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Helvetica Neue", Helvetica, sans-serif;
-}
 .btn-search {
     width: 50px;
     height: 48px;
     border: 0;
-    border-radius: 0;
     background-color: #d3d3d3;
     border-radius: 5px;
     border-top-left-radius: 0;
@@ -564,16 +397,15 @@ code.code {
         color: #121;
         cursor: pointer;
     }
-.input-record:checked+.label-record {
+.input-record:checked + .label-record {
     color: #dce0db;
     border-top: 5px solid #46E3CF;
     background-color: #021e5c;
 }
-#tab1:checked~.contenido1,
-#tab2:checked~.contenido2,
-#tab3:checked~.contenido3,
-#tab4:checked~.contenido4 {
-    display: block;
+#tab1:checked ~ .contenido1,
+#tab2:checked ~ .contenido2,
+#tab3:checked ~ .contenido3,
+#tab4:checked ~ .contenido4 {
     background-color: #021e5c;
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 45%));
@@ -603,7 +435,6 @@ code.code {
 .tabla-record-minimas-desktop {
     display: none;
 }
-/* stylelint-enable */
 .background {
     fill: #eee;
     pointer-events: all;
@@ -1145,6 +976,25 @@ path.q2-3 {
 .home-position-container.home-position-container-stats .home-position-container-title {
             color: #121;
         }
+.bislai-icon {
+    width: intrinsic;
+    /*stylelint-disable*/
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    /*stylelint-enable*/
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 1rem;
+    background-color: #3BE4CF;
+
+}
+.bislai-icon svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 .bislai-icon .active {
         display: none;
         width: 2.5rem;
@@ -1194,22 +1044,6 @@ path.q2-3 {
         display: inline-block;
         background-color: #121;
         vertical-align: middle;
-    }
-.bislai-icon {
-    width: intrinsic;
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    padding: 1rem;
-    background-color: #3BE4CF;
-}
-.bislai-icon svg {
-        width: 2.5rem;
-        height: 2.5rem;
     }
 .home-position-container-title {
     font-size: 1.5rem;
@@ -1341,7 +1175,7 @@ path.q2-3 {
     background-color: #f7dc7f;
     padding: 1rem;
     border-radius: 4px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.31), 0 2px 4px 0 rgba(50,50,58,0.20);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
 }
 .title-estadisticas {
     text-transform: uppercase;
@@ -1376,6 +1210,8 @@ path.q2-3 {
 
     .bislai-icon {
         position: static;
+        width: auto;
+        height: auto;
     }
 
     .home-position-container-claim,
@@ -1428,11 +1264,6 @@ path.q2-3 {
         padding: 1rem;
     }
 
-    .bislai-icon {
-        width: auto;
-        height: auto;
-    }
-
     .bislai-home-body-left-text-white {
         font-size: 1.5rem;
         padding: 1rem;
@@ -1467,10 +1298,10 @@ path.q2-3 {
         width: 100%;
     }
 
-    #tab1:checked~.contenido1,
-    #tab2:checked~.contenido2,
-    #tab3:checked~.contenido3,
-    #tab4:checked~.contenido4 {
+    #tab1:checked ~ .contenido1,
+    #tab2:checked ~ .contenido2,
+    #tab3:checked ~ .contenido3,
+    #tab4:checked ~ .contenido4 {
         grid-template-columns: 100%;
         padding: 1rem;
     }
@@ -1679,7 +1510,9 @@ path.q2-3 {
         padding: .5rem;
     }
 
-    .home-position-container-claim, .home-position-container-search, .home-position-container.home-position-container-stats .home-position-container-claim {
+    .home-position-container-claim,
+    .home-position-container-search,
+    .home-position-container.home-position-container-stats .home-position-container-claim {
         position: static;
     }
 
@@ -1700,6 +1533,177 @@ path.q2-3 {
         display: none;
 
     }
+}
+/* ESTILOS C3 */
+/* stylelint-disable */
+.c3 svg {
+    font: 0.63rem sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.c3 line,
+.c3 path {
+    fill: none;
+    stroke: #000;
+}
+.c3 text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.c3-bars path,
+.c3-event-rect,
+.c3-legend-item-tile,
+.c3-xgrid-focus,
+.c3-ygrid {
+    shape-rendering: crispEdges;
+}
+.c3-chart-arc path {
+    stroke: #fff;
+}
+.c3-chart-arc text {
+    fill: #fff;
+    font-size: 0.81rem;
+}
+.c3-grid line {
+    stroke: #aaa;
+}
+.c3-grid text {
+    fill: #aaa;
+}
+.c3-xgrid,
+.c3-ygrid {
+    stroke-dasharray: 3 3;
+}
+.c3-text.c3-empty {
+    fill: gray;
+    font-size: 2em;
+}
+.c3-chart-texts text {
+    fill: #111 !important;
+}
+.c3-line {
+    stroke-width: 1px;
+}
+.c3-circle._expanded_ {
+    stroke-width: 1px;
+    stroke: #fff;
+}
+.c3-selected-circle {
+    fill: #fff;
+    stroke-width: 2px;
+}
+.c3-bar {
+    stroke-width: 0;
+}
+.c3-bar._expanded_ {
+    fill-opacity: 0.75;
+}
+.c3-target.c3-focused {
+    opacity: 1;
+}
+.c3-target.c3-focused path.c3-line,
+.c3-target.c3-focused path.c3-step {
+    stroke-width: 2px;
+}
+.c3-target.c3-defocused {
+    opacity: 0.3 !important;
+}
+.c3-region {
+    fill: #4682b4;
+    fill-opacity: 0.1;
+}
+.c3-brush .extent {
+    fill-opacity: 0.1;
+}
+.c3-legend-item text {
+    font-size: 0.88rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.c3-legend-item-hidden {
+    opacity: 0.15;
+}
+.c3-grid .c3-xgrid-focus {
+   visibility : hidden !important;
+}
+.c3-legend-background {
+    opacity: 0.75;
+    fill: #fff;
+    stroke: #d3d3d3;
+    stroke-width: 1;
+}
+.c3-title {
+    font: 0.88rem sans-serif;
+}
+.c3-tooltip-container {
+    z-index: 10;
+}
+.c3-tooltip {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    empty-cells: show;
+    box-shadow: 7px 7px 12px -9px #777;
+    opacity: 0.9;
+}
+.c3-tooltip tr {
+    border: 1px solid #ccc;
+}
+.c3-tooltip th {
+    background-color: #aaa;
+    font-size: 0.88rem;
+    padding: 0.13rem 0.31rem;
+    text-align: left;
+    color: #fff;
+}
+.c3-tooltip td {
+    font-size: 0.81rem;
+    padding: 0.19rem 0.38rem;
+    background-color: #fff;
+    border-left: 1px dotted #999;
+}
+.c3-tooltip td>span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+.c3-tooltip td.value {
+    text-align: right;
+}
+.c3-area {
+    stroke-width: 0;
+    opacity: 0.2;
+}
+.c3-chart-arcs-title {
+    dominant-baseline: middle;
+    font-size: 1.3em;
+}
+.c3-chart-arcs .c3-chart-arcs-background {
+    fill: #e0e0e0;
+    stroke: none;
+}
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+    fill: #000;
+    font-size: 1rem;
+}
+.c3-chart-arcs .c3-chart-arcs-gauge-max,
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+    fill: #777;
+}
+.c3-chart-arc .c3-gauge-value {
+    fill: #000;
+}
+/* Machacando a fuego los estilos que incluye c3 */
+.c3-chart-arc text {
+    fill: #000 !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Helvetica Neue", Helvetica, sans-serif;
+}
+.c3-chart-text text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
 }
 .nav-plenos {
     position: fixed;
@@ -1808,8 +1812,11 @@ path.q2-3 {
     .nav-plenos-posterior {
         border: 0;
         width: intrinsic;
+        /* stylelint-disable declaration-block-no-duplicate-properties */
         width: -moz-max-content;
         width: -webkit-max-content;
+        /* stylelint-enable declaration-block-no-duplicate-properties */
+
     }
 
     .nav-plenos-posterior {
@@ -1879,7 +1886,14 @@ http://www.tipue.com/search
 }
 .tipue_search_content_title {
     font-size: 1.63rem;
+    color: #666;
+    margin-top: 21px;
+    font-family: "Fjalla One", sans-serif;
 }
+.tipue_search_content_title:not(:first-child) {
+        border-top: 1px solid #ccc;
+        padding: 0.63rem 0;
+    }
 .tipue_search_content_text,
 .tipue_search_related_title {
     font-size: 0.94rem;
@@ -1933,15 +1947,6 @@ http://www.tipue.com/search
 #tipue_search_warning a:hover {
     color: #555;
 }
-.tipue_search_content_title {
-    color: #666;
-    margin-top: 21px;
-    font-family: "Fjalla One", sans-serif;
-}
-.tipue_search_content_title:not(:first-child) {
-        border-top: 1px solid #ccc;
-        padding: 0.63rem 0;
-    }
 .tipue_search_content_title a {
     color: #000;
     text-decoration: none;
@@ -1979,7 +1984,7 @@ http://www.tipue.com/search
 }
 .tipue_search_related_title {
     color: #333;
-    margin: 1.63rem 0 0.44rem 0;
+    margin: 1.63rem 0 0.44rem;
 }
 .tipue_search_related_cols {
     -webkit-columns: 230px 2;
@@ -1987,7 +1992,7 @@ http://www.tipue.com/search
     columns: 230px 2;
 }
 #tipue_search_foot {
-    margin: 3.19rem 0 1.31rem 0;
+    margin: 3.19rem 0 1.31rem;
 }
 #tipue_search_foot_boxes {
     padding: 0;
@@ -2241,48 +2246,6 @@ http://www.tipue.com/search
         margin: 0 5rem;
     }
 }
-.bgc-tabs {
-    background-color: #46E3CF;
-}
-.bgc-transparent {
-    background-color: transparent;
-}
-.night-rider {
-    color: #431729;
-}
-.bunting {
-    color: #271764;
-}
-.grey {
-    background-color: #efefef;
-}
-.bgc-white {
-    background-color: #fff;
-}
-.white {
-    color: #fff;
-}
-.bislai-color {
-    color: #021e5c;
-}
-.bgc-bislai {
-    background-color: #021e5c;
-}
-.azul-pp {
-    color: #0080b8;
-}
-.rojo-psoe {
-    color: #e30613;
-}
-.amarillo-chunta {
-    color: #efb027;
-}
-.rojo-zec {
-    color: #9a1622;
-}
-.naranja-ciudadanos {
-    color: #f07a36;
-}
 .bgc-pp {
     background-color: #0080b8;
 }
@@ -2297,9 +2260,6 @@ http://www.tipue.com/search
 }
 .bgc-cha {
     background-color: #efb027;
-}
-.bgc-orden {
-    background-color: #c3cfe2;
 }
 .bgc-acuerdos {
     background-color: #37ecba;
@@ -2343,8 +2303,10 @@ http://www.tipue.com/search
     color: #121;
     margin: 0;
     width: intrinsic;
+    /* stylelint-disable declaration-block-no-duplicate-properties */
     width: -moz-max-content;
     width: -webkit-max-content;
+    /* stylelint-enable declaration-block-no-duplicate-properties */
     margin-bottom: .5rem;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -2442,7 +2404,6 @@ http://www.tipue.com/search
 .grafica-favor-legislatura {
     max-width: 70%;
     margin: 3rem auto;
-    /*stylelint-enable*/
 }
 .grafica-favor-legislatura .partidos-grafico-parrafo {
         max-width: 25rem;
@@ -2468,17 +2429,14 @@ http://www.tipue.com/search
 .grafica-favor-legislatura .CHA {
         fill: #efb027;
     }
-/*stylelint-disable*/
-.grafica-favor-legislatura .axis-x .tick line {
-                stroke: none;
-            }
-.grafica-favor-legislatura .axis-x .domain {
+.grafica-favor-legislatura .axis-x .tick line,
+        .grafica-favor-legislatura .axis-x .domain {
             stroke: none;
         }
 .grafica-favor-legislatura .axis-y .tick line {
-                stroke: #ccc;
-                stroke-dasharray: 0;
-            }
+            stroke: #ccc;
+            stroke-dasharray: 0;
+        }
 @media only screen and (max-width: 48em) {
 
     .grafica-favor-legislatura {
