@@ -6,10 +6,27 @@ var primera = c3.generate({
             ["En contra: PP", 10],
             ["Abstención: PSOE + C'S", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
     },
     bindto: '#mocion34-1'
 });
@@ -22,10 +39,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-2'
 });
@@ -37,10 +71,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-3'
 });
@@ -52,10 +103,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-4'
 });
@@ -67,10 +135,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-5'
 });
@@ -82,10 +167,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-6'
 });
@@ -97,10 +199,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion34-7'
 });
@@ -111,7 +230,24 @@ var primera = c3.generate({
         columns: [
             ["Unanimidad", 31]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
         pattern: ['#209F69']
@@ -127,10 +263,27 @@ var primera = c3.generate({
             ["En contra: ZEC + CHA", 11],
             ["Abstención: PSOE + C'S", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
     },
     bindto: '#mocion35-2'
 });
@@ -142,10 +295,27 @@ var primera = c3.generate({
             ["A favor: PP + PSOE + CHA + C'S", 22],
             ["Abstención: ZEC", 9]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion35-3'
 });
@@ -158,10 +328,27 @@ var primera = c3.generate({
             ["En contra: PSOE + CHA", 8],
             ["Abstención: C'S", 4]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#D7E4E4']
+        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
     },
     bindto: '#mocion36'
 });
@@ -173,7 +360,24 @@ var primera = c3.generate({
             ["A favor: PP + PSOE + C'S + CHA", 21],
             ["En contra: ZEC", 9]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
         pattern: ['#209F69', '#D01F2E']
@@ -187,7 +391,24 @@ var primera = c3.generate({
         columns: [
             ["Unanimidad", 31]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
         pattern: ['#209F69']
@@ -202,10 +423,27 @@ var primera = c3.generate({
             ["A favor: PP + PSOE + CHA + C'S", 21],
             ["Abstención: ZEC", 9]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion38-2'
 });
@@ -216,7 +454,24 @@ var primera = c3.generate({
         columns: [
             ["Unanimidad", 31]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
         pattern: ['#209F69']
@@ -230,7 +485,24 @@ var primera = c3.generate({
         columns: [
             ["Unanimidad", 31]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
         pattern: ['#209F69']
@@ -245,10 +517,27 @@ var primera = c3.generate({
             ["A favor: ZEC + PSOE + CHA + C'S", 21],
             ["Abstención: PP", 10]
         ],
-        type: 'pie'
+        type: 'bar',
+        labels: {
+
+            format: function(v, id, i, j) {
+                return v;
+            }
+        }
+    },
+    bar: {
+        width: 100
+    },
+    axis: {
+        x: {
+            show: false
+        },
+        y: {
+            show: false
+        }
     },
     color: {
-        pattern: ['#209F69', '#D7E4E4']
+        pattern: ['#209F69', '#8CD4EB']
     },
     bindto: '#mocion41'
 });

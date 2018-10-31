@@ -117,8 +117,11 @@
     .nav-plenos-posterior {
         border: 0;
         width: intrinsic;
+        /* stylelint-disable declaration-block-no-duplicate-properties */
         width: -moz-max-content;
         width: -webkit-max-content;
+        /* stylelint-enable declaration-block-no-duplicate-properties */
+
     }
 
     .nav-plenos-posterior {
