@@ -24,7 +24,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#8CD4EB']
+        pattern: ['#209F69', '#696969']
     },
     bindto: '#mocion10'
 });
@@ -169,7 +169,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion14-2'
 });
@@ -198,7 +198,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion14-3'
 });
@@ -227,7 +227,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion16'
 });
@@ -256,7 +256,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion18'
 });
@@ -285,7 +285,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion18-2'
 });
@@ -314,7 +314,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion18-3'
 });
@@ -343,7 +343,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion18-4'
 });
@@ -372,7 +372,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion19'
 });
@@ -401,7 +401,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion20'
 });
@@ -429,7 +429,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion20-1'
 });

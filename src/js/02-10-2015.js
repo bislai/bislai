@@ -25,7 +25,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69',  '#8CD4EB']
+      pattern: ['#209F69',  '#696969']
     },
      bindto: '#mocion2'
 });
@@ -309,7 +309,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion9'
 });
@@ -342,7 +342,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion10'
 });
@@ -374,7 +374,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion11'
 });
@@ -407,7 +407,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion12'
 });
@@ -503,7 +503,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion14-2'
 });
@@ -629,7 +629,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion15'
 });
@@ -662,7 +662,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion18'
 });

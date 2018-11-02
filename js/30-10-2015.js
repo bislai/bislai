@@ -53,7 +53,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion3'
 });
@@ -575,7 +575,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion15'
 });
@@ -633,7 +633,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion16-2'
 });
@@ -691,7 +691,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+        pattern: ['#209F69', '#D01F2E', '#696969']
     },
     bindto: '#mocion18'
 });
