@@ -34,10 +34,8 @@
         font-weight: 600;
     }
     &:nth-child(3n+1) {
-        .yAxis {
-            text {
-                display: inline-block;
-            }
+        .yAxis text {
+            display: inline-block;
         }
     }
     .nombre-distrito {
