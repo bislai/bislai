@@ -58,7 +58,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion2-2'
 });
@@ -215,7 +215,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion6'
 });
@@ -247,7 +247,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion7'
 });
@@ -279,7 +279,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion9'
 });
@@ -311,7 +311,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion9-2'
 });
@@ -343,7 +343,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion9-3'
 });
@@ -376,7 +376,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion9-4'
 });
@@ -408,7 +408,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion9-5'
 });
@@ -439,7 +439,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion9-6'
 });

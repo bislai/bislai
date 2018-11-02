@@ -111,7 +111,7 @@ var primera = c3.generate({
         }
     },
     color: {
-        pattern: ['#209F69', '#8CD4EB']
+        pattern: ['#209F69', '#696969']
     },
     bindto: '#mocion5'
 });

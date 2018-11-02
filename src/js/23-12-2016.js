@@ -25,7 +25,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#8CD4EB']
+      pattern: ['#209F69', '#696969']
     },
      bindto: '#mocion10'
 });
@@ -183,7 +183,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion14-2'
 });
@@ -214,7 +214,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion14-3'
 });
@@ -247,7 +247,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion16'
 });
@@ -281,7 +281,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion18'
 });
@@ -313,7 +313,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion18-2'
 });
@@ -346,7 +346,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion18-3'
 });
@@ -379,7 +379,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion18-4'
 });
@@ -410,7 +410,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion19'
 });
@@ -442,7 +442,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion20'
 });
@@ -472,7 +472,7 @@ axis: {
     }
 },
     color: {
-      pattern: ['#209F69', '#D01F2E', '#8CD4EB']
+      pattern: ['#209F69', '#D01F2E', '#696969']
     },
      bindto: '#mocion20-1'
 });
