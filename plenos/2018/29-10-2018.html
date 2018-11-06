@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bislai - Pleno del 26 de octubre de 2018</title>
+    <meta name="description" content="Accesibilidad política y fiscalización para los plenos del Ayuntamiento de Zaragoza">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../../lib/jquery-3.3.1.min.js"></script>
+    <script src="../../lib/tipuesearch_content.js"></script>
+    <script src="../../lib/tipuesearch_set.js"></script>
+    <script src="../../lib/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|IBM+Plex+Sans:400,600" rel="stylesheet">
+
+    <body>
+        <header class="header">
+            <nav class="nav-grid">
+                <a href="/" class="link nav-grid-first"><span class="link-name">BISLAI</span></a>
+                <div class="contenedor-buscador">
+                    <form action="/buscador">
+                        <input placeholder="Busca en cualquier pleno" class="input-buscador" type="text" name="q" id="tipue_search_input">
+                        <button class="btn-search" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M23.9,23.3l-6.8-6.8a9.9,9.9,0,1,0-.6.6l6.8,6.8a.4.4,0,0,0,.6-.6Zm-14-4.4a9,9,0,1,1,9-9A9,9,0,0,1,9.9,18.9Z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="nav-grid-second">
+                    <a class="nav-grid-second-link link" href="/estadisticas"><span class="link-name">ESTADÍSTICAS</span></a>
+                    <a class="nav-grid-second-link link" href="/partidos"><span class="link-name">PARTIDOS</span></a>
+                    <a class="nav-grid-second-link link" href="/data"><span class="link-name">DATOS</span></a>
+                </div>
+            </nav>
+        </header>
+        <nav class="nav-plenos">
+            <a id="flecha-anterior" class="nav-plenos-anterior" href="/plenos/2018/28-09-2018">
+                <svg class="flecha-icon" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+                </svg>
+                <span class="nav-plenos-texto">PLENO ANTERIOR</span>
+            </a>
+        </nav>
+        <section class="maw-60 contenedor-plenos-btn">
+            <p class="contenedor-plenos-btn-titulo">Pleno del 26 de octubre de 2018</p>
+            <a class="link-mocion link-mocion-ujarak bgc-acuerdos" href="https://www.zaragoza.es/sede/portal/organizacion/plenos/servicio/fehaciente/70554" target="_blank">
+
+            <span class="contenedor-plenos-btn-txt">ORDEN DEL DÍA</span>
+        </a>
+            <a class="link-mocion link-mocion-ujarak bgc-acuerdos" href="https://www.zaragoza.es/sede/portal/organizacion/plenos/servicio/fehaciente/66143" target="_blank">
+
+            <span class="contenedor-plenos-btn-txt">ACUERDOS</span>
+        </a>
+        </section>
+        <section id="2" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">2</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de que este Pleno condene con la máxima rotundidad los actos vandálicos acaecidos en Zaragoza y en otros lugares de Aragón por parte de grupos simpatizantes del independentismo catalán (P-5.265/2018).</p>
+                <div id="mocion2"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3541" target="_blank">Moción completa</a>
+                <p class="mocion-retirada">Al producirse el mismo número de votos a favor que en contra y conforme a lo que dice la Jurisprudencia, el voto de calidad de la Presidencia se alinea con los que votan en contra y por tanto la moción del grupo Socialista no se aprueba.</p>
+            </article>
+        </section>
+        <section id="3" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cs"><span class="titulo-plenos-numero">3</span> · Ciudadanos</h1>
+                <p class="maw-50">En el sentido de que este Pleno condene rotundamente las acciones llevadas a cabo por el llamado CDR Aragón en relación al uso de simbología separatista en espacios públicos, así como a cualquier otra organización que apoye estas prácticas (P-5.266/2018).</p>
+                <div id="mocion3"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3542" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="4" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">4</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno rechace los cambios que pretende llevar a cabo el Gobierno de Zaragoza en la Unidad de Apoyo Operativo de la Policía Local de Zaragoza e inste a mantener el modelo existente durante lo que resta de corporación (P-5.267/2018).</p>
+                <div id="mocion4"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3543" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="5" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cs"><span class="titulo-plenos-numero">5</span> · Ciudadanos</h1>
+                <p class="maw-50">En el sentido de que el Pleno inste al Consejero de Servicios Públicos y Personal a llevar a cabo las medidas necesarias para que el complemento específico del personal afectado de la Policía Local de Zaragoza se restituya al importe anterior a la aprobación de la Ley de Coordinación de Policías Locales de Aragón en el año 2013, en aplicación de la modificación de dicha ley aprobada en julio de 2018 (P-5.268/2018).</p>
+                <div id="mocion5"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3544" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="6" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">6</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno del Ayuntamiento de Zaragoza reprueba al Presidente del Gobierno de Aragón, por su perjudicial política de enfrentamiento con la Ciudad de Zaragoza, incumplimiento de compromisos y acuerdos financieros y, su negativa a admitir las deudas de la DGA con el Ayuntamiento e insta al Gobierno de Zaragoza e inste al Gobierno de Aragón a continuar las negociaciones técnicas y políticas para cerrar, en el plazo de dos meses, un convenio sobre el cobro del ICA, incluyendo la inversión por parte de la DGA de 60 millones de euros en el ciclo del agua de la Ciudad Zaragoza (P-5.269/2018).</p>
+                <div id="mocion6"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3545" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="7" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">7</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno del Ayuntamiento respalde el principio democrático de que gobierne la lista más votada, apoye la reforma de la LOREG promovida por el Partido Popular y solicite a los partidos políticos con representación en el Congreso de los Diputados el inicio de un debate responsable para que dicha reforma pueda materializarse, dando traslado del presente acuerdo a la Vicepresidenta del Gobierno de España, a los portavoces de los grupos parlamentarios del Congreso y del Senado y a la Junta de Gobierno de la FEMP (P-5.333/2018).</p>
+                <div id="mocion7"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3547" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="8" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cha"><span class="titulo-plenos-numero">8</span> · Chunta Aragonesista</h1>
+                <p class="maw-50">En el sentido de que el Pleno del Ayuntamiento insta al Gobierno de la Ciudad a aplicar un recargo del 50% de la cuota líquida del IBI en aquellas viviendas desocupadas con carácter permanente en manos de grandes propietarios, con el objetivo fundamental de garantizar la función social de la vivienda y facilitar el acceso de la ciudadanía a una vivienda digna (P-5.379/2018).</p>
+                <div id="mocion8"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3548" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="9" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cha"><span class="titulo-plenos-numero">9</span> · Chunta Aragonesista</h1>
+                <p class="maw-50">En el sentido de instar al Gobierno del Estado y a las Cortes Generales a destinar una partida para financiar el corredor Cantábrico-Mediterráneo en su tramo Sagunto-Teruel-Zaragoza en los presupuestos generales del estado de 2019 (P-5.415/2018)</p>
+                <div id="mocion9"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3550" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="10" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cs"><span class="titulo-plenos-numero">10</span> · Ciudadanos</h1>
+                <p class="maw-50">En el sentido de instar al Gobierno de la Ciudad a tomar las medidas necesarias para mantener la Unidad de Apoyo Policial Operativo de la Policía Local de Zaragoza con las funciones y atribuciones que hasta el momento ha venido manteniendo (P-5.416/2018).</p>
+                <div id="mocion10"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3551" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="11" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos zec"><span class="titulo-plenos-numero">11</span> · Zaragoza En Común</h1>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span>En el sentido de instar al Pleno del Ayuntamiento de Zaragoza a modificar el Reglamento Orgánico Municipal para introducir el voto telemático o la delegación de voto para aquellas personas que estén en situación de enfermedad o de asunción de tareas de cuidados que les imposibilite la presencia en el pleno, igualmente instar a las Cortes Españolas la modificación de los artículos 79.2 y 79.3 de la Constitución, la LOREG y los distintos reglamentos que la desarrollan, en el mismo sentido (P-5.417/2018).</p>
+                <div id="mocion11"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span>Instar a las Cortes Españolas la modificación de los artículos 79.2 y 79.3 de la Constitución, la LOREG y los distintos reglamentos que la desarrollan para permitir la sustitución temporal de representantes públicos en los casos de enfermedad de media y larga duración así como en los de la asunción de tareas de cuidados.</p>
+                <div id="mocion11-2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 3.</span>Instar al Gobierno de Zaragoza a elaborar un código de buenas prácticas en relación con la conciliación familiar de los miembros de la Corporación en relación con las obligaciones derivadas de tal condición.</p>
+                <div id="mocion11-3"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3552" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="12" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">12</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de que el Pleno del Ayuntamiento de Zaragoza rechaza expresamente la disolución de la Unidad de Apoyo Operativo acordada por el Gobierno de Zaragoza el día 17 de octubre de 2018 (P-5.418/2018).</p>
+                <div id="mocion12"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3553" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="13" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">13</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50">En el sentido de que el Pleno del Ayuntamiento de Zaragoza insta al Gobierno de Zaragoza a garantizar en el futuro la existencia de una oferta de ocio nocturno adecuado para el público más joven; a garantizar un espacio de referencia para el movimiento peñista, a constituir una mesa de trabajo para analizar el impacto del fenómeno botellón y medidas a adoptar, así como a elaborar y consensuar un protocolo de garantía de la movilidad urbana durante las Fiestas del Pilar (P-5.420/2018).</p>
+                <div id="mocion13"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3539" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="14" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos psoe"><span class="titulo-plenos-numero">14</span> · Partido Socialista Obrero Español</h1>
+                <p class="maw-50"><span class="punto-plenos">Punto 1.</span>El Pleno del Ayuntamiento de Zaragoza considera que el actual modelo de presupuestos participativos ha resultado fallido y por tanto debe ser revisado en profundidad.</p>
+                <div id="mocion14"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 2.</span>El Pleno del Ayuntamiento, a efectos de esa revisión, insta a la Consejera de Participación Ciudadana a realizar, a través del equipo técnico del área un informe de los procesos de presupuestos participativos puestos en marcha en esta legislatura así como un informe económico de ejecución, en el que se contemple un diagnóstico real que sirva de base para la elaboración de una propuesta de reforma consensuada, que pueda ser posteriormente sometida a debate y participación con las entidades vecinales, las juntas municipales y vecinales y el Consejo de Ciudad.</p>
+                <div id="mocion14-2"></div>
+                <p class="maw-50"><span class="punto-plenos">Punto 3.</span>El Pleno del Ayuntamiento insta al Gobierno de Zaragoza a la ejecución completa de la totalidad de las obras pendientes de los presupuestos participativos de distritos y barrios rurales.</p>
+                <div id="mocion14-3"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3556" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="15" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos zec"><span class="titulo-plenos-numero">15</span> · Zaragoza En Común</h1>
+                <p class="maw-50">En el sentido de que el Pleno de Ayuntamiento de Zaragoza muestre su apoyo al acuerdo sobre los presupuestos de 2019 suscrito entre el Partido Socialista y Unidos Podemos e inste a todas las fuerzas políticas a que hagan posible la aprobación de los mismos, así como animar a todas las fuerzas políticas a que sigan la estela de dicho pacto posibilitando para el año 2019 presupuestos en comunidades autónomas, diputaciones provinciales y municipios que permitan reforzar nuestro estado de bienestar (P-5.423/2018).</p>
+                <div id="mocion15"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3557" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="16" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos cha"><span class="titulo-plenos-numero">16</span> · Chunta Aragonesista</h1>
+                <p class="maw-50">En el sentido de que el Pleno de Ayuntamiento de Zaragoza muestre su apoyo al acuerdo sobre los presupuestos de 2019 suscrito entre el Partido Socialista y Unidos Podemos e inste a todas las fuerzas políticas a que hagan posible la aprobación de los mismos, así como animar a todas las fuerzas políticas a que sigan la estela de dicho pacto posibilitando para el año 2019 presupuestos en comunidades autónomas, diputaciones provinciales y municipios que permitan reforzar nuestro estado de bienestar (P-5.423/2018).</p>
+                <div id="mocion16"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3557" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section id="17" class="contenedor-plenos">
+            <article class="maw-60">
+                <h1 class="titulo-plenos pp"><span class="titulo-plenos-numero">17</span> · Partido Popular</h1>
+                <p class="maw-50">En el sentido de que el Pleno de Ayuntamiento de Zaragoza muestre su apoyo al acuerdo sobre los presupuestos de 2019 suscrito entre el Partido Socialista y Unidos Podemos e inste a todas las fuerzas políticas a que hagan posible la aprobación de los mismos, así como animar a todas las fuerzas políticas a que sigan la estela de dicho pacto posibilitando para el año 2019 presupuestos en comunidades autónomas, diputaciones provinciales y municipios que permitan reforzar nuestro estado de bienestar (P-5.423/2018).</p>
+                <div id="mocion17"></div>
+                <a class="link-mocion link-mocion-ujarak" href="http://www.zaragoza.es/ciudad/organizacion/plenos/detalle_Mociones?id=3559" target="_blank">Moción completa</a>
+            </article>
+        </section>
+        <section class="calendario-plenos">
+            <h2 class="maw-60 calendario-plenos-titulo">CALENDARIO DE PLENOS</h2>
+            <p class="maw-60 calendario-plenos-texto">Este calendario recoge todas las <strong>mociones ordinarias</strong> que se han presentado desde 2015 en el pleno del Ayuntamiento de Zaragoza.</p>
+            <article class="maw-60">
+                <input class="input-record" id="tab1" type="radio" name="tabs" checked>
+                <label class="label-record" for="tab1">2015</label>
+                <input class="input-record" id="tab2" type="radio" name="tabs">
+                <label class="label-record" for="tab2">2016</label>
+                <input class="input-record" id="tab3" type="radio" name="tabs">
+                <label class="label-record" for="tab3">2017</label>
+                <input class="input-record" id="tab4" type="radio" name="tabs">
+                <label class="label-record" for="tab4">2018</label>
+                <!-- ENERO -->
+                <section class="tabla-calendario contenido1">
+                    <a class="tabla-calendario-link" href="/plenos/2015/27-07-2015">27 de julio de 2015</a>
+                    <a class="tabla-calendario-link" href="/plenos/2015/02-10-2015">2 de octubre de 2015</a>
+                    <a class="tabla-calendario-link" href="/plenos/2015/30-10-2015">30 de octubre de 2015</a>
+                    <a class="tabla-calendario-link" href="/plenos/2015/27-11-2015">27 de noviembre de 2015</a>
+                    <a class="tabla-calendario-link" href="/plenos/2015/23-12-2015">23 de diciembre de 2015</a>
+                </section>
+                <!-- FEBRERO -->
+                <section class="tabla-calendario contenido2">
+                    <a class="tabla-calendario-link" href="/plenos/2016/28-01-2016">28 de enero de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/26-02-2016">26 de febrero de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/23-03-2016">23 de marzo de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/29-04-2016">29 de abril de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/27-05-2016">27 de mayo de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/01-07-2016">1 de julio de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/22-07-2016">22 de julio de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/30-09-2016">30 de septiembre de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/28-10-2016">28 de octubre de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/02-12-2016">2 de diciembre de 2016</a>
+                    <a class="tabla-calendario-link" href="/plenos/2016/23-12-2016">23 de diciembre de 2016</a>
+                </section>
+                <section class="tabla-calendario contenido3">
+                    <a class="tabla-calendario-link" href="/plenos/2017/03-02-2017">3 de febrero de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/24-02-2017">24 de febrero de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/31-03-2017">31 de marzo de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/28-04-2017">28 de abril de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/02-06-2017">2 de junio de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/30-06-2017">30 de junio de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/28-07-2017">28 de julio de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/29-09-2017">23 de septiembre de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/30-10-2017">30 de octubre de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/24-11-2017">24 de noviembre de 2017</a>
+                    <a class="tabla-calendario-link" href="/plenos/2017/22-12-2017">22 de diciembre de 2017</a>
+                </section>
+                <section class="tabla-calendario contenido4">
+                    <a class="tabla-calendario-link" href="/plenos/2018/02-02-2018">2 de febrero de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/02-03-2018">2 de marzo de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/26-03-2018">26 de marzo de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/04-05-2018">4 de mayo de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/01-06-2018">1 de junio de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/29-06-2018">29 de junio de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/27-07-2018">27 de julio de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/28-09-2018">28 de septiembre de 2018</a>
+                    <a class="tabla-calendario-link" href="/plenos/2018/29-10-2018">29 de octubre de 2018</a>
+                </section>
+            </article>
+        </section>
+        <footer class="footer">
+            <div class="maw-60 grid-footer">
+                <a class="grid-footer-links" href="/">BISLAI · ACCESIBILIDAD POLÍTICA</a>
+                <a class="grid-footer-links" href="/creditos">CRÉDITOS</a>
+                <a href="http://twitter.com/debislai" class="grid-footer-links">TWITTER</a>
+                <a href="http://github.com/jorgeatgu/bislai" class="grid-footer-links">GITHUB</a>
+            </div>
+            <div class="maw-60">Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</div>
+            <p class="maw-60 padding-1-0">© 2016 - 2018 · Hecho en Zaragoza con mucha maña por un <a href="http://jorgeatgu.com" target="_blank">maño</a></p>
+            </div>
+        </footer>
+        <script src="../../lib/d3.min4.js"></script>
+        <script src="../../lib/c3.min.js"></script>
+        <script src="../../js/29-10-2018.js"></script>
+    </body>
+
+</html>
