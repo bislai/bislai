@@ -7,5 +7,6 @@
     "alias": [
         "bislai.co"
     ],
-    "type": "static"
+    "type": "static",
+    "version": 2
 }
