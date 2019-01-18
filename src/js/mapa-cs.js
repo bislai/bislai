@@ -7,7 +7,7 @@ $(function() {
 
     function mapDraw(geojson) {
         mapboxgl.accessToken =
-            "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+            process.env.MAPBOX;
         var map = new mapboxgl.Map({
             container: "map", // container id
             style: "mapbox://styles/jorgeatgu/cjf4g011p1a8w2rsvlz258uqr", //hosted style id

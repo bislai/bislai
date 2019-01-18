@@ -85,9 +85,7 @@ function estadisticasChart(datos) {
 
         var newLayer = layer.enter().append('rect').attr('class', 'bar-vertical');
 
-        layer.merge(newLayer)
-        .attr("width", scales.count.x.bandwidth())
-        .attr("x", function (d) {
+        layer.merge(newLayer).attr("width", scales.count.x.bandwidth()).attr("x", function (d) {
             return scales.count.x(d.nombre);
         }).attr("y", function (d) {
             return scales.count.y(0);
