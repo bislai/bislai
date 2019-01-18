@@ -1,7 +1,4 @@
-'use strict';
-
-var fs = require('fs');
-require('dotenv').config();
+"use strict";
 
 $(function () {
     d3.json("mapas/distrito-electoral-zaragoza.geojson", function (err, data) {
