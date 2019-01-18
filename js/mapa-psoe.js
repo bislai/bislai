@@ -10,7 +10,7 @@ if (width > 767) {
         });
 
         function mapDraw(geojson) {
-            mapboxgl.accessToken = "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+            mapboxgl.accessToken = process.env.MAPBOX;
             var map = new mapboxgl.Map({
                 container: "map", // container id
                 style: "mapbox://styles/jorgeatgu/cjf1lzmig08ry2sqqyvml8ycl", //hosted style id

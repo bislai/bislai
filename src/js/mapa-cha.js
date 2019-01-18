@@ -112,15 +112,17 @@ if (width > 767) {
 
         function mapDraw(geojson) {
             mapboxgl.accessToken =
-                "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+                process.env.MAPBOX;
             var map = new mapboxgl.Map({
                 container: "map", // container id
                 style: "mapbox://styles/jorgeatgu/cjf4fr0sj019m2qqiaz1mynna", //hosted style id
                 center: [-0.850431, 41.651729], // starting position
-                zoom: 11.5 // starting zoom
+                zoom: 11.5, // starting zoom,
+                interactive: false
             });
 
             map.addControl(new mapboxgl.Navigation());
+            map.scrollZoom.disable();
 
             var container = map.getCanvasContainer();
             var svg = d3.select(container).append("svg");
@@ -168,7 +170,6 @@ if (width > 767) {
                     .transition()
                     .duration(200);
             }
-            map.scrollZoom.disable();
 
             update();
 
