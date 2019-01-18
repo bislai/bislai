@@ -1,3 +1,6 @@
+var fs = require('fs');
+require('dotenv').config()
+
 $(function() {
     d3.json("mapas/distrito-electoral-zaragoza.geojson", function(err, data) {
         mapDraw(data);

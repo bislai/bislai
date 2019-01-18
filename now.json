@@ -2,11 +2,12 @@
     "name": "Bislai",
     "env":
     {
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "MAPBOX": "@mapboxkey"
     },
     "alias": [
         "bislai.co"
     ],
-    "type": "static",
-    "version": 2
+    "version": 1,
+    "type": "static"
 }

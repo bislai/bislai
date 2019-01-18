@@ -1,0 +1,5 @@
+{
+    "redirects": [
+        { "source": "/forno.html", "destination": "https://forno.es" }
+      ]
+}
