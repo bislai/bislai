@@ -1,5 +1,6 @@
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
+
 if (width > 767) {
 
     $(function() {
@@ -9,7 +10,7 @@ if (width > 767) {
 
         function mapDraw(geojson) {
             mapboxgl.accessToken =
-                "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+                "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6ImNqdm5vOXB1NzFreXczem1nanptb3Q3bTUifQ.ffla2sla83t7DMKiwyLIMQ";
             var map = new mapboxgl.Map({
                 container: "map", // container id
                 style: "mapbox://styles/jorgeatgu/cjf1lzmig08ry2sqqyvml8ycl", //hosted style id

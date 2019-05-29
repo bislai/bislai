@@ -7,7 +7,7 @@ $(function() {
 
     function mapDraw(geojson) {
         mapboxgl.accessToken =
-            "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6IjNta3k1WDQifQ.JERO-KTpP2O6F0JwKRPCrg";
+            "pk.eyJ1Ijoiam9yZ2VhdGd1IiwiYSI6ImNqdm5vOXB1NzFreXczem1nanptb3Q3bTUifQ.ffla2sla83t7DMKiwyLIMQ";
         var map = new mapboxgl.Map({
             container: "map", // container id
             style: "mapbox://styles/jorgeatgu/cj8c0okok7se32spv3t4rx8bv", //hosted style id
@@ -149,8 +149,9 @@ function distritoElectoralPP() {
             .call(yAxis);
 
         svg.append("g")
-            .attr("class", "yAxis")
-            .call(yAxis);
+            .attr("class", "xAxis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
 
         svg.append("text")
             .attr("class", "nombre-distrito")
