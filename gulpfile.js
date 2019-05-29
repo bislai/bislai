@@ -7,20 +7,16 @@ selector = require('postcss-custom-selectors')
 customProperties = require("postcss-custom-properties")
 sorting = require('postcss-sorting');
 nested = require('postcss-nested');
-pxtorem = require('postcss-pxtorem');
 reporter = require('postcss-reporter');
 imagemin = require('gulp-imagemin');
 newer = require('gulp-newer');
 nano = require('gulp-cssnano');
+terser = require('gulp-terser');
 notify = require('gulp-notify');
 stylelint = require('stylelint');
 browserSync = require('browser-sync');
-inlinesource = require('gulp-inline-source');
-uncss = require('gulp-uncss');
-webp = require('gulp-webp');
 babel = require('gulp-babel');
-changed = require('gulp-changed');
-
+postcssNormalize = require('postcss-normalize');
 
 var paths = {
   js: 'src/js',
@@ -41,9 +37,6 @@ var watch = {
   minifycss: [
     paths.buildCss + '/**/*.css'
   ],
-  minifyjs: [
-    paths.buildJs + '/**/*.js'
-  ],
   images: [
     paths.images + '/**/*.*'
   ],
@@ -54,9 +47,9 @@ var watch = {
 
 gulp.task('babel', () =>
     gulp.src(watch.js)
-        .pipe(changed(paths.buildJs))
+        .pipe(newer(paths.js))
         .pipe(babel({
-            presets: ['env']
+            presets: ["@babel/preset-env"]
         }))
         .on("error", errorAlertJS)
         .pipe(gulp.dest(paths.buildJs))
@@ -97,6 +90,17 @@ function errorAlertPost(error) {
     this.emit("end");
 };
 
+/* Comprimiendo JavaScript */
+gulp.task('compress', function() {
+   return gulp.src(watch.js)
+     .pipe(terser())
+     .on("error", errorAlertJS)
+     .pipe(gulp.dest(paths.buildJs))
+     .pipe(notify({
+         message: 'JavaScript complete'
+     }))
+});
+
 /* ==========================================================================
    Lanzando postCSS
    ========================================================================== */
@@ -122,17 +126,14 @@ gulp.task('css', function() {
         nested,
         customProperties,
         selector,
-        pxtorem({
-            root_value: 16,
-            unit_precision: 2,
-            prop_white_list: ['font', 'font-size', 'line-height', 'letter-spacing', 'margin', 'padding'],
-            replace: true,
-            media_query: false
-        }),
         sorting({
             "sort-order": "csscomb"
         }),
-        autoprefixer
+        autoprefixer,
+        postcssNormalize({
+            browsers: 'last 2 versions',
+            forceImport: true
+        }),
     ];
     return gulp.src('src/css/styles.css')
 
@@ -181,45 +182,15 @@ gulp.task('images', function() {
 });
 
 
-gulp.task('inline', function() {
-    return gulp.src('./*.html')
-        .pipe(inlinesource())
-        .pipe(gulp.dest('./inline/'))
-        .pipe(notify({
-            message: 'CSSnano + remove CSS + inline CSS'
-        }));
-});
-
-gulp.task('removecss', function() {
-    return gulp.src('./css/styles.css')
-        .pipe(uncss({
-            html: ['./*.html']
-        }))
-        .pipe(nano())
-        .pipe(gulp.dest(paths.buildCss))
-        .pipe(notify({
-            message: 'CSSnano & remove CSS task complete'
-        }));
-});
-
-gulp.task('webp', () =>
-    gulp.src('img/*.jpg')
-        .pipe(webp())
-        .pipe(gulp.dest(paths.buildImages))
-);
-
 /* Tarea por defecto para compilar CSS y comprimir imagenes */
 gulp.task('default', ["browserSync"], function() {
     //Add interval to watcher!
     gulp.watch(watch.css, { interval: 300 }, ['css']);
     gulp.watch(watch.images, { interval: 300 }, ['images']);
-    gulp.watch(watch.js, { interval: 300 }, ['babel']);
-    gulp.watch(["./*.html", "css/*.css", "js/*.js"]).on("change", browserSync.reload);
+    gulp.watch(watch.js, { interval: 300 }, ['babel', 'compress']);
+    gulp.watch(["./*.html", "css/*.css", "js/*.js","csv/*.csv", "csv/*/*.csv"]).on("change", browserSync.reload);
 });
 
-/* Tarea final para comprimir CSS y JavaScript. Eliminar el CSS sin usar e incluirlo en línea en el HTML
-    Por último creamos las imágenes con diferentes tamaños y las pasamos a WebP.
-*/
 
 // Build para un proyecto sin imágenes
-gulp.task('build', ['minify']);
+gulp.task('build', ['minify', 'compress']);

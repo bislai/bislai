@@ -1,13 +1,11 @@
 {
     "name": "Bislai",
-    "env":
-    {
-        "NODE_ENV": "production",
-        "MAPBOX": "@mapboxkey"
-    },
+    "routes": [
+            { "src": "/", "dest": "index.html" },
+            { "src": "^(.*)$", "dest": "$1.html" }
+        ],
     "alias": [
         "bislai.co"
     ],
-    "version": 1,
-    "type": "static"
+    "version": 2
 }
